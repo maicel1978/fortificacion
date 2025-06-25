@@ -23,7 +23,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libxml2-dev libfreetype6-dev libpng-dev libtiff-dev libjpeg-dev
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2

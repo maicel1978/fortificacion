@@ -8,20 +8,42 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        
+        with:
+          fetch-depth: 0
+
+      # PASO NUEVO: Instalar R
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      # PASO NUEVO: Instalar dependencias del sistema
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev
+
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        
-      - name: Render Site
+        with:
+          smallfs: true
+
+      # PASO NUEVO: Instalar paquetes R necesarios
+      - name: Install R dependencies
         run: |
-          quarto render
-          touch docs/.nojekyll  # Archivo importante para GitHub Pages
+          install.R
           
+      - name: Render site
+        run: |
+          quarto render --no-execute-daemon
+          ls -R docs  # Para diagnóstico
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: docs
           clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}

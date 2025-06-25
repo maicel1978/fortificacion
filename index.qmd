@@ -2,7 +2,7 @@
 title: "sitio"
 ---
 
-This is a Quarto website.
+Ya pondré algo
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

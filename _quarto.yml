@@ -14,7 +14,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qm
+      - href: about.qmd # <--- ¡CORREGIDO! De 'about.qm' a 'about.qmd' y añadiendo 'href' y 'text'
+        text: About # <--- AÑADIDO: Texto para el enlace 'About'
   sidebar:
     contents: auto
 

@@ -38,6 +38,7 @@ jobs:
           
       - name: Render site
         run: |
+          cd sitio # <--- ¡AÑADE ESTA LÍNEA
           quarto render --no-execute-daemon
           ls -R docs  # Para diagnóstico
 
@@ -45,6 +46,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: docs
+          folder: sitio/docs # <--- ¡CAMBIA ESTA LÍNEA!
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}

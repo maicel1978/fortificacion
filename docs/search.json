@@ -16,5 +16,18 @@
       "Home",
       "About"
     ]
+  },
+  {
+    "objectID": "contenido/micromodulos/modulo01.html",
+    "href": "contenido/micromodulos/modulo01.html",
+    "title": "Módulo 1",
+    "section": "",
+    "text": "introdución",
+    "crumbs": [
+      "Home",
+      "Contenido",
+      "Micromodulos",
+      "Módulo 1"
+    ]
   }
 ]

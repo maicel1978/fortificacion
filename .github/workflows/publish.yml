@@ -31,7 +31,7 @@ jobs:
           smallfs: true
 
       # PASO NUEVO: Instalar paquetes R necesarios
- - name: Install R dependencies
+      - name: Install R dependencies
         run: |
           R -e "install.packages('pak', repos = 'https://cloud.r-project.org/')"
           R -e "pak::pkg_install(c('rmarkdown', 'knitr', 'dplyr', 'ggplot2'))" # Sustituye con tus paquetes reales

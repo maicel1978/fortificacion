@@ -15,10 +15,13 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         
       - name: Render Site
-        run: quarto render
-        
+        run: |
+          quarto render
+          touch docs/.nojekyll  # Archivo importante para GitHub Pages
+          
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: docs
+          clean: true

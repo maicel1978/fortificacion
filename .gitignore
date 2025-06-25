@@ -1,7 +1,14 @@
+# Archivos de R/RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+*.Rproj
 
+# Quarto y output local
 /.quarto/
 /_site/
+
+# ¡IMPORTANTE! Excluir solo el CONTENIDO de docs, no la carpeta
+/docs/*
+!/docs/.gitkeep  # Excepción para mantener la carpeta

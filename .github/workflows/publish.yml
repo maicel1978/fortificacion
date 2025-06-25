@@ -43,8 +43,6 @@ jobs:
           
       - name: Render site
         run: |
-          ls -R . # <--- ¡AÑADE ESTA LÍNEA! Esto nos mostrará la estructura de carpetas
-          cd sitio
           quarto render --no-execute-daemon
           ls -R docs  # Para diagnóstico
 
@@ -52,6 +50,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: sitio/docs # <--- ¡CAMBIA ESTA LÍNEA!
+          folder: docs # <--- ¡CAMBIA ESTA LÍNEA!
           clean: false
           token: ${{ secrets.GITHUB_TOKEN }}

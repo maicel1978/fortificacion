@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Fortificación de alimentos a gran escala"
+  description: "sitio web para asistencia técica de fortificación de alimentos"
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qm
+  sidebar:
+    contents: auto
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+

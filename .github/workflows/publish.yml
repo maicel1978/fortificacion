@@ -52,5 +52,5 @@ jobs:
         with:
           branch: gh-pages
           folder: sitio/docs # <--- ¡CAMBIA ESTA LÍNEA!
-          clean: true
+          clean: false
           token: ${{ secrets.GITHUB_TOKEN }}

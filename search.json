@@ -1,0 +1,33 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "sitio",
+    "section": "",
+    "text": "Mi sitio de fortificación de alimentos\n¡Bienvenidos! Este es mi sitio web sobre fortificación de alimentos."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/modulo01.html",
+    "href": "contenido/micromodulos/modulo01.html",
+    "title": "Módulo 1",
+    "section": "",
+    "text": "introdución",
+    "crumbs": [
+      "Home",
+      "Contenido",
+      "Micromodulos",
+      "Módulo 1"
+    ]
+  }
+]

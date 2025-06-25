@@ -2,6 +2,6 @@
 title: "sitio"
 ---
 
-# Mi sitio de Fortificación
+# Mi sitio de fortificación
 
 ¡Bienvenido! Este es mi sitio web sobre fortificación de alimentos.

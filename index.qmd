@@ -2,10 +2,6 @@
 title: "sitio"
 ---
 
-Ya pondré algo
+# Mi sitio de Fortificación
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+¡Bienvenido! Este es mi sitio web sobre fortificación de alimentos.

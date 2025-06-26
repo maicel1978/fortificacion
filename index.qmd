@@ -1,7 +1,36 @@
 ---
-title: "sitio"
+title: "Fortificación de Alimentos a Gran Escala"
+subtitle: "Centro de Capacitación y Recursos"
+format: html
 ---
 
-# Mi sitio de fortificación de alimentos
+## ¡Bienvenido/a al Portal de Capacitación en Fortificación de Alimentos!
 
-¡Bienvenidos! Este es mi sitio web sobre fortificación de alimentos.
+Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.
+
+Nuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.
+
+### Nuestro Contexto y Misión
+
+En 2022, se solicitó una revisión integral de su estrategia de fortificación de alimentos de consumo masivo en Cuba, identificando la necesidad de fortalecer las capacidades institucionales para evaluar y rediseñar estas estrategias. En respuesta a esta necesidad, hemos desarrollado un paquete de asistencia técnica que busca optimizar la cobertura, el consumo y la contribución potencial de los alimentos fortificados a la ingesta de micronutrientes a nivel poblacional.
+
+Este sitio es una implementación del segundo paso de la hoja de ruta propuesta por la misión técnica del Programa Mundial de Alimentos (WFP).
+
+### ¿Qué encontrarás aquí?
+
+Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
+
+* **Componentes de Asistencia Técnica:** Descubre las cinco áreas clave de nuestro apoyo, desde la capacitación en línea hasta la generación de evidencia científica.
+
+* **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
+
+* **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
+
+* **Recursos Adicionales:** Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.
+
+### ¡Comienza tu aprendizaje hoy!
+
+Te invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.
+
+---
+**Autor(es):** Santiago Rodas-Moya Phd y Maicel  Monzón Pérez Phd

@@ -39,7 +39,7 @@ jobs:
       - name: Install R dependencies
         run: |
           R -e "install.packages('pak', repos = 'https://cloud.r-project.org/')"
-          R -e "pak::pkg_install(c('rmarkdown', 'knitr', 'dplyr', 'ggplot2', 'gt', 'gtsummary', 'readr', 'tidyr'))" # Sustituye con tus paquetes reales
+          R -e "pak::pkg_install(c('rmarkdown', 'knitr', 'dplyr', 'ggplot2', 'gt', 'gtsummary', 'readr','learnr', 'tidyr'))" # Sustituye con tus paquetes reales
           
       - name: Render site
         run: |

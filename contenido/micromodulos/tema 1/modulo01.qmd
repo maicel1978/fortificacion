@@ -1,0 +1,64 @@
+---
+title: "Módulo 1.1"
+subtitle: "Introducción sobre estrategias de fortificación de alimentos"
+---
+
+# *Sumario*
+
+-   Política de Fortificación de Alimentos
+
+    -   Generalidades
+    -   Importancia
+    -   Tipos de estrategias
+
+-   Fases para la implementación de programas de fortificación de alimentos a gran escala
+
+    1.  Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo
+
+    2.  Selección de Alimentos Vehiculares Apropiados para la Fortificación
+
+    3.  Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
+
+    4.  Desarrollo y Promulgación de Legislación y Normas de Fortificación
+
+    5.  Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
+
+    6.  Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
+
+    7.  Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+
+8.  Consideración de límites de seguridad, tecnológicos y de costos
+
+# Políticas de fortificación de alimentos
+
+La política de fortificación de alimentos, proporciona un marco para la adición de micronutrientes esenciales a los alimentos para mejorar la calidad nutricional y lograr beneficios para la salud pública.
+
+Las políticas de fortificación de alimentos se **clasifican** según el **nivel de obligación** que imponen a los productores:
+
+-   **Fortificación Obligatoria:**
+
+Los gobiernos **obligan** legalmente a los productores a fortificar alimentos específicos con micronutrientes. Esta acción tiene como objetivo proporcionar una fuente sostenida de **alimentos fortificados** para **beneficio de la salud pública**. Usualmente se emiten regulaciones en las que se especifica los niveles mínimos (y a veces máximos) de micronutrientes por alimentos.
+
+-   **Fortificación Voluntaria:**
+
+Los fabricantes **eligen** libremente fortificar alimentos, con **permisos o incentivos gubernamentales**. Una Responsabilidad gubernamental en este caso es evitar engaños y asegurar la **coherencia con políticas nacionales** así como promover **regulaciones enfocadas en concentraciones adecuadas de micronutrientes y tipos de alimentos**.
+
+Hay casos donde la fortificación puede ser **obligatoria o voluntaria**, según la urgencia del problema de salud pública como la **Fortificación Dirigida** a subgrupos poblacionales específicos (ej: niños pequeños o poblaciones desplazadas).
+
+La **Fortificación Impulsada por el Mercado** siempre es voluntaria, y está regida por límites regulatorios. Entre sus desafíos se encuentran el manejo del riesgo de ingesta excesiva de micronutriente.
+
+# Fases para la implementación de programas de fortificación de alimentos a gran escala
+
+1.  Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo
+
+    2.  Selección de Alimentos Vehiculares Apropiados para la Fortificación
+
+    3.  Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
+
+    4.  Desarrollo y Promulgación de Legislación y Normas de Fortificación
+
+    5.  Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
+
+    6.  Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
+
+    7.  Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población

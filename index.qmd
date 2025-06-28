@@ -18,34 +18,34 @@ En muchos países de América Latina y el Caribe, la información sobre estos co
 
 En respuesta a esta necesidad, el Programa Mundial de Alimentos (PMA) está desarrollando un **paquete de asistencia técnica** para **apoyar** a los **gobiernos de la región** en el **diseño y la evaluación** de **estrategias de fortificación**, con especial atención a:
 
--	El **control de calidad** de los alimentos fortificados,
+-   El **control de calidad** de los alimentos fortificados,
 
--	La **cobertura** de alimentos fortificados y fortificables (aquellos con producción centralizada en grandes industrias),
+-   La **cobertura** de alimentos fortificados y fortificables (aquellos con producción centralizada en grandes industrias),
 
-- El **consumo** de estos alimentos a nivel de hogar y población, y
+-   El **consumo** de estos alimentos a nivel de hogar y población, y
 
-- Su **contribución a la ingesta** de micronutrientes esenciales.
+-   Su **contribución a la ingesta** de micronutrientes esenciales.
 
 Este curso en línea se centra en la **cobertura**, el **consumo** y la **contribución** de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.
 
 Estas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.
 
-
 ### ¿Qué encontrarás aquí?
 
 Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
 
-* **Componentes de Asistencia Técnica:** Descubre las cinco áreas clave de nuestro apoyo, desde la capacitación en línea hasta la generación de evidencia científica.
+-   **Componentes de Asistencia Técnica:** Descubre las cinco áreas clave de nuestro apoyo, desde la capacitación en línea hasta la generación de evidencia científica.
 
-* **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
+-   **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
 
-* **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
+-   **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
 
-* **Recursos Adicionales:** Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.
+-   **Recursos Adicionales:** Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.
 
 ### ¡Comienza tu aprendizaje hoy!
 
 Te invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.
 
----
-**Autor(es):** *Santiago Rodas-Moya Phd y Maicel Monzón Pérez Phd*
+------------------------------------------------------------------------
+
+**Autor(es):** *Maicel Monzón Pérez Phd,* Dra.Yarisa Domínguez Ayllón *y Santiago Rodas-Moya Phd*

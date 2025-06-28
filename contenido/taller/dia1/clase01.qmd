@@ -11,11 +11,11 @@ format:
 
 ## Sumario
 
-- Breve revisión sobre las estrategias de fortificación 
+-   Breve revisión sobre las estrategias de fortificación
 
-- Exploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES 
+-   Exploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES
 
-- Refuerzo de conceptos clave y preguntas de los participantes para aclarar dudas
+-   Refuerzo de conceptos clave y preguntas de los participantes para aclarar dudas
 
 ## Introdución
 

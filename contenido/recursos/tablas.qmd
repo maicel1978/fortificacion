@@ -1,0 +1,25 @@
+---
+title: "Tablas de composición de alimentos"
+format: html
+---
+
+Las tablas de composición de alimentos son recopilaciones sistemáticas de datos que muestran la cantidad media de energía, nutrientes y otras sustancias presentes en los alimentos cuando son consumidos.
+
+**¿Para qué sirven?**
+
+![](/static/images/tablas_composicion.png)
+
+## **¿Qué información contienen?**
+
+-   Valores de energía (calorías)
+-   Macronutrientes: proteínas, grasas, carbohidratos
+-   Micronutrientes: vitaminas y minerales
+-   Otros componentes: fibra, agua, compuestos bioactivos, etc.
+
+## Fuentes
+
+Las tablas pueden estar disponibles en formato impreso o digital (bases de datos en línea), y existen versiones nacionales e internacionales adaptadas a los alimentos y hábitos de cada región.
+
+**Tablas cubanas**
+
+{{< pdf /static/pdf/TablaCAlimentos.pdf width=100% height=800 >}} 

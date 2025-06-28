@@ -1,3 +1,8 @@
+
+
+
+
+
 fortificacion/
 ├── _quarto.yml          # Configuración global del sitio (tu archivo actual)
 ├── index.qmd            # Página de inicio del sitio (ej. una bienvenida, resumen del proyecto)

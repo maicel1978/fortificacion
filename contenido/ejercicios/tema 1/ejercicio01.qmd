@@ -1,0 +1,55 @@
+---
+title: "Ordenamiento de Etapas de Fortificación de Alimentos"
+format: html
+---
+
+
+## Pregunta estática (no interactiva)
+
+¿Cuál es la capital de Francia?
+
+a) Londres  
+b) París  
+c) Berlín  
+d) Madrid  
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+**b) París**
+:::
+
+
+## Test autocalificable
+
+Selecciona la capital correcta:
+
+<label>
+  <input type="radio" name="capital" value="incorrecto"> Londres
+</label><br>
+<label>
+  <input type="radio" name="capital" value="correcto"> París
+</label><br>
+<label>
+  <input type="radio" name="capital" value="incorrecto"> Berlín
+</label><br>
+
+<button onclick="checkAnswer()">Comprobar</button>
+
+<div id="feedback" style="display:none"></div>
+
+<script>
+function checkAnswer() {
+  const selected = document.querySelector('input[name="capital"]:checked');
+  const feedback = document.getElementById('feedback');
+  
+  if(selected?.value === 'correcto') {
+    feedback.innerHTML = "✅ Correcto! París es la capital de Francia";
+    feedback.style.color = 'green';
+  } else {
+    feedback.innerHTML = "❌ Incorrecto, intenta nuevamente";
+    feedback.style.color = 'red';
+  }
+  feedback.style.display = 'block';
+}
+</script>
+

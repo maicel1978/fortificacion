@@ -1,55 +1,83 @@
 ---
-title: "Ordenamiento de Etapas de Fortificación de Alimentos"
+title: "Micronutrientes y carencias nutricionales"
+subtitle: "ejercicio 1"
 format: html
 ---
 
+## ¿Es la siguiente definición verdadera?
 
-## Pregunta estática (no interactiva)
+**Micronutrientes esenciales:** Nutrientes que el cuerpo requiere en cantidades traza para funciones bioquímicas específicas, como cofactores enzimáticos o antioxidantes, y que pueden ser sintetizados parcialmente por el organismo o la microbiota intestinal.
 
-¿Cuál es la capital de Francia?
-
-a) Londres  
-b) París  
-c) Berlín  
-d) Madrid  
 
 ::: {.callout-tip collapse="true"}
-### Respuesta correcta
-**b) París**
+### Respuesta 
+
+**Falso**
+
+Los **micronutrientes esenciales** son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el **cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes** para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
+
 :::
 
 
-## Test autocalificable
 
-Selecciona la capital correcta:
+## ¿Cuál es las carencia de micronutriente más frecuentes en el mundo?
 
-<label>
-  <input type="radio" name="capital" value="incorrecto"> Londres
-</label><br>
-<label>
-  <input type="radio" name="capital" value="correcto"> París
-</label><br>
-<label>
-  <input type="radio" name="capital" value="incorrecto"> Berlín
-</label><br>
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
 
-<button onclick="checkAnswer()">Comprobar</button>
+**Deficiencia de hierro**
 
-<div id="feedback" style="display:none"></div>
+La deficiencia de hierro es la más común a nivel global y una de las principales causas de anemia, afectando especialmente a mujeres en edad fértil, embarazadas y niños pequeños. Se estima que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren falta de hierro.
 
+:::
+
+
+## ¿Cuáles son las carencias nutricionales más frecuentes en Cuba?
+
+a)  Déficit de vitamina A\
+b)  Déficit de vitamina D\
+c)  Anemia por déficit de hierro\
+d)  Déficit de Yodo
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**a) Déficit de vitamina A**
+
+**c) Anemia por déficit de hierro**
+
+**d) Déficit de Yodo**
+
+:::
+
+## ¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?
+
+<label> <input type="radio" name="fortificacion" value="incorrecto"> Adición de vitaminas a alimentos para grupos específicos como niños o embarazadas </label><br>
+<label> <input type="radio" name="fortificacion" value="correcto"> Incremento deliberado de micronutrientes esenciales en alimentos para mejorar la calidad nutricional con beneficio de salud pública </label><br>
+<label> <input type="radio" name="fortificacion" value="incorrecto"> Adición de minerales solo a alimentos básicos como harinas o leche para consumo masivo </label><br>
+
+<button onclick="checkAnswer()">Comprobar respuesta</button>
+
+::: {#feedback style="display:none; margin-top:15px; padding:10px; border-radius:5px; font-weight:bold"}
+:::
+
+```{=html}
 <script>
 function checkAnswer() {
-  const selected = document.querySelector('input[name="capital"]:checked');
+  const selected = document.querySelector('input[name="fortificacion"]:checked');
   const feedback = document.getElementById('feedback');
   
   if(selected?.value === 'correcto') {
-    feedback.innerHTML = "✅ Correcto! París es la capital de Francia";
-    feedback.style.color = 'green';
+    feedback.innerHTML = "✅ Correcto! La definición incluye: 1) Incremento deliberado, 2) Micronutrientes esenciales, 3) Mejora calidad nutricional, 4) Beneficio salud pública.";
+    feedback.style.backgroundColor = '#e6f7ee';
+    feedback.style.color = '#0d6832';
   } else {
-    feedback.innerHTML = "❌ Incorrecto, intenta nuevamente";
-    feedback.style.color = 'red';
+    feedback.innerHTML = "❌ Incorrecto. Recuerda: La fortificación no se limita a grupos específicos ni solo alimentos básicos. La definición completa abarca propósito, componentes y alcance de salud pública.";
+    feedback.style.backgroundColor = '#fce8e6';
+    feedback.style.color = '#d93025';
   }
   feedback.style.display = 'block';
 }
 </script>
 
+```

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Untitled – Fortificación de alimentos a gran escala</title>
+<title>Quarto Quizdown Example – Fortificación de alimentos a gran escala</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap-a98ec624fb63d9b712fc3a6f62e2b305.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/quizdown-0.6.0/quizdown.js"></script>
+<script src="../../../site_libs/quarto-contrib/quizdown-0.6.0/quizdownKatex.js"></script>
+<script src="../../../site_libs/quarto-contrib/quizdown-0.6.0/quizdownHighlight.js"></script>
+<script src="../../../site_libs/quarto-contrib/quizdown-0.6.0/quizdown-init.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Contenido</li><li class="breadcrumb-item">Taller</li><li class="breadcrumb-item"><a href="../../../contenido/taller/dia3/clase10.html">Dia3</a></li><li class="breadcrumb-item"><a href="../../../contenido/taller/dia3/clase10.html">Untitled</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Contenido</li><li class="breadcrumb-item">Ejercicios</li><li class="breadcrumb-item"><a href="../../../contenido/ejercicios/tema 1/ejercicio01.html">tema 1</a></li><li class="breadcrumb-item"><a href="../../../contenido/ejercicios/tema 1/example.html">Quarto Quizdown Example</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -140,22 +144,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Ejercicios</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">tema 1</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../contenido/ejercicios/tema 1/ejercicio01.html" class="sidebar-item-text sidebar-link">
@@ -164,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/ejercicios/tema 1/example.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contenido/ejercicios/tema 1/example.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quarto Quizdown Example</span></a>
   </div>
 </li>
@@ -336,13 +340,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
  <span class="menu-text">Taller</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
@@ -415,16 +419,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
  <span class="menu-text">Dia3</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 show">  
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/taller/dia3/clase10.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../contenido/taller/dia3/clase10.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Untitled</span></a>
   </div>
 </li>
@@ -533,9 +537,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Contenido</li><li class="breadcrumb-item">Taller</li><li class="breadcrumb-item"><a href="../../../contenido/taller/dia3/clase10.html">Dia3</a></li><li class="breadcrumb-item"><a href="../../../contenido/taller/dia3/clase10.html">Untitled</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Contenido</li><li class="breadcrumb-item">Ejercicios</li><li class="breadcrumb-item"><a href="../../../contenido/ejercicios/tema 1/ejercicio01.html">tema 1</a></li><li class="breadcrumb-item"><a href="../../../contenido/ejercicios/tema 1/example.html">Quarto Quizdown Example</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Untitled</h1>
+<h1 class="title">Quarto Quizdown Example</h1>
 </div>
 
 
@@ -552,6 +556,73 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A Quarto filter extension for writing short quizzes with a markdown-like syntax. It is based on the quizdown-js library and the hugo-quiz extension originally developed by <a href="https://github.com/bonartm">bonartm</a>:</p>
+<ul>
+<li><a href="https://github.com/bonartm/quizdown-js/" class="uri">https://github.com/bonartm/quizdown-js/</a></li>
+<li><a href="https://github.com/bonartm/hugo-quiz/" class="uri">https://github.com/bonartm/hugo-quiz/</a></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that it’s a filter and not a shortcode as it was in hugo-quiz b/c <a href="https://quarto.org/docs/extensions/shortcodes.html">Quarto doesn’t seem to export content</a> between opening and closing shortcode tags <a href="https://gohugo.io/content-management/shortcodes/">like Hugo does</a>. Maybe I’ll figure out a way to do that in the future, but for now, this is a filter that lets you write quizdown instances within quizdown code blocks indicated using <code>{quizdown}</code> or <code>quizdown</code>.</p>
+</div>
+</div>
+<p>Try out the original live code editor for quizdown: <a href="https://bonartm.github.io/quizdown-live-editor/" class="uri">https://bonartm.github.io/quizdown-live-editor/</a></p>
+<div class="quizdown">
+---
+primary_color: orange
+secondary_color: lightgray
+text_color: black
+shuffle_questions: false
+shuffle_answers: true
+---
+
+# Python Lists
+
+What is the value of `x[2]`?
+
+&gt; Python lists are mutable!
+
+~~~python
+x = [2, 3, 4]
+x[2] = 4
+print(x[2])
+~~~
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+## The sound of dog
+
+What do dogs sound like?
+
+&gt; Some hint
+
+- [ ] yes
+- [ ] no
+- [ ] `self.sound = "meow"`
+- [x] wuff
+
+## Put the [days](https://en.wikipedia.org/wiki/Day) in order!
+
+&gt; Monday is the *first* day of the week.
+
+1. Monday
+2. Tuesday
+3. Wednesday
+4. Friday
+5. Saturday  
+</div>
+<p>Here’s the README from the Github Repo, in case you missed it:</p>
 
 
 

@@ -1,8 +1,34 @@
 ---
 title: "Conferencia 1"
 subtitle: "Diseño de estrategias de fortificación de alimentos en grupos poblacionales específicos y las metodologías HCES"
+format:
+  revealjs:
+    smaller: true
+    scrollable: true
+    embed-resources: true
+    multiplex: false
 ---
 
-# Sumario
+## Sumario
 
-• Breve revisión sobre las estrategias de fortificación • Exploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES • Refuerzo de conceptos clave y preguntas de los participantes para aclarar dudas
+- Breve revisión sobre las estrategias de fortificación 
+
+- Exploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES 
+
+- Refuerzo de conceptos clave y preguntas de los participantes para aclarar dudas
+
+## Introdución
+
+::::: columns
+::: {.column width="40%"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+:::::
+
+##  {background-color="aquamarine"}
+
+![](/static/images/pasos.png)

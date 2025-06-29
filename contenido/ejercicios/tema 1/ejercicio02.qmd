@@ -1,5 +1,6 @@
 ---
 title: "Ejercicio 2: Fortificación a gran escala"
+date: 2025-06-29
 filters: 
     - quizdown
 ---

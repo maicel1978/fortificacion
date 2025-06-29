@@ -1,5 +1,6 @@
 ---
 title: "Ejercicio 1: Micronutrientes y carencias nutricionales"
+date: 2025-06-29
 format: html
 ---
 

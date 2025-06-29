@@ -1,9 +1,10 @@
 ---
-title: "About"
+title: "Información"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+Millones de personas en todo el mundo sufren de "hambre oculta", una deficiencia de vitaminas y minerales esenciales que impacta su desarrollo, salud y calidad de vida. Este desafío invisible tiene consecuencias significativas a nivel individual y comunitario.
+
+Aquí es donde entra la fortificación de alimentos: una intervención probada y altamente efectiva. Al incorporar nutrientes clave en alimentos básicos que ya forman parte de nuestra dieta, podemos mejorar masivamente el estado nutricional de las poblaciones sin requerir cambios drásticos en los hábitos alimenticios.
+
+En Fortificación, nos apasiona desentrañar los secretos y el impacto de esta estrategia. Nuestro objetivo es ser una fuente de conocimiento confiable y accesible, destacando cómo la fortificación es un pilar fundamental en la lucha contra las deficiencias nutricionales y en la construcción de comunidades más resilientes y saludables. Descubre con nosotros cómo algo tan simple puede tener un impacto tan profundo.

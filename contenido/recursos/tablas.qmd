@@ -20,6 +20,6 @@ Las tablas de composición de alimentos son recopilaciones sistemáticas de dato
 
 Las tablas pueden estar disponibles en formato impreso o digital (bases de datos en línea), y existen versiones nacionales e internacionales adaptadas a los alimentos y hábitos de cada región.
 
-**Tablas cubanas**
+**Tablas de centro américa**
 
 {{< pdf /static/pdf/TablaCAlimentos.pdf width=100% height=800 >}} 

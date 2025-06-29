@@ -1,0 +1,16 @@
+---
+title: "Recursos"
+listing: recursos_listing # Referencia al ID del listing definido en _quarto.yml
+---
+
+Esta sección encontraras una serie de recursos útiles para para la capacitación  **e-learning** como para el desarrollo de talleres presenciales.
+
+Los recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, bases de datos o script en R, para la ejecución de análisis estadístico para la fortificación de alimentos.
+
+
+**Listado**
+
+:::: column-screen-inset
+::: {#recursos_listing}
+:::
+::::

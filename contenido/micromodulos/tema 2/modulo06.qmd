@@ -1,3 +1,11 @@
 ---
-title: "Untitled"
+title: "Módulo 06"
+subtitle: "Introducción a la inferencia estadística: estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación"
 ---
+
+Indicadores propuestos para el análisis de HCES
+
+-   Porciento de la población que consume el alimento fortificado
+-   Promedio de consume del alimento fortificado
+-   Promedio de ingesta de micronutriente/s del alimento fortificado
+-   Contribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )

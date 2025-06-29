@@ -12,7 +12,7 @@ Nuestro objetivo es equipar a profesionales y actores clave con las herramientas
 
 ### Nuestro Contexto y Misión
 
-La fortificación de alimentos a gran escala (LSFF, por sus siglas en inglés) es una estrategia ampliamente reconocida por su costo-efectividad para reducir las deficiencias de micronutrientes en la población. Sin embargo, su implementación enfrenta desafíos significativos, especialmente en lo que respecta al **control de calidad** de los alimentos fortificados, la **cobertura**, el **consumo** y la **contribución** de estos alimentos a la **ingesta** de micronutrientes a nivel **poblacional**.
+La **fortificación de alimentos a gran escala** (LSFF, por sus siglas en inglés) es una estrategia ampliamente reconocida por su costo-efectividad para reducir las deficiencias de micronutrientes en la población. Sin embargo, su implementación enfrenta desafíos significativos, especialmente en lo que respecta al **control de calidad** de los alimentos fortificados, la **cobertura**, el **consumo** y la **contribución** de estos alimentos a la **ingesta** de micronutrientes a nivel **poblacional**.
 
 En muchos países de América Latina y el Caribe, la información sobre estos componentes clave es limitada o inexistente. Esta falta de datos impide evaluar con precisión la efectividad de los programas de fortificación y su impacto nutricional, particularmente en poblaciones vulnerables.
 
@@ -30,17 +30,9 @@ Este curso en línea se centra en la **cobertura**, el **consumo** y la **contri
 
 Estas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.
 
-### ¿Qué encontrarás aquí?
 
-Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
+Presentamos el contenido para facilitar tu aprendizaje organizado en **módulos de E-learning**, contenido para el desarrollo de **talleres presenciales** y ofrecemos una serie de **recursos adicionales** para complementar tu formación.
 
--   **Componentes de Asistencia Técnica:** Descubre las cinco áreas clave de nuestro apoyo, desde la capacitación en línea hasta la generación de evidencia científica.
-
--   **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
-
--   **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
-
--   **Recursos Adicionales:** Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.
 
 ### ¡Comienza tu aprendizaje hoy!
 

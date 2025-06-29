@@ -1,5 +1,5 @@
 ---
-title: "Fortificación a gran escala"
+title: "Ejercicio 2: Fortificación a gran escala"
 filters: 
     - quizdown
 ---
@@ -9,7 +9,6 @@ Implementada en más de 100 países, la fortificación a gran escala salva vidas
 ::: callout-note
 La fortificación a gran escala (también llamada fortificación masiva o mandatoria) es una estrategia de salud pública que consiste en agregar micronutrientes esenciales (vitaminas y minerales) a alimentos de consumo masivo y ampliamente distribuidos, con el objetivo de prevenir o corregir deficiencias nutricionales en poblaciones enteras. Se implementa a nivel nacional o regional mediante políticas gubernamentales y regulaciones obligatorias.
 :::
-
 
 ``` quizdown
 ---
@@ -51,5 +50,3 @@ Seleccione tres estrategias
 6. Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
 7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
 ```
-
-

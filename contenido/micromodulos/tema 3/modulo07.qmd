@@ -1,3 +1,4 @@
 ---
-title: "Untitled"
+title: "Módulo 07"
+subtitle: "Metodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico."
 ---

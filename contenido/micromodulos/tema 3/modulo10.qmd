@@ -1,3 +1,4 @@
 ---
-title: "Untitled"
+title: "Módulo 10"
+subtitle: "Método de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar"
 ---

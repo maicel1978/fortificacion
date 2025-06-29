@@ -1,0 +1,5 @@
+---
+title: "Módulo 12"
+subtitle: "Ajuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)"
+---
+

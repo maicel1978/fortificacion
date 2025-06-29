@@ -1,3 +1,4 @@
 ---
-title: "Untitled"
+title: "Módulo 02"
+subtitle: "Introducción de Encuestas de Consumo y Gastos en los Hogares HCES y sus usos en la planificación de estrategias de fortificación"
 ---

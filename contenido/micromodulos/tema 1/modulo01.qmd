@@ -1,39 +1,38 @@
 ---
-title: "Módulo 1.1"
+title: "Módulo 01"
 subtitle: "Introducción sobre estrategias de fortificación de alimentos"
+bibliography: references.bib
 ---
 
-# *Sumario*
+# Sumario
 
--   Política de Fortificación de Alimentos
-
-    -   Generalidades
-    -   Importancia
-    -   Tipos de estrategias
-
+-   Déficit nutricionales
+-   Política de fortificación de alimentos
 -   Fases para la implementación de programas de fortificación de alimentos a gran escala
 
-    1.  Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo
+# Déficit nutricionales
 
-    2.  Selección de Alimentos Vehiculares Apropiados para la Fortificación
+Los micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
 
-    3.  Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
+Cuando esto no ocurre pueden ocurrir deficit nutricionales que pueden afectar la salud. En el mundo se estima que que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren de anemias carenciales por falta de hierro. En Cuba por ejemplo, las carencias nutricionales más frecuentes además de estas son el déficit de vitamina A y de Yodo.
 
-    4.  Desarrollo y Promulgación de Legislación y Normas de Fortificación
+Sin embargo, se pueden llevar a cabo estrategias para corregir estas deficiencias.
 
-    5.  Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
+# Estrategias para el control de las carencias de micronutrientes
 
-    6.  Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
+Las estrategias para el control de las carencias de micronutrientes más importantes son:
 
-    7.  Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
-
-8.  Consideración de límites de seguridad, tecnológicos y de costos
+1.  Aumento de la diversidad de la dieta
+2.  Fortificación de alimentos
+3.  Suplementación
 
 # Políticas de fortificación de alimentos
 
-La política de fortificación de alimentos, proporciona un marco para la adición de micronutrientes esenciales a los alimentos para mejorar la calidad nutricional y lograr beneficios para la salud pública.
+La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de un micronutriente esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo.
 
-Las políticas de fortificación de alimentos se **clasifican** según el **nivel de obligación** que imponen a los productores:
+En otras palabras, la política de fortificación de alimentos, proporciona un marco para la adición de micronutrientes esenciales a los alimentos para mejorar la calidad nutricional y lograr beneficios para la salud pública [@allen2017].
+
+Las políticas de fortificación de alimentos se puden **clasifican** según el **nivel de obligación** que imponen a los productores:
 
 -   **Fortificación Obligatoria:**
 
@@ -51,14 +50,16 @@ La **Fortificación Impulsada por el Mercado** siempre es voluntaria, y está re
 
 1.  Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo
 
-    2.  Selección de Alimentos Vehiculares Apropiados para la Fortificación
+2.  Selección de Alimentos Vehiculares Apropiados para la Fortificación
 
-    3.  Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
+3.  Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
 
-    4.  Desarrollo y Promulgación de Legislación y Normas de Fortificación
+4.  Desarrollo y Promulgación de Legislación y Normas de Fortificación
 
-    5.  Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
+5.  Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
 
-    6.  Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
+6.  Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
 
-    7.  Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+7.  Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+
+# Bibliografía

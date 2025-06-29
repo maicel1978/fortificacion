@@ -1,3 +1,4 @@
 ---
-title: "Untitled"
+title: "Módulo 11"
+subtitle: "Estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género"
 ---

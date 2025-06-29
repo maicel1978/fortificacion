@@ -1,0 +1,11 @@
+---
+title: "Día 1: Introducción sobre estrategias de fortificación de alimentos"
+subtitle: "Sesiones de la Primera Jornada"
+---
+
+Esta es la página de resumen para el **Día 1** del taller. Aquí puedes encontrar las presentaciones de las clases de hoy incrustadas directamente, junto con recursos adicionales para que aproveches al máximo la jornada.
+
+<!-- **Clase 1: Introducción al Taller** [Ver presentación en pantalla completa](clase01.html) -->
+
+
+

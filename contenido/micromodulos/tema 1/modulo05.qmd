@@ -1,4 +1,5 @@
 ---
 title: "Módulo 05"
+date: 2025-07-01
 subtitle: "Revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados"
 ---

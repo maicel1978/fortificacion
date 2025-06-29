@@ -1,6 +1,7 @@
 ---
 title: "Módulo 01"
 subtitle: "Introducción sobre estrategias de fortificación de alimentos"
+date: 2025-06-29
 bibliography: references.bib
 ---
 

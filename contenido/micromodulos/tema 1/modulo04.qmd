@@ -1,4 +1,5 @@
 ---
 title: "Módulo 04"
+date: 2025-06-30
 subtitle: "Introducción a los módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria)"
 ---

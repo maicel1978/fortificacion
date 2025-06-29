@@ -1,4 +1,5 @@
 ---
 title: "Módulo 03"
+date: 2025-06-29
 subtitle: "Descripción de Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas: Generalidades de las HCES y obtención de datos HCES"
 ---

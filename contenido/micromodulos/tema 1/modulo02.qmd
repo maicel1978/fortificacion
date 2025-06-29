@@ -1,4 +1,5 @@
 ---
 title: "Módulo 02"
+date: 2025-06-29
 subtitle: "Introducción de Encuestas de Consumo y Gastos en los Hogares HCES y sus usos en la planificación de estrategias de fortificación"
 ---

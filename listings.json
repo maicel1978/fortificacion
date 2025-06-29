@@ -1,0 +1,37 @@
+[
+  {
+    "listing": "/contenido/micromodulos/index.html",
+    "items": [
+      "/contenido/micromodulos/tema 1/modulo01.html",
+      "/contenido/micromodulos/tema 1/modulo02.html",
+      "/contenido/micromodulos/tema 1/modulo03.html",
+      "/contenido/micromodulos/tema 1/modulo04.html",
+      "/contenido/micromodulos/tema 1/modulo05.html",
+      "/contenido/micromodulos/tema 2/modulo06.html",
+      "/contenido/micromodulos/tema 3/modulo07.html",
+      "/contenido/micromodulos/tema 3/modulo08.html",
+      "/contenido/micromodulos/tema 3/modulo09.html",
+      "/contenido/micromodulos/tema 3/modulo10.html",
+      "/contenido/micromodulos/tema 3/modulo11.html",
+      "/contenido/micromodulos/tema 3/modulo12.html",
+      "/contenido/micromodulos/tema 3/modulo13.html",
+      "/contenido/micromodulos/tema 4/modulo14.html",
+      "/contenido/micromodulos/tema 5/modulo15.html",
+      "/contenido/micromodulos/tema 5/modulo16.html",
+      "/contenido/micromodulos/tema 5/modulo17.html"
+    ]
+  },
+  {
+    "listing": "/contenido/ejercicios/index.html",
+    "items": [
+      "/contenido/ejercicios/tema 1/ejercicio01.html",
+      "/contenido/ejercicios/tema 1/ejercicio02.html"
+    ]
+  },
+  {
+    "listing": "/contenido/recursos/index.html",
+    "items": [
+      "/contenido/recursos/tablas/tablas.html"
+    ]
+  }
+]

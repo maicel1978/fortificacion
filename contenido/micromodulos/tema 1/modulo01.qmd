@@ -1,7 +1,9 @@
 ---
 title: "Módulo 01"
 subtitle: "Introducción sobre estrategias de fortificación de alimentos"
+description: "Se describen las estrategias de fortificación de alimentos, se abordan temas como déficit nutricionales, política de fortificación de alimentos así como las fases para su implementación"
 date: 2025-06-29
+author: "Maicel Monzón"
 bibliography: references.bib
 ---
 

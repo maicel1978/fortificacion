@@ -3,9 +3,11 @@ title: "Tablas de composición de alimentos"
 format: html
 ---
 
-Las tablas de composición de alimentos son recopilaciones sistemáticas de datos que muestran la cantidad media de energía, nutrientes y otras sustancias presentes en los alimentos cuando son consumidos.
+Las tablas de composición de alimentos son recopilaciones de datos de la cantidad media de energía y nutrientes, y otras sustancias, que los alimentos aportan cuando son consumidos y, por tanto, son esenciales para poder juzgar los alimentos y las dietas desde el punto de vista nutricional.
 
 **¿Para qué sirven?**
+
+Los datos que suministran estas bases de datos son útiles para **diseñar políticas nutricionales**, **investigar en nutrición**, realizar **estudios de dieta total**, **diseñar nuevos productos** e incluso para proporcionar **información de interés a los consumidores**, cada vez más preocupados por conocer las características de los alimentos que consumen.
 
 ![](/static/images/tablas_composicion.png)
 
@@ -22,4 +24,10 @@ Las tablas pueden estar disponibles en formato impreso o digital (bases de datos
 
 **Tablas de centro américa**
 
-{{< pdf /static/pdf/TablaCAlimentos.pdf width=100% height=800 >}} 
+{{< pdf /static/pdf/TablaCAlimentos.pdf width=100% height=800 >}}
+
+
+
+
+
+

@@ -14,15 +14,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd # <--- ¡CORREGIDO! De 'about.qm' a 'about.qmd' y añadiendo 'href' y 'text'
-        text: About # <--- AÑADIDO: Texto para el enlace 'About'
+      - href: about.qmd 
+        text: About 
   sidebar:
     contents: auto
 
 format:
   html:
     theme:
-      - cosmo
+      - lumen
       - brand
     css: styles.css
     toc: true

@@ -5,8 +5,7 @@ subtitle: "¿Qué encontrarás aquí?"
 
 Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
 
-
--   **Ejercicios interactivos:** Realiza un conjunto de ejercicios interactivos que te permitirán practicar los contenidos de la capacitación. 
+-   **Ejercicios interactivos:** Realiza un conjunto de ejercicios interactivos que te permitirán practicar los contenidos de la capacitación.
 
 -   **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
 
@@ -14,3 +13,4 @@ Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
 
 -   **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
 
+![](/static/images/icon1.png){fig-align="center"}

@@ -1,10 +1,20 @@
 ---
-title: "Información"
+title: "Nuestro Contexto y Misión"
 ---
 
+La **fortificación de alimentos a gran escala** (LSFF, por sus siglas en inglés) es una estrategia ampliamente reconocida por su costo-efectividad para reducir las deficiencias de micronutrientes en la población. Sin embargo, su implementación enfrenta desafíos significativos, especialmente en lo que respecta al **control de calidad** de los alimentos fortificados, la **cobertura**, el **consumo** y la **contribución** de estos alimentos a la **ingesta** de micronutrientes a nivel **poblacional**.
 
-Millones de personas en todo el mundo sufren de "hambre oculta", una deficiencia de vitaminas y minerales esenciales que impacta su desarrollo, salud y calidad de vida. Este desafío invisible tiene consecuencias significativas a nivel individual y comunitario.
+En muchos países de América Latina y el Caribe, la información sobre estos componentes clave es limitada o inexistente. Esta falta de datos impide evaluar con precisión la efectividad de los programas de fortificación y su impacto nutricional, particularmente en poblaciones vulnerables.
 
-Aquí es donde entra la fortificación de alimentos: una intervención probada y altamente efectiva. Al incorporar nutrientes clave en alimentos básicos que ya forman parte de nuestra dieta, podemos mejorar masivamente el estado nutricional de las poblaciones sin requerir cambios drásticos en los hábitos alimenticios.
+En respuesta a esta necesidad, el Programa Mundial de Alimentos (PMA) está desarrollando un **paquete de asistencia técnica** para **apoyar** a los **gobiernos de la región** en el **diseño y la evaluación** de **estrategias de fortificación**, con especial atención a:
 
-En Fortificación, nos apasiona desentrañar los secretos y el impacto de esta estrategia. Nuestro objetivo es ser una fuente de conocimiento confiable y accesible, destacando cómo la fortificación es un pilar fundamental en la lucha contra las deficiencias nutricionales y en la construcción de comunidades más resilientes y saludables. Descubre con nosotros cómo algo tan simple puede tener un impacto tan profundo.
+-   El **control de calidad** de los alimentos fortificados,
+
+-   La **cobertura** de alimentos fortificados y fortificables (aquellos con producción centralizada en grandes industrias),
+
+-   El **consumo** de estos alimentos a nivel de hogar y población, y
+
+-   Su **contribución a la ingesta** de micronutrientes esenciales.
+
+![](static/images/icon1.png){fig-align="center"}
+

@@ -5,17 +5,19 @@ project:
 website:
   title: "Fortificación de alimentos a gran escala"
   description: "sitio web para asistencia técica de fortificación de alimentos"
+  favicon: favicon.png
   reader-mode: true
   search:
     location: navbar
     type: overlay
   navbar:
     pinned: true
+    logo: logo.png
     left:
       - href: index.qmd
-        text: Home
+        text: "🏠 Home"
       - href: about.qmd 
-        text: About 
+        text: "📄 About" 
   sidebar:
     contents: auto
 

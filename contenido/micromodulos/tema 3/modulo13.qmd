@@ -1,4 +1,68 @@
 ---
 title: "Módulo 13"
 subtitle: "Estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
 ---
+
+![](/static/images/modulo13.png){fig-align="center"}
+
+# sumario
+
+
+# Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
+
+## Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES
+
+El primer paso crucial es identificar y organizar las variables necesarias dentro de los conjuntos de datos de las HCES.
+
+*   **Variables Demográficas:** Es esencial contar con datos básicos sobre cada miembro del hogar, incluyendo:
+    *   **Número de personas** en cada hogar.
+    *   **Edad y sexo** de cada miembro del hogar.
+    *   Esta información es necesaria para construir unidades de **Equivalente de Hombre Adulto (AME)** o **Equivalente de Mujer Adulta (AFE)**, que, aunque más directamente relacionadas con la cuantificación del consumo aparente, son un componente subyacente para cualquier análisis de población.
+*   **Variables de Adquisición de Alimentos:** Se necesita información detallada sobre la compra o adquisición de alimentos por parte del hogar. Esto incluye:
+    *   Si un alimento en particular fue **comprado en un período fijo** (por ejemplo, los últimos 7 o 15 días).
+    *   La **cantidad de ese alimento que fue comprado**.
+    *   Las **unidades de medida** (por ejemplo, gramos, litros).
+    *   Las HCES suelen contener listas de alimentos que comúnmente se usan como vehículos de fortificación, como harina de trigo, harina de maíz, arroz, aceite vegetal, azúcar, sal y caldos concentrados (bouillon cubes). También suelen incluir información sobre alimentos preparados que contienen estos vehículos básicos (ej., panes, galletas, tortillas).
+*   **Variables Contextuales para Subgrupos:** Para un análisis significativo, las HCES proporcionan información útil para estratificar la población, tales como:
+    *   **Área geográfica:** Distinciones como urbana, rural u otras divisiones regionales pertinentes.
+    *   **Nivel socioeconómico (SEP):** Frecuentemente categorizado en quintiles basados en el gasto total anual ajustado por inflación per cápita del hogar (ej., muy pobre, pobre, no pobre).
+    *   Otras variables como la etnicidad o cultura, si son relevantes para el contexto.
+*   **Ponderación de Datos:** Dado que las HCES son encuestas a gran escala diseñadas para ser representativas de la población, todos los cálculos de cobertura deben **ponderarse adecuadamente** utilizando las variables de ponderación proporcionadas en el conjunto de datos.
+
+## Paso 2: Cuantificación de la "Cobertura" del Vehículo de Fortificación
+
+La **cobertura** se define como el **porcentaje de hogares que aparentemente consumen cualquier cantidad del vehículo alimentario** de interés durante el período de referencia de la encuesta (ej., los 7 días de recuerdo).
+
+*   **Cálculo Directo:** Para calcular la cobertura, simplemente se identifica cuántos hogares en la muestra informaron haber adquirido o consumido una cantidad superior a cero del alimento fortificable (o del alimento que contiene el vehículo fortificable).
+*   **Significado:** Esta estimación indica el **alcance potencial de un programa de fortificación** que utiliza ese alimento como vehículo. Por ejemplo, en Malawi, se estimó que el 76% de los hogares consumía aceite y el 56% azúcar, lo que proporciona una base para entender su potencial como vehículos de fortificación.
+
+### Paso 3: Estratificación para Análisis Nacional y Subnacional
+
+La capacidad de las HCES para estratificar los datos permite una comprensión más profunda de quiénes son alcanzados por los vehículos de fortificación y dónde se encuentran las brechas.
+
+*   **Nivel Nacional:** La cobertura nacional proporciona una visión general del alcance del vehículo en todo el país (ej., "el 76% de los hogares a nivel nacional reportaron consumir aceite").
+*   **Nivel Subnacional (Estratificación):** Para obtener una visión más granular y dirigir mejor las intervenciones, la cobertura se debe estratificar por:
+    *   **Regiones Administrativas:** Permite identificar variaciones geográficas en el consumo.
+    *   **Áreas Urbanas vs. Rurales:** Fundamental, ya que las poblaciones rurales de menor posición socioeconómica a menudo tienen un bajo consumo aparente de alimentos fortificados.
+    *   **Nivel Socioeconómico (SEP):** El análisis por quintiles de gasto per cápita permite identificar si el vehículo llega a las poblaciones más pobres o a los grupos con mayores necesidades de micronutrientes.
+    *   **Otros Subgrupos:** Si los datos lo permiten, se pueden considerar otras estratificaciones como la etnicidad o grupos culturales con patrones de consumo distintos.
+
+## Relación con el Consumo Aparente (Contexto Importante)
+
+Aunque la pregunta se centra en la "cobertura", es importante entender que la cobertura y el "consumo aparente" están estrechamente relacionados en el análisis de HCES.
+
+*   Mientras que la **cobertura** mide el **porcentaje de hogares que consumen el alimento**, el **consumo aparente** se refiere a la **cantidad de alimento consumida por unidad AME/AFE al día**. Ambos son esenciales para determinar el impacto potencial de la fortificación. Por ejemplo, una alta cobertura de un vehículo es buena, pero si la cantidad consumida es muy baja, su impacto nutricional será limitado.
+*   Las estimaciones de consumo aparente se ajustan por AME/AFE para permitir la comparación entre hogares con diferentes composiciones demográficas, asumiendo que el alimento se distribuye dentro del hogar proporcionalmente a las necesidades energéticas de cada miembro.
+
+---
+
+## **Consideraciones y Limitaciones Importantes al Usar Datos HCES para la Cobertura:**
+
+*   **No es Consumo Real Individual:** Las HCES describen adquisiciones o gastos de los hogares, no la ingesta real de alimentos a nivel individual. Se basan en suposiciones como que los alimentos comprados no se comparten con invitados, no se desperdician, no se dan a animales o se almacenan para uso posterior. También asumen que los alimentos se distribuyen dentro del hogar en proporción a las necesidades energéticas de cada miembro.
+*   **Errores de Medición:** Puede haber errores de recuerdo (recall error), y la información no siempre captura alimentos consumidos fuera del hogar o pérdidas de nutrientes durante la cocción.
+*   **Lista Fija de Alimentos:** Las HCES tienen listas de alimentos fijas, lo que podría limitar la exhaustividad.
+*   **Utilidad a Pesar de las Limitaciones:** A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.
+
+Al seguir estos pasos, podrás utilizar los datos de las HCES para obtener una estimación robusta de la cobertura de vehículos potenciales de fortificación a nivel nacional y para identificar subpoblaciones que se benefician o que aún necesitan intervenciones adicionales.

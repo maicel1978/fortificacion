@@ -1,8 +1,12 @@
 ---
 title: "Ejercicio 1: Micronutrientes y carencias nutricionales"
+subtitle: "Tema 1"
 date: 2025-06-29
+description: "Ejercicio sobre el tema de micronutrientes y carencias nutricionales"
 format: html
 ---
+
+![](/static/images/ejercicos01.png)
 
 ## ¿Es la siguiente definición verdadera?
 

@@ -1,4 +1,13 @@
 ---
 title: "Módulo 09"
-subtitle: "Estandarización de unidades de medida y conversión a gramos"
+subtitle: "Resumen parcial"
+author: "Maicel Monzon"
+description: "Se realiza una recaputulacion del contenido abordado"
 ---
+
+![](/static/images/modulo09.png){fig-align="center"}
+
+# sumario
+
+
+# Biblografía

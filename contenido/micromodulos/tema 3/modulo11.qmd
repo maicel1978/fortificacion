@@ -1,4 +1,49 @@
 ---
 title: "Módulo 11"
 subtitle: "Estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe la forma en que se realiza el la estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género"
 ---
+
+![](/static/images/modulo11.png){fig-align="center"}
+
+# sumario
+
+
+
+La estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género, a partir de los datos de las Encuestas de Gasto y Consumo en el Hogar (HCES), se realiza mediante el método de las **Unidades de Equivalente de Adulto Masculino (AME)**. Este método es crucial porque las HCES no recopilan información sobre la asignación individual de alimentos dentro del hogar.
+
+A continuación, se detalla el método:
+
+*   **Necesidad del Método AME**:
+    *   Las HCES, aunque son representativas a nivel nacional y se centran en los gastos del hogar, no capturan directamente el consumo de alimentos a nivel individual.
+    *   Para poder estimar el consumo de alimentos y el impacto nutricional potencial de los alimentos fortificados, es necesario ajustar las variaciones en la composición del hogar. Aquí es donde entran en juego las unidades AME.
+
+*   **Construcción de Unidades AME**:
+    *   Las unidades AME se basan en las **estimaciones de los requerimientos energéticos individuales de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO)**, que son específicas por edad y sexo.
+    *   El **valor de referencia** para una unidad AME (AME = 1) es el requerimiento energético de un **hombre de 19 a 30 años**, estimado en 3.050 kcal/día.
+    *   Otros grupos de edad y sexo se ponderan en función de sus necesidades energéticas estimadas en relación con este valor de referencia.
+
+*   **Estimación para una Mujer Saludable de 18-29 (o 19-30) años**:
+    *   Para una **mujer de 19 a 30 años**, el factor AME es de **0.79**.
+    *   Este factor se calcula dividiendo su requerimiento energético estimado (2.400 kcal/día) por el del hombre de referencia (2.400 kcal/día / 3.050 kcal/día = 0.79).
+
+*   **Cálculo de Unidades AME por Hogar**:
+    *   Se asigna un peso o factor de ajuste AME a **cada persona en el hogar**.
+    *   La información demográfica básica, como el número de personas en cada hogar y la edad y el sexo de cada miembro del hogar, es necesaria para construir estas unidades AME.
+    *   Estos **pesos individuales se suman** para proporcionar una estimación de las unidades AME totales del hogar.
+
+*   **Estimación del Consumo Aparente por AME y Ajuste por Subgrupo**:
+    1.  **Cuantificar las adquisiciones diarias por hogar**: Primero, las cantidades de alimentos adquiridos por el hogar (reportadas en gramos o mililitros para un período específico, como los últimos 15 días) se estandarizan a unidades métricas (SI) y se dividen por el número de días del período de reporte para obtener estimaciones diarias. Para alimentos compuestos (ej., pan hecho con harina de trigo fortificada), se puede crear una variable compuesta (ej., Equivalentes de Harina de Trigo Fortificada - FWFEs) que estima la cantidad del ingrediente básico en los productos comprados.
+    2.  **Calcular el consumo aparente por unidad AME**: Las adquisiciones diarias del hogar (o los equivalentes de ingrediente básico) se dividen por las unidades AME totales del hogar. Esto produce una estimación del consumo aparente por unidad AME.
+    3.  **Ajustar para subgrupos específicos**: Dado que las unidades AME se basan en el requerimiento energético de un hombre de 19 a 30 años, el consumo aparente por AME debe **multiplicarse por un factor de ajuste** específico para la edad y el sexo del grupo de interés. Por ejemplo, para estimar el consumo aparente ajustado para mujeres de 19-30 años, se multiplica el consumo aparente por AME por 0.79.
+
+*   **Supuestos y Limitaciones**:
+    *   El método AME se basa en el supuesto de que los requerimientos energéticos de la FAO son válidos para la población de interés.
+    *   También asume que los alimentos se comparten dentro del hogar **en proporción a los requerimientos energéticos**.
+    *   Sin embargo, es importante reconocer que las HCES describen las **adquisiciones y gastos de alimentos, no el consumo real o la ingesta verdadera**.
+    *   No consideran factores como el desperdicio de alimentos, el compartir con invitados, los regalos de alimentos, el almacenamiento para uso posterior, la alimentación de animales, o la comida consumida fuera del hogar.
+    *   La suposición de que el consumo es proporcional a los requerimientos energéticos de la FAO **puede no ser válida en todas las situaciones**, y los alimentos pueden no compartirse de manera equitativa dentro del hogar.
+    *   A pesar de estas limitaciones, el uso de datos de HCES con el método AME es valioso para el diseño y monitoreo de programas de fortificación de alimentos, especialmente cuando no se dispone de datos de consumo a nivel individual.
+    
+# Biblografía

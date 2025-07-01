@@ -1,4 +1,13 @@
 ---
 title: "Módulo 08"
 subtitle: "Estandarización de unidades de medida y conversión a gramos"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe la Estandarización de unidades de medida y conversión a gramos"
 ---
+
+![](/static/images/modulo08.png){fig-align="center"}
+
+# sumario
+
+
+# Biblografía

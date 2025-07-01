@@ -1,5 +1,11 @@
 ---
 title: "Módulo 03"
 date: 2025-06-29
+author: "Maicel Monzon & Yarisa Domínguez"
 subtitle: "Descripción de Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas: Generalidades de las HCES y obtención de datos HCES"
+description: "Se realiza una descripción de las Encuestas de Consumo en el modelado de dietas"
 ---
+
+# sumario
+
+![](/static/images/micro3.png)

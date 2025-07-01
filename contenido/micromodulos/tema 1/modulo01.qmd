@@ -13,6 +13,8 @@ bibliography: references.bib
 -   Política de fortificación de alimentos
 -   Fases para la implementación de programas de fortificación de alimentos a gran escala
 
+![](/static/images/micro1.png)
+
 # Déficit nutricionales
 
 Los micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.

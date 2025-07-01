@@ -1,16 +1,23 @@
 ---
 title: "Módulo 02"
 date: 2025-06-29
+author: "Maicel Monzon & Yarisa Domínguez"
 subtitle: "Introducción de Encuestas de Consumo y Gastos en los Hogares HCES y sus usos en la planificación de estrategias de fortificación"
+description: "Se introducen las Encuestas de Consumo y Gasto de los Hogares así como sus características fundamentales"
 bibliography: references.bib
 ---
 
 # Sumario
 
 -   Encuestas de Consumo y Gasto de los Hogares (HCES)
+
 -   Fortalezas y debilidades
+
 -   Importancia
+
 -   Utilidad de los resultados
+
+    ![](/static/images/ECGH.png)
 
 # Encuestas de Consumo y Gasto de los Hogares (HCES)
 

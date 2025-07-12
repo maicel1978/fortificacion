@@ -2,10 +2,15 @@
 title: "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
 subtitle: "Estrategia de capacitación Blended Learning"
 author: "Dr.C Maicel Monzón"
-format: 
-  beamer:
-    theme: Metropolis
-    aspectratio: 169
+format:
+    revealjs:
+      smaller: true
+      scrollable: true
+      embed-resources: true
+      multiplex: false
+  # beamer:
+  #   theme: Metropolis
+  #   aspectratio: 169
 ---
 
 ## Sumario

@@ -804,5 +804,252 @@
       "Taller",
       "Día 1: Introducción sobre estrategias de fortificación de alimentos"
     ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#sumario",
+    "href": "static/pdf/introduccion_modulos02.html#sumario",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Sumario",
+    "text": "Sumario\n\nLa estadística en el contexto de la fortificación de alimentos a gran escala\nFuentes de información, las HCES\nSistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados\nProblema práctico",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\ndescriptiva (medidas resúmenes)\ninferencial (estimación puntual y por intervalo de confianza, pruebas de significación)\nmétodos de regresión",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-1",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-1",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\nEstimación de ingesta dietética aparente: identificación de variables por módulos HCES (tipo de alimento, cantidad, frecuencia, miembros del hogar típico)\nEstandarización de unidades y conversión a gramos\nUso del método AFE (Adult Female Equivalent) para distribuir alimentos según requerimientos energéticos\nEstimación del consumo aparente ajustado por edad y género",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-2",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-2",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\nAjuste del consumo por grupo poblacional y contexto (zona, ingresos, IPC, estacionalidad)\nEstimación de cobertura de vehículos de fortificación a nivel nacional y subnacional con datos HCES\nAplicación del punto de corte EAR (Estimated Average Requirement) para evaluar ingesta adecuada de micronutrientes\nCálculo de adiciones de micronutrientes en vehículos seleccionados y construcción de escenarios de fortificación",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-decriptiva-indicadores-de-interez-en-el-proyecto",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-decriptiva-indicadores-de-interez-en-el-proyecto",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística decriptiva (indicadores de interez en el proyecto)",
+    "text": "Estadística decriptiva (indicadores de interez en el proyecto)\n\n\n\n\n\n\n\n\nIndicador\nMétrica\nFuente\n\n\n\n\nCobertura (% de población que consume AF)\n-\nHCES\n\n\nIngesta de micronutrientes del AF\nMedia aritmética\nHCES\n\n\nContribución del alimento fortificado al Requerimiento Promedio Estimado\nRelación con EAR (OMS/FAO)\nHCES + EAR",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-inferencial-preguntas",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-inferencial-preguntas",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística inferencial (Preguntas)",
+    "text": "Estadística inferencial (Preguntas)\n\n¿Es la cobertura de sal yodada significativamente diferente en zonas rurales vs. urbanas? (Aplicación de pruebas de proporciones).\n¿El consumo promedio de harina fortificada ha aumentado significativamente después de una intervención? (Aplicación de pruebas t o ANOVA).\n¿La contribución del arroz fortificado a la ingesta de hierro es suficiente para reducir la deficiencia en un grupo específico, considerando el intervalo de confianza de la estimación?",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#hces",
+    "href": "static/pdf/introduccion_modulos02.html#hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "HCES",
+    "text": "HCES\n\nLas HCES (Household Consumption and Expenditure Surveys) son encuestas que recopilan datos sobre gastos y consumo de hogares, incluyendo alimentos, educación y salud.\n\nPermiten analizar la distribución del ingreso y brechas nutricionales en poblaciones .\nSon implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#componentes-clave-de-las-hces",
+    "href": "static/pdf/introduccion_modulos02.html#componentes-clave-de-las-hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Componentes clave de las HCES",
+    "text": "Componentes clave de las HCES\n\nIngresos familiares: Fuentes y niveles económicos.\n\nPatrones de consumo: Tipos y cantidades de alimentos consumidos.\n\nDestino del gasto: Prioridades en alimentación, vivienda, salud, etc.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#fortalezas",
+    "href": "static/pdf/introduccion_modulos02.html#fortalezas",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Fortalezas",
+    "text": "Fortalezas\n\nGeneralmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.\nSuelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.\nLos datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.\nIncluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#debilidades",
+    "href": "static/pdf/introduccion_modulos02.html#debilidades",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Debilidades",
+    "text": "Debilidades\n\nFalta de representatividad en ciertos niveles geográficos:\nFrecuencia limitada (10 años):\nLimitaciones metodológicas en la medición del consumo (consumo aparente, estacionalidad)\nDiseño heterogéneo entre países",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#debilidades-1",
+    "href": "static/pdf/introduccion_modulos02.html#debilidades-1",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Debilidades",
+    "text": "Debilidades\n\nInadecuación para análisis individuales:\nSesgos por períodos largos de recuerdo:\nImpedimento para comparaciones internacionales:",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#utilidad-de-los-resultados",
+    "href": "static/pdf/introduccion_modulos02.html#utilidad-de-los-resultados",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Utilidad de los resultados",
+    "text": "Utilidad de los resultados\n\nmonitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor\nevaluar la seguridad alimentaria y la nutrición.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#sistema-de-evaluación-de-los-programas-de-fortificación-basados-en-cuatro-indicadores-seleccionados",
+    "href": "static/pdf/introduccion_modulos02.html#sistema-de-evaluación-de-los-programas-de-fortificación-basados-en-cuatro-indicadores-seleccionados",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados",
+    "text": "sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados\n\nPorcentaje de la población que consume el alimento fortificado (AF)\nPromedio de consumo del alimento fortificado\nPromedio de ingesta de micronutriente/s del Alimento fortificado\nContribución del Alimento fortificado a la ingesta de MN (en relación al EAR)",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#frecuencia-de-la-población-que-consume-el-alimento-fortificado-af",
+    "href": "static/pdf/introduccion_modulos02.html#frecuencia-de-la-población-que-consume-el-alimento-fortificado-af",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Frecuencia de la población que consume el alimento fortificado (AF)",
+    "text": "Frecuencia de la población que consume el alimento fortificado (AF)\nUso: Evaluar la cobertura del programa de fortificación.\nFórmula:\n\\[  \n\\frac{\\text{Número de personas que consumen AF}}{\\text{Población total objetivo}} \\times 100  \n\\]\nCálculo con HCES: Se identifica la proporción de hogares o individuos que reportan consumo de AF en registros de adquisiciones o gastos .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#promedio-de-consumo-del-alimento-fortificado",
+    "href": "static/pdf/introduccion_modulos02.html#promedio-de-consumo-del-alimento-fortificado",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Promedio de consumo del alimento fortificado",
+    "text": "Promedio de consumo del alimento fortificado\nUso: Medir la cantidad promedio de AF consumida por persona/día.\nFórmula:\n\\[  \n\\frac{\\text{Consumo total de AF en la población}}{\\text{Número de consumidores}}  \n\\]\nCálculo con HCES: Se extraen datos de cantidades adquiridas o consumidas de AF (en gramos o mililitros) y se normalizan por día o semana .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "href": "static/pdf/introduccion_modulos02.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Promedio de ingesta de micronutriente/s del Alimento fortificado",
+    "text": "Promedio de ingesta de micronutriente/s del Alimento fortificado\nUso: Cuantificar el aporte nutricional del Alimento fortificado.\nFórmula:\n\\[  \n\\text{Concentración de MN en AF (mg/100g)} \\times \\text{Consumo promedio de AF (g/día)}  \n\\]\nCálculo con HCES: Se multiplica el contenido de micronutrientes (ej. hierro en harina fortificada) por el consumo promedio registrado en HCES .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#contribución-del-alimento-fortificado-a-la-ingesta-de-mn-en-relación-al-ear",
+    "href": "static/pdf/introduccion_modulos02.html#contribución-del-alimento-fortificado-a-la-ingesta-de-mn-en-relación-al-ear",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)",
+    "text": "Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)\nUso: Evaluar el impacto del AF en cubrir requerimientos nutricionales.\nFórmula:\n\\[  \n\\frac{\\text{Ingesta de MN desde el AF}}{\\text{Requerimiento Promedio Estimado (EAR)}} \\times 100  \n\\]\nCálculo con HCES: Se compara la ingesta de micronutrientes desde el AF (calculada con datos de HCES) contra el EAR establecido por organismos internacionales .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#cálculo-a-partir-de-hces",
+    "href": "static/pdf/introduccion_modulos02.html#cálculo-a-partir-de-hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Cálculo a partir de HCES",
+    "text": "Cálculo a partir de HCES\n\nDatos individuales: Las HCES registran consumo por hogar o individuo, lo que permite calcular indicadores a nivel poblacional .\n\nAgregación: Métodos como la agregación simple ponderan subindicadores (ej. consumo en diferentes regiones) para obtener promedios nacionales .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#ejercicio",
+    "href": "static/pdf/introduccion_modulos02.html#ejercicio",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nSe le presentará una encuesta HCES aplicada en un contexto específico. Su tarea será identificar y calcular los cuatro indicadores requeridos a partir de las variables disponibles en el formulario.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
   }
 ]

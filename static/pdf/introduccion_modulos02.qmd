@@ -1,12 +1,17 @@
 ---
 title: "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
 author: "Dr.C Maicel Monzon"
-format: 
-  pptx: default
-  beamer:
-    theme: Metropolis
-fontfamily: "Roboto"
-aspectratio: 169
+format:
+  revealjs:
+    smaller: true
+    scrollable: true
+    embed-resources: true
+    multiplex: false
+#   pptx: default
+#   beamer:
+#     theme: Metropolis
+# fontfamily: "Roboto"
+# aspectratio: 169
 ---
 
 ## Sumario

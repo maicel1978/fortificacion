@@ -10,5 +10,4 @@ description: "Se realiza una descripción de las Encuestas de Consumo en el mode
 
 ![](/static/images/micro3.png)
 
-
 # Biblografía

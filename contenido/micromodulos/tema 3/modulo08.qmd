@@ -1,13 +1,12 @@
 ---
 title: "Módulo 08"
-subtitle: "Estandarización de unidades de medida y conversión a gramos"
+subtitle: "Metodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico."
 author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe la Estandarización de unidades de medida y conversión a gramos"
+description: "Se describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico."
 ---
 
 ![](/static/images/modulo08.png){fig-align="center"}
 
 # sumario
-
 
 # Biblografía

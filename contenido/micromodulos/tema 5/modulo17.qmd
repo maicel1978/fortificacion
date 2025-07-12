@@ -1,14 +1,12 @@
 ---
 title: "Módulo 17"
 subtitle: "Resumen del aprendizaje"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzon"
 description: "Se realiza una recapitulación de todos los temas tratados en los módulos"
 ---
-
 
 ![](/static/images/modulo17.png){fig-align="center"}
 
 # sumario
-
 
 # Biblografía

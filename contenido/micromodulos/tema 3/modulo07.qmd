@@ -1,13 +1,20 @@
 ---
 title: "Módulo 07"
-subtitle: "Metodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico."
-author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico."
+subtitle: "Indicadores para la evaluación de programas de fortificación"
+author: "Maicel Monzon"
+description: "Se realiza una introducion al análisis y resumenes de datos"
 ---
 
-![](/static/images/modulo07.png){fig-align="center"}
+![](/static/images/modulo09.png){fig-align="center"}
 
-# sumario
+# Sumario
 
+Indicadores propuestos para el análisis de HCES
+
+-   Porciento de la población que consume el alimento fortificado
+-   Promedio de consume del alimento fortificado
+-   Promedio de ingesta de micronutriente/s del alimento fortificado
+-   Contribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )
 
 # Biblografía
+

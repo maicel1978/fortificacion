@@ -1,7 +1,7 @@
 ---
 title: "Módulo 06"
-subtitle: "Introducción a la inferencia estadística: estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación"
-author: "Maicel Monzon & Yarisa Domínguez"
+subtitle: "Medidas para el resumen datos de nutrición (estadística descriptiva)"
+author: "Maicel Monzon"
 description: "Se introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación"
 ---
 
@@ -9,12 +9,6 @@ description: "Se introducen conceptos de estimación puntual y por intervalos de
 
 # sumario
 
-Indicadores propuestos para el análisis de HCES
-
--   Porciento de la población que consume el alimento fortificado
--   Promedio de consume del alimento fortificado
--   Promedio de ingesta de micronutriente/s del alimento fortificado
--   Contribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )
 
 
 # Biblografía

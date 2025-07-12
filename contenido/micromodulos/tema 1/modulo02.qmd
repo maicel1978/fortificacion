@@ -17,7 +17,7 @@ bibliography: references.bib
 
 -   Utilidad de los resultados
 
-    ![](/static/images/ECGH.png)
+![](/static/images/ECGH.png)
 
 # Encuestas de Consumo y Gasto de los Hogares (HCES)
 

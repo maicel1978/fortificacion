@@ -10,6 +10,4 @@ description: "Se realiza una descripción de módulos de HCES útiles para el mo
 
 ![](/static/images/modulo04.png){fig-align="center"}
 
-
 # Biblografía
-

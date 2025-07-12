@@ -1,0 +1,161 @@
+---
+title: "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+author: "Dr.C Maicel Monzon"
+format: 
+  pptx: default
+  beamer:
+    theme: Metropolis
+fontfamily: "Roboto"
+aspectratio: 169
+---
+
+## Sumario
+
+-   La estadística en el contexto de la fortificación de alimentos a gran escala
+
+-   Fuentes de información, las HCES
+
+-   Sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados
+
+-   Problema práctico
+
+## Estadística en el contexto de la fortificación de alimentos a gran escala
+
+- descriptiva (medidas resúmenes)
+- inferencial (estimación puntual y por intervalo de confianza, pruebas de significación)
+- métodos de regresión
+
+## Estadística en el contexto de la fortificación de alimentos a gran escala
+
+-   Estimación de ingesta dietética aparente: identificación de variables por módulos HCES (tipo de alimento, cantidad, frecuencia, miembros del hogar típico)
+-   Estandarización de unidades y conversión a gramos
+-   Uso del método AFE (Adult Female Equivalent) para distribuir alimentos según requerimientos energéticos
+-   Estimación del consumo aparente ajustado por edad y género
+
+## Estadística en el contexto de la fortificación de alimentos a gran escala
+
+-   Ajuste del consumo por grupo poblacional y contexto (zona, ingresos, IPC, estacionalidad)
+-   Estimación de cobertura de vehículos de fortificación a nivel nacional y subnacional con datos HCES
+-   Aplicación del punto de corte EAR (Estimated Average Requirement) para evaluar ingesta adecuada de micronutrientes
+-   Cálculo de adiciones de micronutrientes en vehículos seleccionados y construcción de escenarios de fortificación
+
+## Estadística decriptiva (indicadores de interez en el proyecto)
+
+| Indicador | Métrica | Fuente |
+|-------------------------------|------------------------|-----------------|
+| Cobertura (% de población que consume AF) | \- | HCES |
+| Ingesta de micronutrientes del AF | Media aritmética | HCES |
+| Contribución del alimento fortificado al Requerimiento Promedio Estimado | Relación con EAR (OMS/FAO) | HCES + EAR |
+
+## Estadística inferencial (Preguntas)
+
+-   ¿Es la cobertura de sal yodada significativamente diferente en zonas rurales vs. urbanas? (Aplicación de pruebas de proporciones).
+
+-   ¿El consumo promedio de harina fortificada ha aumentado significativamente después de una intervención? (Aplicación de pruebas t o ANOVA).
+
+-   ¿La contribución del arroz fortificado a la ingesta de hierro es suficiente para reducir la deficiencia en un grupo específico, considerando el intervalo de confianza de la estimación?
+
+## HCES
+
+-   Las **HCES** (*Household Consumption and Expenditure Surveys*) son encuestas que recopilan datos sobre **gastos y consumo de hogares**, incluyendo alimentos, educación y salud.\
+
+-   Permiten analizar la **distribución del ingreso y brechas nutricionales** en poblaciones .
+
+-   Son implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial
+
+## Componentes clave de las HCES
+
+-   **Ingresos familiares**: Fuentes y niveles económicos.\
+-   **Patrones de consumo**: Tipos y cantidades de alimentos consumidos.\
+-   **Destino del gasto**: Prioridades en alimentación, vivienda, salud, etc.
+
+## Fortalezas
+
+-   Generalmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.
+
+-   Suelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.
+
+-   Los datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.
+
+-   Incluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.
+
+## Debilidades
+
+-   Falta de representatividad en ciertos niveles geográficos:
+
+-   Frecuencia limitada (10 años):
+
+-   Limitaciones metodológicas en la medición del consumo (consumo aparente, estacionalidad)
+
+-   Diseño heterogéneo entre países
+
+## Debilidades
+
+-   Inadecuación para análisis individuales:
+
+-   Sesgos por períodos largos de recuerdo:
+
+-   Impedimento para comparaciones internacionales:
+
+## Utilidad de los resultados
+
+-   monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor
+
+-   evaluar la seguridad alimentaria y la nutrición.
+
+## sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados
+
+1.  Porcentaje de la población que consume el alimento fortificado (AF)
+
+2.  Promedio de consumo del alimento fortificado
+
+3.  Promedio de ingesta de micronutriente/s del Alimento fortificado
+
+4.  Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)
+
+## Frecuencia de la población que consume el alimento fortificado (AF)
+
+**Uso**: Evaluar la cobertura del programa de fortificación.\
+**Fórmula**:\
+$$  
+\frac{\text{Número de personas que consumen AF}}{\text{Población total objetivo}} \times 100  
+$$\
+**Cálculo con HCES**: Se identifica la proporción de hogares o individuos que reportan consumo de AF en registros de adquisiciones o gastos .
+
+------------------------------------------------------------------------
+
+## Promedio de consumo del alimento fortificado
+
+**Uso**: Medir la cantidad promedio de AF consumida por persona/día.\
+**Fórmula**:\
+$$  
+\frac{\text{Consumo total de AF en la población}}{\text{Número de consumidores}}  
+$$\
+**Cálculo con HCES**: Se extraen datos de cantidades adquiridas o consumidas de AF (en gramos o mililitros) y se normalizan por día o semana .
+
+## Promedio de ingesta de micronutriente/s del Alimento fortificado
+
+**Uso**: Cuantificar el aporte nutricional del Alimento fortificado.\
+**Fórmula**:\
+$$  
+\text{Concentración de MN en AF (mg/100g)} \times \text{Consumo promedio de AF (g/día)}  
+$$\
+**Cálculo con HCES**: Se multiplica el contenido de micronutrientes (ej. hierro en harina fortificada) por el consumo promedio registrado en HCES .
+
+## Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)
+
+**Uso**: Evaluar el impacto del AF en cubrir requerimientos nutricionales.\
+**Fórmula**:\
+$$  
+\frac{\text{Ingesta de MN desde el AF}}{\text{Requerimiento Promedio Estimado (EAR)}} \times 100  
+$$\
+**Cálculo con HCES**: Se compara la ingesta de micronutrientes desde el AF (calculada con datos de HCES) contra el EAR establecido por organismos internacionales .
+
+## Cálculo a partir de HCES
+
+-   **Datos individuales**: Las HCES registran consumo por hogar o individuo, lo que permite calcular indicadores a nivel poblacional .\
+-   **Agregación**: Métodos como la **agregación simple** ponderan subindicadores (ej. consumo en diferentes regiones) para obtener promedios nacionales .
+
+## Ejercicio
+
+Se le presentará una encuesta HCES aplicada en un contexto específico. Su tarea será identificar y calcular los cuatro indicadores requeridos a partir de las variables disponibles en el formulario.

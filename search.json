@@ -1,235 +1,374 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Nuestro Contexto y Misión",
-    "section": "",
-    "text": "La fortificación de alimentos a gran escala (LSFF, por sus siglas en inglés) es una estrategia ampliamente reconocida por su costo-efectividad para reducir las deficiencias de micronutrientes en la población. Sin embargo, su implementación enfrenta desafíos significativos, especialmente en lo que respecta al control de calidad de los alimentos fortificados, la cobertura, el consumo y la contribución de estos alimentos a la ingesta de micronutrientes a nivel poblacional.\nEn muchos países de América Latina y el Caribe, la información sobre estos componentes clave es limitada o inexistente. Esta falta de datos impide evaluar con precisión la efectividad de los programas de fortificación y su impacto nutricional, particularmente en poblaciones vulnerables.\nEn respuesta a esta necesidad, el Programa Mundial de Alimentos (PMA) está desarrollando un paquete de asistencia técnica para apoyar a los gobiernos de la región en el diseño y la evaluación de estrategias de fortificación, con especial atención a:\n\nEl control de calidad de los alimentos fortificados,\nLa cobertura de alimentos fortificados y fortificables (aquellos con producción centralizada en grandes industrias),\nEl consumo de estos alimentos a nivel de hogar y población, y\nSu contribución a la ingesta de micronutrientes esenciales.",
-    "crumbs": [
-      "🏠 Home",
-      "Nuestro Contexto y Misión"
-    ]
-  },
-  {
-    "objectID": "contenido/taller/dia1/clase01.html#sumario",
-    "href": "contenido/taller/dia1/clase01.html#sumario",
-    "title": "Conferencia 1",
+    "objectID": "static/pdf/introduccion_modulos01.html#sumario",
+    "href": "static/pdf/introduccion_modulos01.html#sumario",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
     "section": "Sumario",
-    "text": "Sumario\n\nBreve revisión sobre las estrategias de fortificación\nExploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES\nRefuerzo de conceptos clave y preguntas de los participantes para aclarar dudas",
+    "text": "Sumario\n\nIntroducción\nOrganización y estructura de la capacitación\nResultados esperados e impacto\nPróximos Pasos",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#micronutrientes-esenciales",
+    "href": "static/pdf/introduccion_modulos01.html#micronutrientes-esenciales",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Micronutrientes esenciales",
+    "text": "Micronutrientes esenciales\n\nCompuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos)\nRequeridos en cantidades mínimas para garantizar funciones fisiológicas críticas",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#micronutrientes-esenciales-1",
+    "href": "static/pdf/introduccion_modulos01.html#micronutrientes-esenciales-1",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Micronutrientes esenciales",
+    "text": "Micronutrientes esenciales\n\nEl organismo no puede sintetizarlos o lo hace en cantidades insuficientes por lo que se deben incorporar de fuentes exógenas",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-definición",
+    "href": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-definición",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Desnutrición por carencia de micronutrientes: definición",
+    "text": "Desnutrición por carencia de micronutrientes: definición\n¨Una condición patológica resultante de la ingesta o absorción inadecuada de vitaminas y minerales esenciales necesarios para el funcionamiento óptimo del organismo, incluso cuando el consumo calórico es suficiente¨",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-espectro-clínico",
+    "href": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-espectro-clínico",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Desnutrición por carencia de micronutrientes: Espectro clínico",
+    "text": "Desnutrición por carencia de micronutrientes: Espectro clínico",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-multicausalidad",
+    "href": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-multicausalidad",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Desnutrición por carencia de micronutrientes: Multicausalidad",
+    "text": "Desnutrición por carencia de micronutrientes: Multicausalidad",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#determinates-socioeconómicos-de-la-salud",
+    "href": "static/pdf/introduccion_modulos01.html#determinates-socioeconómicos-de-la-salud",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Determinates socioeconómicos de la salud",
+    "text": "Determinates socioeconómicos de la salud\n\nEl ingreso, empleo y educación condicionan el acceso a recursos básicos (alimentos, vivienda, servicios de salud).\nLas desigualdades sociales aumentan el riesgo de enfermedad y muerte prematura.\nEl entorno social y económico moldea estilos de vida, exposición a riesgos y capacidad de respuesta ante enfermedades.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#ejemplo",
+    "href": "static/pdf/introduccion_modulos01.html#ejemplo",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Ejemplo",
+    "text": "Ejemplo\nLos altos precios limitan el acceso a alimentos en cantidad y calidad suficiente.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#ejemplo-1",
+    "href": "static/pdf/introduccion_modulos01.html#ejemplo-1",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Ejemplo",
+    "text": "Ejemplo",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#los-determinates-socioeconómicos-juegan-un-papel-importante-en-la-salud",
+    "href": "static/pdf/introduccion_modulos01.html#los-determinates-socioeconómicos-juegan-un-papel-importante-en-la-salud",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Los determinates socioeconómicos juegan un papel importante en la salud",
+    "text": "Los determinates socioeconómicos juegan un papel importante en la salud",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-prevanlecia",
+    "href": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-prevanlecia",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Desnutrición por carencia de micronutrientes: prevanlecia",
+    "text": "Desnutrición por carencia de micronutrientes: prevanlecia",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-estrategias-de-control-oms",
+    "href": "static/pdf/introduccion_modulos01.html#desnutrición-por-carencia-de-micronutrientes-estrategias-de-control-oms",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Desnutrición por carencia de micronutrientes: Estrategias de control (OMS)",
+    "text": "Desnutrición por carencia de micronutrientes: Estrategias de control (OMS)",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos",
+    "href": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Fortificación de alimentos",
+    "text": "Fortificación de alimentos\n“La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de un micronutriente esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo.”",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-definición",
+    "href": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-definición",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Fortificación de alimentos: definición",
+    "text": "Fortificación de alimentos: definición",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-ventajas-y-limitaciones",
+    "href": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-ventajas-y-limitaciones",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Fortificación de alimentos: ventajas y limitaciones",
+    "text": "Fortificación de alimentos: ventajas y limitaciones",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-hoja-de-ruta-para-la-fortificación-en-cuba",
+    "href": "static/pdf/introduccion_modulos01.html#fortificación-de-alimentos-hoja-de-ruta-para-la-fortificación-en-cuba",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Fortificación de alimentos: Hoja de ruta para la fortificación en Cuba",
+    "text": "Fortificación de alimentos: Hoja de ruta para la fortificación en Cuba",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#fortalecimiento-de-las-capacidades-de-los-actores-clave",
+    "href": "static/pdf/introduccion_modulos01.html#fortalecimiento-de-las-capacidades-de-los-actores-clave",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Fortalecimiento de las capacidades de los actores clave",
+    "text": "Fortalecimiento de las capacidades de los actores clave",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#paquete-de-asitencia-téctica-organización-y-estructura-de-la-capacitación",
+    "href": "static/pdf/introduccion_modulos01.html#paquete-de-asitencia-téctica-organización-y-estructura-de-la-capacitación",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Paquete de asitencia téctica: Organización y estructura de la capacitación",
+    "text": "Paquete de asitencia téctica: Organización y estructura de la capacitación\n\nCapacitación en línea (80 horas):\n\nMódulos e-learning sobre HCES, modelización dietética y estadística.\n\n\nTaller presencial (5 días, 40 horas):\n\nEjercicios prácticos con datos reales (ejemplo: Guatemala).\n\n\nHerramientas técnicas:\n\nManuales y guías para implementar el sistema de 4 indicadores.\n\n\nApoyo continuo:\n\nMisiones presenciales y sesiones remotas.\n\n\nGeneración de evidencia científica:\n\nInvestigación sobre barreras y facilitadores para la adopción del sistema.\nArtículo científico",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#blended-learning-fusión-de-aprendizaje-presencial-y-en-línea",
+    "href": "static/pdf/introduccion_modulos01.html#blended-learning-fusión-de-aprendizaje-presencial-y-en-línea",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Blended Learning: Fusión de aprendizaje presencial y en línea",
+    "text": "Blended Learning: Fusión de aprendizaje presencial y en línea\nEsencia: Integrar lo mejor de ambos mundos (presencial + online) para personalizar y optimizar la experiencia educativa.\nClaves en 10 palabras: Sinergia, flexibilidad, personalización, tecnología con propósito, autonomía guiada.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#módulos-e-learning-temas-clave",
+    "href": "static/pdf/introduccion_modulos01.html#módulos-e-learning-temas-clave",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Módulos e-Learning (Temas Clave)",
+    "text": "Módulos e-Learning (Temas Clave)\n\nDiseño de estrategias de fortificación y metodologías HCES.\nHabilidades estadísticas (inferencia, regresión, correlación).\nModelización de dietas con datos HCES:\n\n\nEstimación de ingesta aparente.\nAjuste por edad, género y contexto.\n\n\nIngesta de micronutrientes:\n\n\nUso del EAR (Requerimiento Promedio Estimado).\n\n\nEscenarios de fortificación:\n\n\nCálculo de niveles factibles (FFL) y construcción de modelos.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#plataforma",
+    "href": "static/pdf/introduccion_modulos01.html#plataforma",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Plataforma",
+    "text": "Plataforma",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#taller-presencial-estructura-por-días",
+    "href": "static/pdf/introduccion_modulos01.html#taller-presencial-estructura-por-días",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Taller Presencial (Estructura por Días)",
+    "text": "Taller Presencial (Estructura por Días)\nDía 1: - Introducción a HCES y estadística. - Preparación de datos para modelización.\nDías 2-3: - Modelización de ingesta dietética aparente (ejercicios prácticos).\nDía 4: - Estimación de contribución de micronutrientes.\nDía 5: - Construcción de escenarios de fortificación y cálculo de niveles FFL.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#resultados-esperados",
+    "href": "static/pdf/introduccion_modulos01.html#resultados-esperados",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Resultados esperados",
+    "text": "Resultados esperados\n\nPersonal capacitado:\n\nExpertos en diseño y evaluación de estrategias de fortificación.\n\nPropuesta de optimización:\n\nSelección de vehículos fortificados con alta cobertura y impacto en micronutrientes.\n\nActualización normativa:\n\nRevisión de estándares de fortificación basada en evidencia.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#sistema-de-indicadores-propuesto",
+    "href": "static/pdf/introduccion_modulos01.html#sistema-de-indicadores-propuesto",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Sistema de Indicadores Propuesto",
+    "text": "Sistema de Indicadores Propuesto\n\n\n\n\n\n\n\n\nIndicador\nMétrica\nFuente\n\n\n\n\nCobertura (% de población que consume AF)\n-\nHCES\n\n\nIngesta de micronutrientes del AF\nMedia aritmética\nHCES\n\n\nContribución del AF al EAR\nRelación con EAR (OMS/FAO)\nHCES + EAR",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#impacto-esperado-en-cuba",
+    "href": "static/pdf/introduccion_modulos01.html#impacto-esperado-en-cuba",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Impacto Esperado en Cuba",
+    "text": "Impacto Esperado en Cuba\n\nCorto plazo:\n\nCapacitación de equipos técnicos para usar HCES en fortificación.\n\nLargo plazo:\n\nProgramas de fortificación más eficientes y sostenibles.\nMejora en la ingesta de micronutrientes en la población.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos01.html#próximos-pasos",
+    "href": "static/pdf/introduccion_modulos01.html#próximos-pasos",
+    "title": "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes",
+    "section": "Próximos Pasos",
+    "text": "Próximos Pasos\n\nLanzamiento de módulos e-learning.\nOrganización del taller presencial (fechas y logística).\nDesarrollo de manuales técnicos.\nIniciar investigación para validación científica.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fortificación de Alimentos a Gran Escala",
+    "section": "",
+    "text": "Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.\nNuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.\nEste curso en línea se centra en la cobertura, el consumo y la contribución de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.\nEstas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.\nPresentamos el contenido para facilitar tu aprendizaje organizado en módulos de E-learning, contenido para el desarrollo de talleres presenciales y ofrecemos una serie de recursos adicionales para complementar tu formación."
+  },
+  {
+    "objectID": "index.html#bienvenidoa-al-portal-de-capacitación-en-fortificación-de-alimentos",
+    "href": "index.html#bienvenidoa-al-portal-de-capacitación-en-fortificación-de-alimentos",
+    "title": "Fortificación de Alimentos a Gran Escala",
+    "section": "",
+    "text": "Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.\nNuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.\nEste curso en línea se centra en la cobertura, el consumo y la contribución de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.\nEstas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.\nPresentamos el contenido para facilitar tu aprendizaje organizado en módulos de E-learning, contenido para el desarrollo de talleres presenciales y ofrecemos una serie de recursos adicionales para complementar tu formación."
+  },
+  {
+    "objectID": "index.html#comienza-tu-aprendizaje-hoy",
+    "href": "index.html#comienza-tu-aprendizaje-hoy",
+    "title": "Fortificación de Alimentos a Gran Escala",
+    "section": "¡Comienza tu aprendizaje hoy!",
+    "text": "¡Comienza tu aprendizaje hoy!\nTe invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.\n\n\n\n\n\n\nAutores: Maicel Monzón Pérez PhD, Yarisa Domínguez Ayllón Msc y\nCarlos Santiago Rodas Moya PhD."
+  },
+  {
+    "objectID": "contenido/taller/dia1/index.html",
+    "href": "contenido/taller/dia1/index.html",
+    "title": "Día 1: Introducción sobre estrategias de fortificación de alimentos",
+    "section": "",
+    "text": "Esta es la página de resumen para el Día 1 del taller. Aquí puedes encontrar las presentaciones de las clases de hoy incrustadas directamente, junto con recursos adicionales para que aproveches al máximo la jornada.",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Taller",
-      "Día 1: Introducción sobre estrategias de fortificación de alimentos",
-      "Conferencia 1"
-    ]
-  },
-  {
-    "objectID": "contenido/taller/dia1/clase01.html#introdución",
-    "href": "contenido/taller/dia1/clase01.html#introdución",
-    "title": "Conferencia 1",
-    "section": "Introdución",
-    "text": "Introdución\n\n\ncontents…\n\ncontents…",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Taller",
-      "Día 1: Introducción sobre estrategias de fortificación de alimentos",
-      "Conferencia 1"
-    ]
-  },
-  {
-    "objectID": "contenido/recursos/tablas/tablas.html",
-    "href": "contenido/recursos/tablas/tablas.html",
-    "title": "Tablas de composición de alimentos",
-    "section": "",
-    "text": "Las tablas de composición de alimentos son recopilaciones de datos de la cantidad media de energía y nutrientes, y otras sustancias, que los alimentos aportan cuando son consumidos y, por tanto, son esenciales para poder juzgar los alimentos y las dietas desde el punto de vista nutricional.\n¿Para qué sirven?\nLos datos que suministran estas bases de datos son útiles para diseñar políticas nutricionales, investigar en nutrición, realizar estudios de dieta total, diseñar nuevos productos e incluso para proporcionar información de interés a los consumidores, cada vez más preocupados por conocer las características de los alimentos que consumen.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Recursos",
-      "Tablas",
-      "Tablas de composición de alimentos"
-    ]
-  },
-  {
-    "objectID": "contenido/recursos/tablas/tablas.html#qué-información-contienen",
-    "href": "contenido/recursos/tablas/tablas.html#qué-información-contienen",
-    "title": "Tablas de composición de alimentos",
-    "section": "¿Qué información contienen?",
-    "text": "¿Qué información contienen?\n\nValores de energía (calorías)\nMacronutrientes: proteínas, grasas, carbohidratos\nMicronutrientes: vitaminas y minerales\nOtros componentes: fibra, agua, compuestos bioactivos, etc.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Recursos",
-      "Tablas",
-      "Tablas de composición de alimentos"
-    ]
-  },
-  {
-    "objectID": "contenido/recursos/tablas/tablas.html#fuentes",
-    "href": "contenido/recursos/tablas/tablas.html#fuentes",
-    "title": "Tablas de composición de alimentos",
-    "section": "Fuentes",
-    "text": "Fuentes\nLas tablas pueden estar disponibles en formato impreso o digital (bases de datos en línea), y existen versiones nacionales e internacionales adaptadas a los alimentos y hábitos de cada región.\nTablas de centro américa\nDownload PDF file.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Recursos",
-      "Tablas",
-      "Tablas de composición de alimentos"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 2/modulo06.html",
-    "href": "contenido/micromodulos/tema 2/modulo06.html",
-    "title": "Módulo 06",
-    "section": "",
-    "text": "sumario\nIndicadores propuestos para el análisis de HCES\n\nPorciento de la población que consume el alimento fortificado\nPromedio de consume del alimento fortificado\nPromedio de ingesta de micronutriente/s del alimento fortificado\nContribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )\n\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 2",
-      "Módulo 06"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo02.html",
-    "href": "contenido/micromodulos/tema 1/modulo02.html",
-    "title": "Módulo 02",
-    "section": "",
-    "text": "Sumario\n\nEncuestas de Consumo y Gasto de los Hogares (HCES)\nFortalezas y debilidades\nImportancia\nUtilidad de los resultados\n\n\n\n\nEncuestas de Consumo y Gasto de los Hogares (HCES)\nLas Encuestas de Consumo y Gasto de los Hogares (ECH), también conocidas con otros nombres como Encuestas de Ingresos y Gastos de los Hogares (EIGH), Encuestas de Presupuesto de los Hogares (EPH) o Encuestas de Medición del Nivel de Vida (EMNV), son encuestas complejas que se realizan sobre una muestra representativa a nivel nacional para caracterizar aspectos importantes de las condiciones socioeconómicas de los hogares (Government of Canada 2023).\nLa mayoría de las ECH son implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial.\n\n\nFortalezas\n\nGeneralmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.\n\nSuelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.\n\nLos datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.\n\nIncluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.\n\n\n\nDebilidades\nA pesar de su relevancia como fuente de información socioeconómica, las ECH presentan limitaciones que pueden afectar su utilidad para análisis específicos de seguridad alimentaria y nutrición:\n\nFalta de representatividad en ciertos niveles geográficos: Aunque muchas son representativas a nivel nacional, no siempre lo son a nivel subnacional (provincial o distrital).\nFrecuencia limitada: Generalmente se realizan cada 3 a 5 años, lo cual permite el análisis de tendencias, pero limita la capacidad de monitoreo en tiempo real.\nLimitaciones metodológicas en la medición del consumo:\n\nMuchas encuestas miden solo el consumo aparente basado en adquisiciones, no el consumo real.\nAlgunas no capturan adecuadamente alimentos consumidos fuera del hogar, lo que subestima el consumo real.\nPueden omitir variaciones estacionales al recolectarse en un único período del año.\n\nDiseño heterogéneo entre países: Los módulos de consumo varían significativamente en cuanto a:\n\nDuración del período de recuerdo (de 1 a 365 días).\nRecolección de datos sobre adquisición, consumo o ambos.\nInclusión de información sobre el modo de obtención de alimentos (compra, producción propia, transferencias en especie).\nNivel de detalle en la lista de alimentos: si es abierta o cerrada, y su compatibilidad con bases de datos de composición nutricional.\nUso de unidades de medida no estándar sin posibilidad de conversión.\n\nInadecuación para análisis individuales: Los datos se recopilan a nivel de hogar, lo que dificulta la evaluación de indicadores nutricionales a nivel individual.\nSesgos por períodos largos de recuerdo: Períodos superiores a dos semanas pueden generar errores por olvido o imprecisión en los reportes.\nImpedimento para comparaciones internacionales: La falta de estandarización entre países limita la comparabilidad de resultados en estudios regionales o globales.\n\n\n\nUtilidad de los resultados\nLas Encuestas de Consumo y Gasto de los Hogares (ECH) tienen como propósito principal proporcionar información para el monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor.\nEn años recientes, ha surgido un interés creciente por aprovechar el módulo de consumo de alimentos de estas encuestas como fuente representativa a nivel nacional para evaluar la seguridad alimentaria y la nutrición.\nAdemás, las ECH recopilan una amplia gama de datos sobre factores determinantes y resultados socioeconómicos —como el nivel educativo y el estatus económico—, lo que enriquece el análisis contextual de la seguridad alimentaria y la nutrición.\nDe acuerdo con la evidencia disponible, existe un amplio consenso en que las ECH, siempre que cuenten con módulos de consumo bien diseñados, son una fuente valiosa de información para medir la seguridad alimentaria y la nutrición a nivel de hogar.\n\n\n\n\n\n\n\n\nBibliografía\n\nGovernment of Canada, Statistics Canada. 2023. “Archived - Survey of Household Spending, 2023.” https://www.statcan.gc.ca/en/statistical-programs/instrument/3508_Q1_V21.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 02"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo05.html",
-    "href": "contenido/micromodulos/tema 1/modulo05.html",
-    "title": "Módulo 05",
-    "section": "",
-    "text": "Las HCES recogen datos de adquisición o gasto del hogar, no directamente de consumo individual. Por lo tanto, se requiere un mapeo cuidadoso y, a menudo, algunas suposiciones.\nA continuación, asocio las variables de tus fórmulas con las categorías de datos que típicamente se encuentran en una HCES:",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 05"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo05.html#porcentaje-de-la-población-que-consume-el-alimento-fortificado",
-    "href": "contenido/micromodulos/tema 1/modulo05.html#porcentaje-de-la-población-que-consume-el-alimento-fortificado",
-    "title": "Módulo 05",
-    "section": "1. Porcentaje de la población que consume el alimento fortificado",
-    "text": "1. Porcentaje de la población que consume el alimento fortificado\n\nH_Compra_AF_Positivo (Número de hogares que reportaron haber comprado una cantidad mayor a cero del alimento fortificado):\n\nVariables HCES: En las secciones de gasto o adquisición de alimentos de la HCES, se busca la pregunta o ítem que registra si el hogar compró (o adquirió por otras vías, como autoconsumo o recibo como regalo/salario en especie) el alimento fortificado específico durante el período de referencia de la encuesta (ej., los últimos 7 días, 15 días o 30 días).\nEjemplo de dato HCES: Un indicador binario (sí/no) para cada hogar sobre la adquisición de “harina de trigo”, “aceite vegetal”, “sal yodada”, etc. Si la HCES registra la cantidad comprada, se consideraría “positivo” cualquier valor mayor a cero.\n\nH_Total_Muestra (Número total de hogares en la muestra de la ECGH/HCES):\n\nVariables HCES: Este es simplemente el número total de unidades de muestreo de hogares que fueron encuestadas y para las cuales se tiene información completa para el análisis.\nEjemplo de dato HCES: El total de registros de hogares en el archivo de datos de la encuesta.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 05"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-consumo-aparente-del-alimento-fortificado",
-    "href": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-consumo-aparente-del-alimento-fortificado",
-    "title": "Módulo 05",
-    "section": "2. Promedio de consumo aparente del alimento fortificado",
-    "text": "2. Promedio de consumo aparente del alimento fortificado\n\na. Adquisiciones Diarias por Hogar (en gramos o mililitros/día)\n\nCant_Total_Comprada (Cantidad total del alimento fortificado comprada por el hogar en el período de reporte):\n\nVariables HCES: En las HCES, se suelen preguntar las cantidades (en unidades de medida específicas como kg, litros, gramos, etc.) de cada alimento adquirido por el hogar durante un período de referencia. También se registrará el gasto total en cada alimento.\nDesafíos y Consideraciones HCES:\n\nUnidades: Las HCES pueden registrar cantidades en unidades variadas (libras, sacos, etc.). Es crucial estandarizar estas a unidades métricas (gramos/mililitros) usando factores de conversión apropiados.\nFuente de Adquisición: Las HCES suelen diferenciar entre compras, autoconsumo/producción propia, regalos, etc. Para un análisis completo, se deben sumar todas las fuentes de adquisición.\nAlimentos Específicos: La HCES debe permitir identificar claramente el “alimento fortificado” de interés (ej., “harina de trigo fortificada” vs. “harina de trigo no fortificada”, si la encuesta diferencia). En ausencia de esta distinción, se asume que toda la harina de trigo consumida está fortificada, lo cual es una limitación.\n\nEjemplo de dato HCES: “Cantidad de harina de trigo adquirida (kg) en los últimos 7 días”, “Gasto en aceite vegetal (moneda local) en los últimos 30 días”.\n\nDias_Reporte (Número de días del período de reporte de la encuesta):\n\nVariables HCES: Este es un parámetro de diseño de la encuesta, generalmente fijo (ej., 7 días, 15 días, 30 días) para cada sección de consumo de alimentos.\nEjemplo de dato HCES: Variable de diseño de la encuesta que indica el período de referencia para la recolección de datos de alimentos.\n\n\n\nEquivalentes de Ingrediente Básico (para alimentos compuestos, ej. FWFEs)\n\n\nAdq_Diaria_Producto_i (Adquisiciones Diarias del Producto i que contiene el ingrediente básico):\n\nVariables HCES: Similar a Cant_Total_Comprada, pero aplicado a productos que contienen el alimento fortificado como ingrediente (ej., pan, fideos si se fortifica la harina). La HCES debe preguntar por la adquisición de estos productos.\nEjemplo de dato HCES: “Cantidad de pan blanco adquirido (kg) en los últimos 7 días”, “Gasto en galletas (moneda local) en los últimos 30 días”.\n\nProp_Ingrediente_Producto_i (Proporción del ingrediente básico en el Producto i):\n\nVariables HCES: Esta información no se encuentra directamente en las HCES. Requiere de fuentes externas como:\n\nTablas de composición de alimentos: Para estimar la proporción del ingrediente básico (ej., harina de trigo) en productos procesados (pan, galletas).\nRecetas estándar o estudios de formulación: Si es un alimento fortificado producido industrialmente.\n\nEjemplo de dato HCES: No aplica directamente; debe ser vinculada externamente.\n\n\n\n\nc. Consumo Aparente por Unidades Equivalente de Adulto Masculino (AME)\n\nAdquisiciones_Diarias (Corresponde a Adquisiciones_Diarias_Hogar o EIB_Total):\n\nVariables HCES: Se deriva de los cálculos previos utilizando los datos de adquisición de la HCES.\n\nUnidades_AME_Hogar (Suma de los factores AME individuales para cada miembro del hogar):\n\nVariables HCES: Las HCES contienen una sección de características de los miembros del hogar, que incluye:\n\nEdad de cada miembro del hogar.\nSexo de cada miembro del hogar.\n\nDesafíos y Consideraciones HCES: Para calcular las unidades AME, se necesitan tablas de factores de conversión de AME (basadas en edad, sexo y a veces nivel de actividad física) que no están en la HCES misma, sino que se aplican a los datos de la HCES.\nEjemplo de dato HCES: “Edad del miembro 1”, “Sexo del miembro 1”, “Edad del miembro 2”, “Sexo del miembro 2”, etc.\n\n\n\n\nd. Consumo Aparente Ajustado para Subgrupos (Mujeres y Niños)\n\nConsumo_Aparente_AME: Se deriva de los cálculos previos.\nFactor_Ajuste_Subgrupo (Factor de ajuste basado en los requisitos de energía de la FAO para el subgrupo de interés):\n\nVariables HCES: Este factor no se encuentra en la HCES. Proviene de tablas de requerimientos nutricionales externas (ej., FAO/OMS, IOM), específicas para diferentes grupos de edad y sexo.\nEjemplo de dato HCES: No aplica directamente; se aplica externamente según las características de los miembros del hogar (edad, sexo) que sí están en la HCES.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 05"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
-    "href": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
-    "title": "Módulo 05",
-    "section": "3. Promedio de ingesta de micronutriente/s del alimento fortificado",
-    "text": "3. Promedio de ingesta de micronutriente/s del alimento fortificado\n\nConsumo_Aparente_Ajustado_Subgrupo: Se deriva de los cálculos previos.\nContenido_MN_AF (Contenido del micronutriente en el alimento fortificado):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se obtiene de:\n\nRegulaciones y estándares nacionales de fortificación: Que especifican la cantidad de micronutriente que debe añadirse por unidad de alimento.\nAnálisis de laboratorio de muestras de alimentos: Si se cuenta con datos de monitoreo de calidad.\nTablas de composición de alimentos: Si el alimento está naturalmente presente o si la fortificación es conocida.\n\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nBiodisponibilidad_Estimada (Porcentaje estimado de biodisponibilidad del micronutriente):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se basa en evidencia científica externa sobre la biodisponibilidad de los micronutrientes de diferentes fuentes en la dieta.\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nPerdidas_Estimadas (Porcentaje estimado de pérdidas del micronutriente durante la cocción o almacenamiento):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se basa en estudios de procesamiento de alimentos y pérdidas de nutrientes o suposiciones expertas.\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nFactor_Conversion_Unidades:\n\nVariables HCES: Esto es una operación de transformación de unidades que se realiza durante el procesamiento de los datos de la HCES, no una variable en sí misma. Se basa en las unidades de medida de la HCES y las unidades deseadas para el cálculo.\nEjemplo de dato HCES: La HCES podría indicar la “unidad de medida” para cada alimento (ej., kg, gramos, litros).",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 05"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo05.html#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear",
-    "href": "contenido/micromodulos/tema 1/modulo05.html#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear",
-    "title": "Módulo 05",
-    "section": "4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)",
-    "text": "4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)\n\nIngesta_Diaria_MN: Se deriva de los cálculos previos.\nEAR_Micronutriente_Subgrupo (Requerimiento Promedio Estimado - EAR - del micronutriente para el subgrupo de interés):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se obtiene de tablas de requerimientos nutricionales externos (ej., IOM, FAO/OMS) que proporcionan los EARs específicos para diferentes micronutrientes, ajustados por edad, sexo y estados fisiológicos (ej., embarazo, lactancia).\nEjemplo de dato HCES: No aplica directamente; es un valor externo que se vincula con las características demográficas de los individuos/subgrupos que sí están en la HCES.\n\n\n\n\nResumen de la Asociación HCES y Fórmulas:\nLas HCES son cruciales para obtener los datos sobre la adquisición de alimentos por los hogares (Cant_Total_Comprada, Adq_Diaria_Producto_i) y las características demográficas de los miembros del hogar (Edad, Sexo).\nSin embargo, para aplicar rigurosamente tus fórmulas, siempre necesitarás fuentes de datos externas a la HCES para:\n\nFactores de conversión de unidades (si la HCES no lo provee o las unidades no son estándar).\nProporción de ingredientes básicos en alimentos compuestos.\nFactores de equivalencia AME.\nFactores de ajuste para subgrupos de consumo.\nContenido de micronutrientes en los alimentos fortificados (y no fortificados, para comparaciones).\nBiodisponibilidad de los micronutrientes.\nPérdidas de micronutrientes por cocción/almacenamiento.\nRequerimientos Promedio Estimados (EARs) de los micronutrientes.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 1",
-      "Módulo 05"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/index.html",
-    "href": "contenido/micromodulos/index.html",
-    "title": "Micromódulos e-learning",
-    "section": "",
-    "text": "Esta sección contiene una serie de micromódulos que cubren diferentes conceptos del curso. Los módulos e-learning se estructurarán en sesiones formativas de 15-40 minutos por día. Estos deberán completarse en un periodo de hasta dos meses, permitiendo una experiencia de formación progresiva y ágil. Los contenidos de los módulos se detallan a continuación.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 01\n\n\nIntroducción sobre estrategias de fortificación de alimentos\n\n\nSe describen las estrategias de fortificación de alimentos, se abordan temas como déficit nutricionales, política de fortificación de alimentos así como las fases para su implementación\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 02\n\n\nIntroducción de Encuestas de Consumo y Gastos en los Hogares HCES y sus usos en la planificación de estrategias de fortificación\n\n\nSe introducen las Encuestas de Consumo y Gasto de los Hogares así como sus características fundamentales\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 03\n\n\nDescripción de Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas: Generalidades de las HCES y obtención de datos HCES\n\n\nSe realiza una descripción de las Encuestas de Consumo en el modelado de dietas\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 04\n\n\nIntroducción a los módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria)\n\n\nSe realiza una descripción de módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 05\n\n\nRevisión de los tipos de análisis de datos a partir de variables y módulos seleccionados\n\n\nSe realiza una revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 06\n\n\nIntroducción a la inferencia estadística: estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación\n\n\nSe introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 07\n\n\nMetodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico.\n\n\nSe describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico.\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 08\n\n\nEstandarización de unidades de medida y conversión a gramos\n\n\nSe describe la Estandarización de unidades de medida y conversión a gramos\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 09\n\n\nResumen parcial\n\n\nSe realiza una recaputulacion del contenido abordado\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 10\n\n\nMétodo de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar\n\n\nSe describe el método de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 11\n\n\nEstimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género\n\n\nSe describe la forma en que se realiza el la estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 12\n\n\nAjuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)\n\n\nSe describe el ajuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 13\n\n\nEstimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\nSe describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 14\n\n\nMétodo del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes\n\n\nSe describe el método del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 15\n\n\nCálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\nSe describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 16\n\n\nDeterminación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\nSe describe el cálculo para la determinación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 17\n\n\nResumen del aprendizaje\n\n\nSe realiza una recapitulación de todos los temas tratados en los módulos\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo11.html",
-    "href": "contenido/micromodulos/tema 3/modulo11.html",
-    "title": "Módulo 11",
-    "section": "",
-    "text": "sumario\nLa estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género, a partir de los datos de las Encuestas de Gasto y Consumo en el Hogar (HCES), se realiza mediante el método de las Unidades de Equivalente de Adulto Masculino (AME). Este método es crucial porque las HCES no recopilan información sobre la asignación individual de alimentos dentro del hogar.\nA continuación, se detalla el método:\n\nNecesidad del Método AME:\n\nLas HCES, aunque son representativas a nivel nacional y se centran en los gastos del hogar, no capturan directamente el consumo de alimentos a nivel individual.\nPara poder estimar el consumo de alimentos y el impacto nutricional potencial de los alimentos fortificados, es necesario ajustar las variaciones en la composición del hogar. Aquí es donde entran en juego las unidades AME.\n\nConstrucción de Unidades AME:\n\nLas unidades AME se basan en las estimaciones de los requerimientos energéticos individuales de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), que son específicas por edad y sexo.\nEl valor de referencia para una unidad AME (AME = 1) es el requerimiento energético de un hombre de 19 a 30 años, estimado en 3.050 kcal/día.\nOtros grupos de edad y sexo se ponderan en función de sus necesidades energéticas estimadas en relación con este valor de referencia.\n\nEstimación para una Mujer Saludable de 18-29 (o 19-30) años:\n\nPara una mujer de 19 a 30 años, el factor AME es de 0.79.\nEste factor se calcula dividiendo su requerimiento energético estimado (2.400 kcal/día) por el del hombre de referencia (2.400 kcal/día / 3.050 kcal/día = 0.79).\n\nCálculo de Unidades AME por Hogar:\n\nSe asigna un peso o factor de ajuste AME a cada persona en el hogar.\nLa información demográfica básica, como el número de personas en cada hogar y la edad y el sexo de cada miembro del hogar, es necesaria para construir estas unidades AME.\nEstos pesos individuales se suman para proporcionar una estimación de las unidades AME totales del hogar.\n\nEstimación del Consumo Aparente por AME y Ajuste por Subgrupo:\n\nCuantificar las adquisiciones diarias por hogar: Primero, las cantidades de alimentos adquiridos por el hogar (reportadas en gramos o mililitros para un período específico, como los últimos 15 días) se estandarizan a unidades métricas (SI) y se dividen por el número de días del período de reporte para obtener estimaciones diarias. Para alimentos compuestos (ej., pan hecho con harina de trigo fortificada), se puede crear una variable compuesta (ej., Equivalentes de Harina de Trigo Fortificada - FWFEs) que estima la cantidad del ingrediente básico en los productos comprados.\nCalcular el consumo aparente por unidad AME: Las adquisiciones diarias del hogar (o los equivalentes de ingrediente básico) se dividen por las unidades AME totales del hogar. Esto produce una estimación del consumo aparente por unidad AME.\nAjustar para subgrupos específicos: Dado que las unidades AME se basan en el requerimiento energético de un hombre de 19 a 30 años, el consumo aparente por AME debe multiplicarse por un factor de ajuste específico para la edad y el sexo del grupo de interés. Por ejemplo, para estimar el consumo aparente ajustado para mujeres de 19-30 años, se multiplica el consumo aparente por AME por 0.79.\n\nSupuestos y Limitaciones:\n\nEl método AME se basa en el supuesto de que los requerimientos energéticos de la FAO son válidos para la población de interés.\nTambién asume que los alimentos se comparten dentro del hogar en proporción a los requerimientos energéticos.\nSin embargo, es importante reconocer que las HCES describen las adquisiciones y gastos de alimentos, no el consumo real o la ingesta verdadera.\nNo consideran factores como el desperdicio de alimentos, el compartir con invitados, los regalos de alimentos, el almacenamiento para uso posterior, la alimentación de animales, o la comida consumida fuera del hogar.\nLa suposición de que el consumo es proporcional a los requerimientos energéticos de la FAO puede no ser válida en todas las situaciones, y los alimentos pueden no compartirse de manera equitativa dentro del hogar.\nA pesar de estas limitaciones, el uso de datos de HCES con el método AME es valioso para el diseño y monitoreo de programas de fortificación de alimentos, especialmente cuando no se dispone de datos de consumo a nivel individual.\n\n\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 11"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo09.html",
-    "href": "contenido/micromodulos/tema 3/modulo09.html",
-    "title": "Módulo 09",
-    "section": "",
-    "text": "sumario\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 09"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo08.html",
-    "href": "contenido/micromodulos/tema 3/modulo08.html",
-    "title": "Módulo 08",
-    "section": "",
-    "text": "sumario\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 08"
+      "Día 1: Introducción sobre estrategias de fortificación de alimentos"
     ]
   },
   {
@@ -300,102 +439,6 @@
       "Micromódulos e-learning",
       "tema 4",
       "Módulo 14"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 5/modulo17.html",
-    "href": "contenido/micromodulos/tema 5/modulo17.html",
-    "title": "Módulo 17",
-    "section": "",
-    "text": "sumario\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 5",
-      "Módulo 17"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/tema 1/ejercicio02.html",
-    "href": "contenido/ejercicios/tema 1/ejercicio02.html",
-    "title": "Ejercicio 2: Fortificación a gran escala",
-    "section": "",
-    "text": "Implementada en más de 100 países, la fortificación a gran escala salva vidas al enriquecer alimentos básicos con vitaminas y minerales clave, combatiendo ‘el hambre oculta’ de forma costo-efectiva.\n\n\n\n\n\n\n\nNote\n\n\n\nLa fortificación a gran escala (también llamada fortificación masiva o mandatoria) es una estrategia de salud pública que consiste en agregar micronutrientes esenciales (vitaminas y minerales) a alimentos de consumo masivo y ampliamente distribuidos, con el objetivo de prevenir o corregir deficiencias nutricionales en poblaciones enteras. Se implementa a nivel nacional o regional mediante políticas gubernamentales y regulaciones obligatorias.\n\n\n\n---\nprimary_color: orange\nsecondary_color: lightgray\ntext_color: black\nshuffle_questions: false\nshuffle_answers: true\n---\n\n# Fortificacion se define como:\n\n&gt; proporciona un beneficio de salud pública con un riesgo mínimo para la salud\n\n- [x] La fortificación es la práctica de incrementar deliberadamente el contenido de un micronutriente esencial de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo para la salud.\n- [ ] La fortificación se refiere a la adición de micronutrientes a alimentos que consume comúnmente la población en general, como cereales, condimentos y leche.\n- [ ] Se refiere a la fortificación de alimentos diseñados para subgrupos específicos de la población, como los alimentos complementarios para el destete de lactantes.\n\n## En el control de las carencias de micronutrientes\n\nSeleccione tres estrategias \n\n&gt; Some hint\n\n- [x] Aumento de la diversidad de la dieta\n- [x] Fortificación de alimentos\n- [x] Suplementación\n- [ ] Restricción de consumo de frutas\n\n## Ponga las etapas de fortificación a gran escala en orden\n\n&gt; La busqueda de evidecia es la *primera* etapa.\n\n1. Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo\n2. Selección de Alimentos Vehiculares Apropiados para la Fortificación\n3. Determinación de los Niveles de Fortificación y los Fortificantes Adecuados\n4. Desarrollo y Promulgación de Legislación y Normas de Fortificación\n5. Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento\n6. Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados\n7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios",
-      "tema 1",
-      "Ejercicio 2: Fortificación a gran escala"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/index.html",
-    "href": "contenido/ejercicios/index.html",
-    "title": "Ejercicios",
-    "section": "",
-    "text": "Esta sección contiene una serie de ejercicios interactivos que cubren diferentes actividades del curso ya sea para la modalidad e-learning como para el taller.\nLos ejercicios se estructurarán en temas que correspondes a cada actividad de capacitación. Los contenidos de los ejercicios abarcan todos los objetivos de la capacitación así como otros contenidos complementarios. A continuación se muestra el listado de ejercicios.\nListado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 1: Micronutrientes y carencias nutricionales\n\n\nTema 1\n\n\nEjercicio sobre el tema de micronutrientes y carencias nutricionales\n\n\n\n\n\nJun 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 2: Fortificación a gran escala\n\n\nTema 1\n\n\nEjercicio sobre el tema de Fortificación a gran escala\n\n\n\n\n\nJun 29, 2025\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#es-la-siguiente-definición-verdadera",
-    "href": "contenido/ejercicios/tema 1/ejercicio01.html#es-la-siguiente-definición-verdadera",
-    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
-    "section": "¿Es la siguiente definición verdadera?",
-    "text": "¿Es la siguiente definición verdadera?\nMicronutrientes esenciales: Nutrientes que el cuerpo requiere en cantidades traza para funciones bioquímicas específicas, como cofactores enzimáticos o antioxidantes, y que pueden ser sintetizados parcialmente por el organismo o la microbiota intestinal.\n\n\n\n\n\n\nRespuesta\n\n\n\n\n\nFalso\nLos micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios",
-      "tema 1",
-      "Ejercicio 1: Micronutrientes y carencias nutricionales"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-las-carencia-de-micronutriente-más-frecuentes-en-el-mundo",
-    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-las-carencia-de-micronutriente-más-frecuentes-en-el-mundo",
-    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
-    "section": "¿Cuál es las carencia de micronutriente más frecuentes en el mundo?",
-    "text": "¿Cuál es las carencia de micronutriente más frecuentes en el mundo?\n\n\n\n\n\n\nRespuesta correcta\n\n\n\n\n\nDeficiencia de hierro\nLa deficiencia de hierro es la más común a nivel global y una de las principales causas de anemia, afectando especialmente a mujeres en edad fértil, embarazadas y niños pequeños. Se estima que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren falta de hierro.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios",
-      "tema 1",
-      "Ejercicio 1: Micronutrientes y carencias nutricionales"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuáles-son-las-carencias-nutricionales-más-frecuentes-en-cuba",
-    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuáles-son-las-carencias-nutricionales-más-frecuentes-en-cuba",
-    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
-    "section": "¿Cuáles son las carencias nutricionales más frecuentes en Cuba?",
-    "text": "¿Cuáles son las carencias nutricionales más frecuentes en Cuba?\n\nDéficit de vitamina A\n\nDéficit de vitamina D\n\nAnemia por déficit de hierro\n\nDéficit de Yodo\n\n\n\n\n\n\n\nRespuesta correcta\n\n\n\n\n\na) Déficit de vitamina A\nc) Anemia por déficit de hierro\nd) Déficit de Yodo",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios",
-      "tema 1",
-      "Ejercicio 1: Micronutrientes y carencias nutricionales"
-    ]
-  },
-  {
-    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-la-definición-completa-de-fortificación-de-alimentos-según-organismos-internacionales",
-    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-la-definición-completa-de-fortificación-de-alimentos-según-organismos-internacionales",
-    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
-    "section": "¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?",
-    "text": "¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?\n  Adición de vitaminas a alimentos para grupos específicos como niños o embarazadas    Incremento deliberado de micronutrientes esenciales en alimentos para mejorar la calidad nutricional con beneficio de salud pública    Adición de minerales solo a alimentos básicos como harinas o leche para consumo masivo \n\nComprobar respuesta",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Ejercicios",
-      "tema 1",
-      "Ejercicio 1: Micronutrientes y carencias nutricionales"
     ]
   },
   {
@@ -483,17 +526,383 @@
     ]
   },
   {
-    "objectID": "contenido/micromodulos/tema 5/modulo16.html",
-    "href": "contenido/micromodulos/tema 5/modulo16.html",
-    "title": "Módulo 16",
+    "objectID": "contenido/micromodulos/index.html",
+    "href": "contenido/micromodulos/index.html",
+    "title": "Micromódulos e-learning",
     "section": "",
-    "text": "sumario\nLa determinación de los niveles de fortificación factibles (NPF) en los alimentos es un proceso crucial que se apoya en una metodología sistemática y en la evaluación de diversos indicadores, siguiendo las recomendaciones de organizaciones como la Organización Mundial de la Salud (OMS)\n\nConcepto de Nivel Posible de Fortificación (NPF)\nEl Nivel Posible de Fortificación (NPF) es la concentración de micronutrientes que se puede añadir a un alimento, teniendo en cuenta las limitaciones de costo y tecnología, para proporcionar una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.\nEste concepto es fundamental para: * Estimar la ingesta adicional que resultaría del consumo de un alimento fortificado. * Calcular el costo probable del proceso de fortificación. * Formular la premezcla final del micronutriente. * Sirve como base para los parámetros de producción y reglamentación, incluyendo el nivel objetivo de fortificación (NOF), el nivel mínimo de fortificación (NmF), el nivel máximo de fortificación (NMF), el nivel legal mínimo (NLm) y el nivel máximo tolerable (NMT).\n\n\nRecomendaciones de la OMS y Metodología\nLa OMS (junto con la FAO y la UNU) ha establecido directrices y valores de referencia para nutrientes que son la base para determinar los niveles de fortificación,,. El método recomendado para fijar estos niveles es el método del punto de corte del Requerimiento Promedio Estimado (RPE),,,,,,.\nEste método busca que: * La probabilidad de ingesta inadecuada en una población específica sea aceptablemente baja (idealmente entre 2% y 3%),. * Se evite el riesgo de ingesta excesiva en esta o en otras poblaciones,. * Para la mayoría de los nutrientes, la variación en la ingesta en un grupo de población debe ser mayor que la variación del requerimiento del nutriente, y la distribución de los requerimientos debe ser simétrica. * Excepción para el hierro: No es posible usar el enfoque del punto de corte del RPE para el hierro en niños, adolescentes menstruantes y mujeres adultas, ya que sus requerimientos no tienen una distribución normal. Para estos grupos, se debe emplear el enfoque completo de probabilidades,. * Se utilizan los valores de referencia de nutrientes (VRN), que son valores de referencia nutricionales definidos por la Comisión del Codex Alimentarius para armonizar el etiquetado de alimentos procesados, aplicables a todos los miembros de la familia mayores de 3 años,.\nEjemplos de recomendaciones específicas de la OMS y otras organizaciones: * Yodo: La OMS recomienda añadir de 20 a 40 mg de yodo por kg de sal para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo diario de 10 g de sal,. Esta estrategia ha demostrado ser altamente efectiva. * Ácido fólico: La Organización Panamericana de la Salud (OPS) ha recomendado que las intervenciones de fortificación de alimentos proporcionen una cantidad adicional de 200 µg de ácido fólico al día en toda Latinoamérica. Esto se basa en la evidencia de que el aumento de la ingesta de ácido fólico reduce la prevalencia de defectos del tubo neural y mejora el estado nutricional de los folatos,,.\n\n\nProceso para Determinar el NPF\nLa determinación del NPF implica varios pasos que equilibran la necesidad nutricional con las limitaciones prácticas:\n\nObservar la distribución habitual de la ingesta de nutrientes: Se requieren datos cuantitativos de ingesta alimentaria de subgrupos de población (ej. niños en edad preescolar, mujeres en edad reproductiva, etc.) para evaluar el nivel actual de ingesta de nutrientes,. Se pueden usar tablas de composición de alimentos (locales, regionales o internacionales como INFOODS) para convertir los datos de consumo en cantidades de nutrientes.\nIdentificar subgrupos en riesgo: A partir del análisis de la ingesta, se identifican los subgrupos con mayor prevalencia de ingesta inadecuada de nutrientes específicos.\nMedir el consumo habitual del vehículo alimentario: Estimar la cantidad habitual del alimento fortificable consumida no solo por los grupos deficientes, sino también por aquellos con alto consumo (para evaluar el riesgo de exceso).\nSimular el efecto de la adición de nutrientes: Recalcular la distribución de la ingesta de nutrientes, estimando la cantidad adicional de micronutrientes que contendría el alimento fortificado a diferentes niveles de fortificación. Esto ayuda a identificar el nivel más apropiado que previene la carencia sin causar ingestas excesivas.\n\n\n\nLimitaciones en la Determinación de los Niveles de Fortificación\nLa cantidad de micronutrientes que es posible añadir a los alimentos está frecuentemente limitada por tres factores clave:\n\nLímites de Inocuidad (Límites de seguridad): Es la cantidad máxima de micronutriente que puede agregarse con seguridad a un alimento,,. Se evalúa comparando la ingesta proyectada con el Nivel Máximo de Ingesta Tolerable (NM), que es la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población,,.\nLímites Tecnológicos: El nivel máximo de adición de micronutrientes que no causa cambios organolépticos adversos (color, sabor, olor) ni físicos en el vehículo alimentario,,. Estos deben determinarse experimentalmente para cada alimento y la combinación de nutrientes. Los avances tecnológicos pueden aumentar estos límites.\nLímites de Costos: El aumento máximo aceptable en el precio del alimento debido a la fortificación, que sea aceptable tanto para los productores como para los consumidores,,,. Para los programas de fortificación masiva, se busca que el aumento de precio no exceda el 1% al 2% respecto al producto no fortificado para asegurar su sostenibilidad,. El costo del fortificante mismo puede constituir la mayor parte de este aumento,.\n\n\n\nParámetros de Producción y Reglamentación\nUna vez que se define el NPF, se establecen parámetros adicionales para la producción y la reglamentación:\n\nNivel Objetivo de Fortificación (NOF): La concentración promedio de un micronutriente en el producto fortificado en la fábrica, que incluye el contenido intrínseco natural del micronutriente y el NPF,.\nNivel Mínimo de Fortificación (NmF): El límite inferior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica. Se calcula restando del NOF una cantidad proporcional a dos veces el coeficiente de variación (CV) del contenido del nutriente medido en la fábrica,,,.\nNivel Máximo de Fortificación (NMF): El límite superior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica, calculado sumando al NOF dos veces el CV,.\nNivel Legal Mínimo (NLm): La cantidad mínima de micronutriente que debe contener el alimento fortificado según la reglamentación nacional, que debe aparecer en la etiqueta,,. Se obtiene restando del NmF las pérdidas esperadas durante la distribución y almacenamiento.\nNivel Máximo Tolerable (NMT): El contenido máximo de micronutriente permitido en el alimento fortificado por ley para minimizar el riesgo de ingesta excesiva. Para los nutrientes con problemas de inocuidad, el NMT debe coincidir con el NMF,,.\n\n\n\nUso de Indicadores en la Vigilancia y Evaluación de Programas\nLa determinación de los niveles de fortificación es parte integral de un sistema más amplio de vigilancia y evaluación, el cual es esencial para el éxito y la sostenibilidad de cualquier programa de fortificación,,. Este sistema incluye:\n\nVigilancia Regulatoria:\n\nVigilancia Interna: Realizada por los fabricantes (control de calidad/aseguramiento de la calidad - CC/AC) para asegurar que los productos cumplen con los estándares,,.\nVigilancia Externa: Inspecciones y auditorías técnicas llevadas a cabo por autoridades gubernamentales en fábricas y puntos de importación para verificar el cumplimiento,.\nVigilancia Comercial: Verificación del cumplimiento de las normas en las tiendas minoristas,,.\nLos criterios de éxito se expresan en términos del porcentaje de muestras que cumplen con los niveles mínimos y máximos tolerables en cada etapa (hogares, minoristas, producción),.\n\nVigilancia en Hogares: Determina si los productos fortificados son accesibles, comprados y consumidos adecuadamente por la población objetivo en sus viviendas,,,,,.\nEvaluación de Impacto: Determina si el programa ha logrado sus objetivos generales, como mejorar el estado nutricional de la población objetivo. Esta evaluación se realiza solo después de que la vigilancia confirma que el programa opera de manera satisfactoria,,,. Los indicadores de evaluación pueden incluir:\n\nIndicadores de ingesta: Consumo adecuado o aumentado de alimentos fortificados y/o de micronutrientes específicos.\nIndicadores del estado nutricional: Mejoras en indicadores bioquímicos y clínicos.\nResultados funcionales: Mejoras en crecimiento, morbilidad, mortalidad o desarrollo cognitivo y motor.\nLos niveles de inferencia para la evaluación de impacto son: adecuación, posibilidad y probabilidad, siendo este último el que ofrece el mayor nivel de confianza sobre la causalidad.\n\n\n\n\n\nBiblografía",
+    "text": "Esta sección contiene una serie de micromódulos que cubren diferentes conceptos del curso. Los módulos e-learning se estructurarán en sesiones formativas de 15-40 minutos por día. Estos deberán completarse en un periodo de hasta dos meses, permitiendo una experiencia de formación progresiva y ágil. Los contenidos de los módulos se detallan a continuación.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 01\n\n\nIntroducción sobre estrategias de fortificación de alimentos\n\n\nSe describen las estrategias de fortificación de alimentos, se abordan temas como déficit nutricionales, política de fortificación de alimentos así como las fases para su implementación\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 02\n\n\nIntroducción de Encuestas de Consumo y Gastos en los Hogares HCES y sus usos en la planificación de estrategias de fortificación\n\n\nSe introducen las Encuestas de Consumo y Gasto de los Hogares así como sus características fundamentales\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 03\n\n\nDescripción de Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas: Generalidades de las HCES y obtención de datos HCES\n\n\nSe realiza una descripción de las Encuestas de Consumo en el modelado de dietas\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 04\n\n\nIntroducción a los módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria)\n\n\nSe realiza una descripción de módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 05\n\n\nRevisión de los tipos de análisis de datos a partir de variables y módulos seleccionados (indicadores)\n\n\nSe realiza una revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 06\n\n\nMedidas para el resumen datos de nutrición (estadística descriptiva)\n\n\nSe introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 07\n\n\nIndicadores para la evaluación de programas de fortificación\n\n\nSe realiza una introducion al análisis y resumenes de datos\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 08\n\n\nMetodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico.\n\n\nSe describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico.\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 09\n\n\nIndicadores para la evaluación de programas de fortificación\n\n\nSe realiza una introducion al análisis y resumenes de datos\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 10\n\n\nMétodo de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar\n\n\nSe describe el método de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 11\n\n\nEstimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género\n\n\nSe describe la forma en que se realiza el la estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 12\n\n\nAjuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)\n\n\nSe describe el ajuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 13\n\n\nEstimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\nSe describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 14\n\n\nMétodo del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes\n\n\nSe describe el método del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 15\n\n\nCálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\nSe describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 16\n\n\nDeterminación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\nSe describe el cálculo para la determinación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 17\n\n\nResumen del aprendizaje\n\n\nSe realiza una recapitulación de todos los temas tratados en los módulos\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo05.html",
+    "href": "contenido/micromodulos/tema 1/modulo05.html",
+    "title": "Módulo 05",
+    "section": "",
+    "text": "Las HCES recogen datos de adquisición o gasto del hogar, no directamente de consumo individual. Por lo tanto, se requiere un mapeo cuidadoso y, a menudo, algunas suposiciones.\nA continuación, asocio las variables de tus fórmulas con las categorías de datos que típicamente se encuentran en una HCES:",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Micromódulos e-learning",
-      "tema 5",
-      "Módulo 16"
+      "tema 1",
+      "Módulo 05"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo05.html#porcentaje-de-la-población-que-consume-el-alimento-fortificado",
+    "href": "contenido/micromodulos/tema 1/modulo05.html#porcentaje-de-la-población-que-consume-el-alimento-fortificado",
+    "title": "Módulo 05",
+    "section": "1. Porcentaje de la población que consume el alimento fortificado",
+    "text": "1. Porcentaje de la población que consume el alimento fortificado\n\nH_Compra_AF_Positivo (Número de hogares que reportaron haber comprado una cantidad mayor a cero del alimento fortificado):\n\nVariables HCES: En las secciones de gasto o adquisición de alimentos de la HCES, se busca la pregunta o ítem que registra si el hogar compró (o adquirió por otras vías, como autoconsumo o recibo como regalo/salario en especie) el alimento fortificado específico durante el período de referencia de la encuesta (ej., los últimos 7 días, 15 días o 30 días).\nEjemplo de dato HCES: Un indicador binario (sí/no) para cada hogar sobre la adquisición de “harina de trigo”, “aceite vegetal”, “sal yodada”, etc. Si la HCES registra la cantidad comprada, se consideraría “positivo” cualquier valor mayor a cero.\n\nH_Total_Muestra (Número total de hogares en la muestra de la ECGH/HCES):\n\nVariables HCES: Este es simplemente el número total de unidades de muestreo de hogares que fueron encuestadas y para las cuales se tiene información completa para el análisis.\nEjemplo de dato HCES: El total de registros de hogares en el archivo de datos de la encuesta.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 1",
+      "Módulo 05"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-consumo-aparente-del-alimento-fortificado",
+    "href": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-consumo-aparente-del-alimento-fortificado",
+    "title": "Módulo 05",
+    "section": "2. Promedio de consumo aparente del alimento fortificado",
+    "text": "2. Promedio de consumo aparente del alimento fortificado\n\na. Adquisiciones Diarias por Hogar (en gramos o mililitros/día)\n\nCant_Total_Comprada (Cantidad total del alimento fortificado comprada por el hogar en el período de reporte):\n\nVariables HCES: En las HCES, se suelen preguntar las cantidades (en unidades de medida específicas como kg, litros, gramos, etc.) de cada alimento adquirido por el hogar durante un período de referencia. También se registrará el gasto total en cada alimento.\nDesafíos y Consideraciones HCES:\n\nUnidades: Las HCES pueden registrar cantidades en unidades variadas (libras, sacos, etc.). Es crucial estandarizar estas a unidades métricas (gramos/mililitros) usando factores de conversión apropiados.\nFuente de Adquisición: Las HCES suelen diferenciar entre compras, autoconsumo/producción propia, regalos, etc. Para un análisis completo, se deben sumar todas las fuentes de adquisición.\nAlimentos Específicos: La HCES debe permitir identificar claramente el “alimento fortificado” de interés (ej., “harina de trigo fortificada” vs. “harina de trigo no fortificada”, si la encuesta diferencia). En ausencia de esta distinción, se asume que toda la harina de trigo consumida está fortificada, lo cual es una limitación.\n\nEjemplo de dato HCES: “Cantidad de harina de trigo adquirida (kg) en los últimos 7 días”, “Gasto en aceite vegetal (moneda local) en los últimos 30 días”.\n\nDias_Reporte (Número de días del período de reporte de la encuesta):\n\nVariables HCES: Este es un parámetro de diseño de la encuesta, generalmente fijo (ej., 7 días, 15 días, 30 días) para cada sección de consumo de alimentos.\nEjemplo de dato HCES: Variable de diseño de la encuesta que indica el período de referencia para la recolección de datos de alimentos.\n\n\n\nEquivalentes de Ingrediente Básico (para alimentos compuestos, ej. FWFEs)\n\n\nAdq_Diaria_Producto_i (Adquisiciones Diarias del Producto i que contiene el ingrediente básico):\n\nVariables HCES: Similar a Cant_Total_Comprada, pero aplicado a productos que contienen el alimento fortificado como ingrediente (ej., pan, fideos si se fortifica la harina). La HCES debe preguntar por la adquisición de estos productos.\nEjemplo de dato HCES: “Cantidad de pan blanco adquirido (kg) en los últimos 7 días”, “Gasto en galletas (moneda local) en los últimos 30 días”.\n\nProp_Ingrediente_Producto_i (Proporción del ingrediente básico en el Producto i):\n\nVariables HCES: Esta información no se encuentra directamente en las HCES. Requiere de fuentes externas como:\n\nTablas de composición de alimentos: Para estimar la proporción del ingrediente básico (ej., harina de trigo) en productos procesados (pan, galletas).\nRecetas estándar o estudios de formulación: Si es un alimento fortificado producido industrialmente.\n\nEjemplo de dato HCES: No aplica directamente; debe ser vinculada externamente.\n\n\n\n\nc. Consumo Aparente por Unidades Equivalente de Adulto Masculino (AME)\n\nAdquisiciones_Diarias (Corresponde a Adquisiciones_Diarias_Hogar o EIB_Total):\n\nVariables HCES: Se deriva de los cálculos previos utilizando los datos de adquisición de la HCES.\n\nUnidades_AME_Hogar (Suma de los factores AME individuales para cada miembro del hogar):\n\nVariables HCES: Las HCES contienen una sección de características de los miembros del hogar, que incluye:\n\nEdad de cada miembro del hogar.\nSexo de cada miembro del hogar.\n\nDesafíos y Consideraciones HCES: Para calcular las unidades AME, se necesitan tablas de factores de conversión de AME (basadas en edad, sexo y a veces nivel de actividad física) que no están en la HCES misma, sino que se aplican a los datos de la HCES.\nEjemplo de dato HCES: “Edad del miembro 1”, “Sexo del miembro 1”, “Edad del miembro 2”, “Sexo del miembro 2”, etc.\n\n\n\n\nd. Consumo Aparente Ajustado para Subgrupos (Mujeres y Niños)\n\nConsumo_Aparente_AME: Se deriva de los cálculos previos.\nFactor_Ajuste_Subgrupo (Factor de ajuste basado en los requisitos de energía de la FAO para el subgrupo de interés):\n\nVariables HCES: Este factor no se encuentra en la HCES. Proviene de tablas de requerimientos nutricionales externas (ej., FAO/OMS, IOM), específicas para diferentes grupos de edad y sexo.\nEjemplo de dato HCES: No aplica directamente; se aplica externamente según las características de los miembros del hogar (edad, sexo) que sí están en la HCES.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 1",
+      "Módulo 05"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "href": "contenido/micromodulos/tema 1/modulo05.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "title": "Módulo 05",
+    "section": "3. Promedio de ingesta de micronutriente/s del alimento fortificado",
+    "text": "3. Promedio de ingesta de micronutriente/s del alimento fortificado\n\nConsumo_Aparente_Ajustado_Subgrupo: Se deriva de los cálculos previos.\nContenido_MN_AF (Contenido del micronutriente en el alimento fortificado):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se obtiene de:\n\nRegulaciones y estándares nacionales de fortificación: Que especifican la cantidad de micronutriente que debe añadirse por unidad de alimento.\nAnálisis de laboratorio de muestras de alimentos: Si se cuenta con datos de monitoreo de calidad.\nTablas de composición de alimentos: Si el alimento está naturalmente presente o si la fortificación es conocida.\n\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nBiodisponibilidad_Estimada (Porcentaje estimado de biodisponibilidad del micronutriente):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se basa en evidencia científica externa sobre la biodisponibilidad de los micronutrientes de diferentes fuentes en la dieta.\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nPerdidas_Estimadas (Porcentaje estimado de pérdidas del micronutriente durante la cocción o almacenamiento):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se basa en estudios de procesamiento de alimentos y pérdidas de nutrientes o suposiciones expertas.\nEjemplo de dato HCES: No aplica directamente; es un valor externo.\n\nFactor_Conversion_Unidades:\n\nVariables HCES: Esto es una operación de transformación de unidades que se realiza durante el procesamiento de los datos de la HCES, no una variable en sí misma. Se basa en las unidades de medida de la HCES y las unidades deseadas para el cálculo.\nEjemplo de dato HCES: La HCES podría indicar la “unidad de medida” para cada alimento (ej., kg, gramos, litros).",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 1",
+      "Módulo 05"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo05.html#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear",
+    "href": "contenido/micromodulos/tema 1/modulo05.html#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear",
+    "title": "Módulo 05",
+    "section": "4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)",
+    "text": "4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)\n\nIngesta_Diaria_MN: Se deriva de los cálculos previos.\nEAR_Micronutriente_Subgrupo (Requerimiento Promedio Estimado - EAR - del micronutriente para el subgrupo de interés):\n\nVariables HCES: Esta información no se encuentra en la HCES. Se obtiene de tablas de requerimientos nutricionales externos (ej., IOM, FAO/OMS) que proporcionan los EARs específicos para diferentes micronutrientes, ajustados por edad, sexo y estados fisiológicos (ej., embarazo, lactancia).\nEjemplo de dato HCES: No aplica directamente; es un valor externo que se vincula con las características demográficas de los individuos/subgrupos que sí están en la HCES.\n\n\n\n\nResumen de la Asociación HCES y Fórmulas:\nLas HCES son cruciales para obtener los datos sobre la adquisición de alimentos por los hogares (Cant_Total_Comprada, Adq_Diaria_Producto_i) y las características demográficas de los miembros del hogar (Edad, Sexo).\nSin embargo, para aplicar rigurosamente tus fórmulas, siempre necesitarás fuentes de datos externas a la HCES para:\n\nFactores de conversión de unidades (si la HCES no lo provee o las unidades no son estándar).\nProporción de ingredientes básicos en alimentos compuestos.\nFactores de equivalencia AME.\nFactores de ajuste para subgrupos de consumo.\nContenido de micronutrientes en los alimentos fortificados (y no fortificados, para comparaciones).\nBiodisponibilidad de los micronutrientes.\nPérdidas de micronutrientes por cocción/almacenamiento.\nRequerimientos Promedio Estimados (EARs) de los micronutrientes.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 1",
+      "Módulo 05"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 1/modulo04.html",
+    "href": "contenido/micromodulos/tema 1/modulo04.html",
+    "title": "Módulo 04",
+    "section": "",
+    "text": "sumario\n\n\n\n\n\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 1",
+      "Módulo 04"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 2/modulo06.html",
+    "href": "contenido/micromodulos/tema 2/modulo06.html",
+    "title": "Módulo 06",
+    "section": "",
+    "text": "sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 2",
+      "Módulo 06"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo07.html",
+    "href": "contenido/micromodulos/tema 3/modulo07.html",
+    "title": "Módulo 07",
+    "section": "",
+    "text": "Sumario\nIndicadores propuestos para el análisis de HCES\n\nPorciento de la población que consume el alimento fortificado\nPromedio de consume del alimento fortificado\nPromedio de ingesta de micronutriente/s del alimento fortificado\nContribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )\n\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 07"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo13.html#paso-1-identificación-y-preparación-de-variables-clave-en-los-datos-hces",
+    "href": "contenido/micromodulos/tema 3/modulo13.html#paso-1-identificación-y-preparación-de-variables-clave-en-los-datos-hces",
+    "title": "Módulo 13",
+    "section": "Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES",
+    "text": "Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES\nEl primer paso crucial es identificar y organizar las variables necesarias dentro de los conjuntos de datos de las HCES.\n\nVariables Demográficas: Es esencial contar con datos básicos sobre cada miembro del hogar, incluyendo:\n\nNúmero de personas en cada hogar.\nEdad y sexo de cada miembro del hogar.\nEsta información es necesaria para construir unidades de Equivalente de Hombre Adulto (AME) o Equivalente de Mujer Adulta (AFE), que, aunque más directamente relacionadas con la cuantificación del consumo aparente, son un componente subyacente para cualquier análisis de población.\n\nVariables de Adquisición de Alimentos: Se necesita información detallada sobre la compra o adquisición de alimentos por parte del hogar. Esto incluye:\n\nSi un alimento en particular fue comprado en un período fijo (por ejemplo, los últimos 7 o 15 días).\nLa cantidad de ese alimento que fue comprado.\nLas unidades de medida (por ejemplo, gramos, litros).\nLas HCES suelen contener listas de alimentos que comúnmente se usan como vehículos de fortificación, como harina de trigo, harina de maíz, arroz, aceite vegetal, azúcar, sal y caldos concentrados (bouillon cubes). También suelen incluir información sobre alimentos preparados que contienen estos vehículos básicos (ej., panes, galletas, tortillas).\n\nVariables Contextuales para Subgrupos: Para un análisis significativo, las HCES proporcionan información útil para estratificar la población, tales como:\n\nÁrea geográfica: Distinciones como urbana, rural u otras divisiones regionales pertinentes.\nNivel socioeconómico (SEP): Frecuentemente categorizado en quintiles basados en el gasto total anual ajustado por inflación per cápita del hogar (ej., muy pobre, pobre, no pobre).\nOtras variables como la etnicidad o cultura, si son relevantes para el contexto.\n\nPonderación de Datos: Dado que las HCES son encuestas a gran escala diseñadas para ser representativas de la población, todos los cálculos de cobertura deben ponderarse adecuadamente utilizando las variables de ponderación proporcionadas en el conjunto de datos.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 13"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo13.html#paso-2-cuantificación-de-la-cobertura-del-vehículo-de-fortificación",
+    "href": "contenido/micromodulos/tema 3/modulo13.html#paso-2-cuantificación-de-la-cobertura-del-vehículo-de-fortificación",
+    "title": "Módulo 13",
+    "section": "Paso 2: Cuantificación de la “Cobertura” del Vehículo de Fortificación",
+    "text": "Paso 2: Cuantificación de la “Cobertura” del Vehículo de Fortificación\nLa cobertura se define como el porcentaje de hogares que aparentemente consumen cualquier cantidad del vehículo alimentario de interés durante el período de referencia de la encuesta (ej., los 7 días de recuerdo).\n\nCálculo Directo: Para calcular la cobertura, simplemente se identifica cuántos hogares en la muestra informaron haber adquirido o consumido una cantidad superior a cero del alimento fortificable (o del alimento que contiene el vehículo fortificable).\nSignificado: Esta estimación indica el alcance potencial de un programa de fortificación que utiliza ese alimento como vehículo. Por ejemplo, en Malawi, se estimó que el 76% de los hogares consumía aceite y el 56% azúcar, lo que proporciona una base para entender su potencial como vehículos de fortificación.\n\n\nPaso 3: Estratificación para Análisis Nacional y Subnacional\nLa capacidad de las HCES para estratificar los datos permite una comprensión más profunda de quiénes son alcanzados por los vehículos de fortificación y dónde se encuentran las brechas.\n\nNivel Nacional: La cobertura nacional proporciona una visión general del alcance del vehículo en todo el país (ej., “el 76% de los hogares a nivel nacional reportaron consumir aceite”).\nNivel Subnacional (Estratificación): Para obtener una visión más granular y dirigir mejor las intervenciones, la cobertura se debe estratificar por:\n\nRegiones Administrativas: Permite identificar variaciones geográficas en el consumo.\nÁreas Urbanas vs. Rurales: Fundamental, ya que las poblaciones rurales de menor posición socioeconómica a menudo tienen un bajo consumo aparente de alimentos fortificados.\nNivel Socioeconómico (SEP): El análisis por quintiles de gasto per cápita permite identificar si el vehículo llega a las poblaciones más pobres o a los grupos con mayores necesidades de micronutrientes.\nOtros Subgrupos: Si los datos lo permiten, se pueden considerar otras estratificaciones como la etnicidad o grupos culturales con patrones de consumo distintos.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 13"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo13.html#relación-con-el-consumo-aparente-contexto-importante",
+    "href": "contenido/micromodulos/tema 3/modulo13.html#relación-con-el-consumo-aparente-contexto-importante",
+    "title": "Módulo 13",
+    "section": "Relación con el Consumo Aparente (Contexto Importante)",
+    "text": "Relación con el Consumo Aparente (Contexto Importante)\nAunque la pregunta se centra en la “cobertura”, es importante entender que la cobertura y el “consumo aparente” están estrechamente relacionados en el análisis de HCES.\n\nMientras que la cobertura mide el porcentaje de hogares que consumen el alimento, el consumo aparente se refiere a la cantidad de alimento consumida por unidad AME/AFE al día. Ambos son esenciales para determinar el impacto potencial de la fortificación. Por ejemplo, una alta cobertura de un vehículo es buena, pero si la cantidad consumida es muy baja, su impacto nutricional será limitado.\nLas estimaciones de consumo aparente se ajustan por AME/AFE para permitir la comparación entre hogares con diferentes composiciones demográficas, asumiendo que el alimento se distribuye dentro del hogar proporcionalmente a las necesidades energéticas de cada miembro.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 13"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo13.html#consideraciones-y-limitaciones-importantes-al-usar-datos-hces-para-la-cobertura",
+    "href": "contenido/micromodulos/tema 3/modulo13.html#consideraciones-y-limitaciones-importantes-al-usar-datos-hces-para-la-cobertura",
+    "title": "Módulo 13",
+    "section": "Consideraciones y Limitaciones Importantes al Usar Datos HCES para la Cobertura:",
+    "text": "Consideraciones y Limitaciones Importantes al Usar Datos HCES para la Cobertura:\n\nNo es Consumo Real Individual: Las HCES describen adquisiciones o gastos de los hogares, no la ingesta real de alimentos a nivel individual. Se basan en suposiciones como que los alimentos comprados no se comparten con invitados, no se desperdician, no se dan a animales o se almacenan para uso posterior. También asumen que los alimentos se distribuyen dentro del hogar en proporción a las necesidades energéticas de cada miembro.\nErrores de Medición: Puede haber errores de recuerdo (recall error), y la información no siempre captura alimentos consumidos fuera del hogar o pérdidas de nutrientes durante la cocción.\nLista Fija de Alimentos: Las HCES tienen listas de alimentos fijas, lo que podría limitar la exhaustividad.\nUtilidad a Pesar de las Limitaciones: A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.\n\nAl seguir estos pasos, podrás utilizar los datos de las HCES para obtener una estimación robusta de la cobertura de vehículos potenciales de fortificación a nivel nacional y para identificar subpoblaciones que se benefician o que aún necesitan intervenciones adicionales.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 13"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo08.html",
+    "href": "contenido/micromodulos/tema 3/modulo08.html",
+    "title": "Módulo 08",
+    "section": "",
+    "text": "sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 08"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/index.html",
+    "href": "contenido/ejercicios/index.html",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Esta sección contiene una serie de ejercicios interactivos que cubren diferentes actividades del curso ya sea para la modalidad e-learning como para el taller.\nLos ejercicios se estructurarán en temas que correspondes a cada actividad de capacitación. Los contenidos de los ejercicios abarcan todos los objetivos de la capacitación así como otros contenidos complementarios. A continuación se muestra el listado de ejercicios.\nListado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 1: Micronutrientes y carencias nutricionales\n\n\nTema 1\n\n\nEjercicio sobre el tema de micronutrientes y carencias nutricionales\n\n\n\n\n\nJun 29, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio 2: Fortificación a gran escala\n\n\nTema 1\n\n\nEjercicio sobre el tema de Fortificación a gran escala\n\n\n\n\n\nJun 29, 2025\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#es-la-siguiente-definición-verdadera",
+    "href": "contenido/ejercicios/tema 1/ejercicio01.html#es-la-siguiente-definición-verdadera",
+    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
+    "section": "¿Es la siguiente definición verdadera?",
+    "text": "¿Es la siguiente definición verdadera?\nMicronutrientes esenciales: Nutrientes que el cuerpo requiere en cantidades traza para funciones bioquímicas específicas, como cofactores enzimáticos o antioxidantes, y que pueden ser sintetizados parcialmente por el organismo o la microbiota intestinal.\n\n\n\n\n\n\nRespuesta\n\n\n\n\n\nFalso\nLos micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios",
+      "tema 1",
+      "Ejercicio 1: Micronutrientes y carencias nutricionales"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-las-carencia-de-micronutriente-más-frecuentes-en-el-mundo",
+    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-las-carencia-de-micronutriente-más-frecuentes-en-el-mundo",
+    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
+    "section": "¿Cuál es las carencia de micronutriente más frecuentes en el mundo?",
+    "text": "¿Cuál es las carencia de micronutriente más frecuentes en el mundo?\n\n\n\n\n\n\nRespuesta correcta\n\n\n\n\n\nDeficiencia de hierro\nLa deficiencia de hierro es la más común a nivel global y una de las principales causas de anemia, afectando especialmente a mujeres en edad fértil, embarazadas y niños pequeños. Se estima que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren falta de hierro.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios",
+      "tema 1",
+      "Ejercicio 1: Micronutrientes y carencias nutricionales"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuáles-son-las-carencias-nutricionales-más-frecuentes-en-cuba",
+    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuáles-son-las-carencias-nutricionales-más-frecuentes-en-cuba",
+    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
+    "section": "¿Cuáles son las carencias nutricionales más frecuentes en Cuba?",
+    "text": "¿Cuáles son las carencias nutricionales más frecuentes en Cuba?\n\nDéficit de vitamina A\n\nDéficit de vitamina D\n\nAnemia por déficit de hierro\n\nDéficit de Yodo\n\n\n\n\n\n\n\nRespuesta correcta\n\n\n\n\n\na) Déficit de vitamina A\nc) Anemia por déficit de hierro\nd) Déficit de Yodo",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios",
+      "tema 1",
+      "Ejercicio 1: Micronutrientes y carencias nutricionales"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-la-definición-completa-de-fortificación-de-alimentos-según-organismos-internacionales",
+    "href": "contenido/ejercicios/tema 1/ejercicio01.html#cuál-es-la-definición-completa-de-fortificación-de-alimentos-según-organismos-internacionales",
+    "title": "Ejercicio 1: Micronutrientes y carencias nutricionales",
+    "section": "¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?",
+    "text": "¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?\n  Adición de vitaminas a alimentos para grupos específicos como niños o embarazadas    Incremento deliberado de micronutrientes esenciales en alimentos para mejorar la calidad nutricional con beneficio de salud pública    Adición de minerales solo a alimentos básicos como harinas o leche para consumo masivo \n\nComprobar respuesta",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios",
+      "tema 1",
+      "Ejercicio 1: Micronutrientes y carencias nutricionales"
+    ]
+  },
+  {
+    "objectID": "contenido/recursos/tablas/tablas.html",
+    "href": "contenido/recursos/tablas/tablas.html",
+    "title": "Tablas de composición de alimentos",
+    "section": "",
+    "text": "Las tablas de composición de alimentos son recopilaciones de datos de la cantidad media de energía y nutrientes, y otras sustancias, que los alimentos aportan cuando son consumidos y, por tanto, son esenciales para poder juzgar los alimentos y las dietas desde el punto de vista nutricional.\n¿Para qué sirven?\nLos datos que suministran estas bases de datos son útiles para diseñar políticas nutricionales, investigar en nutrición, realizar estudios de dieta total, diseñar nuevos productos e incluso para proporcionar información de interés a los consumidores, cada vez más preocupados por conocer las características de los alimentos que consumen.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Recursos",
+      "Tablas",
+      "Tablas de composición de alimentos"
+    ]
+  },
+  {
+    "objectID": "contenido/recursos/tablas/tablas.html#qué-información-contienen",
+    "href": "contenido/recursos/tablas/tablas.html#qué-información-contienen",
+    "title": "Tablas de composición de alimentos",
+    "section": "¿Qué información contienen?",
+    "text": "¿Qué información contienen?\n\nValores de energía (calorías)\nMacronutrientes: proteínas, grasas, carbohidratos\nMicronutrientes: vitaminas y minerales\nOtros componentes: fibra, agua, compuestos bioactivos, etc.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Recursos",
+      "Tablas",
+      "Tablas de composición de alimentos"
+    ]
+  },
+  {
+    "objectID": "contenido/recursos/tablas/tablas.html#fuentes",
+    "href": "contenido/recursos/tablas/tablas.html#fuentes",
+    "title": "Tablas de composición de alimentos",
+    "section": "Fuentes",
+    "text": "Fuentes\nLas tablas pueden estar disponibles en formato impreso o digital (bases de datos en línea), y existen versiones nacionales e internacionales adaptadas a los alimentos y hábitos de cada región.\nTablas de centro américa\nDownload PDF file.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Recursos",
+      "Tablas",
+      "Tablas de composición de alimentos"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Nuestro Contexto y Misión",
+    "section": "",
+    "text": "La fortificación de alimentos a gran escala (LSFF, por sus siglas en inglés) es una estrategia ampliamente reconocida por su costo-efectividad para reducir las deficiencias de micronutrientes en la población. Sin embargo, su implementación enfrenta desafíos significativos, especialmente en lo que respecta al control de calidad de los alimentos fortificados, la cobertura, el consumo y la contribución de estos alimentos a la ingesta de micronutrientes a nivel poblacional.\nEn muchos países de América Latina y el Caribe, la información sobre estos componentes clave es limitada o inexistente. Esta falta de datos impide evaluar con precisión la efectividad de los programas de fortificación y su impacto nutricional, particularmente en poblaciones vulnerables.\nEn respuesta a esta necesidad, el Programa Mundial de Alimentos (PMA) está desarrollando un paquete de asistencia técnica para apoyar a los gobiernos de la región en el diseño y la evaluación de estrategias de fortificación, con especial atención a:\n\nEl control de calidad de los alimentos fortificados,\nLa cobertura de alimentos fortificados y fortificables (aquellos con producción centralizada en grandes industrias),\nEl consumo de estos alimentos a nivel de hogar y población, y\nSu contribución a la ingesta de micronutrientes esenciales.",
+    "crumbs": [
+      "🏠 Home",
+      "Nuestro Contexto y Misión"
+    ]
+  },
+  {
+    "objectID": "contenido/recursos/index.html",
+    "href": "contenido/recursos/index.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "Esta sección encontraras una serie de recursos útiles para para la capacitación e-learning como para el desarrollo de talleres presenciales.\nLos recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, bases de datos o script en R, para la ejecución de análisis estadístico para la fortificación de alimentos.\nListado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTablas de composición de alimentos\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Recursos"
+    ]
+  },
+  {
+    "objectID": "contenido/index.html",
+    "href": "contenido/index.html",
+    "title": "Contenidos",
+    "section": "",
+    "text": "Hemos organizado el contenido para facilitar tu aprendizaje y consulta:\n\nEjercicios interactivos: Realiza un conjunto de ejercicios interactivos que te permitirán practicar los contenidos de la capacitación.\nMódulos de E-learning: Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.\nRecursos Adicionales: Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.\nTaller Presencial: Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos"
+    ]
+  },
+  {
+    "objectID": "contenido/ejercicios/tema 1/ejercicio02.html",
+    "href": "contenido/ejercicios/tema 1/ejercicio02.html",
+    "title": "Ejercicio 2: Fortificación a gran escala",
+    "section": "",
+    "text": "Implementada en más de 100 países, la fortificación a gran escala salva vidas al enriquecer alimentos básicos con vitaminas y minerales clave, combatiendo ‘el hambre oculta’ de forma costo-efectiva.\n\n\n\n\n\n\n\nNote\n\n\n\nLa fortificación a gran escala (también llamada fortificación masiva o mandatoria) es una estrategia de salud pública que consiste en agregar micronutrientes esenciales (vitaminas y minerales) a alimentos de consumo masivo y ampliamente distribuidos, con el objetivo de prevenir o corregir deficiencias nutricionales en poblaciones enteras. Se implementa a nivel nacional o regional mediante políticas gubernamentales y regulaciones obligatorias.\n\n\n\n---\nprimary_color: orange\nsecondary_color: lightgray\ntext_color: black\nshuffle_questions: false\nshuffle_answers: true\n---\n\n# Fortificacion se define como:\n\n&gt; proporciona un beneficio de salud pública con un riesgo mínimo para la salud\n\n- [x] La fortificación es la práctica de incrementar deliberadamente el contenido de un micronutriente esencial de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo para la salud.\n- [ ] La fortificación se refiere a la adición de micronutrientes a alimentos que consume comúnmente la población en general, como cereales, condimentos y leche.\n- [ ] Se refiere a la fortificación de alimentos diseñados para subgrupos específicos de la población, como los alimentos complementarios para el destete de lactantes.\n\n## En el control de las carencias de micronutrientes\n\nSeleccione tres estrategias \n\n&gt; Some hint\n\n- [x] Aumento de la diversidad de la dieta\n- [x] Fortificación de alimentos\n- [x] Suplementación\n- [ ] Restricción de consumo de frutas\n\n## Ponga las etapas de fortificación a gran escala en orden\n\n&gt; La busqueda de evidecia es la *primera* etapa.\n\n1. Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo\n2. Selección de Alimentos Vehiculares Apropiados para la Fortificación\n3. Determinación de los Niveles de Fortificación y los Fortificantes Adecuados\n4. Desarrollo y Promulgación de Legislación y Normas de Fortificación\n5. Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento\n6. Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados\n7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Ejercicios",
+      "tema 1",
+      "Ejercicio 2: Fortificación a gran escala"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo09.html",
+    "href": "contenido/micromodulos/tema 3/modulo09.html",
+    "title": "Módulo 09",
+    "section": "",
+    "text": "Sumario\nIndicadores propuestos para el análisis de HCES\n\nPorciento de la población que consume el alimento fortificado\nPromedio de consume del alimento fortificado\nPromedio de ingesta de micronutriente/s del alimento fortificado\nContribución del AF a la ingesta de Micronutriente (en relación a la Encuesta de Gasto y Consumo en el Hogar )\n\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 09"
+    ]
+  },
+  {
+    "objectID": "contenido/micromodulos/tema 3/modulo11.html",
+    "href": "contenido/micromodulos/tema 3/modulo11.html",
+    "title": "Módulo 11",
+    "section": "",
+    "text": "sumario\nLa estimación del consumo aparente de alimentos según requerimientos fisiológicos por edad y género, a partir de los datos de las Encuestas de Gasto y Consumo en el Hogar (HCES), se realiza mediante el método de las Unidades de Equivalente de Adulto Masculino (AME). Este método es crucial porque las HCES no recopilan información sobre la asignación individual de alimentos dentro del hogar.\nA continuación, se detalla el método:\n\nNecesidad del Método AME:\n\nLas HCES, aunque son representativas a nivel nacional y se centran en los gastos del hogar, no capturan directamente el consumo de alimentos a nivel individual.\nPara poder estimar el consumo de alimentos y el impacto nutricional potencial de los alimentos fortificados, es necesario ajustar las variaciones en la composición del hogar. Aquí es donde entran en juego las unidades AME.\n\nConstrucción de Unidades AME:\n\nLas unidades AME se basan en las estimaciones de los requerimientos energéticos individuales de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), que son específicas por edad y sexo.\nEl valor de referencia para una unidad AME (AME = 1) es el requerimiento energético de un hombre de 19 a 30 años, estimado en 3.050 kcal/día.\nOtros grupos de edad y sexo se ponderan en función de sus necesidades energéticas estimadas en relación con este valor de referencia.\n\nEstimación para una Mujer Saludable de 18-29 (o 19-30) años:\n\nPara una mujer de 19 a 30 años, el factor AME es de 0.79.\nEste factor se calcula dividiendo su requerimiento energético estimado (2.400 kcal/día) por el del hombre de referencia (2.400 kcal/día / 3.050 kcal/día = 0.79).\n\nCálculo de Unidades AME por Hogar:\n\nSe asigna un peso o factor de ajuste AME a cada persona en el hogar.\nLa información demográfica básica, como el número de personas en cada hogar y la edad y el sexo de cada miembro del hogar, es necesaria para construir estas unidades AME.\nEstos pesos individuales se suman para proporcionar una estimación de las unidades AME totales del hogar.\n\nEstimación del Consumo Aparente por AME y Ajuste por Subgrupo:\n\nCuantificar las adquisiciones diarias por hogar: Primero, las cantidades de alimentos adquiridos por el hogar (reportadas en gramos o mililitros para un período específico, como los últimos 15 días) se estandarizan a unidades métricas (SI) y se dividen por el número de días del período de reporte para obtener estimaciones diarias. Para alimentos compuestos (ej., pan hecho con harina de trigo fortificada), se puede crear una variable compuesta (ej., Equivalentes de Harina de Trigo Fortificada - FWFEs) que estima la cantidad del ingrediente básico en los productos comprados.\nCalcular el consumo aparente por unidad AME: Las adquisiciones diarias del hogar (o los equivalentes de ingrediente básico) se dividen por las unidades AME totales del hogar. Esto produce una estimación del consumo aparente por unidad AME.\nAjustar para subgrupos específicos: Dado que las unidades AME se basan en el requerimiento energético de un hombre de 19 a 30 años, el consumo aparente por AME debe multiplicarse por un factor de ajuste específico para la edad y el sexo del grupo de interés. Por ejemplo, para estimar el consumo aparente ajustado para mujeres de 19-30 años, se multiplica el consumo aparente por AME por 0.79.\n\nSupuestos y Limitaciones:\n\nEl método AME se basa en el supuesto de que los requerimientos energéticos de la FAO son válidos para la población de interés.\nTambién asume que los alimentos se comparten dentro del hogar en proporción a los requerimientos energéticos.\nSin embargo, es importante reconocer que las HCES describen las adquisiciones y gastos de alimentos, no el consumo real o la ingesta verdadera.\nNo consideran factores como el desperdicio de alimentos, el compartir con invitados, los regalos de alimentos, el almacenamiento para uso posterior, la alimentación de animales, o la comida consumida fuera del hogar.\nLa suposición de que el consumo es proporcional a los requerimientos energéticos de la FAO puede no ser válida en todas las situaciones, y los alimentos pueden no compartirse de manera equitativa dentro del hogar.\nA pesar de estas limitaciones, el uso de datos de HCES con el método AME es valioso para el diseño y monitoreo de programas de fortificación de alimentos, especialmente cuando no se dispone de datos de consumo a nivel individual.\n\n\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 3",
+      "Módulo 11"
     ]
   },
   {
@@ -623,20 +1032,6 @@
     ]
   },
   {
-    "objectID": "contenido/micromodulos/tema 3/modulo07.html",
-    "href": "contenido/micromodulos/tema 3/modulo07.html",
-    "title": "Módulo 07",
-    "section": "",
-    "text": "sumario\n\n\nBiblografía",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 07"
-    ]
-  },
-  {
     "objectID": "contenido/micromodulos/tema 3/modulo10.html",
     "href": "contenido/micromodulos/tema 3/modulo10.html",
     "title": "Módulo 10",
@@ -651,73 +1046,17 @@
     ]
   },
   {
-    "objectID": "contenido/micromodulos/tema 3/modulo13.html#paso-1-identificación-y-preparación-de-variables-clave-en-los-datos-hces",
-    "href": "contenido/micromodulos/tema 3/modulo13.html#paso-1-identificación-y-preparación-de-variables-clave-en-los-datos-hces",
-    "title": "Módulo 13",
-    "section": "Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES",
-    "text": "Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES\nEl primer paso crucial es identificar y organizar las variables necesarias dentro de los conjuntos de datos de las HCES.\n\nVariables Demográficas: Es esencial contar con datos básicos sobre cada miembro del hogar, incluyendo:\n\nNúmero de personas en cada hogar.\nEdad y sexo de cada miembro del hogar.\nEsta información es necesaria para construir unidades de Equivalente de Hombre Adulto (AME) o Equivalente de Mujer Adulta (AFE), que, aunque más directamente relacionadas con la cuantificación del consumo aparente, son un componente subyacente para cualquier análisis de población.\n\nVariables de Adquisición de Alimentos: Se necesita información detallada sobre la compra o adquisición de alimentos por parte del hogar. Esto incluye:\n\nSi un alimento en particular fue comprado en un período fijo (por ejemplo, los últimos 7 o 15 días).\nLa cantidad de ese alimento que fue comprado.\nLas unidades de medida (por ejemplo, gramos, litros).\nLas HCES suelen contener listas de alimentos que comúnmente se usan como vehículos de fortificación, como harina de trigo, harina de maíz, arroz, aceite vegetal, azúcar, sal y caldos concentrados (bouillon cubes). También suelen incluir información sobre alimentos preparados que contienen estos vehículos básicos (ej., panes, galletas, tortillas).\n\nVariables Contextuales para Subgrupos: Para un análisis significativo, las HCES proporcionan información útil para estratificar la población, tales como:\n\nÁrea geográfica: Distinciones como urbana, rural u otras divisiones regionales pertinentes.\nNivel socioeconómico (SEP): Frecuentemente categorizado en quintiles basados en el gasto total anual ajustado por inflación per cápita del hogar (ej., muy pobre, pobre, no pobre).\nOtras variables como la etnicidad o cultura, si son relevantes para el contexto.\n\nPonderación de Datos: Dado que las HCES son encuestas a gran escala diseñadas para ser representativas de la población, todos los cálculos de cobertura deben ponderarse adecuadamente utilizando las variables de ponderación proporcionadas en el conjunto de datos.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 13"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo13.html#paso-2-cuantificación-de-la-cobertura-del-vehículo-de-fortificación",
-    "href": "contenido/micromodulos/tema 3/modulo13.html#paso-2-cuantificación-de-la-cobertura-del-vehículo-de-fortificación",
-    "title": "Módulo 13",
-    "section": "Paso 2: Cuantificación de la “Cobertura” del Vehículo de Fortificación",
-    "text": "Paso 2: Cuantificación de la “Cobertura” del Vehículo de Fortificación\nLa cobertura se define como el porcentaje de hogares que aparentemente consumen cualquier cantidad del vehículo alimentario de interés durante el período de referencia de la encuesta (ej., los 7 días de recuerdo).\n\nCálculo Directo: Para calcular la cobertura, simplemente se identifica cuántos hogares en la muestra informaron haber adquirido o consumido una cantidad superior a cero del alimento fortificable (o del alimento que contiene el vehículo fortificable).\nSignificado: Esta estimación indica el alcance potencial de un programa de fortificación que utiliza ese alimento como vehículo. Por ejemplo, en Malawi, se estimó que el 76% de los hogares consumía aceite y el 56% azúcar, lo que proporciona una base para entender su potencial como vehículos de fortificación.\n\n\nPaso 3: Estratificación para Análisis Nacional y Subnacional\nLa capacidad de las HCES para estratificar los datos permite una comprensión más profunda de quiénes son alcanzados por los vehículos de fortificación y dónde se encuentran las brechas.\n\nNivel Nacional: La cobertura nacional proporciona una visión general del alcance del vehículo en todo el país (ej., “el 76% de los hogares a nivel nacional reportaron consumir aceite”).\nNivel Subnacional (Estratificación): Para obtener una visión más granular y dirigir mejor las intervenciones, la cobertura se debe estratificar por:\n\nRegiones Administrativas: Permite identificar variaciones geográficas en el consumo.\nÁreas Urbanas vs. Rurales: Fundamental, ya que las poblaciones rurales de menor posición socioeconómica a menudo tienen un bajo consumo aparente de alimentos fortificados.\nNivel Socioeconómico (SEP): El análisis por quintiles de gasto per cápita permite identificar si el vehículo llega a las poblaciones más pobres o a los grupos con mayores necesidades de micronutrientes.\nOtros Subgrupos: Si los datos lo permiten, se pueden considerar otras estratificaciones como la etnicidad o grupos culturales con patrones de consumo distintos.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 13"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo13.html#relación-con-el-consumo-aparente-contexto-importante",
-    "href": "contenido/micromodulos/tema 3/modulo13.html#relación-con-el-consumo-aparente-contexto-importante",
-    "title": "Módulo 13",
-    "section": "Relación con el Consumo Aparente (Contexto Importante)",
-    "text": "Relación con el Consumo Aparente (Contexto Importante)\nAunque la pregunta se centra en la “cobertura”, es importante entender que la cobertura y el “consumo aparente” están estrechamente relacionados en el análisis de HCES.\n\nMientras que la cobertura mide el porcentaje de hogares que consumen el alimento, el consumo aparente se refiere a la cantidad de alimento consumida por unidad AME/AFE al día. Ambos son esenciales para determinar el impacto potencial de la fortificación. Por ejemplo, una alta cobertura de un vehículo es buena, pero si la cantidad consumida es muy baja, su impacto nutricional será limitado.\nLas estimaciones de consumo aparente se ajustan por AME/AFE para permitir la comparación entre hogares con diferentes composiciones demográficas, asumiendo que el alimento se distribuye dentro del hogar proporcionalmente a las necesidades energéticas de cada miembro.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 13"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 3/modulo13.html#consideraciones-y-limitaciones-importantes-al-usar-datos-hces-para-la-cobertura",
-    "href": "contenido/micromodulos/tema 3/modulo13.html#consideraciones-y-limitaciones-importantes-al-usar-datos-hces-para-la-cobertura",
-    "title": "Módulo 13",
-    "section": "Consideraciones y Limitaciones Importantes al Usar Datos HCES para la Cobertura:",
-    "text": "Consideraciones y Limitaciones Importantes al Usar Datos HCES para la Cobertura:\n\nNo es Consumo Real Individual: Las HCES describen adquisiciones o gastos de los hogares, no la ingesta real de alimentos a nivel individual. Se basan en suposiciones como que los alimentos comprados no se comparten con invitados, no se desperdician, no se dan a animales o se almacenan para uso posterior. También asumen que los alimentos se distribuyen dentro del hogar en proporción a las necesidades energéticas de cada miembro.\nErrores de Medición: Puede haber errores de recuerdo (recall error), y la información no siempre captura alimentos consumidos fuera del hogar o pérdidas de nutrientes durante la cocción.\nLista Fija de Alimentos: Las HCES tienen listas de alimentos fijas, lo que podría limitar la exhaustividad.\nUtilidad a Pesar de las Limitaciones: A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.\n\nAl seguir estos pasos, podrás utilizar los datos de las HCES para obtener una estimación robusta de la cobertura de vehículos potenciales de fortificación a nivel nacional y para identificar subpoblaciones que se benefician o que aún necesitan intervenciones adicionales.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Micromódulos e-learning",
-      "tema 3",
-      "Módulo 13"
-    ]
-  },
-  {
-    "objectID": "contenido/micromodulos/tema 1/modulo04.html",
-    "href": "contenido/micromodulos/tema 1/modulo04.html",
-    "title": "Módulo 04",
+    "objectID": "contenido/micromodulos/tema 1/modulo02.html",
+    "href": "contenido/micromodulos/tema 1/modulo02.html",
+    "title": "Módulo 02",
     "section": "",
-    "text": "sumario\n\n\n\n\n\n\n\nBiblografía",
+    "text": "Sumario\n\nEncuestas de Consumo y Gasto de los Hogares (HCES)\nFortalezas y debilidades\nImportancia\nUtilidad de los resultados\n\n\n\n\nEncuestas de Consumo y Gasto de los Hogares (HCES)\nLas Encuestas de Consumo y Gasto de los Hogares (ECH), también conocidas con otros nombres como Encuestas de Ingresos y Gastos de los Hogares (EIGH), Encuestas de Presupuesto de los Hogares (EPH) o Encuestas de Medición del Nivel de Vida (EMNV), son encuestas complejas que se realizan sobre una muestra representativa a nivel nacional para caracterizar aspectos importantes de las condiciones socioeconómicas de los hogares (Government of Canada 2023).\nLa mayoría de las ECH son implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial.\n\n\nFortalezas\n\nGeneralmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.\n\nSuelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.\n\nLos datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.\n\nIncluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.\n\n\n\nDebilidades\nA pesar de su relevancia como fuente de información socioeconómica, las ECH presentan limitaciones que pueden afectar su utilidad para análisis específicos de seguridad alimentaria y nutrición:\n\nFalta de representatividad en ciertos niveles geográficos: Aunque muchas son representativas a nivel nacional, no siempre lo son a nivel subnacional (provincial o distrital).\nFrecuencia limitada: Generalmente se realizan cada 3 a 5 años, lo cual permite el análisis de tendencias, pero limita la capacidad de monitoreo en tiempo real.\nLimitaciones metodológicas en la medición del consumo:\n\nMuchas encuestas miden solo el consumo aparente basado en adquisiciones, no el consumo real.\nAlgunas no capturan adecuadamente alimentos consumidos fuera del hogar, lo que subestima el consumo real.\nPueden omitir variaciones estacionales al recolectarse en un único período del año.\n\nDiseño heterogéneo entre países: Los módulos de consumo varían significativamente en cuanto a:\n\nDuración del período de recuerdo (de 1 a 365 días).\nRecolección de datos sobre adquisición, consumo o ambos.\nInclusión de información sobre el modo de obtención de alimentos (compra, producción propia, transferencias en especie).\nNivel de detalle en la lista de alimentos: si es abierta o cerrada, y su compatibilidad con bases de datos de composición nutricional.\nUso de unidades de medida no estándar sin posibilidad de conversión.\n\nInadecuación para análisis individuales: Los datos se recopilan a nivel de hogar, lo que dificulta la evaluación de indicadores nutricionales a nivel individual.\nSesgos por períodos largos de recuerdo: Períodos superiores a dos semanas pueden generar errores por olvido o imprecisión en los reportes.\nImpedimento para comparaciones internacionales: La falta de estandarización entre países limita la comparabilidad de resultados en estudios regionales o globales.\n\n\n\nUtilidad de los resultados\nLas Encuestas de Consumo y Gasto de los Hogares (ECH) tienen como propósito principal proporcionar información para el monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor.\nEn años recientes, ha surgido un interés creciente por aprovechar el módulo de consumo de alimentos de estas encuestas como fuente representativa a nivel nacional para evaluar la seguridad alimentaria y la nutrición.\nAdemás, las ECH recopilan una amplia gama de datos sobre factores determinantes y resultados socioeconómicos —como el nivel educativo y el estatus económico—, lo que enriquece el análisis contextual de la seguridad alimentaria y la nutrición.\nDe acuerdo con la evidencia disponible, existe un amplio consenso en que las ECH, siempre que cuenten con módulos de consumo bien diseñados, son una fuente valiosa de información para medir la seguridad alimentaria y la nutrición a nivel de hogar.\n\n\n\n\n\n\n\n\nBibliografía\n\nGovernment of Canada, Statistics Canada. 2023. “Archived - Survey of Household Spending, 2023.” https://www.statcan.gc.ca/en/statistical-programs/instrument/3508_Q1_V21.",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Micromódulos e-learning",
       "tema 1",
-      "Módulo 04"
+      "Módulo 02"
     ]
   },
   {
@@ -749,60 +1088,306 @@
     ]
   },
   {
-    "objectID": "contenido/recursos/index.html",
-    "href": "contenido/recursos/index.html",
-    "title": "Recursos",
+    "objectID": "contenido/micromodulos/tema 5/modulo17.html",
+    "href": "contenido/micromodulos/tema 5/modulo17.html",
+    "title": "Módulo 17",
     "section": "",
-    "text": "Esta sección encontraras una serie de recursos útiles para para la capacitación e-learning como para el desarrollo de talleres presenciales.\nLos recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, bases de datos o script en R, para la ejecución de análisis estadístico para la fortificación de alimentos.\nListado\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTablas de composición de alimentos\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "sumario\n\n\nBiblografía",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
-      "Recursos"
+      "Micromódulos e-learning",
+      "tema 5",
+      "Módulo 17"
     ]
   },
   {
-    "objectID": "contenido/index.html",
-    "href": "contenido/index.html",
-    "title": "Contenidos",
+    "objectID": "contenido/micromodulos/tema 5/modulo16.html",
+    "href": "contenido/micromodulos/tema 5/modulo16.html",
+    "title": "Módulo 16",
     "section": "",
-    "text": "Hemos organizado el contenido para facilitar tu aprendizaje y consulta:\n\nEjercicios interactivos: Realiza un conjunto de ejercicios interactivos que te permitirán practicar los contenidos de la capacitación.\nMódulos de E-learning: Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.\nRecursos Adicionales: Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.\nTaller Presencial: Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.",
+    "text": "sumario\nLa determinación de los niveles de fortificación factibles (NPF) en los alimentos es un proceso crucial que se apoya en una metodología sistemática y en la evaluación de diversos indicadores, siguiendo las recomendaciones de organizaciones como la Organización Mundial de la Salud (OMS)\n\nConcepto de Nivel Posible de Fortificación (NPF)\nEl Nivel Posible de Fortificación (NPF) es la concentración de micronutrientes que se puede añadir a un alimento, teniendo en cuenta las limitaciones de costo y tecnología, para proporcionar una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.\nEste concepto es fundamental para: * Estimar la ingesta adicional que resultaría del consumo de un alimento fortificado. * Calcular el costo probable del proceso de fortificación. * Formular la premezcla final del micronutriente. * Sirve como base para los parámetros de producción y reglamentación, incluyendo el nivel objetivo de fortificación (NOF), el nivel mínimo de fortificación (NmF), el nivel máximo de fortificación (NMF), el nivel legal mínimo (NLm) y el nivel máximo tolerable (NMT).\n\n\nRecomendaciones de la OMS y Metodología\nLa OMS (junto con la FAO y la UNU) ha establecido directrices y valores de referencia para nutrientes que son la base para determinar los niveles de fortificación,,. El método recomendado para fijar estos niveles es el método del punto de corte del Requerimiento Promedio Estimado (RPE),,,,,,.\nEste método busca que: * La probabilidad de ingesta inadecuada en una población específica sea aceptablemente baja (idealmente entre 2% y 3%),. * Se evite el riesgo de ingesta excesiva en esta o en otras poblaciones,. * Para la mayoría de los nutrientes, la variación en la ingesta en un grupo de población debe ser mayor que la variación del requerimiento del nutriente, y la distribución de los requerimientos debe ser simétrica. * Excepción para el hierro: No es posible usar el enfoque del punto de corte del RPE para el hierro en niños, adolescentes menstruantes y mujeres adultas, ya que sus requerimientos no tienen una distribución normal. Para estos grupos, se debe emplear el enfoque completo de probabilidades,. * Se utilizan los valores de referencia de nutrientes (VRN), que son valores de referencia nutricionales definidos por la Comisión del Codex Alimentarius para armonizar el etiquetado de alimentos procesados, aplicables a todos los miembros de la familia mayores de 3 años,.\nEjemplos de recomendaciones específicas de la OMS y otras organizaciones: * Yodo: La OMS recomienda añadir de 20 a 40 mg de yodo por kg de sal para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo diario de 10 g de sal,. Esta estrategia ha demostrado ser altamente efectiva. * Ácido fólico: La Organización Panamericana de la Salud (OPS) ha recomendado que las intervenciones de fortificación de alimentos proporcionen una cantidad adicional de 200 µg de ácido fólico al día en toda Latinoamérica. Esto se basa en la evidencia de que el aumento de la ingesta de ácido fólico reduce la prevalencia de defectos del tubo neural y mejora el estado nutricional de los folatos,,.\n\n\nProceso para Determinar el NPF\nLa determinación del NPF implica varios pasos que equilibran la necesidad nutricional con las limitaciones prácticas:\n\nObservar la distribución habitual de la ingesta de nutrientes: Se requieren datos cuantitativos de ingesta alimentaria de subgrupos de población (ej. niños en edad preescolar, mujeres en edad reproductiva, etc.) para evaluar el nivel actual de ingesta de nutrientes,. Se pueden usar tablas de composición de alimentos (locales, regionales o internacionales como INFOODS) para convertir los datos de consumo en cantidades de nutrientes.\nIdentificar subgrupos en riesgo: A partir del análisis de la ingesta, se identifican los subgrupos con mayor prevalencia de ingesta inadecuada de nutrientes específicos.\nMedir el consumo habitual del vehículo alimentario: Estimar la cantidad habitual del alimento fortificable consumida no solo por los grupos deficientes, sino también por aquellos con alto consumo (para evaluar el riesgo de exceso).\nSimular el efecto de la adición de nutrientes: Recalcular la distribución de la ingesta de nutrientes, estimando la cantidad adicional de micronutrientes que contendría el alimento fortificado a diferentes niveles de fortificación. Esto ayuda a identificar el nivel más apropiado que previene la carencia sin causar ingestas excesivas.\n\n\n\nLimitaciones en la Determinación de los Niveles de Fortificación\nLa cantidad de micronutrientes que es posible añadir a los alimentos está frecuentemente limitada por tres factores clave:\n\nLímites de Inocuidad (Límites de seguridad): Es la cantidad máxima de micronutriente que puede agregarse con seguridad a un alimento,,. Se evalúa comparando la ingesta proyectada con el Nivel Máximo de Ingesta Tolerable (NM), que es la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población,,.\nLímites Tecnológicos: El nivel máximo de adición de micronutrientes que no causa cambios organolépticos adversos (color, sabor, olor) ni físicos en el vehículo alimentario,,. Estos deben determinarse experimentalmente para cada alimento y la combinación de nutrientes. Los avances tecnológicos pueden aumentar estos límites.\nLímites de Costos: El aumento máximo aceptable en el precio del alimento debido a la fortificación, que sea aceptable tanto para los productores como para los consumidores,,,. Para los programas de fortificación masiva, se busca que el aumento de precio no exceda el 1% al 2% respecto al producto no fortificado para asegurar su sostenibilidad,. El costo del fortificante mismo puede constituir la mayor parte de este aumento,.\n\n\n\nParámetros de Producción y Reglamentación\nUna vez que se define el NPF, se establecen parámetros adicionales para la producción y la reglamentación:\n\nNivel Objetivo de Fortificación (NOF): La concentración promedio de un micronutriente en el producto fortificado en la fábrica, que incluye el contenido intrínseco natural del micronutriente y el NPF,.\nNivel Mínimo de Fortificación (NmF): El límite inferior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica. Se calcula restando del NOF una cantidad proporcional a dos veces el coeficiente de variación (CV) del contenido del nutriente medido en la fábrica,,,.\nNivel Máximo de Fortificación (NMF): El límite superior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica, calculado sumando al NOF dos veces el CV,.\nNivel Legal Mínimo (NLm): La cantidad mínima de micronutriente que debe contener el alimento fortificado según la reglamentación nacional, que debe aparecer en la etiqueta,,. Se obtiene restando del NmF las pérdidas esperadas durante la distribución y almacenamiento.\nNivel Máximo Tolerable (NMT): El contenido máximo de micronutriente permitido en el alimento fortificado por ley para minimizar el riesgo de ingesta excesiva. Para los nutrientes con problemas de inocuidad, el NMT debe coincidir con el NMF,,.\n\n\n\nUso de Indicadores en la Vigilancia y Evaluación de Programas\nLa determinación de los niveles de fortificación es parte integral de un sistema más amplio de vigilancia y evaluación, el cual es esencial para el éxito y la sostenibilidad de cualquier programa de fortificación,,. Este sistema incluye:\n\nVigilancia Regulatoria:\n\nVigilancia Interna: Realizada por los fabricantes (control de calidad/aseguramiento de la calidad - CC/AC) para asegurar que los productos cumplen con los estándares,,.\nVigilancia Externa: Inspecciones y auditorías técnicas llevadas a cabo por autoridades gubernamentales en fábricas y puntos de importación para verificar el cumplimiento,.\nVigilancia Comercial: Verificación del cumplimiento de las normas en las tiendas minoristas,,.\nLos criterios de éxito se expresan en términos del porcentaje de muestras que cumplen con los niveles mínimos y máximos tolerables en cada etapa (hogares, minoristas, producción),.\n\nVigilancia en Hogares: Determina si los productos fortificados son accesibles, comprados y consumidos adecuadamente por la población objetivo en sus viviendas,,,,,.\nEvaluación de Impacto: Determina si el programa ha logrado sus objetivos generales, como mejorar el estado nutricional de la población objetivo. Esta evaluación se realiza solo después de que la vigilancia confirma que el programa opera de manera satisfactoria,,,. Los indicadores de evaluación pueden incluir:\n\nIndicadores de ingesta: Consumo adecuado o aumentado de alimentos fortificados y/o de micronutrientes específicos.\nIndicadores del estado nutricional: Mejoras en indicadores bioquímicos y clínicos.\nResultados funcionales: Mejoras en crecimiento, morbilidad, mortalidad o desarrollo cognitivo y motor.\nLos niveles de inferencia para la evaluación de impacto son: adecuación, posibilidad y probabilidad, siendo este último el que ofrece el mayor nivel de confianza sobre la causalidad.\n\n\n\n\n\nBiblografía",
     "crumbs": [
       "🏠 Home",
-      "Contenidos"
+      "Contenidos",
+      "Micromódulos e-learning",
+      "tema 5",
+      "Módulo 16"
     ]
   },
   {
-    "objectID": "contenido/taller/dia1/index.html",
-    "href": "contenido/taller/dia1/index.html",
-    "title": "Día 1: Introducción sobre estrategias de fortificación de alimentos",
-    "section": "",
-    "text": "Esta es la página de resumen para el Día 1 del taller. Aquí puedes encontrar las presentaciones de las clases de hoy incrustadas directamente, junto con recursos adicionales para que aproveches al máximo la jornada.",
+    "objectID": "contenido/taller/dia1/clase01.html#sumario",
+    "href": "contenido/taller/dia1/clase01.html#sumario",
+    "title": "Conferencia 1",
+    "section": "Sumario",
+    "text": "Sumario\n\nBreve revisión sobre las estrategias de fortificación\nExploración con los participantes sobre los aprendizajes adquiridos en los módulos e-learning sobre HCES\nRefuerzo de conceptos clave y preguntas de los participantes para aclarar dudas",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Taller",
-      "Día 1: Introducción sobre estrategias de fortificación de alimentos"
+      "Día 1: Introducción sobre estrategias de fortificación de alimentos",
+      "Conferencia 1"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fortificación de Alimentos a Gran Escala",
-    "section": "",
-    "text": "Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.\nNuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.\nEste curso en línea se centra en la cobertura, el consumo y la contribución de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.\nEstas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.\nPresentamos el contenido para facilitar tu aprendizaje organizado en módulos de E-learning, contenido para el desarrollo de talleres presenciales y ofrecemos una serie de recursos adicionales para complementar tu formación."
+    "objectID": "contenido/taller/dia1/clase01.html#introdución",
+    "href": "contenido/taller/dia1/clase01.html#introdución",
+    "title": "Conferencia 1",
+    "section": "Introdución",
+    "text": "Introdución\n\n\ncontents…\n\ncontents…",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Taller",
+      "Día 1: Introducción sobre estrategias de fortificación de alimentos",
+      "Conferencia 1"
+    ]
   },
   {
-    "objectID": "index.html#bienvenidoa-al-portal-de-capacitación-en-fortificación-de-alimentos",
-    "href": "index.html#bienvenidoa-al-portal-de-capacitación-en-fortificación-de-alimentos",
-    "title": "Fortificación de Alimentos a Gran Escala",
-    "section": "",
-    "text": "Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.\nNuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.\nEste curso en línea se centra en la cobertura, el consumo y la contribución de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.\nEstas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.\nPresentamos el contenido para facilitar tu aprendizaje organizado en módulos de E-learning, contenido para el desarrollo de talleres presenciales y ofrecemos una serie de recursos adicionales para complementar tu formación."
+    "objectID": "static/pdf/introduccion_modulos02.html#sumario",
+    "href": "static/pdf/introduccion_modulos02.html#sumario",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Sumario",
+    "text": "Sumario\n\nLa estadística en el contexto de la fortificación de alimentos a gran escala\nFuentes de información, las HCES\nSistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados\nProblema práctico",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
   },
   {
-    "objectID": "index.html#comienza-tu-aprendizaje-hoy",
-    "href": "index.html#comienza-tu-aprendizaje-hoy",
-    "title": "Fortificación de Alimentos a Gran Escala",
-    "section": "¡Comienza tu aprendizaje hoy!",
-    "text": "¡Comienza tu aprendizaje hoy!\nTe invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.\n\n\n\n\n\n\nAutores: Maicel Monzón Pérez PhD, Yarisa Domínguez Ayllón Msc y\nCarlos Santiago Rodas Moya PhD."
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\ndescriptiva (medidas resúmenes)\ninferencial (estimación puntual y por intervalo de confianza, pruebas de significación)\nmétodos de regresión",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-1",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-1",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\nEstimación de ingesta dietética aparente: identificación de variables por módulos HCES (tipo de alimento, cantidad, frecuencia, miembros del hogar típico)\nEstandarización de unidades y conversión a gramos\nUso del método AFE (Adult Female Equivalent) para distribuir alimentos según requerimientos energéticos\nEstimación del consumo aparente ajustado por edad y género",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-2",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-en-el-contexto-de-la-fortificación-de-alimentos-a-gran-escala-2",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística en el contexto de la fortificación de alimentos a gran escala",
+    "text": "Estadística en el contexto de la fortificación de alimentos a gran escala\n\nAjuste del consumo por grupo poblacional y contexto (zona, ingresos, IPC, estacionalidad)\nEstimación de cobertura de vehículos de fortificación a nivel nacional y subnacional con datos HCES\nAplicación del punto de corte EAR (Estimated Average Requirement) para evaluar ingesta adecuada de micronutrientes\nCálculo de adiciones de micronutrientes en vehículos seleccionados y construcción de escenarios de fortificación",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-decriptiva-indicadores-de-interez-en-el-proyecto",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-decriptiva-indicadores-de-interez-en-el-proyecto",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística decriptiva (indicadores de interez en el proyecto)",
+    "text": "Estadística decriptiva (indicadores de interez en el proyecto)\n\n\n\n\n\n\n\n\nIndicador\nMétrica\nFuente\n\n\n\n\nCobertura (% de población que consume AF)\n-\nHCES\n\n\nIngesta de micronutrientes del AF\nMedia aritmética\nHCES\n\n\nContribución del alimento fortificado al Requerimiento Promedio Estimado\nRelación con EAR (OMS/FAO)\nHCES + EAR",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#estadística-inferencial-preguntas",
+    "href": "static/pdf/introduccion_modulos02.html#estadística-inferencial-preguntas",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Estadística inferencial (Preguntas)",
+    "text": "Estadística inferencial (Preguntas)\n\n¿Es la cobertura de sal yodada significativamente diferente en zonas rurales vs. urbanas? (Aplicación de pruebas de proporciones).\n¿El consumo promedio de harina fortificada ha aumentado significativamente después de una intervención? (Aplicación de pruebas t o ANOVA).\n¿La contribución del arroz fortificado a la ingesta de hierro es suficiente para reducir la deficiencia en un grupo específico, considerando el intervalo de confianza de la estimación?",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#hces",
+    "href": "static/pdf/introduccion_modulos02.html#hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "HCES",
+    "text": "HCES\n\nLas HCES (Household Consumption and Expenditure Surveys) son encuestas que recopilan datos sobre gastos y consumo de hogares, incluyendo alimentos, educación y salud.\n\nPermiten analizar la distribución del ingreso y brechas nutricionales en poblaciones .\nSon implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#componentes-clave-de-las-hces",
+    "href": "static/pdf/introduccion_modulos02.html#componentes-clave-de-las-hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Componentes clave de las HCES",
+    "text": "Componentes clave de las HCES\n\nIngresos familiares: Fuentes y niveles económicos.\n\nPatrones de consumo: Tipos y cantidades de alimentos consumidos.\n\nDestino del gasto: Prioridades en alimentación, vivienda, salud, etc.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#fortalezas",
+    "href": "static/pdf/introduccion_modulos02.html#fortalezas",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Fortalezas",
+    "text": "Fortalezas\n\nGeneralmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.\nSuelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.\nLos datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.\nIncluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#debilidades",
+    "href": "static/pdf/introduccion_modulos02.html#debilidades",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Debilidades",
+    "text": "Debilidades\n\nFalta de representatividad en ciertos niveles geográficos:\nFrecuencia limitada (10 años):\nLimitaciones metodológicas en la medición del consumo (consumo aparente, estacionalidad)\nDiseño heterogéneo entre países",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#debilidades-1",
+    "href": "static/pdf/introduccion_modulos02.html#debilidades-1",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Debilidades",
+    "text": "Debilidades\n\nInadecuación para análisis individuales:\nSesgos por períodos largos de recuerdo:\nImpedimento para comparaciones internacionales:",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#utilidad-de-los-resultados",
+    "href": "static/pdf/introduccion_modulos02.html#utilidad-de-los-resultados",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Utilidad de los resultados",
+    "text": "Utilidad de los resultados\n\nmonitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor\nevaluar la seguridad alimentaria y la nutrición.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#sistema-de-evaluación-de-los-programas-de-fortificación-basados-en-cuatro-indicadores-seleccionados",
+    "href": "static/pdf/introduccion_modulos02.html#sistema-de-evaluación-de-los-programas-de-fortificación-basados-en-cuatro-indicadores-seleccionados",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados",
+    "text": "sistema de evaluación de los programas de fortificación basados en cuatro indicadores seleccionados\n\nPorcentaje de la población que consume el alimento fortificado (AF)\nPromedio de consumo del alimento fortificado\nPromedio de ingesta de micronutriente/s del Alimento fortificado\nContribución del Alimento fortificado a la ingesta de MN (en relación al EAR)",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#frecuencia-de-la-población-que-consume-el-alimento-fortificado-af",
+    "href": "static/pdf/introduccion_modulos02.html#frecuencia-de-la-población-que-consume-el-alimento-fortificado-af",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Frecuencia de la población que consume el alimento fortificado (AF)",
+    "text": "Frecuencia de la población que consume el alimento fortificado (AF)\nUso: Evaluar la cobertura del programa de fortificación.\nFórmula:\n\\[  \n\\frac{\\text{Número de personas que consumen AF}}{\\text{Población total objetivo}} \\times 100  \n\\]\nCálculo con HCES: Se identifica la proporción de hogares o individuos que reportan consumo de AF en registros de adquisiciones o gastos .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#promedio-de-consumo-del-alimento-fortificado",
+    "href": "static/pdf/introduccion_modulos02.html#promedio-de-consumo-del-alimento-fortificado",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Promedio de consumo del alimento fortificado",
+    "text": "Promedio de consumo del alimento fortificado\nUso: Medir la cantidad promedio de AF consumida por persona/día.\nFórmula:\n\\[  \n\\frac{\\text{Consumo total de AF en la población}}{\\text{Número de consumidores}}  \n\\]\nCálculo con HCES: Se extraen datos de cantidades adquiridas o consumidas de AF (en gramos o mililitros) y se normalizan por día o semana .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "href": "static/pdf/introduccion_modulos02.html#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Promedio de ingesta de micronutriente/s del Alimento fortificado",
+    "text": "Promedio de ingesta de micronutriente/s del Alimento fortificado\nUso: Cuantificar el aporte nutricional del Alimento fortificado.\nFórmula:\n\\[  \n\\text{Concentración de MN en AF (mg/100g)} \\times \\text{Consumo promedio de AF (g/día)}  \n\\]\nCálculo con HCES: Se multiplica el contenido de micronutrientes (ej. hierro en harina fortificada) por el consumo promedio registrado en HCES .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#contribución-del-alimento-fortificado-a-la-ingesta-de-mn-en-relación-al-ear",
+    "href": "static/pdf/introduccion_modulos02.html#contribución-del-alimento-fortificado-a-la-ingesta-de-mn-en-relación-al-ear",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)",
+    "text": "Contribución del Alimento fortificado a la ingesta de MN (en relación al EAR)\nUso: Evaluar el impacto del AF en cubrir requerimientos nutricionales.\nFórmula:\n\\[  \n\\frac{\\text{Ingesta de MN desde el AF}}{\\text{Requerimiento Promedio Estimado (EAR)}} \\times 100  \n\\]\nCálculo con HCES: Se compara la ingesta de micronutrientes desde el AF (calculada con datos de HCES) contra el EAR establecido por organismos internacionales .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#cálculo-a-partir-de-hces",
+    "href": "static/pdf/introduccion_modulos02.html#cálculo-a-partir-de-hces",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Cálculo a partir de HCES",
+    "text": "Cálculo a partir de HCES\n\nDatos individuales: Las HCES registran consumo por hogar o individuo, lo que permite calcular indicadores a nivel poblacional .\n\nAgregación: Métodos como la agregación simple ponderan subindicadores (ej. consumo en diferentes regiones) para obtener promedios nacionales .",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
+  },
+  {
+    "objectID": "static/pdf/introduccion_modulos02.html#ejercicio",
+    "href": "static/pdf/introduccion_modulos02.html#ejercicio",
+    "title": "Aplicando la Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nSe le presentará una encuesta HCES aplicada en un contexto específico. Su tarea será identificar y calcular los cuatro indicadores requeridos a partir de las variables disponibles en el formulario.",
+    "crumbs": [
+      "🏠 Home",
+      "Static",
+      "Pdf",
+      "Aplicando la  Estadística al Análisis de HCES: Interpretación y Uso de los Indicadores Clave para la Fortificación"
+    ]
   }
 ]

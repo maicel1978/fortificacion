@@ -12,8 +12,10 @@ bibliography: references.bib
 Generalidades sobre déficit nutricionales y estrategias para su control:
 
 -	  Deficiencias nutricionales y grupos vulnerables
--	  Políticas y estrategias para el control de las carencias de micronutrientes. 
--	  Política y estrategia de fortificación de alimentos para prevenir deficiencias de micronutrientes a nivel poblacional.
+
+-	  Políticas y estrategias para el control de las carencias de micronutrientes.
+
+-	  Política para prevenir deficiencias de micronutrientes a nivel poblacional.
 
 
 ![](/static/images/micro1.png)

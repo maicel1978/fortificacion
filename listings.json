@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/contenido/recursos/index.html",
+    "items": [
+      "/contenido/recursos/tablas/tablas.html"
+    ]
+  },
+  {
+    "listing": "/contenido/ejercicios/index.html",
+    "items": [
+      "/contenido/ejercicios/tema 1/ejercicio01.html",
+      "/contenido/ejercicios/tema 1/ejercicio02.html"
+    ]
+  },
+  {
     "listing": "/contenido/micromodulos/index.html",
     "items": [
       "/contenido/micromodulos/tema 1/modulo01.html",
@@ -19,19 +32,6 @@
       "/contenido/micromodulos/tema 5/modulo15.html",
       "/contenido/micromodulos/tema 5/modulo16.html",
       "/contenido/micromodulos/tema 5/modulo17.html"
-    ]
-  },
-  {
-    "listing": "/contenido/ejercicios/index.html",
-    "items": [
-      "/contenido/ejercicios/tema 1/ejercicio01.html",
-      "/contenido/ejercicios/tema 1/ejercicio02.html"
-    ]
-  },
-  {
-    "listing": "/contenido/recursos/index.html",
-    "items": [
-      "/contenido/recursos/tablas/tablas.html"
     ]
   }
 ]

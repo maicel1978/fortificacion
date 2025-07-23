@@ -1,7 +1,7 @@
 ---
 title: "Módulo 01"
-subtitle: "Introducción sobre estrategias de fortificación de alimentos"
-description: "Se describen las estrategias de fortificación de alimentos, se abordan temas como déficit nutricionales, política de fortificación de alimentos así como las fases para su implementación"
+subtitle: "¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control"
+description: "Se describen las definciones generales realcionadas con los déficit nutricionales"
 date: 2025-06-29
 author: "Maicel Monzón"
 bibliography: references.bib
@@ -9,9 +9,12 @@ bibliography: references.bib
 
 # Sumario
 
--   Déficit nutricionales
--   Política de fortificación de alimentos
--   Fases para la implementación de programas de fortificación de alimentos a gran escala
+Generalidades sobre déficit nutricionales y estrategias para su control:
+
+-	  Deficiencias nutricionales y grupos vulnerables
+-	  Políticas y estrategias para el control de las carencias de micronutrientes. 
+-	  Política y estrategia de fortificación de alimentos para prevenir deficiencias de micronutrientes a nivel poblacional.
+
 
 ![](/static/images/micro1.png)
 

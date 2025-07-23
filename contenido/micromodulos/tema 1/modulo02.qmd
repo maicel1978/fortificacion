@@ -9,65 +9,12 @@ bibliography: references.bib
 
 # Sumario
 
--   Encuestas de Consumo y Gasto de los Hogares (HCES)
+- Planificación y diseño de un programa de fortificación. 
 
--   Fortalezas y debilidades
-
--   Importancia
-
--   Utilidad de los resultados
+- Definición y establecimiento de los objetivos del programa:
+  - Necesidades de información
+  - Definición de los objetivos nutricionales
+  - Introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación
 
 ![](/static/images/ECGH.png)
 
-# Encuestas de Consumo y Gasto de los Hogares (HCES)
-
-Las Encuestas de Consumo y Gasto de los Hogares (ECH), también conocidas con otros nombres como Encuestas de Ingresos y Gastos de los Hogares (EIGH), Encuestas de Presupuesto de los Hogares (EPH) o Encuestas de Medición del Nivel de Vida (EMNV), son encuestas complejas que se realizan sobre una muestra representativa a nivel nacional para caracterizar aspectos importantes de las condiciones socioeconómicas de los hogares [@governmentofcanada2023].
-
-La mayoría de las ECH son implementadas por organismos nacionales de estadística, a menudo con la asistencia técnica del Grupo del Estudio de Medición del Nivel de Vida (EMNV) del Banco Mundial.
-
-# Fortalezas
-
--   Generalmente son representativos a nivel nacional y, en algunos casos, también a nivel provincial y distrital.\
--   Suelen realizarse cada 3 a 5 años, lo que permite analizar tendencias a lo largo del tiempo.\
--   Los datos de consumo de alimentos de las Encuestas de Consumo y Gasto de los Hogares (ECH) son una fuente importante de información sobre seguridad alimentaria y nutrición.\
--   Incluyen una amplia gama de datos sobre determinantes y resultados (por ejemplo, estatus socioeconómico, educación), lo que permite diversas opciones analíticas.
-
-# Debilidades
-
-A pesar de su relevancia como fuente de información socioeconómica, las ECH presentan limitaciones que pueden afectar su utilidad para análisis específicos de seguridad alimentaria y nutrición:
-
--   **Falta de representatividad en ciertos niveles geográficos**: Aunque muchas son representativas a nivel nacional, no siempre lo son a nivel subnacional (provincial o distrital).
-
--   **Frecuencia limitada**: Generalmente se realizan cada 3 a 5 años, lo cual permite el análisis de tendencias, pero limita la capacidad de monitoreo en tiempo real.
-
--   **Limitaciones metodológicas en la medición del consumo**:
-
-    -   Muchas encuestas miden solo el *consumo aparente* basado en adquisiciones, no el consumo real.
-    -   Algunas no capturan adecuadamente alimentos consumidos fuera del hogar, lo que subestima el consumo real.
-    -   Pueden omitir variaciones estacionales al recolectarse en un único período del año.
-
--   **Diseño heterogéneo entre países**: Los módulos de consumo varían significativamente en cuanto a:
-
-    -   Duración del período de recuerdo (de 1 a 365 días).
-    -   Recolección de datos sobre adquisición, consumo o ambos.
-    -   Inclusión de información sobre el modo de obtención de alimentos (compra, producción propia, transferencias en especie).
-    -   Nivel de detalle en la lista de alimentos: si es abierta o cerrada, y su compatibilidad con bases de datos de composición nutricional.
-    -   Uso de unidades de medida no estándar sin posibilidad de conversión.
-
--   **Inadecuación para análisis individuales**: Los datos se recopilan a nivel de hogar, lo que dificulta la evaluación de indicadores nutricionales a nivel individual.
-
--   **Sesgos por períodos largos de recuerdo**: Períodos superiores a dos semanas pueden generar errores por olvido o imprecisión en los reportes.
-
--   **Impedimento para comparaciones internacionales**: La falta de estandarización entre países limita la comparabilidad de resultados en estudios regionales o globales.
-
-# Utilidad de los resultados
-
-Las Encuestas de Consumo y Gasto de los Hogares (ECH) tienen como propósito principal proporcionar información para el monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor.
-
-En años recientes, ha surgido un interés creciente por aprovechar el módulo de consumo de alimentos de estas encuestas como fuente representativa a nivel nacional para evaluar la seguridad alimentaria y la nutrición.
-
-Además, las ECH recopilan una amplia gama de datos sobre factores determinantes y resultados socioeconómicos —como el nivel educativo y el estatus económico—, lo que enriquece el análisis contextual de la seguridad alimentaria y la nutrición.
-
-De acuerdo con la evidencia disponible, existe un amplio consenso en que las ECH, siempre que cuenten con módulos de consumo bien diseñados, son una fuente valiosa de información para medir la seguridad alimentaria y la nutrición a nivel de hogar.
-
-# Bibliografía

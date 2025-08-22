@@ -1,11 +1,15 @@
 ---
 title: "Módulo 01"
 subtitle: "¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control"
-description: "Se describen las definciones generales realcionadas con los déficit nutricionales"
+description: "El objetivo principal de este módulo es que los participantes conozcan los fundamentos para diseñar estrategias de fortificación de alimentos, basadas en políticas públicas, para reducir deficiencias de micronutrientes en grupos vulnerables"
 date: 2025-06-29
 author: "Maicel Monzón & Santiago Rodas Moya"
 bibliography: references.bib
 ---
+
+¡Hola a todos! A continuación, pueden ver el módulo en video sobre el tema propuesto.
+
+{{< video https://youtu.be/kO3dpPw786c >}}
 
 # Sumario
 
@@ -78,5 +82,8 @@ Un programa de fortificación de alimentos es una intervención de salud públic
 6.  Establecimiento de Sistemas Inernos \[en la industria\] y Externos \[del gobierno\] de Garantía y Control de Calidad de la Producción de Alimentos Fortificados
 
 7.  Evaluación de Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+
+
+
 
 # Bibliografía

@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/contenido/recursos/index.html",
-    "items": [
-      "/contenido/recursos/tablas/tablas.html"
-    ]
-  },
-  {
     "listing": "/contenido/ejercicios/index.html",
     "items": [
       "/contenido/ejercicios/tema 1/ejercicio01.html",
       "/contenido/ejercicios/tema 1/ejercicio02.html"
+    ]
+  },
+  {
+    "listing": "/contenido/recursos/index.html",
+    "items": [
+      "/contenido/recursos/tablas/tablas.html"
     ]
   },
   {

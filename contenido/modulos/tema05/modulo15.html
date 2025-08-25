@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
+<meta name="description" content="Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación">
+
+<title>Módulo 15 – Fortificación de alimentos a gran escala</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-f7364687eeb71d76157dfc5421afb7d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Fortificación de alimentos a gran escala</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">🏠 Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../about.html" aria-current="page"> 
+<span class="menu-text">📄 About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo15.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo15.html">Módulo 15</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nuestro Contexto y Misión</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../contenido/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contenidos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../contenido/recursos/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recursos</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tablas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/recursos/tablas/tablas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tablas de composición de alimentos</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../contenido/modulos/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulos e-learning</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tema01</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema01/modulo01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 01</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema01/modulo02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema01/modulo03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 03</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema01/modulo04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 04</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema01/modulo05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 05</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tema02</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema02/modulo06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 06</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tema03</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 07</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 08</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 09</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 10</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 11</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 12</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema03/modulo13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 13</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tema04</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema04/modulo14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 14</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tema05</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema05/modulo15.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Módulo 15</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema05/modulo16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema05/modulo17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 17</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../contenido/ejercicios/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicios</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Tema01</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/ejercicios/tema01/ejercicio01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 1: Micronutrientes y carencias nutricionales</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/ejercicios/tema01/ejercicio02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicio 2: Fortificación a gran escala</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Taller</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dia2</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia2/clase06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia2/clase07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia2/clase08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia2/clase09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dia3</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia3/clase10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia3/clase11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia3/clase12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia3/clase13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dia4</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia4/clase14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia4/clase15.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia4/clase16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia4/clase17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dia5</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia5/clase19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia5/clase20.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia5/clase21.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia5/clase22.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Untitled</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../contenido/taller/dia1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Día 1: Introducción sobre estrategias de fortificación de alimentos</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia1/clase01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conferencia 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia1/clase02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conferencia 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia1/clase03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conferencia 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/taller/dia1/clase04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conferencia 4</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">sumario</a></li>
+  <li><a href="#cálculo-de-adiciones-de-micronutrientes-y-construcción-de-escenarios-de-fortificación" id="toc-cálculo-de-adiciones-de-micronutrientes-y-construcción-de-escenarios-de-fortificación" class="nav-link" data-scroll-target="#cálculo-de-adiciones-de-micronutrientes-y-construcción-de-escenarios-de-fortificación">Cálculo de Adiciones de Micronutrientes y Construcción de Escenarios de Fortificación</a>
+  <ul class="collapse">
+  <li><a href="#paso-1-recopilación-y-preparación-de-información-clave" id="toc-paso-1-recopilación-y-preparación-de-información-clave" class="nav-link" data-scroll-target="#paso-1-recopilación-y-preparación-de-información-clave">Paso 1: Recopilación y Preparación de Información Clave</a></li>
+  <li><a href="#paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe" id="toc-paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe" class="nav-link" data-scroll-target="#paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe">Paso 2: Comprensión y Uso del Requerimiento Promedio Estimado (RPE)</a></li>
+  <li><a href="#paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe" id="toc-paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe" class="nav-link" data-scroll-target="#paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe">Paso 3: Cálculo del Nivel de Adición de Micronutrientes (con el Método del Punto de Corte del RPE)</a></li>
+  <li><a href="#paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones" id="toc-paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones" class="nav-link" data-scroll-target="#paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones">Paso 4: Determinación del Nivel Posible de Fortificación (NPF) y Limitaciones</a></li>
+  <li><a href="#paso-5-construcción-de-escenarios-de-fortificación" id="toc-paso-5-construcción-de-escenarios-de-fortificación" class="nav-link" data-scroll-target="#paso-5-construcción-de-escenarios-de-fortificación">Paso 5: Construcción de Escenarios de Fortificación</a></li>
+  <li><a href="#consideraciones-adicionales" id="toc-consideraciones-adicionales" class="nav-link" data-scroll-target="#consideraciones-adicionales">Consideraciones Adicionales</a></li>
+  </ul></li>
+  <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo15.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo15.html">Módulo 15</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Módulo 15</h1>
+<p class="subtitle lead">Cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación</p>
+</div>
+
+<div>
+  <div class="description">
+    Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Maicel Monzon &amp; Yarisa Domínguez </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../static/images/modulo15.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<section id="sumario" class="level1">
+<h1>sumario</h1>
+</section>
+<section id="cálculo-de-adiciones-de-micronutrientes-y-construcción-de-escenarios-de-fortificación" class="level1">
+<h1>Cálculo de Adiciones de Micronutrientes y Construcción de Escenarios de Fortificación</h1>
+<section id="paso-1-recopilación-y-preparación-de-información-clave" class="level2">
+<h2 class="anchored" data-anchor-id="paso-1-recopilación-y-preparación-de-información-clave">Paso 1: Recopilación y Preparación de Información Clave</h2>
+<p>Para iniciar el diseño de un programa de fortificación, es fundamental recopilar la siguiente información: * <strong>Datos bioquímicos/clínicos sobre el estado nutricional</strong>: Para entender la magnitud y severidad de las deficiencias de micronutrientes en diferentes grupos poblacionales. * <strong>Patrones alimentarios</strong>: Información sobre la composición de la dieta habitual. * <strong>Ingesta habitual de alimentos y micronutrientes</strong>: Datos cuantitativos de la ingesta de alimentos y la distribución de la ingesta habitual de micronutrientes específicos en la población. Esta es la <strong>base más útil para justificar y diseñar</strong> el programa. * <strong>Consumo del vehículo alimentario</strong>: Es crucial estimar la cantidad habitual del vehículo alimentario previsto que consumen los subgrupos de población con mayor riesgo de ingesta inadecuada o excesiva. Las HCES pueden proporcionar estimaciones del consumo aparente de vehículos de fortificación.</p>
+</section>
+<section id="paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe" class="level2">
+<h2 class="anchored" data-anchor-id="paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe">Paso 2: Comprensión y Uso del Requerimiento Promedio Estimado (RPE)</h2>
+<p>El <strong>método recomendado</strong> para establecer los niveles de fortificación en alimentos es el <strong>método del punto de corte del Requerimiento Promedio Estimado (RPE)</strong>.</p>
+<ul>
+<li><strong>Definición del RPE</strong>: El RPE se define como la ingesta diaria promedio que se estima es suficiente para cubrir las necesidades de la mitad de los individuos sanos de un subgrupo en una fase de la vida y género determinado. Aunque la FAO/OMS no publica regularmente los valores del RPE, estos <strong>pueden derivarse fácilmente de la Ingesta Recomendada de Nutrientes (IRN)</strong> mediante factores de conversión.</li>
+<li><strong>Propósito del RPE</strong>: Permite estimar la proporción de la población con ingesta insuficiente de un nutriente determinado. El objetivo es que la fortificación eleve la distribución de la ingesta de manera que <strong>solo una pequeña proporción (generalmente 2% a 3%) del grupo de población esté en riesgo de tener una ingesta insuficiente</strong>.</li>
+<li><strong>Identificación de Subgrupos de Riesgo</strong>: Ciertos subgrupos (como niños y mujeres) tienen un mayor riesgo de ingesta inadecuada. La información de la ingesta nutricional debe recolectarse de estos diferentes grupos (distintos niveles socioeconómicos, grupos étnicos, condiciones fisiológicas). Un estudio en Malawi, por ejemplo, estimó la cobertura de vehículos de fortificación y la ingesta aparente de mujeres no embarazadas y no lactantes, estratificado por subpoblaciones y estaciones.</li>
+</ul>
+</section>
+<section id="paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe" class="level2">
+<h2 class="anchored" data-anchor-id="paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe">Paso 3: Cálculo del Nivel de Adición de Micronutrientes (con el Método del Punto de Corte del RPE)</h2>
+<p>Este método implica cuatro pasos:</p>
+<ol type="1">
+<li><p><strong>Observar la distribución habitual de la ingesta de nutrientes</strong>: Cuantificar el nivel actual de ingesta de nutrientes en subgrupos de la población. Esto se hace a partir de los datos de consumo de alimentos de las HCES, convertidos a cantidades de nutrientes consumidos usando tablas de composición de alimentos. Por ejemplo, un análisis puede revelar que el 65% de las mujeres adultas tienen una ingesta inadecuada de vitamina A, es decir, una ingesta por debajo del RPE (357 µg/día).</p></li>
+<li><p><strong>Identificar los subgrupos de población con mayor riesgo</strong>: Una vez que se tienen los datos de ingesta, se pueden identificar los subgrupos con la mayor prevalencia de ingesta inadecuada para dirigir el programa.</p></li>
+<li><p><strong>Medir la cantidad habitual del vehículo alimentario previsto</strong>: Determinar el consumo del vehículo alimentario por los subgrupos de riesgo y por aquellos con mayor consumo (para evaluar el riesgo de ingesta excesiva). Las HCES pueden tener información sobre alimentos preparados que contienen el vehículo (ej., pan con harina de trigo) y se pueden construir variables compuestas para estimar el equivalente del vehículo en estos alimentos (ej., Fortified Wheat Flour Equivalents).</p></li>
+<li><p><strong>Simular el efecto de agregar distintos niveles de nutrientes al vehículo alimentario</strong>: Volver a calcular la distribución de la ingesta de nutrientes (ej., vitamina A) asumiendo que el vehículo (ej., harina de trigo) contiene una cantidad adicional del micronutriente. Esto ayuda a identificar el nivel de fortificación más apropiado que previene la deficiencia sin causar una alta proporción de ingesta excesiva.</p>
+<ul>
+<li><strong>Consideraciones de Biodisponibilidad</strong>: Es importante ajustar los cálculos si la biodisponibilidad del nutriente añadido difiere sustancialmente de la que ocurre naturalmente en la dieta. Por ejemplo, el hierro electrolítico se absorbe menos y se recomienda agregar el doble de su cantidad que de sulfato ferroso. El ácido fólico y la vitamina B12 sintéticos pueden tener una mayor absorción que sus formas naturales en los alimentos.</li>
+<li><strong>Ejemplo para Yodo</strong>: La OMS recomienda agregar de 20 a 40 mg de yodo/kg de sal para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo de 10 g de sal/día y sin ingesta previa de yodo.</li>
+<li><strong>Ejemplo para Folato/Ácido Fólico</strong>: Se ha demostrado que aumentar la ingesta en 200 µg/día de ácido fólico a través de la fortificación es efectivo para mejorar el estado nutricional y reducir defectos del tubo neural.</li>
+</ul></li>
+</ol>
+</section>
+<section id="paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones" class="level2">
+<h2 class="anchored" data-anchor-id="paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones">Paso 4: Determinación del Nivel Posible de Fortificación (NPF) y Limitaciones</h2>
+<p>La cantidad de micronutrientes que se puede agregar a los alimentos a menudo está limitada por factores de <strong>inocuidad, tecnología y costos</strong>.</p>
+<ul>
+<li><strong>Definición de NPF</strong>: El <strong>Nivel Posible de Fortificación (NPF)</strong> es el nivel que se determina, sujeto a las limitaciones de costo y tecnología, que proporcionará una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.</li>
+<li><strong>Límite de Inocuidad</strong>: Se evalúa comparando la ingesta proyectada del micronutriente (con mayores niveles de fortificación y consumo) con el <strong>Nivel Máximo de Ingesta Tolerable (NM)</strong>. Los hombres adultos suelen tener el mayor riesgo de ingesta excesiva debido a mayores tasas de consumo de alimentos básicos.</li>
+<li><strong>Límite Tecnológico</strong>: Es el nivel máximo de adición que no causa cambios organolépticos (color, sabor, olor) ni físicos adversos en el alimento. Se debe determinar experimentalmente y puede variar con innovaciones tecnológicas.</li>
+<li><strong>Límite de Costos</strong>: Es el aumento aceptable en el precio de los productos alimentarios fortificados. La mayoría de los programas operan con aumentos de precios entre 0.25% y 2.0%. Para la fortificación a gran escala, el costo del agente fortificante representa la mayor proporción del aumento del costo.</li>
+<li><strong>Impacto de los Límites</strong>: El <strong>NPF será el valor más bajo</strong> de estos tres límites (inocuidad, tecnología y costo). Si la combinación de estos límites reduce la cantidad de nutrientes a niveles por debajo de lo necesario para el objetivo nutricional, podría ser necesario <strong>fortificar más de un alimento o usar estrategias complementarias como la suplementación</strong>.</li>
+</ul>
+</section>
+<section id="paso-5-construcción-de-escenarios-de-fortificación" class="level2">
+<h2 class="anchored" data-anchor-id="paso-5-construcción-de-escenarios-de-fortificación">Paso 5: Construcción de Escenarios de Fortificación</h2>
+<p>La modelización de escenarios de fortificación permite comparar el impacto potencial de diferentes estrategias.</p>
+<ul>
+<li><strong>Tipos de Escenarios</strong>: Un estudio en Malawi utilizó un marco de modelización matemática para comparar escenarios de fortificación.
+<ol type="1">
+<li><strong>Escenario “sin fortificación”</strong>: Asume que los alimentos no están fortificados, proporcionando una base de referencia para la adecuación de la dieta.</li>
+<li><strong>Escenario “status quo”</strong>: Modela la fortificación a los niveles actuales, que pueden estar por debajo de los estándares obligatorios.</li>
+<li><strong>Escenario de fortificación “a niveles estándar/mandatados”</strong>: Modela la fortificación a los niveles de cumplimiento completo de las normativas o al NPF calculado.</li>
+</ol></li>
+<li><strong>Evaluación de Impacto en Escenarios</strong>: Para cada escenario, se pueden estimar métricas como la cobertura del vehículo de fortificación, la densidad de micronutrientes de la dieta y la ingesta aparente de micronutrientes. En el caso de Malawi, se analizó el impacto potencial de la fortificación de aceite, azúcar y harina de trigo en la adecuación de vitamina A. Se encontró que el aceite y el azúcar, combinados, podrían mejorar la adecuación de vitamina A debido a su alta cobertura y consumo aparente, mientras que la harina de trigo contribuyó poco.</li>
+<li><strong>Estratificación</strong>: Los escenarios deben estratificarse por subpoblaciones (ej., rural, urbano, posición socioeconómica) y, si es relevante, por temporadas, para entender cómo los programas benefician a diferentes grupos y dónde persisten las deficiencias. Por ejemplo, en Malawi, las contribuciones potenciales de todos los vehículos de fortificación fueron bajas en las poblaciones rurales de menor posición socioeconómica.</li>
+</ul>
+</section>
+<section id="consideraciones-adicionales" class="level2">
+<h2 class="anchored" data-anchor-id="consideraciones-adicionales">Consideraciones Adicionales</h2>
+<ul>
+<li><strong>Vigilancia y Evaluación Continua</strong>: El diseño de programas debe incluir la vigilancia y evaluación desde el inicio para asegurar que los alimentos fortificados contengan la cantidad deseada de micronutrientes y sean consumidos por la población objetivo en cantidades adecuadas. La vigilancia abarca desde la producción hasta el punto de consumo.</li>
+<li><strong>Legislación y Control de Calidad</strong>: La fortificación obligatoria es cuando los gobiernos legalmente exigen a los productores fortificar ciertos alimentos. Esto requiere un sistema de control de calidad (interno, externo y comercial) para asegurar el cumplimiento de las normas.</li>
+<li><strong>Promoción y Educación</strong>: Es fundamental comunicar los beneficios de la fortificación para fomentar la aceptación y el consumo de los alimentos fortificados por parte de la población.</li>
+</ul>
+<p>Al seguir estos pasos, se puede diseñar y modelar un programa de fortificación de alimentos basado en evidencia, maximizando su potencial para abordar las deficiencias de micronutrientes en la población.</p>
+</section>
+</section>
+<section id="biblografía" class="level1">
+<h1>Biblografía</h1>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

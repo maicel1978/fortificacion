@@ -1,0 +1,14 @@
+---
+title: "Módulo 06"
+subtitle: "Medidas para el resumen datos de nutrición (estadística descriptiva)"
+author: "Maicel Monzon"
+description: "Se introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación"
+---
+
+![](/static/images/modulo06.png){fig-align="center"}
+
+# sumario
+
+
+
+# Biblografía

@@ -1,0 +1,77 @@
+---
+title: "Módulo 01"
+subtitle: "¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control"
+description: "El objetivo principal de este módulo es que los participantes conozcan los fundamentos para diseñar estrategias de fortificación de alimentos, basadas en políticas públicas, para reducir deficiencias de micronutrientes en grupos vulnerables"
+date: 2025-06-29
+author: "Maicel Monzón & Santiago Rodas Moya"
+bibliography: references.bib
+---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/kO3dpPw786c >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo01.zip)
+
+# Sumario
+
+Generalidades sobre déficit nutricionales y estrategias para su control:
+
+Deficiencias nutricionales y grupos vulnerables.
+
+Políticas y estrategias para el control de las carencias de micronutrientes.
+
+Política y estrategia de fortificación de alimentos para prevenir deficiencias de micronutrientes a nivel poblacional.
+
+![](/static/images/micro1.png)
+
+# Déficit nutricionales
+
+Los micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
+
+Cuando esto no ocurre pueden generarse deficits nutricionales que pueden afectar la salud. En America Latina y el Caribe se estima que cerca del 63% de las mujeres en edad fértil y el 48% de los niños sufren de anemia por deficiencia de hierro , además de otras carencias de micronutrientes[@stevens2022]. En Cuba por ejemplo, las carencias nutricionales más frecuentes son el déficit de vitamina A y de Yodo.
+
+Sin embargo, se pueden llevar a cabo estrategias para corregir estas deficiencias.
+
+# Estrategias para el control de las carencias de micronutrientes
+
+Las estrategias para el control de las carencias de micronutrientes más importantes son:
+
+1.  Aumento de la diversidad de la dieta
+2.  Fortificación de alimentos
+3.  Suplementación
+
+![](/static/images/mod01estrategias.png)
+
+
+
+
+
+
+# Políticas de fortificación de alimentos
+
+La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de uno o más micronutrientes esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo.
+
+Cuando la fortificación es parte de una política pública y adopta un marco normativo, se convierte en una práctica obligatoria para la adición de micronutrientes esenciales a los alimentos de consumo masivo. Esto permite mejorar su calidad nutricional y lograr beneficios para la salud [@allen2017].
+
+Existen varios tipos de enfoques de fortificación:
+
+![](/static/images/mod01tiposfort.png)
+
+
+
+# Programas de fortificación de alimentos a gran escala
+
+Un programa de fortificación de alimentos es una intervención de salud pública orientada a mejorar el estado nutricional de la población mediante la adición controlada de micronutrientes esenciales como hierro, yodo, vitamina A y ácido fólico a alimentos de consumo masivo. Cuando está bien diseñado, el programa de fortificación puede ser eficaz, seguro y costoefectivo para reducir las deficiencias nutricionales.
+
+
+En el [módulo 02](../../modulos/tema01/modulo02.qmd)  nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.
+
+
+# Ejercicios
+
+[Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
+
+[Acceder al Ejercicio 2](../../ejercicios/tema01/ejercicio02.qmd)
+
+# Bibliografía

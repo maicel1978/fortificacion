@@ -25,9 +25,3 @@ Las tablas pueden estar disponibles en formato impreso o digital (bases de datos
 **Tablas de centro américa**
 
 {{< pdf /static/pdf/TablaCAlimentos.pdf width=100% height=800 >}}
-
-
-
-
-
-

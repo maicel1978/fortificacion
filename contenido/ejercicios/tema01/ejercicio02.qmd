@@ -1,0 +1,57 @@
+---
+title: "Ejercicio 2: Fortificación a gran escala"
+subtitle: "Tema 1"
+description: "Ejercicio sobre el tema de Fortificación a gran escala"
+date: 2025-06-29
+filters: 
+    - quizdown
+---
+
+Implementada en más de 100 países, la fortificación a gran escala salva vidas al enriquecer alimentos básicos con vitaminas y minerales clave, combatiendo **'el hambre oculta'** de forma costo-efectiva.
+
+![](/static/images/ejercicos02.png){width="50"}
+
+::: callout-note
+La fortificación a gran escala (también llamada fortificación masiva o mandatoria) es una estrategia de salud pública que consiste en agregar micronutrientes esenciales (vitaminas y minerales) a alimentos de consumo masivo y ampliamente distribuidos, con el objetivo de prevenir o corregir deficiencias nutricionales en poblaciones enteras. Se implementa a nivel nacional o regional mediante políticas gubernamentales y regulaciones obligatorias.
+:::
+
+``` quizdown
+---
+primary_color: orange
+secondary_color: lightgray
+text_color: black
+shuffle_questions: false
+shuffle_answers: true
+---
+
+# Fortificacion se define como:
+
+> proporciona un beneficio de salud pública con un riesgo mínimo para la salud
+
+- [x] La fortificación es la práctica de incrementar deliberadamente el contenido de un micronutriente esencial de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo para la salud.
+- [ ] La fortificación se refiere a la adición de micronutrientes a alimentos que consume comúnmente la población en general, como cereales, condimentos y leche.
+- [ ] Se refiere a la fortificación de alimentos diseñados para subgrupos específicos de la población, como los alimentos complementarios para el destete de lactantes.
+
+## En el control de las carencias de micronutrientes
+
+Seleccione tres estrategias 
+
+> Some hint
+
+- [x] Aumento de la diversidad de la dieta
+- [x] Fortificación de alimentos
+- [x] Suplementación
+- [ ] Restricción de consumo de frutas
+
+## Ponga las etapas de fortificación a gran escala en orden
+
+> La busqueda de evidecia es la *primera* etapa.
+
+1. Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo
+2. Selección de Alimentos Vehiculares Apropiados para la Fortificación
+3. Determinación de los Niveles de Fortificación y los Fortificantes Adecuados
+4. Desarrollo y Promulgación de Legislación y Normas de Fortificación
+5. Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento
+6. Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
+7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+```

@@ -1,0 +1,206 @@
+---
+title: "Evaluación del Consumo de Alimentos Fortificados y su Impacto en la Ingesta de Micronutrientes"
+subtitle: "Estrategia de capacitación Blended Learning"
+author: "Dr.C Maicel Monzón"
+format:
+    revealjs:
+      smaller: true
+      scrollable: true
+      embed-resources: true
+      multiplex: false
+  # beamer:
+  #   theme: Metropolis
+  #   aspectratio: 169
+---
+
+## Sumario
+
+-   Introducción
+-   Organización y estructura de la capacitación
+-   Resultados esperados e impacto
+-   Próximos Pasos
+
+## Micronutrientes esenciales
+
+- **Compuestos** orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos)
+
+- **Requeridos** en cantidades mínimas para garantizar **funciones fisiológicas críticas**
+
+![](/static/images/micronutrientes01.png){.class width="70%" height="70%"}
+
+## Micronutrientes esenciales  
+
+- El organismo **no puede sintetizarlos** o lo hace en cantidades **insuficientes** por lo que se deben **incorporar** de **fuentes exógenas**
+
+![](/static/images/micronutrientes02.png)
+
+## Desnutrición por carencia de micronutrientes:  **definición**
+
+¨Una condición patológica resultante de la **ingesta o absorción inadecuada** de vitaminas y minerales esenciales necesarios para el **funcionamiento óptimo** del organismo, incluso cuando el consumo calórico es suficiente¨
+
+## Desnutrición por carencia de micronutrientes: Espectro clínico 
+
+![](/static/images/dcmn01.png)
+
+
+
+
+
+## Desnutrición por carencia de micronutrientes: **Multicausalidad**
+
+![](/static/images/micronutrientes03.png){.class width="70%" height="70%"}
+
+##  Determinates socioeconómicos de la salud 
+
+
+- El ingreso, empleo y educación condicionan el acceso a recursos básicos (alimentos, vivienda, servicios de salud).
+
+
+- Las desigualdades sociales aumentan el riesgo de enfermedad y muerte prematura.
+
+- El entorno social y económico moldea estilos de vida, exposición a riesgos y capacidad de respuesta ante enfermedades.
+
+
+## Ejemplo 
+
+Los altos precios limitan el acceso a alimentos en cantidad y calidad suficiente.
+
+
+![](/static/images/cifras01.jpg){.class width="70%" height="70%"}
+
+## Ejemplo 
+
+![](/static/images/precios01.png)
+
+## Los determinates socioeconómicos juegan un papel importante en la salud
+
+![](/static/images/precios02.jpg){.class width="70%" height="70%"}
+
+## Desnutrición por carencia de micronutrientes: prevanlecia
+
+![](/static/images/cifras02.png){.class width="70%" height="70%"}
+
+## Desnutrición por carencia de micronutrientes: Estrategias de  control (OMS)
+
+![](/static/images/estrategias01.png)
+
+## Fortificación de alimentos
+
+*"La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de un micronutriente esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo."*
+
+## Fortificación de alimentos: definición
+
+![](/static/images/fortifiacion01.png){.class width="70%" height="70%"}
+
+## Fortificación de alimentos: ventajas y limitaciones
+
+![](/static/images/fortifiacion02.png){.class width="70%" height="70%"}
+
+## Fortificación de alimentos: Hoja de ruta para la fortificación en Cuba
+
+![](/static/images/ruta01.png)
+
+## Fortalecimiento de las capacidades de los actores clave
+
+![](/static/images/ruta02.png)
+
+## Paquete de asitencia téctica: Organización y estructura de la capacitación
+
+1.  Capacitación en línea (80 horas):
+    -   Módulos e-learning sobre HCES, modelización dietética y estadística.\
+2.  Taller presencial (5 días, 40 horas):
+    -   Ejercicios prácticos con datos reales (ejemplo: Guatemala).\
+3.  Herramientas técnicas:
+    -   Manuales y guías para implementar el sistema de 4 indicadores.\
+4.  Apoyo continuo:
+    -   Misiones presenciales y sesiones remotas.\
+5.  Generación de evidencia científica:
+    -   Investigación sobre barreras y facilitadores para la adopción del sistema.
+    -   Artículo científico 
+
+------------------------------------------------------------------------
+
+## Blended Learning: Fusión de aprendizaje presencial y en línea
+
+**Esencia:** Integrar lo mejor de ambos mundos (presencial + online) para personalizar y optimizar la experiencia educativa.
+
+**Claves en 10 palabras:** *Sinergia, flexibilidad, personalización, tecnología con propósito, autonomía guiada.*
+
+## Módulos e-Learning (Temas Clave)
+
+1. Diseño de estrategias de fortificación y metodologías HCES. 
+
+2. Habilidades estadísticas (inferencia, regresión, correlación). 
+
+3. Modelización de dietas con datos HCES: 
+  - Estimación de ingesta aparente. 
+  - Ajuste por edad, género y contexto.
+  
+4. Ingesta de micronutrientes: 
+  - Uso del EAR (Requerimiento Promedio Estimado). 
+  
+5. Escenarios de fortificación: 
+  - Cálculo de niveles factibles (FFL) y construcción de modelos.
+
+------------------------------------------------------------------------
+
+## Plataforma 
+
+![](/static/images/plataforma.png){.class width="70%" height="70%"}
+
+## Taller Presencial (Estructura por Días)
+
+Día 1:
+  - Introducción a HCES y estadística.
+  - Preparación de datos para modelización.
+  
+Días 2-3:
+  - Modelización de ingesta dietética aparente (ejercicios prácticos).
+  
+Día 4:
+  - Estimación de contribución de micronutrientes.
+  
+Día 5:
+  - Construcción de escenarios de fortificación y cálculo de niveles FFL.
+
+------------------------------------------------------------------------
+
+## Resultados esperados
+
+1.  Personal capacitado:
+    -   Expertos en diseño y evaluación de estrategias de fortificación.
+    
+2.  Propuesta de optimización:
+    -   Selección de vehículos fortificados con alta cobertura y impacto en micronutrientes.
+    
+3.  Actualización normativa:
+    -   Revisión de estándares de fortificación basada en evidencia.
+
+------------------------------------------------------------------------
+
+## Sistema de Indicadores Propuesto
+
+| Indicador                         | Métrica                   | Fuente         |
+|------------------------------------|---------------------------|----------------|
+| Cobertura (% de población que consume AF) | -                         | HCES       | Consumo promedio del AF            | Media aritmética          | HCES           |
+| Ingesta de micronutrientes del AF  | Media aritmética          | HCES           |
+| Contribución del AF al EAR         | Relación con EAR (OMS/FAO)| HCES + EAR     |
+
+------------------------------------------------------------------------
+
+## Impacto Esperado en Cuba
+
+-   Corto plazo:
+    -   Capacitación de equipos técnicos para usar HCES en fortificación.
+-   Largo plazo:
+    -   Programas de fortificación más eficientes y sostenibles.
+    -   Mejora en la ingesta de micronutrientes en la población.
+
+------------------------------------------------------------------------
+
+## Próximos Pasos
+
+1.  Lanzamiento de módulos e-learning.
+2.  Organización del taller presencial (fechas y logística).
+3.  Desarrollo de manuales técnicos.
+4.  Iniciar investigación para validación científica.

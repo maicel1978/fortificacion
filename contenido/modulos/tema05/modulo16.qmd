@@ -1,0 +1,84 @@
+---
+title: "Módulo 16"
+subtitle: "Determinación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe el cálculo para la determinación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados"
+---
+
+![](/static/images/modulo16.png){fig-align="center"}
+
+# sumario
+
+
+
+La determinación de los niveles de fortificación factibles (NPF) en los alimentos es un proceso crucial que se apoya en una metodología sistemática y en la evaluación de diversos indicadores, siguiendo las recomendaciones de organizaciones como la **Organización Mundial de la Salud (OMS)**
+
+### Concepto de Nivel Posible de Fortificación (NPF)
+
+El **Nivel Posible de Fortificación (NPF)** es la concentración de micronutrientes que se puede añadir a un alimento, teniendo en cuenta las **limitaciones de costo y tecnología**, para proporcionar una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.
+
+Este concepto es fundamental para:
+*   **Estimar la ingesta adicional** que resultaría del consumo de un alimento fortificado.
+*   **Calcular el costo probable** del proceso de fortificación.
+*   **Formular la premezcla final** del micronutriente.
+*   Sirve como **base para los parámetros de producción y reglamentación**, incluyendo el nivel objetivo de fortificación (NOF), el nivel mínimo de fortificación (NmF), el nivel máximo de fortificación (NMF), el nivel legal mínimo (NLm) y el nivel máximo tolerable (NMT).
+
+### Recomendaciones de la OMS y Metodología
+
+La OMS (junto con la FAO y la UNU) ha establecido directrices y valores de referencia para nutrientes que son la base para determinar los niveles de fortificación,,. El método recomendado para fijar estos niveles es el **método del punto de corte del Requerimiento Promedio Estimado (RPE)**,,,,,,.
+
+Este método busca que:
+*   La **probabilidad de ingesta inadecuada** en una población específica sea **aceptablemente baja (idealmente entre 2% y 3%)**,.
+*   Se evite el **riesgo de ingesta excesiva** en esta o en otras poblaciones,.
+*   Para la mayoría de los nutrientes, la variación en la ingesta en un grupo de población debe ser mayor que la variación del requerimiento del nutriente, y la distribución de los requerimientos debe ser simétrica.
+*   **Excepción para el hierro**: No es posible usar el enfoque del punto de corte del RPE para el hierro en niños, adolescentes menstruantes y mujeres adultas, ya que sus requerimientos no tienen una distribución normal. Para estos grupos, se debe emplear el **enfoque completo de probabilidades**,.
+*   Se utilizan los **valores de referencia de nutrientes (VRN)**, que son valores de referencia nutricionales definidos por la Comisión del Codex Alimentarius para armonizar el etiquetado de alimentos procesados, aplicables a todos los miembros de la familia mayores de 3 años,.
+
+**Ejemplos de recomendaciones específicas de la OMS y otras organizaciones:**
+*   **Yodo**: La OMS recomienda añadir de **20 a 40 mg de yodo por kg de sal** para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo diario de 10 g de sal,. Esta estrategia ha demostrado ser altamente efectiva.
+*   **Ácido fólico**: La Organización Panamericana de la Salud (OPS) ha recomendado que las intervenciones de fortificación de alimentos proporcionen una cantidad adicional de **200 µg de ácido fólico al día** en toda Latinoamérica. Esto se basa en la evidencia de que el aumento de la ingesta de ácido fólico reduce la prevalencia de defectos del tubo neural y mejora el estado nutricional de los folatos,,.
+
+### Proceso para Determinar el NPF
+
+La determinación del NPF implica varios pasos que equilibran la necesidad nutricional con las limitaciones prácticas:
+
+1.  **Observar la distribución habitual de la ingesta de nutrientes:** Se requieren datos cuantitativos de ingesta alimentaria de subgrupos de población (ej. niños en edad preescolar, mujeres en edad reproductiva, etc.) para evaluar el nivel actual de ingesta de nutrientes,. Se pueden usar tablas de composición de alimentos (locales, regionales o internacionales como INFOODS) para convertir los datos de consumo en cantidades de nutrientes.
+2.  **Identificar subgrupos en riesgo:** A partir del análisis de la ingesta, se identifican los subgrupos con mayor prevalencia de ingesta inadecuada de nutrientes específicos.
+3.  **Medir el consumo habitual del vehículo alimentario:** Estimar la cantidad habitual del alimento fortificable consumida no solo por los grupos deficientes, sino también por aquellos con alto consumo (para evaluar el riesgo de exceso).
+4.  **Simular el efecto de la adición de nutrientes:** Recalcular la distribución de la ingesta de nutrientes, estimando la cantidad adicional de micronutrientes que contendría el alimento fortificado a diferentes niveles de fortificación. Esto ayuda a identificar el nivel más apropiado que previene la carencia sin causar ingestas excesivas.
+
+### Limitaciones en la Determinación de los Niveles de Fortificación
+
+La cantidad de micronutrientes que es posible añadir a los alimentos está frecuentemente limitada por tres factores clave:
+
+*   **Límites de Inocuidad (Límites de seguridad):** Es la cantidad máxima de micronutriente que puede agregarse con seguridad a un alimento,,. Se evalúa comparando la ingesta proyectada con el **Nivel Máximo de Ingesta Tolerable (NM)**, que es la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población,,.
+*   **Límites Tecnológicos:** El nivel máximo de adición de micronutrientes que no causa cambios organolépticos adversos (color, sabor, olor) ni físicos en el vehículo alimentario,,. Estos deben determinarse experimentalmente para cada alimento y la combinación de nutrientes. Los avances tecnológicos pueden aumentar estos límites.
+*   **Límites de Costos:** El aumento máximo aceptable en el precio del alimento debido a la fortificación, que sea aceptable tanto para los productores como para los consumidores,,,. Para los programas de fortificación masiva, se busca que el aumento de precio no exceda el **1% al 2%** respecto al producto no fortificado para asegurar su sostenibilidad,. El costo del fortificante mismo puede constituir la mayor parte de este aumento,.
+
+### Parámetros de Producción y Reglamentación
+
+Una vez que se define el NPF, se establecen parámetros adicionales para la producción y la reglamentación:
+
+*   **Nivel Objetivo de Fortificación (NOF):** La concentración promedio de un micronutriente en el producto fortificado en la fábrica, que incluye el contenido intrínseco natural del micronutriente y el NPF,.
+*   **Nivel Mínimo de Fortificación (NmF):** El límite inferior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica. Se calcula restando del NOF una cantidad proporcional a dos veces el coeficiente de variación (CV) del contenido del nutriente medido en la fábrica,,,.
+*   **Nivel Máximo de Fortificación (NMF):** El límite superior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica, calculado sumando al NOF dos veces el CV,.
+*   **Nivel Legal Mínimo (NLm):** La cantidad mínima de micronutriente que debe contener el alimento fortificado según la reglamentación nacional, que debe aparecer en la etiqueta,,. Se obtiene restando del NmF las pérdidas esperadas durante la distribución y almacenamiento.
+*   **Nivel Máximo Tolerable (NMT):** El contenido máximo de micronutriente permitido en el alimento fortificado por ley para minimizar el riesgo de ingesta excesiva. Para los nutrientes con problemas de inocuidad, el NMT debe coincidir con el NMF,,.
+
+### Uso de Indicadores en la Vigilancia y Evaluación de Programas
+
+La determinación de los niveles de fortificación es parte integral de un sistema más amplio de **vigilancia y evaluación**, el cual es esencial para el éxito y la sostenibilidad de cualquier programa de fortificación,,. Este sistema incluye:
+
+*   **Vigilancia Regulatoria:**
+    *   **Vigilancia Interna:** Realizada por los fabricantes (control de calidad/aseguramiento de la calidad - CC/AC) para asegurar que los productos cumplen con los estándares,,.
+    *   **Vigilancia Externa:** Inspecciones y auditorías técnicas llevadas a cabo por autoridades gubernamentales en fábricas y puntos de importación para verificar el cumplimiento,.
+    *   **Vigilancia Comercial:** Verificación del cumplimiento de las normas en las tiendas minoristas,,.
+    *   Los criterios de éxito se expresan en términos del porcentaje de muestras que cumplen con los niveles mínimos y máximos tolerables en cada etapa (hogares, minoristas, producción),.
+*   **Vigilancia en Hogares:** Determina si los productos fortificados son accesibles, comprados y consumidos adecuadamente por la población objetivo en sus viviendas,,,,,.
+*   **Evaluación de Impacto:** Determina si el programa ha logrado sus objetivos generales, como mejorar el estado nutricional de la población objetivo. Esta evaluación se realiza solo después de que la vigilancia confirma que el programa opera de manera satisfactoria,,,. Los indicadores de evaluación pueden incluir:
+    *   **Indicadores de ingesta:** Consumo adecuado o aumentado de alimentos fortificados y/o de micronutrientes específicos.
+    *   **Indicadores del estado nutricional:** Mejoras en indicadores bioquímicos y clínicos.
+    *   **Resultados funcionales:** Mejoras en crecimiento, morbilidad, mortalidad o desarrollo cognitivo y motor.
+    *   Los niveles de inferencia para la evaluación de impacto son: **adecuación**, **posibilidad** y **probabilidad**, siendo este último el que ofrece el mayor nivel de confianza sobre la causalidad.
+
+# Biblografía

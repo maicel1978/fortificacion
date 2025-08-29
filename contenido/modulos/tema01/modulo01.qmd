@@ -72,6 +72,6 @@ En el [módulo 02](../../modulos/tema01/modulo02.qmd)  nos adentraremos en detal
 
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
 
-[Acceder al Ejercicio 2](../../ejercicios/tema01/ejercicio02.qmd)
+
 
 # Bibliografía

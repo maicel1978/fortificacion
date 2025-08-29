@@ -25,10 +25,9 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 ![](/static/images/micro3.png)
 
-
 El **Método del Punto de Corte del Requerimiento Promedio Estimado (RPE)** es la metodología **recomendada por la Organización Mundial de la Salud (OMS)** para establecer los niveles de fortificación en alimentos y es fundamental en la planificación y diseño de programas de fortificación. Su propósito principal es asegurar que la fortificación sea efectiva para corregir deficiencias nutricionales, minimizando al mismo tiempo el riesgo de ingesta excesiva.
 
-A continuación, se detalla exhaustivamente este método:
+A continuación, se detalla este método:
 
 # 1. Definición y Propósito del Método del Punto de Corte del RPE
 
@@ -79,7 +78,7 @@ El método implica cuatro pasos clave para determinar el nivel de fortificación
 
 *   **Nivel Máximo de Ingesta Tolerable (NM)**: Es el valor de referencia más apropiado para determinar la inocuidad de la ingesta de micronutrientes, representando la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población. El riesgo de efectos adversos aumenta si la ingesta supera el NM. Los NM varían con la edad y el sexo, siendo generalmente menores en niños pequeños y mujeres embarazadas.
 
-### 5. Adaptaciones para Nutrientes Específicos
+# 5. Adaptaciones para Nutrientes Específicos
 
 *   **Hierro**: El método del punto de corte del RPE **no es aplicable para el hierro** en algunos subgrupos (niños, adolescentes y mujeres menstruantes) debido a que sus requerimientos de hierro no tienen una distribución normal (CV > 40%). En estos casos, se debe emplear el **enfoque completo de probabilidades**. Este método calcula la probabilidad de ingesta inadecuada para cada intervalo de ingesta habitual de hierro, considerando la biodisponibilidad del hierro en la alimentación.
 
@@ -97,7 +96,7 @@ El método implica cuatro pasos clave para determinar el nivel de fortificación
   - Los métodos para establecer el RPE ya incluyen un ajuste por la biodisponibilidad del nutriente de los alimentos. Sin embargo, si la biodisponibilidad del nutriente agregado es sustancialmente diferente a la que ocurre naturalmente, se deben hacer ajustes adicionales.
   - Por ejemplo, el hierro electrolítico se absorbe menos, por lo que se recomienda agregar el doble de su cantidad en comparación con el sulfato ferroso para una cantidad equivalente de hierro.
 
-### 7. Necesidades de Información para la Aplicación del RPE
+# 7. Necesidades de Información para la Aplicación del RPE
 
 Para diseñar un programa efectivo y aplicar correctamente el método del RPE, es esencial recopilar información de antecedentes y datos nutricionales:
 
@@ -113,6 +112,15 @@ Esta información es crucial para confirmar la necesidad del programa, identific
   - El objetivo de la fortificación es incrementar la distribución de la ingesta habitual de nutrientes de la población objetivo para que solo una pequeña proporción esté en riesgo de tener una ingesta insuficiente, pero no a niveles tan altos que las personas que consumen grandes cantidades del vehículo alimentario estén en riesgo de una ingesta excesiva. La mediana de esta nueva distribución de la ingesta habitual se conoce como la **"ingesta mediana objetivo"**.
   
   - La estrategia recomendada es aumentar la distribución de la ingesta habitual de tal manera que la ingesta de cada nutriente esté al menos a nivel del RPE para toda la población objetivo, con excepción del 2% al 3%. Esto implica que la mediana de la ingesta a alcanzar debería ser aproximadamente **1,5 veces la IRN (o IDR)**.
+  
+  
+# Conclusiones
+
+Para la mayoría de los micronutrientes, el método del punto de corte del Requerimiento Promedio Estimado (RPE) es el recomendado para establecer los niveles de fortificación. El RPE se define como la ingesta diaria de nutrientes que se estima cubre las necesidades del 50% de los individuos sanos en un grupo demográfico específico. Este método asume que la distribución de los requerimientos es simétrica y que la variabilidad en la ingesta es mayor que la variabilidad en los requerimientos.
+
+En el próximo módulo estudiarás el **Método de enfoque completo de probabilidades** 
+
+[Acceder al módulo 04](../../modulos/tema01/modulo04.qmd)
 
 
 

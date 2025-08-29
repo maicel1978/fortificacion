@@ -24,8 +24,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
     -   Planificación y diseño de un programa de fortificación.
     -   Definición y establecimiento de los objetivos del programa.
     -   Necesidades de información.
-    -   Introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación.
-    
+
 
 # Planificación y diseño de un programa de fortificación
 
@@ -69,7 +68,7 @@ Para diseñar un programa efectivo y justificar su necesidad, es esencial **reco
 
 *   **Ingesta habitual de micronutrientes**: La distribución de la ingesta de micronutrientes específicos en la población. Contar con datos cuantitativos de la ingesta de alimentos y nutrientes es un **prerrequisito** para cualquier programa de fortificación, ya que es la base para decidir qué micronutrientes agregar, a qué alimentos y en qué cantidad, y para predecir el impacto probable de las intervenciones.
 
-
+[Acceder al Ejercicio 2](../../ejercicios/tema01/ejercicio02.qmd)
 
 
 # Bibliografía

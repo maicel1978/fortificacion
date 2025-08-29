@@ -1,13 +1,62 @@
 ---
 title: "Módulo 04"
 date: 2025-06-30
-subtitle: "Introducción a los módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria)"
+subtitle: "Método de enfoque completo de probabilidades"
 author: "Maicel Monzón & Santiago Rodas Moya & Yarisa Domínguez"
-description: "Se realiza una descripción de módulos de HCES útiles para el modelado de dietas (Consumo de alimentos, frecuencia, datos demográficos, gastos, seguridad alimentaria"
+description: "Se realiza una introdución al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes"
 ---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/3BwTnAyTLoc >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo04.zip)
 
 # sumario
 
+- Justificación e importancia del método
+
+- Descripción del método
+
+- Información necesaria para su aplicación
+
 ![](/static/images/modulo04.png){fig-align="center"}
 
+
+El **Método de Probabilidades** es la **estrategia recomendada para establecer los niveles de fortificación de hierro** en alimentos, particularmente en subgrupos poblacionales como niños, adolescentes menstruantes y mujeres adultas. A diferencia del método del punto de corte del Requerimiento Promedio Estimado (RPE) usado para la mayoría de los nutrientes, este enfoque es necesario para el hierro porque **sus requerimientos no tienen una distribución normal o simétrica** en estos grupos.
+
+Este procedimiento permite calcular la prevalencia de ingesta inadecuada de hierro con mayor precisión, considerando la probabilidad de que la ingesta de un individuo esté por debajo de sus necesidades reales, y luego simular cómo la fortificación puede reducir esta prevalencia a un nivel aceptable, típicamente entre el 2% y 3%.
+
+# Justificación e importancia del método
+
+
+**Los requerimientos de hierro en ciertos subgrupos de la población (como niños, adolescentes menstruantes y mujeres adultas) no tienen una distribución normal**. Esto se debe principalmente a la **distribución asimétrica de las pérdidas de hierro**, especialmente las pérdidas menstruales.
+
+Cuando la distribución de requerimientos es sesgada (como el hierro en mujeres), el método del punto de corte del RPE no es adecuado y el método de probabilidades es el único válido.
+
+Ignorar esta asimetría y usar un simple promedio podría llevar a **subestimar la prevalencia de deficiencia** en la población, o a diseñar programas que no logren el impacto deseado en los grupos más vulnerables.
+
+# Descripción del método
+
+El procedimiento implica calcular la **probabilidad de una ingesta inadecuada de hierro para cada intervalo específico de ingesta habitual** en los subgrupos de población de interés (como niños pequeños y mujeres menstruantes).
+
+Para realizar este cálculo, es **fundamental conocer la biodisponibilidad del hierro de la alimentación habitual**. La biodisponibilidad puede variar significativamente entre los diferentes compuestos de hierro y la dieta.
+
+La **prevalencia de ingesta inadecuada** en un subgrupo de la población se obtiene multiplicando el porcentaje de la población dentro de cada rango de ingesta por la probabilidad de inadecuación correspondiente a ese rango.
+
+Luego, se **suman las prevalencias de inadecuación de todos los intervalos** de ingesta para obtener una estimación de la prevalencia total de inadecuación para el grupo de población de interés.
+
+Una vez establecida la prevalencia de ingesta inadecuada, el siguiente paso es **simular cómo la distribución de la ingesta aumentaría como resultado del consumo de alimentos fortificados con hierro**. El objetivo es determinar el nivel de fortificación que reduciría la prevalencia de inadecuación a un nivel aceptable, que suele ser **alrededor del 2% al 3%**.
+A pesar de su complejidad, estos **cálculos pueden realizarse eficientemente en hojas de cálculo o programas de estadística**.
+
+# Información necesaria para su aplicación
+
+Para aplicar el **Método de Enfoque Completo de Probabilidades**, se requieren datos sobre la distribución habitual de la ingesta de hierro en subgrupos de la población, preferiblemente con al menos dos días de registro alimentario por persona para ajustar la variabilidad diaria. Es necesario identificar los grupos con mayor riesgo de ingesta inadecuada, como mujeres en edad fértil o niños, y conocer su consumo habitual del alimento que se propone fortificar, a fin de predecir el impacto de diferentes niveles de fortificación. Además, se debe disponer de información sobre la biodisponibilidad del hierro en la dieta habitual para estimar correctamente la absorción y el riesgo de deficiencia o exceso.
+
+
+![](/static/images/modulo04pasos.png){fig-align="center"}
+
+
 # Biblografía
+
+-   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

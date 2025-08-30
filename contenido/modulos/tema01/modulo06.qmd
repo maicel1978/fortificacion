@@ -6,6 +6,17 @@ subtitle: "Descripción de Encuestas de Consumo y Gastos en los Hogares (HCES) e
 description: "Se realiza una descripción de las Encuestas de Consumo en el modelado de dietas"
 ---
 
+
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/1coz_3anMCI >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo06.zip)
+
+
+
+
 # Sumario
 
 -   Encuestas de Consumo y Gasto de los Hogares (HCES)

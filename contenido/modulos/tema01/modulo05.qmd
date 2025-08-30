@@ -3,7 +3,7 @@ title: "Módulo 05"
 date: 2025-07-01
 author: "Maicel Monzon & Santiago Rodas Moya & Yarisa Domínguez"
 subtitle: "Monitoreo y Evaluación de Programas de Fortificación de Alimentos"
-description: "Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos"
+description: "Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin"
 ---
 
 
@@ -16,25 +16,34 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 # sumario
 
-- Características de los sistemas de Monitoreo, Evaluación y Aprendizaje (MEL) 
+- **Generalidades** de los sistemas de **monitoreo**, **evaluación** y **aprendizaje** 
 
-- Componentes de un Sistema de Vigilancia y Evaluación
+- **Importacia** de los sistemas  de **monitoreo**, **evaluación** y **aprendizaje**
 
-- El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en 5 indicadores)
+- **Componentes** de un sistema de Vigilancia y Evaluación
+
+- **Características** del sistema WFP-LACRO basado en conjunto de **indicadores seleccionados**
 
 
 ![](/static/images/modulo05.png)
 
-
-La **planificación** y el **diseño** de un **programa de fortificación de alimentos** requieren una evaluación exhaustiva de las necesidades nutricionales de la población.
-Para garantizar su éxito y sostenibilidad, es esencial que los sistemas de **Monitoreo**, **Evaluación** y **Aprendizaje** (MEL) se desarrollen desde el **inicio del programa**, idealmente durante las etapas de **diseño y planificación**.
+# Generalidades de los sistemas de monitoreo, evaluación y aprendizaje
 
 
-# Características e importacia de los sistemas de **Monitoreo**, **Evaluación** y **Aprendizaje** (MEL) 
+Un **Sistema de Monitoreo, Evaluación y Aprendizaje** (MEL, por sus siglas en inglés) es un **marco integral y dinámico** diseñado para **guiar y mejorar la gestión de programas** de desarrollo. 
 
-Los **programas de fortificación** de alimentos son una estrategia clave de salud pública para combatir la malnutrición por deficiencia de micronutrientes.  Sin embargo, su efectividad **depende** de un **seguimiento riguroso**.
+Dentro de un sistema MEL para programas de fortificación, el **Monitoreo (Vigilancia)** se enfoca en la ejecución, respondiendo **"¿Estamos haciendo lo que dijimos que haríamos?"** La **Evaluación** profundiza en los resultados, abordando **"¿El programa está logrando su propósito final?"** Finalmente, el **Aprendizaje integra** estos hallazgos para mejorar continuamente, preguntándose **"¿Cómo podemos hacerlo mejor la próxima vez?"**
+
+![](/static/images/modulo05conceptos.png)
+
+Para alcanzar las **metas** de los programas de fortificación, se requiere un seguimiento continuo y riguroso que permita avanzar de una implementación desconocida a una informada.
 
 ![](/static/images/modulo05paso.png)
+
+La **planificación** y el **diseño** de un **programa de fortificación de alimentos** requieren una evaluación exhaustiva de las **necesidades nutricionales de la población**.
+Para garantizar su éxito y sostenibilidad, es esencial que los sistemas de **Monitoreo**, **Evaluación** y **Aprendizaje** (MEL) se desarrollen desde el **inicio del programa**, idealmente durante las etapas de **diseño y planificación**.
+
+# Importacia de los sistemas MEL
 
 Los sistemas MEL son cruciales porque permiten:
 
@@ -45,16 +54,6 @@ Los sistemas MEL son cruciales porque permiten:
 - Verificar el logro de los propósitos nutricionales del programa.
 
 - Proporcionar información vital a los planificadores y normativas para decidir si un programa debe continuar, ampliarse, replicarse o finalizarse.
-
-
-La Evaluación y el Aprendizaje (MEL) son dos definiciones fundamentales dentro de los sistemas de Monitoreo, Evaluación y Aprendizaje  : 
-
-
-**Vigilancia (Monitoreo):** Se refiere a la **recolección**, **evaluación** y **uso continuo de información** sobre los **insumos**, **actividades** y **productos del programa**. Su propósito es **identificar problemas**, **incumplimientos** y **limitaciones** para **proponer acciones correctivas** y asegurar que el producto fortificado tenga la calidad deseada, esté disponible y sea accesible a los consumidores en cantidad suficiente. **El monitoreo continuo es clave para no fortificar a ciegas**.
-
-
-
-**Evaluación:** Se refiere a la determinación de la efectividad y el impacto del programa en la población objetivo. Las evaluaciones buscan obtener pruebas de que el programa está alcanzando sus metas nutricionales, como el aumento de la ingesta de nutrientes específicos o la mejora del estado nutricional, de salud o funcionales. Es importante que la evaluación no se realice hasta que la vigilancia haya demostrado que el programa se ejecuta según lo planificado y opera de manera eficiente.
 
 
 # Componentes de un Sistema de Vigilancia y Evaluación:
@@ -68,33 +67,50 @@ Un sistema MEL general para programas de fortificación, como el descrito en las
 
 # El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en 5 indicadores)
 
-El Programa Mundial de Alimentos para América Latina y el Caribe (WFP-LACRO) ha desarrollado un sistema integral para evaluar la efectividad de los programas de fortificación a nivel de la población. Este sistema se basa en cinco indicadores clave para rastrear el progreso desde la producción hasta el consumo y el impacto nutricional. Para que estos indicadores sean útiles, se necesitan datos confiables, y el marco WFP-LACRO propone el uso de las Encuestas de Consumo y Gastos en el Hogar (HCES) como una fuente fundamental.
+El Programa Mundial de Alimentos para América Latina y el Caribe (WFP-LACRO) ha desarrollado un sistema integral basado en **indicadores clave** para rastrear el progreso desde la producción hasta el consumo y el impacto nutricional. 
 
-A continuación, se detallan los cinco indicadores clave:
+**nota:** Para que estos indicadores sean útiles, se necesitan datos confiables, y el marco WFP-LACRO propone el uso de las Encuestas de Consumo y Gastos en el Hogar (HCES) como una fuente fundamental.
 
-1. Proporción de la población que consume el alimento fortificado (AF):
+Los **indicadores clave**  son:
 
-Este es el primer indicador crucial. No es suficiente que el alimento fortificado esté disponible; es fundamental saber si llega a la mesa de los hogares y es consumido, especialmente por las poblaciones vulnerables.
+1. Proporción de la población que consume el alimento fortificado (PPA):
 
-Se mide como el porcentaje de hogares que han consumido el alimento fortificado. Este indicador se alinea con la evaluación de la utilización y cobertura de la vigilancia en hogares.
-
-$$
-
-\text{Proporción de la población que consume el alimento fortificado} = \left( \frac{\text{Número de personas que consumen el AF}}{\text{Población total}} \right) \times 100\%
+El primer indicador  mide  el porcentaje de hogares que han consumido el alimento fortificado (AF) y  se alinea con la evaluación de la utilización y cobertura de la vigilancia en hogares. Se define como el porcentaje de personas que consumen el alimento fortificado entre la población total.
 
 $$
+\text{PPAF} = \left( \frac{\text{Número de personas que consumen el AF}}{\text{Población total}} \right) \times 100\%
+$$
 
-2. Promedio de consumo del alimento fortificado:
+nota: Este es el primer indicador crucial, sin embargo, no es suficiente que el alimento fortificado esté disponible; es fundamental saber si llega a la mesa de los hogares y es consumido, especialmente por las poblaciones vulnerables.
+
+
+
+2. Promedio de consumo del alimento fortificado (PCA):
 
 Una vez que se sabe que la gente consume el alimento, la siguiente pregunta es ¿cuánto?. Este indicador mide la cantidad promedio de alimento fortificado que se consume en los hogares.
 
+Se define como la "media de porciones del alimento fortificado multiplicada por el tamaño de la porción (en gramos), ajustada por el peso comestible"
+
+
+
 $$
-\bar{x}_{\text{consumo del AF}} = \frac{\sum_{i=1}^{n} x_i}{n}
+\bar{C}_{AF} = \bar{P}_{AF} \times T_{\text{com}}
 $$
+
+Donde:
+
+- $\bar{C}_{AF}$: Consumo promedio diario del alimento fortificado, en **gramos por persona por día** (g/persona/día).  
+  → Es lo que en promedio consume una persona al día del alimento fortificado, considerando solo la parte comestible.
+
+- $\bar{P}_{AF}$: Número promedio de porciones consumidas por persona por día (porciones/persona/día).  
+  → Viene de encuestas alimentarias (ej. recordatorio de 24 horas).
+
+- $T_{\text{com}}$: Tamaño promedio de una porción comestible, en **gramos por porción** (g/porción).  
+  → Ya excluye partes no comestibles (como cáscara, hueso, etc.).
+
 
 
 nota: Un consumo muy bajo, incluso con una fortificación adecuada, limitará el impacto. Por ello, la fortificación debe ir acompañada de políticas que garanticen el acceso y la asequibilidad de estos alimentos.
-
 
 
 
@@ -105,10 +121,7 @@ Este es un indicador más profundo que estima la ingesta total de micronutriente
 Es un paso crucial para identificar la brecha nutricional; si la ingesta total de un micronutriente (como hierro o zinc) es baja, el hogar está en riesgo de deficiencia.
 
 $$
-
 \text{Ingesta aparente total de micronutrientes} = \text{Consumo promedio del AF} \times \text{Concentración del MN en el AF}
-
-
 $$
 
 La información detallada sobre la ingesta habitual de micronutrientes es necesaria para diseñar un programa efectivo y justificar su necesidad. Los datos de consumo se convierten en cantidades de nutrientes utilizando tablas de composición de alimentos.
@@ -125,11 +138,11 @@ Estima que la proporción de la población con ingesta por debajo del **Requerim
 $$
 \text{Contribución del AF a la ingesta de MN en relación con el EAR} = \left( \frac{\text{Ingesta promedio de MN del AF}}{\text{EAR del MN}} \right) \times 100\%
 $$
-::: {.callout-tip collapse="true"}
-# Requerimiento Promedio Estimado
+<!-- ::: {.callout-tip collapse="true"} -->
+<!-- # Requerimiento Promedio Estimado -->
 
-El **Requerimiento Promedio Estimado** es una referencia clave para evaluar la adecuación de la ingesta nutricional [consulte el módulo 03 para más detalles sobre el EAR](../../modulos/tema01/modulo03.qmd). Por su parte, el método del punto de corte del RPE es el recomendado para establecer los niveles de fortificación. 
-:::
+<!-- El **Requerimiento Promedio Estimado** es una referencia clave para evaluar la adecuación de la ingesta nutricional [consulte el módulo 03 para más detalles sobre el EAR](../../modulos/tema01/modulo03.qmd). Por su parte, el método del punto de corte del RPE es el recomendado para establecer los niveles de fortificación.  -->
+<!-- ::: -->
 
 
 El objetivo de la fortificación es corregir la ingesta insuficiente, buscando que solo una pequeña proporción (generalmente 2% a 3%) de la población esté en riesgo de tener una ingesta inadecuada.

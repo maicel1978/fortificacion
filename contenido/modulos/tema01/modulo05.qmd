@@ -121,19 +121,16 @@ La información detallada sobre la ingesta habitual de micronutrientes es necesa
 Estima que la proporción de la población con ingesta por debajo del **Requerimiento Promedio Estimado** corresponde a la proporción con ingesta insuficiente.
 
 
+
+
+$$
+\text{Contribución del AF a la ingesta de MN en relación con el EAR} = \left( \frac{\text{Ingesta promedio de MN del AF}}{\text{EAR del MN}} \right) \times 100\%
+$$
 ::: {.callout-tip collapse="true"}
 # Requerimiento Promedio Estimado
 
 El **Requerimiento Promedio Estimado** es una referencia clave para evaluar la adecuación de la ingesta nutricional [consulte el módulo 03 para más detalles sobre el EAR](../../modulos/tema01/modulo03.qmd). Por su parte, el método del punto de corte del RPE es el recomendado para establecer los niveles de fortificación. 
 :::
-
-$$
-
-\text{Contribución del AF a la ingesta de MN en relación con el EAR} = \left( \frac{\text{Ingesta promedio de MN del AF}}{\text{EAR del MN}} \right) \times 100\%
-
-
-$$
-
 
 
 El objetivo de la fortificación es corregir la ingesta insuficiente, buscando que solo una pequeña proporción (generalmente 2% a 3%) de la población esté en riesgo de tener una ingesta inadecuada.

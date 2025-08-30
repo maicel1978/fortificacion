@@ -80,5 +80,4 @@ function checkAnswer() {
 </script>
 ```
 
-
 [Regresar al módulo 1](../../modulos/tema01/modulo01.qmd)

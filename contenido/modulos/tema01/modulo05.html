@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
+<meta name="author" content="Maicel Monzon &amp; Santiago Rodas Moya &amp; Yarisa Domínguez">
 <meta name="dcterms.date" content="2025-07-01">
-<meta name="description" content="Se realiza una revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados">
+<meta name="description" content="Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos">
 
 <title>Módulo 05 – Fortificación de alimentos a gran escala</title>
 <style>
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -574,21 +603,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">sumario</a></li>
-  <li><a href="#fórmulas" id="toc-fórmulas" class="nav-link" data-scroll-target="#fórmulas">Fórmulas</a>
-  <ul class="collapse">
-  <li><a href="#porcentaje-de-la-población-que-consume-el-alimento-fortificado" id="toc-porcentaje-de-la-población-que-consume-el-alimento-fortificado" class="nav-link" data-scroll-target="#porcentaje-de-la-población-que-consume-el-alimento-fortificado">1. Porcentaje de la población que consume el alimento fortificado</a></li>
-  <li><a href="#promedio-de-consumo-aparente-del-alimento-fortificado" id="toc-promedio-de-consumo-aparente-del-alimento-fortificado" class="nav-link" data-scroll-target="#promedio-de-consumo-aparente-del-alimento-fortificado">2. Promedio de consumo aparente del alimento fortificado</a>
-  <ul class="collapse">
-  <li><a href="#a.-adquisiciones-diarias-por-hogar-en-gramos-o-mililitrosdía" id="toc-a.-adquisiciones-diarias-por-hogar-en-gramos-o-mililitrosdía" class="nav-link" data-scroll-target="#a.-adquisiciones-diarias-por-hogar-en-gramos-o-mililitrosdía">a. Adquisiciones Diarias por Hogar (en gramos o mililitros/día)</a></li>
-  <li><a href="#c.-consumo-aparente-por-unidades-equivalente-de-adulto-masculino-ame" id="toc-c.-consumo-aparente-por-unidades-equivalente-de-adulto-masculino-ame" class="nav-link" data-scroll-target="#c.-consumo-aparente-por-unidades-equivalente-de-adulto-masculino-ame">c.&nbsp;Consumo Aparente por Unidades Equivalente de Adulto Masculino (AME)</a></li>
-  <li><a href="#d.-consumo-aparente-ajustado-para-subgrupos-mujeres-y-niños" id="toc-d.-consumo-aparente-ajustado-para-subgrupos-mujeres-y-niños" class="nav-link" data-scroll-target="#d.-consumo-aparente-ajustado-para-subgrupos-mujeres-y-niños">d.&nbsp;Consumo Aparente Ajustado para Subgrupos (Mujeres y Niños)</a></li>
-  </ul></li>
-  <li><a href="#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado" id="toc-promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado" class="nav-link" data-scroll-target="#promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado">3. Promedio de ingesta de micronutriente/s del alimento fortificado</a></li>
-  <li><a href="#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear" id="toc-contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear" class="nav-link" data-scroll-target="#contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear">4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)</a>
-  <ul class="collapse">
-  <li><a href="#resumen-de-la-asociación-hces-y-fórmulas" id="toc-resumen-de-la-asociación-hces-y-fórmulas" class="nav-link" data-scroll-target="#resumen-de-la-asociación-hces-y-fórmulas">Resumen de la Asociación HCES y Fórmulas:</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#características-e-importacia-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje-mel" id="toc-características-e-importacia-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje-mel" class="nav-link" data-scroll-target="#características-e-importacia-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje-mel">Características e importacia de los sistemas de <strong>Monitoreo</strong>, <strong>Evaluación</strong> y <strong>Aprendizaje</strong> (MEL)</a></li>
+  <li><a href="#componentes-de-un-sistema-de-vigilancia-y-evaluación" id="toc-componentes-de-un-sistema-de-vigilancia-y-evaluación" class="nav-link" data-scroll-target="#componentes-de-un-sistema-de-vigilancia-y-evaluación">Componentes de un Sistema de Vigilancia y Evaluación:</a></li>
+  <li><a href="#el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-5-indicadores" id="toc-el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-5-indicadores" class="nav-link" data-scroll-target="#el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-5-indicadores">El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en 5 indicadores)</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -599,12 +616,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo01.html">Tema01</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo05.html">Módulo 05</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 05</h1>
-<p class="subtitle lead">Revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados (indicadores)</p>
+<p class="subtitle lead">Monitoreo y Evaluación de Programas de Fortificación de Alimentos</p>
 </div>
 
 <div>
   <div class="description">
-    Se realiza una revisión de los tipos de análisis de datos a partir de variables y módulos seleccionados
+    Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos
   </div>
 </div>
 
@@ -614,7 +631,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maicel Monzon &amp; Yarisa Domínguez </p>
+             <p>Maicel Monzon &amp; Santiago Rodas Moya &amp; Yarisa Domínguez </p>
           </div>
   </div>
     
@@ -633,161 +650,106 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dC4DNh3lmDQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><a href="../../../static/videos/videomodulo05.zip">El módulo puede ser descargado desde aquí</a></p>
 <section id="sumario" class="level1">
 <h1>sumario</h1>
+<ul>
+<li><p>Características de los sistemas de Monitoreo, Evaluación y Aprendizaje (MEL)</p></li>
+<li><p>Componentes de un Sistema de Vigilancia y Evaluación</p></li>
+<li><p>El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en 5 indicadores)</p></li>
+</ul>
 <p><img src="../../../static/images/modulo05.png" class="img-fluid"></p>
-<p>Las HCES recogen datos de <strong>adquisición o gasto del hogar</strong>, no directamente de consumo individual. Por lo tanto, se requiere un mapeo cuidadoso y, a menudo, algunas suposiciones.</p>
-<p>A continuación, asocio las variables de tus fórmulas con las categorías de datos que típicamente se encuentran en una HCES:</p>
+<p>La <strong>planificación</strong> y el <strong>diseño</strong> de un <strong>programa de fortificación de alimentos</strong> requieren una evaluación exhaustiva de las necesidades nutricionales de la población. Para garantizar su éxito y sostenibilidad, es esencial que los sistemas de <strong>Monitoreo</strong>, <strong>Evaluación</strong> y <strong>Aprendizaje</strong> (MEL) se desarrollen desde el <strong>inicio del programa</strong>, idealmente durante las etapas de <strong>diseño y planificación</strong>.</p>
 </section>
-<section id="fórmulas" class="level1">
-<h1>Fórmulas</h1>
-<section id="porcentaje-de-la-población-que-consume-el-alimento-fortificado" class="level2">
-<h2 class="anchored" data-anchor-id="porcentaje-de-la-población-que-consume-el-alimento-fortificado">1. Porcentaje de la población que consume el alimento fortificado</h2>
+<section id="características-e-importacia-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje-mel" class="level1">
+<h1>Características e importacia de los sistemas de <strong>Monitoreo</strong>, <strong>Evaluación</strong> y <strong>Aprendizaje</strong> (MEL)</h1>
+<p>Los <strong>programas de fortificación</strong> de alimentos son una estrategia clave de salud pública para combatir la malnutrición por deficiencia de micronutrientes. Sin embargo, su efectividad <strong>depende</strong> de un <strong>seguimiento riguroso</strong>.</p>
+<p><img src="../../../static/images/modulo05paso.png" class="img-fluid"></p>
+<p>Los sistemas MEL son cruciales porque permiten:</p>
 <ul>
-<li><strong><code>H_Compra_AF_Positivo</code> (Número de hogares que reportaron haber comprado una cantidad mayor a cero del alimento fortificado):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> En las secciones de gasto o adquisición de alimentos de la HCES, se busca la pregunta o ítem que registra si el hogar compró (o adquirió por otras vías, como autoconsumo o recibo como regalo/salario en especie) el alimento fortificado específico durante el período de referencia de la encuesta (ej., los últimos 7 días, 15 días o 30 días).</li>
-<li><strong>Ejemplo de dato HCES:</strong> Un indicador binario (sí/no) para cada hogar sobre la adquisición de “harina de trigo”, “aceite vegetal”, “sal yodada”, etc. Si la HCES registra la cantidad comprada, se consideraría “positivo” cualquier valor mayor a cero.</li>
-</ul></li>
-<li><strong><code>H_Total_Muestra</code> (Número total de hogares en la muestra de la ECGH/HCES):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Este es simplemente el número total de unidades de muestreo de hogares que fueron encuestadas y para las cuales se tiene información completa para el análisis.</li>
-<li><strong>Ejemplo de dato HCES:</strong> El total de registros de hogares en el archivo de datos de la encuesta.</li>
-</ul></li>
+<li><p>Determinar la calidad de la implementación del programa y la entrega de servicios.</p></li>
+<li><p>Conocer el grado de alcance en los hogares y las personas objetivo.</p></li>
+<li><p>Verificar el logro de los propósitos nutricionales del programa.</p></li>
+<li><p>Proporcionar información vital a los planificadores y normativas para decidir si un programa debe continuar, ampliarse, replicarse o finalizarse.</p></li>
 </ul>
+<p>La Evaluación y el Aprendizaje (MEL) son dos definiciones fundamentales dentro de los sistemas de Monitoreo, Evaluación y Aprendizaje :</p>
+<p><strong>Vigilancia (Monitoreo):</strong> Se refiere a la <strong>recolección</strong>, <strong>evaluación</strong> y <strong>uso continuo de información</strong> sobre los <strong>insumos</strong>, <strong>actividades</strong> y <strong>productos del programa</strong>. Su propósito es <strong>identificar problemas</strong>, <strong>incumplimientos</strong> y <strong>limitaciones</strong> para <strong>proponer acciones correctivas</strong> y asegurar que el producto fortificado tenga la calidad deseada, esté disponible y sea accesible a los consumidores en cantidad suficiente. <strong>El monitoreo continuo es clave para no fortificar a ciegas</strong>.</p>
+<p><strong>Evaluación:</strong> Se refiere a la determinación de la efectividad y el impacto del programa en la población objetivo. Las evaluaciones buscan obtener pruebas de que el programa está alcanzando sus metas nutricionales, como el aumento de la ingesta de nutrientes específicos o la mejora del estado nutricional, de salud o funcionales. Es importante que la evaluación no se realice hasta que la vigilancia haya demostrado que el programa se ejecuta según lo planificado y opera de manera eficiente.</p>
 </section>
-<section id="promedio-de-consumo-aparente-del-alimento-fortificado" class="level2">
-<h2 class="anchored" data-anchor-id="promedio-de-consumo-aparente-del-alimento-fortificado">2. Promedio de consumo aparente del alimento fortificado</h2>
-<section id="a.-adquisiciones-diarias-por-hogar-en-gramos-o-mililitrosdía" class="level3">
-<h3 class="anchored" data-anchor-id="a.-adquisiciones-diarias-por-hogar-en-gramos-o-mililitrosdía">a. Adquisiciones Diarias por Hogar (en gramos o mililitros/día)</h3>
-<ul>
-<li><strong><code>Cant_Total_Comprada</code> (Cantidad total del alimento fortificado comprada por el hogar en el período de reporte):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> En las HCES, se suelen preguntar las <strong>cantidades (en unidades de medida específicas como kg, litros, gramos, etc.)</strong> de cada alimento adquirido por el hogar durante un período de referencia. También se registrará el <strong>gasto total en cada alimento</strong>.</li>
-<li><strong>Desafíos y Consideraciones HCES:</strong>
-<ul>
-<li><strong>Unidades:</strong> Las HCES pueden registrar cantidades en unidades variadas (libras, sacos, etc.). Es crucial estandarizar estas a unidades métricas (gramos/mililitros) usando factores de conversión apropiados.</li>
-<li><strong>Fuente de Adquisición:</strong> Las HCES suelen diferenciar entre compras, autoconsumo/producción propia, regalos, etc. Para un análisis completo, se deben sumar todas las fuentes de adquisición.</li>
-<li><strong>Alimentos Específicos:</strong> La HCES debe permitir identificar claramente el “alimento fortificado” de interés (ej., “harina de trigo fortificada” vs.&nbsp;“harina de trigo no fortificada”, si la encuesta diferencia). En ausencia de esta distinción, se asume que toda la harina de trigo consumida está fortificada, lo cual es una limitación.</li>
-</ul></li>
-<li><strong>Ejemplo de dato HCES:</strong> “Cantidad de harina de trigo adquirida (kg) en los últimos 7 días”, “Gasto en aceite vegetal (moneda local) en los últimos 30 días”.</li>
-</ul></li>
-<li><strong><code>Dias_Reporte</code> (Número de días del período de reporte de la encuesta):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Este es un parámetro de diseño de la encuesta, generalmente fijo (ej., 7 días, 15 días, 30 días) para cada sección de consumo de alimentos.</li>
-<li><strong>Ejemplo de dato HCES:</strong> Variable de diseño de la encuesta que indica el período de referencia para la recolección de datos de alimentos.</li>
-</ul></li>
-</ul>
-<ol start="2" type="a">
-<li>Equivalentes de Ingrediente Básico (para alimentos compuestos, ej. FWFEs)</li>
+<section id="componentes-de-un-sistema-de-vigilancia-y-evaluación" class="level1">
+<h1>Componentes de un Sistema de Vigilancia y Evaluación:</h1>
+<p>Un sistema MEL general para programas de fortificación, como el descrito en las “Guías para la fortificación de alimentos con micronutrientes”, diferencia dos categorías principales de vigilancia (regulatoria y en hogares/individuos) así como una evaluación final:</p>
+<p><img src="../../../static/images/modulo05mel2.png" class="img-fluid"></p>
+</section>
+<section id="el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-5-indicadores" class="level1">
+<h1>El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en 5 indicadores)</h1>
+<p>El Programa Mundial de Alimentos para América Latina y el Caribe (WFP-LACRO) ha desarrollado un sistema integral para evaluar la efectividad de los programas de fortificación a nivel de la población. Este sistema se basa en cinco indicadores clave para rastrear el progreso desde la producción hasta el consumo y el impacto nutricional. Para que estos indicadores sean útiles, se necesitan datos confiables, y el marco WFP-LACRO propone el uso de las Encuestas de Consumo y Gastos en el Hogar (HCES) como una fuente fundamental.</p>
+<p>A continuación, se detallan los cinco indicadores clave:</p>
+<ol type="1">
+<li>Proporción de la población que consume el alimento fortificado (AF):</li>
 </ol>
+<p>Este es el primer indicador crucial. No es suficiente que el alimento fortificado esté disponible; es fundamental saber si llega a la mesa de los hogares y es consumido, especialmente por las poblaciones vulnerables.</p>
+<p>Se mide como el porcentaje de hogares que han consumido el alimento fortificado. Este indicador se alinea con la evaluación de la utilización y cobertura de la vigilancia en hogares.</p>
+<p>$$</p>
+<p> = ( ) %</p>
+<p>$$</p>
+<ol start="2" type="1">
+<li>Promedio de consumo del alimento fortificado:</li>
+</ol>
+<p>Una vez que se sabe que la gente consume el alimento, la siguiente pregunta es ¿cuánto?. Este indicador mide la cantidad promedio de alimento fortificado que se consume en los hogares.</p>
+<p><span class="math display">\[
+\bar{x}_{\text{consumo del AF}} = \frac{\sum_{i=1}^{n} x_i}{n}
+\]</span> ::: {.callout-tip collapse=“true”} # Promedio de consumo del alimento fortificado bajo</p>
+<p>Un consumo muy bajo, incluso con una fortificación adecuada, limitará el impacto. Por ello, la fortificación debe ir acompañada de políticas que garanticen el acceso y la asequibilidad de estos alimentos. :::</p>
+<ol start="3" type="1">
+<li>Ingesta aparente total de micronutrientes (MN):</li>
+</ol>
+<p>Este es un indicador más profundo que estima la ingesta total de micronutrientes a nivel del hogar a partir de todos los alimentos consumidos.</p>
+<p>Es un paso crucial para identificar la brecha nutricional; si la ingesta total de un micronutriente (como hierro o zinc) es baja, el hogar está en riesgo de deficiencia.</p>
+<p>$$</p>
+<p> = </p>
+<p>$$</p>
+<p>La información detallada sobre la ingesta habitual de micronutrientes es necesaria para diseñar un programa efectivo y justificar su necesidad. Los datos de consumo se convierten en cantidades de nutrientes utilizando tablas de composición de alimentos.</p>
+<ol start="4" type="1">
+<li>Proporción de hogares con ingesta aparente de MN por debajo del Requerimiento Promedio Estimado:</li>
+</ol>
+<p>Estima que la proporción de la población con ingesta por debajo del <strong>Requerimiento Promedio Estimado</strong> corresponde a la proporción con ingesta insuficiente.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Requerimiento Promedio Estimado
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>El <strong>Requerimiento Promedio Estimado</strong> es una referencia clave para evaluar la adecuación de la ingesta nutricional <a href="../../../contenido/modulos/tema01/modulo03.html">consulte el módulo 03 para más detalles sobre el EAR</a>. Por su parte, el método del punto de corte del RPE es el recomendado para establecer los niveles de fortificación.</p>
+</div>
+</div>
+</div>
+<p>$$</p>
+<p> = ( ) %</p>
+<p>$$</p>
+<p>El objetivo de la fortificación es corregir la ingesta insuficiente, buscando que solo una pequeña proporción (generalmente 2% a 3%) de la población esté en riesgo de tener una ingesta inadecuada.</p>
+<ol start="5" type="1">
+<li>Contribución del AF a la ingesta total de micronutrientes:</li>
+</ol>
+<p>Este indicador representa el “momento de la verdad” al calcular el porcentaje de la ingesta total de un micronutriente que proviene del alimento fortificado.</p>
+<p>Ayuda a entender si el programa está logrando su objetivo de cerrar la brecha nutricional.</p>
+<p>Ejemplo:</p>
+<p>En un programa exitoso, la harina de trigo fortificada podría contribuir con el 30% o 40% de la ingesta de hierro en los hogares que la consumen.</p>
+<p>La implementación de este sistema de evaluación requiere una estrecha colaboración entre los gobiernos, la industria de alimentos y las organizaciones de salud pública. Un elemento crítico es el control de calidad externo o enforcement, que asegura que los productores están fortificando los alimentos según los estándares establecidos.</p>
+<p>Los principales desafíos para implementar estos sistemas incluyen:</p>
 <ul>
-<li><strong><code>Adq_Diaria_Producto_i</code> (Adquisiciones Diarias del Producto i que contiene el ingrediente básico):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Similar a <code>Cant_Total_Comprada</code>, pero aplicado a productos que contienen el alimento fortificado como ingrediente (ej., pan, fideos si se fortifica la harina). La HCES debe preguntar por la adquisición de estos productos.</li>
-<li><strong>Ejemplo de dato HCES:</strong> “Cantidad de pan blanco adquirido (kg) en los últimos 7 días”, “Gasto en galletas (moneda local) en los últimos 30 días”.</li>
-</ul></li>
-<li><strong><code>Prop_Ingrediente_Producto_i</code> (Proporción del ingrediente básico en el Producto i):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Esta información <strong>no se encuentra directamente en las HCES</strong>. Requiere de <strong>fuentes externas</strong> como:
-<ul>
-<li><strong>Tablas de composición de alimentos:</strong> Para estimar la proporción del ingrediente básico (ej., harina de trigo) en productos procesados (pan, galletas).</li>
-<li><strong>Recetas estándar o estudios de formulación:</strong> Si es un alimento fortificado producido industrialmente.</li>
-</ul></li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; debe ser vinculada externamente.</li>
-</ul></li>
+<li><p>La disponibilidad de datos de alta calidad (como las HCES).</p></li>
+<li><p>La capacidad técnica para analizar estos datos de manera compleja.</p></li>
+<li><p>La coordinación entre los diferentes actores (gobierno, sector privado, academia)</p></li>
 </ul>
-</section>
-<section id="c.-consumo-aparente-por-unidades-equivalente-de-adulto-masculino-ame" class="level3">
-<h3 class="anchored" data-anchor-id="c.-consumo-aparente-por-unidades-equivalente-de-adulto-masculino-ame">c.&nbsp;Consumo Aparente por Unidades Equivalente de Adulto Masculino (AME)</h3>
-<ul>
-<li><strong><code>Adquisiciones_Diarias</code> (Corresponde a <code>Adquisiciones_Diarias_Hogar</code> o <code>EIB_Total</code>):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Se deriva de los cálculos previos utilizando los datos de adquisición de la HCES.</li>
-</ul></li>
-<li><strong><code>Unidades_AME_Hogar</code> (Suma de los factores AME individuales para cada miembro del hogar):</strong>
-<ul>
-<li><strong>Variables HCES:</strong> Las HCES contienen una sección de <strong>características de los miembros del hogar</strong>, que incluye:
-<ul>
-<li><strong>Edad de cada miembro del hogar.</strong></li>
-<li><strong>Sexo de cada miembro del hogar.</strong></li>
-</ul></li>
-<li><strong>Desafíos y Consideraciones HCES:</strong> Para calcular las unidades AME, se necesitan <strong>tablas de factores de conversión de AME</strong> (basadas en edad, sexo y a veces nivel de actividad física) que <strong>no están en la HCES misma</strong>, sino que se aplican a los datos de la HCES.</li>
-<li><strong>Ejemplo de dato HCES:</strong> “Edad del miembro 1”, “Sexo del miembro 1”, “Edad del miembro 2”, “Sexo del miembro 2”, etc.</li>
-</ul></li>
-</ul>
-</section>
-<section id="d.-consumo-aparente-ajustado-para-subgrupos-mujeres-y-niños" class="level3">
-<h3 class="anchored" data-anchor-id="d.-consumo-aparente-ajustado-para-subgrupos-mujeres-y-niños">d.&nbsp;Consumo Aparente Ajustado para Subgrupos (Mujeres y Niños)</h3>
-<ul>
-<li><p><strong><code>Consumo_Aparente_AME</code>:</strong> Se deriva de los cálculos previos.</p></li>
-<li><p><strong><code>Factor_Ajuste_Subgrupo</code> (Factor de ajuste basado en los requisitos de energía de la FAO para el subgrupo de interés):</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Este factor <strong>no se encuentra en la HCES</strong>. Proviene de <strong>tablas de requerimientos nutricionales externas</strong> (ej., FAO/OMS, IOM), específicas para diferentes grupos de edad y sexo.</li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; se aplica externamente según las características de los miembros del hogar (edad, sexo) que sí están en la HCES.</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado" class="level2">
-<h2 class="anchored" data-anchor-id="promedio-de-ingesta-de-micronutrientes-del-alimento-fortificado">3. Promedio de ingesta de micronutriente/s del alimento fortificado</h2>
-<ul>
-<li><p><strong><code>Consumo_Aparente_Ajustado_Subgrupo</code>:</strong> Se deriva de los cálculos previos.</p></li>
-<li><p><strong><code>Contenido_MN_AF</code> (Contenido del micronutriente en el alimento fortificado):</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Esta información <strong>no se encuentra en la HCES</strong>. Se obtiene de:
-<ul>
-<li><strong>Regulaciones y estándares nacionales de fortificación:</strong> Que especifican la cantidad de micronutriente que debe añadirse por unidad de alimento.</li>
-<li><strong>Análisis de laboratorio de muestras de alimentos:</strong> Si se cuenta con datos de monitoreo de calidad.</li>
-<li><strong>Tablas de composición de alimentos:</strong> Si el alimento está naturalmente presente o si la fortificación es conocida.</li>
-</ul></li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; es un valor externo.</li>
-</ul></li>
-<li><p><strong><code>Biodisponibilidad_Estimada</code> (Porcentaje estimado de biodisponibilidad del micronutriente):</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Esta información <strong>no se encuentra en la HCES</strong>. Se basa en <strong>evidencia científica externa</strong> sobre la biodisponibilidad de los micronutrientes de diferentes fuentes en la dieta.</li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; es un valor externo.</li>
-</ul></li>
-<li><p><strong><code>Perdidas_Estimadas</code> (Porcentaje estimado de pérdidas del micronutriente durante la cocción o almacenamiento):</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Esta información <strong>no se encuentra en la HCES</strong>. Se basa en <strong>estudios de procesamiento de alimentos y pérdidas de nutrientes</strong> o suposiciones expertas.</li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; es un valor externo.</li>
-</ul></li>
-<li><p><strong><code>Factor_Conversion_Unidades</code>:</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Esto es una <strong>operación de transformación</strong> de unidades que se realiza durante el procesamiento de los datos de la HCES, no una variable en sí misma. Se basa en las unidades de medida de la HCES y las unidades deseadas para el cálculo.</li>
-<li><strong>Ejemplo de dato HCES:</strong> La HCES podría indicar la “unidad de medida” para cada alimento (ej., kg, gramos, litros).</li>
-</ul></li>
-</ul>
-<hr>
-</section>
-<section id="contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear" class="level2">
-<h2 class="anchored" data-anchor-id="contribución-del-af-a-la-ingesta-de-micronutriente-en-relación-al-ear">4. Contribución del AF a la ingesta de Micronutriente (en relación al EAR)</h2>
-<ul>
-<li><p><strong><code>Ingesta_Diaria_MN</code>:</strong> Se deriva de los cálculos previos.</p></li>
-<li><p><strong><code>EAR_Micronutriente_Subgrupo</code> (Requerimiento Promedio Estimado - EAR - del micronutriente para el subgrupo de interés):</strong></p>
-<ul>
-<li><strong>Variables HCES:</strong> Esta información <strong>no se encuentra en la HCES</strong>. Se obtiene de <strong>tablas de requerimientos nutricionales externos</strong> (ej., IOM, FAO/OMS) que proporcionan los EARs específicos para diferentes micronutrientes, ajustados por edad, sexo y estados fisiológicos (ej., embarazo, lactancia).</li>
-<li><strong>Ejemplo de dato HCES:</strong> No aplica directamente; es un valor externo que se vincula con las características demográficas de los individuos/subgrupos que sí están en la HCES.</li>
-</ul></li>
-</ul>
-<hr>
-<section id="resumen-de-la-asociación-hces-y-fórmulas" class="level3">
-<h3 class="anchored" data-anchor-id="resumen-de-la-asociación-hces-y-fórmulas">Resumen de la Asociación HCES y Fórmulas:</h3>
-<p>Las HCES son cruciales para obtener los datos sobre la <strong>adquisición de alimentos por los hogares (<code>Cant_Total_Comprada</code>, <code>Adq_Diaria_Producto_i</code>)</strong> y las <strong>características demográficas de los miembros del hogar (<code>Edad</code>, <code>Sexo</code>)</strong>.</p>
-<p>Sin embargo, para aplicar rigurosamente tus fórmulas, siempre necesitarás <strong>fuentes de datos externas a la HCES</strong> para:</p>
-<ul>
-<li><strong>Factores de conversión de unidades</strong> (si la HCES no lo provee o las unidades no son estándar).</li>
-<li><strong>Proporción de ingredientes básicos en alimentos compuestos.</strong></li>
-<li><strong>Factores de equivalencia AME.</strong></li>
-<li><strong>Factores de ajuste para subgrupos de consumo.</strong></li>
-<li><strong>Contenido de micronutrientes en los alimentos fortificados (y no fortificados, para comparaciones).</strong></li>
-<li><strong>Biodisponibilidad de los micronutrientes.</strong></li>
-<li><strong>Pérdidas de micronutrientes por cocción/almacenamiento.</strong></li>
-<li><strong>Requerimientos Promedio Estimados (EARs) de los micronutrientes.</strong></li>
-</ul>
-</section>
-</section>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>

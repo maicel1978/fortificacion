@@ -136,11 +136,16 @@ El **Requerimiento Promedio Estimado** es una referencia clave para evaluar la a
 El objetivo de la fortificación es corregir la ingesta insuficiente, buscando que solo una pequeña proporción (generalmente 2% a 3%) de la población esté en riesgo de tener una ingesta inadecuada.
 
 
-5. Contribución del AF a la ingesta total de micronutrientes:
+5. Contribución del alimento fortificado a la ingesta total de micronutrientes:
 
 Este indicador representa el "momento de la verdad" al calcular el porcentaje de la ingesta total de un micronutriente que proviene del alimento fortificado.
 
 Ayuda a entender si el programa está logrando su objetivo de cerrar la brecha nutricional. 
+
+
+$$
+\text{Contribución del AF a la ingesta total de MN} = \left( \frac{\text{Ingesta promedio de MN del AF}}{\text{EAR del MN}} \right) \times 100\%
+$$
 
 
 Ejemplo:

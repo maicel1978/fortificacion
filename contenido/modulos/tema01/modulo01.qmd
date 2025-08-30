@@ -43,11 +43,6 @@ Las estrategias para el control de las carencias de micronutrientes más importa
 
 ![](/static/images/mod01estrategias.png)
 
-
-
-
-
-
 # Políticas de fortificación de alimentos
 
 La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de uno o más micronutrientes esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo.
@@ -58,20 +53,14 @@ Existen varios tipos de enfoques de fortificación:
 
 ![](/static/images/mod01tiposfort.png)
 
-
-
 # Programas de fortificación de alimentos a gran escala
 
 Un programa de fortificación de alimentos es una intervención de salud pública orientada a mejorar el estado nutricional de la población mediante la adición controlada de micronutrientes esenciales como hierro, yodo, vitamina A y ácido fólico a alimentos de consumo masivo. Cuando está bien diseñado, el programa de fortificación puede ser eficaz, seguro y costoefectivo para reducir las deficiencias nutricionales.
 
-
-En el [módulo 02](../../modulos/tema01/modulo02.qmd)  nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.
-
+En el [módulo 02](../../modulos/tema01/modulo02.qmd) nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.
 
 # Ejercicios
 
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
-
-
 
 # Bibliografía

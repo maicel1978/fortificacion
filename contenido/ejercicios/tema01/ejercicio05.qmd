@@ -1,0 +1,111 @@
+---
+title: "Ejercicio 5: Indicadores MEL en programas de fortificación de alimentos"
+subtitle: "Tema 1"
+date: 2025-08-30
+description: "Ejercicio práctico sobre indicadores MEL en programas de fortificación de alimentos"
+format: html
+---
+
+![](/static/images/ejercicios05.png)
+
+## ¿Cuál de los siguientes indicadores mide **cobertura** en un programa de fortificación?
+
+a)  Proporción de la población que consume el alimento fortificado (PAF)\
+b)  Promedio de consumo del alimento fortificado\
+c)  Ingesta aparente total de micronutrientes\
+d)  Proporción de hogares bajo el Requerimiento Promedio Estimado (RPE)
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**a) Proporción de la población que consume el alimento fortificado (PAF)**
+
+El PAF refleja el nivel de **cobertura real** del alimento fortificado en la población, mostrando cuántas personas acceden efectivamente al vehículo seleccionado.
+:::
+
+------------------------------------------------------------------------
+
+## Verdadero o falso
+
+**Un alto PAF garantiza automáticamente un impacto positivo en el estado nutricional de la población.**
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso**
+
+Un PAF alto indica buena distribución y consumo, pero no necesariamente impacto nutricional. Si la **dosis de fortificación es insuficiente** o la dieta general es pobre en micronutrientes, las deficiencias persistirán.
+:::
+
+------------------------------------------------------------------------
+
+## Relaciona cada indicador con su función principal en el MEL
+
+1.  Promedio de consumo del alimento fortificado\
+2.  Ingesta aparente total de micronutrientes\
+3.  Proporción de hogares bajo RPE\
+4.  Proporción de la población que consume el alimento fortificado
+
+<!-- -->
+
+a)  Cobertura de la intervención\
+b)  Diagnóstico de suficiencia nutricional final\
+c)  Estima el aporte potencial de la dieta fortificada\
+d)  Intensidad del consumo
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+1 → d) Intensidad del consumo\
+2 → c) Estima el aporte potencial de la dieta fortificada\
+3 → b) Diagnóstico de suficiencia nutricional final\
+4 → a) Cobertura de la intervención
+:::
+
+------------------------------------------------------------------------
+
+## Caso práctico
+
+Un programa nacional de fortificación de arroz reporta los siguientes resultados en una encuesta:
+
+-   **PAF:** 85%\
+-   **Promedio de consumo de arroz fortificado:** 320 g/persona/día\
+-   **Ingesta aparente de hierro:** 6 mg/día\
+-   **40% de los hogares están por debajo del RPE de hierro**
+
+¿Cuál es la interpretación más adecuada?
+
+<label> <input type="radio" name="caso" value="incorrecto"> El programa es exitoso porque el PAF es alto y la ingesta de arroz fortificado supera los 300 g/persona/día </label><br>\
+<label> <input type="radio" name="caso" value="correcto"> El programa tiene buena cobertura y consumo, pero la dosis de fortificación de hierro parece insuficiente, ya que un alto porcentaje de hogares sigue por debajo del RPE </label><br>\
+<label> <input type="radio" name="caso" value="incorrecto"> La baja ingesta de hierro se debe únicamente a fallas en la logística del programa </label><br>
+
+<button onclick="checkCase()">
+
+Comprobar respuesta
+
+</button>
+
+::: {#feedback style="display:none; margin-top:15px; padding:10px; border-radius:5px; font-weight:bold"}
+:::
+
+\`\`\`{=html}
+
+```{=html}
+<script>
+function checkCase() {
+  const selected = document.querySelector('input[name="caso"]:checked');
+  const feedback = document.getElementById('feedback');
+  
+  if(selected?.value === 'correcto') {
+    feedback.innerHTML = "✅ Correcto! El problema no está en la cobertura ni en el consumo, sino en la formulación del alimento fortificado. La dosis de hierro debe revisarse para lograr impacto nutricional.";
+    feedback.style.backgroundColor = '#e6f7ee';
+    feedback.style.color = '#0d6832';
+  } else {
+    feedback.innerHTML = "❌ Incorrecto. Recuerda: cobertura y consumo altos no garantizan impacto si la dosis de fortificación es insuficiente.";
+    feedback.style.backgroundColor = '#fce8e6';
+    feedback.style.color = '#d93025';
+  }
+  feedback.style.display = 'block';
+}
+</script>
+```

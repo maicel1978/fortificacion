@@ -91,11 +91,10 @@ Una vez que se sabe que la gente consume el alimento, la siguiente pregunta es �
 $$
 \bar{x}_{\text{consumo del AF}} = \frac{\sum_{i=1}^{n} x_i}{n}
 $$
-::: {.callout-tip collapse="true"}
-# Promedio de consumo del alimento fortificado bajo
 
-Un consumo muy bajo, incluso con una fortificación adecuada, limitará el impacto. Por ello, la fortificación debe ir acompañada de políticas que garanticen el acceso y la asequibilidad de estos alimentos.
-:::
+
+nota: Un consumo muy bajo, incluso con una fortificación adecuada, limitará el impacto. Por ello, la fortificación debe ir acompañada de políticas que garanticen el acceso y la asequibilidad de estos alimentos.
+
 
 
 

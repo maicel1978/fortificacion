@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maicel Monzon">
-<meta name="description" content="Se introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación">
+<meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
+<meta name="dcterms.date" content="2025-06-30">
+<meta name="description" content="Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas">
 
 <title>Módulo 06 – Fortificación de alimentos a gran escala</title>
 <style>
@@ -117,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Módulo 06</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Módulo 06</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -254,18 +255,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Módulo 04</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema01/modulo05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Módulo 05</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema01/modulo06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Módulo 06</span></a>
-  </div>
-</li>
       </ul>
   </li>
           <li class="sidebar-item sidebar-item-section">
@@ -279,8 +268,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema02/modulo05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 05</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../contenido/modulos/tema02/modulo06.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Módulo 06</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../contenido/modulos/tema02/modulo07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Módulo 07</span></a>
   </div>
 </li>
       </ul>
@@ -584,7 +585,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">sumario</a></li>
+  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#encuestas-de-consumo-y-gasto-de-los-hogares-hces" id="toc-encuestas-de-consumo-y-gasto-de-los-hogares-hces" class="nav-link" data-scroll-target="#encuestas-de-consumo-y-gasto-de-los-hogares-hces">Encuestas de Consumo y Gasto de los Hogares (HCES)</a></li>
+  <li><a href="#fortalezas-y-debilidades" id="toc-fortalezas-y-debilidades" class="nav-link" data-scroll-target="#fortalezas-y-debilidades">Fortalezas y Debilidades</a></li>
+  <li><a href="#utilidad-de-los-resultados" id="toc-utilidad-de-los-resultados" class="nav-link" data-scroll-target="#utilidad-de-los-resultados">Utilidad de los resultados</a></li>
+  <li><a href="#módulos-útiles-para-modelado-de-dietas" id="toc-módulos-útiles-para-modelado-de-dietas" class="nav-link" data-scroll-target="#módulos-útiles-para-modelado-de-dietas">Módulos útiles para modelado de dietas</a></li>
+  <li><a href="#pasos-iniciales-del-modelado-con-hces" id="toc-pasos-iniciales-del-modelado-con-hces" class="nav-link" data-scroll-target="#pasos-iniciales-del-modelado-con-hces">Pasos iniciales del modelado con HCES</a></li>
+  <li><a href="#fuentes-de-datos" id="toc-fuentes-de-datos" class="nav-link" data-scroll-target="#fuentes-de-datos">Fuentes de datos</a></li>
+  <li><a href="#documentación-esencial" id="toc-documentación-esencial" class="nav-link" data-scroll-target="#documentación-esencial">Documentación esencial</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -592,15 +600,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Módulo 06</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo06.html">Módulo 06</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 06</h1>
-<p class="subtitle lead">Medidas para el resumen datos de nutrición (estadística descriptiva)</p>
+<p class="subtitle lead">Generalidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)</p>
 </div>
 
 <div>
   <div class="description">
-    Se introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación
+    Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas
   </div>
 </div>
 
@@ -610,10 +618,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maicel Monzon </p>
+             <p>Maicel Monzon &amp; Yarisa Domínguez </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 30, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -623,16 +637,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../static/images/modulo06.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
+<p>A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1coz_3anMCI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><a href="../../../static/videos/videomodulo06.zip">El módulo puede ser descargado desde aquí</a></p>
 <section id="sumario" class="level1">
-<h1>sumario</h1>
+<h1>Sumario</h1>
+<ul>
+<li><p>Encuestas de Consumo y Gasto de los Hogares (HCES)</p></li>
+<li><p>Fortalezas y debilidades</p></li>
+<li><p>Importancia</p></li>
+<li><p>Utilidad de los resultados</p></li>
+<li><p>Módulos útiles para el modelado dietético</p></li>
+<li><p>Fuentes de datos y documentación esencial</p></li>
+</ul>
+<p><img src="../../../static/images/micro3.png" class="img-fluid"></p>
+</section>
+<section id="encuestas-de-consumo-y-gasto-de-los-hogares-hces" class="level1">
+<h1>Encuestas de Consumo y Gasto de los Hogares (HCES)</h1>
+<p>Las Encuestas de Consumo y Gastos en los Hogares (HCES, por sus siglas en inglés) se han consolidado como una de las fuentes más valiosas para estudiar la relación entre nutrición, economía y salud pública. Originalmente diseñadas para medir pobreza y desigualdad, hoy son un insumo esencial para modelar dietas, estimar adecuación nutricional y evaluar políticas alimentarias. Su ventaja principal: capturan datos detallados de gasto y consumo en muestras representativas a nivel nacional.</p>
+<p><strong>Definición:</strong> encuestas multipropósito diseñadas para recopilar información sobre ingresos, gastos, consumo y condiciones de vida de los hogares.</p>
+<p><strong>Diseño:</strong> generalmente transversales, con muestreo probabilístico estratificado a nivel nacional y urbano-rural.</p>
+<p><strong>Periodicidad:</strong> varía según el país (anual, bianual o cada 5–10 años).</p>
+<p><strong>Cobertura:</strong> incluyen entre 5.000 y 50.000 hogares, según el marco censal y recursos estadísticos.</p>
+</section>
+<section id="fortalezas-y-debilidades" class="level1">
+<h1>Fortalezas y Debilidades</h1>
+<p>Las HCES son útiles para analizar tendencias de seguridad alimentaria y nutrición mediante datos representativos a nivel nacional y variables socioeconómicas, aunque se realizan cada 3-5 años. No obstante, presentan limitaciones como: falta de representatividad subnacional, medición basada en adquisiciones (subestimando el consumo real y alimentos fuera del hogar), y heterogeneidad metodológica entre países que dificulta comparaciones internacionales y análisis individuales.</p>
+<p><img src="../../../static/images/modulo06proscontras.png" class="img-fluid"></p>
+</section>
+<section id="utilidad-de-los-resultados" class="level1">
+<h1>Utilidad de los resultados</h1>
+<p>Las Encuestas de Consumo y Gasto de los Hogares (ECH) tienen como propósito principal proporcionar información para el monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor.</p>
+<p>En años recientes, ha surgido un interés creciente por aprovechar el módulo de consumo de alimentos de estas encuestas como fuente representativa a nivel nacional para evaluar la seguridad alimentaria y la nutrición.</p>
+<p>Además, las ECH recopilan una amplia gama de datos sobre factores determinantes y resultados socioeconómicos —como el nivel educativo y el estatus económico—, lo que enriquece el análisis contextual de la seguridad alimentaria y la nutrición.</p>
+<p>De acuerdo con la evidencia disponible, existe un amplio consenso en que las ECH, siempre que cuenten con módulos de consumo bien diseñados, son una fuente valiosa de información para medir la seguridad alimentaria y la nutrición a nivel de hogar.</p>
+<p>En nutrición, las HCES permiten:</p>
+<p><img src="../../../static/images/modulo06utilidad.png" class="img-fluid"></p>
+</section>
+<section id="módulos-útiles-para-modelado-de-dietas" class="level1">
+<h1>Módulos útiles para modelado de dietas</h1>
+<p>Las HCES incluyen varios módulos, pero solo algunos son críticos para reconstruir dietas:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Módulo</strong></th>
+<th><strong>Uso en nutrición</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gasto en alimentos</td>
+<td>Estimar patrones de compra y precios implícitos.</td>
+</tr>
+<tr class="even">
+<td>Consumo de alimentos</td>
+<td>Cuantificar ingestas, autoconsumo y transferencias.</td>
+</tr>
+<tr class="odd">
+<td>Producción propia</td>
+<td>Incluir cultivos, ganado y pesca de subsistencia.</td>
+</tr>
+<tr class="even">
+<td>Características demográficas</td>
+<td>Ajustar necesidades (edad, sexo, AE scales).</td>
+</tr>
+<tr class="odd">
+<td>Ingresos/transferencias</td>
+<td>Relacionar capacidad económica con acceso a alimentos.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pasos-iniciales-del-modelado-con-hces" class="level1">
+<h1>Pasos iniciales del modelado con HCES</h1>
+<p>Antes de construir un modelo de dieta, el investigador debe preparar los datos:</p>
+<p><img src="../../../static/images/modulo06pasos.png" class="img-fluid"></p>
+</section>
+<section id="fuentes-de-datos" class="level1">
+<h1>Fuentes de datos</h1>
+<p>Acceder a datos HCES requiere combinar <strong>fuentes internacionales</strong> y <strong>oficinas estadísticas nacionales.</strong></p>
+<p><strong>Repositorios internacionales</strong></p>
+<p>Banco Mundial – LSMS (Living Standards Measurement Study)</p>
+<p>https://www.worldbank.org/lsms</p>
+<p>FAO – FAO/World Bank HCES Gateway</p>
+<p>https://hces-gateway.org</p>
+<p>World Bank Microdata Library</p>
+<p>https://microdata.worldbank.org</p>
+<p>Luxembourg Income Study (LIS) Database</p>
+<p>https://www.lisdatacenter.org</p>
+<p><strong>Oficinas nacionales de estadística</strong></p>
+<p>Cada país suele resguardar sus microdatos en portales de libre acceso o bajo solicitud formal (ej. INEGI en México, DANE en Colombia, INDEC en Argentina).</p>
+</section>
+<section id="documentación-esencial" class="level1">
+<h1>Documentación esencial</h1>
+<p>Al descargar una HCES, el investigador debe revisar:</p>
+<p><strong>Cuestionario</strong> (para identificar módulos relevantes).</p>
+<p><strong>Manual del encuestador</strong> (claves de codificación y supuestos).</p>
+<p><strong>Diccionario de variables</strong>.</p>
+<p><strong>Informe técnico</strong> (tasa de respuesta, diseño muestral, factores de expansión).</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<ol type="1">
+<li>Smith LC, Subandoro A. <em>Measuring food security using household expenditure surveys</em>. 2007 — PMID: 18528526</li>
+<li>Fiedler JL, Lividini K. Monitoring and evaluating food fortification programs using household expenditure surveys. <em>Food Nutr Bull</em>. 2014 — PMID: 25069270</li>
+<li>Coates J, et al.&nbsp;Dietary diversity and HCES: methods and applications. <em>J Nutr</em>. 2017 — PMID: 28179427</li>
+<li>Deaton A, Zaidi S. <em>Guidelines for constructing consumption aggregates from household survey data</em>. World Bank, 2002 — PMID: 12946326</li>
+<li>Verduzco-Gallo Í, Ecker O, Pauw K. Changes in food consumption patterns in developing countries. <em>Food Policy</em>. 2014 — PMID: 25253974</li>
+<li>Moltedo A, et al.&nbsp;Analyzing food security using household survey data. World Bank, 2014 — PMID: 24443631</li>
+<li>D’Souza A, Jolliffe D. Food consumption and calorie intake data in poverty analysis. <em>World Dev</em>. 2013 — PMID: 23935791</li>
+</ol>
 
 
 </section>

@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
-<meta name="description" content="Se describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico.">
+<meta name="author" content="Maicel Monzon &amp; Santiago Rodas Moya &amp; Yarisa Domínguez">
+<meta name="dcterms.date" content="2025-07-01">
+<meta name="description" content="Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin">
 
-<title>Módulo 08 – Fortificación de alimentos a gran escala</title>
+<title>Módulo 05 – Fortificación de alimentos a gran escala</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -117,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema03/modulo07.html">Tema03</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema03/modulo08.html">Módulo 08</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Módulo 05</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -258,16 +288,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">Tema02</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema02/modulo05.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contenido/modulos/tema02/modulo05.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Módulo 05</span></a>
   </div>
 </li>
@@ -287,13 +317,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
  <span class="menu-text">Tema03</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../contenido/modulos/tema03/modulo07.html" class="sidebar-item-text sidebar-link">
@@ -302,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema03/modulo08.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../contenido/modulos/tema03/modulo08.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Módulo 08</span></a>
   </div>
 </li>
@@ -584,7 +614,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">sumario</a></li>
+  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#generalidades-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje" id="toc-generalidades-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje" class="nav-link" data-scroll-target="#generalidades-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje">Generalidades de los sistemas de monitoreo, evaluación y aprendizaje</a></li>
+  <li><a href="#importacia-de-los-sistemas-mel" id="toc-importacia-de-los-sistemas-mel" class="nav-link" data-scroll-target="#importacia-de-los-sistemas-mel">Importacia de los sistemas MEL</a></li>
+  <li><a href="#componentes-de-un-sistema-de-vigilancia-y-evaluación" id="toc-componentes-de-un-sistema-de-vigilancia-y-evaluación" class="nav-link" data-scroll-target="#componentes-de-un-sistema-de-vigilancia-y-evaluación">Componentes de un sistema de vigilancia y evaluación:</a></li>
+  <li><a href="#el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-indicadores-selecionados" id="toc-el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-indicadores-selecionados" class="nav-link" data-scroll-target="#el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-indicadores-selecionados">El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en indicadores selecionados)</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -592,15 +626,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema03/modulo07.html">Tema03</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema03/modulo08.html">Módulo 08</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Tema02</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema02/modulo05.html">Módulo 05</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Módulo 08</h1>
-<p class="subtitle lead">Metodología para la estimación de la ingesta dietética aparente: identificación de variables de interés según módulos HCES seleccionados: tipo de alimento, cantidad, frecuencia, miembros del hogar típico.</p>
+<h1 class="title">Módulo 05</h1>
+<p class="subtitle lead">Monitoreo y Evaluación de Programas de Fortificación de Alimentos</p>
 </div>
 
 <div>
   <div class="description">
-    Se describe la identificación de variables de interés según módulos HCES seleccionados como el tipo de alimento, cantidad, frecuencia, miembros del hogar típico.
+    Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin
   </div>
 </div>
 
@@ -610,10 +644,16 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maicel Monzon &amp; Yarisa Domínguez </p>
+             <p>Maicel Monzon &amp; Santiago Rodas Moya &amp; Yarisa Domínguez </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 1, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -623,16 +663,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../static/images/modulo08.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
+<p>A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/dC4DNh3lmDQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><a href="../../../static/videos/videomodulo05.zip">El módulo puede ser descargado desde aquí</a></p>
 <section id="sumario" class="level1">
-<h1>sumario</h1>
+<h1>Sumario</h1>
+<ul>
+<li><p><strong>Generalidades</strong> de los sistemas de <strong>monitoreo</strong>, <strong>evaluación</strong> y <strong>aprendizaje</strong></p></li>
+<li><p><strong>Importacia</strong> de los sistemas de <strong>monitoreo</strong>, <strong>evaluación</strong> y <strong>aprendizaje</strong></p></li>
+<li><p><strong>Componentes</strong> de un sistema de <strong>Vigilancia</strong> y <strong>Evaluación</strong></p></li>
+<li><p><strong>Características</strong> del sistema WFP-LACRO basado en conjunto de <strong>indicadores seleccionados</strong></p></li>
+</ul>
+<p><img src="../../../static/images/modulo05.png" class="img-fluid"></p>
+</section>
+<section id="generalidades-de-los-sistemas-de-monitoreo-evaluación-y-aprendizaje" class="level1">
+<h1>Generalidades de los sistemas de monitoreo, evaluación y aprendizaje</h1>
+<p>Un <strong>Sistema de Monitoreo, Evaluación y Aprendizaje</strong> (MEL, por sus siglas en inglés) es un <strong>marco integral y dinámico</strong> diseñado para <strong>guiar y mejorar la gestión de programas</strong> de desarrollo.</p>
+<p>Dentro de un sistema MEL para programas de fortificación, el <strong>Monitoreo (Vigilancia)</strong> se enfoca en la ejecución, respondiendo <strong>“¿Estamos haciendo lo que dijimos que haríamos?”</strong> La <strong>Evaluación</strong> profundiza en los resultados, abordando <strong>“¿El programa está logrando su propósito final?”</strong> Finalmente, el <strong>Aprendizaje integra</strong> estos hallazgos para mejorar continuamente, preguntándose <strong>“¿Cómo podemos hacerlo mejor la próxima vez?”</strong></p>
+<p><img src="../../../static/images/modulo05conceptos.png" class="img-fluid"></p>
+<p>Para alcanzar las <strong>metas</strong> de los programas de fortificación, se requiere un seguimiento continuo y riguroso que permita avanzar de una implementación desconocida a una informada.</p>
+<p><img src="../../../static/images/modulo05paso.png" class="img-fluid"></p>
+<p>La <strong>planificación</strong> y el <strong>diseño</strong> de un <strong>programa de fortificación de alimentos</strong> requieren una evaluación exhaustiva de las <strong>necesidades nutricionales de la población</strong>. Para garantizar su éxito y sostenibilidad, es esencial que los sistemas de <strong>Monitoreo</strong>, <strong>Evaluación</strong> y <strong>Aprendizaje</strong> (MEL) se desarrollen desde el <strong>inicio del programa</strong>, idealmente durante las etapas de <strong>diseño y planificación</strong>.</p>
+</section>
+<section id="importacia-de-los-sistemas-mel" class="level1">
+<h1>Importacia de los sistemas MEL</h1>
+<p>Los sistemas MEL son cruciales porque permiten:</p>
+<ul>
+<li><p>Determinar la calidad de la implementación del programa y la entrega de servicios.</p></li>
+<li><p>Conocer el grado de alcance en los hogares y las personas objetivo.</p></li>
+<li><p>Verificar el logro de los propósitos nutricionales del programa.</p></li>
+<li><p>Proporcionar información vital a los planificadores y normativas para decidir si un programa debe continuar, ampliarse, replicarse o finalizarse.</p></li>
+</ul>
+</section>
+<section id="componentes-de-un-sistema-de-vigilancia-y-evaluación" class="level1">
+<h1>Componentes de un sistema de vigilancia y evaluación:</h1>
+<p>Un sistema MEL general para programas de fortificación, como el descrito en las “Guías para la fortificación de alimentos con micronutrientes”, diferencia dos categorías principales de vigilancia (regulatoria y en hogares/individuos) así como una evaluación final:</p>
+<p><img src="../../../static/images/modulo05mel2.png" class="img-fluid"></p>
+</section>
+<section id="el-sistema-de-monitoreo-evaluación-y-aprendizaje-propuesto-por-wfp-lacro-en-detalle-basado-en-indicadores-selecionados" class="level1">
+<h1>El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en indicadores selecionados)</h1>
+<p>El Programa Mundial de Alimentos para América Latina y el Caribe (WFP-LACRO) ha desarrollado un sistema integral basado en <strong>indicadores clave</strong> para rastrear el progreso desde la producción hasta el consumo y el impacto nutricional.</p>
+<p><strong>nota:</strong> Para que estos indicadores sean útiles, se necesitan datos confiables, y el marco WFP-LACRO propone el uso de las Encuestas de Consumo y Gastos en el Hogar (HCES) como una fuente fundamental.</p>
+<p>Los <strong>indicadores clave</strong> son:</p>
+<ol type="1">
+<li>Proporción de la población que consume el alimento fortificado (PAF) :</li>
+</ol>
+<p>Este indicador mide el <strong>porcentaje de la población objetivo que realmente consume el alimento fortificado</strong>. No basta con producirlo; hay que asegurar que llegue y se consuma. El porcentaje de cobertura real del consumo es un indicador de la <strong>efectividad operativa</strong> de todo el programa.</p>
+<p><strong>Fórmula</strong></p>
+<p><span class="math display">\[\text{PAF} = \left( \frac{\text{Personas que consumen AF en cantidad y frecuencia adecuada}}{\text{Población objetivo}} \right) \times 100\%\]</span></p>
+<ol start="2" type="1">
+<li>Promedio de Consumo del Alimento Fortificado:</li>
+</ol>
+<p>Este indicador determina la <strong>cantidad promedio</strong> del alimento fortificado que consume cada persona diariamente. Es crucial porque la efectividad no solo depende de quién consume, sino de <strong>cuánto</strong> consume.</p>
+<p><span class="math display">\[\text{Promedio de Consumo} = \frac{\text{Consumo total del AF en la población objetivo}}{\text{Número de personas en la población objetivo}}\]</span></p>
+<ol start="3" type="1">
+<li>Ingesta Aparente Total de Micronutrientes (MN):</li>
+</ol>
+<p>Este es el indicador más completo, ya que suma las cantidades de un micronutriente obtenidas de <strong>todas las fuentes</strong>: el alimento fortificado, alimentos naturales y suplementos. Es el indicador definitivo para saber si el estado nutricional de un individuo o población está mejorando.</p>
+<p><strong>Fórmula</strong></p>
+<p><span class="math display">\[\text{Ingesta Aparente Total de MN} = \text{MN de alimentos naturales} + \text{MN del AF} + \text{MN de suplementos}\]</span></p>
+<ol start="4" type="1">
+<li>Proporción de hogares con ingesta aparente de MN por debajo del Requerimiento Promedio Estimado:</li>
+</ol>
+<p>Este indicador identifica la <strong>proporción de hogares en riesgo</strong> de deficiencia. El RPE es un valor nutricional estándar. Si la ingesta de un hogar está por debajo de este valor, hay un alto riesgo de que sus miembros tengan carencias. Este indicador permite identificar dónde el programa no está funcionando y necesita ser reforzado.</p>
+<p><span class="math display">\[\text{Proporción de hogares por debajo del RPE} = \left( \frac{\text{Número de hogares con ingesta de MN } &lt; \text{RPE}}{\text{Número total de hogares evaluados}} \right) \times 100\%\]</span></p>
+<p><strong>utilidad y relación entre los indicadores</strong></p>
+<p>Estos cuatro indicadores forman un sistema MEL integrado, no mediciones aisladas. Los dos primeros —<strong>proporción de la población que consume (PAF)</strong> y <strong>promedio de consumo</strong>— reflejan la <strong>efectividad operativa</strong> del programa, mientras que la <strong>ingesta aparente total de micronutrientes</strong> y la <strong>proporción de hogares por debajo del RPE</strong> miden su <strong>impacto nutricional real</strong>.</p>
+<p>La clave es comprender que una alta cobertura o un buen consumo promedio no garantizan mejoras en salud. Un programa puede distribuir eficazmente el alimento, pero si la dieta es deficiente o la dosificación inadecuada, la carencia persistirá.</p>
+<p>El valor del sistema está en su capacidad de diagnóstico:</p>
+<ul>
+<li><strong>PAF bajo</strong> → problema de acceso o logística.</li>
+<li><strong>Ingesta total insuficiente con PAF alto</strong> → falla en la formulación o fortificación.</li>
+<li><strong>Alta proporción bajo RPE pese a buenos consumos</strong> → necesidad de replantear la estrategia y focalizar en grupos vulnerables.</li>
+</ul>
+<p>En conjunto, estos indicadores son piezas de un mismo rompecabezas: el éxito no se mide solo por la cobertura o la producción, sino por el <strong>bienestar nutricional efectivo de la población</strong>.</p>
+<p><img src="../../../static/images/modulo05reflexion.png" class="img-fluid"></p>
+<p>Los principales desafíos para implementar estos sistemas incluyen:</p>
+<ul>
+<li><p>La disponibilidad de datos de alta calidad (como las HCES).</p></li>
+<li><p>La capacidad técnica para analizar estos datos de manera compleja.</p></li>
+<li><p>La coordinación entre los diferentes actores (gobierno, sector privado, academia)</p></li>
+</ul>
+<p>En el <a href="../../../contenido/modulos/tema02/modulo06.html">módulo 06</a> nos adentraremos en detalles en la encuestas HCES, un elemento crítico para la calidad del proceso.</p>
+<p><a href="../../../contenido/ejercicios/tema01/ejercicio05.html">Acceder al Ejercicio 1</a></p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<ul>
+<li>Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.</li>
+</ul>
 
 
 </section>

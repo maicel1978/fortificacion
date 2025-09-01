@@ -66,23 +66,17 @@ Los **indicadores clave** son:
 
 1.  Proporción de la población que consume el alimento fortificado (PAF) :
 
-
 Este indicador mide el **porcentaje de la población objetivo que realmente consume el alimento fortificado**. No basta con producirlo; hay que asegurar que llegue y se consuma. El porcentaje de cobertura real del consumo es un indicador de la **efectividad operativa** de todo el programa.
-
 
 **Fórmula**
 
 $$\text{PAF} = \left( \frac{\text{Personas que consumen AF en cantidad y frecuencia adecuada}}{\text{Población objetivo}} \right) \times 100\%$$
-
 
 2.  Promedio de Consumo del Alimento Fortificado:
 
 Este indicador determina la **cantidad promedio** del alimento fortificado que consume cada persona diariamente. Es crucial porque la efectividad no solo depende de quién consume, sino de **cuánto** consume.
 
 $$\text{Promedio de Consumo} = \frac{\text{Consumo total del AF en la población objetivo}}{\text{Número de personas en la población objetivo}}$$
-
-
-
 
 3.  Ingesta Aparente Total de Micronutrientes (MN):
 
@@ -92,20 +86,13 @@ Este es el indicador más completo, ya que suma las cantidades de un micronutrie
 
 $$\text{Ingesta Aparente Total de MN} = \text{MN de alimentos naturales} + \text{MN del AF} + \text{MN de suplementos}$$
 
-
-
-
-
-
 4.  Proporción de hogares con ingesta aparente de MN por debajo del Requerimiento Promedio Estimado:
 
 Este indicador identifica la **proporción de hogares en riesgo** de deficiencia. El RPE es un valor nutricional estándar. Si la ingesta de un hogar está por debajo de este valor, hay un alto riesgo de que sus miembros tengan carencias. Este indicador permite identificar dónde el programa no está funcionando y necesita ser reforzado.
 
 $$\text{Proporción de hogares por debajo del RPE} = \left( \frac{\text{Número de hogares con ingesta de MN } < \text{RPE}}{\text{Número total de hogares evaluados}} \right) \times 100\%$$
 
-
 **utilidad y relación entre los indicadores**
-
 
 Estos cuatro indicadores forman un sistema MEL integrado, no mediciones aisladas. Los dos primeros —**proporción de la población que consume (PAF)** y **promedio de consumo**— reflejan la **efectividad operativa** del programa, mientras que la **ingesta aparente total de micronutrientes** y la **proporción de hogares por debajo del RPE** miden su **impacto nutricional real**.
 
@@ -113,15 +100,13 @@ La clave es comprender que una alta cobertura o un buen consumo promedio no gara
 
 El valor del sistema está en su capacidad de diagnóstico:
 
-* **PAF bajo** → problema de acceso o logística.
-* **Ingesta total insuficiente con PAF alto** → falla en la formulación o fortificación.
-* **Alta proporción bajo RPE pese a buenos consumos** → necesidad de replantear la estrategia y focalizar en grupos vulnerables.
+-   **PAF bajo** → problema de acceso o logística.
+-   **Ingesta total insuficiente con PAF alto** → falla en la formulación o fortificación.
+-   **Alta proporción bajo RPE pese a buenos consumos** → necesidad de replantear la estrategia y focalizar en grupos vulnerables.
 
 En conjunto, estos indicadores son piezas de un mismo rompecabezas: el éxito no se mide solo por la cobertura o la producción, sino por el **bienestar nutricional efectivo de la población**.
 
-
 ![](/static/images/modulo05reflexion.png)
-
 
 Los principales desafíos para implementar estos sistemas incluyen:
 
@@ -131,16 +116,10 @@ Los principales desafíos para implementar estos sistemas incluyen:
 
 -   La coordinación entre los diferentes actores (gobierno, sector privado, academia)
 
-
-En el [módulo 06](../../modulos/tema01/modulo06.qmd) nos adentraremos en detalles en la encuestas HCES, un elemento crítico para la calidad del proceso.
-
-
+En el [módulo 06](../../modulos/tema02/modulo06.qmd) nos adentraremos en detalles en la encuestas HCES, un elemento crítico para la calidad del proceso.
 
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio05.qmd)
 
-
-
 # Biblografía
-
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

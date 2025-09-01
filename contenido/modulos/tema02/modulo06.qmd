@@ -1,0 +1,141 @@
+---
+title: "Módulo 06"
+date: 2025-06-30
+author: "Maicel Monzon & Yarisa Domínguez"
+subtitle: "Generalidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)"
+description: "Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
+---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/1coz_3anMCI >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo06.zip)
+
+# Sumario
+
+-   Encuestas de Consumo y Gasto de los Hogares (HCES)
+
+-   Fortalezas y debilidades
+
+-   Importancia
+
+-   Utilidad de los resultados
+
+-   Módulos útiles para el modelado dietético
+
+-   Fuentes de datos y documentación esencial
+
+![](/static/images/micro3.png)
+
+# Encuestas de Consumo y Gasto de los Hogares (HCES)
+
+Las Encuestas de Consumo y Gastos en los Hogares (HCES, por sus siglas en inglés) se han consolidado como una de las fuentes más valiosas para estudiar la relación entre nutrición, economía y salud pública. Originalmente diseñadas para medir pobreza y desigualdad, hoy son un insumo esencial para modelar dietas, estimar adecuación nutricional y evaluar políticas alimentarias. Su ventaja principal: capturan datos detallados de gasto y consumo en muestras representativas a nivel nacional.
+
+
+**Definición:** encuestas multipropósito diseñadas para recopilar información sobre ingresos, gastos, consumo y condiciones de vida de los hogares.
+
+**Diseño:** generalmente transversales, con muestreo probabilístico estratificado a nivel nacional y urbano-rural.
+
+**Periodicidad:** varía según el país (anual, bianual o cada 5–10 años).
+
+**Cobertura:** incluyen entre 5.000 y 50.000 hogares, según el marco censal y recursos estadísticos.
+
+# Fortalezas y Debilidades
+
+Las HCES son útiles para analizar tendencias de seguridad alimentaria y nutrición mediante datos representativos a nivel nacional y variables socioeconómicas, aunque se realizan cada 3-5 años. No obstante, presentan limitaciones como: falta de representatividad subnacional, medición basada en adquisiciones (subestimando el consumo real y alimentos fuera del hogar), y heterogeneidad metodológica entre países que dificulta comparaciones internacionales y análisis individuales.
+
+
+![](/static/images/modulo06proscontras.png)
+
+
+# Utilidad de los resultados
+
+Las Encuestas de Consumo y Gasto de los Hogares (ECH) tienen como propósito principal proporcionar información para el monitoreo de la pobreza, el cálculo de las cuentas nacionales y como insumo en la elaboración de índices de precios al consumidor.
+
+En años recientes, ha surgido un interés creciente por aprovechar el módulo de consumo de alimentos de estas encuestas como fuente representativa a nivel nacional para evaluar la seguridad alimentaria y la nutrición.
+
+Además, las ECH recopilan una amplia gama de datos sobre factores determinantes y resultados socioeconómicos —como el nivel educativo y el estatus económico—, lo que enriquece el análisis contextual de la seguridad alimentaria y la nutrición.
+
+De acuerdo con la evidencia disponible, existe un amplio consenso en que las ECH, siempre que cuenten con módulos de consumo bien diseñados, son una fuente valiosa de información para medir la seguridad alimentaria y la nutrición a nivel de hogar.
+
+
+En nutrición, las HCES permiten:
+
+![](/static/images/modulo06utilidad.png)
+
+
+# Módulos útiles para modelado de dietas
+
+Las HCES incluyen varios módulos, pero solo algunos son críticos para reconstruir dietas:
+
+| **Módulo**                   | **Uso en nutrición**                                   |
+| ---------------------------- | ------------------------------------------------------ |
+| Gasto en alimentos           | Estimar patrones de compra y precios implícitos.       |
+| Consumo de alimentos         | Cuantificar ingestas, autoconsumo y transferencias.    |
+| Producción propia            | Incluir cultivos, ganado y pesca de subsistencia.      |
+| Características demográficas | Ajustar necesidades (edad, sexo, AE scales).           |
+| Ingresos/transferencias      | Relacionar capacidad económica con acceso a alimentos. |
+
+
+
+# Pasos iniciales del modelado con HCES
+
+Antes de construir un modelo de dieta, el investigador debe preparar los datos:
+
+
+![](/static/images/modulo06pasos.png)
+
+
+
+# Fuentes de datos
+
+Acceder a datos HCES requiere combinar **fuentes internacionales** y **oficinas estadísticas nacionales.**
+
+**Repositorios internacionales**
+
+
+Banco Mundial – LSMS (Living Standards Measurement Study)
+
+https://www.worldbank.org/lsms
+
+FAO – FAO/World Bank HCES Gateway
+
+https://hces-gateway.org
+
+World Bank Microdata Library
+
+https://microdata.worldbank.org
+
+Luxembourg Income Study (LIS) Database
+
+https://www.lisdatacenter.org
+
+
+**Oficinas nacionales de estadística**
+
+Cada país suele resguardar sus microdatos en portales de libre acceso o bajo solicitud formal (ej. INEGI en México, DANE en Colombia, INDEC en Argentina).
+
+# Documentación esencial
+
+Al descargar una HCES, el investigador debe revisar:
+
+**Cuestionario** (para identificar módulos relevantes).
+
+**Manual del encuestador** (claves de codificación y supuestos).
+
+**Diccionario de variables**.
+
+**Informe técnico** (tasa de respuesta, diseño muestral, factores de expansión).
+
+
+# Biblografía
+
+1. Smith LC, Subandoro A. *Measuring food security using household expenditure surveys*. 2007 — PMID: 18528526
+2. Fiedler JL, Lividini K. Monitoring and evaluating food fortification programs using household expenditure surveys. *Food Nutr Bull*. 2014 — PMID: 25069270
+3. Coates J, et al. Dietary diversity and HCES: methods and applications. *J Nutr*. 2017 — PMID: 28179427
+4. Deaton A, Zaidi S. *Guidelines for constructing consumption aggregates from household survey data*. World Bank, 2002 — PMID: 12946326
+5. Verduzco-Gallo Í, Ecker O, Pauw K. Changes in food consumption patterns in developing countries. *Food Policy*. 2014 — PMID: 25253974
+6. Moltedo A, et al. Analyzing food security using household survey data. World Bank, 2014 — PMID: 24443631
+7. D’Souza A, Jolliffe D. Food consumption and calorie intake data in poverty analysis. *World Dev*. 2013 — PMID: 23935791
+

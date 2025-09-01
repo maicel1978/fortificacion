@@ -1,12 +1,23 @@
 ---
 title: "Módulo 07"
-subtitle: "Medidas para el resumen datos de nutrición (estadística descriptiva)"
+subtitle: "Modelado de Dietas a partir de las Encuestas de Consumo y Gastos en los Hogares (HCES)"
 author: "Maicel Monzon"
-description: "Se introducen conceptos de estimación puntual y por intervalos de confianza, pruebas de significación, regresión y correlación"
+description: "Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
 ---
 
 ![](/static/images/modulo06.png){fig-align="center"}
 
 # sumario
 
+
+
+
 # Biblografía
+
+
+
+
+
+
+
+

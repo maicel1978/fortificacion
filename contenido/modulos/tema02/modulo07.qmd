@@ -1,18 +1,76 @@
 ---
 title: "Módulo 07"
-subtitle: "Modelado de Dietas a partir de las Encuestas de Consumo y Gastos en los Hogares (HCES)"
+subtitle: "Valores de referencia de ingesta de nutrientes"
 author: "Maicel Monzon"
-description: "Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
+description: "Se realiza una descripción de o	Valores de referencia de ingesta de nutrientes"
 ---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/kVd7iAMzmuE >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo07.zip)
+
+
+# Sumario
+
+- Valores de referencia de ingesta de nutrientes
+- Fuentes y obtención de los VRN
+- Tipos principales de valores de referencia
+- Consideraciones especiales y recomendaciones
 
 ![](/static/images/modulo06.png){fig-align="center"}
 
-# sumario
+
+# ¿Qué son los valores de referencia de ingesta de nutrientes?
+
+Los VRN son **pautas oficiales** que establecen la ingesta diaria recomendada de nutrientes clave para la **mayoría de personas sanas**. Incluyen macronutrientes (proteínas, grasas, carbohidratos) y micronutrientes (vitaminas y minerales).
+
+Los **valores** se ajustan **según grupo** etario, sexo y estado fisiológico (embarazo, lactancia).
+
+# Fuentes y obtención de los VRN
+
+- **Organismos internacionales**: FAO, OMS, EFSA y Codex Alimentarius.
+- **Instituciones nacionales**: Ministerios de salud, asociaciones científicas y pediátricas.
+- **Reglamentación alimentaria**: Etiquetados nutricionales y regulaciones locales.
+
+Las tablas oficiales contienen VRN para energía, proteínas, grasas, vitaminas y minerales, con variaciones por grupo poblacional.
+
+[Acceder a las tablas cubanas](../../recursos/tablas/tablas.qmd)
 
 
 
+# Tipos principales de valores de referencia
 
-# Biblografía
+Los principales valores de referencia nutricional incluyen: el **Requerimiento Promedio Estimado (RPE)**, que cubre las necesidades de la mitad de la población; la **Ingesta Diaria Recomendada (IDR)**, que satisface las necesidades del 97-98 % de individuos sanos; la **Ingesta Adecuada (IA)**, utilizada cuando no hay evidencia suficiente para establecer una IDR; y el **Nivel Máximo Tolerable (NMT)**, que indica la ingesta máxima diaria segura sin riesgo de efectos adversos.
+
+![](/static/images/modulo07ref.png){fig-align="center"}
+
+
+
+# Utilización de los VRN en el análisis de HCES
+
+Los **Valores de Referencia de Nutrientes (VRN)** se utilizan en el análisis de las Encuestas de Consumo Alimentario (HCES) para comparar el consumo poblacional con las recomendaciones, identificar deficiencias, excesos o riesgos nutricionales, y apoyar la formulación de intervenciones y políticas públicas. Además, en el etiquetado nutricional, los VRN permiten interpretar el aporte de nutrientes por porción de alimento, facilitando decisiones informadas sobre la dieta.
+
+![](/static/images/modulo07utilidad.png){fig-align="center"}
+
+
+# Consideraciones especiales y recomendaciones
+
+- Los VRN pueden variar entre diferentes organismos; siempre se debe citar y justificar la fuente utilizada.
+- Es fundamental ajustar los valores para poblaciones especiales: niños, gestantes, adultos mayores y atletas.
+
+
+# Bibliografía
+
+- Asociación Española de Pediatría. Ingestas dietéticas de referencia.
+- FAO/OMS. Codex Alimentarius.
+- European Food Safety Authority. Ingestas dietéticas de referencia.
+- Carbajal, Á. Ingestas recomendadas de energía y nutrientes.
+- Ministerio de Salud y Protección Social. Módulo rotulado nutricional.
+- Gadis. Manual didáctico para docentes. Alimentes.
+- FINUT. Propuesta de valores de referencia de nutrientes para poblaciones.
+
 
 
 

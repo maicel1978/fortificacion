@@ -1,7 +1,8 @@
 ---
 title: "Módulo 09"
 subtitle: "Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
-author: "Maicel Monzon"
+date: 2025-06-29
+author: "Maicel Monzón & Santiago Rodas Moya"
 description: "Se realiza una introducion a los fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 ---
 
@@ -116,7 +117,7 @@ La literatura científica ha demostrado que los métodos ajustados son más real
 
 ---
 
-# 🔹 Bibliografía
+# Bibliografía
 
 * Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saúde Pública**. 2010;26(11):2188-2195. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21180992/?utm_source=chatgpt.com)
 * Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6024672/?utm_source=chatgpt.com)

@@ -1,7 +1,8 @@
 ---
 title: "Módulo 08"
 subtitle: "Tablas de composición de los alimentos"
-author: "Maicel Monzon & Yarisa Domínguez"
+date: 2025-06-29
+author: "Maicel Monzón & Santiago Rodas Moya"
 description: "Se describe, qué son las tablas de composición de los alimentos, cómo y dónde obtenerlas, así cómo se utilizan para el análisis de HCES."
 ---
 

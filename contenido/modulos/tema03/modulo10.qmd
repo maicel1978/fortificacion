@@ -1,49 +1,94 @@
 ---
 title: "Módulo 10"
-subtitle: "Método de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar"
-author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe el método de una mujer saludable de 18-29 años (AFE) para estimar la distribución de alimentos según requerimientos de energía en el hogar"
+subtitle: "Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
+date: 2025-06-29
+author: "Maicel Monzón & Santiago Rodas Moya"
+description: "Se realiza una introducion a la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo) de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
 ---
+
+
+
+
+<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+
+<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+
+
+<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+
+
+# Sumario
+
+- Generalidades
+
+- Ajustes de Consumo por Equivalente de Mujer Adulta
+
+- Integración de la Base de Datos para el Modelaje
+
+- Pasos en la preparación de datos
+
 
 ![](/static/images/ECGH.png){fig-align="center"}
 
-# sumario
+
+---
 
 
-# Unidades de Equivalente de Adulto Masculino (AME)
+# Generalidades
+
+Una vez que se han obtenido los datos de las **HCES** (Encuestas de Consumo de Hogares y Gasto), un paso fundamental es verificar si la ingesta dietética que reportan tiene sentido a nivel macro. Esto es crucial para un modelo preciso y efectivo.
 
 
-Para describir el método de estimación de la distribución de alimentos según los requerimientos de energía en el hogar, especialmente para una mujer saludable de 18-29 años, es fundamental comprender el concepto de **Unidades de Equivalente de Adulto Masculino (AME)**.
+Los **Balances Alimentarios (BA)**, a menudo elaborados por organismos como la FAO, son una estimación de la disponibilidad de alimentos a nivel nacional. Si bien no reemplazan a las HCES, son una herramienta poderosa para validar los datos de consumo.
 
-Las Encuestas de Gasto y Consumo en el Hogar (HCES) o Household Consumption and Expenditures Surveys (HCES) no recogen información sobre la asignación de alimentos dentro del hogar a nivel individual. Por lo tanto, es necesario construir unidades AME para cada miembro del hogar para **ajustar las variaciones en la composición del hogar**.
+- **Confrontando Datos**: Se compara el consumo per cápita de un alimento clave obtenido de la HCES con la disponibilidad per cápita del mismo alimento según el BA. Si hay una diferencia significativa y difícil de explicar, puede indicar un problema en los datos de la encuesta o en la metodología.
 
-Aquí se detalla el método:
+- **Uso para Ingesta Aparente**: Los BA se utilizan para estimar la **ingesta dietética aparente** de un país, que es la cantidad de alimentos disponible para el consumo sin tener en cuenta las pérdidas a nivel de hogar o el desperdicio. Esto proporciona un punto de referencia útil para el análisis.
 
-*   **Construcción de Unidades AME**:
-    *   Las unidades AME se construyen basándose en la **estimación de los requerimientos energéticos individuales de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO)**, que son específicos por edad y sexo.
-    *   El **valor de referencia** para una unidad AME (AME = 1) es el requerimiento energético de un **hombre de 19 a 30 años**, que se estima en 3.050 kcal/día.
-    *   Otros grupos de edad y sexo se ponderan de acuerdo con sus necesidades energéticas estimadas en relación con este valor de referencia.
+---
 
-*   **Factor de Ajuste para Mujeres de 19-30 Años**:
-    *   Para una **mujer de 19 a 30 años**, el AME es de **0.79**. Esto se calcula dividiendo su requerimiento energético estimado (2.400 kcal/día) por el del hombre de referencia (2.400/3.050 kcal/día = 0.79). Aunque tu consulta especifica "18-29 años", las fuentes utilizan el rango "19-30 años" para este factor de ajuste.
+# Ajustes de Consumo por Equivalente de Mujer Adulta
 
-*   **Cálculo de Unidades AME por Hogar**:
-    *   Se asigna un peso o factor de ajuste AME a cada persona en el hogar.
-    *   Estos **pesos individuales se suman** para proporcionar una estimación de las unidades AME totales del hogar. Para construir estas unidades AME, es necesario disponer de variables demográficas como el número de personas en cada hogar y la edad y el sexo de cada miembro del hogar.
+La metodología del "equivalente de mujer adulta" que se tratará con más detalles con el próximo módulo, es un método estándar para ajustar el consumo de alimentos en un hogar.
 
-*   **Estimación del Consumo Aparente por AME**:
-    *   Una vez que se tienen las unidades AME del hogar, las **adquisiciones diarias de alimentos por parte del hogar (en gramos o mililitros por día)** se dividen por las unidades AME del hogar. Esto proporciona una estimación del **consumo aparente por unidad AME**.
-    *   Posteriormente, para ajustar este consumo aparente al grupo de interés específico (como mujeres o niños), la estimación de consumo por AME debe **multiplicarse por el factor de ajuste** correspondiente a la edad y el sexo de ese grupo. Por ejemplo, para estimar el consumo aparente ajustado para mujeres de 19-30 años, se multiplicaría el consumo aparente por AME por 0.79.
+Esto permite comparar el consumo entre hogares de diferente tamaño y composición de una manera más justa.
 
-*   **Supuestos del Método AME**:
-    *   Este método se basa en el supuesto de que los requerimientos energéticos de la FAO son válidos para la población de interés.
-    *   También asume que los alimentos se comparten dentro del hogar **en proporción a los requerimientos energéticos**.
+- **Definición**: Un **equivalente de mujer adulta (EAM)** es una unidad de medida que ajusta las necesidades energéticas y nutricionales de un hogar. Se basa en el supuesto de que las necesidades de una mujer adulta son la base, y se asignan factores de conversión a otros miembros del hogar (hombres, niños, ancianos) según sus necesidades relativas.
 
-*   **Limitaciones**:
-    *   Es importante reconocer que las HCES solo describen las adquisiciones de alimentos y no capturan directamente el consumo real.
-    *   Además, el método no considera el desperdicio de alimentos, el compartir con invitados, la donación de alimentos, el almacenamiento o la alimentación de animales.
-    *   La suposición de que el consumo es proporcional a los requerimientos energéticos de la FAO **puede no ser válida en todas las situaciones**, y los alimentos pueden no compartirse de manera equitativa en proporción a las necesidades. A pesar de que las HCES no capturan información sobre la asignación intra-hogar de alimentos, el uso de unidades AME intenta dar cuenta de las variaciones en la composición del hogar considerando la edad y el sexo.
+- **Aplicación Práctica**: Se calcula el número total de EAM en un hogar y se divide el consumo total de alimentos del hogar por este número. El resultado es el consumo per cápita por EAM, que es un indicador más preciso del consumo que el simple consumo per cápita por persona.
 
-A pesar de estas limitaciones, el uso de datos de HCES con el método AME es valioso para diseñar programas de fortificación de alimentos, especialmente cuando no se dispone de datos de consumo a nivel individual.
+- **Uso de la mujer adulta saludable como base (AFE)**: Para calcular los factores de EAM, se utiliza como referencia una mujer adulta saludable de 18-29 años, conocida como **Adult Female Equivalent (AFE)**. Esta metodología se abordará en detalle en el próximo módulo.
+
+---
+
+# Integración de la Base de Datos para el Modelaje
+
+El objetivo de todo este proceso es construir una base de datos coherente y ajustada para el análisis.
+
+- **Listado de Insumos**: La base de datos final debe contener:
+    - **Consumo de Alimentos por Hogar**: En unidades estandarizadas.
+    - **Composición del Hogar**: Con información de edad y sexo para calcular el factor de EAM.
+    - **Tablas de Composición de Alimentos (TCA)**: Vinculadas a cada alimento para calcular la ingesta de micronutrientes.
+- **Estructura de la Base de Datos**: La base de datos debe ser una matriz relacional. La tabla principal de consumo debe estar vinculada a una tabla de composición de alimentos y a una tabla de datos demográficos del hogar. Esta estructura permite realizar cálculos de ingesta nutricional y análisis de subgrupos de forma eficiente.
+- **De Datos a Información Útil**: El resultado de la preparación de los datos es una base de datos que ya no es solo una hoja de cálculo con números, sino una fuente de información estructurada y validada que puede ser utilizada para estimar la ingesta nutricional de diferentes grupos de la población y simular el impacto de la fortificación.
+
+
+# Pasos en la preparación de datos
+
+Se limpian y unifican los datos, se convierten a unidades estándar (gramos/ml) y se vinculan con tablas de composición de alimentos para estimar el consumo per cápita. Se ajusta por tamaño del hogar, merma, desperdicio y consumo fuera del hogar, y se validan los resultados con balances alimentarios nacionales, asegurando coherencia y documentando supuestos clave.
+
+
+![](/static/images/modulo10pasos.png){fig-align="center"}
+
+
+
+
 
 # Biblografía
+
+* Fiedler JL, Lividini K, Bermudez OI, Smitz MF. *Household Consumption and Expenditures Surveys (HCES): a tool for nutrition analysis.* Food Nutr Bull. 2012;33(3 Suppl)\:S170–S184. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23193760/)
+
+* FAO. *Food Balance Sheets: A Handbook.* 2001.
+
+* Maillot M, Darmon N. *Diet optimization methods can help translate dietary guidelines into promising food choices.* Proc Nutr Soc. 2020;79(1):70–79. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32185879/)
+

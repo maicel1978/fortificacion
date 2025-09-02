@@ -5,7 +5,14 @@ author: "Maicel Monzon"
 description: "Se realiza una introducion a los fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 ---
 
-![](/static/images/modulo09.png){fig-align="center"}
+<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+
+<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+
+
+<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+
+
 
 # Sumario
 
@@ -19,7 +26,7 @@ description: "Se realiza una introducion a los fundamentos conceptuales para la 
 
 - Evidencia empírica
 
-
+![](/static/images/modulo09.png){fig-align="center"}
 
 # Generalidades
 

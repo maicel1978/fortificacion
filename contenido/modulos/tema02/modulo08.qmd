@@ -38,9 +38,11 @@ Estas tablas son esenciales para la **evaluación y planificación de dietas ind
 
 ![](/static/images/modulo08tablas.png){fig-align="center"}
 
-{{% callout note %}}
+
+:::{.callout-note collapse="false"}
 Es importante considerar que los valores de las TCA son aproximaciones al contenido real. El contenido nutricional de un alimento puede variar significativamente según su variedad, el clima y suelo donde se cultive, el grado de maduración, la forma de preparación (cruda vs. cocida), el procesamiento y las condiciones de almacenamiento. Además, los análisis de laboratorio tienen un margen de error, y los valores de las TCA corresponden a la cantidad total del nutriente, no necesariamente a las cantidades biodisponibles para el organismo humano.
-{{% /callout %}}
+:::
+
 
 # Fuentes: ¿Cómo y dónde obtener las TCA?
 

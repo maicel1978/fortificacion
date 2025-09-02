@@ -31,7 +31,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 Las **Tablas de Composición de Alimentos (TCA)** son herramientas fundamentales en nutrición que permiten cuantificar el contenido nutricional de los alimentos, transformando cantidades en gramos de un alimento en gramos, miligramos o microgramos de sus componentes específicos. Proporcionan datos estandarizados sobre el aporte de agua, proteínas, lípidos, carbohidratos, minerales, vitaminas y energía por cada 100 g de la porción comestible. La energía, expresada en kilocalorías, se calcula a partir del contenido de macronutrientes mediante factores de conversión validados, como el sistema Atwater.
 
-![](/static/imagesmodulo08contenido.png){fig-align="center"}
+![](/static/images/modulo08contenido.png){fig-align="center"}
 
 Estas tablas son esenciales para la **evaluación y planificación de dietas individuales y colectivas**, el **cálculo de necesidades nutricionales** y la **definición de la canasta básica alimentaria**. Además, facilitan la **identificación y corrección de deficiencias**, **excesos o desequilibrios dietéticos**, apoyan la **promoción de la salud y sirven como base científica para programas de fortificación de alimentos**. En el ámbito industrial, son clave para el **desarrollo de nuevos productos y la elaboración del etiquetado nutricional** conforme a normativas vigentes.
 

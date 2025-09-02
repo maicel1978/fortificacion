@@ -7,7 +7,7 @@ description: "Se describe, qué son las tablas de composición de los alimentos,
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-{{< videohttps://youtu.be/c1AqCLDnrTY >}}
+{{< video https://youtu.be/c1AqCLDnrTY >}}
 
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip)

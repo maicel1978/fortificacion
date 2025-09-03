@@ -63,9 +63,23 @@
     ]
   },
   {
-    "objectID": "contenido/modulos/tema05/modulo17.html",
-    "href": "contenido/modulos/tema05/modulo17.html",
-    "title": "Módulo 17",
+    "objectID": "contenido/modulos/tema05/modulo23.html",
+    "href": "contenido/modulos/tema05/modulo23.html",
+    "title": "Módulo 23",
+    "section": "",
+    "text": "Sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema05",
+      "Módulo 23"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema05/modulo21.html",
+    "href": "contenido/modulos/tema05/modulo21.html",
+    "title": "Módulo 21",
     "section": "",
     "text": "sumario\n\n\nBiblografía",
     "crumbs": [
@@ -73,90 +87,48 @@
       "Contenidos",
       "Módulos e-learning",
       "Tema05",
+      "Módulo 21"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema05/modulo19.html",
+    "href": "contenido/modulos/tema05/modulo19.html",
+    "title": "Módulo 19",
+    "section": "",
+    "text": "sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema05",
+      "Módulo 19"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema04/modulo17.html",
+    "href": "contenido/modulos/tema04/modulo17.html",
+    "title": "Módulo 17",
+    "section": "",
+    "text": "Sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema04",
       "Módulo 17"
     ]
   },
   {
-    "objectID": "contenido/modulos/tema05/modulo15.html#paso-1-recopilación-y-preparación-de-información-clave",
-    "href": "contenido/modulos/tema05/modulo15.html#paso-1-recopilación-y-preparación-de-información-clave",
+    "objectID": "contenido/modulos/tema04/modulo15.html",
+    "href": "contenido/modulos/tema04/modulo15.html",
     "title": "Módulo 15",
-    "section": "Paso 1: Recopilación y Preparación de Información Clave",
-    "text": "Paso 1: Recopilación y Preparación de Información Clave\nPara iniciar el diseño de un programa de fortificación, es fundamental recopilar la siguiente información: * Datos bioquímicos/clínicos sobre el estado nutricional: Para entender la magnitud y severidad de las deficiencias de micronutrientes en diferentes grupos poblacionales. * Patrones alimentarios: Información sobre la composición de la dieta habitual. * Ingesta habitual de alimentos y micronutrientes: Datos cuantitativos de la ingesta de alimentos y la distribución de la ingesta habitual de micronutrientes específicos en la población. Esta es la base más útil para justificar y diseñar el programa. * Consumo del vehículo alimentario: Es crucial estimar la cantidad habitual del vehículo alimentario previsto que consumen los subgrupos de población con mayor riesgo de ingesta inadecuada o excesiva. Las HCES pueden proporcionar estimaciones del consumo aparente de vehículos de fortificación.",
+    "section": "",
+    "text": "Sumario\n\nMetodología Paso a Paso para el Cálculo de FFL\n\nEstimación de la Ingesta de Alimentos (Dieta y Consumo)\nDeterminación del Requerimiento Promedio Estimado (EAR)\nCálculo del Nivel de Fortificación (FL)\nConsideración de la Biodisponibilidad\nIntegración de los Niveles Máximos Tolerables (UL)\n\n\n\nAhora que hemos comprendido los principios de la fortificación y los pasos para la Planificación y diseño de un programa de fortificación, la importancia de seleccionar el alimento vehículo y los nutrientes adecuados, nos enfocaremos en la parte técnica: ¿cómo se determina la cantidad exacta de nutriente que se debe añadir a un alimento?\nPara ello abordaremos la metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)\n\n\n\nMetodología Paso a Paso para el Cálculo de FFL\nLa metodología de la OMS para determinar los FFL es un proceso escalonado que considera la ingesta de alimentos, la bioaccesibilidad de los nutrientes y la seguridad.\n\nPaso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)\n\nUtiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.\n\nPaso 2: Determinación del Requerimiento Promedio Estimado (EAR)\n\nEl Requerimiento Promedio Estimado (EAR) es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.\n\nPaso 3: Cálculo del Nivel de Fortificación (FL)\n\nEste paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:\n\n\\[FL = \\frac{EAR \\times (\\text{Población a Cubrir})}{\\text{Ingesta de Alimento Fortificado}}\\]\n\n👉 Esta fórmula se ajusta para considerar otros factores como las pérdidas durante el procesamiento o cocción.\n\nPaso 4: Consideración de la Biodisponibilidad\n\nLa biodisponibilidad es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.\nPuedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.\n\nPaso 5: Integración de los Niveles Máximos Tolerables (UL)\n\nPara prevenir la toxicidad, es vital considerar el Nivel Máximo de Ingesta Tolerable (UL). Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.\nEl Nivel de Fortificación Factible (FFL) es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.\n\n\n\n\n\nBiblografía\n\nLa Fortificación de Alimentos: Una Estrategia Nutricional …, accessed September 3, 2025, https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012\n\n-Español - Food Fortification Initiative, accessed September 3, 2025, https://www.ffinetwork.org/espanol\n-who guideline1: fortification of maize flour and corn meal with …, accessed September 3, 2025, https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Módulos e-learning",
-      "Tema05",
-      "Módulo 15"
-    ]
-  },
-  {
-    "objectID": "contenido/modulos/tema05/modulo15.html#paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe",
-    "href": "contenido/modulos/tema05/modulo15.html#paso-2-comprensión-y-uso-del-requerimiento-promedio-estimado-rpe",
-    "title": "Módulo 15",
-    "section": "Paso 2: Comprensión y Uso del Requerimiento Promedio Estimado (RPE)",
-    "text": "Paso 2: Comprensión y Uso del Requerimiento Promedio Estimado (RPE)\nEl método recomendado para establecer los niveles de fortificación en alimentos es el método del punto de corte del Requerimiento Promedio Estimado (RPE).\n\nDefinición del RPE: El RPE se define como la ingesta diaria promedio que se estima es suficiente para cubrir las necesidades de la mitad de los individuos sanos de un subgrupo en una fase de la vida y género determinado. Aunque la FAO/OMS no publica regularmente los valores del RPE, estos pueden derivarse fácilmente de la Ingesta Recomendada de Nutrientes (IRN) mediante factores de conversión.\nPropósito del RPE: Permite estimar la proporción de la población con ingesta insuficiente de un nutriente determinado. El objetivo es que la fortificación eleve la distribución de la ingesta de manera que solo una pequeña proporción (generalmente 2% a 3%) del grupo de población esté en riesgo de tener una ingesta insuficiente.\nIdentificación de Subgrupos de Riesgo: Ciertos subgrupos (como niños y mujeres) tienen un mayor riesgo de ingesta inadecuada. La información de la ingesta nutricional debe recolectarse de estos diferentes grupos (distintos niveles socioeconómicos, grupos étnicos, condiciones fisiológicas). Un estudio en Malawi, por ejemplo, estimó la cobertura de vehículos de fortificación y la ingesta aparente de mujeres no embarazadas y no lactantes, estratificado por subpoblaciones y estaciones.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Módulos e-learning",
-      "Tema05",
-      "Módulo 15"
-    ]
-  },
-  {
-    "objectID": "contenido/modulos/tema05/modulo15.html#paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe",
-    "href": "contenido/modulos/tema05/modulo15.html#paso-3-cálculo-del-nivel-de-adición-de-micronutrientes-con-el-método-del-punto-de-corte-del-rpe",
-    "title": "Módulo 15",
-    "section": "Paso 3: Cálculo del Nivel de Adición de Micronutrientes (con el Método del Punto de Corte del RPE)",
-    "text": "Paso 3: Cálculo del Nivel de Adición de Micronutrientes (con el Método del Punto de Corte del RPE)\nEste método implica cuatro pasos:\n\nObservar la distribución habitual de la ingesta de nutrientes: Cuantificar el nivel actual de ingesta de nutrientes en subgrupos de la población. Esto se hace a partir de los datos de consumo de alimentos de las HCES, convertidos a cantidades de nutrientes consumidos usando tablas de composición de alimentos. Por ejemplo, un análisis puede revelar que el 65% de las mujeres adultas tienen una ingesta inadecuada de vitamina A, es decir, una ingesta por debajo del RPE (357 µg/día).\nIdentificar los subgrupos de población con mayor riesgo: Una vez que se tienen los datos de ingesta, se pueden identificar los subgrupos con la mayor prevalencia de ingesta inadecuada para dirigir el programa.\nMedir la cantidad habitual del vehículo alimentario previsto: Determinar el consumo del vehículo alimentario por los subgrupos de riesgo y por aquellos con mayor consumo (para evaluar el riesgo de ingesta excesiva). Las HCES pueden tener información sobre alimentos preparados que contienen el vehículo (ej., pan con harina de trigo) y se pueden construir variables compuestas para estimar el equivalente del vehículo en estos alimentos (ej., Fortified Wheat Flour Equivalents).\nSimular el efecto de agregar distintos niveles de nutrientes al vehículo alimentario: Volver a calcular la distribución de la ingesta de nutrientes (ej., vitamina A) asumiendo que el vehículo (ej., harina de trigo) contiene una cantidad adicional del micronutriente. Esto ayuda a identificar el nivel de fortificación más apropiado que previene la deficiencia sin causar una alta proporción de ingesta excesiva.\n\nConsideraciones de Biodisponibilidad: Es importante ajustar los cálculos si la biodisponibilidad del nutriente añadido difiere sustancialmente de la que ocurre naturalmente en la dieta. Por ejemplo, el hierro electrolítico se absorbe menos y se recomienda agregar el doble de su cantidad que de sulfato ferroso. El ácido fólico y la vitamina B12 sintéticos pueden tener una mayor absorción que sus formas naturales en los alimentos.\nEjemplo para Yodo: La OMS recomienda agregar de 20 a 40 mg de yodo/kg de sal para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo de 10 g de sal/día y sin ingesta previa de yodo.\nEjemplo para Folato/Ácido Fólico: Se ha demostrado que aumentar la ingesta en 200 µg/día de ácido fólico a través de la fortificación es efectivo para mejorar el estado nutricional y reducir defectos del tubo neural.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Módulos e-learning",
-      "Tema05",
-      "Módulo 15"
-    ]
-  },
-  {
-    "objectID": "contenido/modulos/tema05/modulo15.html#paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones",
-    "href": "contenido/modulos/tema05/modulo15.html#paso-4-determinación-del-nivel-posible-de-fortificación-npf-y-limitaciones",
-    "title": "Módulo 15",
-    "section": "Paso 4: Determinación del Nivel Posible de Fortificación (NPF) y Limitaciones",
-    "text": "Paso 4: Determinación del Nivel Posible de Fortificación (NPF) y Limitaciones\nLa cantidad de micronutrientes que se puede agregar a los alimentos a menudo está limitada por factores de inocuidad, tecnología y costos.\n\nDefinición de NPF: El Nivel Posible de Fortificación (NPF) es el nivel que se determina, sujeto a las limitaciones de costo y tecnología, que proporcionará una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.\nLímite de Inocuidad: Se evalúa comparando la ingesta proyectada del micronutriente (con mayores niveles de fortificación y consumo) con el Nivel Máximo de Ingesta Tolerable (NM). Los hombres adultos suelen tener el mayor riesgo de ingesta excesiva debido a mayores tasas de consumo de alimentos básicos.\nLímite Tecnológico: Es el nivel máximo de adición que no causa cambios organolépticos (color, sabor, olor) ni físicos adversos en el alimento. Se debe determinar experimentalmente y puede variar con innovaciones tecnológicas.\nLímite de Costos: Es el aumento aceptable en el precio de los productos alimentarios fortificados. La mayoría de los programas operan con aumentos de precios entre 0.25% y 2.0%. Para la fortificación a gran escala, el costo del agente fortificante representa la mayor proporción del aumento del costo.\nImpacto de los Límites: El NPF será el valor más bajo de estos tres límites (inocuidad, tecnología y costo). Si la combinación de estos límites reduce la cantidad de nutrientes a niveles por debajo de lo necesario para el objetivo nutricional, podría ser necesario fortificar más de un alimento o usar estrategias complementarias como la suplementación.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Módulos e-learning",
-      "Tema05",
-      "Módulo 15"
-    ]
-  },
-  {
-    "objectID": "contenido/modulos/tema05/modulo15.html#paso-5-construcción-de-escenarios-de-fortificación",
-    "href": "contenido/modulos/tema05/modulo15.html#paso-5-construcción-de-escenarios-de-fortificación",
-    "title": "Módulo 15",
-    "section": "Paso 5: Construcción de Escenarios de Fortificación",
-    "text": "Paso 5: Construcción de Escenarios de Fortificación\nLa modelización de escenarios de fortificación permite comparar el impacto potencial de diferentes estrategias.\n\nTipos de Escenarios: Un estudio en Malawi utilizó un marco de modelización matemática para comparar escenarios de fortificación.\n\nEscenario “sin fortificación”: Asume que los alimentos no están fortificados, proporcionando una base de referencia para la adecuación de la dieta.\nEscenario “status quo”: Modela la fortificación a los niveles actuales, que pueden estar por debajo de los estándares obligatorios.\nEscenario de fortificación “a niveles estándar/mandatados”: Modela la fortificación a los niveles de cumplimiento completo de las normativas o al NPF calculado.\n\nEvaluación de Impacto en Escenarios: Para cada escenario, se pueden estimar métricas como la cobertura del vehículo de fortificación, la densidad de micronutrientes de la dieta y la ingesta aparente de micronutrientes. En el caso de Malawi, se analizó el impacto potencial de la fortificación de aceite, azúcar y harina de trigo en la adecuación de vitamina A. Se encontró que el aceite y el azúcar, combinados, podrían mejorar la adecuación de vitamina A debido a su alta cobertura y consumo aparente, mientras que la harina de trigo contribuyó poco.\nEstratificación: Los escenarios deben estratificarse por subpoblaciones (ej., rural, urbano, posición socioeconómica) y, si es relevante, por temporadas, para entender cómo los programas benefician a diferentes grupos y dónde persisten las deficiencias. Por ejemplo, en Malawi, las contribuciones potenciales de todos los vehículos de fortificación fueron bajas en las poblaciones rurales de menor posición socioeconómica.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Módulos e-learning",
-      "Tema05",
-      "Módulo 15"
-    ]
-  },
-  {
-    "objectID": "contenido/modulos/tema05/modulo15.html#consideraciones-adicionales",
-    "href": "contenido/modulos/tema05/modulo15.html#consideraciones-adicionales",
-    "title": "Módulo 15",
-    "section": "Consideraciones Adicionales",
-    "text": "Consideraciones Adicionales\n\nVigilancia y Evaluación Continua: El diseño de programas debe incluir la vigilancia y evaluación desde el inicio para asegurar que los alimentos fortificados contengan la cantidad deseada de micronutrientes y sean consumidos por la población objetivo en cantidades adecuadas. La vigilancia abarca desde la producción hasta el punto de consumo.\nLegislación y Control de Calidad: La fortificación obligatoria es cuando los gobiernos legalmente exigen a los productores fortificar ciertos alimentos. Esto requiere un sistema de control de calidad (interno, externo y comercial) para asegurar el cumplimiento de las normas.\nPromoción y Educación: Es fundamental comunicar los beneficios de la fortificación para fomentar la aceptación y el consumo de los alimentos fortificados por parte de la población.\n\nAl seguir estos pasos, se puede diseñar y modelar un programa de fortificación de alimentos basado en evidencia, maximizando su potencial para abordar las deficiencias de micronutrientes en la población.",
-    "crumbs": [
-      "🏠 Home",
-      "Contenidos",
-      "Módulos e-learning",
-      "Tema05",
+      "Tema04",
       "Módulo 15"
     ]
   },
@@ -479,7 +451,7 @@
     "href": "contenido/modulos/index.html",
     "title": "Módulos e-learning",
     "section": "",
-    "text": "Esta sección contiene una serie de micromódulos que cubren diferentes conceptos del curso. Los módulos e-learning se estructurarán en sesiones formativas de 15-40 minutos por día. Estos deberán completarse en un periodo de hasta dos meses, permitiendo una experiencia de formación progresiva y ágil. Los contenidos de los módulos se detallan a continuación.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 01\n\n\n¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control\n\n\nEl objetivo principal de este módulo es que los participantes conozcan los fundamentos para diseñar estrategias de fortificación de alimentos, basadas en políticas públicas, para reducir deficiencias de micronutrientes en grupos vulnerables\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 02\n\n\nPlanificación y diseño de un programa de fortificación\n\n\nEste módulo tiene como objetivo que los participantes conozcan los pasos iniciales para la planificación y diseño de un programa de fortificación.\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 03\n\n\nMétodo del punto de corte del requerimiento promedio estimado (RPE)\n\n\nSe realiza una introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 04\n\n\nMétodo de enfoque completo de probabilidades\n\n\nSe realiza una introdución al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 05\n\n\nMonitoreo y Evaluación de Programas de Fortificación de Alimentos\n\n\nSe realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Santiago Rodas Moya & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 06\n\n\nGeneralidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)\n\n\nSe realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 07\n\n\nValores de referencia de ingesta de nutrientes\n\n\nSe realiza una descripción de o Valores de referencia de ingesta de nutrientes\n\n\n\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 08\n\n\nTablas de composición de los alimentos\n\n\nSe describe, qué son las tablas de composición de los alimentos, cómo y dónde obtenerlas, así cómo se utilizan para el análisis de HCES.\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 09\n\n\nFundamentos conceptuales para la estandarización del consumo dietético poblacional\n\n\nSe realiza una introducion a los fundamentos conceptuales para la estandarización del consumo dietético poblacional\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 10\n\n\nPreparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)\n\n\nSe realiza una introducion a la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo) de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 11\n\n\nEl Método del Equivalente de Mujer Adulta (EMA/AFE)\n\n\nSe describe El Método del Equivalente de Mujer Adulta (EMA/AFE), el Contexto y Relevancia del Método, su descripción, el Cálculo de Factores de Conversión de EMA, las Ventajas y Desventajas del método así como su Aplicación Práctica\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzon & Yarisa Domínguez & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 12\n\n\nAjustes contextuales y aplicaciones avanzadas del EMA\n\n\nSe discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 13\n\n\nEstimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\nSe describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 14\n\n\nIntegración del Marco metodológico integral para el diseño y evaluación de políticas de fortificación de alimentos\n\n\nResumen parcial\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 15\n\n\nCálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\nSe describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 16\n\n\nDeterminación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\nSe describe el cálculo para la determinación de los niveles de fortificación factibles (FFL), siguiendo las recomendaciones de la OMS y uso del sistema de indicadores seleccionados\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 17\n\n\nResumen del aprendizaje\n\n\nSe realiza una recapitulación de todos los temas tratados en los módulos\n\n\n\n\n\nMaicel Monzon\n\n\n\n\n\nNo matching items",
+    "text": "Esta sección contiene una serie de micromódulos que cubren diferentes conceptos del curso. Los módulos e-learning se estructurarán en sesiones formativas de 15-40 minutos por día. Estos deberán completarse en un periodo de hasta dos meses, permitiendo una experiencia de formación progresiva y ágil. Los contenidos de los módulos se detallan a continuación.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 01\n\n\n¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control\n\n\nEl objetivo principal de este módulo es que los participantes conozcan los fundamentos para diseñar estrategias de fortificación de alimentos, basadas en políticas públicas, para reducir deficiencias de micronutrientes en grupos vulnerables\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 02\n\n\nPlanificación y diseño de un programa de fortificación\n\n\nEste módulo tiene como objetivo que los participantes conozcan los pasos iniciales para la planificación y diseño de un programa de fortificación.\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 03\n\n\nMétodo del punto de corte del requerimiento promedio estimado (RPE)\n\n\nSe realiza una introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 04\n\n\nMétodo de enfoque completo de probabilidades\n\n\nSe realiza una introdución al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 05\n\n\nMonitoreo y Evaluación de Programas de Fortificación de Alimentos\n\n\nSe realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Santiago Rodas Moya & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 06\n\n\nGeneralidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)\n\n\nSe realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas\n\n\n\n\n\nJun 30, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 07\n\n\nValores de referencia de ingesta de nutrientes\n\n\nSe realiza una descripción de o Valores de referencia de ingesta de nutrientes\n\n\n\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 08\n\n\nTablas de composición de los alimentos\n\n\nSe describe, qué son las tablas de composición de los alimentos, cómo y dónde obtenerlas, así cómo se utilizan para el análisis de HCES.\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 09\n\n\nFundamentos conceptuales para la estandarización del consumo dietético poblacional\n\n\nSe realiza una introducion a los fundamentos conceptuales para la estandarización del consumo dietético poblacional\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 10\n\n\nPreparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)\n\n\nSe realiza una introducion a la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo) de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzón & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 11\n\n\nEl Método del Equivalente de Mujer Adulta (EMA/AFE)\n\n\nSe describe El Método del Equivalente de Mujer Adulta (EMA/AFE), el Contexto y Relevancia del Método, su descripción, el Cálculo de Factores de Conversión de EMA, las Ventajas y Desventajas del método así como su Aplicación Práctica\n\n\n\n\n\nJun 29, 2025\n\n\nMaicel Monzon & Yarisa Domínguez & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 12\n\n\nAjustes contextuales y aplicaciones avanzadas del EMA\n\n\nSe discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez & Santiago Rodas Moya\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 13\n\n\nEstimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\nSe describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 14\n\n\nIntegración del Marco metodológico integral para el diseño y evaluación de políticas de fortificación de alimentos\n\n\nResumen parcial\n\n\n\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 15\n\n\nMetodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)\n\n\nResumen parcial\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 16\n\n\nMetodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)\n\n\nResumen parcial\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 17\n\n\nMetodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)\n\n\nResumen parcial\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 18\n\n\nCaso de uso 1: Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)\n\n\nSe realiza un caso de uso sobre la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 19\n\n\nCaso de uso 2: Modelaje Dietético con Datos de HCES (Datos de la República Dominicana)\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 20\n\n\nCaso de uso 2: Modelaje Dietético con Datos de HCES (Datos de la República Dominicana )\n\n\nSe describe un ejemplo de Modelaje Dietético con Datos de HCES (Datos de la República Dominicana)\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 21\n\n\nCaso de uso 4: Uso práctico del modelo probabilístico para la evaluación del hierro\n\n\nSe realiza un ejemplo practico en el que se emplea el modelo probabilístico para la evaluación del hierro\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 22\n\n\nCaso de uso 5: Cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR y el FFL como referencia\n\n\nSe describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\n\n\n\n\n\n\n\nMódulo 23\n\n\nCaso de uso 6: evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados.\n\n\nSe realiza un ejemplo de evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados\n\n\n\n\n\nJul 1, 2025\n\n\nMaicel Monzon & Yarisa Domínguez\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
@@ -585,17 +557,59 @@
     ]
   },
   {
-    "objectID": "contenido/modulos/tema05/modulo16.html",
-    "href": "contenido/modulos/tema05/modulo16.html",
+    "objectID": "contenido/modulos/tema04/modulo16.html",
+    "href": "contenido/modulos/tema04/modulo16.html",
     "title": "Módulo 16",
     "section": "",
-    "text": "sumario\nLa determinación de los niveles de fortificación factibles (NPF) en los alimentos es un proceso crucial que se apoya en una metodología sistemática y en la evaluación de diversos indicadores, siguiendo las recomendaciones de organizaciones como la Organización Mundial de la Salud (OMS)\n\nConcepto de Nivel Posible de Fortificación (NPF)\nEl Nivel Posible de Fortificación (NPF) es la concentración de micronutrientes que se puede añadir a un alimento, teniendo en cuenta las limitaciones de costo y tecnología, para proporcionar una ingesta adecuada a la mayor cantidad de personas en riesgo, sin causar un riesgo inaceptable de ingesta excesiva a toda la población.\nEste concepto es fundamental para: * Estimar la ingesta adicional que resultaría del consumo de un alimento fortificado. * Calcular el costo probable del proceso de fortificación. * Formular la premezcla final del micronutriente. * Sirve como base para los parámetros de producción y reglamentación, incluyendo el nivel objetivo de fortificación (NOF), el nivel mínimo de fortificación (NmF), el nivel máximo de fortificación (NMF), el nivel legal mínimo (NLm) y el nivel máximo tolerable (NMT).\n\n\nRecomendaciones de la OMS y Metodología\nLa OMS (junto con la FAO y la UNU) ha establecido directrices y valores de referencia para nutrientes que son la base para determinar los niveles de fortificación,,. El método recomendado para fijar estos niveles es el método del punto de corte del Requerimiento Promedio Estimado (RPE),,,,,,.\nEste método busca que: * La probabilidad de ingesta inadecuada en una población específica sea aceptablemente baja (idealmente entre 2% y 3%),. * Se evite el riesgo de ingesta excesiva en esta o en otras poblaciones,. * Para la mayoría de los nutrientes, la variación en la ingesta en un grupo de población debe ser mayor que la variación del requerimiento del nutriente, y la distribución de los requerimientos debe ser simétrica. * Excepción para el hierro: No es posible usar el enfoque del punto de corte del RPE para el hierro en niños, adolescentes menstruantes y mujeres adultas, ya que sus requerimientos no tienen una distribución normal. Para estos grupos, se debe emplear el enfoque completo de probabilidades,. * Se utilizan los valores de referencia de nutrientes (VRN), que son valores de referencia nutricionales definidos por la Comisión del Codex Alimentarius para armonizar el etiquetado de alimentos procesados, aplicables a todos los miembros de la familia mayores de 3 años,.\nEjemplos de recomendaciones específicas de la OMS y otras organizaciones: * Yodo: La OMS recomienda añadir de 20 a 40 mg de yodo por kg de sal para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo diario de 10 g de sal,. Esta estrategia ha demostrado ser altamente efectiva. * Ácido fólico: La Organización Panamericana de la Salud (OPS) ha recomendado que las intervenciones de fortificación de alimentos proporcionen una cantidad adicional de 200 µg de ácido fólico al día en toda Latinoamérica. Esto se basa en la evidencia de que el aumento de la ingesta de ácido fólico reduce la prevalencia de defectos del tubo neural y mejora el estado nutricional de los folatos,,.\n\n\nProceso para Determinar el NPF\nLa determinación del NPF implica varios pasos que equilibran la necesidad nutricional con las limitaciones prácticas:\n\nObservar la distribución habitual de la ingesta de nutrientes: Se requieren datos cuantitativos de ingesta alimentaria de subgrupos de población (ej. niños en edad preescolar, mujeres en edad reproductiva, etc.) para evaluar el nivel actual de ingesta de nutrientes,. Se pueden usar tablas de composición de alimentos (locales, regionales o internacionales como INFOODS) para convertir los datos de consumo en cantidades de nutrientes.\nIdentificar subgrupos en riesgo: A partir del análisis de la ingesta, se identifican los subgrupos con mayor prevalencia de ingesta inadecuada de nutrientes específicos.\nMedir el consumo habitual del vehículo alimentario: Estimar la cantidad habitual del alimento fortificable consumida no solo por los grupos deficientes, sino también por aquellos con alto consumo (para evaluar el riesgo de exceso).\nSimular el efecto de la adición de nutrientes: Recalcular la distribución de la ingesta de nutrientes, estimando la cantidad adicional de micronutrientes que contendría el alimento fortificado a diferentes niveles de fortificación. Esto ayuda a identificar el nivel más apropiado que previene la carencia sin causar ingestas excesivas.\n\n\n\nLimitaciones en la Determinación de los Niveles de Fortificación\nLa cantidad de micronutrientes que es posible añadir a los alimentos está frecuentemente limitada por tres factores clave:\n\nLímites de Inocuidad (Límites de seguridad): Es la cantidad máxima de micronutriente que puede agregarse con seguridad a un alimento,,. Se evalúa comparando la ingesta proyectada con el Nivel Máximo de Ingesta Tolerable (NM), que es la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población,,.\nLímites Tecnológicos: El nivel máximo de adición de micronutrientes que no causa cambios organolépticos adversos (color, sabor, olor) ni físicos en el vehículo alimentario,,. Estos deben determinarse experimentalmente para cada alimento y la combinación de nutrientes. Los avances tecnológicos pueden aumentar estos límites.\nLímites de Costos: El aumento máximo aceptable en el precio del alimento debido a la fortificación, que sea aceptable tanto para los productores como para los consumidores,,,. Para los programas de fortificación masiva, se busca que el aumento de precio no exceda el 1% al 2% respecto al producto no fortificado para asegurar su sostenibilidad,. El costo del fortificante mismo puede constituir la mayor parte de este aumento,.\n\n\n\nParámetros de Producción y Reglamentación\nUna vez que se define el NPF, se establecen parámetros adicionales para la producción y la reglamentación:\n\nNivel Objetivo de Fortificación (NOF): La concentración promedio de un micronutriente en el producto fortificado en la fábrica, que incluye el contenido intrínseco natural del micronutriente y el NPF,.\nNivel Mínimo de Fortificación (NmF): El límite inferior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica. Se calcula restando del NOF una cantidad proporcional a dos veces el coeficiente de variación (CV) del contenido del nutriente medido en la fábrica,,,.\nNivel Máximo de Fortificación (NMF): El límite superior del contenido de micronutrientes que se debe alcanzar en el proceso de fortificación en la fábrica, calculado sumando al NOF dos veces el CV,.\nNivel Legal Mínimo (NLm): La cantidad mínima de micronutriente que debe contener el alimento fortificado según la reglamentación nacional, que debe aparecer en la etiqueta,,. Se obtiene restando del NmF las pérdidas esperadas durante la distribución y almacenamiento.\nNivel Máximo Tolerable (NMT): El contenido máximo de micronutriente permitido en el alimento fortificado por ley para minimizar el riesgo de ingesta excesiva. Para los nutrientes con problemas de inocuidad, el NMT debe coincidir con el NMF,,.\n\n\n\nUso de Indicadores en la Vigilancia y Evaluación de Programas\nLa determinación de los niveles de fortificación es parte integral de un sistema más amplio de vigilancia y evaluación, el cual es esencial para el éxito y la sostenibilidad de cualquier programa de fortificación,,. Este sistema incluye:\n\nVigilancia Regulatoria:\n\nVigilancia Interna: Realizada por los fabricantes (control de calidad/aseguramiento de la calidad - CC/AC) para asegurar que los productos cumplen con los estándares,,.\nVigilancia Externa: Inspecciones y auditorías técnicas llevadas a cabo por autoridades gubernamentales en fábricas y puntos de importación para verificar el cumplimiento,.\nVigilancia Comercial: Verificación del cumplimiento de las normas en las tiendas minoristas,,.\nLos criterios de éxito se expresan en términos del porcentaje de muestras que cumplen con los niveles mínimos y máximos tolerables en cada etapa (hogares, minoristas, producción),.\n\nVigilancia en Hogares: Determina si los productos fortificados son accesibles, comprados y consumidos adecuadamente por la población objetivo en sus viviendas,,,,,.\nEvaluación de Impacto: Determina si el programa ha logrado sus objetivos generales, como mejorar el estado nutricional de la población objetivo. Esta evaluación se realiza solo después de que la vigilancia confirma que el programa opera de manera satisfactoria,,,. Los indicadores de evaluación pueden incluir:\n\nIndicadores de ingesta: Consumo adecuado o aumentado de alimentos fortificados y/o de micronutrientes específicos.\nIndicadores del estado nutricional: Mejoras en indicadores bioquímicos y clínicos.\nResultados funcionales: Mejoras en crecimiento, morbilidad, mortalidad o desarrollo cognitivo y motor.\nLos niveles de inferencia para la evaluación de impacto son: adecuación, posibilidad y probabilidad, siendo este último el que ofrece el mayor nivel de confianza sobre la causalidad.\n\n\n\n\n\nBiblografía",
+    "text": "Sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema04",
+      "Módulo 16"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema05/modulo18.html",
+    "href": "contenido/modulos/tema05/modulo18.html",
+    "title": "Módulo 18",
+    "section": "",
+    "text": "Sumario\n\n\nBiblografía",
     "crumbs": [
       "🏠 Home",
       "Contenidos",
       "Módulos e-learning",
       "Tema05",
-      "Módulo 16"
+      "Módulo 18"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema05/modulo20.html",
+    "href": "contenido/modulos/tema05/modulo20.html",
+    "title": "Módulo 20",
+    "section": "",
+    "text": "Sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema05",
+      "Módulo 20"
+    ]
+  },
+  {
+    "objectID": "contenido/modulos/tema05/modulo22.html",
+    "href": "contenido/modulos/tema05/modulo22.html",
+    "title": "Módulo 22",
+    "section": "",
+    "text": "Sumario\n\n\nBiblografía",
+    "crumbs": [
+      "🏠 Home",
+      "Contenidos",
+      "Módulos e-learning",
+      "Tema05",
+      "Módulo 22"
     ]
   },
   {

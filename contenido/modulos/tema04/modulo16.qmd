@@ -1,0 +1,15 @@
+---
+title: "Módulo 16"
+date: 2025-07-01
+subtitle: "Metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Resumen parcial"
+---
+
+![](/static/images/micro3.png){fig-align="center"}
+
+# Sumario
+
+
+# Biblografía
+

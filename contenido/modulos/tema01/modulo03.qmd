@@ -12,7 +12,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo03.zip)
 
-
 # Sumario
 
 -   Definición y Propósito del Método del Punto de Corte del RPE
@@ -35,11 +34,12 @@ El Requerimiento Promedio Estimado (RPE) se define como la ingesta diaria de nut
 
 El método del punto de corte del RPE estima que la **proporción de la población con ingesta por debajo del RPE** para un nutriente dado corresponde a la proporción de la población que tiene una **ingesta insuficiente** de dicho nutriente.
 
- **Objetivo  Fundamental**: La meta principal es corregir la ingesta insuficiente de un micronutriente, buscando que la probabilidad de una ingesta inadecuada (insuficiente o excesiva) sea **aceptablemente baja**. Específicamente, se busca proporcionar a la mayoría de las personas (aproximadamente el **97,5%**) en los grupos de población con mayor riesgo de carencia una ingesta adecuada de micronutrientes, **sin causar riesgo de ingesta excesiva** en estos o en otros grupos. La prevalencia aceptable de ingesta insuficiente y excesiva se sitúa, a menudo, **entre el 2% y el 3%**.
+**Objetivo Fundamental**: La meta principal es corregir la ingesta insuficiente de un micronutriente, buscando que la probabilidad de una ingesta inadecuada (insuficiente o excesiva) sea **aceptablemente baja**. Específicamente, se busca proporcionar a la mayoría de las personas (aproximadamente el **97,5%**) en los grupos de población con mayor riesgo de carencia una ingesta adecuada de micronutrientes, **sin causar riesgo de ingesta excesiva** en estos o en otros grupos. La prevalencia aceptable de ingesta insuficiente y excesiva se sitúa, a menudo, **entre el 2% y el 3%**.
 
 # 2. Origen y Base del Método
-*   Este método fue propuesto hace años y se describe detalladamente en un informe del Consejo de Alimentación y Nutrición del Instituto de Medicina (CAN/IM) de los Estados Unidos sobre la ingesta dietética recomendada.
-*   Es una **versión simplificada** y más fácil de aplicar que el método de probabilidades, siempre que se cumplan las suposiciones subyacentes, como que la variación en la ingesta del nutriente sea mayor que la variación del requerimiento, y que la distribución de los requerimientos sea simétrica (lo cual es cierto para la mayoría de los nutrientes, excepto el hierro).
+
+-   Este método fue propuesto hace años y se describe detalladamente en un informe del Consejo de Alimentación y Nutrición del Instituto de Medicina (CAN/IM) de los Estados Unidos sobre la ingesta dietética recomendada.
+-   Es una **versión simplificada** y más fácil de aplicar que el método de probabilidades, siempre que se cumplan las suposiciones subyacentes, como que la variación en la ingesta del nutriente sea mayor que la variación del requerimiento, y que la distribución de los requerimientos sea simétrica (lo cual es cierto para la mayoría de los nutrientes, excepto el hierro).
 
 # 3. Pasos para el Cálculo del Nivel de Adición de Micronutrientes
 
@@ -47,82 +47,78 @@ El método implica cuatro pasos clave para determinar el nivel de fortificación
 
 1.  **Observar la distribución habitual de la ingesta de nutrientes en subgrupos específicos de la población**:
 
-  - Se requiere información cuantitativa de ingesta alimentaria (a través de encuestas de recordatorio de 24 horas o combinaciones de métodos) para evaluar el nivel actual de ingesta.
-  
-  - Es crucial ajustar la variabilidad diaria o intraindividual de la ingesta, recolectando datos de al menos dos días por persona, para evitar estimaciones incorrectas de la prevalencia inadecuada.
-  
-  -  Esta información se convierte en cantidades de nutrientes consumidos utilizando tablas de composición de alimentos y se presenta en percentiles.
-  
-  
+-   Se requiere información cuantitativa de ingesta alimentaria (a través de encuestas de recordatorio de 24 horas o combinaciones de métodos) para evaluar el nivel actual de ingesta.
+
+-   Es crucial ajustar la variabilidad diaria o intraindividual de la ingesta, recolectando datos de al menos dos días por persona, para evitar estimaciones incorrectas de la prevalencia inadecuada.
+
+-   Esta información se convierte en cantidades de nutrientes consumidos utilizando tablas de composición de alimentos y se presenta en percentiles.
+
 2.  **Identificar los subgrupos con la mayor prevalencia de ingesta inadecuada**:
 
-  - Ciertos subgrupos (como niños y mujeres) suelen estar en mayor riesgo de ingesta inadecuada de nutrientes específicos. Identificarlos es fundamental para que el programa beneficie a quienes más lo necesitan.
-  
-  - Por ejemplo, se puede encontrar que un porcentaje alto de mujeres adultas tiene una ingesta inadecuada de vitamina A, mientras que el riesgo de exceder el Nivel Máximo de Ingesta Tolerable (NM) es bajo.
-  
+-   Ciertos subgrupos (como niños y mujeres) suelen estar en mayor riesgo de ingesta inadecuada de nutrientes específicos. Identificarlos es fundamental para que el programa beneficie a quienes más lo necesitan.
+
+-   Por ejemplo, se puede encontrar que un porcentaje alto de mujeres adultas tiene una ingesta inadecuada de vitamina A, mientras que el riesgo de exceder el Nivel Máximo de Ingesta Tolerable (NM) es bajo.
+
 3.  **Estimar el consumo habitual del vehículo alimentario seleccionado para estos grupos**:
 
-  - Las estimaciones de consumo del alimento fortificado deben obtenerse tanto de los subgrupos con mayor prevalencia de ingesta deficiente como de aquellos con mayor consumo (los que tienen el mayor riesgo de ingesta excesiva).
-  - Idealmente, el consumo del vehículo alimentario propuesto debe ser mayor en los grupos con carencia y menor en los grupos bien nutridos para minimizar el riesgo de ingesta excesiva.
-  
+-   Las estimaciones de consumo del alimento fortificado deben obtenerse tanto de los subgrupos con mayor prevalencia de ingesta deficiente como de aquellos con mayor consumo (los que tienen el mayor riesgo de ingesta excesiva).
+-   Idealmente, el consumo del vehículo alimentario propuesto debe ser mayor en los grupos con carencia y menor en los grupos bien nutridos para minimizar el riesgo de ingesta excesiva.
+
 4.  **Calcular la reducción de la prevalencia de ingesta inadecuada y el riesgo de ingesta excesiva a distintos niveles de fortificación**:
-  - Este paso implica simular el efecto de diferentes niveles de fortificación en la distribución de la ingesta total del nutriente en la población.
-  
-  - Se compara la ingesta proyectada con el RPE y el NM (Nivel Máximo de Ingesta Tolerable). Por ejemplo, se calcula cómo un nivel de fortificación reduce la prevalencia de ingesta inadecuada y si crea un riesgo de ingesta excesiva.
-  
-  -  La fortificación debe aumentar la distribución de la ingesta habitual del nutriente para que solo una pequeña proporción esté en riesgo de ingesta insuficiente, pero sin que las personas con alto consumo del alimento fortificado estén en riesgo de ingesta excesiva.
+
+-   Este paso implica simular el efecto de diferentes niveles de fortificación en la distribución de la ingesta total del nutriente en la población.
+
+-   Se compara la ingesta proyectada con el RPE y el NM (Nivel Máximo de Ingesta Tolerable). Por ejemplo, se calcula cómo un nivel de fortificación reduce la prevalencia de ingesta inadecuada y si crea un riesgo de ingesta excesiva.
+
+-   La fortificación debe aumentar la distribución de la ingesta habitual del nutriente para que solo una pequeña proporción esté en riesgo de ingesta insuficiente, pero sin que las personas con alto consumo del alimento fortificado estén en riesgo de ingesta excesiva.
 
 # 4. Niveles Dietéticos de Referencia y Consideraciones de Inocuidad
 
-*   **Ingesta Recomendada de Nutrientes (IRN)**: Establecida por la FAO/OMS, es la ingesta diaria suficiente para satisfacer los requerimientos del 97% al 98% de personas saludables en un grupo específico. El IRN se establece aproximadamente a dos desviaciones estándar por encima del RPE.
+-   **Ingesta Recomendada de Nutrientes (IRN)**: Establecida por la FAO/OMS, es la ingesta diaria suficiente para satisfacer los requerimientos del 97% al 98% de personas saludables en un grupo específico. El IRN se establece aproximadamente a dos desviaciones estándar por encima del RPE.
 
-*   **Nivel Máximo de Ingesta Tolerable (NM)**: Es el valor de referencia más apropiado para determinar la inocuidad de la ingesta de micronutrientes, representando la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población. El riesgo de efectos adversos aumenta si la ingesta supera el NM. Los NM varían con la edad y el sexo, siendo generalmente menores en niños pequeños y mujeres embarazadas.
+-   **Nivel Máximo de Ingesta Tolerable (NM)**: Es el valor de referencia más apropiado para determinar la inocuidad de la ingesta de micronutrientes, representando la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población. El riesgo de efectos adversos aumenta si la ingesta supera el NM. Los NM varían con la edad y el sexo, siendo generalmente menores en niños pequeños y mujeres embarazadas.
 
 # 5. Adaptaciones para Nutrientes Específicos
 
-*   **Hierro**: El método del punto de corte del RPE **no es aplicable para el hierro** en algunos subgrupos (niños, adolescentes y mujeres menstruantes) debido a que sus requerimientos de hierro no tienen una distribución normal (CV > 40%). En estos casos, se debe emplear el **enfoque completo de probabilidades**. Este método calcula la probabilidad de ingesta inadecuada para cada intervalo de ingesta habitual de hierro, considerando la biodisponibilidad del hierro en la alimentación.
+-   **Hierro**: El método del punto de corte del RPE **no es aplicable para el hierro** en algunos subgrupos (niños, adolescentes y mujeres menstruantes) debido a que sus requerimientos de hierro no tienen una distribución normal (CV \> 40%). En estos casos, se debe emplear el **enfoque completo de probabilidades**. Este método calcula la probabilidad de ingesta inadecuada para cada intervalo de ingesta habitual de hierro, considerando la biodisponibilidad del hierro en la alimentación.
 
-*   **Yodo**: La OMS ha recomendado niveles de fortificación basados en la experiencia de campo (20 a 40 mg de yodo/kg de sal), asumiendo una ingesta diaria de sal de 10g y sin ingesta de yodo previa a la fortificación. Aunque no usa estrictamente el método del RPE para el cálculo de niveles, sí se utilizan indicadores de ingesta y estado nutricional del yodo para la vigilancia y evaluación.
+-   **Yodo**: La OMS ha recomendado niveles de fortificación basados en la experiencia de campo (20 a 40 mg de yodo/kg de sal), asumiendo una ingesta diaria de sal de 10g y sin ingesta de yodo previa a la fortificación. Aunque no usa estrictamente el método del RPE para el cálculo de niveles, sí se utilizan indicadores de ingesta y estado nutricional del yodo para la vigilancia y evaluación.
 
-  - **Folato/Ácido Fólico**: Estudios han demostrado que una ingesta adicional de 400 µg/día de ácido fólico reduce el riesgo de defectos del tubo neural. Para Latinoamérica, se recomienda una adición diaria de 200 µg. El objetivo es que la ingesta total exceda el RPE y se aproxime al IRN.
+-   **Folato/Ácido Fólico**: Estudios han demostrado que una ingesta adicional de 400 µg/día de ácido fólico reduce el riesgo de defectos del tubo neural. Para Latinoamérica, se recomienda una adición diaria de 200 µg. El objetivo es que la ingesta total exceda el RPE y se aproxime al IRN.
 
-  - **Vitamina D**: La decisión sobre el nivel de fortificación debe considerar la exposición a la luz solar y la prevalencia de raquitismo u osteomalacia, además de los datos de ingesta.
+-   **Vitamina D**: La decisión sobre el nivel de fortificación debe considerar la exposición a la luz solar y la prevalencia de raquitismo u osteomalacia, además de los datos de ingesta.
 
-  - **Otros Nutrientes**: Para lactantes de 0 a 12 meses, cuando no se han definido RPE, se utiliza la **Ingesta Adecuada (IA)** como referencia, buscando que la ingesta media del grupo objetivo la alcance. Para la niacina, la fortificación puede beneficiar a poblaciones con dietas ricas en maíz.
-
+-   **Otros Nutrientes**: Para lactantes de 0 a 12 meses, cuando no se han definido RPE, se utiliza la **Ingesta Adecuada (IA)** como referencia, buscando que la ingesta media del grupo objetivo la alcance. Para la niacina, la fortificación puede beneficiar a poblaciones con dietas ricas en maíz.
 
 # 6. Consideraciones de Biodisponibilidad
 
-  - Los métodos para establecer el RPE ya incluyen un ajuste por la biodisponibilidad del nutriente de los alimentos. Sin embargo, si la biodisponibilidad del nutriente agregado es sustancialmente diferente a la que ocurre naturalmente, se deben hacer ajustes adicionales.
-  - Por ejemplo, el hierro electrolítico se absorbe menos, por lo que se recomienda agregar el doble de su cantidad en comparación con el sulfato ferroso para una cantidad equivalente de hierro.
+-   Los métodos para establecer el RPE ya incluyen un ajuste por la biodisponibilidad del nutriente de los alimentos. Sin embargo, si la biodisponibilidad del nutriente agregado es sustancialmente diferente a la que ocurre naturalmente, se deben hacer ajustes adicionales.
+-   Por ejemplo, el hierro electrolítico se absorbe menos, por lo que se recomienda agregar el doble de su cantidad en comparación con el sulfato ferroso para una cantidad equivalente de hierro.
 
 # 7. Necesidades de Información para la Aplicación del RPE
 
 Para diseñar un programa efectivo y aplicar correctamente el método del RPE, es esencial recopilar información de antecedentes y datos nutricionales:
 
-*   **Datos bioquímicos/clínicos**: Sobre la magnitud y severidad de la deficiencia de micronutrientes específicos en diferentes grupos de población.
-*   **Patrones alimentarios**: Composición de la dieta habitual.
-*   **Ingesta habitual de micronutrientes**: Distribución de la ingesta de micronutrientes específicos en la población.
-*   **Consumo del vehículo alimentario**: Datos detallados sobre la cantidad del alimento fortificable que consume la población objetivo.
+-   **Datos bioquímicos/clínicos**: Sobre la magnitud y severidad de la deficiencia de micronutrientes específicos en diferentes grupos de población.
+-   **Patrones alimentarios**: Composición de la dieta habitual.
+-   **Ingesta habitual de micronutrientes**: Distribución de la ingesta de micronutrientes específicos en la población.
+-   **Consumo del vehículo alimentario**: Datos detallados sobre la cantidad del alimento fortificable que consume la población objetivo.
 
 Esta información es crucial para confirmar la necesidad del programa, identificar grupos objetivo, decidir qué micronutrientes y en qué cantidad deben agregarse a qué alimentos, y comprender las restricciones de inocuidad, costos o tecnológicas.
 
 # 8. Mediana de la Ingesta Objetivo
 
-  - El objetivo de la fortificación es incrementar la distribución de la ingesta habitual de nutrientes de la población objetivo para que solo una pequeña proporción esté en riesgo de tener una ingesta insuficiente, pero no a niveles tan altos que las personas que consumen grandes cantidades del vehículo alimentario estén en riesgo de una ingesta excesiva. La mediana de esta nueva distribución de la ingesta habitual se conoce como la **"ingesta mediana objetivo"**.
-  
-  - La estrategia recomendada es aumentar la distribución de la ingesta habitual de tal manera que la ingesta de cada nutriente esté al menos a nivel del RPE para toda la población objetivo, con excepción del 2% al 3%. Esto implica que la mediana de la ingesta a alcanzar debería ser aproximadamente **1,5 veces la IRN (o IDR)**.
-  
-  
+-   El objetivo de la fortificación es incrementar la distribución de la ingesta habitual de nutrientes de la población objetivo para que solo una pequeña proporción esté en riesgo de tener una ingesta insuficiente, pero no a niveles tan altos que las personas que consumen grandes cantidades del vehículo alimentario estén en riesgo de una ingesta excesiva. La mediana de esta nueva distribución de la ingesta habitual se conoce como la **"ingesta mediana objetivo"**.
+
+-   La estrategia recomendada es aumentar la distribución de la ingesta habitual de tal manera que la ingesta de cada nutriente esté al menos a nivel del RPE para toda la población objetivo, con excepción del 2% al 3%. Esto implica que la mediana de la ingesta a alcanzar debería ser aproximadamente **1,5 veces la IRN (o IDR)**.
+
 # Conclusiones
 
 Para la mayoría de los micronutrientes, el método del punto de corte del Requerimiento Promedio Estimado (RPE) es el recomendado para establecer los niveles de fortificación. El RPE se define como la ingesta diaria de nutrientes que se estima cubre las necesidades del 50% de los individuos sanos en un grupo demográfico específico. Este método asume que la distribución de los requerimientos es simétrica y que la variabilidad en la ingesta es mayor que la variabilidad en los requerimientos.
 
-En el próximo módulo estudiarás el **Método de enfoque completo de probabilidades** 
+En el próximo módulo estudiarás el **Método de enfoque completo de probabilidades**
 
 [Acceder al módulo 04](../../modulos/tema01/modulo04.qmd)
-
-
 
 # Biblografía
 

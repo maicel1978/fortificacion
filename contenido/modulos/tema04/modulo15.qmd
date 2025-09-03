@@ -1,5 +1,6 @@
 ---
 title: "Módulo 15"
+date: 2025-07-01
 subtitle: "Metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)"
 author: "Maicel Monzon & Yarisa Domínguez"
 description: "Resumen parcial"
@@ -9,7 +10,12 @@ description: "Resumen parcial"
 
 # Sumario
 
-
+- Metodología Paso a Paso para el Cálculo de FFL
+  - Estimación de la Ingesta de Alimentos (Dieta y Consumo)
+  - Determinación del Requerimiento Promedio Estimado (EAR)
+  - Cálculo del Nivel de Fortificación (FL)
+  - Consideración de la Biodisponibilidad
+  - Integración de los Niveles Máximos Tolerables (UL)
 
 ---
 
@@ -18,57 +24,47 @@ Ahora que hemos comprendido los principios de la fortificación y los pasos para
 
 Para ello abordaremos la **metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)**
 
-
 ---
 
-### 2. Metodología Paso a Paso para el Cálculo de FFL
+# Metodología Paso a Paso para el Cálculo de FFL
 
 La metodología de la OMS para determinar los FFL es un proceso escalonado que considera la ingesta de alimentos, la bioaccesibilidad de los nutrientes y la seguridad.
 
-* **Paso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)**
-    * Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.
+- **Paso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)**
 
-* **Paso 2: Determinación del Requerimiento Promedio Estimado (EAR)**
-    * El **Requerimiento Promedio Estimado (EAR)** es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.
+  -  Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.
 
-* **Paso 3: Cálculo del Nivel de Fortificación (FL)**
-    * Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:
+- **Paso 2: Determinación del Requerimiento Promedio Estimado (EAR)**
+
+  -  El **Requerimiento Promedio Estimado (EAR)** es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.
+
+- **Paso 3: Cálculo del Nivel de Fortificación (FL)**
+  -  Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:
 
     $$FL = \frac{EAR \times (\text{Población a Cubrir})}{\text{Ingesta de Alimento Fortificado}}$$
 
-    * Explica que esta fórmula se ajusta para considerar otros factores como las pérdidas durante el procesamiento o cocción.
+👉 Esta fórmula se ajusta para considerar otros factores como las pérdidas durante el procesamiento o cocción.
 
-* **Paso 4: Consideración de la Biodisponibilidad**
-    * La **biodisponibilidad** es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.
-    * Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.
+- **Paso 4: Consideración de la Biodisponibilidad**
 
-* **Paso 5: Integración de los Niveles Máximos Tolerables (UL)**
-    * Para prevenir la toxicidad, es vital considerar el **Nivel Máximo de Ingesta Tolerable (UL)**. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.
-    * El **Nivel de Fortificación Factible (FFL)** es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.
+  -  La **biodisponibilidad** es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.
+    
+  -  Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.
 
----
-
-### 3. Ejemplos Prácticos
-
-Para dar coherencia y hacer el contenido menos abstracto, incluye ejemplos concretos.
-
-* **Ejemplo de Fortificación de Harina de Trigo:** Utiliza el ejemplo de la fortificación de la harina de trigo, un caso clásico. Puedes mostrar las recomendaciones de la OMS sobre las concentraciones de ácido fólico y hierro para diferentes rangos de consumo, utilizando compuestos específicos como el **NaFeEDTA** para maximizar la absorción. 
-
-* **Caso de Estudio Real:** Puedes referirte a casos de estudio documentados por organizaciones como el **Programa Mundial de Alimentos (WFP)** o el **Banco Mundial** sobre programas de fortificación de arroz en países como Camboya o Perú. Esto proporcionará un contexto real a los cálculos y la metodología.
+- **Paso 5: Integración de los Niveles Máximos Tolerables (UL)**
+  -  Para prevenir la toxicidad, es vital considerar el **Nivel Máximo de Ingesta Tolerable (UL)**. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.
+  
+  -  El **Nivel de Fortificación Factible (FFL)** es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.
 
 ---
-
-### 4. Preguntas de Reflexión
-
-Finaliza el módulo con preguntas que inviten a los estudiantes a reflexionar sobre la relación entre el cálculo teórico y la implementación práctica, como:
-
-* ¿Por qué es tan importante considerar el patrón de consumo de la población antes de determinar los niveles de fortificación?
-* ¿Qué riesgos para la salud podrían surgir si se ignora el Nivel Máximo de Ingesta Tolerable (UL)?
-
-Este enfoque asegura que tu nuevo módulo sea un complemento valioso, coherente y no redundante.
 
 
 
 # Biblografía
 
 
+- La Fortificación de Alimentos: Una Estrategia Nutricional ..., accessed September 3, 2025, [https://ve.scielo.org/scielo.php?script=sci\_arttext\&pid=S0798-07522005000100012](https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012) 
+
+-Español \- Food Fortification Initiative, accessed September 3, 2025, [https://www.ffinetwork.org/espanol](https://www.ffinetwork.org/espanol) 
+
+-who guideline1: fortification of maize flour and corn meal with ..., accessed September 3, 2025, [https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf](https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf)  

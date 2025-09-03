@@ -32,6 +32,13 @@ description: "Se describe el como se realiza la estimación de cobertura de veh�
 
 # Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
 
+
+En el proceso de estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES se distinquen tres pasos fundamentales.
+
+![](/static/images/modulo13proceso.png){fig-align="center"}
+
+
+
 ## Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES
 
 El primer paso crucial es identificar y organizar las variables necesarias dentro de los conjuntos de datos de las HCES.
@@ -90,11 +97,9 @@ Aunque la pregunta se centra en la "cobertura", es importante entender que la co
 
 El  uso de Datos HCES para la Cobertura tiene limitaciones como:
 
--   **No es Consumo Real Individual:** Las HCES describen adquisiciones o gastos de los hogares, no la ingesta real de alimentos a nivel individual. Se basan en suposiciones como que los alimentos comprados no se comparten con invitados, no se desperdician, no se dan a animales o se almacenan para uso posterior. También asumen que los alimentos se distribuyen dentro del hogar en proporción a las necesidades energéticas de cada miembro.
 
--   **Errores de Medición:** Puede haber errores de recuerdo (recall error), y la información no siempre captura alimentos consumidos fuera del hogar o pérdidas de nutrientes durante la cocción.
+![](/static/images/modulo13limitaciones.png){fig-align="center"}
 
--   **Lista Fija de Alimentos:** Las HCES tienen listas de alimentos fijas, lo que podría limitar la exhaustividad.
 
 -   **Utilidad a Pesar de las Limitaciones:** A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.
 

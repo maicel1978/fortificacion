@@ -2,7 +2,7 @@
 title: "Módulo 11"
 subtitle: "El Método del Equivalente de Mujer Adulta (EMA/AFE)"
 date: 2025-06-29
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
 description: "Se describe El Método del Equivalente de Mujer Adulta (EMA/AFE), el Contexto y Relevancia del Método, su descripción, el Cálculo de Factores de Conversión de EMA, las Ventajas y Desventajas del método así como su Aplicación Práctica"
 ---
 

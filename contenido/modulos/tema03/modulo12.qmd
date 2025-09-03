@@ -1,56 +1,85 @@
 ---
 title: "Módulo 12"
-subtitle: "Ajuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)"
-author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe el ajuste del consumo aparente para diferentes grupos poblacionales y condiciones contextuales (edad, zona, ingresos, índice de Precios al Consumidor, estacionalidad)"
+subtitle: "Ajustes contextuales y aplicaciones avanzadas del EMA"
+author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
+description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
+
+
+
+# Sumario
+
+- Factores Contextuales y su Impacto en el Consumo Aparente
+
+- Refinamientos Demográficos y de Ciclo Vital
+
+- Variaciones Económicas y de Preferencia Cultural
+
+- Aplicaciones Avanzadas del EMA: Más Allá de la Fortificación
+
 
 ![](/static/images/modulo12.png){fig-align="center"}
 
-# sumario
 
-# Metodología para el Ajuste del Consumo Aparente en Programas de Fortificación de Alimentos
+---
 
-Las ECGHs son encuestas transversales representativas a nivel nacional que se realizan periódicamente (cada 2 a 5 años, cubriendo un período de 12 meses) y cuyo objetivo principal es caracterizar los gastos de los hogares. En ausencia de datos a nivel individual sobre los patrones de consumo de alimentos, los datos de gastos de las ECGHs pueden servir como un **indicador indirecto para estimar el consumo aparente de alimentos básicos**. Esto es crucial para el diseño de programas de fortificación de alimentos, ayudando a seleccionar qué alimentos fortificar y en qué cantidad añadir un micronutriente.
 
-A continuación, se describen los pasos clave para ajustar y analizar el consumo aparente en diferentes grupos poblacionales y condiciones contextuales:
+# Factores Contextuales y su Impacto en el Consumo Aparente
 
-## Paso 1: Identificación de Variables Clave en los Datos ECGH
+La premisa de que el consumo de alimentos es directamente proporcional a los requerimientos energéticos, base del método EMA/AFE, es una simplificación necesaria para el modelado. Sin embargo, para un análisis de alta resolución, es crucial incorporar variables contextuales que distorsionan el consumo aparente del hogar. Estas variables, ofrecen las coordenadas para una interpretación más precisa.
 
-El primer paso es identificar las variables importantes dentro de los conjuntos de datos de las ECGHs. \* **Variables demográficas:** Se necesitan variables demográficas básicas, como el número de personas en cada hogar, y la edad y el sexo de cada miembro del hogar, para construir **unidades de Equivalente Hombre Adulto (AME)** o **Equivalente Mujer Adulta (AFE)**. \* **Variables contextuales:** Las ECGHs suelen contener información útil para realizar análisis por subgrupos, como el **área geográfica (urbana, rural u otra distinción)**, el **nivel socioeconómico** (muy pobre, pobre, no pobre) y, si es relevante, la etnicidad o cultura.
+![](/static/images/modulo12contexto.png){fig-align="center"}
 
-## Paso 2: Transformación de Datos a Métricas Nutricionales
 
-Los datos de consumo de alimentos de las ECGHs requieren ser transformados en métricas utilizables para evaluar la adecuación de micronutrientes en la dieta de la población. \* **Enfoque de Ingesta Aparente (Apparent Intake Approach):** Este método **individualiza el suministro de micronutrientes del hogar** distribuyéndolos entre los miembros del hogar en proporción a los requerimientos energéticos de cada individuo. Puede estandarizarse en referencia a cualquier individuo, siendo más común el hombre adulto (AME), pero también puede ser una mujer no embarazada, no lactante y premenopáusica (AFE). \* **Enfoque de Densidad de Micronutrientes (Micronutrient Density Approach):** Este método evalúa la **calidad general de la dieta** al estimar el total de micronutrientes del hogar.
 
-## Paso 3: Estandarización del Consumo por Equivalentes de Adulto (AME/AFE)
+---
 
-Para estimar el consumo aparente y permitir la comparación entre hogares de diferentes composiciones demográficas, se estandariza el consumo utilizando los Equivalentes de Adulto (AFE en el caso de las mujeres no embarazadas, no lactantes y de 18 a 29 años, por ejemplo). \* Este método **asume que los alimentos consumidos por el hogar se distribuyen dentro del hogar proporcionalmente según los requerimientos energéticos** de cada miembro del hogar. \* **Ajuste para Mujeres y Niños:** Dado que las unidades AME se basan en el requerimiento energético de un hombre de 19 a 30 años, las estimaciones de consumo aparente para mujeres o niños deben multiplicarse por un factor de ajuste. Por ejemplo, si el grupo de interés son mujeres de 19 a 30 años, las estimaciones de consumo AME deben multiplicarse por **0.79** (este factor se basa en los requerimientos energéticos específicos por edad y sexo de la FAO). Un ejemplo práctico ilustra cómo se puede calcular la ingesta de hierro: 119 g/día de harina de trigo fortificada por AME \* 0.79 = 94 g/día por mujer; si la harina tiene 45 mg/kg de hierro, esto significa 4.23 mg de hierro por mujer al día, lo que representa el 15% del Requerimiento Promedio Estimado (RPE) de hierro para la mujer.
+# Refinamientos Demográficos y de Ciclo Vital
 
-## Paso 4: Análisis por Subpoblaciones (Zona Geográfica e Ingresos)
+Las tablas de referencia de EMA ofrecen factores de conversión generales, pero un modelado más robusto exige mayor granularidad.
 
-Los datos de consumo aparente se estratifican para entender las diferencias entre grupos. \* **Estratiﬁcación Geográfica:** Las estimaciones de cobertura y consumo aparente se calculan a nivel nacional y luego se **estratifican por regiones administrativas y por residencia (urbana versus rural)**. \* **Estratiﬁcación Socioeconómica (SEP):** Dentro de las subpoblaciones urbanas y rurales, se realiza una **estratificación adicional en cinco quintiles de posición socioeconómica (SEP)**, basándose en el gasto total anual del hogar ajustado por inflación per cápita. Es importante notar que estos quintiles pueden diferir entre las subpoblaciones urbanas y rurales. \* Este análisis ha revelado que las contribuciones potenciales de los vehículos de fortificación pueden ser bajas en poblaciones rurales de la posición socioeconómica más baja, a pesar de que el modelo predijo una reducción en las insuficiencias de vitamina A.
+- **Edad y Etapas Críticas del Ciclo Vital**: Más allá de las categorías estándar, es vital considerar la dinámica de la ingesta en grupos específicos. Por ejemplo, en el caso de la fortificación con hierro, la ingesta en adolescentes y mujeres embarazadas requiere una atención particular, ya que sus requerimientos son exponencialmente mayores. El modelo debe asignarles una ingesta proporcional, no solo en términos energéticos, sino de nutrientes específicos.
 
-## Paso 5: Evaluación de Patrones Estacionales
+- **Ajustes por Nivel de Actividad Física**: El factor de conversión de 1.0 EMA se basa en una mujer moderadamente activa. Sin embargo, este no es un denominador universal. Es posible y necesario aplicar factores de ajuste basados en la ocupación o el estilo de vida reportado en las HCES. Por ejemplo, un factor de **0.85 EMA** podría aplicarse a un adulto mayor sedentario, mientras que uno de **1.2 EMA** sería más adecuado para un agricultor con un trabajo de alta intensidad.
 
-Para visualizar y analizar los patrones estacionales en el suministro de micronutrientes de los hogares a lo largo del tiempo, las estimaciones de densidad de micronutrientes y de ingesta aparente se evalúan por fecha de encuesta. Se utiliza una **regresión local ponderada por mínimos cuadrados ("loess") para reducir el efecto de los valores atípicos** y suavizar las tendencias.
+- **Leche Materna y Consumo Infantil**: La ingesta de leche materna, una fuente crítica de nutrición para los lactantes, raramente se cuantifica en las HCES. Para evitar una subestimación drástica del consumo nutricional de este grupo, los analistas deben **imputar** el aporte energético y de nutrientes de la leche materna antes de aplicar cualquier método de distribución de alimentos del hogar.
 
-## Paso 6: Distinguir Consumidores de No Consumidores
+---
 
-Al generar las estimaciones de consumo aparente, es importante distinguir entre: \* **"Consumidores" (o "consumidores observados"):** Aquellos que informaron haber comprado más de 0 gramos o mililitros de un alimento específico. Para estimar el consumo en este grupo, se excluyen los hogares que reportaron una compra de cero. \* **"Consumidores + No Consumidores":** Incluye a todos, incluso a aquellos que consumieron "cero" porque no compraron el alimento.
+# Variaciones Económicas y de Preferencia Cultural
 
-Reportar ambas estimaciones es informativo: la estimación para "consumidores" muestra cómo sería el consumo si todos tuvieran acceso y pudieran costear el alimento fortificado, mientras que la estimación para "consumidores + no consumidores" da una medida de lo que el programa está logrando a nivel poblacional.
+El EMA asume una distribución proporcional de alimentos, pero la realidad económica y cultural del hogar la modula.
 
-## Paso 7: Simulación del Efecto de la Fortificación y Evaluación de Inocuidad
+- **Ingresos y Patrones de Consumo**: El gasto per cápita en alimentos puede usarse para refinar el análisis. Los hogares con bajos ingresos tienden a priorizar alimentos básicos ricos en energía pero pobres en micronutrientes, mientras que los de mayores ingresos diversifican su dieta. Un modelo avanzado del EMA podría usar el ingreso como una variable para **ajustar el consumo proporcional** de ciertos grupos de alimentos (ej. los cereales frente a las carnes o lácteos) según el estrato socioeconómico del hogar.
 
-Una vez que se tienen los datos de consumo habitual y los patrones por subgrupo, se puede simular el efecto de agregar diferentes niveles de micronutrientes al vehículo alimentario. \* Esto ayuda a identificar el **nivel de fortificación más apropiado** que previene la deficiencia en la población en riesgo, al mismo tiempo que evita una alta proporción de ingesta excesiva. \* Se compara la distribución de la ingesta esperada con el **Requerimiento Promedio Estimado (RPE)** para la adecuación, y con el **Nivel Máximo de Ingesta Tolerable (NM)** para la inocuidad. \* Es importante considerar las **limitaciones de inocuidad, tecnológicas y de costos** al decidir los niveles de fortificación. Por ejemplo, el nivel de inocuidad está limitado por el NM y el consumo del 95 percentil de los mayores consumidores. El "nivel posible de fortificación" (NPF) es el valor más bajo de estas tres limitaciones.
+- **Desperdicio y Pérdidas de Alimentos**: El consumo de alimentos a nivel de hogar no es sinónimo de ingesta. El desperdicio, que ocurre a lo largo de toda la cadena alimentaria, debe ser considerado.  Para obtener un valor más preciso, se aplican **factores de desperdicio** específicos para cada tipo de alimento, lo que permite una estimación más realista de la ingesta individual y evita que se sobreestime la ingesta per cápita.
 
-## Paso 8: Vigilancia y Evaluación de Impacto (Post-implementación)
+---
 
-Aunque la pregunta se centra en el ajuste del consumo, el objetivo final es la evaluación del impacto. \* **Vigilancia Regulatoria:** Asegura que los alimentos fortificados cumplan con las normas de contenido de nutrientes, calidad e inocuidad desde la fábrica hasta el punto de venta minorista. \* **Vigilancia en Hogares/Individuos:** Determina si las personas y familias vulnerables tienen acceso a los alimentos fortificados con la calidad esperada, si los compran y los consumen con la frecuencia y en cantidades adecuadas. Esto abarca el suministro, la utilización y la cobertura del programa. \* **Evaluación de Impacto:** Una vez que la vigilancia muestra que el programa funciona satisfactoriamente, se determina su impacto en la población objetivo, observando mejoras en la ingesta de nutrientes, el estado nutricional (mediante indicadores bioquímicos y clínicos), y otros resultados funcionales como el crecimiento o la morbilidad.
+# Aplicaciones Avanzadas del EMA: Más Allá de la Fortificación
 
-## Limitaciones
+La metodología del EMA, con sus refinamientos, se extiende más allá del modelaje de fortificación para convertirse en una herramienta clave en el análisis de la seguridad alimentaria y la formulación de políticas.
 
-**Limitaciones del Uso de Datos ECGH:** Es fundamental recordar que las ECGHs no capturan directamente la *ingesta real* de alimentos. Se basan en supuestos, como que los alimentos comprados no se comparten con invitados, no se desperdician, no se dan a animales o se almacenan para uso posterior. También asumen que los alimentos se distribuyen dentro del hogar según las necesidades energéticas. A pesar de estas limitaciones, los datos de las ECGHs son una herramienta valiosa para el diseño y la evaluación de programas de fortificación de micronutrientes, especialmente cuando no se dispone de datos de consumo a nivel individual.
+- **Análisis de Seguridad Alimentaria**: El **consumo por EMA** puede usarse como un indicador de la suficiencia alimentaria de un hogar. Al comparar este valor con los requerimientos energéticos de la población, se puede identificar la proporción de hogares que viven con inseguridad alimentaria, lo cual es fundamental para el diseño de programas de asistencia.
+
+-**Análisis de Vulnerabilidad**: La combinación del consumo ajustado por EMA con datos económicos, geográficos y demográficos permite a los analistas identificar a los **grupos más vulnerables** a la inseguridad nutricional. Este enfoque multidimensional proporciona la información necesaria para diseñar intervenciones nutricionales y políticas públicas que no solo sean efectivas, sino también equitativas y focalizadas.
+
+
+---
+
+
+
 
 # Biblografía
+
+- Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Sa煤de P煤blica**. 2010;26(11):2188-2195.
+
+- Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67.
+
+- Fiedler JL, Lividini K. *From measuring to modeling food consumption: using household data to assess dietary quality*. **Food Nutr Bull**. 2014;35(1):59?1.
+
+- Coates J, Swindale A, Bilinsky P. *Household Food Consumption and Expenditure Surveys: relevance, interpretation and use for food security analysis*. **J Nutr**. 2017;147(11):2081-?086.
+
+- FAO/WHO/UNU. *Human Energy Requirements*. FAO Food and Nutrition Technical Report Series 1. Rome: FAO; 2004.
+
+- FAO. *The State of Food Security and Nutrition in the World 2023*. Rome: FAO; 2023.

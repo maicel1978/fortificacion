@@ -33,7 +33,7 @@ description: "Se describe el como se realiza la estimación de cobertura de veh�
 # Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
 
 
-En el proceso de estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES se distinquen tres pasos fundamentales.
+En el proceso de estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES se distinguen tres pasos fundamentales.
 
 ![](/static/images/modulo13proceso.png){fig-align="center"}
 

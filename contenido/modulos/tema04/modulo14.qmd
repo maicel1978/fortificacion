@@ -1,106 +1,138 @@
 ---
 title: "Módulo 14"
-subtitle: "Método del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes"
+subtitle: "Integración del Marco metodológico integral para el diseño y evaluación de políticas de fortificación de alimentos"
 author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe el método del punto de corte de la Ingesta Media Estimada (EAR) para estimaciones de ingesta adecuada o inadecuada de micronutrientes"
+description: "Resumen parcial"
 ---
 
-![](/static/images/modulo14.png){fig-align="center"}
+![](/static/images/micro3.png){fig-align="center"}
 
-# sumario
+# Sumario
+
+- Generalidades
+
+- Modelaje de dietas y estimación de ingesta de micronutrientes
+
+- Métodos de evaluación de ingesta vs requerimientos
+
+- Determinación de niveles factibles de fortificación (FFL)
+
+---
+
+# Generalidades
+
+El **modelaje de dietas** es la herramienta clave para estimar la ingesta de micronutrientes en una población, tanto a partir de la dieta habitual (alimentos sin fortificar) como considerando los alimentos fortificados. Con esos datos se pueden aplicar métodos de evaluación nutricional y diseñar escenarios de fortificación para guiar políticas públicas.
+
+El proceso se basa en cuatro pasos articulados:
+
+![](/static/images/modulo14a.png){fig-align="center"}
 
 
-El **método del punto de corte del Requerimiento Promedio Estimado (RPE)** es el enfoque recomendado para establecer los niveles de fortificación en los alimentos. Este método busca asegurar que la mayoría de las personas (generalmente 97.5%) en los grupos de población con mayor riesgo de deficiencia reciban una ingesta adecuada de micronutrientes, sin causar un riesgo de ingesta excesiva en estos o en otros grupos.
 
-# Conceptos Clave
 
-*   **Requerimiento Promedio Estimado (RPE)**: Es la ingesta diaria promedio de un nutriente que se estima es suficiente para cubrir las necesidades de la mitad de los individuos sanos en un subgrupo de edad y género determinado. Los valores del RPE no son publicados regularmente por la FAO/OMS, pero pueden derivarse de la Ingesta Recomendada de Nutrientes (IRN) usando factores de conversión.
-*   **Ingesta Recomendada de Nutrientes (IRN)**: Es la ingesta alimentaria diaria que se considera suficiente para satisfacer los requerimientos de nutrientes de casi todas las personas sanas (97% a 98%) en un grupo de edad, género y condición fisiológica específico.
-*   **Nivel Máximo de Ingesta Tolerable (NM)**: Es el nivel promedio más alto de ingesta diaria de un nutriente que probablemente no causará efectos nocivos para la salud en casi todas las personas sanas en un grupo de edad o género determinado. El riesgo de efectos adversos aumenta a medida que la ingesta sobrepasa el NM.
+1. **Estimar las ingestas actuales de micronutrientes** (dieta habitual, sin fortificación o con la existente).
+2. **Evaluar la adecuación nutricional** usando métodos estadísticos (EAR cut-point y enfoque de probabilidades).
+3. **Definir los niveles factibles de fortificación (FFL)** según lineamientos de la OMS, para garantizar seguridad y eficacia.
+4. **Simular escenarios de fortificación** comparando diferentes configuraciones (actuales vs optimizadas) y calcular su impacto.
 
-# Información Necesaria para el Diseño del Programa
+---
 
-Para diseñar un programa de fortificación, es crucial recopilar la siguiente información:
+# Modelaje de dietas y estimación de ingesta de micronutrientes
 
-*   **Datos bioquímicos/clínicos sobre el estado nutricional**: Para entender la magnitud y severidad de las deficiencias de micronutrientes en diferentes grupos poblacionales.
-*   **Patrones alimentarios**: Información sobre la composición de la dieta habitual. Aunque útil, por sí solo no es suficiente para decisiones finales sobre nutrientes o cantidades. Las hojas de balance de alimentos pueden dar una idea del consumo promedio y de los alimentos ricos en micronutrientes o inhibidores de la absorción.
-*   **Ingesta habitual de alimentos y micronutrientes**: Datos cuantitativos de la ingesta de alimentos y la distribución de la ingesta habitual de micronutrientes específicos en la población. Esta es la **base más útil para justificar y diseñar** el programa.
-*   **Consumo del vehículo alimentario**: Es crucial estimar la cantidad habitual del vehículo alimentario previsto que consumen los subgrupos de población con mayor riesgo de ingesta inadecuada o excesiva. Las **Encuestas de Consumo y Gasto de los Hogares (HCES)** son encuestas transversales a nivel nacional que recopilan datos detallados de consumo de alimentos, que pueden ser usados para estimar el suministro de micronutrientes de los hogares cuando no se dispone de datos a nivel individual.
+* Se parte de encuestas nacionales (consumo individual o encuestas de gasto de hogares).
+* Se convierten en estimaciones de ingesta de energía y micronutrientes.
+* Se diferencian dos tipos de dieta:
 
-# Cálculo del Nivel de Adición de Micronutrientes (Método del Punto de Corte del RPE)
+  * **Habitual sin fortificación**: línea de base.
+  * **Con alimentos fortificados**: permite simular impacto de fortificación existente o de nuevos escenarios.
+  
+![](/static/images/modulo14b.png){fig-align="center"}
 
-Este método implica cuatro pasos principales:
 
-## Paso 1: Observar la distribución habitual de la ingesta de nutrientes en subgrupos específicos de la población.
+👉 Aquí es donde entran los **métodos de evaluación de adecuación**.
 
-*   **Recolección de datos**: Los datos cuantitativos de la ingesta de alimentos se obtienen generalmente mediante la técnica del **recordatorio de 24 horas** o una combinación de ponderación/medición de la ingesta alimentaria y recordatorios.
-*   **Muestra**: No se necesita una encuesta a gran escala, pero los datos deben recolectarse de una muestra estratificada y representativa de la zona objetivo, incluyendo subgrupos con mayor riesgo de carencia (e.g., niños en edad preescolar, mujeres en edad reproductiva de bajos ingresos en zonas rurales) y con mayor riesgo de exceso (e.g., hombres de zonas urbanas con altos ingresos para alimentos básicos).
-*   **Ajuste por variabilidad**: Es importante recolectar datos de al menos dos días (preferiblemente no consecutivos) de cada persona para estimar la variabilidad diaria o intraindividual de la ingesta y ajustar la distribución. Esto reduce la distribución de la ingesta, de modo que menos personas se encuentren por debajo del RPE.
-*   **Conversión a nutrientes**: Utiliza tablas de composición de alimentos (locales, regionales o internacionales como INFOODS) para convertir los datos de consumo de alimentos en cantidades de nutrientes consumidos. Los resultados se presentan en percentiles.
-    *   **Ejemplo**: El análisis revela que el 65% de las mujeres adultas tienen una ingesta inadecuada de vitamina A, es decir, una ingesta por debajo del RPE (357 µg/día). La ingesta media es de 240 µg ER diarios.
+---
 
-## Paso 2: Identificar los subgrupos de población con mayor riesgo de ingesta inadecuada de micronutrientes específicos.
+# Métodos de evaluación de ingesta vs requerimientos
 
-*   Después de completar el Paso 1, los subgrupos con la mayor prevalencia de ingesta inadecuada (generalmente niños y mujeres) y los nutrientes deficientes serán evidentes. Es crucial identificar estos grupos para dirigir el programa de fortificación.
+### a) **Método del punto de corte de la EAR**
 
-#### Paso 3: Medir la cantidad habitual del vehículo alimentario previsto que consumen los subgrupos de población en mayor riesgo de ingesta inadecuada o excesiva.
+* Uso práctico: estimar rápidamente la **prevalencia de deficiencia** comparando la distribución de ingestas con la EAR.
+* Consideraciones avanzadas: útil en la mayoría de micronutrientes excepto en aquellos con requerimientos altamente asimétricos (ej. hierro en mujeres).
 
-*   Las estimaciones del consumo del vehículo alimentario deben obtenerse tanto de los subgrupos con mayor prevalencia de deficiencia como de aquellos con mayor consumo (para evaluar el riesgo de ingesta excesiva).
-*   Las **HCES** son muy útiles para estimar el consumo aparente de los vehículos de fortificación.
-*   Para individualizar los suministros de micronutrientes del hogar, se puede usar el enfoque de **ingesta aparente**, distribuyendo los micronutrientes entre los miembros del hogar en proporción a sus necesidades energéticas. Comúnmente se estandariza a los hombres adultos (AME) o mujeres adultas (AFE).
-    *   **Ejemplo de cálculo de ingesta aparente (para hierro en harina de trigo fortificada en mujeres guatemaltecas)**:
-        *   Consumo aparente mediano de equivalentes de harina de trigo fortificada (FWFE) = 119 g/AME/día.
-        *   Ajuste para mujeres (19-30 años): Multiplicar por 0.79. Esto da 94 g/día FWFEs por mujer.
-        *   Contenido adicional de hierro en harina fortificada = 45 mg/kg.
-        *   Cálculo de hierro adicional: 94 g/día FWFEs/mujer × 45 mg/kg × 1 kg/1,000 g = **4.23 mg de hierro por mujer por día**.
-        *   Si el RPE de hierro con baja biodisponibilidad es 28.2 mg/día, entonces la proporción del RPE cubierta por la harina fortificada es: 4.23 / 28.2 × 100 = **15% del RPE de hierro cubierto por el consumo de harina de trigo fortificada**.
+### b) **Método de enfoque completo de probabilidades**
 
-## Paso 4: Simular el efecto de agregar distintos niveles de nutrientes al vehículo alimentario.
+* Uso práctico: estima la **probabilidad de inadecuación** en cada individuo y la promedia en el grupo.
+* Consideraciones avanzadas: más preciso en micronutrientes problemáticos; también útil para balancear riesgos de deficiencia vs exceso al modelar fortificación.
 
-*   Recalcular la distribución de la ingesta de nutrientes (e.g., vitamina A) asumiendo que el vehículo alimentario (e.g., harina de trigo) contiene una cantidad adicional del micronutriente. Esto ayuda a identificar el nivel de fortificación más apropiado que previene la deficiencia sin causar una alta proporción de ingesta excesiva.
-*   **Consideraciones de Biodisponibilidad**: Es fundamental ajustar los cálculos si la biodisponibilidad del nutriente añadido difiere de la que ocurre naturalmente en la dieta. Por ejemplo, el hierro electrolítico se absorbe menos y se recomienda el doble de su cantidad que de sulfato ferroso. El ácido fólico y la vitamina B12 sintéticos pueden tener una mayor absorción que sus formas naturales en los alimentos. La biodisponibilidad del zinc depende de la presencia de fitatos.
-    *   **Ejemplo (Vitamina A en harina de trigo)**: Si la fortificación se establece a 3 mg/kg, la prevalencia de ingesta inadecuada de vitamina A en mujeres adultas se reduciría del 65% (antes de la fortificación) a 15%. Si se aumenta a 5 mg/kg, solo el 8% tendría una ingesta inadecuada, pero el 6% de los mayores consumidores de trigo podría exceder el NM (3.000 µg/día). Se sugiere optar por 3 mg/kg y considerar otros vehículos o mecanismos para el 15% restante.
+👉 Ambos métodos son complementarios: el primero es exploratorio y rápido, el segundo más robusto para decisiones de política.
 
-## Adaptaciones de la Metodología del RPE para Nutrientes Específicos
+---
 
-*   **Hierro**: El método del punto de corte del RPE **no se puede usar** para el hierro en subgrupos como niños, adolescentes menstruantes y mujeres adultas debido a que sus requerimientos de hierro no tienen una distribución normal (la distribución de los requerimientos es asimétrica). Para estos grupos, se debe emplear el **enfoque completo de probabilidades**.
-    *   Para ilustrar el método de probabilidades, si el 2% de mujeres menstruantes tienen una ingesta de hierro inferior a 15 mg/día (con una probabilidad de inadecuación de 1.0), contribuyen con el 2% a la prevalencia total de inadecuación. Si el 20% tienen una ingesta entre 23.6-25.7 mg/día (probabilidad de inadecuación de 0.65), contribuyen con el 13%. Sumando estas contribuciones, se obtiene la prevalencia total de inadecuación para el grupo.
-*   **Yodo**: La OMS recomienda agregar de **20 a 40 mg de yodo/kg de sal** para proporcionar la IRN a adultos (150 µg/día), asumiendo un consumo de 10 g de sal/día y sin ingesta previa de yodo. Esta es una recomendación basada en la experiencia de campo.
-*   **Folato/Ácido Fólico**: Se ha demostrado que aumentar la ingesta en **200 µg/día de ácido fólico** a través de la fortificación es efectivo para mejorar el estado nutricional y reducir defectos del tubo neural. Es importante considerar que 1 µg de ácido fólico sintético proporciona 1.7 equivalentes dietéticos de folato (EDF) debido a su mayor biodisponibilidad.
-*   **Vitamina D**: Las decisiones sobre el nivel de fortificación deben considerar la exposición a la luz solar, la prevalencia de raquitismo y osteomalacia, y las concentraciones séricas de 25-hidroxi vitamina D, ya que la ingesta dietética por sí sola puede sobreestimar el riesgo.
-*   **Niacina**: La niacina puede sintetizarse a partir del triptófano, por lo que la información dietética por sí sola puede subestimar la ingesta. El riesgo de toxicidad por niacina es bajo si se usa niacinamida.
+# Determinación de niveles factibles de fortificación (FFL)
 
-## Determinación del Nivel Posible de Fortificación (NPF) y Limitaciones
+* La **OMS y FAO** recomiendan establecer niveles de adición de nutrientes que sean **eficaces, seguros y factibles**.
+* El FFL se define considerando:
 
-La cantidad de micronutrientes que se puede agregar a los alimentos está sujeta a **limitaciones de inocuidad, tecnología y costos**. El **Nivel Posible de Fortificación (NPF)** es el nivel más bajo determinado por estas tres limitaciones.
+  * Consumo habitual del vehículo de fortificación.
+  * Distribución de requerimientos y de ingestas.
+  * Riesgo de ingestas excesivas en subgrupos con bajo requerimiento.
+* Sirve como límite técnico y de seguridad para el cálculo de las adiciones.
 
-1.  **Límite de Inocuidad**: Se evalúa comparando la ingesta proyectada del micronutriente (considerando niveles altos de fortificación y consumo) con el **Nivel Máximo de Ingesta Tolerable (NM)**. Los hombres adultos suelen tener el mayor riesgo de ingesta excesiva debido a mayores tasas de consumo de alimentos básicos.
-2.  **Límite Tecnológico**: Es el nivel máximo de adición que no causa cambios organolépticos (color, sabor, olor) ni físicos adversos en el alimento. Se debe determinar experimentalmente y puede variar con innovaciones tecnológicas.
-3.  **Límite de Costos**: Es el aumento aceptable en el precio de los productos alimentarios fortificados. La mayoría de los programas operan con aumentos de precios entre 0.25% y 2.0%. El costo del fortificante representa la mayor proporción del aumento del costo para la fortificación a gran escala.
-    *   Si la combinación de estos límites reduce la cantidad de nutrientes a niveles por debajo de lo necesario para el objetivo nutricional, podría ser necesario **fortificar más de un alimento o usar estrategias complementarias** como la suplementación.
+---
 
-**Parámetros de Producción y Regulatorios**:
+# Cálculo de adiciones de micronutrientes usando EAR y FFL
 
-*   **Nivel Objetivo de Fortificación (NOF)**: Concentración promedio del micronutriente en el producto fortificado en la fábrica, que incluye el NPF más el contenido intrínseco natural del alimento.
-*   **Nivel Mínimo de Fortificación (NmF)**: Límite inferior del contenido del micronutriente alcanzado por el proceso de fortificación, calculado restando del NOF el doble del coeficiente de variación (CV) de la medición en fábrica.
-*   **Nivel Máximo de Fortificación (NMF)**: Límite superior del contenido del micronutriente, calculado sumando al NOF el doble del CV.
-*   **Nivel Legal Mínimo (NLm)**: Contenido mínimo legal del micronutriente en el alimento fortificado que debe aparecer en la etiqueta. Se calcula restando del NmF las pérdidas esperadas durante la distribución y almacenamiento.
-*   **Nivel Máximo Tolerable (NMT)**: Contenido máximo legal del micronutriente en el alimento fortificado para minimizar el riesgo de ingesta excesiva. Coincide con el NMF para nutrientes con riesgo de exceso.
+* El **EAR** actúa como referencia del requerimiento poblacional mínimo que se busca cubrir.
+* El **FFL** actúa como límite superior seguro de adición.
+* El cálculo consiste en encontrar un nivel de fortificación que:
 
-# Construcción de Escenarios de Fortificación
+  * Reduzca la prevalencia de deficiencia (ingestas < EAR).
+  * No aumente de manera significativa la prevalencia de exceso (ingestas > UL, nivel superior tolerable).
+* Aquí el **enfoque probabilístico** es especialmente útil porque permite modelar riesgos duales (deficiencia + exceso).
 
-La modelización de escenarios de fortificación permite comparar el impacto potencial de diferentes estrategias. Un marco de modelización matemática puede ser desarrollado para comparar escenarios de fortificación, utilizando datos secundarios de encuestas de consumo y gasto de los hogares (HCES).
+---
 
-*   **Tipos de Escenarios**:
-    1.  **Escenario "sin fortificación"**: Asume que los alimentos no están fortificados, sirviendo como línea base.
-    2.  **Escenario "status quo"**: Modela la fortificación a los niveles actuales.
-    3.  **Escenario de fortificación "a niveles estándar/mandatados"**: Modela la fortificación a los niveles de cumplimiento total de las normativas o al NPF calculado.
-*   **Evaluación de Impacto en Escenarios**: Para cada escenario, se pueden estimar métricas como la cobertura del vehículo de fortificación, la densidad de micronutrientes de la dieta y la ingesta aparente de micronutrientes.
-    *   Por ejemplo, un estudio en Malawi modeló las contribuciones potenciales de aceite, azúcar y harina de trigo a la adecuación de vitamina A. Se encontró que el aceite y el azúcar, combinados, podrían mejorar la adecuación de vitamina A debido a su alta cobertura y consumo aparente, mientras que la harina de trigo contribuyó poco.
-*   **Estratificación**: Los escenarios deben estratificarse por subpoblaciones (ej., rural, urbano, posición socioeconómica) y, si es relevante, por temporadas, para entender cómo los programas benefician a diferentes grupos y dónde persisten las deficiencias. En Malawi, las contribuciones potenciales de todos los vehículos de fortificación fueron bajas en las poblaciones rurales de menor posición socioeconómica.
+# Construcción de escenarios de fortificación
 
-Este enfoque sistemático, basado en el RPE, permite diseñar programas de fortificación basados en evidencia, optimizando la ingesta de micronutrientes en la población de manera segura y efectiva.
+Se comparan varios escenarios aplicando los métodos anteriores:
 
+1. **Base (sin fortificación)** → refleja la prevalencia actual de deficiencia.
+2. **Fortificación actual** → muestra el impacto de las políticas vigentes.
+3. **Fortificación optimizada o nuevos vehículos** → simula ajustes en niveles de adición o elección de otros alimentos con mayor cobertura.
+
+En cada escenario se evalúa:
+
+* Prevalencia de deficiencia.
+* Riesgo de exceso.
+* Impacto diferencial por grupo poblacional (niños, mujeres, adultos).
+
+---
+
+# **Síntesis**
+
+* **El modelaje de dietas** es la base de todo (proporciona las ingestas).
+* **Los métodos EAR cut-point y probabilístico** son las herramientas para traducir esas ingestas en indicadores de adecuación.
+* **El FFL (OMS)** proporciona un marco normativo para no sobrefortificar.
+* **El cálculo de adiciones con EAR + FFL** permite encontrar el “punto óptimo” de fortificación.
+* **Los escenarios de fortificación** permiten probar diferentes configuraciones y seleccionar la más costo-efectiva y segura.
+
+---
+
+👉 En otras palabras: el **modelaje de dietas** genera la base de datos → los **métodos de evaluación (EAR y probabilístico)** convierten esa base en información sobre deficiencia/exceso → el **FFL y el EAR** se usan como referencias normativas para definir adiciones → y los **escenarios de fortificación** son la herramienta práctica para comparar opciones de política.
 
 
 # Biblografía
+
+- Rowe LA, Darwa R, Chadha M, Arabi M. A blueprint for the design and implementation of large-scale food fortification programs. 
+
+- Government of Canada SC. Archived - Survey of Household Spending, 2023 [Internet]. 2023 [citado 29 de junio de 2025]. Disponible en: https://www.statcan.gc.ca/en/statistical-programs/instrument/3508_Q1_V21
+
+- Beal T, Massiot E, Arsenault JE, Smith MR, Hijmans RJ. Global trends in dietary micronutrient supplies and estimated prevalence of inadequate intakes. Bermano G, editor. PLoS ONE [Internet]. 11 de abril de 2017 [citado 3 de septiembre de 2025];12(4):e0175554. Disponible en: https://dx.plos.org/10.1371/journal.pone.0175554
+
+- RENC. Herramientas para planificar y medir el consumo en intervenciones nutricionales: fortificación de alimentos .- Actualidad .- Revista Española de Nutrición Comunitaria [Internet]. [citado 22 de agosto de 2025]. Disponible en: https://www.renc.es/actualidad2.asp?cod=47&pag=&codR=&v=1&buscar=&anno=
+
+
+
+
+

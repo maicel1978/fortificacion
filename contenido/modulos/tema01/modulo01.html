@@ -90,6 +90,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -640,8 +669,14 @@ div.csl-indent {
   <li><a href="#estrategias-para-el-control-de-las-carencias-de-micronutrientes" id="toc-estrategias-para-el-control-de-las-carencias-de-micronutrientes" class="nav-link" data-scroll-target="#estrategias-para-el-control-de-las-carencias-de-micronutrientes">Estrategias para el control de las carencias de micronutrientes</a></li>
   <li><a href="#políticas-de-fortificación-de-alimentos" id="toc-políticas-de-fortificación-de-alimentos" class="nav-link" data-scroll-target="#políticas-de-fortificación-de-alimentos">Políticas de fortificación de alimentos</a></li>
   <li><a href="#programas-de-fortificación-de-alimentos-a-gran-escala" id="toc-programas-de-fortificación-de-alimentos-a-gran-escala" class="nav-link" data-scroll-target="#programas-de-fortificación-de-alimentos-a-gran-escala">Programas de fortificación de alimentos a gran escala</a></li>
-  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a></li>
-  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía">Bibliografía</a></li>
+  <li><a href="#conceptos-clave" id="toc-conceptos-clave" class="nav-link" data-scroll-target="#conceptos-clave">Conceptos clave</a>
+  <ul class="collapse">
+  <li><a href="#requerimiento-promedio-estimado-rpe" id="toc-requerimiento-promedio-estimado-rpe" class="nav-link" data-scroll-target="#requerimiento-promedio-estimado-rpe">Requerimiento Promedio Estimado (RPE)</a></li>
+  <li><a href="#nivel-de-fortificación-fl" id="toc-nivel-de-fortificación-fl" class="nav-link" data-scroll-target="#nivel-de-fortificación-fl">Nivel de Fortificación (FL)</a></li>
+  <li><a href="#nivel-máximo-tolerable-ul-y-nivel-factible-de-fortificación-ffl" id="toc-nivel-máximo-tolerable-ul-y-nivel-factible-de-fortificación-ffl" class="nav-link" data-scroll-target="#nivel-máximo-tolerable-ul-y-nivel-factible-de-fortificación-ffl">Nivel Máximo Tolerable (UL) y Nivel Factible de Fortificación (FFL)</a></li>
+  <li><a href="#porcentaje-de-adecuación-de-la-ingesta" id="toc-porcentaje-de-adecuación-de-la-ingesta" class="nav-link" data-scroll-target="#porcentaje-de-adecuación-de-la-ingesta">Porcentaje de Adecuación de la Ingesta</a></li>
+  </ul></li>
+  <li><a href="#próximos-pasos" id="toc-próximos-pasos" class="nav-link" data-scroll-target="#próximos-pasos">Próximos pasos</a></li>
   </ul>
 </nav>
     </div>
@@ -721,18 +756,57 @@ div.csl-indent {
 </section>
 <section id="programas-de-fortificación-de-alimentos-a-gran-escala" class="level1">
 <h1>Programas de fortificación de alimentos a gran escala</h1>
+<p><img src="../../../static/images/modulo01exp.png" class="img-fluid"></p>
+<p>Dicho de otra manera:</p>
+<p>La fortificación de alimentos es como un puente nutricional diseñado para conectar a una población con los nutrientes que le faltan. El proceso comienza identificando la deficiencia a través de la evaluación de la <strong>Ingesta de Alimentos (Dieta y Consumo)</strong>, comparando lo que la gente come con sus <strong>requerimientos</strong> nutricionales. Esto nos permite calcular el <strong>Requerimiento Promedio Estimado (RPE)</strong>, que sirve para estimar la proporción de personas con una ingesta insuficiente. Una vez que se identifica la brecha, se elige un alimento “vehículo” de consumo masivo para añadirle el nutriente. La cantidad que se añade es el <strong>Nivel de Fortificación (FL)</strong>. Sin embargo, no se puede añadir cualquier cantidad: hay que considerar la <strong>biodisponibilidad</strong> del nutriente (cuánto puede el cuerpo realmente absorber) y, lo más importante, la seguridad. Para ello, se establece el <strong>Nivel Máximo Tolerable (UL)</strong>, que es el límite de ingesta segura. El objetivo es encontrar el equilibrio perfecto, el <strong>Nivel Factible de Fortificación (FFL)</strong>, que es el punto ideal donde el nivel de fortificación es lo suficientemente alto para cerrar la brecha nutricional en la mayor parte de la población, pero sin que ninguna persona, ni siquiera la que más consume el alimento fortificado, supere el <strong>UL</strong> y corra riesgo. En esencia, la fortificación es un acto de equilibrio preciso entre la necesidad de corregir una deficiencia y la obligación de garantizar la inocuidad.</p>
+</section>
+<section id="conceptos-clave" class="level1">
+<h1>Conceptos clave</h1>
+<p>En la fortificación de alimentos, muchos cálculos no tienen una única fórmula. En su lugar, se utilizan modelos complejos y análisis estadísticos para llegar a los valores deseados. Sin embargo, aquí te presento algunas fórmulas y relaciones matemáticas importantes que fundamentan estos conceptos, usando variables para ilustrar cómo se relacionan.</p>
+<hr>
+<section id="requerimiento-promedio-estimado-rpe" class="level2">
+<h2 class="anchored" data-anchor-id="requerimiento-promedio-estimado-rpe">Requerimiento Promedio Estimado (RPE)</h2>
+<p>El <strong>Requerimiento Promedio Estimado (RPE)</strong>, o <strong>EAR</strong> por sus siglas en inglés, no tiene una fórmula de cálculo directo universal, ya que es un valor estadístico que se establece a partir de datos de ingesta y metabolismo de un nutriente en una población. Es el valor que satisface las necesidades de la mitad de los individuos sanos en un grupo específico. Sin embargo, matemáticamente se utiliza para calcular el porcentaje de la población con deficiencia nutricional:</p>
+<p><span class="math inline">\(Porcentaje\ de\ Deficiencia\ = P(X &lt; RPE)\)</span></p>
+<p>Donde <strong>X</strong> es la ingesta de un nutriente de un individuo en la población y <strong>P</strong> es la probabilidad de que esa ingesta sea menor que el RPE.</p>
+<hr>
+</section>
+<section id="nivel-de-fortificación-fl" class="level2">
+<h2 class="anchored" data-anchor-id="nivel-de-fortificación-fl">Nivel de Fortificación (FL)</h2>
+<p>El <strong>Nivel de Fortificación (FL)</strong> es la concentración de un nutriente que se añade a un alimento. Se determina mediante una fórmula que relaciona el promedio de ingesta del alimento vehículo, la biodisponibilidad del nutriente y el objetivo nutricional.</p>
+<p><span class="math inline">\(FL = \frac{Objetivo\ Nutricional}{Ingesta\ diaria\ promedio\ del\ alimento \times Biodisponibilidad}\)</span></p>
+<p>El <strong>Objetivo Nutricional</strong> se refiere a la cantidad de nutriente que se desea que la población reciba a través del alimento fortificado.</p>
+<hr>
+</section>
+<section id="nivel-máximo-tolerable-ul-y-nivel-factible-de-fortificación-ffl" class="level2">
+<h2 class="anchored" data-anchor-id="nivel-máximo-tolerable-ul-y-nivel-factible-de-fortificación-ffl">Nivel Máximo Tolerable (UL) y Nivel Factible de Fortificación (FFL)</h2>
+<p>El <strong>Nivel Máximo Tolerable (UL)</strong> no se calcula con una fórmula matemática simple, sino que es un valor de referencia toxicológico establecido por organizaciones científicas. Es el nivel máximo de ingesta que no presenta riesgo de efectos adversos para la mayoría de la población.</p>
+<p>El <strong>Nivel Factible de Fortificación (FFL)</strong> está directamente ligado al UL. Es el nivel de fortificación que equilibra la eficacia con la seguridad. Un método para calcularlo es iterar diferentes niveles de FL para encontrar el valor más alto que no cause que la ingesta total de los grandes consumidores del alimento supere el UL. Esto se expresa como una condición de seguridad:</p>
+<p><span class="math display">\[
+Ingesta\ total\ del\ nutriente = (Ingesta\ del\ nutriente\ sin\ fortificar) + (FL \times Ingesta)
+\]</span></p>
+<p>La condición para el FFL es que:</p>
+<p><span class="math display">\[
+Ingesta\ total\ del\ nutriente &lt; UL
+\]</span></p>
+<p>para los consumidores en el percentil 95 o 99 del alimento fortificado.</p>
+<hr>
+</section>
+<section id="porcentaje-de-adecuación-de-la-ingesta" class="level2">
+<h2 class="anchored" data-anchor-id="porcentaje-de-adecuación-de-la-ingesta">Porcentaje de Adecuación de la Ingesta</h2>
+<p>Esta es una fórmula fundamental para evaluar el estado nutricional de un individuo o de una población. Se expresa como un porcentaje:</p>
+<p><span class="math display">\[
+Porcentaje\ de\ Adecuación = \frac{Ingesta\ de\ Nutriente}{Requerimiento\ de\ Nutriente} \times 100\%
+\]</span></p>
+<p>Un valor de 100% indica que la ingesta del nutriente es exactamente igual al requerimiento, mientras que valores por debajo de 100% indican deficiencia y por encima de 100% indican un consumo adecuado o, potencialmente, excesivo.</p>
+</section>
+</section>
+<section id="próximos-pasos" class="level1">
+<h1>Próximos pasos</h1>
 <p>Un programa de fortificación de alimentos es una intervención de salud pública orientada a mejorar el estado nutricional de la población mediante la adición controlada de micronutrientes esenciales como hierro, yodo, vitamina A y ácido fólico a alimentos de consumo masivo. Cuando está bien diseñado, el programa de fortificación puede ser eficaz, seguro y costoefectivo para reducir las deficiencias nutricionales.</p>
 <p>En el <a href="../../../contenido/modulos/tema01/modulo02.html">módulo 02</a> nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.</p>
-</section>
-<section id="ejercicios" class="level1">
-<h1>Ejercicios</h1>
+<p>Puede realizar los Ejercicio de esta sección introductoria en el siguiente enlace:</p>
 <p><a href="../../../contenido/ejercicios/tema01/ejercicio01.html">Acceder al Ejercicio 1</a></p>
-</section>
-<section id="bibliografía" class="level1">
-<h1>Bibliografía</h1>
-<ul>
-<li>Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.</li>
-</ul>
 
 
 

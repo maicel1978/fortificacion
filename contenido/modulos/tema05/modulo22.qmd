@@ -1,0 +1,15 @@
+---
+title: "Módulo 22"
+date: 2025-07-01
+subtitle: "Caso de uso 5: Cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR y el FFL  como referencia"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación"
+---
+
+![](/static/images/modulo15.png){fig-align="center"}
+
+# Sumario
+
+
+
+# Biblografía

@@ -1,0 +1,15 @@
+---
+title: "Módulo 21"
+date: 2025-07-01
+subtitle: "Caso de uso 4: Uso práctico del modelo probabilístico para la evaluación del hierro"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se realiza un ejemplo practico en el que se emplea el modelo probabilístico para la evaluación del hierro"
+---
+
+![](/static/images/modulo15.png){fig-align="center"}
+
+# sumario
+
+
+
+# Biblografía

@@ -1,0 +1,14 @@
+---
+title: "Módulo 23"
+date: 2025-07-01
+subtitle: "Caso de uso 6: evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados."
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se realiza un ejemplo de evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados"
+---
+
+![](/static/images/modulo15.png){fig-align="center"}
+
+# Sumario
+
+
+# Biblografía

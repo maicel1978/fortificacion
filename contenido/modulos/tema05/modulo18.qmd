@@ -1,0 +1,13 @@
+---
+title: "Módulo 18"
+date: 2025-07-01
+subtitle: "Caso de uso 1: Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
+author: "Maicel Monzon"
+description: "Se realiza un caso de uso sobre la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
+---
+
+![](/static/images/modulo17.png){fig-align="center"}
+
+# Sumario
+
+# Biblografía

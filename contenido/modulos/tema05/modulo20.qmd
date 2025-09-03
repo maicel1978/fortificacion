@@ -1,0 +1,14 @@
+---
+title: "Módulo 20"
+date: 2025-07-01
+subtitle: "Caso de uso 2: Modelaje Dietético con Datos de HCES (Datos de la República Dominicana )"
+author: "Maicel Monzon & Yarisa Domínguez"
+description: "Se describe un ejemplo de Modelaje Dietético con Datos de HCES (Datos de la República Dominicana)"
+---
+
+![](/static/images/modulo15.png){fig-align="center"}
+
+# Sumario
+
+
+# Biblografía

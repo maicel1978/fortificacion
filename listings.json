@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/contenido/recursos/index.html",
-    "items": [
-      "/contenido/recursos/tablas/tablas.html"
-    ]
-  },
-  {
     "listing": "/contenido/ejercicios/index.html",
     "items": [
       "/contenido/ejercicios/tema01/ejercicio01.html",
       "/contenido/ejercicios/tema01/ejercicio02.html",
       "/contenido/ejercicios/tema01/ejercicio05.html"
+    ]
+  },
+  {
+    "listing": "/contenido/recursos/index.html",
+    "items": [
+      "/contenido/recursos/tablas/tablas.html"
     ]
   },
   {
@@ -28,6 +28,7 @@
       "/contenido/modulos/tema03/modulo10.html",
       "/contenido/modulos/tema03/modulo11.html",
       "/contenido/modulos/tema03/modulo12.html",
+      "/contenido/modulos/tema03/modulo13.html",
       "/contenido/modulos/tema04/modulo13.html",
       "/contenido/modulos/tema04/modulo14.html",
       "/contenido/modulos/tema05/modulo15.html",

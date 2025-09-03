@@ -64,3 +64,5 @@ En el [módulo 02](../../modulos/tema01/modulo02.qmd) nos adentraremos en detall
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
 
 # Bibliografía
+
+- Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

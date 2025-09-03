@@ -6,9 +6,6 @@ author: "Maicel Monzón & Santiago Rodas Moya"
 description: "Se realiza una introducion a la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo) de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
 ---
 
-
-
-
 <!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
 
 <!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->

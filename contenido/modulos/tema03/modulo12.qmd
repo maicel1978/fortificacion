@@ -5,6 +5,13 @@ author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
 description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
 
+<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+
+<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+
+
+<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+
 
 
 # Sumario

@@ -13,7 +13,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo02.zip)
 
-
 ![](/static/images/ECGH.png)
 
 # Sumario
@@ -21,10 +20,10 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 -   Planificación y diseño de un programa de fortificación.
 
 -   Definición y establecimiento de los objetivos del programa:
+
     -   Planificación y diseño de un programa de fortificación.
     -   Definición y establecimiento de los objetivos del programa.
     -   Necesidades de información.
-
 
 # Planificación y diseño de un programa de fortificación
 
@@ -32,44 +31,35 @@ La planificación y el diseño de un programa de fortificación de alimentos es 
 
 ![](/static/images/mod01fases.png)
 
+El proceso inicia con la **definición y establecimiento de objetivos nutricionales**, que implica una **recopilación exhaustiva de datos** sobre deficiencias de micronutrientes y patrones alimentarios para corregir la ingesta insuficiente.
 
-El proceso inicia con la **definición y establecimiento de objetivos nutricionales**, que implica una **recopilación exhaustiva de datos** sobre deficiencias de micronutrientes y patrones alimentarios para corregir la ingesta insuficiente. 
+Esto se logra estableciendo los niveles de fortificación mediante el **método del punto de corte del Requerimiento Promedio Estimado (RPE)**, considerando rigurosamente los **límites de inocuidad (NM), tecnológicos y de costos**.
 
-Esto se logra estableciendo los niveles de fortificación mediante el **método del punto de corte del Requerimiento Promedio Estimado (RPE)**, considerando rigurosamente los **límites de inocuidad (NM), tecnológicos y de costos**. 
-
-
-Seguidamente, la **selección de alimentos vehiculares apropiados y fortificantes** busca vehículos consumidos ampliamente, regularmente y procesados centralmente, y fortificantes que sean **biodisponibles, estables, no causen cambios sensoriales adversos y sean costo-razonables**. 
+Seguidamente, la **selección de alimentos vehiculares apropiados y fortificantes** busca vehículos consumidos ampliamente, regularmente y procesados centralmente, y fortificantes que sean **biodisponibles, estables, no causen cambios sensoriales adversos y sean costo-razonables**.
 
 En la fase de **tipos de fortificación y consideraciones legales**, se categorizan las intervenciones como **masiva** (población general, obligatoria), **focalizada** (subgrupos específicos) o **orientada por el mercado** (comercial, voluntaria pero regulada), y se enfatiza la necesidad de **marcos legales nacionales** para garantizar la seguridad y eficacia.
 
-
-La **vigilancia y evaluación del programa** son esenciales desde el diseño, incluyendo la **vigilancia regulatoria** para asegurar el cumplimiento de normas de calidad e inocuidad desde la producción hasta el punto de venta, y la **vigilancia en hogares** para verificar el acceso, compra y consumo adecuado por la población objetivo; la **evaluación de impacto** mide la efectividad del programa para alcanzar sus metas nutricionales, a menudo incluyendo análisis de **costo-efectividad y costo-beneficio**. 
+La **vigilancia y evaluación del programa** son esenciales desde el diseño, incluyendo la **vigilancia regulatoria** para asegurar el cumplimiento de normas de calidad e inocuidad desde la producción hasta el punto de venta, y la **vigilancia en hogares** para verificar el acceso, compra y consumo adecuado por la población objetivo; la **evaluación de impacto** mide la efectividad del programa para alcanzar sus metas nutricionales, a menudo incluyendo análisis de **costo-efectividad y costo-beneficio**.
 
 La **comunicación, mercadeo social y promoción** son pilares para informar sobre los beneficios de los alimentos fortificados, fomentar su consumo y movilizar apoyo a nivel individual, comunitario, empresarial y político, mediante **estrategias de comunicación adaptadas y alianzas colaborativas**. Finalmente, la **sostenibilidad del programa** se considera un objetivo a largo plazo, evaluado por su impacto en la salud pública y requiriendo un **enfoque intersectorial** con la participación coordinada de diversas autoridades, ONGs y el sector comercial.
 
-
-
-
 # Definición y establecimiento de los objetivos del programa
 
-
 Este proceso implica varias secciones clave: definir y establecer metas nutricionales, la vigilancia y evaluación del programa, y la comunicación y comercialización.
-    
+
 El objetivo fundamental es **corregir la ingesta insuficiente de un micronutriente** o **prevenir una deficiencia demostrada**, o mejorar el estado nutricional y la ingesta de nutrientes que podrían volverse deficientes.
 
 El programa busca que la **probabilidad de una ingesta inadecuada (insuficiente o excesiva) sea aceptablemente baja**. Específicamente, se busca proporcionar a la mayoría de las personas (97,5%) en los grupos de población con mayor riesgo de carencia una **ingesta adecuada de micronutrientes**, sin causar riesgo de ingesta excesiva.
 
 Para diseñar un programa efectivo y justificar su necesidad, es esencial **recopilar información de antecedentes y datos nutricionales**. Esto incluye:
 
+-   **Datos bioquímicos/clínicos**: Sobre la magnitud y severidad de la deficiencia de micronutrientes específicos en diferentes grupos de población. La Parte II de las guías describe cómo clasificar la magnitud de un problema de salud pública por carencia de micronutrientes usando estos indicadores.
 
-*   **Datos bioquímicos/clínicos**: Sobre la magnitud y severidad de la deficiencia de micronutrientes específicos en diferentes grupos de población. La Parte II de las guías describe cómo clasificar la magnitud de un problema de salud pública por carencia de micronutrientes usando estos indicadores.
+-   **Patrones alimentarios**: La composición de la dieta habitual. Aunque útil, esta información no es suficiente por sí sola para tomar decisiones finales sobre qué nutrientes agregar y en qué cantidad.
 
-*   **Patrones alimentarios**: La composición de la dieta habitual. Aunque útil, esta información no es suficiente por sí sola para tomar decisiones finales sobre qué nutrientes agregar y en qué cantidad.
-
-*   **Ingesta habitual de micronutrientes**: La distribución de la ingesta de micronutrientes específicos en la población. Contar con datos cuantitativos de la ingesta de alimentos y nutrientes es un **prerrequisito** para cualquier programa de fortificación, ya que es la base para decidir qué micronutrientes agregar, a qué alimentos y en qué cantidad, y para predecir el impacto probable de las intervenciones.
+-   **Ingesta habitual de micronutrientes**: La distribución de la ingesta de micronutrientes específicos en la población. Contar con datos cuantitativos de la ingesta de alimentos y nutrientes es un **prerrequisito** para cualquier programa de fortificación, ya que es la base para decidir qué micronutrientes agregar, a qué alimentos y en qué cantidad, y para predecir el impacto probable de las intervenciones.
 
 [Acceder al Ejercicio 2](../../ejercicios/tema01/ejercicio02.qmd)
-
 
 # Bibliografía
 

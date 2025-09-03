@@ -6,7 +6,14 @@ author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
 description: "Se describe El Método del Equivalente de Mujer Adulta (EMA/AFE), el Contexto y Relevancia del Método, su descripción, el Cálculo de Factores de Conversión de EMA, las Ventajas y Desventajas del método así como su Aplicación Práctica"
 ---
 
-![](/static/images/modulo11.png){fig-align="center"}
+<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+
+<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+
+
+<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+
+
 
 # Sumario
 
@@ -19,6 +26,8 @@ description: "Se describe El Método del Equivalente de Mujer Adulta (EMA/AFE), 
 - Ventajas y Desventajas del Método EMA
 
 - Aplicación Práctica del Método EMA/AFE
+
+![](/static/images/modulo11.png){fig-align="center"}
 
 
 # Contexto y Relevancia del Método

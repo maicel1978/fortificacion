@@ -6,12 +6,12 @@ author: "Maicel Monzón & Santiago Rodas Moya"
 description: "Se realiza una introducion a los fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 ---
 
-<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+{{< video https://youtu.be/gGT4k_JrpSI >}}
 
 
-<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo09.zip)
 
 
 

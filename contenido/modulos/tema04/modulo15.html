@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maicel Monzón &amp; Santiago Rodas Moya">
-<meta name="dcterms.date" content="2025-06-29">
-<meta name="description" content="Se realiza una introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación">
+<meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
+<meta name="description" content="Resumen parcial">
 
-<title>Módulo 03 – Fortificación de alimentos a gran escala</title>
+<title>Módulo 15 – Fortificación de alimentos a gran escala</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -118,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo01.html">Tema01</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo03.html">Módulo 03</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema04/modulo14.html">Tema04</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema04/modulo15.html">Módulo 15</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -224,13 +252,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
  <span class="menu-text">Tema01</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../contenido/modulos/tema01/modulo01.html" class="sidebar-item-text sidebar-link">
@@ -245,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema01/modulo03.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../contenido/modulos/tema01/modulo03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Módulo 03</span></a>
   </div>
 </li>
@@ -335,13 +363,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
  <span class="menu-text">Tema04</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../contenido/modulos/tema04/modulo14.html" class="sidebar-item-text sidebar-link">
@@ -350,7 +378,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contenido/modulos/tema04/modulo15.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contenido/modulos/tema04/modulo15.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Módulo 15</span></a>
   </div>
 </li>
@@ -585,16 +613,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
-  <li><a href="#definición-y-propósito-del-método-del-punto-de-corte-del-rpe" id="toc-definición-y-propósito-del-método-del-punto-de-corte-del-rpe" class="nav-link" data-scroll-target="#definición-y-propósito-del-método-del-punto-de-corte-del-rpe">1. Definición y Propósito del Método del Punto de Corte del RPE</a></li>
-  <li><a href="#origen-y-base-del-método" id="toc-origen-y-base-del-método" class="nav-link" data-scroll-target="#origen-y-base-del-método">2. Origen y Base del Método</a></li>
-  <li><a href="#pasos-para-el-cálculo-del-nivel-de-adición-de-micronutrientes" id="toc-pasos-para-el-cálculo-del-nivel-de-adición-de-micronutrientes" class="nav-link" data-scroll-target="#pasos-para-el-cálculo-del-nivel-de-adición-de-micronutrientes">3. Pasos para el Cálculo del Nivel de Adición de Micronutrientes</a></li>
-  <li><a href="#niveles-dietéticos-de-referencia-y-consideraciones-de-inocuidad" id="toc-niveles-dietéticos-de-referencia-y-consideraciones-de-inocuidad" class="nav-link" data-scroll-target="#niveles-dietéticos-de-referencia-y-consideraciones-de-inocuidad">4. Niveles Dietéticos de Referencia y Consideraciones de Inocuidad</a></li>
-  <li><a href="#adaptaciones-para-nutrientes-específicos" id="toc-adaptaciones-para-nutrientes-específicos" class="nav-link" data-scroll-target="#adaptaciones-para-nutrientes-específicos">5. Adaptaciones para Nutrientes Específicos</a></li>
-  <li><a href="#consideraciones-de-biodisponibilidad" id="toc-consideraciones-de-biodisponibilidad" class="nav-link" data-scroll-target="#consideraciones-de-biodisponibilidad">6. Consideraciones de Biodisponibilidad</a></li>
-  <li><a href="#necesidades-de-información-para-la-aplicación-del-rpe" id="toc-necesidades-de-información-para-la-aplicación-del-rpe" class="nav-link" data-scroll-target="#necesidades-de-información-para-la-aplicación-del-rpe">7. Necesidades de Información para la Aplicación del RPE</a></li>
-  <li><a href="#mediana-de-la-ingesta-objetivo" id="toc-mediana-de-la-ingesta-objetivo" class="nav-link" data-scroll-target="#mediana-de-la-ingesta-objetivo">8. Mediana de la Ingesta Objetivo</a></li>
-  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
+  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a>
+  <ul class="collapse">
+  <li><a href="#metodología-paso-a-paso-para-el-cálculo-de-ffl" id="toc-metodología-paso-a-paso-para-el-cálculo-de-ffl" class="nav-link" data-scroll-target="#metodología-paso-a-paso-para-el-cálculo-de-ffl">2. Metodología Paso a Paso para el Cálculo de FFL</a></li>
+  <li><a href="#ejemplos-prácticos" id="toc-ejemplos-prácticos" class="nav-link" data-scroll-target="#ejemplos-prácticos">3. Ejemplos Prácticos</a></li>
+  <li><a href="#preguntas-de-reflexión" id="toc-preguntas-de-reflexión" class="nav-link" data-scroll-target="#preguntas-de-reflexión">4. Preguntas de Reflexión</a></li>
+  </ul></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -602,15 +626,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo01.html">Tema01</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema01/modulo03.html">Módulo 03</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema04/modulo14.html">Tema04</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema04/modulo15.html">Módulo 15</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Módulo 03</h1>
-<p class="subtitle lead">Método del punto de corte del requerimiento promedio estimado (RPE)</p>
+<h1 class="title">Módulo 15</h1>
+<p class="subtitle lead">Metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)</p>
 </div>
 
 <div>
   <div class="description">
-    Se realiza una introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación
+    Resumen parcial
   </div>
 </div>
 
@@ -620,16 +644,10 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maicel Monzón &amp; Santiago Rodas Moya </p>
+             <p>Maicel Monzon &amp; Yarisa Domínguez </p>
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 29, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -639,121 +657,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/bkkKaxst56g" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p><a href="../../../static/videos/videomodulo03.zip">El módulo puede ser descargado desde aquí</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../static/images/micro3.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 <section id="sumario" class="level1">
 <h1>Sumario</h1>
+<hr>
+<p>Ahora que hemos comprendido los principios de la fortificación y los pasos para la Planificación y diseño de un programa de fortificación, la importancia de seleccionar el alimento vehículo y los nutrientes adecuados, nos enfocaremos en la parte técnica: ¿cómo se determina la cantidad exacta de nutriente que se debe añadir a un alimento?</p>
+<p>Para ello abordaremos la <strong>metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)</strong></p>
+<hr>
+<section id="metodología-paso-a-paso-para-el-cálculo-de-ffl" class="level3">
+<h3 class="anchored" data-anchor-id="metodología-paso-a-paso-para-el-cálculo-de-ffl">2. Metodología Paso a Paso para el Cálculo de FFL</h3>
+<p>La metodología de la OMS para determinar los FFL es un proceso escalonado que considera la ingesta de alimentos, la bioaccesibilidad de los nutrientes y la seguridad.</p>
 <ul>
-<li><p>Definición y Propósito del Método del Punto de Corte del RPE</p></li>
-<li><p>Origen y Base del Método</p></li>
-<li><p>Pasos para el Cálculo del Nivel de Adición de Micronutrientes</p></li>
-<li><p>Niveles Dietéticos de Referencia y Consideraciones de Inocuidad</p></li>
+<li><p><strong>Paso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)</strong></p>
+<ul>
+<li>Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p.&nbsp;ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.</li>
+</ul></li>
+<li><p><strong>Paso 2: Determinación del Requerimiento Promedio Estimado (EAR)</strong></p>
+<ul>
+<li>El <strong>Requerimiento Promedio Estimado (EAR)</strong> es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.</li>
+</ul></li>
+<li><p><strong>Paso 3: Cálculo del Nivel de Fortificación (FL)</strong></p>
+<ul>
+<li>Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:</li>
 </ul>
-<p><img src="../../../static/images/micro3.png" class="img-fluid"></p>
-<p>El <strong>Método del Punto de Corte del Requerimiento Promedio Estimado (RPE)</strong> es la metodología <strong>recomendada por la Organización Mundial de la Salud (OMS)</strong> para establecer los niveles de fortificación en alimentos y es fundamental en la planificación y diseño de programas de fortificación. Su propósito principal es asegurar que la fortificación sea efectiva para corregir deficiencias nutricionales, minimizando al mismo tiempo el riesgo de ingesta excesiva.</p>
-<p>A continuación, se detalla este método:</p>
+<p><span class="math display">\[FL = \frac{EAR \times (\text{Población a Cubrir})}{\text{Ingesta de Alimento Fortificado}}\]</span></p>
+<ul>
+<li>Explica que esta fórmula se ajusta para considerar otros factores como las pérdidas durante el procesamiento o cocción.</li>
+</ul></li>
+<li><p><strong>Paso 4: Consideración de la Biodisponibilidad</strong></p>
+<ul>
+<li>La <strong>biodisponibilidad</strong> es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.</li>
+<li>Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.</li>
+</ul></li>
+<li><p><strong>Paso 5: Integración de los Niveles Máximos Tolerables (UL)</strong></p>
+<ul>
+<li>Para prevenir la toxicidad, es vital considerar el <strong>Nivel Máximo de Ingesta Tolerable (UL)</strong>. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.</li>
+<li>El <strong>Nivel de Fortificación Factible (FFL)</strong> es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.</li>
+</ul></li>
+</ul>
+<hr>
 </section>
-<section id="definición-y-propósito-del-método-del-punto-de-corte-del-rpe" class="level1">
-<h1>1. Definición y Propósito del Método del Punto de Corte del RPE</h1>
-<p>El Requerimiento Promedio Estimado (RPE) se define como la ingesta diaria de nutrientes que se estima suficiente para satisfacer las necesidades de la <strong>mitad de las personas sanas</strong> en una fase de la vida y un grupo de género determinados.</p>
-<p>El método del punto de corte del RPE estima que la <strong>proporción de la población con ingesta por debajo del RPE</strong> para un nutriente dado corresponde a la proporción de la población que tiene una <strong>ingesta insuficiente</strong> de dicho nutriente.</p>
-<p><strong>Objetivo Fundamental</strong>: La meta principal es corregir la ingesta insuficiente de un micronutriente, buscando que la probabilidad de una ingesta inadecuada (insuficiente o excesiva) sea <strong>aceptablemente baja</strong>. Específicamente, se busca proporcionar a la mayoría de las personas (aproximadamente el <strong>97,5%</strong>) en los grupos de población con mayor riesgo de carencia una ingesta adecuada de micronutrientes, <strong>sin causar riesgo de ingesta excesiva</strong> en estos o en otros grupos. La prevalencia aceptable de ingesta insuficiente y excesiva se sitúa, a menudo, <strong>entre el 2% y el 3%</strong>.</p>
+<section id="ejemplos-prácticos" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplos-prácticos">3. Ejemplos Prácticos</h3>
+<p>Para dar coherencia y hacer el contenido menos abstracto, incluye ejemplos concretos.</p>
+<ul>
+<li><p><strong>Ejemplo de Fortificación de Harina de Trigo:</strong> Utiliza el ejemplo de la fortificación de la harina de trigo, un caso clásico. Puedes mostrar las recomendaciones de la OMS sobre las concentraciones de ácido fólico y hierro para diferentes rangos de consumo, utilizando compuestos específicos como el <strong>NaFeEDTA</strong> para maximizar la absorción.</p></li>
+<li><p><strong>Caso de Estudio Real:</strong> Puedes referirte a casos de estudio documentados por organizaciones como el <strong>Programa Mundial de Alimentos (WFP)</strong> o el <strong>Banco Mundial</strong> sobre programas de fortificación de arroz en países como Camboya o Perú. Esto proporcionará un contexto real a los cálculos y la metodología.</p></li>
+</ul>
+<hr>
 </section>
-<section id="origen-y-base-del-método" class="level1">
-<h1>2. Origen y Base del Método</h1>
+<section id="preguntas-de-reflexión" class="level3">
+<h3 class="anchored" data-anchor-id="preguntas-de-reflexión">4. Preguntas de Reflexión</h3>
+<p>Finaliza el módulo con preguntas que inviten a los estudiantes a reflexionar sobre la relación entre el cálculo teórico y la implementación práctica, como:</p>
 <ul>
-<li>Este método fue propuesto hace años y se describe detalladamente en un informe del Consejo de Alimentación y Nutrición del Instituto de Medicina (CAN/IM) de los Estados Unidos sobre la ingesta dietética recomendada.</li>
-<li>Es una <strong>versión simplificada</strong> y más fácil de aplicar que el método de probabilidades, siempre que se cumplan las suposiciones subyacentes, como que la variación en la ingesta del nutriente sea mayor que la variación del requerimiento, y que la distribución de los requerimientos sea simétrica (lo cual es cierto para la mayoría de los nutrientes, excepto el hierro).</li>
+<li>¿Por qué es tan importante considerar el patrón de consumo de la población antes de determinar los niveles de fortificación?</li>
+<li>¿Qué riesgos para la salud podrían surgir si se ignora el Nivel Máximo de Ingesta Tolerable (UL)?</li>
 </ul>
+<p>Este enfoque asegura que tu nuevo módulo sea un complemento valioso, coherente y no redundante.</p>
 </section>
-<section id="pasos-para-el-cálculo-del-nivel-de-adición-de-micronutrientes" class="level1">
-<h1>3. Pasos para el Cálculo del Nivel de Adición de Micronutrientes</h1>
-<p>El método implica cuatro pasos clave para determinar el nivel de fortificación necesario:</p>
-<ol type="1">
-<li><strong>Observar la distribución habitual de la ingesta de nutrientes en subgrupos específicos de la población</strong>:</li>
-</ol>
-<ul>
-<li><p>Se requiere información cuantitativa de ingesta alimentaria (a través de encuestas de recordatorio de 24 horas o combinaciones de métodos) para evaluar el nivel actual de ingesta.</p></li>
-<li><p>Es crucial ajustar la variabilidad diaria o intraindividual de la ingesta, recolectando datos de al menos dos días por persona, para evitar estimaciones incorrectas de la prevalencia inadecuada.</p></li>
-<li><p>Esta información se convierte en cantidades de nutrientes consumidos utilizando tablas de composición de alimentos y se presenta en percentiles.</p></li>
-</ul>
-<ol start="2" type="1">
-<li><strong>Identificar los subgrupos con la mayor prevalencia de ingesta inadecuada</strong>:</li>
-</ol>
-<ul>
-<li><p>Ciertos subgrupos (como niños y mujeres) suelen estar en mayor riesgo de ingesta inadecuada de nutrientes específicos. Identificarlos es fundamental para que el programa beneficie a quienes más lo necesitan.</p></li>
-<li><p>Por ejemplo, se puede encontrar que un porcentaje alto de mujeres adultas tiene una ingesta inadecuada de vitamina A, mientras que el riesgo de exceder el Nivel Máximo de Ingesta Tolerable (NM) es bajo.</p></li>
-</ul>
-<ol start="3" type="1">
-<li><strong>Estimar el consumo habitual del vehículo alimentario seleccionado para estos grupos</strong>:</li>
-</ol>
-<ul>
-<li>Las estimaciones de consumo del alimento fortificado deben obtenerse tanto de los subgrupos con mayor prevalencia de ingesta deficiente como de aquellos con mayor consumo (los que tienen el mayor riesgo de ingesta excesiva).</li>
-<li>Idealmente, el consumo del vehículo alimentario propuesto debe ser mayor en los grupos con carencia y menor en los grupos bien nutridos para minimizar el riesgo de ingesta excesiva.</li>
-</ul>
-<ol start="4" type="1">
-<li><strong>Calcular la reducción de la prevalencia de ingesta inadecuada y el riesgo de ingesta excesiva a distintos niveles de fortificación</strong>:</li>
-</ol>
-<ul>
-<li><p>Este paso implica simular el efecto de diferentes niveles de fortificación en la distribución de la ingesta total del nutriente en la población.</p></li>
-<li><p>Se compara la ingesta proyectada con el RPE y el NM (Nivel Máximo de Ingesta Tolerable). Por ejemplo, se calcula cómo un nivel de fortificación reduce la prevalencia de ingesta inadecuada y si crea un riesgo de ingesta excesiva.</p></li>
-<li><p>La fortificación debe aumentar la distribución de la ingesta habitual del nutriente para que solo una pequeña proporción esté en riesgo de ingesta insuficiente, pero sin que las personas con alto consumo del alimento fortificado estén en riesgo de ingesta excesiva.</p></li>
-</ul>
-</section>
-<section id="niveles-dietéticos-de-referencia-y-consideraciones-de-inocuidad" class="level1">
-<h1>4. Niveles Dietéticos de Referencia y Consideraciones de Inocuidad</h1>
-<ul>
-<li><p><strong>Ingesta Recomendada de Nutrientes (IRN)</strong>: Establecida por la FAO/OMS, es la ingesta diaria suficiente para satisfacer los requerimientos del 97% al 98% de personas saludables en un grupo específico. El IRN se establece aproximadamente a dos desviaciones estándar por encima del RPE.</p></li>
-<li><p><strong>Nivel Máximo de Ingesta Tolerable (NM)</strong>: Es el valor de referencia más apropiado para determinar la inocuidad de la ingesta de micronutrientes, representando la ingesta promedio más alta que no representa un riesgo de efectos adversos para la salud de prácticamente toda la población. El riesgo de efectos adversos aumenta si la ingesta supera el NM. Los NM varían con la edad y el sexo, siendo generalmente menores en niños pequeños y mujeres embarazadas.</p></li>
-</ul>
-</section>
-<section id="adaptaciones-para-nutrientes-específicos" class="level1">
-<h1>5. Adaptaciones para Nutrientes Específicos</h1>
-<ul>
-<li><p><strong>Hierro</strong>: El método del punto de corte del RPE <strong>no es aplicable para el hierro</strong> en algunos subgrupos (niños, adolescentes y mujeres menstruantes) debido a que sus requerimientos de hierro no tienen una distribución normal (CV &gt; 40%). En estos casos, se debe emplear el <strong>enfoque completo de probabilidades</strong>. Este método calcula la probabilidad de ingesta inadecuada para cada intervalo de ingesta habitual de hierro, considerando la biodisponibilidad del hierro en la alimentación.</p></li>
-<li><p><strong>Yodo</strong>: La OMS ha recomendado niveles de fortificación basados en la experiencia de campo (20 a 40 mg de yodo/kg de sal), asumiendo una ingesta diaria de sal de 10g y sin ingesta de yodo previa a la fortificación. Aunque no usa estrictamente el método del RPE para el cálculo de niveles, sí se utilizan indicadores de ingesta y estado nutricional del yodo para la vigilancia y evaluación.</p></li>
-<li><p><strong>Folato/Ácido Fólico</strong>: Estudios han demostrado que una ingesta adicional de 400 µg/día de ácido fólico reduce el riesgo de defectos del tubo neural. Para Latinoamérica, se recomienda una adición diaria de 200 µg. El objetivo es que la ingesta total exceda el RPE y se aproxime al IRN.</p></li>
-<li><p><strong>Vitamina D</strong>: La decisión sobre el nivel de fortificación debe considerar la exposición a la luz solar y la prevalencia de raquitismo u osteomalacia, además de los datos de ingesta.</p></li>
-<li><p><strong>Otros Nutrientes</strong>: Para lactantes de 0 a 12 meses, cuando no se han definido RPE, se utiliza la <strong>Ingesta Adecuada (IA)</strong> como referencia, buscando que la ingesta media del grupo objetivo la alcance. Para la niacina, la fortificación puede beneficiar a poblaciones con dietas ricas en maíz.</p></li>
-</ul>
-</section>
-<section id="consideraciones-de-biodisponibilidad" class="level1">
-<h1>6. Consideraciones de Biodisponibilidad</h1>
-<ul>
-<li>Los métodos para establecer el RPE ya incluyen un ajuste por la biodisponibilidad del nutriente de los alimentos. Sin embargo, si la biodisponibilidad del nutriente agregado es sustancialmente diferente a la que ocurre naturalmente, se deben hacer ajustes adicionales.</li>
-<li>Por ejemplo, el hierro electrolítico se absorbe menos, por lo que se recomienda agregar el doble de su cantidad en comparación con el sulfato ferroso para una cantidad equivalente de hierro.</li>
-</ul>
-</section>
-<section id="necesidades-de-información-para-la-aplicación-del-rpe" class="level1">
-<h1>7. Necesidades de Información para la Aplicación del RPE</h1>
-<p>Para diseñar un programa efectivo y aplicar correctamente el método del RPE, es esencial recopilar información de antecedentes y datos nutricionales:</p>
-<ul>
-<li><strong>Datos bioquímicos/clínicos</strong>: Sobre la magnitud y severidad de la deficiencia de micronutrientes específicos en diferentes grupos de población.</li>
-<li><strong>Patrones alimentarios</strong>: Composición de la dieta habitual.</li>
-<li><strong>Ingesta habitual de micronutrientes</strong>: Distribución de la ingesta de micronutrientes específicos en la población.</li>
-<li><strong>Consumo del vehículo alimentario</strong>: Datos detallados sobre la cantidad del alimento fortificable que consume la población objetivo.</li>
-</ul>
-<p>Esta información es crucial para confirmar la necesidad del programa, identificar grupos objetivo, decidir qué micronutrientes y en qué cantidad deben agregarse a qué alimentos, y comprender las restricciones de inocuidad, costos o tecnológicas.</p>
-</section>
-<section id="mediana-de-la-ingesta-objetivo" class="level1">
-<h1>8. Mediana de la Ingesta Objetivo</h1>
-<ul>
-<li><p>El objetivo de la fortificación es incrementar la distribución de la ingesta habitual de nutrientes de la población objetivo para que solo una pequeña proporción esté en riesgo de tener una ingesta insuficiente, pero no a niveles tan altos que las personas que consumen grandes cantidades del vehículo alimentario estén en riesgo de una ingesta excesiva. La mediana de esta nueva distribución de la ingesta habitual se conoce como la <strong>“ingesta mediana objetivo”</strong>.</p></li>
-<li><p>La estrategia recomendada es aumentar la distribución de la ingesta habitual de tal manera que la ingesta de cada nutriente esté al menos a nivel del RPE para toda la población objetivo, con excepción del 2% al 3%. Esto implica que la mediana de la ingesta a alcanzar debería ser aproximadamente <strong>1,5 veces la IRN (o IDR)</strong>.</p></li>
-</ul>
-</section>
-<section id="conclusiones" class="level1">
-<h1>Conclusiones</h1>
-<p>Para la mayoría de los micronutrientes, el método del punto de corte del Requerimiento Promedio Estimado (RPE) es el recomendado para establecer los niveles de fortificación. El RPE se define como la ingesta diaria de nutrientes que se estima cubre las necesidades del 50% de los individuos sanos en un grupo demográfico específico. Este método asume que la distribución de los requerimientos es simétrica y que la variabilidad en la ingesta es mayor que la variabilidad en los requerimientos.</p>
-<p>En el próximo módulo estudiarás el <strong>Método de enfoque completo de probabilidades</strong></p>
-<p><a href="../../../contenido/modulos/tema01/modulo04.html">Acceder al módulo 04</a></p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
-<ul>
-<li>Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.</li>
-</ul>
 
 
 </section>

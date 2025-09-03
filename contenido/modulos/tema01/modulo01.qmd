@@ -55,14 +55,74 @@ Existen varios tipos de enfoques de fortificación:
 
 # Programas de fortificación de alimentos a gran escala
 
+![](/static/images/modulo01exp.png)
+
+Dicho de otra manera:
+
+La fortificación de alimentos es como un puente nutricional diseñado para conectar a una población con los nutrientes que le faltan. El proceso comienza identificando la deficiencia a través de la evaluación de la **Ingesta de Alimentos (Dieta y Consumo)**, comparando lo que la gente come con sus **requerimientos** nutricionales. Esto nos permite calcular el **Requerimiento Promedio Estimado (RPE)**, que sirve para estimar la proporción de personas con una ingesta insuficiente. Una vez que se identifica la brecha, se elige un alimento "vehículo" de consumo masivo para añadirle el nutriente. La cantidad que se añade es el **Nivel de Fortificación (FL)**. Sin embargo, no se puede añadir cualquier cantidad: hay que considerar la **biodisponibilidad** del nutriente (cuánto puede el cuerpo realmente absorber) y, lo más importante, la seguridad. Para ello, se establece el **Nivel Máximo Tolerable (UL)**, que es el límite de ingesta segura. El objetivo es encontrar el equilibrio perfecto, el **Nivel Factible de Fortificación (FFL)**, que es el punto ideal donde el nivel de fortificación es lo suficientemente alto para cerrar la brecha nutricional en la mayor parte de la población, pero sin que ninguna persona, ni siquiera la que más consume el alimento fortificado, supere el **UL** y corra riesgo. En esencia, la fortificación es un acto de equilibrio preciso entre la necesidad de corregir una deficiencia y la obligación de garantizar la inocuidad.
+
+# Conceptos clave
+
+En la fortificación de alimentos, muchos cálculos no tienen una única fórmula. En su lugar, se utilizan modelos complejos y análisis estadísticos para llegar a los valores deseados. Sin embargo, aquí te presento algunas fórmulas y relaciones matemáticas importantes que fundamentan estos conceptos, usando variables para ilustrar cómo se relacionan.
+
+------------------------------------------------------------------------
+
+## Requerimiento Promedio Estimado (RPE)
+
+El **Requerimiento Promedio Estimado (RPE)**, o **EAR** por sus siglas en inglés, no tiene una fórmula de cálculo directo universal, ya que es un valor estadístico que se establece a partir de datos de ingesta y metabolismo de un nutriente en una población. Es el valor que satisface las necesidades de la mitad de los individuos sanos en un grupo específico. Sin embargo, matemáticamente se utiliza para calcular el porcentaje de la población con deficiencia nutricional:
+
+$Porcentaje\ de\ Deficiencia\ = P(X < RPE)$
+
+Donde **X** es la ingesta de un nutriente de un individuo en la población y **P** es la probabilidad de que esa ingesta sea menor que el RPE.
+
+------------------------------------------------------------------------
+
+## Nivel de Fortificación (FL)
+
+El **Nivel de Fortificación (FL)** es la concentración de un nutriente que se añade a un alimento. Se determina mediante una fórmula que relaciona el promedio de ingesta del alimento vehículo, la biodisponibilidad del nutriente y el objetivo nutricional.
+
+$FL = \frac{Objetivo\ Nutricional}{Ingesta\ diaria\ promedio\ del\ alimento \times Biodisponibilidad}$
+
+El **Objetivo Nutricional** se refiere a la cantidad de nutriente que se desea que la población reciba a través del alimento fortificado.
+
+------------------------------------------------------------------------
+
+## Nivel Máximo Tolerable (UL) y Nivel Factible de Fortificación (FFL)
+
+El **Nivel Máximo Tolerable (UL)** no se calcula con una fórmula matemática simple, sino que es un valor de referencia toxicológico establecido por organizaciones científicas. Es el nivel máximo de ingesta que no presenta riesgo de efectos adversos para la mayoría de la población.
+
+El **Nivel Factible de Fortificación (FFL)** está directamente ligado al UL. Es el nivel de fortificación que equilibra la eficacia con la seguridad. Un método para calcularlo es iterar diferentes niveles de FL para encontrar el valor más alto que no cause que la ingesta total de los grandes consumidores del alimento supere el UL. Esto se expresa como una condición de seguridad:
+
+$$
+Ingesta\ total\ del\ nutriente = (Ingesta\ del\ nutriente\ sin\ fortificar) + (FL \times Ingesta)
+$$
+
+La condición para el FFL es que:
+
+$$
+Ingesta\ total\ del\ nutriente < UL
+$$
+
+para los consumidores en el percentil 95 o 99 del alimento fortificado.
+
+------------------------------------------------------------------------
+
+## Porcentaje de Adecuación de la Ingesta
+
+Esta es una fórmula fundamental para evaluar el estado nutricional de un individuo o de una población. Se expresa como un porcentaje:
+
+$$
+Porcentaje\ de\ Adecuación = \frac{Ingesta\ de\ Nutriente}{Requerimiento\ de\ Nutriente} \times 100\%
+$$
+
+Un valor de 100% indica que la ingesta del nutriente es exactamente igual al requerimiento, mientras que valores por debajo de 100% indican deficiencia y por encima de 100% indican un consumo adecuado o, potencialmente, excesivo.
+
+# Próximos pasos
+
 Un programa de fortificación de alimentos es una intervención de salud pública orientada a mejorar el estado nutricional de la población mediante la adición controlada de micronutrientes esenciales como hierro, yodo, vitamina A y ácido fólico a alimentos de consumo masivo. Cuando está bien diseñado, el programa de fortificación puede ser eficaz, seguro y costoefectivo para reducir las deficiencias nutricionales.
 
 En el [módulo 02](../../modulos/tema01/modulo02.qmd) nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.
 
-# Ejercicios
+Puede realizar los Ejercicio de esta sección introductoria en el siguiente enlace:
 
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
-
-# Bibliografía
-
-- Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

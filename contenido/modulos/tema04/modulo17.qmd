@@ -1,7 +1,7 @@
 ---
 title: "Módulo 17"
 date: 2025-07-01
-subtitle: "Metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)"
+subtitle: "Construcción de escenarios de fortificación"
 author: "Maicel Monzon & Yarisa Domínguez"
 description: "Resumen parcial"
 ---

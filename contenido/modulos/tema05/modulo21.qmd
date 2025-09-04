@@ -1,15 +1,72 @@
 ---
 title: "Módulo 21"
 date: 2025-07-01
-subtitle: "Caso de uso 4: Uso práctico del modelo probabilístico para la evaluación del hierro"
+subtitle: "Caso de uso 4:  Estimación de la Ingesta de Hierro con el Modelo Probabilístico SPADE"
 author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se realiza un ejemplo practico en el que se emplea el modelo probabilístico para la evaluación del hierro"
 ---
 
 ![](/static/images/modulo15.png){fig-align="center"}
 
-# sumario
+# Sumario
 
+- Contexto y Metodología
+
+- Código de Ejemplo con SPADE.RIVM 
+
+# Contexto y Metodología
+
+El modelo probabilístico es la técnica más precisa para evaluar la adecuación de nutrientes. A diferencia del método del punto de corte, este modelo considera la variabilidad de la ingesta intraindividual (la varianza del consumo de una persona a lo largo del tiempo). Los estudios que usan este modelo requieren múltiples días de registro de la ingesta de un subconjunto de la población para estimar la distribución de la ingesta habitual.
+
+El programa estadístico SPADE, implementado en el paquete SPADE.RIVM, es una herramienta líder para este tipo de análisis.
+
+**Código de Ejemplo con SPADE.RIVM**
+
+Para este ejemplo, simularemos un subconjunto de datos con la ingesta diaria de hierro de varios hogares durante 3 días.
+
+```{r}
+#| label: SPADE_ejemplo
+#| eval: false
+#| echo: true
+
+# Primero, asegúrate de tener el paquete instalado:
+# install.packages("SPADE.RIVM")
+library(SPADE.RIVM)
+
+# 1. Prepara los datos de la ingesta diaria de hierro.
+# El formato requerido es una tabla con id, día y la ingesta del nutriente.
+# Simulamos datos de una sub-muestra de la ENHOGAR, con 3 días de ingesta.
+datos_diarios_hierro <- data.frame(
+  id_persona = c(1, 1, 1, 2, 2, 2, 3, 3, 3),
+  dia = c(1, 2, 3, 1, 2, 3, 1, 2, 3),
+  ingesta_hierro_mg = c(11.5, 10.2, 13.1, 9.8, 8.5, 11.0, 15.0, 14.5, 16.2)
+)
+
+# 2. Estima la ingesta habitual y la varianza.
+# La función 'spade' del paquete realiza el modelado probabilístico.
+# Requiere los datos, el identificador del individuo y el nombre de la variable de ingesta.
+modelo_spade <- spade(
+  data = datos_diarios_hierro,
+  id = "id_persona",
+  ingesta_diaria = "ingesta_hierro_mg"
+)
+
+# 3. Calcula la prevalencia de ingesta inadecuada.
+# Usa la distribución de la ingesta habitual estimada por el modelo
+# y la compara con el RPE.
+# Asume que ya tenemos el RPE de hierro para la población.
+prevalencia_spade <- calc_prevalencia_rpe(
+  modelo_spade, 
+  RPE = RPE_hierro
+)
+
+# Imprime los resultados del modelo y la prevalencia.
+print(prevalencia_spade)
+```
+
+**Análisis Crítico:** Este método es más costoso en términos de recolección de datos (requiere múltiples días), pero es mucho más robusto. Es la "mejor práctica" para estimar la ingesta habitual de nutrientes y el riesgo de ingestas inadecuadas.
 
 
 # Biblografía
+
+- https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages

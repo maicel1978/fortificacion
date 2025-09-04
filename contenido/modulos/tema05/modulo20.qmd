@@ -1,7 +1,7 @@
 ---
 title: "Módulo 20"
 date: 2025-07-01
-subtitle: "Caso de uso 2: Modelaje Dietético con Datos de HCES (Datos de la República Dominicana )"
+subtitle: "Caso de uso 3: Prevalencia de Ingesta Inadecuada de Nutrientes con el Método del Punto de Corte del RPE )"
 author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se describe un ejemplo de Modelaje Dietético con Datos de HCES (Datos de la República Dominicana)"
 ---
@@ -10,7 +10,58 @@ description: "Se describe un ejemplo de Modelaje Dietético con Datos de HCES (D
 
 # Sumario
 
+- Contexto y Metodología
 
+- Código de Ejemplo con nutriR
 
+# Contexto y Metodología
+
+El método del punto de corte del RPE es una forma sencilla de estimar la prevalencia de una ingesta inadecuada de un nutriente en una población. La premisa es simple: si la distribución de la ingesta habitual de un nutriente es simétrica, la prevalencia de ingesta inadecuada es aproximadamente igual a la proporción de individuos cuya ingesta es menor que el RPE.
+
+Este método es útil para análisis rápidos y es ideal para nutrientes cuya ingesta diaria no varía demasiado. Sin embargo, como ya se ha mencionado no es adecuado para todos los nutrientes ni para analizar la ingesta a nivel individual, ya que no considera la variabilidad diaria.
+
+**Código de Ejemplo con nutriR**
+
+El paquete *nutriR* ha sido diseñado para este propósito. Aquí te mostramos cómo usarlo con datos de la ENHOGAR para estimar la prevalencia de deficiencia de hierro en la población.
+
+```{r}
+#| label: nutriR_ejemplo
+#| eval: false
+#| echo: true
+
+# Primero, asegúrate de tener el paquete instalado:
+# install.packages("nutriR")
+library(nutriR)
+
+# 1. Prepara los datos de ingesta.
+# Asume que 'ingesta_total' es el dataframe del caso de uso anterior
+# y que ha sido enriquecido con ingesta de hierro.
+# Simulamos los datos de ingesta de hierro por hogar (en mg).
+ingesta_total <- data.frame(
+  id_hogar = c(101, 102, 103, 104, 105),
+  ingesta_hierro_mg = c(12.5, 9.8, 15.0, 10.2, 8.9)
+)
+
+# 2. Prepara los requerimientos nutricionales del grupo de interés.
+# Usamos un RPE de ejemplo para mujeres adultas, una población vulnerable.
+# Referencia: "Dietary Reference Intakes" de la National Academy of Medicine (NAM).
+# Para este ejemplo, un RPE de 8.1 mg de hierro para mujeres de 19-50 años.
+RPE_hierro <- 8.1 
+
+# 3. Calcula la prevalencia de ingesta inadecuada usando la función del paquete.
+# El paquete 'nutriR' facilita este cálculo.
+# La función 'calc_prevalencia_rpe' toma un vector de ingestas y el RPE.
+prevalencia_inadecuada <- nutriR::calc_prevalencia_rpe(
+  ingesta_hierro_mg, 
+  RPE = RPE_hierro
+)
+
+# 4. Imprime el resultado.
+print(prevalencia_inadecuada)
+```
+
+**Análisis Crítico:** Este método es rápido y fácil de interpretar. Sin embargo, ignora que la ingesta de una persona puede variar significativamente de un día a otro. Si solo tuviéramos un día de ingesta, el resultado sería sesgado. Es por eso que se necesitan métodos más complejos como el que se presenta a continuación.
 
 # Biblografía
+
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages

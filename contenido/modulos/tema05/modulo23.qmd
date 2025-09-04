@@ -1,7 +1,7 @@
 ---
 title: "Módulo 23"
 date: 2025-07-01
-subtitle: "Caso de uso 6: evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados."
+subtitle: "Caso de uso 6:  Evaluación de la Cobertura y la Adecuación de la Fortificación en Harina de Trigo"
 author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se realiza un ejemplo de evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados"
 ---
@@ -9,3 +9,109 @@ description: "Se realiza un ejemplo de evaluación de los programas de fortifica
 ![](/static/images/modulo15.png){fig-align="center"}
 
 # Sumario
+
+# Contexto y Desafío
+
+Supongamos que en la República Dominicana se ha implementado un programa de fortificación de harina de trigo con hierro. Como analistas, nuestra tarea es evaluar si el programa está alcanzando a la población y si el proceso de fortificación es adecuado. Para esto, combinaremos tres fuentes de datos:
+
+1.  **Datos de Consumo de la ENHOGAR**: para determinar qué hogares consumen harina de trigo.
+2.  **Datos de Laboratorio**: para saber si la harina disponible en el mercado está fortificada a los niveles correctos.
+3.  **Datos de Población**: para estimar el número de personas expuestas al alimento fortificado.
+
+El desafío es integrar estas fuentes dispares y calcular indicadores clave de manera robusta, considerando el diseño de muestreo de la ENHOGAR.
+
+## Paso 1: Medición de la Cobertura del Programa
+
+La **cobertura del programa** se refiere a la proporción de la población objetivo que consume el alimento fortificado. Para esto, necesitamos identificar qué hogares en la ENHOGAR reportaron haber consumido o comprado harina de trigo.
+
+**La Solución:** Usaremos la librería `dplyr` para el manejo de datos y la librería `srvyr` (o `survey`) para manejar los factores de expansión (pesos muestrales) de la encuesta.
+
+```{r}
+#| label: Cobertura_Programa
+#| eval: false
+#| echo: true
+
+# Asegúrate de tener las librerías instaladas
+# install.packages(c("dplyr", "srvyr"))
+library(dplyr)
+library(srvyr)
+
+# 1. Simula datos de la ENHOGAR con un campo de consumo de harina
+# 'consumo_harina' = 1 si el hogar consumió, 0 si no.
+# 'factor_exp' = peso de muestreo del hogar para expandir a la población total.
+datos_encuesta <- data.frame(
+  id_hogar = c(1, 2, 3, 4, 5),
+  consumo_harina = c(1, 1, 0, 1, 0),
+  factor_exp = c(100, 150, 200, 120, 180)
+)
+
+# 2. Crea un objeto 'survey' para usar los pesos muestrales
+datos_encuesta_survey <- datos_encuesta %>% 
+  as_survey_design(ids = id_hogar, weights = factor_exp)
+
+# 3. Calcula la prevalencia de consumo de harina (cobertura)
+# y la proporción de la población que no la consume.
+cobertura <- datos_encuesta_survey %>%
+  summarise(
+    cobertura_programa_porc = survey_mean(consumo_harina) * 100
+  )
+
+# Imprime los resultados
+print(cobertura)
+```
+
+**Análisis Crítico:** Este enfoque es realista porque considera que un hogar en la muestra puede representar a 100, 200 o más hogares en la población. Ignorar los pesos de muestreo (factores de expansión) llevaría a una estimación sesgada de la cobertura.
+
+## Paso 2: Evaluación de la Adecuación de la Fortificación
+
+Este paso determina si la harina disponible en el mercado contiene la cantidad correcta de fortificante. Los datos provienen de un programa de **control de calidad** que toma muestras de la harina en diferentes puntos (fábricas, tiendas) y las analiza en un laboratorio.
+
+**La Solución:** Conectaremos los resultados de laboratorio (un dataset externo) con los datos de consumo de la encuesta.
+
+```{r}
+#| label: Adecuacion_Fortificacion
+#| eval: false
+#| echo: true
+
+# 1. Simula los datos de laboratorio
+# 'zona' representa la región donde se tomó la muestra.
+# 'concentracion_hierro_ppm' es la medida del laboratorio.
+# 'nivel_objetivo' es el valor ideal.
+datos_laboratorio <- data.frame(
+  zona = c("sur", "sur", "norte", "norte", "este"),
+  concentracion_hierro_ppm = c(50, 48, 40, 55, 62), # en partes por millón
+  nivel_objetivo = 60 # ppm
+)
+
+# 2. Une los datos de laboratorio con la encuesta
+# Suponemos que la encuesta también tiene una columna de 'zona'.
+# Aquí, por simplicidad, unimos los datos agregados por zona.
+evaluacion_por_zona <- datos_encuesta %>%
+  group_by(zona) %>%
+  summarise(
+    hogares_en_zona = sum(factor_exp),
+    cobertura_zona = mean(consumo_harina)
+  ) %>%
+  left_join(datos_laboratorio, by = "zona") %>%
+  mutate(
+    # Calcula la desviación del nivel objetivo.
+    desviacion_fort = (concentracion_hierro_ppm - nivel_objetivo) / nivel_objetivo
+  )
+  
+# 3. Imprime el resultado
+print(evaluacion_por_zona)
+```
+
+**Análisis Crítico:** Este código te permite identificar rápidamente si hay problemas con la fortificación en ciertas zonas geográficas. Por ejemplo, si la "zona sur" tiene una cobertura alta, pero sus muestras de laboratorio muestran una desviación negativa significativa, el programa no está entregando la dosis adecuada de hierro a la población que lo consume.
+
+# Conclusión: Un Marco de Análisis Realista
+
+El enfoque que te he mostrado es similar a lo que hacen las grandes agencias como el WFP. No necesitan un paquete único para "evaluar la fortificación", sino que construyen su propio flujo de trabajo con herramientas versátiles y poderosas como `dplyr`, `srvyr` y `ggplot2` (para visualización).
+
+Este método te permite ir más allá del análisis de un solo nutriente y evaluar la efectividad de una intervención de salud pública a gran escala. Es una forma excelente de conectar los datos de la ENHOGAR con las políticas públicas de la República Dominicana.
+
+
+
+# Bibliografía
+
+

@@ -1,15 +1,73 @@
 ---
 title: "Módulo 22"
 date: 2025-07-01
-subtitle: "Caso de uso 5: Cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR y el FFL  como referencia"
+subtitle: "Caso de uso 5:  Análisis Complementario de la Calidad de la Dieta"
 author: "Maicel Monzon & Yarisa Domínguez"
-description: "Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación"
+description: "Se describe un caso de uso para el Análisis Complementario de la Calidad de la Dieta"
 ---
 
 ![](/static/images/modulo15.png){fig-align="center"}
 
 # Sumario
 
+- Contexto y Metodología
 
+- Código de Ejemplo
+
+# Introducción
+
+Más allá de los nutrientes individuales, la calidad de la dieta es un concepto fundamental en la salud pública. Un enfoque práctico es utilizar los puntajes de diversidad dietética, que son indicadores cualitativos que miden la variedad de grupos de alimentos consumidos por un individuo o un hogar.
+
+# Contexto y Metodología
+
+La Diversidad Dietética es un proxy de la calidad nutricional. Se basa en la premisa de que una dieta que incluye alimentos de diferentes grupos (cereales, vegetales, frutas, lácteos, carnes, etc.) es más probable que cumpla con los requerimientos de macro y micronutrientes.
+
+Podrías usar una de las metodologías más reconocidas, como el Puntaje de Diversidad Dietética del Hogar (HDDS) o el Puntaje de Diversidad Dietética Individual de la Mujer (MDD-W). Estos puntajes son fáciles de calcular a partir de los datos de frecuencia de consumo de la encuesta. No necesitas un paquete de R especializado; puedes hacerlo directamente con dplyr.
+
+**Código de Ejemplo: Cálculo del Puntaje de Diversidad Dietética**
+
+```{r}
+#| label: DiversidadDietetica
+#| eval: false
+#| echo: true
+
+# 1. Prepara los datos. Necesitas una tabla que indique si un hogar
+# consumió un grupo de alimentos en particular.
+# Simulamos los datos con los grupos de alimentos básicos.
+datos_diversidad <- data.frame(
+  id_hogar = c(101, 102, 103),
+  cereales = c(1, 1, 1),
+  vegetales = c(1, 1, 0),
+  frutas = c(0, 1, 0),
+  carnes = c(1, 1, 1),
+  lacteos = c(1, 0, 0),
+  azucar = c(1, 1, 1) # Un grupo de alimentos de baja calidad nutricional
+)
+
+# 2. Calcula el puntaje de diversidad sumando los grupos de alimentos consumidos.
+# Podemos excluir los grupos de "malos" alimentos si queremos.
+datos_con_puntaje <- datos_diversidad %>%
+  mutate(
+    # Suma los grupos de alimentos nutritivos.
+    # El puntaje va de 0 a 5 en este ejemplo.
+    puntaje_diversidad = cereales + vegetales + frutas + carnes + lacteos
+  )
+
+# 3. Analiza el puntaje.
+# Puedes agrupar por quintil de ingreso para ver cómo la diversidad dietética
+# se relaciona con el bienestar socioeconómico.
+# Puedes crear una visualización de esto.
+print(datos_con_puntaje)
+```
+
+**Análisis Crítico:** Este método es un complemento valioso porque no requiere datos de ingesta cuantitativos. Es una herramienta poderosa para analizar la calidad general de la dieta y es muy útil para el diseño de políticas de nutrición, como campañas de educación que promuevan la variedad alimentaria.
 
 # Biblografía
+
+- Haddad, L., Swindale, A., & Loken, B. (2007). Household Dietary Diversity Score (HDDS) for Measurement of Household Food Access: Indicator Guide. Food and Nutrition Technical Assistance Project (FANTA).
+
+- Hotz, C., & Gibson, R. (2007). Assessment of the efficacy of a food fortification program: A critical review. Food and Nutrition Bulletin, 28(4), 452-463.
+
+- Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.
+
+

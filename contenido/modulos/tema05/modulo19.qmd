@@ -10,6 +10,16 @@ description: "Se trata de un caso de uso hipotético con datos de la Republica D
 
 # Sumario
 
+- Introducción
+
+- Accediendo y Conectando las Fuentes de Datos
+
+- Ajustes por Desperdicio y Consumo Fuera del Hogar
+
+- El Coeficiente de Engel y la Inseguridad Alimentaria en RD
+
+- Conclusión: Del Dato a la Política Pública
+
 ---
 
 # Introducción: Por qué Analizar la ENHOGAR?

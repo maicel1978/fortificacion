@@ -10,7 +10,14 @@ description: "Resumen parcial"
 
 # Sumario
 
+- Introducción
 
+- Principios para calcular adiciones
+  - Paso 1. Definir el nutriente y población objetivo
+  - Paso 2. Establecer el requerimiento (EAR)
+  - Paso 3. Estimar el consumo del vehículo alimentario
+  - Paso 4. Cálculo del nivel de adición (FFL)
+  - Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
 
 
 ---
@@ -81,7 +88,7 @@ Ejemplo (hierro en harina):
 
 ---
 
-## 4. Ejemplo educativo simplificado
+## 4. Ejemplo  simplificado
 
 > Si queremos fortificar harina de trigo con **ácido fólico**:
 
@@ -93,16 +100,13 @@ Ejemplo (hierro en harina):
 
 ---
 
-## 5. Bibliografía recomendada (PubMed y organismos internacionales)
-
-* Allen L, de Benoist B, Dary O, Hurrell R. *Guidelines on food fortification with micronutrients.* WHO/FAO, 2006. [PubMed PMID: 18358980](https://pubmed.ncbi.nlm.nih.gov/18358980/)
-* Dwyer JT, Wiemer KL, Dary O, et al. Fortification and Health: Challenges and Opportunities. *Adv Nutr.* 2015;6(1):124–131. [PMID: 25593151](https://pubmed.ncbi.nlm.nih.gov/25593151/)
-* Peña-Rosas JP, Mora JO. Fortificación de alimentos con micronutrientes para prevenir y controlar la anemia. *Rev Panam Salud Publica.* 2007;22(5):419–429. [PMID: 18209893](https://pubmed.ncbi.nlm.nih.gov/18209893/)
-
-
-
-
 
 
 # Biblografía
+
+- Allen L, de Benoist B, Dary O, Hurrell R. *Guidelines on food fortification with micronutrients.* WHO/FAO, 2006. [PubMed PMID: 18358980](https://pubmed.ncbi.nlm.nih.gov/18358980/)
+
+- Dwyer JT, Wiemer KL, Dary O, et al. Fortification and Health: Challenges and Opportunities. *Adv Nutr.* 2015;6(1):124–131. [PMID: 25593151](https://pubmed.ncbi.nlm.nih.gov/25593151/)
+
+- Peña-Rosas JP, Mora JO. Fortificación de alimentos con micronutrientes para prevenir y controlar la anemia. *Rev Panam Salud Publica.* 2007;22(5):419–429. [PMID: 18209893](https://pubmed.ncbi.nlm.nih.gov/18209893/)
 

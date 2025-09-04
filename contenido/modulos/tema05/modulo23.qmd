@@ -9,6 +9,3 @@ description: "Se realiza un ejemplo de evaluación de los programas de fortifica
 ![](/static/images/modulo15.png){fig-align="center"}
 
 # Sumario
-
-
-# Biblografía

@@ -10,4 +10,191 @@ description: "Se realiza un caso de uso sobre la Preparación de Datos para el M
 
 # Sumario
 
+- Descripción General
+
+- Metodología
+
+---
+
+
+
+# Descripción General
+
+Este caso de uso se enfoca en la etapa crítica de **preparación y ajuste de datos** antes de realizar un modelado dietético. El objetivo es resolver los desafíos comunes que presentan las Encuestas de Gasto y Consumo de los Hogares (EGCH), como la medición inexacta del consumo, el consumo fuera del hogar y las inconsistencias de los datos. El proceso busca crear un conjunto de datos limpio y estandarizado, listo para ser utilizado en modelos de optimización o análisis nutricional.
+
+
+---
+
+# Metodología 
+
+1.  Imputación de Consumo Faltante o Subdeclarado:
+
+Las encuestas a menudo no capturan el consumo de alimentos del hogar. Esto puede deberse a la dificultad para registrar alimentos auto-producidos, regalos o comidas consumidas fuera de casa.
+
+- **Identificación del Problema:** Se detectan hogares con un gasto en alimentos cero o extremadamente bajo en comparación con su nivel de ingresos y el tamaño del hogar.
+
+- **Solución:** Se imputa el gasto en alimentos de estos hogares basándose en la media o mediana del gasto de hogares con características socioeconómicas y demográficas similares (ingresos, tamaño, ubicación). La imputación puede tener en cuenta solo una variable o múltiples variables. Para esto, se puede utilizar un modelo de regresión, modelos de bosque aleatorio u otro procedimiento de imputación.
+
+```{r}
+#| label: imputacion
+#| eval: false
+#| echo: true
+
+# Instalar y cargar el paquete si no lo tienes
+# install.packages("dplyr")
+library(dplyr)
+
+# Supongamos que ya has cargado tu dataset en un dataframe llamado 'datos_encuesta'
+# Por ejemplo, si es un archivo .csv:
+# datos_encuesta <- read.csv("ruta/al/archivo.csv")
+
+# Aquí un ejemplo simple de datos para ilustrar
+datos_encuesta <- data.frame(
+  ingresos_hogar = c(25000, 50000, 75000, 25000, 50000, 75000),
+  gastos_alimentos = c(3000, 6000, NA, 3500, NA, 8000)
+)
+
+# Imputar valores faltantes de 'gastos_alimentos' usando la mediana por 'ingresos_hogar'
+datos_imputados <- datos_encuesta %>%
+  group_by(ingresos_hogar) %>%
+  mutate(
+    gastos_alimentos = ifelse(is.na(gastos_alimentos), median(gastos_alimentos, na.rm = TRUE), gastos_alimentos)
+  ) %>%
+  ungroup()
+
+# Mostrar el resultado
+```
+    
+
+
+2.  Conversión de Unidades y Asignación de Valores Nutricionales:
+
+Los alimentos se registran en diversas unidades (libras, kilos, bolsas, docenas, etc.). Para el modelado, es fundamental convertirlos a una unidad estándar, como gramos. Además, se debe vincular cada alimento a una tabla de composición nutricional.
+
+**Identificación del Problema:** Las unidades inconsistentes impiden el cálculo de la ingesta nutricional.
+
+**Solución:** Se crea un diccionario de conversión de unidades y se aplica a los datos. Luego, se enlaza el código de cada alimento con una base de datos nutricional de referencia (por ejemplo, la del USDA o una local).
+
+    
+
+```{r}
+#| label: ajuste_calculo
+#| eval: false
+#| echo: true
+
+# Asegúrate de cargar la librería dplyr aquí
+library(dplyr)
+
+# 1. Ajustar la cantidad de gramos por el factor de desperdicio
+#    y calcular las calorías consumidas en el hogar.
+datos_ajustados <- datos_preparados %>%
+  left_join(factores_ajuste_desperdicio, by = "producto") %>%
+  mutate(
+    cantidad_ajustada_gramos = cantidad_gramos * (1 - factor_desperdicio),
+    calorias_en_hogar = (cantidad_ajustada_gramos / 100) * calorias_por_100g
+  )
+
+# 2. Calcular las calorías totales por hogar y unir los datos de consumo fuera
+datos_ingesta_total <- datos_ajustados %>%
+  # Agrupamos por hogar para sumar las calorías consumidas en casa.
+  group_by(id_hogar) %>%
+  summarise(
+    calorias_consumidas_en_hogar = sum(calorias_en_hogar, na.rm = TRUE)
+  ) %>%
+  # Unimos con la tabla de consumo fuera del hogar.
+  left_join(datos_consumo_fuera, by = "id_hogar") %>%
+  # Y finalmente, calculamos la ingesta total de calorías.
+  mutate(
+    ingesta_total_calorias = calorias_consumidas_en_hogar + calorias_fuera_hogar
+  ) %>%
+  ungroup()
+
+# Mostrar el resultado final con las calorías totales por hogar
+print(datos_ingesta_total)
+
+```
+
+
+3.  Ajuste del Consumo por Desperdicio y Comidas Fuera del Hogar
+
+Las encuestas registran las compras, no el consumo final. Se debe considerar que una parte de lo comprado se desperdicia o se usa para alimentar a no miembros del hogar (por ejemplo, invitados). Además, el consumo de alimentos fuera del hogar (restaurantes, escuelas) debe ser contabilizado.
+
+**Identificación del Problema:** El consumo declarado no refleja la ingesta real.
+
+**Solución:** Se aplican factores de ajuste a los datos. Estos factores se obtienen de estudios de desperdicio y de los módulos de gasto fuera del hogar de la misma encuesta. Por ejemplo, si un estudio indica un 10% de desperdicio de frutas, la cantidad de frutas compradas se ajusta a un 90% para reflejar el consumo.
+
+```{r}
+##| label: ajuste_y_calculo_ingesta
+#| eval: false
+#| echo: true
+
+# Asegúrate de cargar la librería dplyr aquí
+library(dplyr)
+
+# 1. Preparación de los datos de ejemplo (complementando los pasos anteriores)
+# Asumimos que datos_preparados ya está disponible con 'id_hogar'
+datos_preparados <- data.frame(
+  id_hogar = c(101, 101, 101, 102, 102, 103),
+  producto = c("harina", "leche", "azúcar", "harina", "leche", "azúcar"),
+  cantidad_gramos = c(240, 500, 12.5, 360, 200, 25),
+  calorias_por_100g = c(364, 42, 387),
+  proteinas_por_100g = c(10, 3.4, 0)
+)
+
+# Factores de desperdicio por producto
+factores_ajuste_desperdicio <- data.frame(
+  producto = c("harina", "leche", "azúcar"),
+  factor_desperdicio = c(0.05, 0.02, 0.01) # 5%, 2% y 1% de desperdicio
+)
+
+# Ingesta nutricional estimada fuera del hogar por cada hogar
+datos_consumo_fuera <- data.frame(
+  id_hogar = c(101, 102, 103),
+  calorias_fuera_hogar = c(1500, 1200, 1800), # Calorías estimadas por un periodo de tiempo
+  proteinas_fuera_hogar = c(50, 40, 60)
+)
+
+# 2. Ajuste del consumo en el hogar y cálculo de nutrientes
+# Se usa 'left_join' para unir los datos de desperdicio y 'mutate' para ajustar las cantidades
+# y calcular las calorías y proteínas consumidas.
+ingesta_en_hogar <- datos_preparados %>%
+  left_join(factores_ajuste_desperdicio, by = "producto") %>%
+  mutate(
+    cantidad_ajustada_gramos = cantidad_gramos * (1 - factor_desperdicio),
+    calorias_en_hogar = (cantidad_ajustada_gramos / 100) * calorias_por_100g,
+    proteinas_en_hogar = (cantidad_ajustada_gramos / 100) * proteinas_por_100g
+  )
+
+# 3. Sumar la ingesta dentro del hogar y unir con la ingesta fuera
+# Se usa 'group_by' y 'summarise' para totalizar los nutrientes por hogar.
+# Luego se une con los datos de consumo fuera del hogar y se calcula el total.
+ingesta_total <- ingesta_en_hogar %>%
+  group_by(id_hogar) %>%
+  summarise(
+    calorias_en_hogar_tot = sum(calorias_en_hogar, na.rm = TRUE),
+    proteinas_en_hogar_tot = sum(proteinas_en_hogar, na.rm = TRUE)
+  ) %>%
+  left_join(datos_consumo_fuera, by = "id_hogar") %>%
+  mutate(
+    ingesta_total_calorias = calorias_en_hogar_tot + calorias_fuera_hogar,
+    ingesta_total_proteinas = proteinas_en_hogar_tot + proteinas_fuera_hogar
+  ) %>%
+  ungroup()
+
+# Mostrar el resultado final
+print(ingesta_total)
+```
+ 
+
+-----
+
+# Resultados y Conclusiones del Caso de Uso
+
+El resultado de este proceso es un conjunto de datos robusto y confiable, listo para ser utilizado en el **modelaje dietético**. Los ajustes y la estandarización aseguran que los análisis posteriores, como la identificación de déficits de micronutrientes, se basen en una representación más precisa de la dieta real de los hogares. Esto es crucial para que las políticas públicas, como los programas de fortificación de alimentos, sean más efectivas.
+
+
+
 # Biblografía
+
+Hadley Wickham GG. R for Data Science [Internet]. 2.ª ed. Vol. 1. O´Reilly; 2023 [citado 7 de diciembre de 2024]. Disponible en: https://es.r4ds.hadley.nz/
+

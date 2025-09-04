@@ -42,8 +42,8 @@ El proceso se basa en cuatro pasos articulados:
 
 -   Se diferencian dos tipos de dieta:
 
-    -   **Habitual sin fortificación**: línea de base.
-    -   **Con alimentos fortificados**: permite simular impacto de fortificación existente o de nuevos escenarios.
+  -   **Habitual sin fortificación**: línea de base.
+  -   **Con alimentos fortificados**: permite simular impacto de fortificación existente o de nuevos escenarios.
 
 ![](/static/images/modulo14b.png){fig-align="center"}
 
@@ -73,9 +73,9 @@ El proceso se basa en cuatro pasos articulados:
 
 -   El FFL se define considerando:
 
-    -   Consumo habitual del vehículo de fortificación.
-    -   Distribución de requerimientos y de ingestas.
-    -   Riesgo de ingestas excesivas en subgrupos con bajo requerimiento.
+  -   Consumo habitual del vehículo de fortificación.
+  -   Distribución de requerimientos y de ingestas.
+  -   Riesgo de ingestas excesivas en subgrupos con bajo requerimiento.
 
 -   Sirve como límite técnico y de seguridad para el cálculo de las adiciones.
 
@@ -89,8 +89,8 @@ El proceso se basa en cuatro pasos articulados:
 
 -   El cálculo consiste en encontrar un nivel de fortificación que:
 
-    -   Reduzca la prevalencia de deficiencia (ingestas \< EAR).
-    -   No aumente de manera significativa la prevalencia de exceso (ingestas \> UL, nivel superior tolerable).
+  -   Reduzca la prevalencia de deficiencia (ingestas \< EAR).
+  -   No aumente de manera significativa la prevalencia de exceso (ingestas \> UL, nivel superior tolerable).
 
 -   Aquí el **enfoque probabilístico** es especialmente útil porque permite modelar riesgos duales (deficiencia + exceso).
 

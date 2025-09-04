@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -616,6 +651,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#descripción-general" id="toc-descripción-general" class="nav-link" data-scroll-target="#descripción-general">Descripción General</a></li>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
+  <li><a href="#resultados-y-conclusiones-del-caso-de-uso" id="toc-resultados-y-conclusiones-del-caso-de-uso" class="nav-link" data-scroll-target="#resultados-y-conclusiones-del-caso-de-uso">Resultados y Conclusiones del Caso de Uso</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -667,9 +705,188 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="sumario" class="level1">
 <h1>Sumario</h1>
+<ul>
+<li><p>Descripción General</p></li>
+<li><p>Metodología</p></li>
+</ul>
+<hr>
+</section>
+<section id="descripción-general" class="level1">
+<h1>Descripción General</h1>
+<p>Este caso de uso se enfoca en la etapa crítica de <strong>preparación y ajuste de datos</strong> antes de realizar un modelado dietético. El objetivo es resolver los desafíos comunes que presentan las Encuestas de Gasto y Consumo de los Hogares (EGCH), como la medición inexacta del consumo, el consumo fuera del hogar y las inconsistencias de los datos. El proceso busca crear un conjunto de datos limpio y estandarizado, listo para ser utilizado en modelos de optimización o análisis nutricional.</p>
+<hr>
+</section>
+<section id="metodología" class="level1">
+<h1>Metodología</h1>
+<ol type="1">
+<li>Imputación de Consumo Faltante o Subdeclarado:</li>
+</ol>
+<p>Las encuestas a menudo no capturan el consumo de alimentos del hogar. Esto puede deberse a la dificultad para registrar alimentos auto-producidos, regalos o comidas consumidas fuera de casa.</p>
+<ul>
+<li><p><strong>Identificación del Problema:</strong> Se detectan hogares con un gasto en alimentos cero o extremadamente bajo en comparación con su nivel de ingresos y el tamaño del hogar.</p></li>
+<li><p><strong>Solución:</strong> Se imputa el gasto en alimentos de estos hogares basándose en la media o mediana del gasto de hogares con características socioeconómicas y demográficas similares (ingresos, tamaño, ubicación). La imputación puede tener en cuenta solo una variable o múltiples variables. Para esto, se puede utilizar un modelo de regresión, modelos de bosque aleatorio u otro procedimiento de imputación.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Instalar y cargar el paquete si no lo tienes</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("dplyr")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Supongamos que ya has cargado tu dataset en un dataframe llamado 'datos_encuesta'</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Por ejemplo, si es un archivo .csv:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># datos_encuesta &lt;- read.csv("ruta/al/archivo.csv")</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Aquí un ejemplo simple de datos para ilustrar</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>datos_encuesta <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">ingresos_hogar =</span> <span class="fu">c</span>(<span class="dv">25000</span>, <span class="dv">50000</span>, <span class="dv">75000</span>, <span class="dv">25000</span>, <span class="dv">50000</span>, <span class="dv">75000</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">gastos_alimentos =</span> <span class="fu">c</span>(<span class="dv">3000</span>, <span class="dv">6000</span>, <span class="cn">NA</span>, <span class="dv">3500</span>, <span class="cn">NA</span>, <span class="dv">8000</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Imputar valores faltantes de 'gastos_alimentos' usando la mediana por 'ingresos_hogar'</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>datos_imputados <span class="ot">&lt;-</span> datos_encuesta <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ingresos_hogar) <span class="sc">%&gt;%</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">gastos_alimentos =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(gastos_alimentos), <span class="fu">median</span>(gastos_alimentos, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), gastos_alimentos)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el resultado</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="2" type="1">
+<li>Conversión de Unidades y Asignación de Valores Nutricionales:</li>
+</ol>
+<p>Los alimentos se registran en diversas unidades (libras, kilos, bolsas, docenas, etc.). Para el modelado, es fundamental convertirlos a una unidad estándar, como gramos. Además, se debe vincular cada alimento a una tabla de composición nutricional.</p>
+<p><strong>Identificación del Problema:</strong> Las unidades inconsistentes impiden el cálculo de la ingesta nutricional.</p>
+<p><strong>Solución:</strong> Se crea un diccionario de conversión de unidades y se aplica a los datos. Luego, se enlaza el código de cada alimento con una base de datos nutricional de referencia (por ejemplo, la del USDA o una local).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Asegúrate de cargar la librería dplyr aquí</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Ajustar la cantidad de gramos por el factor de desperdicio</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#    y calcular las calorías consumidas en el hogar.</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>datos_ajustados <span class="ot">&lt;-</span> datos_preparados <span class="sc">%&gt;%</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(factores_ajuste_desperdicio, <span class="at">by =</span> <span class="st">"producto"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">cantidad_ajustada_gramos =</span> cantidad_gramos <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> factor_desperdicio),</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_en_hogar =</span> (cantidad_ajustada_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> calorias_por_100g</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Calcular las calorías totales por hogar y unir los datos de consumo fuera</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>datos_ingesta_total <span class="ot">&lt;-</span> datos_ajustados <span class="sc">%&gt;%</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Agrupamos por hogar para sumar las calorías consumidas en casa.</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id_hogar) <span class="sc">%&gt;%</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_consumidas_en_hogar =</span> <span class="fu">sum</span>(calorias_en_hogar, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Unimos con la tabla de consumo fuera del hogar.</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_consumo_fuera, <span class="at">by =</span> <span class="st">"id_hogar"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Y finalmente, calculamos la ingesta total de calorías.</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">ingesta_total_calorias =</span> calorias_consumidas_en_hogar <span class="sc">+</span> calorias_fuera_hogar</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el resultado final con las calorías totales por hogar</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(datos_ingesta_total)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="3" type="1">
+<li>Ajuste del Consumo por Desperdicio y Comidas Fuera del Hogar</li>
+</ol>
+<p>Las encuestas registran las compras, no el consumo final. Se debe considerar que una parte de lo comprado se desperdicia o se usa para alimentar a no miembros del hogar (por ejemplo, invitados). Además, el consumo de alimentos fuera del hogar (restaurantes, escuelas) debe ser contabilizado.</p>
+<p><strong>Identificación del Problema:</strong> El consumo declarado no refleja la ingesta real.</p>
+<p><strong>Solución:</strong> Se aplican factores de ajuste a los datos. Estos factores se obtienen de estudios de desperdicio y de los módulos de gasto fuera del hogar de la misma encuesta. Por ejemplo, si un estudio indica un 10% de desperdicio de frutas, la cantidad de frutas compradas se ajusta a un 90% para reflejar el consumo.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="do">##| label: ajuste_y_calculo_ingesta</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: true</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Asegúrate de cargar la librería dplyr aquí</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Preparación de los datos de ejemplo (complementando los pasos anteriores)</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Asumimos que datos_preparados ya está disponible con 'id_hogar'</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>datos_preparados <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">101</span>, <span class="dv">101</span>, <span class="dv">102</span>, <span class="dv">102</span>, <span class="dv">103</span>),</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">producto =</span> <span class="fu">c</span>(<span class="st">"harina"</span>, <span class="st">"leche"</span>, <span class="st">"azúcar"</span>, <span class="st">"harina"</span>, <span class="st">"leche"</span>, <span class="st">"azúcar"</span>),</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">cantidad_gramos =</span> <span class="fu">c</span>(<span class="dv">240</span>, <span class="dv">500</span>, <span class="fl">12.5</span>, <span class="dv">360</span>, <span class="dv">200</span>, <span class="dv">25</span>),</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">calorias_por_100g =</span> <span class="fu">c</span>(<span class="dv">364</span>, <span class="dv">42</span>, <span class="dv">387</span>),</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">proteinas_por_100g =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="fl">3.4</span>, <span class="dv">0</span>)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Factores de desperdicio por producto</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>factores_ajuste_desperdicio <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">producto =</span> <span class="fu">c</span>(<span class="st">"harina"</span>, <span class="st">"leche"</span>, <span class="st">"azúcar"</span>),</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">factor_desperdicio =</span> <span class="fu">c</span>(<span class="fl">0.05</span>, <span class="fl">0.02</span>, <span class="fl">0.01</span>) <span class="co"># 5%, 2% y 1% de desperdicio</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Ingesta nutricional estimada fuera del hogar por cada hogar</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>datos_consumo_fuera <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">102</span>, <span class="dv">103</span>),</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">calorias_fuera_hogar =</span> <span class="fu">c</span>(<span class="dv">1500</span>, <span class="dv">1200</span>, <span class="dv">1800</span>), <span class="co"># Calorías estimadas por un periodo de tiempo</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">proteinas_fuera_hogar =</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">40</span>, <span class="dv">60</span>)</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Ajuste del consumo en el hogar y cálculo de nutrientes</span></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Se usa 'left_join' para unir los datos de desperdicio y 'mutate' para ajustar las cantidades</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="co"># y calcular las calorías y proteínas consumidas.</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>ingesta_en_hogar <span class="ot">&lt;-</span> datos_preparados <span class="sc">%&gt;%</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(factores_ajuste_desperdicio, <span class="at">by =</span> <span class="st">"producto"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">cantidad_ajustada_gramos =</span> cantidad_gramos <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> factor_desperdicio),</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_en_hogar =</span> (cantidad_ajustada_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> calorias_por_100g,</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">proteinas_en_hogar =</span> (cantidad_ajustada_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> proteinas_por_100g</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Sumar la ingesta dentro del hogar y unir con la ingesta fuera</span></span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Se usa 'group_by' y 'summarise' para totalizar los nutrientes por hogar.</span></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Luego se une con los datos de consumo fuera del hogar y se calcula el total.</span></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>ingesta_total <span class="ot">&lt;-</span> ingesta_en_hogar <span class="sc">%&gt;%</span></span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id_hogar) <span class="sc">%&gt;%</span></span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_en_hogar_tot =</span> <span class="fu">sum</span>(calorias_en_hogar, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">proteinas_en_hogar_tot =</span> <span class="fu">sum</span>(proteinas_en_hogar, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_consumo_fuera, <span class="at">by =</span> <span class="st">"id_hogar"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">ingesta_total_calorias =</span> calorias_en_hogar_tot <span class="sc">+</span> calorias_fuera_hogar,</span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">ingesta_total_proteinas =</span> proteinas_en_hogar_tot <span class="sc">+</span> proteinas_fuera_hogar</span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el resultado final</span></span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(ingesta_total)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 7
+  id_hogar calorias_en_hogar_tot proteinas_en_hogar_tot calorias_fuera_hogar
+     &lt;dbl&gt;                 &lt;dbl&gt;                  &lt;dbl&gt;                &lt;dbl&gt;
+1      101                1084.                    39.5                 1500
+2      102                1327.                    40.9                 1200
+3      103                  95.8                    0                   1800
+# ℹ 3 more variables: proteinas_fuera_hogar &lt;dbl&gt;,
+#   ingesta_total_calorias &lt;dbl&gt;, ingesta_total_proteinas &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="resultados-y-conclusiones-del-caso-de-uso" class="level1">
+<h1>Resultados y Conclusiones del Caso de Uso</h1>
+<p>El resultado de este proceso es un conjunto de datos robusto y confiable, listo para ser utilizado en el <strong>modelaje dietético</strong>. Los ajustes y la estandarización aseguran que los análisis posteriores, como la identificación de déficits de micronutrientes, se basen en una representación más precisa de la dieta real de los hogares. Esto es crucial para que las políticas públicas, como los programas de fortificación de alimentos, sean más efectivas.</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<p>Hadley Wickham GG. R for Data Science [Internet]. 2.ª ed.&nbsp;Vol. 1. O´Reilly; 2023 [citado 7 de diciembre de 2024]. Disponible en: https://es.r4ds.hadley.nz/</p>
 
 
 </section>

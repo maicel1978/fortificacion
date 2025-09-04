@@ -9,27 +9,21 @@ description: "Se discuten algunos procedimeintos para ajustes contextuales y apl
 
 <!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
 
-
 <!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
-
-
 
 # Sumario
 
-- Factores Contextuales y su Impacto en el Consumo Aparente
+-   Factores Contextuales y su Impacto en el Consumo Aparente
 
-- Refinamientos Demográficos y de Ciclo Vital
+-   Refinamientos Demográficos y de Ciclo Vital
 
-- Variaciones Económicas y de Preferencia Cultural
+-   Variaciones Económicas y de Preferencia Cultural
 
-- Aplicaciones Avanzadas del EMA: Más Allá de la Fortificación
-
+-   Aplicaciones Avanzadas del EMA: Más Allá de la Fortificación
 
 ![](/static/images/modulo12.png){fig-align="center"}
 
-
----
-
+------------------------------------------------------------------------
 
 # Factores Contextuales y su Impacto en el Consumo Aparente
 
@@ -37,56 +31,50 @@ La premisa de que el consumo de alimentos es directamente proporcional a los req
 
 ![](/static/images/modulo12contexto.png){fig-align="center"}
 
-
-
----
+------------------------------------------------------------------------
 
 # Refinamientos Demográficos y de Ciclo Vital
 
 Las tablas de referencia de EMA ofrecen factores de conversión generales, pero un modelado más robusto exige mayor granularidad.
 
-- **Edad y Etapas Críticas del Ciclo Vital**: Más allá de las categorías estándar, es vital considerar la dinámica de la ingesta en grupos específicos. Por ejemplo, en el caso de la fortificación con hierro, la ingesta en adolescentes y mujeres embarazadas requiere una atención particular, ya que sus requerimientos son exponencialmente mayores. El modelo debe asignarles una ingesta proporcional, no solo en términos energéticos, sino de nutrientes específicos.
+-   **Edad y Etapas Críticas del Ciclo Vital**: Más allá de las categorías estándar, es vital considerar la dinámica de la ingesta en grupos específicos. Por ejemplo, en el caso de la fortificación con hierro, la ingesta en adolescentes y mujeres embarazadas requiere una atención particular, ya que sus requerimientos son exponencialmente mayores. El modelo debe asignarles una ingesta proporcional, no solo en términos energéticos, sino de nutrientes específicos.
 
-- **Ajustes por Nivel de Actividad Física**: El factor de conversión de 1.0 EMA se basa en una mujer moderadamente activa. Sin embargo, este no es un denominador universal. Es posible y necesario aplicar factores de ajuste basados en la ocupación o el estilo de vida reportado en las HCES. Por ejemplo, un factor de **0.85 EMA** podría aplicarse a un adulto mayor sedentario, mientras que uno de **1.2 EMA** sería más adecuado para un agricultor con un trabajo de alta intensidad.
+-   **Ajustes por Nivel de Actividad Física**: El factor de conversión de 1.0 EMA se basa en una mujer moderadamente activa. Sin embargo, este no es un denominador universal. Es posible y necesario aplicar factores de ajuste basados en la ocupación o el estilo de vida reportado en las HCES. Por ejemplo, un factor de **0.85 EMA** podría aplicarse a un adulto mayor sedentario, mientras que uno de **1.2 EMA** sería más adecuado para un agricultor con un trabajo de alta intensidad.
 
-- **Leche Materna y Consumo Infantil**: La ingesta de leche materna, una fuente crítica de nutrición para los lactantes, raramente se cuantifica en las HCES. Para evitar una subestimación drástica del consumo nutricional de este grupo, los analistas deben **imputar** el aporte energético y de nutrientes de la leche materna antes de aplicar cualquier método de distribución de alimentos del hogar.
+-   **Leche Materna y Consumo Infantil**: La ingesta de leche materna, una fuente crítica de nutrición para los lactantes, raramente se cuantifica en las HCES. Para evitar una subestimación drástica del consumo nutricional de este grupo, los analistas deben **imputar** el aporte energético y de nutrientes de la leche materna antes de aplicar cualquier método de distribución de alimentos del hogar.
 
----
+------------------------------------------------------------------------
 
 # Variaciones Económicas y de Preferencia Cultural
 
 El EMA asume una distribución proporcional de alimentos, pero la realidad económica y cultural del hogar la modula.
 
-- **Ingresos y Patrones de Consumo**: El gasto per cápita en alimentos puede usarse para refinar el análisis. Los hogares con bajos ingresos tienden a priorizar alimentos básicos ricos en energía pero pobres en micronutrientes, mientras que los de mayores ingresos diversifican su dieta. Un modelo avanzado del EMA podría usar el ingreso como una variable para **ajustar el consumo proporcional** de ciertos grupos de alimentos (ej. los cereales frente a las carnes o lácteos) según el estrato socioeconómico del hogar.
+-   **Ingresos y Patrones de Consumo**: El gasto per cápita en alimentos puede usarse para refinar el análisis. Los hogares con bajos ingresos tienden a priorizar alimentos básicos ricos en energía pero pobres en micronutrientes, mientras que los de mayores ingresos diversifican su dieta. Un modelo avanzado del EMA podría usar el ingreso como una variable para **ajustar el consumo proporcional** de ciertos grupos de alimentos (ej. los cereales frente a las carnes o lácteos) según el estrato socioeconómico del hogar.
 
-- **Desperdicio y Pérdidas de Alimentos**: El consumo de alimentos a nivel de hogar no es sinónimo de ingesta. El desperdicio, que ocurre a lo largo de toda la cadena alimentaria, debe ser considerado.  Para obtener un valor más preciso, se aplican **factores de desperdicio** específicos para cada tipo de alimento, lo que permite una estimación más realista de la ingesta individual y evita que se sobreestime la ingesta per cápita.
+-   **Desperdicio y Pérdidas de Alimentos**: El consumo de alimentos a nivel de hogar no es sinónimo de ingesta. El desperdicio, que ocurre a lo largo de toda la cadena alimentaria, debe ser considerado. Para obtener un valor más preciso, se aplican **factores de desperdicio** específicos para cada tipo de alimento, lo que permite una estimación más realista de la ingesta individual y evita que se sobreestime la ingesta per cápita.
 
----
+------------------------------------------------------------------------
 
 # Aplicaciones Avanzadas del EMA: Más Allá de la Fortificación
 
 La metodología del EMA, con sus refinamientos, se extiende más allá del modelaje de fortificación para convertirse en una herramienta clave en el análisis de la seguridad alimentaria y la formulación de políticas.
 
-- **Análisis de Seguridad Alimentaria**: El **consumo por EMA** puede usarse como un indicador de la suficiencia alimentaria de un hogar. Al comparar este valor con los requerimientos energéticos de la población, se puede identificar la proporción de hogares que viven con inseguridad alimentaria, lo cual es fundamental para el diseño de programas de asistencia.
+-   **Análisis de Seguridad Alimentaria**: El **consumo por EMA** puede usarse como un indicador de la suficiencia alimentaria de un hogar. Al comparar este valor con los requerimientos energéticos de la población, se puede identificar la proporción de hogares que viven con inseguridad alimentaria, lo cual es fundamental para el diseño de programas de asistencia.
 
--**Análisis de Vulnerabilidad**: La combinación del consumo ajustado por EMA con datos económicos, geográficos y demográficos permite a los analistas identificar a los **grupos más vulnerables** a la inseguridad nutricional. Este enfoque multidimensional proporciona la información necesaria para diseñar intervenciones nutricionales y políticas públicas que no solo sean efectivas, sino también equitativas y focalizadas.
+\-**Análisis de Vulnerabilidad**: La combinación del consumo ajustado por EMA con datos económicos, geográficos y demográficos permite a los analistas identificar a los **grupos más vulnerables** a la inseguridad nutricional. Este enfoque multidimensional proporciona la información necesaria para diseñar intervenciones nutricionales y políticas públicas que no solo sean efectivas, sino también equitativas y focalizadas.
 
-
----
-
-
-
+------------------------------------------------------------------------
 
 # Biblografía
 
-- Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Sa煤de P煤blica**. 2010;26(11):2188-2195.
+-   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Sa煤de P煤blica**. 2010;26(11):2188-2195.
 
-- Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67.
+-   Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67.
 
-- Fiedler JL, Lividini K. *From measuring to modeling food consumption: using household data to assess dietary quality*. **Food Nutr Bull**. 2014;35(1):59?1.
+-   Fiedler JL, Lividini K. *From measuring to modeling food consumption: using household data to assess dietary quality*. **Food Nutr Bull**. 2014;35(1):59?1.
 
-- Coates J, Swindale A, Bilinsky P. *Household Food Consumption and Expenditure Surveys: relevance, interpretation and use for food security analysis*. **J Nutr**. 2017;147(11):2081-?086.
+-   Coates J, Swindale A, Bilinsky P. *Household Food Consumption and Expenditure Surveys: relevance, interpretation and use for food security analysis*. **J Nutr**. 2017;147(11):2081-?086.
 
-- FAO/WHO/UNU. *Human Energy Requirements*. FAO Food and Nutrition Technical Report Series 1. Rome: FAO; 2004.
+-   FAO/WHO/UNU. *Human Energy Requirements*. FAO Food and Nutrition Technical Report Series 1. Rome: FAO; 2004.
 
-- FAO. *The State of Food Security and Nutrition in the World 2023*. Rome: FAO; 2023.
+-   FAO. *The State of Food Security and Nutrition in the World 2023*. Rome: FAO; 2023.

@@ -10,6 +10,12 @@ description: "Se realiza un ejemplo de evaluación de los programas de fortifica
 
 # Sumario
 
+- Contexto 
+
+- Metodología
+
+
+
 # Contexto y Desafío
 
 Supongamos que en la República Dominicana se ha implementado un programa de fortificación de harina de trigo con hierro. Como analistas, nuestra tarea es evaluar si el programa está alcanzando a la población y si el proceso de fortificación es adecuado. Para esto, combinaremos tres fuentes de datos:

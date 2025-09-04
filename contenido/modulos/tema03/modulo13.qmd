@@ -9,35 +9,23 @@ description: "Se describe el como se realiza la estimación de cobertura de veh�
 
 <!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
 
-
 <!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
-
 
 # Sumario
 
-- Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
+-   Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
 
-- Relación con el Consumo Aparente
+-   Relación con el Consumo Aparente
 
-- Consideraciones y Limitaciones  al Usar Datos HCES para la Cobertura
-
-
+-   Consideraciones y Limitaciones al Usar Datos HCES para la Cobertura
 
 ![](/static/images/modulo13.png){fig-align="center"}
 
-
-
-
-
-
 # Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES
-
 
 En el proceso de estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES se distinguen tres pasos fundamentales.
 
 ![](/static/images/modulo13proceso.png){fig-align="center"}
-
-
 
 ## Paso 1: Identificación y Preparación de Variables Clave en los Datos HCES
 
@@ -58,7 +46,6 @@ El primer paso crucial es identificar y organizar las variables necesarias dentr
     -   Otras variables como la etnicidad o cultura, si son relevantes para el contexto.
 -   **Ponderación de Datos:** Dado que las HCES son encuestas a gran escala diseñadas para ser representativas de la población, todos los cálculos de cobertura deben **ponderarse adecuadamente** utilizando las variables de ponderación proporcionadas en el conjunto de datos.
 
-
 ## Paso 2: Cuantificación de la "Cobertura" del Vehículo de Fortificación
 
 La **cobertura** se define como el **porcentaje de hogares que aparentemente consumen cualquier cantidad del vehículo alimentario** de interés durante el período de referencia de la encuesta (ej., los 7 días de recuerdo).
@@ -75,13 +62,13 @@ La capacidad de las HCES para estratificar los datos permite una comprensión m�
 
 -   **Nivel Subnacional (Estratificación):** Para obtener una visión más granular y dirigir mejor las intervenciones, la cobertura se debe estratificar por:
 
-  -   **Regiones Administrativas:** Permite identificar variaciones geográficas en el consumo.
-    
-  -   **Áreas Urbanas vs. Rurales:** Fundamental, ya que las poblaciones rurales de menor posición socioeconómica a menudo tienen un bajo consumo aparente de alimentos fortificados.
-    
-  -   **Nivel Socioeconómico (SEP):** El análisis por quintiles de gasto per cápita permite identificar si el vehículo llega a las poblaciones más pobres o a los grupos con mayores necesidades de micronutrientes.
-    
-  -   **Otros Subgrupos:** Si los datos lo permiten, se pueden considerar otras estratificaciones como la etnicidad o grupos culturales con patrones de consumo distintos.
+-   **Regiones Administrativas:** Permite identificar variaciones geográficas en el consumo.
+
+-   **Áreas Urbanas vs. Rurales:** Fundamental, ya que las poblaciones rurales de menor posición socioeconómica a menudo tienen un bajo consumo aparente de alimentos fortificados.
+
+-   **Nivel Socioeconómico (SEP):** El análisis por quintiles de gasto per cápita permite identificar si el vehículo llega a las poblaciones más pobres o a los grupos con mayores necesidades de micronutrientes.
+
+-   **Otros Subgrupos:** Si los datos lo permiten, se pueden considerar otras estratificaciones como la etnicidad o grupos culturales con patrones de consumo distintos.
 
 ## Relación con el Consumo Aparente
 
@@ -93,13 +80,11 @@ Aunque la pregunta se centra en la "cobertura", es importante entender que la co
 
 ------------------------------------------------------------------------
 
-# Consideraciones y Limitaciones  al Usar Datos HCES para la Cobertura
+# Consideraciones y Limitaciones al Usar Datos HCES para la Cobertura
 
-El  uso de Datos HCES para la Cobertura tiene limitaciones como:
-
+El uso de Datos HCES para la Cobertura tiene limitaciones como:
 
 ![](/static/images/modulo13limitaciones.png){fig-align="center"}
-
 
 -   **Utilidad a Pesar de las Limitaciones:** A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.
 
@@ -107,4 +92,4 @@ Al seguir estos pasos, podrás utilizar los datos de las HCES para obtener una e
 
 # Bibliografia
 
-- Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.
+-   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

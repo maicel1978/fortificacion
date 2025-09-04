@@ -10,25 +10,21 @@ description: "Se describe El Método del Equivalente de Mujer Adulta (EMA/AFE), 
 
 <!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
 
-
 <!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
-
-
 
 # Sumario
 
-- Contexto y Relevancia del Método
+-   Contexto y Relevancia del Método
 
-- La Mujer Adulta (18-29 años) como Punto de Referencia
+-   La Mujer Adulta (18-29 años) como Punto de Referencia
 
-- Cálculo de Factores de Conversión de EMA
+-   Cálculo de Factores de Conversión de EMA
 
-- Ventajas y Desventajas del Método EMA
+-   Ventajas y Desventajas del Método EMA
 
-- Aplicación Práctica del Método EMA/AFE
+-   Aplicación Práctica del Método EMA/AFE
 
 ![](/static/images/modulo11.png){fig-align="center"}
-
 
 # Contexto y Relevancia del Método
 
@@ -36,36 +32,34 @@ Para analizar la ingesta de alimentos en los hogares, se pueden utilizar varios 
 
 ![](/static/images/modulo11metodos.png){fig-align="center"}
 
-
 # La Mujer Adulta (18-29 años) como Punto de Referencia
-
 
 El método EMA/AFE establece a una **mujer de 18 a 29 años, saludable y con un nivel de actividad moderado**, como la unidad base para la conversión. Su requerimiento energético promedio se considera **1.0 EMA**. Este no es un valor absoluto, sino un punto de referencia que permite expresar el consumo de los demás miembros del hogar en relación con esta unidad. Por ejemplo, si un hombre tiene un factor de 1.25 EMA, su requerimiento energético es un 25% mayor que el de la mujer de referencia, mientras que un niño con un factor de 0.6 EMA tiene un requerimiento del 60%.
 
----
+------------------------------------------------------------------------
 
-#  Cálculo de Factores de Conversión de EMA
+# Cálculo de Factores de Conversión de EMA
 
 Los factores de conversión se derivan de las tablas de requerimientos energéticos recomendados por organismos internacionales. A continuación, se presenta un ejemplo de cómo se calculan y aplican estos factores:
 
-- **Paso 1: Obtener las Necesidades Energéticas Promedio**: Se utilizan los datos de requerimientos de energía (en kilocalorías o kilojulios) de grupos de edad y sexo, por ejemplo, los proporcionados por la FAO o la OMS.
+-   **Paso 1: Obtener las Necesidades Energéticas Promedio**: Se utilizan los datos de requerimientos de energía (en kilocalorías o kilojulios) de grupos de edad y sexo, por ejemplo, los proporcionados por la FAO o la OMS.
 
-- **Paso 2: Establecer la Referencia**: La necesidad energética promedio de la mujer de 18-29 años se convierte en el denominador para todos los cálculos.
+-   **Paso 2: Establecer la Referencia**: La necesidad energética promedio de la mujer de 18-29 años se convierte en el denominador para todos los cálculos.
 
-- **Paso 3: Calcular el Factor**: El factor de conversión para cada grupo de edad y sexo se calcula dividiendo sus necesidades energéticas promedio por las de la mujer de referencia.
+-   **Paso 3: Calcular el Factor**: El factor de conversión para cada grupo de edad y sexo se calcula dividiendo sus necesidades energéticas promedio por las de la mujer de referencia.
 
 A continuación, una tabla con factores de conversión de ejemplo, basados en necesidades energéticas típicas:
 
-| Grupo de Edad y Sexo         | Necesidad Energética (kcal/día) | Factor EMA/AFE (respecto a 2,000 kcal) |
-| :--------------------------- | :------------------------------ | :------------------------------------- |
-| Niños (1-3 años)             | 1,200                           | 0.6                                    |
-| Niños (4-8 años)             | 1,600                           | 0.8                                    |
-| Hombres (18-29 años)         | 2,500                           | 1.25                                   |
-| Mujeres (18-29 años)         | 2,000                           | 1.00                                   |
-| Hombres (30-50 años)         | 2,400                           | 1.20                                   |
-| Mujeres (30-50 años)         | 1,900                           | 0.95                                   |
+| Grupo de Edad y Sexo | Necesidad Energética (kcal/día) | Factor EMA/AFE (respecto a 2,000 kcal) |
+|:---|:---|:---|
+| Niños (1-3 años) | 1,200 | 0.6 |
+| Niños (4-8 años) | 1,600 | 0.8 |
+| Hombres (18-29 años) | 2,500 | 1.25 |
+| Mujeres (18-29 años) | 2,000 | 1.00 |
+| Hombres (30-50 años) | 2,400 | 1.20 |
+| Mujeres (30-50 años) | 1,900 | 0.95 |
 
----
+------------------------------------------------------------------------
 
 # Ventajas y Desventajas del Método EMA
 
@@ -73,23 +67,19 @@ El Método del Equivalente de Mujer Adulta (EMA/AFE) tiene ventajas y desventaja
 
 ![](/static/images/moodulo11ventajas.png){fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 # Aplicación Práctica del Método EMA/AFE
 
 El principal uso de este método es para ajustar el consumo de alimentos reportado en las encuestas de hogares, lo que permite estimar una **distribución más equitativa y precisa de los alimentos**.
 
-- **Paso 1: Totalizar los Factores EMA del Hogar**: Suma los factores de conversión de todos los miembros del hogar. Por ejemplo, un hogar con una madre (1.0), un padre (1.25) y un hijo (0.8) tendría un total de 3.05 EMA.
+-   **Paso 1: Totalizar los Factores EMA del Hogar**: Suma los factores de conversión de todos los miembros del hogar. Por ejemplo, un hogar con una madre (1.0), un padre (1.25) y un hijo (0.8) tendría un total de 3.05 EMA.
 
+-   **Paso 2: Ajustar el Consumo Total del Hogar**: Divide el consumo total de alimentos del hogar (en kilogramos, gramos, etc.) por el total de EMA calculado en el paso anterior. Esto te da el **consumo por EMA**, que es un valor estandarizado y comparable entre diferentes hogares.
 
-- **Paso 2: Ajustar el Consumo Total del Hogar**: Divide el consumo total de alimentos del hogar (en kilogramos, gramos, etc.) por el total de EMA calculado en el paso anterior. Esto te da el **consumo por EMA**, que es un valor estandarizado y comparable entre diferentes hogares.
+-   **Paso 3: Estimar la Distribución de Alimentos**: Al ajustar el consumo total de un hogar por el factor EMA, obtienes una estimación más precisa de la distribución per cápita de los alimentos. Esto permite que el modelo de fortificación identifique con mayor precisión los grupos demográficos con ingestas dietéticas inadecuadas, independientemente del tamaño y composición de su hogar.
 
-
-- **Paso 3: Estimar la Distribución de Alimentos**: Al ajustar el consumo total de un hogar por el factor EMA, obtienes una estimación más precisa de la distribución per cápita de los alimentos. Esto permite que el modelo de fortificación identifique con mayor precisión los grupos demográficos con ingestas dietéticas inadecuadas, independientemente del tamaño y composición de su hogar.
-
-
----
+------------------------------------------------------------------------
 
 Preparándonos para el Ejemplo Práctico
 
@@ -97,7 +87,6 @@ En la sección de casos de uso, aplicaremos lo que hemos aprendido sobre el mét
 
 # Biblografía
 
-- Energy and protein requirements. Report of a joint FAO/WHO/UNU Expert Consultation. World Health Organ Tech Rep Ser. 1985;724:1-206. PMID: 3937340.
+-   Energy and protein requirements. Report of a joint FAO/WHO/UNU Expert Consultation. World Health Organ Tech Rep Ser. 1985;724:1-206. PMID: 3937340.
 
-- Food and Agriculture Organization of the United Nations, United Nations University, World Health Organization, editores. Human energy requirements: report of a Joint FAO/WHO/UNU Expert Consultation: Rome, 17-24 October 2001. Rome: Food and Agricultural Organization of the United Nations; 2004. 96 p. (FAO, food and nutrition technical report series). 
-
+-   Food and Agriculture Organization of the United Nations, United Nations University, World Health Organization, editores. Human energy requirements: report of a Joint FAO/WHO/UNU Expert Consultation: Rome, 17-24 October 2001. Rome: Food and Agricultural Organization of the United Nations; 2004. 96 p. (FAO, food and nutrition technical report series).

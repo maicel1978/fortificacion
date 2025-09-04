@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -616,6 +651,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#introducción-por-qué-analizar-la-enhogar" id="toc-introducción-por-qué-analizar-la-enhogar" class="nav-link" data-scroll-target="#introducción-por-qué-analizar-la-enhogar">Introducción: Por qué Analizar la ENHOGAR?</a></li>
+  <li><a href="#paso-1-accediendo-y-conectando-las-fuentes-de-datos" id="toc-paso-1-accediendo-y-conectando-las-fuentes-de-datos" class="nav-link" data-scroll-target="#paso-1-accediendo-y-conectando-las-fuentes-de-datos">Paso 1: Accediendo y Conectando las Fuentes de Datos</a></li>
+  <li><a href="#paso-2-ajustes-por-desperdicio-y-consumo-fuera-del-hogar" id="toc-paso-2-ajustes-por-desperdicio-y-consumo-fuera-del-hogar" class="nav-link" data-scroll-target="#paso-2-ajustes-por-desperdicio-y-consumo-fuera-del-hogar">Paso 2: Ajustes por Desperdicio y Consumo Fuera del Hogar</a></li>
+  <li><a href="#paso-3-el-coeficiente-de-engel-y-la-inseguridad-alimentaria-en-rd" id="toc-paso-3-el-coeficiente-de-engel-y-la-inseguridad-alimentaria-en-rd" class="nav-link" data-scroll-target="#paso-3-el-coeficiente-de-engel-y-la-inseguridad-alimentaria-en-rd">Paso 3: El Coeficiente de Engel y la Inseguridad Alimentaria en RD</a></li>
+  <li><a href="#conclusión-del-dato-a-la-política-pública" id="toc-conclusión-del-dato-a-la-política-pública" class="nav-link" data-scroll-target="#conclusión-del-dato-a-la-política-pública">Conclusión: Del Dato a la Política Pública</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -626,7 +666,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo18.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo19.html">Módulo 19</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 19</h1>
-<p class="subtitle lead">Caso de uso 2: Modelado Dietético para el Análisis de la Brecha Nutricional en Hogares Dominicanos</p>
+<p class="subtitle lead">Caso de Uso 2: De la Canasta Básica a la Nutrición: Un Viaje con la ENHOGAR de República Dominicana</p>
 </div>
 
 <div>
@@ -667,9 +707,134 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="sumario" class="level1">
 <h1>Sumario</h1>
+<hr>
+</section>
+<section id="introducción-por-qué-analizar-la-enhogar" class="level1">
+<h1>Introducción: Por qué Analizar la ENHOGAR?</h1>
+<p>Bienvenidos a esta lección práctica. Como analistas de datos, a menudo nos enfrentamos a la tarea de extraer sentido de grandes conjuntos de datos. Cuando se trata de seguridad alimentaria y nutrición, las <strong>Encuestas de Consumo y Gasto de los Hogares (HCES)</strong>, como la <strong>Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR)</strong> de la República Dominicana, son un tesoro de información.</p>
+<p>Nuestro objetivo en este caso de uso es ir más allá del simple gasto en alimentos para estimar el consumo nutricional real de los hogares dominicanos. Esto nos permitirá comprender patrones de dieta, identificar vulnerabilidades y generar evidencia para la toma de decisiones en políticas públicas.</p>
+<hr>
+</section>
+<section id="paso-1-accediendo-y-conectando-las-fuentes-de-datos" class="level1">
+<h1>Paso 1: Accediendo y Conectando las Fuentes de Datos</h1>
+<p>El primer y más crítico paso es obtener los datos. La Oficina Nacional de Estadística (ONE) es la fuente oficial. Los microdatos de la ENHOGAR están disponibles en su sitio web, generalmente en formatos como .sav (SPSS) o .dta (Stata), que podemos importar fácilmente a R. Un análisis de consumo de alimentos a este nivel requiere <strong>conectar al menos dos fuentes de datos</strong>:</p>
+<p><strong>La Encuesta de Consumo y Gasto</strong>: Contiene la información de las compras de alimentos del hogar.</p>
+<p><strong>La Tabla de Composición de Alimentos:</strong> Proporciona los valores nutricionales (calorías, proteínas, etc.) por cada 100 gramos de un alimento.</p>
+<p><strong>El Problema a Resolver:</strong> Los códigos de productos en la encuesta de consumo no suelen ser los mismos que en la tabla de composición nutricional. Esto requiere un proceso de armonización y estandarización de unidades.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulando la importación de datos reales de la ENHOGAR y tablas de referencia.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Referencia de los datos: Oficina Nacional de Estadística (ONE), ENHOGAR 2022.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Nota: La base de datos completa de ENHOGAR está compuesta por múltiples archivos.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Aquí usamos una versión simplificada para la demostración.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabla de consumo (simula un subconjunto de la ENHOGAR)</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>consumo_hogar <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">101</span>, <span class="dv">102</span>, <span class="dv">102</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="co"># El 'codigo_producto' de la ENHOGAR es clave para la armonización.</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">codigo_producto =</span> <span class="fu">c</span>(<span class="dv">205</span>, <span class="dv">310</span>, <span class="dv">205</span>, <span class="dv">420</span>), </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">cantidad =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">500</span>, <span class="dv">1</span>, <span class="dv">1</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">unidad_original =</span> <span class="fu">c</span>(<span class="st">"lb"</span>, <span class="st">"g"</span>, <span class="st">"lb"</span>, <span class="st">"unidad"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabla de armonización de unidades (creada por el analista)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>conversiones <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">unidad_original =</span> <span class="fu">c</span>(<span class="st">"lb"</span>, <span class="st">"g"</span>, <span class="st">"unidad"</span>),</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">factor_a_gramos =</span> <span class="fu">c</span>(<span class="fl">453.59</span>, <span class="dv">1</span>, <span class="dv">150</span>) <span class="co"># Ejemplo: 1 unidad de huevo ≈ 150g</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabla de composición nutricional (basada en una FCD real, como la USDA o la de FAO/CIAT)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Referencia: Tablas de Composición de Alimentos del INCAP o USDA FoodData Central.</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>composicion_nutricional <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="at">codigo_producto =</span> <span class="fu">c</span>(<span class="dv">205</span>, <span class="dv">310</span>, <span class="dv">420</span>), <span class="co"># Ejemplo: 205=Arroz, 310=Leche líquida, 420=Huevos</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">alimento =</span> <span class="fu">c</span>(<span class="st">"arroz_blanco"</span>, <span class="st">"leche_liquida"</span>, <span class="st">"huevo"</span>),</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">calorias_por_100g =</span> <span class="fu">c</span>(<span class="dv">365</span>, <span class="dv">61</span>, <span class="dv">155</span>),</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">proteinas_por_100g =</span> <span class="fu">c</span>(<span class="fl">7.1</span>, <span class="fl">3.2</span>, <span class="fl">12.6</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Unir y estandarizar los datos con dplyr</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>datos_estandarizados <span class="ot">&lt;-</span> consumo_hogar <span class="sc">%&gt;%</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(conversiones, <span class="at">by =</span> <span class="st">"unidad_original"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">cantidad_gramos =</span> cantidad <span class="sc">*</span> factor_a_gramos</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(composicion_nutricional, <span class="at">by =</span> <span class="st">"codigo_producto"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_totales =</span> (cantidad_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> calorias_por_100g,</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">proteinas_totales =</span> (cantidad_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> proteinas_por_100g</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Análisis Crítico:</strong> La clave aquí es el codigo_producto. En una base de datos real, este código es la columna que une las tablas de la encuesta con las de composición nutricional. Las tablas de conversión de unidades y nutrición son estáticas y deben ser construidas y validadas con fuentes fiables.</p>
+</section>
+<section id="paso-2-ajustes-por-desperdicio-y-consumo-fuera-del-hogar" class="level1">
+<h1>Paso 2: Ajustes por Desperdicio y Consumo Fuera del Hogar</h1>
+<p>La cifra de compra no es la ingesta real. En los hogares dominicanos, como en cualquier otro, hay desperdicio de alimentos y consumo en la calle. Para un análisis más preciso, debemos incorporar estos factores.</p>
+<p><strong>El Problema a Resolver:</strong> El consumo de un hogar es una mezcla de alimentos comprados, alimentos consumidos en la calle y aquellos que se pierden o desperdician.</p>
+<p>La Solución: Utilizar <em>left_join y summarise</em> de manera estratégica para aplicar factores de ajuste y consolidar la información.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Continuamos desde el dataframe 'datos_estandarizados'.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Factores de desperdicio. Estos porcentajes son estimaciones basadas en estudios.</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Referencia: FAO, "Pérdidas y desperdicios de alimentos en América Latina y el Caribe".</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>factores_desperdicio <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">codigo_producto =</span> <span class="fu">c</span>(<span class="dv">205</span>, <span class="dv">310</span>, <span class="dv">420</span>), </span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">factor_desperdicio =</span> <span class="fu">c</span>(<span class="fl">0.10</span>, <span class="fl">0.03</span>, <span class="fl">0.05</span>) <span class="co"># 10% arroz, 3% leche, 5% huevo</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Tabla de consumo fuera del hogar (simulada a partir de un módulo de la ENHOGAR)</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Referencia: Los módulos de gasto en la ENHOGAR contienen información sobre gastos en restaurantes, etc.</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>consumo_fuera_hogar <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">102</span>),</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">calorias_estimadas_fuera =</span> <span class="fu">c</span>(<span class="dv">1800</span>, <span class="dv">2200</span>),</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">proteinas_estimadas_fuera =</span> <span class="fu">c</span>(<span class="dv">60</span>, <span class="dv">75</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Proceso de cálculo de la ingesta total</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>ingesta_total <span class="ot">&lt;-</span> datos_estandarizados <span class="sc">%&gt;%</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(factores_desperdicio, <span class="at">by =</span> <span class="st">"codigo_producto"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">cantidad_ajustada_gramos =</span> cantidad_gramos <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">-</span> factor_desperdicio),</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_en_hogar =</span> (cantidad_ajustada_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> calorias_por_100g,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">proteinas_en_hogar =</span> (cantidad_ajustada_gramos <span class="sc">/</span> <span class="dv">100</span>) <span class="sc">*</span> proteinas_por_100g</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id_hogar) <span class="sc">%&gt;%</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">calorias_en_hogar_tot =</span> <span class="fu">sum</span>(calorias_en_hogar, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">proteinas_en_hogar_tot =</span> <span class="fu">sum</span>(proteinas_en_hogar, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(consumo_fuera_hogar, <span class="at">by =</span> <span class="st">"id_hogar"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">ingesta_total_calorias =</span> calorias_en_hogar_tot <span class="sc">+</span> calorias_estimadas_fuera,</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">ingesta_total_proteinas =</span> proteinas_en_hogar_tot <span class="sc">+</span> proteinas_estimadas_fuera</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Análisis Crítico:</strong> Este flujo de trabajo dplyr es modular y fácil de auditar. Cada paso tiene un propósito claro, desde el ajuste de unidades hasta la suma final de nutrientes.</p>
+</section>
+<section id="paso-3-el-coeficiente-de-engel-y-la-inseguridad-alimentaria-en-rd" class="level1">
+<h1>Paso 3: El Coeficiente de Engel y la Inseguridad Alimentaria en RD</h1>
+<p>Ahora que tenemos la ingesta nutricional, podemos contextualizarla. Una de las variables más potentes de la ENHOGAR es el gasto total del hogar. La relación entre el gasto en alimentos y el gasto total es el Coeficiente de Engel, un indicador clásico de bienestar. Un coeficiente alto significa que una gran parte del presupuesto se destina a la alimentación, lo que indica un menor poder adquisitivo.</p>
+<p>Análisis de la Realidad Dominicana: Un reporte de la CIF de abril de 2025 para la República Dominicana estimó que 925,000 personas se encontraban en una situación de inseguridad alimentaria aguda entre octubre de 2024 y enero de 2025. Este tipo de análisis se basa en datos como los de la ENHOGAR y refuerza la necesidad de comprender los patrones de consumo para diseñar intervenciones efectivas.</p>
+</section>
+<section id="conclusión-del-dato-a-la-política-pública" class="level1">
+<h1>Conclusión: Del Dato a la Política Pública</h1>
+<p>Este caso de uso muestra cómo, con las herramientas adecuadas y un flujo de trabajo riguroso, podemos transformar datos complejos de una encuesta en conocimiento accionable. Al considerar las conversiones de unidades, los ajustes por desperdicio y la ingesta fuera del hogar, nuestro análisis de la ENHOGAR pasa de ser una simple descripción de gastos a una estimación robusta del consumo nutricional. Esto es crucial para informar políticas públicas, desde la <strong>fortificación de alimentos</strong> hasta la focalización de programas de <strong>asistencia social</strong>, asegurando que las intervenciones lleguen a los hogares más vulnerables de la República Dominicana.</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<ul>
+<li>Oficina Nacional de Estadística (ONE), República Dominicana. (2022). Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR 2022), Microdatos y Metadatos.</li>
+</ul>
+<p>https://www.one.gob.do/</p>
+<ul>
+<li>Instituto de Nutrición de Centroamérica y Panamá (INCAP) y USDA. (Varias ediciones). Tablas de Composición de Alimentos.</li>
+</ul>
+<p>https://fdc.nal.usda.gov/</p>
+<ul>
+<li><p>Wickham, H. y Grolemund, G. (2017). R for Data Science. O’Reilly Media.</p></li>
+<li><p>Iniciativa de la Clasificación Integrada de la Seguridad Alimentaria en Fases (CIF). (2025). Clasificación de la Inseguridad Alimentaria Aguda en la República Dominicana: Análisis de octubre 2024 - enero 2025.</p></li>
+</ul>
+<p>https://www.google.com/search?q=https://www.ipcinfo.org/ipcinfo-website/home/es/</p>
+<ul>
+<li>Banco Mundial, BID, PNUD, FAO, CEPAL. (2022). Panorama de la Seguridad Alimentaria y Nutricional en América Latina y el Caribe.</li>
+</ul>
 
 
 </section>

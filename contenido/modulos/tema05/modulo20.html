@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -616,6 +651,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#contexto-y-metodología" id="toc-contexto-y-metodología" class="nav-link" data-scroll-target="#contexto-y-metodología">Contexto y Metodología</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -626,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo18.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo20.html">Módulo 20</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 20</h1>
-<p class="subtitle lead">Caso de uso 2: Modelaje Dietético con Datos de HCES (Datos de la República Dominicana )</p>
+<p class="subtitle lead">Caso de uso 3: Prevalencia de Ingesta Inadecuada de Nutrientes con el Método del Punto de Corte del RPE )</p>
 </div>
 
 <div>
@@ -667,9 +703,53 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="sumario" class="level1">
 <h1>Sumario</h1>
+<ul>
+<li><p>Contexto y Metodología</p></li>
+<li><p>Código de Ejemplo con nutriR</p></li>
+</ul>
+</section>
+<section id="contexto-y-metodología" class="level1">
+<h1>Contexto y Metodología</h1>
+<p>El método del punto de corte del RPE es una forma sencilla de estimar la prevalencia de una ingesta inadecuada de un nutriente en una población. La premisa es simple: si la distribución de la ingesta habitual de un nutriente es simétrica, la prevalencia de ingesta inadecuada es aproximadamente igual a la proporción de individuos cuya ingesta es menor que el RPE.</p>
+<p>Este método es útil para análisis rápidos y es ideal para nutrientes cuya ingesta diaria no varía demasiado. Sin embargo, como ya se ha mencionado no es adecuado para todos los nutrientes ni para analizar la ingesta a nivel individual, ya que no considera la variabilidad diaria.</p>
+<p><strong>Código de Ejemplo con nutriR</strong></p>
+<p>El paquete <em>nutriR</em> ha sido diseñado para este propósito. Aquí te mostramos cómo usarlo con datos de la ENHOGAR para estimar la prevalencia de deficiencia de hierro en la población.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Primero, asegúrate de tener el paquete instalado:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("nutriR")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(nutriR)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Prepara los datos de ingesta.</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Asume que 'ingesta_total' es el dataframe del caso de uso anterior</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># y que ha sido enriquecido con ingesta de hierro.</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulamos los datos de ingesta de hierro por hogar (en mg).</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ingesta_total <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">102</span>, <span class="dv">103</span>, <span class="dv">104</span>, <span class="dv">105</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">ingesta_hierro_mg =</span> <span class="fu">c</span>(<span class="fl">12.5</span>, <span class="fl">9.8</span>, <span class="fl">15.0</span>, <span class="fl">10.2</span>, <span class="fl">8.9</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Prepara los requerimientos nutricionales del grupo de interés.</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Usamos un RPE de ejemplo para mujeres adultas, una población vulnerable.</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Referencia: "Dietary Reference Intakes" de la National Academy of Medicine (NAM).</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Para este ejemplo, un RPE de 8.1 mg de hierro para mujeres de 19-50 años.</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>RPE_hierro <span class="ot">&lt;-</span> <span class="fl">8.1</span> </span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Calcula la prevalencia de ingesta inadecuada usando la función del paquete.</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># El paquete 'nutriR' facilita este cálculo.</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># La función 'calc_prevalencia_rpe' toma un vector de ingestas y el RPE.</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>prevalencia_inadecuada <span class="ot">&lt;-</span> nutriR<span class="sc">::</span><span class="fu">calc_prevalencia_rpe</span>(</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  ingesta_hierro_mg, </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">RPE =</span> RPE_hierro</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Imprime el resultado.</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(prevalencia_inadecuada)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Análisis Crítico:</strong> Este método es rápido y fácil de interpretar. Sin embargo, ignora que la ingesta de una persona puede variar significativamente de un día a otro. Si solo tuviéramos un día de ingesta, el resultado sería sesgado. Es por eso que se necesitan métodos más complejos como el que se presenta a continuación.</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<p>https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages</p>
 
 
 </section>

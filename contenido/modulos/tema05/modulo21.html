@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -615,7 +650,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">sumario</a></li>
+  <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#contexto-y-metodología" id="toc-contexto-y-metodología" class="nav-link" data-scroll-target="#contexto-y-metodología">Contexto y Metodología</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -626,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo18.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo21.html">Módulo 21</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 21</h1>
-<p class="subtitle lead">Caso de uso 4: Uso práctico del modelo probabilístico para la evaluación del hierro</p>
+<p class="subtitle lead">Caso de uso 4: Estimación de la Ingesta de Hierro con el Modelo Probabilístico SPADE</p>
 </div>
 
 <div>
@@ -666,10 +702,60 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <section id="sumario" class="level1">
-<h1>sumario</h1>
+<h1>Sumario</h1>
+<ul>
+<li><p>Contexto y Metodología</p></li>
+<li><p>Código de Ejemplo con SPADE.RIVM</p></li>
+</ul>
+</section>
+<section id="contexto-y-metodología" class="level1">
+<h1>Contexto y Metodología</h1>
+<p>El modelo probabilístico es la técnica más precisa para evaluar la adecuación de nutrientes. A diferencia del método del punto de corte, este modelo considera la variabilidad de la ingesta intraindividual (la varianza del consumo de una persona a lo largo del tiempo). Los estudios que usan este modelo requieren múltiples días de registro de la ingesta de un subconjunto de la población para estimar la distribución de la ingesta habitual.</p>
+<p>El programa estadístico SPADE, implementado en el paquete SPADE.RIVM, es una herramienta líder para este tipo de análisis.</p>
+<p><strong>Código de Ejemplo con SPADE.RIVM</strong></p>
+<p>Para este ejemplo, simularemos un subconjunto de datos con la ingesta diaria de hierro de varios hogares durante 3 días.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Primero, asegúrate de tener el paquete instalado:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("SPADE.RIVM")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(SPADE.RIVM)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Prepara los datos de la ingesta diaria de hierro.</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># El formato requerido es una tabla con id, día y la ingesta del nutriente.</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulamos datos de una sub-muestra de la ENHOGAR, con 3 días de ingesta.</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>datos_diarios_hierro <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_persona =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">3</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">dia =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">ingesta_hierro_mg =</span> <span class="fu">c</span>(<span class="fl">11.5</span>, <span class="fl">10.2</span>, <span class="fl">13.1</span>, <span class="fl">9.8</span>, <span class="fl">8.5</span>, <span class="fl">11.0</span>, <span class="fl">15.0</span>, <span class="fl">14.5</span>, <span class="fl">16.2</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Estima la ingesta habitual y la varianza.</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># La función 'spade' del paquete realiza el modelado probabilístico.</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Requiere los datos, el identificador del individuo y el nombre de la variable de ingesta.</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>modelo_spade <span class="ot">&lt;-</span> <span class="fu">spade</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> datos_diarios_hierro,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="st">"id_persona"</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">ingesta_diaria =</span> <span class="st">"ingesta_hierro_mg"</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Calcula la prevalencia de ingesta inadecuada.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Usa la distribución de la ingesta habitual estimada por el modelo</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># y la compara con el RPE.</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Asume que ya tenemos el RPE de hierro para la población.</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>prevalencia_spade <span class="ot">&lt;-</span> <span class="fu">calc_prevalencia_rpe</span>(</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  modelo_spade, </span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">RPE =</span> RPE_hierro</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Imprime los resultados del modelo y la prevalencia.</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(prevalencia_spade)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Análisis Crítico:</strong> Este método es más costoso en términos de recolección de datos (requiere múltiples días), pero es mucho más robusto. Es la “mejor práctica” para estimar la ingesta habitual de nutrientes y el riesgo de ingestas inadecuadas.</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<ul>
+<li>https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages</li>
+</ul>
 
 
 </section>

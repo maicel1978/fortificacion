@@ -8,7 +8,7 @@
 
 <meta name="author" content="Maicel Monzon &amp; Yarisa Domínguez">
 <meta name="dcterms.date" content="2025-07-01">
-<meta name="description" content="Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación">
+<meta name="description" content="Se describe un caso de uso para el Análisis Complementario de la Calidad de la Dieta">
 
 <title>Módulo 22 – Fortificación de alimentos a gran escala</title>
 <style>
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -616,6 +651,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sumario" id="toc-sumario" class="nav-link active" data-scroll-target="#sumario">Sumario</a></li>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#contexto-y-metodología" id="toc-contexto-y-metodología" class="nav-link" data-scroll-target="#contexto-y-metodología">Contexto y Metodología</a></li>
   <li><a href="#biblografía" id="toc-biblografía" class="nav-link" data-scroll-target="#biblografía">Biblografía</a></li>
   </ul>
 </nav>
@@ -626,12 +663,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../contenido/index.html">Contenidos</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/index.html">Módulos e-learning</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo18.html">Tema05</a></li><li class="breadcrumb-item"><a href="../../../contenido/modulos/tema05/modulo22.html">Módulo 22</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Módulo 22</h1>
-<p class="subtitle lead">Caso de uso 5: Cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR y el FFL como referencia</p>
+<p class="subtitle lead">Caso de uso 5: Análisis Complementario de la Calidad de la Dieta</p>
 </div>
 
 <div>
   <div class="description">
-    Se describe cálculo de las adiciones de micronutrientes a los vehículos de fortificación seleccionados, utilizando el EAR como referencia y construcción de escenarios de fortificación
+    Se describe un caso de uso para el Análisis Complementario de la Calidad de la Dieta
   </div>
 </div>
 
@@ -667,9 +704,58 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="sumario" class="level1">
 <h1>Sumario</h1>
+<ul>
+<li><p>Contexto y Metodología</p></li>
+<li><p>Código de Ejemplo</p></li>
+</ul>
+</section>
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<p>Más allá de los nutrientes individuales, la calidad de la dieta es un concepto fundamental en la salud pública. Un enfoque práctico es utilizar los puntajes de diversidad dietética, que son indicadores cualitativos que miden la variedad de grupos de alimentos consumidos por un individuo o un hogar.</p>
+</section>
+<section id="contexto-y-metodología" class="level1">
+<h1>Contexto y Metodología</h1>
+<p>La Diversidad Dietética es un proxy de la calidad nutricional. Se basa en la premisa de que una dieta que incluye alimentos de diferentes grupos (cereales, vegetales, frutas, lácteos, carnes, etc.) es más probable que cumpla con los requerimientos de macro y micronutrientes.</p>
+<p>Podrías usar una de las metodologías más reconocidas, como el Puntaje de Diversidad Dietética del Hogar (HDDS) o el Puntaje de Diversidad Dietética Individual de la Mujer (MDD-W). Estos puntajes son fáciles de calcular a partir de los datos de frecuencia de consumo de la encuesta. No necesitas un paquete de R especializado; puedes hacerlo directamente con dplyr.</p>
+<p><strong>Código de Ejemplo: Cálculo del Puntaje de Diversidad Dietética</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Prepara los datos. Necesitas una tabla que indique si un hogar</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># consumió un grupo de alimentos en particular.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulamos los datos con los grupos de alimentos básicos.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>datos_diversidad <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">id_hogar =</span> <span class="fu">c</span>(<span class="dv">101</span>, <span class="dv">102</span>, <span class="dv">103</span>),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">cereales =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">vegetales =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">frutas =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">carnes =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">lacteos =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="at">azucar =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>) <span class="co"># Un grupo de alimentos de baja calidad nutricional</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Calcula el puntaje de diversidad sumando los grupos de alimentos consumidos.</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Podemos excluir los grupos de "malos" alimentos si queremos.</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>datos_con_puntaje <span class="ot">&lt;-</span> datos_diversidad <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Suma los grupos de alimentos nutritivos.</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># El puntaje va de 0 a 5 en este ejemplo.</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">puntaje_diversidad =</span> cereales <span class="sc">+</span> vegetales <span class="sc">+</span> frutas <span class="sc">+</span> carnes <span class="sc">+</span> lacteos</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Analiza el puntaje.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Puedes agrupar por quintil de ingreso para ver cómo la diversidad dietética</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># se relaciona con el bienestar socioeconómico.</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Puedes crear una visualización de esto.</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(datos_con_puntaje)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Análisis Crítico:</strong> Este método es un complemento valioso porque no requiere datos de ingesta cuantitativos. Es una herramienta poderosa para analizar la calidad general de la dieta y es muy útil para el diseño de políticas de nutrición, como campañas de educación que promuevan la variedad alimentaria.</p>
 </section>
 <section id="biblografía" class="level1">
 <h1>Biblografía</h1>
+<ul>
+<li><p>Haddad, L., Swindale, A., &amp; Loken, B. (2007). Household Dietary Diversity Score (HDDS) for Measurement of Household Food Access: Indicator Guide. Food and Nutrition Technical Assistance Project (FANTA).</p></li>
+<li><p>Hotz, C., &amp; Gibson, R. (2007). Assessment of the efficacy of a food fortification program: A critical review. Food and Nutrition Bulletin, 28(4), 452-463.</p></li>
+<li><p>Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.</p></li>
+</ul>
 
 
 </section>

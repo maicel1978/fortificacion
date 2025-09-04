@@ -10,7 +10,7 @@ description: "Resumen parcial"
 
 # Sumario
 
-- Introducción
+- Generalidades
 
 - Principios para calcular adiciones
   - Paso 1. Definir el nutriente y población objetivo
@@ -39,24 +39,24 @@ Para calcular cuánto micronutriente se debe añadir, se utilizan dos herramient
 
 ---
 
-## 2. Principios para calcular adiciones
+# Principios para calcular adiciones
 
-### Paso 1. Definir el nutriente y población objetivo
+## Paso 1. Definir el nutriente y población objetivo
 
 * Identificar cuál deficiencia se busca corregir (ej. hierro en mujeres en edad fértil).
 * Determinar el **grupo etario y fisiológico** más vulnerable.
 
-### Paso 2. Establecer el requerimiento (EAR)
+## Paso 2. Establecer el requerimiento (EAR)
 
 * Consultar tablas de referencia (ej. **FAO/WHO, Institute of Medicine, EFSA**).
 * Ejemplo: EAR de hierro en mujeres 19–50 años ≈ 8.1 mg/día.
 
-### Paso 3. Estimar el consumo del vehículo alimentario
+## Paso 3. Estimar el consumo del vehículo alimentario
 
 * Identificar el alimento base para fortificar (ej. 200 g/día de harina de trigo).
 * Verificar variabilidad del consumo entre diferentes subgrupos.
 
-### Paso 4. Cálculo del nivel de adición (FFL)
+## Paso 4. Cálculo del nivel de adición (FFL)
 
 La fórmula básica es:
 
@@ -73,14 +73,14 @@ Ejemplo (hierro en harina):
 * Consumo promedio de harina = 200 g/día
 * FFL = 2.4 ÷ 200 × 100 = **1.2 mg hierro / 100 g harina**
 
-### Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+## Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
 
 * El hierro en harinas (ej. fumarato ferroso) tiene biodisponibilidad ≈ 10%.
 * Se ajusta el FFL para compensar estas limitaciones.
 
 ---
 
-## 3. Consideraciones adicionales
+# Consideraciones adicionales
 
 * **Seguridad:** revisar UL (Upper Intake Level) para evitar excesos.
 * **Variabilidad del consumo:** usar percentiles de ingesta para validar que grupos con alto consumo no superen los límites.
@@ -88,7 +88,7 @@ Ejemplo (hierro en harina):
 
 ---
 
-## 4. Ejemplo  simplificado
+# Ejemplo  simplificado
 
 > Si queremos fortificar harina de trigo con **ácido fólico**:
 

@@ -10,9 +10,11 @@ description: "Se realiza un caso de uso sobre la Preparación de Datos para el M
 
 # Sumario
 
-- Descripción General
+- Descripción General del ejemplo (Caso de uso 1)
 
-- Metodología
+- Metodología para la limpieza y pre-procesamiento
+
+- Resultados
 
 ---
 

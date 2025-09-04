@@ -63,6 +63,6 @@ La metodología de la OMS para determinar los FFL es un proceso escalonado que c
 
 -   La Fortificación de Alimentos: Una Estrategia Nutricional ..., accessed September 3, 2025, <https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012>
 
--Español - Food Fortification Initiative, accessed September 3, 2025, <https://www.ffinetwork.org/espanol>
+- Food Fortification Initiative, accessed September 3, 2025, <https://www.ffinetwork.org/espanol>
 
 -who guideline1: fortification of maize flour and corn meal with ..., accessed September 3, 2025, <https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf>

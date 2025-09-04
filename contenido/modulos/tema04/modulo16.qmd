@@ -16,7 +16,7 @@ description: "Resumen parcial"
 ---
 
 
-# Intriducción
+# Introducción
 
 Como ya estudiamos anteriormente, la fortificación consiste en **añadir uno o más micronutrientes a un alimento de consumo habitual**, con el fin de mejorar el aporte nutricional poblacional y prevenir deficiencias.
 
@@ -99,9 +99,7 @@ Ejemplo (hierro en harina):
 * Dwyer JT, Wiemer KL, Dary O, et al. Fortification and Health: Challenges and Opportunities. *Adv Nutr.* 2015;6(1):124–131. [PMID: 25593151](https://pubmed.ncbi.nlm.nih.gov/25593151/)
 * Peña-Rosas JP, Mora JO. Fortificación de alimentos con micronutrientes para prevenir y controlar la anemia. *Rev Panam Salud Publica.* 2007;22(5):419–429. [PMID: 18209893](https://pubmed.ncbi.nlm.nih.gov/18209893/)
 
----
 
-👉 ¿Quieres que te prepare este mismo contenido en **formato de infografía paso a paso** para que sea aún más didáctico?
 
 
 

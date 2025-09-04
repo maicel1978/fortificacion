@@ -6,11 +6,11 @@ author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
 description: "Se describe El Método del Equivalente de Mujer Adulta (EMA/AFE), el Contexto y Relevancia del Método, su descripción, el Cálculo de Factores de Conversión de EMA, las Ventajas y Desventajas del método así como su Aplicación Práctica"
 ---
 
-<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+{{< video https://youtu.be/J_EqhOLopCk >}}
 
-<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo11.zip)
 
 # Sumario
 
@@ -51,7 +51,7 @@ Los factores de conversión se derivan de las tablas de requerimientos energéti
 A continuación, una tabla con factores de conversión de ejemplo, basados en necesidades energéticas típicas:
 
 | Grupo de Edad y Sexo | Necesidad Energética (kcal/día) | Factor EMA/AFE (respecto a 2,000 kcal) |
-|:---|:---|:---|
+|:-----------------------|:-----------------------|:-----------------------|
 | Niños (1-3 años) | 1,200 | 0.6 |
 | Niños (4-8 años) | 1,600 | 0.8 |
 | Hombres (18-29 años) | 2,500 | 1.25 |

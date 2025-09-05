@@ -5,11 +5,12 @@ author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
 description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
 
-<!-- A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto. -->
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-<!-- {{< video https://youtu.be/c1AqCLDnrTY >}} -->
+{{< video https://youtu.be/Z-9WfN3AeuE >}}
 
-<!-- [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip) -->
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo12.zip)
+
 
 # Sumario
 
@@ -67,7 +68,7 @@ La metodología del EMA, con sus refinamientos, se extiende más allá del model
 
 # Biblografía
 
--   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Sa煤de P煤blica**. 2010;26(11):2188-2195.
+-   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saude Pública**. 2010;26(11):2188-2195.
 
 -   Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67.
 

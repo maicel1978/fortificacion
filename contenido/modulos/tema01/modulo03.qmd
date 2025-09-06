@@ -22,7 +22,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 -   Niveles Dietéticos de Referencia y Consideraciones de Inocuidad
 
-![](/static/images/micro3.png)
+![](/static/images/micro03.png)
 
 El **Método del Punto de Corte del Requerimiento Promedio Estimado (RPE)** es la metodología **recomendada por la Organización Mundial de la Salud (OMS)** para establecer los niveles de fortificación en alimentos y es fundamental en la planificación y diseño de programas de fortificación. Su propósito principal es asegurar que la fortificación sea efectiva para corregir deficiencias nutricionales, minimizando al mismo tiempo el riesgo de ingesta excesiva.
 

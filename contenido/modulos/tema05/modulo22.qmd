@@ -6,7 +6,7 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se describe un caso de uso para el Análisis Complementario de la Calidad de la Dieta"
 ---
 
-![](/static/images/modulo15.png){fig-align="center"}
+![](/static/images/micro22.png){fig-align="center"}
 
 # Sumario
 

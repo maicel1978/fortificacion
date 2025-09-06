@@ -6,21 +6,21 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se trata de un caso de uso hipotético con datos de la Republica Dominicana, estos datos se usan por su similitud con datos cubanos"
 ---
 
-![](/static/images/modulo16.png){fig-align="center"}
+![](/static/images/micro19.png){fig-align="center"}
 
 # Sumario
 
-- Introducción
+-   Introducción
 
-- Accediendo y Conectando las Fuentes de Datos
+-   Accediendo y Conectando las Fuentes de Datos
 
-- Ajustes por Desperdicio y Consumo Fuera del Hogar
+-   Ajustes por Desperdicio y Consumo Fuera del Hogar
 
-- El Coeficiente de Engel y la Inseguridad Alimentaria en RD
+-   El Coeficiente de Engel y la Inseguridad Alimentaria en RD
 
-- Conclusión: Del Dato a la Política Pública
+-   Conclusión: Del Dato a la Política Pública
 
----
+------------------------------------------------------------------------
 
 # Introducción: Por qué Analizar la ENHOGAR?
 
@@ -28,7 +28,7 @@ Bienvenidos a esta lección práctica. Como analistas de datos, a menudo nos enf
 
 Nuestro objetivo en este caso de uso es ir más allá del simple gasto en alimentos para estimar el consumo nutricional real de los hogares dominicanos. Esto nos permitirá comprender patrones de dieta, identificar vulnerabilidades y generar evidencia para la toma de decisiones en políticas públicas.
 
----
+------------------------------------------------------------------------
 
 # Paso 1: Accediendo y Conectando las Fuentes de Datos
 
@@ -150,22 +150,20 @@ Análisis de la Realidad Dominicana: Un reporte de la CIF de abril de 2025 para 
 
 Este caso de uso muestra cómo, con las herramientas adecuadas y un flujo de trabajo riguroso, podemos transformar datos complejos de una encuesta en conocimiento accionable. Al considerar las conversiones de unidades, los ajustes por desperdicio y la ingesta fuera del hogar, nuestro análisis de la ENHOGAR pasa de ser una simple descripción de gastos a una estimación robusta del consumo nutricional. Esto es crucial para informar políticas públicas, desde la **fortificación de alimentos** hasta la focalización de programas de **asistencia social**, asegurando que las intervenciones lleguen a los hogares más vulnerables de la República Dominicana.
 
-
 # Biblografía
 
-- Oficina Nacional de Estadística (ONE), República Dominicana. (2022). Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR 2022), Microdatos y Metadatos.
+-   Oficina Nacional de Estadística (ONE), República Dominicana. (2022). Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR 2022), Microdatos y Metadatos.
 
 https://www.one.gob.do/
 
-- Instituto de Nutrición de Centroamérica y Panamá (INCAP) y USDA. (Varias ediciones). Tablas de Composición de Alimentos.
+-   Instituto de Nutrición de Centroamérica y Panamá (INCAP) y USDA. (Varias ediciones). Tablas de Composición de Alimentos.
 
 https://fdc.nal.usda.gov/
 
-- Wickham, H. y Grolemund, G. (2017). R for Data Science. O’Reilly Media.
+-   Wickham, H. y Grolemund, G. (2017). R for Data Science. O’Reilly Media.
 
-- Iniciativa de la Clasificación Integrada de la Seguridad Alimentaria en Fases (CIF). (2025). Clasificación de la Inseguridad Alimentaria Aguda en la República Dominicana: Análisis de octubre 2024 - enero 2025.
+-   Iniciativa de la Clasificación Integrada de la Seguridad Alimentaria en Fases (CIF). (2025). Clasificación de la Inseguridad Alimentaria Aguda en la República Dominicana: Análisis de octubre 2024 - enero 2025.
 
 https://www.google.com/search?q=https://www.ipcinfo.org/ipcinfo-website/home/es/
 
-- Banco Mundial, BID, PNUD, FAO, CEPAL. (2022). Panorama de la Seguridad Alimentaria y Nutricional en América Latina y el Caribe.
-
+-   Banco Mundial, BID, PNUD, FAO, CEPAL. (2022). Panorama de la Seguridad Alimentaria y Nutricional en América Latina y el Caribe.

@@ -6,13 +6,13 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se realiza un ejemplo practico en el que se emplea el modelo probabilístico para la evaluación del hierro"
 ---
 
-![](/static/images/modulo15.png){fig-align="center"}
+![](/static/images/micro21.png){fig-align="center"}
 
 # Sumario
 
-- Contexto y Metodología
+-   Contexto y Metodología
 
-- Código de Ejemplo con SPADE.RIVM 
+-   Código de Ejemplo con SPADE.RIVM
 
 # Contexto y Metodología
 
@@ -66,7 +66,6 @@ print(prevalencia_spade)
 
 **Análisis Crítico:** Este método es más costoso en términos de recolección de datos (requiere múltiples días), pero es mucho más robusto. Es la "mejor práctica" para estimar la ingesta habitual de nutrientes y el riesgo de ingestas inadecuadas.
 
-
 # Biblografía
 
-- https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+-   https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages

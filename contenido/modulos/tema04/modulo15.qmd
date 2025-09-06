@@ -22,7 +22,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
     -   Consideración de la Biodisponibilidad
     -   Integración de los Niveles Máximos Tolerables (UL)
 
-![](/static/images/micro3.png){fig-align="center"}
+![](/static/images/micro15.png){fig-align="center"}
 
 
 ------------------------------------------------------------------------

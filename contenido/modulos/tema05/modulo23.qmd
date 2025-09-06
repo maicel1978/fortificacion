@@ -6,15 +6,13 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se realiza un ejemplo de evaluación de los programas de fortificación utilizando el sistema de evaluación de programas de fortificación a gran escala de WFP-LACRO a apartir de indicadores selecionados"
 ---
 
-![](/static/images/modulo15.png){fig-align="center"}
+![](/static/images/micro23.png){fig-align="center"}
 
 # Sumario
 
-- Contexto 
+-   Contexto
 
-- Metodología
-
-
+-   Metodología
 
 # Contexto y Desafío
 
@@ -116,8 +114,4 @@ El enfoque que te he mostrado es similar a lo que hacen las grandes agencias com
 
 Este método te permite ir más allá del análisis de un solo nutriente y evaluar la efectividad de una intervención de salud pública a gran escala. Es una forma excelente de conectar los datos de la ENHOGAR con las políticas públicas de la República Dominicana.
 
-
-
 # Bibliografía
-
-

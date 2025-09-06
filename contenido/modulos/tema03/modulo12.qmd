@@ -2,6 +2,7 @@
 title: "Módulo 12"
 subtitle: "Ajustes contextuales y aplicaciones avanzadas del EMA"
 author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
+date: 2025-06-29
 description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
 

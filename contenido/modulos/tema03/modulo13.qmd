@@ -2,6 +2,7 @@
 title: "Módulo 13"
 subtitle: "Estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
 author: "Maicel Monzon & Yarisa Domínguez"
+date: 2025-06-29
 description: "Se describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
 ---
 

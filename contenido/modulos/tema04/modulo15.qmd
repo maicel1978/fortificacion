@@ -1,12 +1,18 @@
 ---
 title: "Módulo 15"
 date: 2025-07-01
-subtitle: "Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)l"
-author: "Maicel Monzon & Yarisa Domínguez"
-description: "Resumen parcial"
+subtitle: "Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+author: "Maicel Monzon & Santiago Rodas Moya"
+date: 2025-06-29
+description: "Se describe la metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación"
 ---
 
-![](/static/images/micro3.png){fig-align="center"}
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/UtH710_IrZY >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo15.zip)
+
 
 # Sumario
 
@@ -16,6 +22,9 @@ description: "Resumen parcial"
     -   Cálculo del Nivel de Fortificación (FL)
     -   Consideración de la Biodisponibilidad
     -   Integración de los Niveles Máximos Tolerables (UL)
+
+![](/static/images/micro3.png){fig-align="center"}
+
 
 ------------------------------------------------------------------------
 
@@ -31,15 +40,15 @@ La metodología de la OMS para determinar los FFL es un proceso escalonado que c
 
 -   **Paso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)**
 
-  -   Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.
+-   Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.
 
 -   **Paso 2: Determinación del Requerimiento Promedio Estimado (EAR)**
 
-  -   El **Requerimiento Promedio Estimado (EAR)** es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.
+-   El **Requerimiento Promedio Estimado (EAR)** es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.
 
 -   **Paso 3: Cálculo del Nivel de Fortificación (FL)**
 
-  -   Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:
+-   Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:
 
 $$
 FL = \frac{EAR \times (\text{Población a Cubrir})}{\text{Ingesta de Alimento Fortificado}}
@@ -49,15 +58,15 @@ $$
 
 -   **Paso 4: Consideración de la Biodisponibilidad**
 
-  -   La **biodisponibilidad** es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.
+-   La **biodisponibilidad** es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.
 
-  -   Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.
+-   Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.
 
 -   **Paso 5: Integración de los Niveles Máximos Tolerables (UL)**
 
-  -   Para prevenir la toxicidad, es vital considerar el **Nivel Máximo de Ingesta Tolerable (UL)**. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.
+-   Para prevenir la toxicidad, es vital considerar el **Nivel Máximo de Ingesta Tolerable (UL)**. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.
 
-  -   El **Nivel de Fortificación Factible (FFL)** es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.
+-   El **Nivel de Fortificación Factible (FFL)** es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.
 
 ------------------------------------------------------------------------
 
@@ -65,6 +74,6 @@ $$
 
 -   La Fortificación de Alimentos: Una Estrategia Nutricional ..., accessed September 3, 2025, <https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012>
 
-- Food Fortification Initiative, accessed September 3, 2025, <https://www.ffinetwork.org/espanol>
+-   Food Fortification Initiative, accessed September 3, 2025, <https://www.ffinetwork.org/espanol>
 
 -who guideline1: fortification of maize flour and corn meal with ..., accessed September 3, 2025, <https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf>

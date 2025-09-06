@@ -1,8 +1,9 @@
 ---
 title: "Módulo 14"
 subtitle: "Integración del Marco metodológico  para el diseño y evaluación de políticas de fortificación de alimentos"
-author: "Maicel Monzon & Yarisa Domínguez"
-description: "Resumen parcial"
+author: "Maicel Monzon & & Santiago Rodas Moya"
+date: 2025-06-29
+description: "Se describe el Marco metodológico  para el diseño y evaluación de políticas de fortificación de alimentos de una manera integrada"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.

@@ -2,8 +2,7 @@
 title: "Módulo 15"
 date: 2025-07-01
 subtitle: "Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
-author: "Maicel Monzon & Santiago Rodas Moya"
-date: 2025-06-29
+author: "Maicel Monzon"
 description: "Se describe la metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación"
 ---
 

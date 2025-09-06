@@ -11,6 +11,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo13.zip)
 
+
 # Sumario
 
 -   Estimación de la Cobertura de Vehículos Potenciales de Fortificación con Datos HCES

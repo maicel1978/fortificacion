@@ -6,7 +6,13 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "se describe la metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
 ---
 
-![](/static/images/micro16.png){fig-align="center"}
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/4HJLvwaQODg  >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo16.zip)
+
+---
 
 # Sumario
 
@@ -19,14 +25,17 @@ description: "se describe la metodología para el Cálculo de adiciones de micro
     -   Paso 3. Estimar el consumo del vehículo alimentario
     -   Paso 4. Cálculo del nivel de adición (FFL)
     -   Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+    
+    
+![](/static/images/micro16.png){fig-align="center"}
 
-------------------------------------------------------------------------
+---
 
 # Introducción
 
 Como ya estudiamos anteriormente, la fortificación consiste en **añadir uno o más micronutrientes a un alimento de consumo habitual**, con el fin de mejorar el aporte nutricional poblacional y prevenir deficiencias.
 
-\*\*Ejemplos comunes:\* hierro en harinas, vitamina D en lácteos, ácido fólico en cereales.
+*Ejemplos comunes:* hierro en harinas, vitamina D en lácteos, ácido fólico en cereales.
 
 Para calcular cuánto micronutriente se debe añadir, se utilizan dos herramientas clave:
 
@@ -34,7 +43,7 @@ Para calcular cuánto micronutriente se debe añadir, se utilizan dos herramient
 
 -   **FFL (Fortification Level / Nivel de Fortificación)** → Cantidad de nutriente que debe añadirse al alimento para alcanzar los objetivos nutricionales sin riesgos de excesos.
 
-------------------------------------------------------------------------
+---
 
 # Principios para calcular adiciones
 
@@ -75,7 +84,7 @@ Ejemplo (hierro en harina):
 -   El hierro en harinas (ej. fumarato ferroso) tiene biodisponibilidad ≈ 10%.
 -   Se ajusta el FFL para compensar estas limitaciones.
 
-------------------------------------------------------------------------
+---
 
 # Consideraciones adicionales
 
@@ -83,7 +92,7 @@ Ejemplo (hierro en harina):
 -   **Variabilidad del consumo:** usar percentiles de ingesta para validar que grupos con alto consumo no superen los límites.
 -   **Sinergias e interacciones:** considerar compuestos que mejoren o inhiban la absorción (ej. vitamina C mejora absorción de hierro, fitatos la reducen).
 
-------------------------------------------------------------------------
+---
 
 # Ejemplo simplificado
 

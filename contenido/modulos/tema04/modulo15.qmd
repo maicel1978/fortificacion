@@ -12,7 +12,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo15.zip)
 
-
 # Sumario
 
 -   Metodología Paso a Paso para el Cálculo de FFL
@@ -23,7 +22,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
     -   Integración de los Niveles Máximos Tolerables (UL)
 
 ![](/static/images/micro15.png){fig-align="center"}
-
 
 ------------------------------------------------------------------------
 

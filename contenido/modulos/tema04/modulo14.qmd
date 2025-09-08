@@ -12,7 +12,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo14.zip)
 
-
 # Sumario
 
 -   Generalidades
@@ -22,7 +21,6 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 -   Métodos de evaluación de ingesta vs requerimientos
 
 -   Determinación de niveles factibles de fortificación (FFL)
-
 
 ![](/static/images/micro3.png){fig-align="center"}
 

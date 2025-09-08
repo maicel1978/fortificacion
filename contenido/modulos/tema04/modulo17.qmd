@@ -6,14 +6,13 @@ author: "Maicel Monzon & Yarisa Domínguez"
 description: "Se ilustra brevemente la metodología para la construcción de escenarios de fortificación"
 ---
 
-
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-{{< video https://youtu.be/RExNH_rz_-c  >}}
+{{< video https://youtu.be/RExNH_rz_-c >}}
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo17.zip)
 
----
+------------------------------------------------------------------------
 
 # Sumario
 
@@ -27,7 +26,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 ![](/static/images/micro17.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 # Introducción
 
@@ -37,7 +36,7 @@ El objetivo principal de la construcción de escenarios es **optimizar la fortif
 
 A continuación, se detallan los aspectos clave de la construcción de escenarios de fortificación:
 
----
+------------------------------------------------------------------------
 
 # Fundamentos y Propósito
 
@@ -45,7 +44,7 @@ A continuación, se detallan los aspectos clave de la construcción de escenario
 
 -   **Evaluación del contexto**: Es crucial comprender las necesidades nutricionales de la población, seleccionar vehículos alimentarios adecuados y los fortificantes, y establecer niveles de adición basados en datos científicos, consideraciones de inocuidad, tecnología y costo.
 
----
+------------------------------------------------------------------------
 
 # Metodología y Herramientas
 
@@ -57,7 +56,7 @@ Recordemos que sus pasos incluyen:
 
 ![](/static/images/modulo17a.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 # Simulación de escenarios
 
@@ -82,8 +81,8 @@ Recordemos que sus pasos incluyen:
     -   Un **tablero de decisión trimestral** se sugiere para guiar acciones adaptativas. Por ejemplo, si la cobertura es inferior al 70%, se debe actuar en abastecimiento o comunicación; si el porcentaje de personas con ingesta por debajo del EAR no mejora, se debe revisar la dosis o el vehículo; si la contribución del AF es alta y la ingesta total se acerca al límite superior tolerable (UL), se debe evaluar la reducción gradual de la concentración.
 
     -   En situaciones donde la fortificación masiva de un solo alimento no es suficiente, los escenarios pueden incluir la fortificación de múltiples vehículos alimentarios o la combinación con estrategias de suplementación para asegurar la ingesta adecuada en la población objetivo.
-    
----
+
+------------------------------------------------------------------------
 
 # Biblografía
 

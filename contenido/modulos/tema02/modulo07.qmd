@@ -2,7 +2,7 @@
 title: "Módulo 07"
 subtitle: "Valores de referencia de ingesta de nutrientes"
 author: "Maicel Monzón & Santiago Rodas Moya"
-description: "Se realiza una descripción de o	Valores de referencia de ingesta de nutrientes"
+description: "Se realiza una descripción de Valores de referencia de ingesta de nutrientes"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.

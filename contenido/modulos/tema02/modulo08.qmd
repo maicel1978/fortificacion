@@ -10,23 +10,19 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 {{< video https://youtu.be/c1AqCLDnrTY >}}
 
-
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo08.zip)
-
-
 
 # Sumario
 
-- Generalidades 
+-   Generalidades
 
-- Fuentes de obtención  de Tablas de Composición de los Alimentos 
+-   Fuentes de obtención de Tablas de Composición de los Alimentos
 
-- Utilización de las TCA para el análisis dietético
+-   Utilización de las TCA para el análisis dietético
 
-- Fortalezas y Limitaciones  de las TCA en el uso de HCES con TCA para análisis nutricional
+-   Fortalezas y Limitaciones de las TCA en el uso de HCES con TCA para análisis nutricional
 
 ![](/static/images/modulo08.png){fig-align="center"}
-
 
 # ¿Qué son las Tablas de Composición de los Alimentos (TCA)?
 
@@ -36,14 +32,11 @@ Las **Tablas de Composición de Alimentos (TCA)** son herramientas fundamentales
 
 Estas tablas son esenciales para la **evaluación y planificación de dietas individuales y colectivas**, el **cálculo de necesidades nutricionales** y la **definición de la canasta básica alimentaria**. Además, facilitan la **identificación y corrección de deficiencias**, **excesos o desequilibrios dietéticos**, apoyan la **promoción de la salud y sirven como base científica para programas de fortificación de alimentos**. En el ámbito industrial, son clave para el **desarrollo de nuevos productos y la elaboración del etiquetado nutricional** conforme a normativas vigentes.
 
-
 ![](/static/images/modulo08tablas.png){fig-align="center"}
 
-
-:::{.callout-note collapse="false"}
+::: {.callout-note collapse="false"}
 Es importante considerar que los valores de las TCA son aproximaciones al contenido real. El contenido nutricional de un alimento puede variar significativamente según su variedad, el clima y suelo donde se cultive, el grado de maduración, la forma de preparación (cruda vs. cocida), el procesamiento y las condiciones de almacenamiento. Además, los análisis de laboratorio tienen un margen de error, y los valores de las TCA corresponden a la cantidad total del nutriente, no necesariamente a las cantidades biodisponibles para el organismo humano.
 :::
-
 
 # Fuentes: ¿Cómo y dónde obtener las TCA?
 
@@ -51,22 +44,17 @@ Las TCA pueden obtenerse de diversas fuentes a nivel nacional e internacional, y
 
 Fuentes de obtención:
 
-- **Organismos nacionales** de estadística o ministerios de salud que compilan sus propias tablas. Por ejemplo, el Instituto de Nutrición de Centro América y Panamá (INCAP) ha integrado datos sobre composición de alimentos desde 1953, publicando su Tabla de Composición de Alimentos de Centroamérica. 
+-   **Organismos nacionales** de estadística o ministerios de salud que compilan sus propias tablas. Por ejemplo, el Instituto de Nutrición de Centro América y Panamá (INCAP) ha integrado datos sobre composición de alimentos desde 1953, publicando su Tabla de Composición de Alimentos de Centroamérica.
 
 Cuba cuenta con sus propias TCA
 
 [Acceder a las tablas cubanas](../../recursos/tablas/tablas.qmd)
 
-- **Bases de datos internacionales y regionales:** Existen redes como INFOODS (International Network of Food Data Systems) de las Naciones Unidas, que proporcionan información útil y enlaces a programas electrónicos para el análisis de alimentos. La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) también trabaja en la estandarización de estas bases de datos.
+-   **Bases de datos internacionales y regionales:** Existen redes como INFOODS (International Network of Food Data Systems) de las Naciones Unidas, que proporcionan información útil y enlaces a programas electrónicos para el análisis de alimentos. La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) también trabaja en la estandarización de estas bases de datos.
 
+-   **Investigación y desarrollo:** La composición de alimentos se actualiza con nuevos estudios, la incorporación de productos procesados, alimentos infantiles, platos preparados e información sobre alimentos donados.
 
-- **Investigación y desarrollo:** La composición de alimentos se actualiza con nuevos estudios, la incorporación de productos procesados, alimentos infantiles, platos preparados e información sobre alimentos donados.
-
-
-{{% callout note %}}
-La preparación de las TCA implica la revisión de fuentes de datos, verificación de nombres comunes y científicos, y la actualización de valores para macronutrientes, vitaminas, minerales y otros componentes como fibra dietética.
-{{% /callout %}}
-
+{{% callout note %}} La preparación de las TCA implica la revisión de fuentes de datos, verificación de nombres comunes y científicos, y la actualización de valores para macronutrientes, vitaminas, minerales y otros componentes como fibra dietética. {{% /callout %}}
 
 # Utilización de las TCA para el análisis dietético
 
@@ -76,43 +64,41 @@ El modelado nutricional a partir de las HCES se basa en un proceso de inferencia
 
 **1. Conversión de Gasto Monetario a Cantidad Física de Alimentos:**
 
-  - La primera etapa transforma el gasto monetario reportado en unidades físicas de alimentos (por ejemplo, kilogramos o litros). La fórmula básica es Cantidad = Gasto / Precio.
-  
-  - Este paso es complejo debido a la variabilidad de los precios.
-  
-  - Las HCES miden principalmente la adquisición de alimentos (lo que se compró o produjo para el hogar), no el consumo real o la ingesta efectiva. Esto significa que no se contabiliza el desperdicio de alimentos ni las existencias acumuladas.
+-   La primera etapa transforma el gasto monetario reportado en unidades físicas de alimentos (por ejemplo, kilogramos o litros). La fórmula básica es Cantidad = Gasto / Precio.
 
+-   Este paso es complejo debido a la variabilidad de los precios.
+
+-   Las HCES miden principalmente la adquisición de alimentos (lo que se compró o produjo para el hogar), no el consumo real o la ingesta efectiva. Esto significa que no se contabiliza el desperdicio de alimentos ni las existencias acumuladas.
 
 **2. Conversión de Cantidad Física a Nutrientes:**
 
-  - Una vez estimada la cantidad física de los alimentos, se utilizan las Tablas de Composición de Alimentos (TCA) y las bases de datos de nutrientes (FCDB) para transformarlos en su equivalente nutricional (por ejemplo, gramos de proteínas, miligramos de vitaminas, kilocalorías).
-  
-  - Este proceso requiere el uso de TCA nacionales o regionales, preferiblemente validadas, y la aplicación de factores de ajuste para considerar la porción comestible y las pérdidas durante la cocción.
-  
+-   Una vez estimada la cantidad física de los alimentos, se utilizan las Tablas de Composición de Alimentos (TCA) y las bases de datos de nutrientes (FCDB) para transformarlos en su equivalente nutricional (por ejemplo, gramos de proteínas, miligramos de vitaminas, kilocalorías).
+
+-   Este proceso requiere el uso de TCA nacionales o regionales, preferiblemente validadas, y la aplicación de factores de ajuste para considerar la porción comestible y las pérdidas durante la cocción.
+
 # Utilidad de los resultados para el análisis de HCES:
 
-- Las TCA permiten convertir los datos de consumo de alimentos obtenidos de HCES en cantidades de nutrientes consumidos, facilitando la evaluación del nivel actual de ingesta nutricional en subgrupos de la población.
+-   Las TCA permiten convertir los datos de consumo de alimentos obtenidos de HCES en cantidades de nutrientes consumidos, facilitando la evaluación del nivel actual de ingesta nutricional en subgrupos de la población.
 
-- Posibilitan la comparación de los datos de consumo con los Valores de Referencia de Ingesta de Nutrientes (VRN), lo que ayuda a identificar deficiencias, excesos o riesgos nutricionales en la población estudiada.
+-   Posibilitan la comparación de los datos de consumo con los Valores de Referencia de Ingesta de Nutrientes (VRN), lo que ayuda a identificar deficiencias, excesos o riesgos nutricionales en la población estudiada.
 
-- Son fundamentales para justificar y diseñar programas de fortificación de alimentos, así como para predecir el impacto de agregar diferentes cantidades de micronutrientes a diversos alimentos.
+-   Son fundamentales para justificar y diseñar programas de fortificación de alimentos, así como para predecir el impacto de agregar diferentes cantidades de micronutrientes a diversos alimentos.
 
+-   Permiten estimar la ingesta aparente de micronutrientes a nivel de hogar y evaluar si la fortificación es suficiente para cubrir las necesidades.
 
-- Permiten estimar la ingesta aparente de micronutrientes a nivel de hogar y evaluar si la fortificación es suficiente para cubrir las necesidades.
-
-- Los datos de HCES, combinados con las TCA, son útiles para comprender las tendencias macro del consumo de alimentos, identificar poblaciones en riesgo de inseguridad alimentaria y evaluar el impacto de políticas económicas.
+-   Los datos de HCES, combinados con las TCA, son útiles para comprender las tendencias macro del consumo de alimentos, identificar poblaciones en riesgo de inseguridad alimentaria y evaluar el impacto de políticas económicas.
 
 # Limitaciones y consideraciones en el uso de HCES con TCA para análisis nutricional:
 
-- La principal limitación es la falta de granularidad a nivel individual, ya que las HCES capturan la información a nivel del hogar. Esto impide determinar con exactitud la cantidad de alimento o nutriente consumido por cada persona, siendo insuficiente para diagnósticos nutricionales clínicos individuales.
+-   La principal limitación es la falta de granularidad a nivel individual, ya que las HCES capturan la información a nivel del hogar. Esto impide determinar con exactitud la cantidad de alimento o nutriente consumido por cada persona, siendo insuficiente para diagnósticos nutricionales clínicos individuales.
 
-- La variabilidad de la composición nutricional de los alimentos y la necesidad de ajustar los valores por factores como la cocción, añaden complejidad al análisis.
+-   La variabilidad de la composición nutricional de los alimentos y la necesidad de ajustar los valores por factores como la cocción, añaden complejidad al análisis.
 
-- Las HCES son más una medida de la disponibilidad de alimentos en el hogar que una medida precisa de la ingesta individual o la dieta real de sus miembros.
+-   Las HCES son más una medida de la disponibilidad de alimentos en el hogar que una medida precisa de la ingesta individual o la dieta real de sus miembros.
 
-- Para un análisis riguroso, es fundamental complementar los datos de HCES con otras fuentes de información más granulares, como las encuestas de ingesta dietética a nivel individual.
+-   Para un análisis riguroso, es fundamental complementar los datos de HCES con otras fuentes de información más granulares, como las encuestas de ingesta dietética a nivel individual.
 
-- La información de ingesta alimentaria habitual a partir de encuestas, como los recordatorios de 24 horas, debe recolectarse preferiblemente en al menos dos días no consecutivos para estimar la variabilidad diaria y ajustar la distribución de ingesta.
+-   La información de ingesta alimentaria habitual a partir de encuestas, como los recordatorios de 24 horas, debe recolectarse preferiblemente en al menos dos días no consecutivos para estimar la variabilidad diaria y ajustar la distribución de ingesta.
 
 # Biblografía
 

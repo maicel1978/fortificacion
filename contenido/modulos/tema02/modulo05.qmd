@@ -8,7 +8,7 @@ description: "Se realiza una revisión de elementos fundamentales del Monitoreo 
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
 
-{{< video https://youtu.be/dC4DNh3lmDQ >}}
+{{< video https://youtu.be/rfLHIPV_mcM >}}
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo05.zip)
 

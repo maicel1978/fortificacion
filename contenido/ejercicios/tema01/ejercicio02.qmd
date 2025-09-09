@@ -1,6 +1,7 @@
 ---
 title: "Ejercicio 2: Fortificación a gran escala"
 subtitle: "Tema 1"
+author: "Maicel Monzon & Yarisa Domínguez"
 description: "Ejercicio sobre el tema de Fortificación a gran escala"
 date: 2025-06-29
 filters: 

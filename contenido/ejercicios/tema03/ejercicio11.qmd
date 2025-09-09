@@ -1,0 +1,82 @@
+---
+title: "Ejercicio 11: El Método del Equivalente de Mujer Adulta (EMA/AFE)"
+subtitle: "Tema 3"
+date: 2025-08-30
+description: "Ejercicios sobre el Método del Equivalente de Mujer Adulta (EMA/AFE)"
+format: html
+---
+
+![](/static/images/micro11.png)
+
+
+## ¿Es la siguiente afirmación verdadera?
+
+El **Método del Equivalente de Mujer Adulta (EMA/AFE)** asigna a una mujer de 18 a 29 años con actividad moderada el valor de 1.0 como unidad base, debido a que este grupo tiene un equilibrio metabólico estable.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. La mujer en este grupo de edad y con este nivel de actividad es utilizada como la unidad de referencia para el cálculo de los factores de conversión de otros miembros del hogar, permitiendo una estandarización más precisa de las necesidades nutricionales.
+:::
+
+---
+
+## ¿Cuál de los siguientes es el principal propósito del método EMA/AFE?
+
+a) Medir el consumo individual de alimentos.
+b) Simplificar el cálculo de la ingesta per cápita de un hogar.
+c) Estandarizar el consumo de alimentos para permitir una comparación más justa entre hogares de diferente composición.
+d) Determinar la cantidad de calorías consumidas fuera del hogar.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) Estandarizar el consumo de alimentos para permitir una comparación más justa entre hogares de diferente composición.**
+
+El método EMA/AFE normaliza el consumo total del hogar, ajustándolo según las necesidades energéticas de sus miembros. Esto hace que las comparaciones entre hogares grandes y pequeños, o con diferentes edades, sean mucho más significativas.
+:::
+
+---
+
+## ¿Cuál es una de las principales limitaciones del método EMA/AFE, según el material revisado?
+
+a) Subestima las necesidades de los hombres.
+b) No considera la distribución real de los alimentos dentro del hogar.
+c) Es demasiado complejo para ser utilizado en estudios a gran escala.
+d) No se basa en datos científicos de organismos internacionales.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) No considera la distribución real de los alimentos dentro del hogar.**
+
+El método asume que la comida se distribuye dentro del hogar de forma proporcional a las necesidades energéticas. Sin embargo, no toma en cuenta que la distribución puede variar por preferencias personales, gustos o si hay consumo fuera de casa.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Explique cómo el método EMA/AFE podría ayudar a los planificadores de programas de fortificación de alimentos.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+El método **EMA/AFE** es una herramienta crucial para los planificadores de programas de fortificación porque les permite **identificar con mayor precisión a los hogares en riesgo de insuficiencia de nutrientes**. Al ajustar el consumo por las necesidades reales de cada miembro, los datos resultantes son más confiables y permiten que las políticas de fortificación se dirijan de manera más efectiva a los grupos que realmente lo necesitan, garantizando un mejor impacto en la salud pública.
+:::
+
+---
+
+## Verdadero o Falso
+
+El factor de conversión EMA de un niño se calcula dividiendo sus necesidades energéticas promedio por las de una mujer de referencia (1.0 EMA).
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. Los factores de conversión se calculan dividiendo los requerimientos energéticos de cada miembro del hogar por los de la mujer de referencia, lo que permite estandarizar el consumo de todo el grupo familiar.
+:::

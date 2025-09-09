@@ -1,0 +1,77 @@
+---
+title: "Ejercicio 17: Construcción de escenarios de fortificación"
+subtitle: "Tema 4"
+date: 2025-08-30
+description: "Ejercicios sobre construcción de escenarios de fortificación"
+format: html
+---
+
+![](/static/images/micro17.png)
+
+## ¿Es la siguiente afirmación verdadera?
+
+El **Nivel Posible de Fortificación (NPF)** se determina tomando el promedio de los límites de inocuidad, tecnología y costo.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La afirmación es falsa. El NPF no es un promedio. Se determina por el **límite más restrictivo** de los tres factores principales: inocuidad, tecnología y costo. Es como el eslabón más débil de una cadena, ya que este factor es el que marca el límite para todo el programa.
+:::
+
+---
+
+## ¿Cuál es el propósito principal de construir escenarios de fortificación?
+
+a) Aumentar el precio de los alimentos fortificados.
+b) Medir la calidad de los ingredientes.
+c) Optimizar la fortificación para mejorar el estado nutricional y minimizar los riesgos para la salud.
+d) Determinar la cantidad de alimentos que la población consume diariamente.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) Optimizar la fortificación para mejorar el estado nutricional y minimizar los riesgos para la salud.**
+
+La construcción de escenarios permite a los planificadores probar diferentes opciones de fortificación en un modelo, con el objetivo de encontrar la mejor combinación que corrija las deficiencias nutricionales de manera segura y eficiente, considerando todas las limitaciones.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Mencione los tres pilares principales que se deben equilibrar para que un programa de fortificación sea exitoso.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+Los tres pilares principales a equilibrar son:
+1.  **Inocuidad:** El programa debe ser 100% seguro y no causar efectos de toxicidad.
+2.  **Tecnología:** El nutriente añadido debe ser estable y no alterar las propiedades del alimento (sabor, olor, apariencia).
+3.  **Costo:** El aumento del precio del alimento fortificado debe ser mínimo para asegurar su asequibilidad y consumo masivo.
+:::
+
+---
+
+## ¿Por qué el video menciona que la fortificación exitosa es un proceso dinámico?
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+La fortificación exitosa es un proceso **dinámico y no estático** porque los programas deben ser medidos y adaptados constantemente. Esto se debe a que las necesidades de la población pueden cambiar, y se requiere una medición continua (monitoreo y evaluación) para asegurar que el programa siga siendo relevante y eficaz para maximizar su impacto en la salud pública.
+:::
+
+---
+
+## Verdadero o Falso
+
+El uso de un tablero de decisión trimestral y el análisis de escenarios son parte de un Sistema de Monitoreo, Evaluación y Aprendizaje (MEL) en la planificación de la fortificación.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. Ambos son herramientas que se utilizan en el marco MEL para guiar las acciones de manera adaptativa y asegurar que el programa de fortificación se mantenga en el camino correcto para lograr sus metas nutricionales.
+:::

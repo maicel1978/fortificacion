@@ -2,11 +2,12 @@
 title: "Ejercicio 1: Micronutrientes y carencias nutricionales"
 subtitle: "Tema 1"
 date: 2025-06-29
+author: "Maicel Monzon & Yarisa Domínguez"
 description: "Ejercicio sobre el tema de micronutrientes y carencias nutricionales"
 format: html
 ---
 
-![](/static/images/ejercicos01.png)
+![](/static/images/micro1.png)
 
 ## ¿Es la siguiente definición verdadera?
 

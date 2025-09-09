@@ -1,0 +1,71 @@
+---
+title: "Ejercicio 3: Método del punto de corte del requerimiento promedio estimado (RPE)"
+subtitle: "Tema 1"
+date: 2025-06-29
+author: "Maicel Monzon"
+description: "Ejercicios sobre Método del punto de corte del requerimiento promedio estimado" 
+format: html
+---
+
+![](/static/images/micro03.png)
+
+
+## ¿Es la siguiente definición verdadera?
+
+**Estimated Average Requirement (EAR):** El nivel de ingesta promedio diaria de nutrientes estimado para satisfacer los requerimientos de casi todos (97-98%) los individuos sanos en una etapa de vida y grupo de género específicos.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La definición corresponde a la **Recommended Dietary Allowance (RDA)**. El **EAR** se refiere a la ingesta diaria de nutrientes estimada para satisfacer los requerimientos del 50% de los individuos sanos en un grupo demográfico específico.
+:::
+
+## ¿Cuál es el principal propósito del método EAR Cutoff Point en salud pública?
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**Estimar la prevalencia de ingesta inadecuada de un nutriente en una población.**
+
+El método se utiliza para evaluar el estado nutricional de un grupo de personas y determinar qué porcentaje de la población tiene una ingesta insuficiente de un micronutriente.
+:::
+
+## En el contexto del método EAR, ¿cuál de los siguientes pasos es crucial para predecir el impacto de la fortificación?
+
+a) Calcular la cantidad de nutriente que la población consume actualmente.
+b) Simular el efecto de la adición del nutriente al alimento.
+c) Analizar la distribución de la ingesta de alimentos a lo largo del tiempo.
+d) Medir la estatura y el peso de la población.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Simular el efecto de la adición del nutriente al alimento.**
+
+Este paso permite a los planificadores de salud pública predecir los resultados de diferentes escenarios de fortificación antes de implementarlos a gran escala.
+:::
+
+## Pregunta de desarrollo breve:
+
+Explique por qué el método EAR Cutoff Point es más adecuado para evaluar poblaciones que el Recommended Dietary Allowance (RDA).
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+El **RDA** está diseñado como un objetivo de ingesta individual para garantizar que las necesidades de casi todos los individuos (97-98%) se cumplan, por lo que su uso para evaluar una población completa podría sobrestimar la prevalencia de deficiencias. Por otro lado, el **EAR** representa la necesidad promedio de un grupo y, por lo tanto, es la herramienta adecuada para estimar la proporción de una población con ingestas inadecuadas.
+:::
+
+## Verdadero o Falso
+
+El Tolerable Upper Intake Level (UL) es un concepto irrelevante en la planificación de la fortificación.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+El **UL** es crucial para garantizar la seguridad de la fortificación, ya que define el nivel máximo de ingesta que no presenta riesgo de efectos adversos para la salud. Superar el UL podría causar toxicidad en la población.
+:::
+

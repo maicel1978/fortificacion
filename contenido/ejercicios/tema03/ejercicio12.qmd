@@ -1,0 +1,77 @@
+---
+title: "Ejercicio 12: Ajustes contextuales y aplicaciones avanzadas del EMA"
+subtitle: "Tema 3"
+date: 2025-08-30
+description: "Ejercicios sobre Ajustes contextuales y aplicaciones avanzadas del EMA"
+format: html
+---
+
+![](/static/images/micro12.png)
+
+
+
+## ¿Es la siguiente afirmación verdadera?
+
+El **Método del Equivalente de Mujer Adulta (EMA)**, en su forma más simple, es suficiente para realizar un análisis de alta resolución del consumo de alimentos en una población.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La afirmación es falsa. Aunque el método EMA es un gran avance sobre el cálculo per cápita simple, para un análisis de alta resolución se necesitan **ajustes contextuales** y **variables adicionales** como el nivel de actividad física, la edad y el consumo de leche materna. El método simple puede simplificar demasiado y llevar a un análisis menos preciso.
+:::
+
+---
+
+## ¿Cuál de los siguientes es un factor de ajuste crucial que se debe considerar al aplicar el método EMA para un análisis más preciso?
+
+a) El costo de los alimentos.
+b) El color de la ropa de los miembros del hogar.
+c) El nivel de actividad física de cada persona.
+d) La cantidad de agua consumida.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) El nivel de actividad física de cada persona.**
+
+El nivel de actividad física (ej. trabajo sedentario vs. agricultura) influye directamente en los requerimientos energéticos de una persona. Considerar este factor permite ajustar el valor del EMA y obtener una estimación más precisa del consumo.
+:::
+
+---
+
+## ¿Por qué es importante considerar el consumo de leche materna al analizar la nutrición de un lactante con el método EMA?
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+Es importante incluir el consumo de leche materna porque, si se omite, se podría **subestimar severamente la ingesta nutricional** de los lactantes. Al no contabilizar una fuente de nutrientes tan vital, el análisis podría concluir erróneamente que el bebé sufre de deficiencias, lo que llevaría a un diagnóstico incorrecto del estado nutricional del hogar.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Mencione una de las aplicaciones avanzadas del método EMA, además de la planificación de la fortificación.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+Una de las aplicaciones avanzadas del método EMA es su uso para el **análisis de la seguridad alimentaria**. El método ajustado permite **identificar con precisión a los grupos de hogares más vulnerables** y con mayor riesgo de inseguridad alimentaria, lo que permite a los responsables de las políticas diseñar ayudas y programas de asistencia más justos y directos.
+:::
+
+---
+
+## Verdadero o Falso
+
+El método EMA, incluso con ajustes, es incapaz de identificar qué hogares no tienen suficiente comida.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La afirmación es falsa. Una de las aplicaciones avanzadas del método EMA es precisamente la **identificación de hogares con ingesta insuficiente**. Al refinar el análisis con factores contextuales, se puede obtener una imagen mucho más clara y precisa de qué grupos son más vulnerables.
+:::
+

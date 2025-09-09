@@ -1,0 +1,81 @@
+---
+title: "Ejercicio 4: Método de enfoque completo de probabilidades"
+subtitle: "Tema 1"
+date: 2025-06-29
+author: "Maicel Monzon"
+description: "Ejercicio sobre Método de enfoque completo de probabilidades" 
+format: html
+---
+
+![](/static/images/micro04.png)
+## ¿Es la siguiente afirmación verdadera?
+
+El **Método de Enfoque Completo de Probabilidades** es recomendado para la fortificación con hierro porque los requerimientos de este nutriente en la población no siguen una distribución normal o simétrica.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. A diferencia de otros micronutrientes, el hierro tiene requerimientos que varían de forma asimétrica, especialmente en grupos como mujeres y niños, lo que hace que el Enfoque de Probabilidades sea la herramienta más precisa para evitar subestimar la prevalencia de deficiencias.
+:::
+
+---
+
+## ¿Cuál es el principal propósito del **Método de Enfoque Completo de Probabilidades** en salud pública?
+
+a) Simplificar la evaluación nutricional de un individuo.
+b) Calcular la prevalencia de una ingesta inadecuada de un nutriente en una población de manera más precisa.
+c) Determinar la ingesta máxima tolerable de un nutriente.
+d) Medir el impacto de la fortificación en la biodisponibilidad de un nutriente.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Calcular la prevalencia de una ingesta inadecuada de un nutriente en una población de manera más precisa.**
+
+Este método analiza la probabilidad de ingesta insuficiente en cada segmento de la población, sumando los riesgos para obtener una prevalencia mucho más precisa que los métodos basados en un promedio.
+:::
+
+---
+
+## En el contexto del **Enfoque de Probabilidades Completo**, ¿cuál de los siguientes es un paso crucial para la fortificación?
+
+a) Calcular el costo de los alimentos a fortificar.
+b) Ignorar la biodisponibilidad del nutriente para simplificar el cálculo.
+c) Simular cómo la fortificación reduciría la prevalencia de ingesta inadecuada a un nivel aceptable.
+d) Medir únicamente el consumo de sal en la población.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) Simular cómo la fortificación reduciría la prevalencia de ingesta inadecuada a un nivel aceptable.**
+
+Este paso permite a los planificadores de salud pública predecir los resultados de diferentes escenarios de fortificación para alcanzar un objetivo de prevalencia aceptable (generalmente entre el 2% y el 3%) antes de su implementación a gran escala.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Explique por qué el **Método de Enfoque Completo de Probabilidades** es más adecuado que un método basado en un promedio para la fortificación con hierro.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+El método de probabilidades es más adecuado porque el requerimiento de hierro varía significativamente entre subgrupos de la población, como en las mujeres debido a las pérdidas menstruales. Un método basado en un promedio podría subestimar la prevalencia de deficiencia en estos grupos. El **Enfoque de Probabilidades** analiza la probabilidad de deficiencia en cada segmento, ofreciendo una imagen más completa y precisa del riesgo nutricional de la población.
+:::
+
+---
+
+## Verdadero o Falso
+
+El **Enfoque de Probabilidades Completo** requiere datos detallados sobre la distribución de la ingesta habitual del nutriente, el consumo del alimento a fortificar y la biodisponibilidad del nutriente.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. Para aplicar este método de manera efectiva, se necesitan datos precisos sobre la distribución de la ingesta y el consumo de alimentos, ya que la evaluación se basa en la simulación de estos factores para predecir el impacto de la fortificación.
+:::

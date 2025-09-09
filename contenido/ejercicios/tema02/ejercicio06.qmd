@@ -1,0 +1,83 @@
+---
+title: "Ejercicio 6: Generalidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)"
+subtitle: "Tema 2"
+date: 2025-08-30
+description: "Ejercicio sobre Encuestas de Consumo y Gastos en los Hogares (HCES)"
+format: html
+---
+
+![](/static/images/micro06.png)
+
+## ¿Es la siguiente afirmación verdadera?
+
+El objetivo principal de las **Encuestas de Consumo y Gasto en los Hogares (HCES)** es recopilar información sobre los patrones de gasto y el consumo de alimentos para diseñar programas de ayuda económica.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+Aunque las HCES recopilan información sobre gastos, su objetivo principal no es solo la ayuda económica. Estas encuestas son una herramienta clave para **analizar la seguridad alimentaria** y **evaluar el estado nutricional** de la población a nivel nacional, permitiendo a los planificadores de salud entender qué consume la gente y cómo eso afecta su nutrición.
+:::
+
+---
+
+## ¿Cuál de los siguientes es un uso clave de los datos de las HCES en la planificación de la fortificación de alimentos?
+
+a) Calcular la cantidad de fortificante que se necesita a nivel industrial.
+b) Medir los precios de los alimentos en los mercados locales.
+c) Estimar la ingesta de alimentos a nivel de la población para guiar las políticas de fortificación.
+d) Determinar la biodisponibilidad de un nutriente en la dieta.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) Estimar la ingesta de alimentos a nivel de la población para guiar las políticas de fortificación.**
+
+Los datos de las HCES permiten a los expertos en salud pública **estimar el consumo de alimentos vehículo** (como la harina o el aceite) en diferentes grupos de la población. Esta información es crucial para decidir cuánto fortificante se debe añadir para lograr un impacto positivo sin causar efectos de toxicidad.
+:::
+
+---
+
+## En el contexto de las HCES, ¿qué información es crucial para poder vincular la ingesta de alimentos con el estado nutricional?
+
+a) El nombre completo de los miembros del hogar.
+b) Los datos de salud (peso, talla, etc.) junto con la información sobre el consumo de alimentos.
+c) Las preferencias de cocina de cada familia.
+d) El nivel de educación de los adultos en el hogar.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Los datos de salud (peso, talla, etc.) junto con la información sobre el consumo de alimentos.**
+
+Para poder evaluar el estado nutricional de una población, es fundamental no solo saber qué consumen, sino también tener **indicadores de salud** que permitan correlacionar la ingesta con el estado de salud y nutrición.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Explique la diferencia principal entre los datos de consumo obtenidos de una **Encuesta de Consumo y Gasto en los Hogares (HCES)** y un **Registro de Consumo Individual**.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+La principal diferencia radica en el **nivel de detalle**. Una **HCES** recopila datos a nivel del hogar, registrando los alimentos y el gasto de toda la familia. Por el contrario, un **Registro de Consumo Individual** mide la ingesta de alimentos y nutrientes de una persona específica a lo largo del tiempo. Las HCES son útiles para análisis de población a gran escala, mientras que los registros individuales ofrecen información más precisa sobre la ingesta real de cada persona.
+:::
+
+---
+
+## Verdadero o Falso
+
+Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta útil para estimar la cantidad de nutrientes que un niño de 3 años está consumiendo en una familia de cinco personas.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+Las HCES registran la cantidad de alimentos disponibles para el consumo del hogar, no la ingesta individual. Por lo tanto, no pueden determinar con precisión cuánto consumió un niño de 3 años. Para eso, se necesitarían **encuestas de ingesta dietética individual** o registros de consumo detallados.
+:::
+
+

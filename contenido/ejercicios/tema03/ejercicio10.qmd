@@ -1,0 +1,77 @@
+---
+title: "Ejercicio 10: Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
+subtitle: "Tema 3"
+date: 2025-08-30
+description: "Ejercicios sobre la preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
+format: html
+---
+
+![](/static/images/micro10.png)
+
+## ¿Es la siguiente afirmación verdadera?
+
+El primer paso en la preparación de datos de una encuesta de consumo en los hogares es la **validación** de los datos sin ninguna limpieza.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La afirmación es falsa. El primer paso crucial es la **limpieza de los datos**, ya que las encuestas a menudo contienen errores, valores faltantes, duplicados o cifras inusuales. La validación se realiza posteriormente, una vez que los datos están limpios y unificados.
+:::
+
+---
+
+## ¿Cuál es el propósito principal de comparar los datos de las encuestas de consumo en los hogares con los **Balances Alimentarios (BA)** de la FAO?
+
+a) Identificar el consumo individual de un nutriente.
+b) Validar la coherencia de los datos de consumo a nivel macro.
+c) Calcular la composición de un alimento.
+d) Determinar el nivel de actividad física de la población.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Validar la coherencia de los datos de consumo a nivel macro.**
+
+Comparar los datos de las encuestas (micro) con los balances alimentarios (macro) permite detectar discrepancias y asegurar que los datos de consumo de los hogares sean coherentes con la disponibilidad de alimentos a nivel nacional.
+:::
+
+---
+
+## ¿Qué tres componentes clave deben combinarse para crear una base de datos final y bien estructurada para el análisis nutricional?
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+Según el video, los tres componentes clave son:
+1.  **El consumo de alimentos** ajustado por tamaño del hogar.
+2.  **La información demográfica** de cada hogar (edad y sexo de los miembros).
+3.  **Las tablas de composición de alimentos** que detallan el contenido de nutrientes.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Explique por qué es importante utilizar el método del **"equivalente de mujer adulta" (EAM)** para normalizar los datos de consumo de los hogares.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+Es importante utilizar el método **EAM** para normalizar los datos de consumo porque permite **comparar de manera justa** los patrones de consumo entre hogares de diferente tamaño y composición. Sin esta estandarización, una comparación directa sería engañosa, ya que un hogar con más miembros o con personas de mayores requerimientos energéticos podría parecer que consume más, cuando en realidad su ingesta per cápita podría ser similar o incluso menor.
+:::
+
+---
+
+## Verdadero o Falso
+
+El resultado final del proceso de preparación de datos es una base de datos que se puede utilizar para estimar la ingesta nutricional de la población y simular el impacto de futuras políticas, como la fortificación.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. El objetivo de todo el proceso de limpieza, validación y estandarización de datos es obtener una base de datos robusta y confiable que sirva como fundamento para tomar decisiones de salud pública bien informadas.
+:::

@@ -1,0 +1,82 @@
+---
+title: "Ejercicio 7: Valores de referencia de ingesta de nutrientes"
+subtitle: "Tema 2"
+date: 2025-08-30
+description: "Ejercicio sobre valores de referencia de ingesta de nutrientes"
+format: html
+---
+
+![](/static/images/micro07.png)
+
+
+## ¿Es la siguiente afirmación verdadera?
+
+Los **Valores de Referencia de Nutrientes (VRN)** que se encuentran en el etiquetado de los alimentos son valores arbitrarios establecidos por la industria alimentaria para marketing.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+La afirmación es falsa. Los VRN son valores estandarizados que se basan en una extensa investigación científica realizada por organismos internacionales como la **Organización Mundial de la Salud (OMS)**, con el objetivo de guiar las políticas de salud pública y el etiquetado de los alimentos.
+:::
+
+---
+
+## ¿Cuál de los siguientes componentes del VRN se utiliza para evaluar la ingesta de grandes grupos de personas y cubrir las necesidades de la mitad de una población sana?
+
+a) Nivel Máximo de Ingesta Tolerable (NM)
+b) Requerimiento Promedio Estimado (RPE)
+c) Ingreso Recomendado de Nutrientes (IRN)
+d) Ingesta Diaria Sugerida (IDS)
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Requerimiento Promedio Estimado (RPE)**
+
+El RPE está diseñado para estimar el requerimiento de una población, cubriendo las necesidades del 50% de los individuos sanos en un grupo, lo que lo hace ideal para la planificación a gran escala.
+:::
+
+---
+
+## ¿Cuál es un ejemplo real de cómo la aplicación de los VRN ha mejorado la salud pública, según el video?
+
+a) El aumento de la ingesta de calcio en productos lácteos.
+b) La reducción de defectos del tubo neural en bebés en Canadá, gracias a la fortificación con ácido fólico.
+c) La disminución del consumo de azúcar en bebidas.
+d) La promoción de dietas bajas en grasas en Estados Unidos.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) La reducción de defectos del tubo neural en bebés en Canadá, gracias a la fortificación con ácido fólico.**
+
+El video menciona este ejemplo como una demostración clara de cómo la implementación de políticas de salud basadas en los VRN puede tener un impacto positivo y tangible en la salud de una población.
+:::
+
+---
+
+## Pregunta de desarrollo breve:
+
+Explique la diferencia clave entre el **Requerimiento Promedio Estimado (RPE)** y la **Ingesta Recomendada de Nutrientes (IRN)**.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+La principal diferencia radica en su **propósito y aplicación**. El **RPE** se usa para evaluar a **grupos de población**, ya que representa la necesidad de la mitad del grupo. Por otro lado, la **IRN** es un objetivo de ingesta para **individuos**, diseñado para cubrir las necesidades de casi toda la población (97-98%) e incluye un margen de seguridad.
+:::
+
+---
+
+## Verdadero o Falso
+
+El **Nivel Máximo de Ingesta Tolerable (NM)** es un valor de seguridad que ayuda a prevenir la toxicidad por exceso de nutrientes.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Verdadero.**
+
+La afirmación es verdadera. El NM es el límite de seguridad que, si se supera continuamente, podría causar efectos adversos o toxicidad. Es un concepto crucial para garantizar la seguridad de programas como la fortificación de alimentos.
+:::

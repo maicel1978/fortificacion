@@ -135,6 +135,12 @@ En cada escenario se evalúa:
 
 👉 En otras palabras: el **modelaje de dietas** genera la base de datos → los **métodos de evaluación (EAR y probabilístico)** convierten esa base en información sobre deficiencia/exceso → el **FFL y el EAR** se usan como referencias normativas para definir adiciones → y los **escenarios de fortificación** son la herramienta práctica para comparar opciones de política.
 
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 14](../../ejercicios/tema04/ejercicio14.qmd)
+
+
 # Biblografía
 
 -   Rowe LA, Darwa R, Chadha M, Arabi M. A blueprint for the design and implementation of large-scale food fortification programs.

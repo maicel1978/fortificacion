@@ -117,6 +117,11 @@ La literatura científica ha demostrado que los métodos ajustados son más real
 
 ------------------------------------------------------------------------
 
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 9](../../ejercicios/tema03/ejercicio09.qmd)
+
+
 # Bibliografía
 
 -   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saúde Pública**. 2010;26(11):2188-2195. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21180992/?utm_source=chatgpt.com)

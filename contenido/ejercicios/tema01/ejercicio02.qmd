@@ -1,8 +1,8 @@
 ---
-title: "Ejercicio 2: Fortificación a gran escala"
+title: "Ejercicio 02: Planificación y diseño de un programa de fortificación"
 subtitle: "Tema 1"
 author: "Maicel Monzon & Yarisa Domínguez"
-description: "Ejercicio sobre el tema de Fortificación a gran escala"
+description: "Ejercicio sobre Planificación y diseño de un programa de fortificación"
 date: 2025-06-29
 filters: 
     - quizdown
@@ -56,3 +56,5 @@ Seleccione tres estrategias
 6. Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados
 7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
 ```
+
+[Regresar al módulo 2](../../modulos/tema01/modulo02.qmd)

@@ -1,5 +1,6 @@
 ---
 title: "Ejercicio 13: Ajustes contextuales y aplicaciones avanzadas del EMA"
+author: "Maicel Monzon"
 subtitle: "Tema 3"
 date: 2025-08-30
 description: "Ejercicios sobre Ajustes contextuales y aplicaciones avanzadas del EMA"
@@ -7,6 +8,7 @@ format: html
 ---
 
 ![](/static/images/micro13.png)
+
 
 
 ## ¿Es la siguiente afirmación verdadera?
@@ -21,7 +23,7 @@ El primer paso para estimar la cobertura de un vehículo de fortificación poten
 La afirmación es falsa. El primer paso crucial es la **identificación y preparación de las variables clave** de la encuesta (como datos demográficos y de adquisición de alimentos). La cuantificación de la cobertura se realiza en un segundo paso, una vez que los datos están organizados.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es la diferencia clave entre la **cobertura** y el **consumo** en el contexto de la fortificación de alimentos?
 
@@ -31,14 +33,14 @@ La afirmación es falsa. El primer paso crucial es la **identificación y prepar
 La **cobertura** se refiere al **porcentaje de hogares que han consumido** un alimento fortificable (aceite, harina, etc.) en un período de referencia, independientemente de la cantidad. Por otro lado, el **consumo** se refiere a la **cantidad del alimento que se consume** realmente. Para que un programa de fortificación sea eficaz, el alimento debe tener una alta cobertura y ser consumido en una cantidad suficiente para que el nutriente añadido tenga un impacto nutricional.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Según el material revisado, ¿por qué es importante realizar un análisis de cobertura a nivel **subnacional**?
 
-a) Para comparar los precios de los alimentos en diferentes regiones.
-b) Para evitar que el promedio nacional oculte las variaciones en los patrones de consumo.
-c) Para determinar la cantidad de fortificante que se debe importar.
-d) Para identificar los productos más populares en todo el país.
+a)  Para comparar los precios de los alimentos en diferentes regiones.
+b)  Para evitar que el promedio nacional oculte las variaciones en los patrones de consumo.
+c)  Para determinar la cantidad de fortificante que se debe importar.
+d)  Para identificar los productos más populares en todo el país.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -48,7 +50,7 @@ d) Para identificar los productos más populares en todo el país.
 Un promedio nacional puede ser engañoso. Realizar un análisis por subgrupos (ej. urbano vs. rural o por nivel socioeconómico) es crucial para identificar variaciones y asegurar que el programa de fortificación llegue a los grupos más vulnerables que a menudo tienen patrones de consumo distintos.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -60,7 +62,7 @@ Explique el rol de la **ponderación** en el análisis de las HCES para la estim
 La **ponderación** es un factor de corrección que se aplica a los datos de la muestra de la encuesta. Su rol es **extrapolar los resultados de la muestra a toda la población**. Esto garantiza que las estimaciones de cobertura a nivel nacional y subnacional sean representativas y se basen en una muestra proporcional, permitiendo a los planificadores tomar decisiones informadas para todo el país.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -73,3 +75,5 @@ Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta �
 
 La afirmación es verdadera. Las HCES son una herramienta valiosa que permite a los planificadores de políticas **identificar vehículos de fortificación potenciales** con alta cobertura en la población, lo que es un paso fundamental para el éxito de un programa de fortificación.
 :::
+
+[Regresar al módulo 13](../../modulos/tema03/modulo13.qmd)

@@ -120,6 +120,11 @@ En el próximo módulo estudiarás el **Método de enfoque completo de probabili
 
 [Acceder al módulo 04](../../modulos/tema01/modulo04.qmd)
 
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 3](../../ejercicios/tema01/ejercicio03.qmd)
+
+
 # Biblografía
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

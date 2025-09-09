@@ -1,6 +1,7 @@
 ---
-title: "Ejercicio 5: Indicadores MEL en programas de fortificación de alimentos"
+title: "Ejercicio 05: Indicadores MEL en programas de fortificación de alimentos"
 subtitle: "Tema 1"
+author: "Maicel Monzon"
 date: 2025-08-30
 description: "Ejercicio práctico sobre indicadores MEL en programas de fortificación de alimentos"
 format: html
@@ -62,3 +63,4 @@ d)  Intensidad del consumo
 4 → a) Cobertura de la intervención
 :::
 
+[Regresar al módulo 5](../../modulos/tema02/modulo05.qmd)

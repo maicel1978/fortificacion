@@ -1,5 +1,6 @@
 ---
-title: "Ejercicio 14: Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+title: "Ejercicio 15: Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+author: "Maicel Monzon"
 subtitle: "Tema 4"
 date: 2025-08-30
 description: "Ejercicios sobre Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
@@ -20,14 +21,14 @@ El **Nivel Factible de Fortificación (FFL)** se ubica en un rango que está por
 La afirmación es verdadera. El FFL es el valor ideal que se encuentra en un rango seguro y eficaz. Debe ser lo suficientemente alto para cerrar la brecha nutricional (por encima del EAR) y, a la vez, lo suficientemente bajo para evitar el riesgo de toxicidad (por debajo del UL).
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál de los siguientes pasos se refiere al cálculo inicial de la dosis de fortificación, antes de cualquier ajuste?
 
-a) Determinación del Requerimiento Promedio Estimado (EAR).
-b) Integración de los Niveles Máximos Tolerables (UL).
-c) Estimación de la Ingesta de Alimentos.
-d) Cálculo del Nivel de Fortificación (FL).
+a)  Determinación del Requerimiento Promedio Estimado (EAR).
+b)  Integración de los Niveles Máximos Tolerables (UL).
+c)  Estimación de la Ingesta de Alimentos.
+d)  Cálculo del Nivel de Fortificación (FL).
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -37,7 +38,7 @@ d) Cálculo del Nivel de Fortificación (FL).
 El **Nivel de Fortificación (FL)** es el resultado del cálculo inicial, que combina la necesidad nutricional (EAR) con el consumo promedio del alimento vehículo. Este valor se ajustará posteriormente para tener en cuenta la biodisponibilidad y los límites de seguridad.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -49,7 +50,7 @@ Explique por qué es crucial ajustar la dosis de fortificación para tener en cu
 Es crucial ajustar la dosis para la **biodisponibilidad** porque no todo el nutriente añadido a un alimento es absorbido y utilizado por el cuerpo. Al aplicar un factor de ajuste, se garantiza que la cantidad de nutriente que el cuerpo realmente aprovecha sea la adecuada para combatir la deficiencia, evitando subestimar la dosis necesaria para un impacto efectivo.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es el papel del **Nivel Máximo de Ingesta Tolerable (UL)** en la metodología de la OMS para la fortificación?
 
@@ -59,7 +60,7 @@ Es crucial ajustar la dosis para la **biodisponibilidad** porque no todo el nutr
 El **UL** es el límite de seguridad que no debe ser superado. Su papel es **proteger a la población del consumo excesivo** de un nutriente. La metodología de la OMS lo utiliza como un umbral de seguridad, asegurando que el nivel final de fortificación no presente riesgo de efectos adversos o toxicidad, incluso para aquellos que consumen grandes cantidades del alimento fortificado.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -72,3 +73,6 @@ El primer paso de la metodología de la OMS para determinar el FFL es la conside
 
 La afirmación es falsa. El primer paso es la **Estimación de la Ingesta de Alimentos**, que se realiza a través de encuestas. La consideración de la biodisponibilidad es un paso posterior en el proceso, que se utiliza para refinar el cálculo de la dosis.
 :::
+
+
+[Regresar al módulo 15](../../modulos/tema04/modulo15.qmd)

@@ -118,7 +118,11 @@ Los principales desafíos para implementar estos sistemas incluyen:
 
 En el [módulo 06](../../modulos/tema02/modulo06.qmd) nos adentraremos en detalles en la encuestas HCES, un elemento crítico para la calidad del proceso.
 
-[Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio05.qmd)
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 5](../../ejercicios/tema01/ejercicio05.qmd)
+
 
 # Biblografía
 

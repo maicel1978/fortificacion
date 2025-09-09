@@ -84,6 +84,11 @@ Recordemos que sus pasos incluyen:
 
 ------------------------------------------------------------------------
 
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 17](../../ejercicios/tema04/ejercicio17.qmd)
+
+
 # Biblografía
 
 -   Allen L, de Benoist B, Dary O, Hurrell R. *Guidelines on food fortification with micronutrients.* WHO/FAO, 2006. [PubMed PMID: 18358980](https://pubmed.ncbi.nlm.nih.gov/18358980/)

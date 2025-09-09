@@ -1,5 +1,6 @@
 ---
-title: "Ejercicio 8: Tablas de composición de los alimentos"
+title: "Ejercicio 08: Tablas de composición de los alimentos"
+author: "Maicel Monzon"
 subtitle: "Tema 2"
 date: 2025-08-30
 description: "Ejercicio sobre tablas de composición de los alimentos"
@@ -7,7 +8,6 @@ format: html
 ---
 
 ![](/static/images/micro08.png)
-
 
 ## ¿Es la siguiente afirmación verdadera?
 
@@ -21,14 +21,14 @@ Las **tablas de composición de alimentos** son una herramienta esencial en la p
 La afirmación es verdadera. Las tablas de composición de alimentos se utilizan para convertir los datos de consumo de alimentos de las encuestas en información nutricional, lo que es crucial para identificar las deficiencias de nutrientes a nivel nacional.
 :::
 
----
+------------------------------------------------------------------------
 
 ## En un programa de fortificación, ¿cuál de los siguientes es el resultado directo de combinar los datos de consumo de las HCES con la información de las tablas de composición de alimentos?
 
-a) La promoción de alimentos fortificados en los medios de comunicación.
-b) La justificación de la necesidad de una intervención de fortificación.
-c) El cálculo exacto de la ingesta individual de un nutriente.
-d) La determinación de los costos de producción de un alimento.
+a)  La promoción de alimentos fortificados en los medios de comunicación.
+b)  La justificación de la necesidad de una intervención de fortificación.
+c)  El cálculo exacto de la ingesta individual de un nutriente.
+d)  La determinación de los costos de producción de un alimento.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -38,7 +38,7 @@ d) La determinación de los costos de producción de un alimento.
 Al combinar los datos de lo que la población consume con el contenido de nutrientes de esos alimentos, los planificadores pueden identificar qué nutrientes faltan en la dieta a gran escala. Esta evidencia sólida es fundamental para justificar la implementación de un programa de fortificación.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Según el video, ¿cuál es el papel de las encuestas de consumo en los hogares (HCES) en relación con las tablas de composición de alimentos?
 
@@ -48,7 +48,7 @@ Al combinar los datos de lo que la población consume con el contenido de nutrie
 Las **HCES** proporcionan los **datos de consumo** de alimentos a nivel del hogar, que actúan como la base de información. Las **tablas de composición** se utilizan luego para **traducir esos datos de consumo a un perfil de nutrientes** de la población. Ambas herramientas son complementarias y necesarias para un análisis nutricional completo que justifique las intervenciones de fortificación.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -60,7 +60,7 @@ Explique brevemente por qué la **evidencia sólida** proporcionada por el anál
 La evidencia sólida es necesaria porque la fortificación es una **intervención de salud pública a gran escala** que puede tener un impacto significativo en la población. Los datos de las encuestas y las tablas de composición de alimentos aseguran que la fortificación se dirija a una deficiencia nutricional real y que se implemente en un nivel adecuado para ser efectiva sin causar toxicidad, protegiendo así la salud pública.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -73,3 +73,5 @@ Las tablas de composición de alimentos por sí solas pueden determinar si una p
 
 La afirmación es falsa. Aunque las tablas contienen información sobre el contenido de nutrientes, por sí solas no pueden determinar una deficiencia. Es necesario combinarlas con los **datos de consumo de la población** (obtenidos de encuestas como las HCES) para poder analizar si la ingesta de esos nutrientes es adecuada o inadecuada.
 :::
+
+[Regresar al módulo 8](../../modulos/tema02/modulo08.qmd)

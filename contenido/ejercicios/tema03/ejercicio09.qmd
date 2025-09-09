@@ -1,13 +1,13 @@
 ---
-title: "Ejercicio 9: Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
+title: "Ejercicio 09: Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 subtitle: "Tema 3"
+author: "Maicel Monzon"
 date: 2025-08-30
 description: "Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 format: html
 ---
 
 ![](/static/images/micro09.png)
-
 
 ## ¿Es la siguiente afirmación verdadera?
 
@@ -21,14 +21,14 @@ El **consumo dietético aparente** es un método preciso que refleja la ingesta 
 El consumo dietético aparente es una **estimación teórica** del alimento disponible en una población, calculada a partir de los balances de alimentos. No refleja la ingesta real de cada individuo, ya que no considera las variaciones en edad, sexo o nivel de actividad física.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es la principal limitación del método de consumo per cápita simple para la medición nutricional?
 
-a) Ignora las diferencias en el precio de los alimentos.
-b) Subestima las necesidades de grupos vulnerables como los niños.
-c) Sobrestima los niveles de producción de alimentos en un país.
-d) No tiene en cuenta la calidad de los nutriente.
+a)  Ignora las diferencias en el precio de los alimentos.
+b)  Subestima las necesidades de grupos vulnerables como los niños.
+c)  Sobrestima los niveles de producción de alimentos en un país.
+d)  No tiene en cuenta la calidad de los nutriente.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -38,14 +38,14 @@ d) No tiene en cuenta la calidad de los nutriente.
 El método per cápita simple asume que todos tienen el mismo requerimiento de calorías, lo cual es incorrecto y puede ocultar problemas de subconsumo en subgrupos con mayores necesidades energéticas.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál de los siguientes métodos es una alternativa más precisa al cálculo per cápita simple, según el video?
 
-a) El método de balance de alimentos.
-b) El método de Unidades Equivalentes de Adulto (EMA).
-c) El método del requerimiento promedio estimado.
-d) El método del nivel máximo de ingesta tolerable.
+a)  El método de balance de alimentos.
+b)  El método de Unidades Equivalentes de Adulto (EMA).
+c)  El método del requerimiento promedio estimado.
+d)  El método del nivel máximo de ingesta tolerable.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -55,7 +55,7 @@ d) El método del nivel máximo de ingesta tolerable.
 El método EMA es una alternativa más inteligente porque ajusta la medición al considerar las diferentes necesidades energéticas de cada individuo en una población, proporcionando una cifra más realista y precisa.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -67,7 +67,7 @@ Explique por qué es peligroso para las políticas de salud pública depender de
 Depender de un promedio simple es peligroso porque puede **enmascarar problemas graves de malnutrición o subconsumo**. Como el promedio no considera las variaciones reales en las necesidades de la población, puede hacer que un país parezca tener suficiente comida mientras que, en realidad, los grupos vulnerables (como niños, ancianos o mujeres embarazadas) podrían estar sufriendo de deficiencias nutricionales. Un diagnóstico incorrecto lleva a soluciones equivocadas y programas ineficaces.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -80,3 +80,5 @@ El método de **Unidades Equivalentes de Adulto (EMA)** es útil porque conviert
 
 La afirmación es verdadera. El método EMA utiliza a un adulto de referencia para estandarizar las necesidades de consumo de toda una población, permitiendo un cálculo más realista y ajustado a la demografía real del grupo.
 :::
+
+[Regresar al módulo 9](../../modulos/tema03/modulo09.qmd)

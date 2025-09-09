@@ -123,7 +123,9 @@ Un programa de fortificación de alimentos es una intervención de salud públic
 
 En el [módulo 02](../../modulos/tema01/modulo02.qmd) nos adentraremos en detalles en la Planificación y diseño de un programa de fortificación así como como la definición y establecimiento de los objetivos de este tipo de programas.
 
-Puede realizar los Ejercicio de esta sección introductoria en el siguiente enlace:
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
 
 [Acceder al Ejercicio 1](../../ejercicios/tema01/ejercicio01.qmd)
 

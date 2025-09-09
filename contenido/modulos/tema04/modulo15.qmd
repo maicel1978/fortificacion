@@ -67,6 +67,12 @@ $$
 
 ------------------------------------------------------------------------
 
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 15](../../ejercicios/tema04/ejercicio15.qmd)
+
+
 # Biblografía
 
 -   La Fortificación de Alimentos: Una Estrategia Nutricional ..., accessed September 3, 2025, <https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012>

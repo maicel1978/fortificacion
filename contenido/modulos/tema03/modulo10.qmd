@@ -69,6 +69,11 @@ Se limpian y unifican los datos, se convierten a unidades estándar (gramos/ml) 
 
 ![](/static/images/modulo10pasos.png){fig-align="center"}
 
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 10](../../ejercicios/tema03/ejercicio10.qmd)
+
+
 # Biblografía
 
 -   Fiedler JL, Lividini K, Bermudez OI, Smitz MF. *Household Consumption and Expenditures Surveys (HCES): a tool for nutrition analysis.* Food Nutr Bull. 2012;33(3 Suppl):S170–S184. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23193760/)

@@ -1,5 +1,5 @@
 ---
-title: "Ejercicio 1: Micronutrientes y carencias nutricionales"
+title: "Ejercicio 01: Micronutrientes y carencias nutricionales"
 subtitle: "Tema 1"
 date: 2025-06-29
 author: "Maicel Monzon & Yarisa Domínguez"

@@ -1,6 +1,7 @@
 ---
 title: "Ejercicio 16: Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
 subtitle: "Tema 4"
+author: "Maicel Monzon"
 date: 2025-08-30
 description: "Ejercicios Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
 format: html
@@ -20,14 +21,14 @@ La fortificación de alimentos es un proceso aleatorio que se basa en la intuici
 La afirmación es falsa. La fortificación de alimentos es el resultado de un **cálculo científico preciso y meticuloso** que se basa en datos de consumo y en referencias nutricionales para garantizar la seguridad y efectividad del programa.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es la principal razón por la que se utiliza el **Nivel Factible de Fortificación (FFL)** en el cálculo de adiciones de micronutrientes?
 
-a) Para determinar la cantidad de alimentos que se deben producir.
-b) Para asegurar que la fortificación sea económicamente viable.
-c) Para guiar la cantidad de nutriente que se debe añadir al alimento, equilibrando eficacia y seguridad.
-d) Para medir el impacto de la fortificación en la salud individual.
+a)  Para determinar la cantidad de alimentos que se deben producir.
+b)  Para asegurar que la fortificación sea económicamente viable.
+c)  Para guiar la cantidad de nutriente que se debe añadir al alimento, equilibrando eficacia y seguridad.
+d)  Para medir el impacto de la fortificación en la salud individual.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -37,7 +38,7 @@ d) Para medir el impacto de la fortificación en la salud individual.
 El **FFL** es el valor que se utiliza para la adición de nutrientes. Se calcula de tal manera que sea lo suficientemente alto para tener un impacto positivo en la población (eficacia) y, a la vez, lo suficientemente bajo para no causar toxicidad (seguridad).
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -46,12 +47,10 @@ Mencione los dos ajustes clave que se deben aplicar al cálculo inicial del nive
 ::: {.callout-tip collapse="true"}
 ### Respuesta
 
-Los dos ajustes clave que se deben aplicar son:
-1.  **La biodisponibilidad del nutriente:** Se debe ajustar la dosis para tener en cuenta que el cuerpo no absorbe el 100% del nutriente añadido.
-2.  **Pérdidas tecnológicas:** Se deben considerar las posibles pérdidas del nutriente durante los procesos de almacenamiento, cocción y procesamiento del alimento.
+Los dos ajustes clave que se deben aplicar son: 1. **La biodisponibilidad del nutriente:** Se debe ajustar la dosis para tener en cuenta que el cuerpo no absorbe el 100% del nutriente añadido. 2. **Pérdidas tecnológicas:** Se deben considerar las posibles pérdidas del nutriente durante los procesos de almacenamiento, cocción y procesamiento del alimento.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es el papel del **Requerimiento Promedio Estimado (EAR)** en el cálculo de fortificación?
 
@@ -61,7 +60,7 @@ Los dos ajustes clave que se deben aplicar son:
 El **EAR** es el punto de partida del cálculo. Su papel es **establecer la necesidad diaria de un nutriente** para un grupo de población. Esta cifra es la base para determinar cuánto nutriente se debe añadir al alimento vehículo para ayudar a cerrar la brecha de deficiencia en la población.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -74,3 +73,5 @@ En un programa de fortificación, el objetivo es encontrar un nivel de adición 
 
 La afirmación es verdadera. El proceso de cálculo está diseñado para encontrar un equilibrio óptimo. El nivel de fortificación debe ser lo suficientemente alto para tener un impacto en la salud de la mayoría de la población, pero siempre por debajo del nivel de toxicidad para proteger a aquellos que consumen una gran cantidad del alimento fortificado.
 :::
+
+[Regresar al módulo 16](../../modulos/tema04/modulo16.qmd)

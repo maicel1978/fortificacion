@@ -52,6 +52,12 @@ Para aplicar el **Método de Enfoque Completo de Probabilidades**, se requieren 
 
 ![](/static/images/modulo04pasos.png){fig-align="center"}
 
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 4](../../ejercicios/tema01/ejercicio04.qmd)
+
+
 # Biblografía
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

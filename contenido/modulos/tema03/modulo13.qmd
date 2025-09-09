@@ -91,6 +91,11 @@ El uso de Datos HCES para la Cobertura tiene limitaciones como:
 
 Al seguir estos pasos, podrás utilizar los datos de las HCES para obtener una estimación robusta de la cobertura de vehículos potenciales de fortificación a nivel nacional y para identificar subpoblaciones que se benefician o que aún necesitan intervenciones adicionales.
 
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 13](../../ejercicios/tema03/ejercicio13.qmd)
+
 # Bibliografia
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

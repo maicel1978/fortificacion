@@ -100,6 +100,12 @@ El modelado nutricional a partir de las HCES se basa en un proceso de inferencia
 
 -   La información de ingesta alimentaria habitual a partir de encuestas, como los recordatorios de 24 horas, debe recolectarse preferiblemente en al menos dos días no consecutivos para estimar la variabilidad diaria y ajustar la distribución de ingesta.
 
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 8](../../ejercicios/tema02/ejercicio08.qmd)
+
+
 # Biblografía
 
 Yoo, Y. M., Atkin, R. A., & Pachón, H. (2019). Short Communication: Development of a food composition table to analyze Senegalese food expenditure data. African Journal of Food, Agriculture, Nutrition and Development, 19(2), 14230-14244. https://doi.org/10.18697/ajfand.85.17421

@@ -65,7 +65,7 @@ En nutrición, las HCES permiten:
 Las HCES incluyen varios módulos, pero solo algunos son críticos para reconstruir dietas:
 
 | **Módulo** | **Uso en nutrición** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Gasto en alimentos | Estimar patrones de compra y precios implícitos. |
 | Consumo de alimentos | Cuantificar ingestas, autoconsumo y transferencias. |
 | Producción propia | Incluir cultivos, ganado y pesca de subsistencia. |
@@ -115,6 +115,12 @@ Al descargar una HCES, el investigador debe revisar:
 **Diccionario de variables**.
 
 **Informe técnico** (tasa de respuesta, diseño muestral, factores de expansión).
+
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 6](../../ejercicios/tema02/ejercicio06.qmd)
+
 
 # Biblografía
 

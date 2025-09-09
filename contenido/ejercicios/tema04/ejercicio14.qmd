@@ -1,5 +1,6 @@
 ---
 title: "Ejercicio 14: Integración del Marco metodológico para el diseño y evaluación de políticas de fortificación de alimentos"
+author: "Maicel Monzon"
 subtitle: "Tema 4"
 date: 2025-08-30
 description: "Ejercicios sobre Integración del Marco metodológico para el diseño y evaluación de políticas de fortificación de alimentos"
@@ -7,7 +8,6 @@ format: html
 ---
 
 ![](/static/images/micro14.png)
-
 
 ## ¿Es la siguiente afirmación verdadera?
 
@@ -21,14 +21,14 @@ El **modelaje de dietas** es el primer paso en el marco metodológico para la fo
 La afirmación es verdadera. El modelaje de dietas, que se basa en encuestas de consumo, es el punto de partida fundamental para entender qué está comiendo la población y así poder planificar una estrategia de fortificación.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Cuál es el propósito del **Paso 3: Establecer límites** en el marco metodológico?
 
-a) Analizar si los nutrientes consumidos son suficientes.
-b) Simular diferentes escenarios de fortificación.
-c) Definir los **Niveles Factibles de Fortificación (FFL)** para evitar el consumo excesivo de nutrientes.
-d) Recopilar datos de encuestas nacionales.
+a)  Analizar si los nutrientes consumidos son suficientes.
+b)  Simular diferentes escenarios de fortificación.
+c)  Definir los **Niveles Factibles de Fortificación (FFL)** para evitar el consumo excesivo de nutrientes.
+d)  Recopilar datos de encuestas nacionales.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -38,7 +38,7 @@ d) Recopilar datos de encuestas nacionales.
 Este paso es crucial para la seguridad del programa. Los científicos utilizan referencias como la **EAR** para establecer una meta nutricional y los **FFL** como un límite de seguridad que no debe cruzarse, evitando así el riesgo de toxicidad por exceso de ingesta.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Qué herramienta o método se utiliza en el **Paso 4: Simulación de escenarios**?
 
@@ -48,7 +48,7 @@ Este paso es crucial para la seguridad del programa. Los científicos utilizan r
 En el **Paso 4**, se utiliza toda la información recopilada en los pasos anteriores para **simular diferentes escenarios de fortificación**. Esto permite a los planificadores comparar el impacto de distintas políticas antes de su implementación, ayudando a elegir la opción más segura y efectiva para reducir la deficiencia de nutrientes sin aumentar el riesgo de exceso.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
@@ -60,7 +60,7 @@ Explique la diferencia entre el método del **punto de corte de la EAR** y el **
 El **punto de corte de la EAR** es una estimación más **rápida y general** para evaluar la adecuación nutricional de una población. Por otro lado, el **enfoque de probabilidades** es un análisis mucho más **preciso y detallado** que calcula el riesgo de deficiencia de nutrientes de forma casi individual. Ambos se utilizan en el **Paso 2** para evaluar las carencias en la dieta.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
@@ -73,3 +73,5 @@ El marco metodológico de fortificación de alimentos permite probar y seleccion
 
 La afirmación es verdadera. El marco completo es un proceso científico que va desde la recopilación de datos hasta la simulación, lo que permite a los planificadores tomar decisiones informadas y basadas en evidencia para el beneficio de la salud pública.
 :::
+
+[Regresar al módulo 14](../../modulos/tema04/modulo14.qmd)

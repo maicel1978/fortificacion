@@ -13,59 +13,74 @@ format: html
 
 📥 ¿Cómo escuchar?Los episodios estarán disponibles en formato de audio incrustado directamente en esta página. También podrás descargarlos para escucharlos sin conexión.📢 ¿Tienes una idea para un episodio?
 
-
+------------------------------------------------------------------------
 
 🎙 **Episodio 1:**
 
-![](/static/images/podcast01.png){width="50%"}
+![](/static/images/podcast01.png)
 
 <!-- ¿Hacia dónde va la ciencia de de la Fortificación a gran escala? Avances tecnológicos, biofortificación, nuevas matrices alimentarias. -->
 
-🎙 **Escucha y descarga el audio** 
+🎙 **Escucha y descarga el audio**
 
 <audio controls>
 
 <source src="/static/mp3/podcast01.mp3" type="audio/mpeg">
 
-Tu navegador no soporta el elemento de audio. </audio>
+Tu navegador no soporta el elemento de audio.
 
-🎙 **Episodio 2:** 
+</audio>
+
+------------------------------------------------------------------------
+
+🎙 **Episodio 2:**
+
+![](/static/images/podcast02.png)
 
 <!-- Brechas entre la entre la fortificación teórica y su implementación práctica. -->
 
-![](/static/images/podcast02.png){width="50%"}
-
-<source src="/static/mp3/podcast02.mp3" type="audio/mpeg">
-
-Tu navegador no soporta el elemento de audio. </audio>
-
-<!-- Mitos y realidades sobre la fortificación Desmontamos conceptos erróneos como “la fortificación es solo para países pobres” o “los micronutrientes alteran el sabor”. -->
-
-🎙**Episodio 3:** 
-
-<!-- Historias desde la industria Entrevistas con técnicos mundiales, desafíos en la implementación, anécdotas de campo. -->
-
-🎙 **Episodio 4:** 
-
-<!-- Fortificación y política pública Cómo se diseñan las estrategias nacionales, rol de la legislación y organismos internacionales. -->
+🎙 **Escucha y descarga el audio**
 
 
-🎙 **Episodio 5:** 
 
-<!-- Fortificación y política pública Cómo se diseñan las estrategias nacionales, rol de la legislación y organismos internacionales. -->
+------------------------------------------------------------------------
 
-🎙 **Escucha y descarga el audio** 
+🎙**Episodio 3:**
 
-![](/static/images/podcast05.png){width="50%"}
+
+
+![](/static/images/podcast03.png)
+
+🎙 **Escucha y descarga el audio**
+
+
+
+------------------------------------------------------------------------
+
+🎙 **Episodio 4:**
+
+![](/static/images/podcast04.png)
+
+🎙 **Escucha y descarga el audio**
+
+
+
+------------------------------------------------------------------------
+
+🎙 **Episodio 5:**
+
+![](/static/images/podcast05.png)
+
+
+
+🎙 **Escucha y descarga el audio**
 
 <audio controls>
 
-<source src="/static/mp3/podcast01.mp3" type="audio/mpeg">
+<source src="/static/mp3/podcast05.mp3" type="audio/mpeg">
 
 Tu navegador no soporta el elemento de audio. </audio>
 
-
+------------------------------------------------------------------------
 
 Escríbenos a maicel.monzon\@gmail.com y cuéntanos qué tema te gustaría que abordáramos en próximos episodios.
-
-

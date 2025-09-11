@@ -13,7 +13,7 @@ Las tablas de composición de alimentos son recopilaciones de datos de la cantid
 
 Los datos que suministran estas bases de datos son útiles para **diseñar políticas nutricionales**, **investigar en nutrición**, realizar **estudios de dieta total**, **diseñar nuevos productos** e incluso para proporcionar **información de interés a los consumidores**, cada vez más preocupados por conocer las características de los alimentos que consumen.
 
-![](/static/images/tablas_composicion.png)
+![](/static/images/micro_tablas.png)
 
 ## **¿Qué información contienen?**
 

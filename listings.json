@@ -30,6 +30,7 @@
   {
     "listing": "/contenido/recursos/index.html",
     "items": [
+      "/contenido/recursos/podcast/podcast.html",
       "/contenido/recursos/tablas/tablas.html"
     ]
   },

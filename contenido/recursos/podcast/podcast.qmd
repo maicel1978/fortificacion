@@ -15,11 +15,10 @@ format: html
 
 ------------------------------------------------------------------------
 
-🎙 **Episodio 1:**
+🎙 **Episodio 1:** ¿Hacia dónde va la ciencia de de la Fortificación a gran escala? Avances tecnológicos, biofortificación, nuevas matrices alimentarias.
 
-![](/static/images/podcast01.png)
+![](/static/images/microEpisodio.png)
 
-<!-- ¿Hacia dónde va la ciencia de de la Fortificación a gran escala? Avances tecnológicos, biofortificación, nuevas matrices alimentarias. -->
 
 🎙 **Escucha y descarga el audio**
 
@@ -33,11 +32,10 @@ Tu navegador no soporta el elemento de audio.
 
 ------------------------------------------------------------------------
 
-🎙 **Episodio 2:**
+🎙 **Episodio 2:**  Brechas entre la entre la fortificación teórica y su implementación práctica.
 
-![](/static/images/podcast02.png)
+![](/static/images/microEpisodio.png)
 
-<!-- Brechas entre la entre la fortificación teórica y su implementación práctica. -->
 
 🎙 **Escucha y descarga el audio**
 
@@ -45,11 +43,11 @@ Tu navegador no soporta el elemento de audio.
 
 ------------------------------------------------------------------------
 
-🎙**Episodio 3:**
+🎙**Episodio 3:** Historias desde la industria Entrevistas con técnicos cubanos, desafíos en la implementación, anécdotas de campo.
 
 
 
-![](/static/images/podcast03.png)
+![](/static/images/microEpisodio.png)
 
 🎙 **Escucha y descarga el audio**
 
@@ -57,9 +55,9 @@ Tu navegador no soporta el elemento de audio.
 
 ------------------------------------------------------------------------
 
-🎙 **Episodio 4:**
+🎙 **Episodio 4:** Fortificación y política pública Cómo se diseñan las estrategias nacionales, rol de la legislación y organismos internacionales
 
-![](/static/images/podcast04.png)
+![](/static/images/microEpisodio.png)
 
 🎙 **Escucha y descarga el audio**
 
@@ -69,7 +67,7 @@ Tu navegador no soporta el elemento de audio.
 
 🎙 **Episodio 5:**
 
-![](/static/images/podcast05.png)
+![](/static/images/microEpisodio.png)
 
 
 

@@ -1,5 +1,9 @@
 ---
 title: "Tablas de composición de alimentos"
+subtitle: "Referecias y bases de datos para tablas de composición de alimentos"
+date: 2025-06-29
+description: "Se ofrece como recursos tablas de composición de alimento"
+author: "Maicel Monzón & Yarisa Domínguez" 
 format: html
 ---
 

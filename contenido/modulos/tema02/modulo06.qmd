@@ -1,7 +1,7 @@
 ---
 title: "Módulo 06"
 date: 2025-06-30
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 subtitle: "Generalidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)"
 description: "Se realiza una descripción de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
 ---
@@ -116,11 +116,9 @@ Al descargar una HCES, el investigador debe revisar:
 
 **Informe técnico** (tasa de respuesta, diseño muestral, factores de expansión).
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 6](../../ejercicios/tema02/ejercicio06.qmd)
-
 
 # Biblografía
 

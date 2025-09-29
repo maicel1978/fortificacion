@@ -1,7 +1,7 @@
 ---
 title: "Módulo 07"
 subtitle: "Valores de referencia de ingesta de nutrientes"
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 description: "Se realiza una descripción de Valores de referencia de ingesta de nutrientes"
 ---
 
@@ -56,7 +56,6 @@ Los **Valores de Referencia de Nutrientes (VRN)** se utilizan en el análisis de
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 7](../../ejercicios/tema02/ejercicio07.qmd)
-
 
 # Bibliografía
 

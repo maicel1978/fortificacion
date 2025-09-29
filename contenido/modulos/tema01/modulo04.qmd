@@ -2,7 +2,7 @@
 title: "Módulo 04"
 date: 2025-06-30
 subtitle: "Método de enfoque completo de probabilidades"
-author: "Maicel Monzón & Santiago Rodas Moya & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se realiza una introdución al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes"
 ---
 
@@ -52,11 +52,9 @@ Para aplicar el **Método de Enfoque Completo de Probabilidades**, se requieren 
 
 ![](/static/images/modulo04pasos.png){fig-align="center"}
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 4](../../ejercicios/tema01/ejercicio04.qmd)
-
 
 # Biblografía
 

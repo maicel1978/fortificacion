@@ -1,7 +1,7 @@
 ---
 title: "Módulo 14"
 subtitle: "Integración del Marco metodológico  para el diseño y evaluación de políticas de fortificación de alimentos"
-author: "Maicel Monzon & & Santiago Rodas Moya"
+author: "Maicel Monzón"
 date: 2025-06-29
 description: "Se describe el Marco metodológico  para el diseño y evaluación de políticas de fortificación de alimentos de una manera integrada"
 ---
@@ -135,11 +135,9 @@ En cada escenario se evalúa:
 
 👉 En otras palabras: el **modelaje de dietas** genera la base de datos → los **métodos de evaluación (EAR y probabilístico)** convierten esa base en información sobre deficiencia/exceso → el **FFL y el EAR** se usan como referencias normativas para definir adiciones → y los **escenarios de fortificación** son la herramienta práctica para comparar opciones de política.
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 14](../../ejercicios/tema04/ejercicio14.qmd)
-
 
 # Biblografía
 

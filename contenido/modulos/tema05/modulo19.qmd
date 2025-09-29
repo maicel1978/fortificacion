@@ -2,7 +2,7 @@
 title: "Módulo 19"
 date: 2025-07-01
 subtitle: "Caso de Uso 2: De la Canasta Básica a la Nutrición: Un Viaje con la ENHOGAR de República Dominicana"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se trata de un caso de uso hipotético con datos de la Republica Dominicana, estos datos se usan por su similitud con datos cubanos"
 ---
 

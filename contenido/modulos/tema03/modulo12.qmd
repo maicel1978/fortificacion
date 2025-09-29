@@ -1,7 +1,7 @@
 ---
 title: "Módulo 12"
 subtitle: "Ajustes contextuales y aplicaciones avanzadas del EMA"
-author: "Maicel Monzon & Yarisa Domínguez & Santiago Rodas Moya"
+author: "Maicel Monzón"
 date: 2025-06-29
 description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
@@ -62,15 +62,13 @@ La metodología del EMA, con sus refinamientos, se extiende más allá del model
 
 -   **Análisis de Seguridad Alimentaria**: El **consumo por EMA** puede usarse como un indicador de la suficiencia alimentaria de un hogar. Al comparar este valor con los requerimientos energéticos de la población, se puede identificar la proporción de hogares que viven con inseguridad alimentaria, lo cual es fundamental para el diseño de programas de asistencia.
 
-- **Análisis de Vulnerabilidad**: La combinación del consumo ajustado por EMA con datos económicos, geográficos y demográficos permite a los analistas identificar a los **grupos más vulnerables** a la inseguridad nutricional. Este enfoque multidimensional proporciona la información necesaria para diseñar intervenciones nutricionales y políticas públicas que no solo sean efectivas, sino también equitativas y focalizadas.
+-   **Análisis de Vulnerabilidad**: La combinación del consumo ajustado por EMA con datos económicos, geográficos y demográficos permite a los analistas identificar a los **grupos más vulnerables** a la inseguridad nutricional. Este enfoque multidimensional proporciona la información necesaria para diseñar intervenciones nutricionales y políticas públicas que no solo sean efectivas, sino también equitativas y focalizadas.
 
 ------------------------------------------------------------------------
 
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 12](../../ejercicios/tema03/ejercicio12.qmd)
-
-
 
 # Biblografía
 

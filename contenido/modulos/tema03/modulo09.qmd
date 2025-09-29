@@ -2,7 +2,7 @@
 title: "Módulo 09"
 subtitle: "Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 description: "Se realiza una introducción a los fundamentos conceptuales para la estandarización del consumo dietético poblacional"
 ---
 
@@ -120,7 +120,6 @@ La literatura científica ha demostrado que los métodos ajustados son más real
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 9](../../ejercicios/tema03/ejercicio09.qmd)
-
 
 # Bibliografía
 

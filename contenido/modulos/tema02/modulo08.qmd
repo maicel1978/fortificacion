@@ -2,7 +2,7 @@
 title: "Módulo 08"
 subtitle: "Tablas de composición de los alimentos"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 description: "Se describe, qué son las tablas de composición de los alimentos, cómo y dónde obtenerlas, así cómo se utilizan para el análisis de HCES."
 ---
 
@@ -100,11 +100,9 @@ El modelado nutricional a partir de las HCES se basa en un proceso de inferencia
 
 -   La información de ingesta alimentaria habitual a partir de encuestas, como los recordatorios de 24 horas, debe recolectarse preferiblemente en al menos dos días no consecutivos para estimar la variabilidad diaria y ajustar la distribución de ingesta.
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 8](../../ejercicios/tema02/ejercicio08.qmd)
-
 
 # Biblografía
 

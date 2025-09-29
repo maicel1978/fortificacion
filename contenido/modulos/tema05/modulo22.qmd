@@ -2,7 +2,7 @@
 title: "Módulo 22"
 date: 2025-07-01
 subtitle: "Caso de uso 5:  Análisis Complementario de la Calidad de la Dieta"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se describe un caso de uso para el Análisis Complementario de la Calidad de la Dieta"
 ---
 
@@ -10,9 +10,9 @@ description: "Se describe un caso de uso para el Análisis Complementario de la 
 
 # Sumario
 
-- Contexto y Metodología
+-   Contexto y Metodología
 
-- Código de Ejemplo
+-   Código de Ejemplo
 
 # Introducción
 
@@ -64,10 +64,8 @@ print(datos_con_puntaje)
 
 # Biblografía
 
-- Haddad, L., Swindale, A., & Loken, B. (2007). Household Dietary Diversity Score (HDDS) for Measurement of Household Food Access: Indicator Guide. Food and Nutrition Technical Assistance Project (FANTA).
+-   Haddad, L., Swindale, A., & Loken, B. (2007). Household Dietary Diversity Score (HDDS) for Measurement of Household Food Access: Indicator Guide. Food and Nutrition Technical Assistance Project (FANTA).
 
-- Hotz, C., & Gibson, R. (2007). Assessment of the efficacy of a food fortification program: A critical review. Food and Nutrition Bulletin, 28(4), 452-463.
+-   Hotz, C., & Gibson, R. (2007). Assessment of the efficacy of a food fortification program: A critical review. Food and Nutrition Bulletin, 28(4), 452-463.
 
-- Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.
-
-
+-   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

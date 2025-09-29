@@ -1,7 +1,7 @@
 ---
 title: "Módulo 02"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 subtitle: "Planificación y diseño de un programa de fortificación"
 description: "Este módulo tiene como objetivo que los participantes conozcan los pasos iniciales para la planificación y diseño de un programa de fortificación."
 bibliography: references.bib

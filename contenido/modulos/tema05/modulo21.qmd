@@ -2,7 +2,7 @@
 title: "Módulo 21"
 date: 2025-07-01
 subtitle: "Caso de uso 4:  Estimación de la Ingesta de Hierro con el Modelo Probabilístico SPADE"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se realiza un ejemplo practico en el que se emplea el modelo probabilístico para la evaluación del hierro"
 ---
 

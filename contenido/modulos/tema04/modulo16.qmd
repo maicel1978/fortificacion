@@ -2,7 +2,7 @@
 title: "Módulo 16"
 date: 2025-07-01
 subtitle: "Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "se describe la metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
 ---
 
@@ -108,7 +108,6 @@ Ejemplo (hierro en harina):
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 16](../../ejercicios/tema04/ejercicio16.qmd)
-
 
 # Biblografía
 

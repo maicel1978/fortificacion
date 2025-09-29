@@ -2,7 +2,7 @@
 title: "Módulo 17"
 date: 2025-07-01
 subtitle: "Construcción de escenarios de fortificación"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se ilustra brevemente la metodología para la construcción de escenarios de fortificación"
 ---
 
@@ -87,7 +87,6 @@ Recordemos que sus pasos incluyen:
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 17](../../ejercicios/tema04/ejercicio17.qmd)
-
 
 # Biblografía
 

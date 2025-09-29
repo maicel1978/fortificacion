@@ -2,7 +2,7 @@
 title: "Módulo 20"
 date: 2025-07-01
 subtitle: "Caso de uso 3: Prevalencia de Ingesta Inadecuada de Nutrientes con el Método del Punto de Corte del RPE )"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 description: "Se describe un ejemplo de Modelaje Dietético con Datos de HCES (Datos de la República Dominicana)"
 ---
 

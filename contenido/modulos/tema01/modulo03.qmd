@@ -1,7 +1,7 @@
 ---
 title: "Módulo 03"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 subtitle: "Método del punto de corte del requerimiento promedio estimado (RPE)"
 description: "Se realiza una introducción al uso del método del punto de corte del requerimiento promedio estimado (RPE) para establecer metas y evaluar el impacto y la inocuidad de la fortificación"
 ---
@@ -123,7 +123,6 @@ En el próximo módulo estudiarás el **Método de enfoque completo de probabili
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 3](../../ejercicios/tema01/ejercicio03.qmd)
-
 
 # Biblografía
 

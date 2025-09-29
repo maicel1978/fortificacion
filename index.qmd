@@ -24,5 +24,4 @@ Te invitamos a explorar los diferentes módulos y recursos. Estamos comprometido
 
 ------------------------------------------------------------------------
 
-**Autores**: Maicel Monzón Pérez PhD, Yarisa Domínguez Ayllón Msc y\
-Carlos Santiago Rodas Moya PhD.
+<!-- **Autores**: Maicel Monzón Pérez PhD -->

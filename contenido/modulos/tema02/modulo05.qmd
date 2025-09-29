@@ -1,7 +1,7 @@
 ---
 title: "Módulo 05"
 date: 2025-07-01
-author: "Maicel Monzon & Santiago Rodas Moya & Yarisa Domínguez"
+author: "Maicel Monzón"
 subtitle: "Monitoreo y Evaluación de Programas de Fortificación de Alimentos"
 description: "Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin"
 ---
@@ -118,11 +118,9 @@ Los principales desafíos para implementar estos sistemas incluyen:
 
 En el [módulo 06](../../modulos/tema02/modulo06.qmd) nos adentraremos en detalles en la encuestas HCES, un elemento crítico para la calidad del proceso.
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 5](../../ejercicios/tema01/ejercicio05.qmd)
-
 
 # Biblografía
 

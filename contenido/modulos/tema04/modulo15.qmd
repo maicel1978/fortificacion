@@ -67,11 +67,9 @@ $$
 
 ------------------------------------------------------------------------
 
-
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 15](../../ejercicios/tema04/ejercicio15.qmd)
-
 
 # Biblografía
 

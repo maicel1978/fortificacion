@@ -2,7 +2,7 @@
 title: "Módulo 10"
 subtitle: "Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 description: "Se realiza una introducción a la Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo) de las Encuestas de Consumo y Gastos en los Hogares (HCES) en el modelado de dietas"
 ---
 
@@ -72,7 +72,6 @@ Se limpian y unifican los datos, se convierten a unidades estándar (gramos/ml) 
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 10](../../ejercicios/tema03/ejercicio10.qmd)
-
 
 # Biblografía
 

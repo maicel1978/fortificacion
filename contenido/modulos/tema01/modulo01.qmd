@@ -3,7 +3,7 @@ title: "Módulo 01"
 subtitle: "¿Porque fortificar?: Generalidades sobre déficit nutricionales y estrategias para su control"
 description: "El objetivo principal de este módulo es que los participantes conozcan los fundamentos para diseñar estrategias de fortificación de alimentos, basadas en políticas públicas, para reducir deficiencias de micronutrientes en grupos vulnerables"
 date: 2025-06-29
-author: "Maicel Monzón & Santiago Rodas Moya"
+author: "Maicel Monzón"
 bibliography: references.bib
 ---
 

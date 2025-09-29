@@ -1,7 +1,7 @@
 ---
 title: "Módulo 13"
 subtitle: "Estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
-author: "Maicel Monzon & Yarisa Domínguez"
+author: "Maicel Monzón"
 date: 2025-06-29
 description: "Se describe el como se realiza la estimación de cobertura de vehículos potenciales de fortificación a nivel nacional y subnacional utilizando HCES"
 ---
@@ -90,7 +90,6 @@ El uso de Datos HCES para la Cobertura tiene limitaciones como:
 -   **Utilidad a Pesar de las Limitaciones:** A pesar de estas limitaciones, las HCES son una herramienta muy útil en ausencia de datos de consumo a nivel individual. Permiten a los especialistas en salud pública y a los formuladores de políticas identificar vehículos de fortificación adecuados para diferentes estratos de la población y tomar decisiones informadas sobre el diseño, monitoreo y evaluación de programas.
 
 Al seguir estos pasos, podrás utilizar los datos de las HCES para obtener una estimación robusta de la cobertura de vehículos potenciales de fortificación a nivel nacional y para identificar subpoblaciones que se benefician o que aún necesitan intervenciones adicionales.
-
 
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 

@@ -79,5 +79,4 @@ El **Enfoque de Probabilidades Completo** requiere datos detallados sobre la dis
 La afirmación es verdadera. Para aplicar este método de manera efectiva, se necesitan datos precisos sobre la distribución de la ingesta y el consumo de alimentos, ya que la evaluación se basa en la simulación de estos factores para predecir el impacto de la fortificación.
 :::
 
-
 [Regresar al módulo 4](../../modulos/tema01/modulo04.qmd)

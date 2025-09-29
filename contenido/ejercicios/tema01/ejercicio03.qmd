@@ -9,7 +9,6 @@ format: html
 
 ![](/static/images/micro03.png)
 
-
 ## ¿Es la siguiente definición verdadera?
 
 **Estimated Average Requirement (EAR):** El nivel de ingesta promedio diaria de nutrientes estimado para satisfacer los requerimientos de casi todos (97-98%) los individuos sanos en una etapa de vida y grupo de género específicos.
@@ -34,10 +33,10 @@ El método se utiliza para evaluar el estado nutricional de un grupo de personas
 
 ## En el contexto del método EAR, ¿cuál de los siguientes pasos es crucial para predecir el impacto de la fortificación?
 
-a) Calcular la cantidad de nutriente que la población consume actualmente.
-b) Simular el efecto de la adición del nutriente al alimento.
-c) Analizar la distribución de la ingesta de alimentos a lo largo del tiempo.
-d) Medir la estatura y el peso de la población.
+a)  Calcular la cantidad de nutriente que la población consume actualmente.
+b)  Simular el efecto de la adición del nutriente al alimento.
+c)  Analizar la distribución de la ingesta de alimentos a lo largo del tiempo.
+d)  Medir la estatura y el peso de la población.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta

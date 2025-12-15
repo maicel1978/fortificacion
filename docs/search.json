@@ -665,7 +665,7 @@
   {
     "objectID": "contenido/actividades/tema05/modulo24.html",
     "href": "contenido/actividades/tema05/modulo24.html",
-    "title": "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)",
+    "title": "Módulo 24",
     "section": "",
     "text": "Contexto Metodológico: La Fórmula Central MIMI\n\n\n\nEste módulo implementa la base del flujo de trabajo MIMI del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en Ingesta Diaria de Nutriente estandarizada por AWE.",
     "crumbs": [
@@ -673,13 +673,13 @@
       "Contenidos",
       "Módulos e-learning",
       "Tema05",
-      "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)"
+      "Módulo 24"
     ]
   },
   {
     "objectID": "contenido/actividades/tema05/modulo24.html#configuración-del-entorno",
     "href": "contenido/actividades/tema05/modulo24.html#configuración-del-entorno",
-    "title": "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)",
+    "title": "Módulo 24",
     "section": "1.1 1.1. Configuración del Entorno",
     "text": "1.1 1.1. Configuración del Entorno\nUso de pacman para una gestión de paquetes más limpia y robusta.\n\n\nCódigo\n# Gestión robusta de librerías\nif (!require(\"pacman\")) install.packages(\"pacman\")\npacman::p_load(\n  tidyverse,  # Manipulación de datos y gráficos\n  readxl,     # Lectura de Excel\n  here,       # Rutas relativas\n  DT,         # Tablas interactivas\n  knitr,      # Tablas estáticas\n  scales      # Formato de números en gráficos\n)\n\noptions(scipen = 999) # Evitar notación científica\n\n# Rutas de datos (definir solo una vez)\nruta_base &lt;- here(\"static/data/\")\nruta_demo &lt;- file.path(ruta_base, \"Sociodemograficas_e_ingresos.xlsx\")\nruta_cons &lt;- file.path(ruta_base, \"Registros_Cuestionario_B.xlsx\")\n\n\n\n1.1.1 Funciones de Carga Híbrida\nPara garantizar reproducibilidad si no se tienen los datos locales.\n\n\nCódigo\ncargar_datos_demo &lt;- function(ruta) {\n  if (file.exists(ruta)) {\n    return(read_excel(ruta, sheet = \"Base\"))\n  }\n  \n  warning(\"⚠️ Usando datos simulados (DEMO).\")\n  tribble(\n    ~VIVIENDA, ~HOGAR, ~A402, ~A403,\n    1, 1, 1, 35, # Hogar 1: Hombre 35\n    1, 1, 2, 30, # Hogar 1: Mujer 30\n    1, 1, 1, 5,  # Hogar 1: Niño 5\n    2, 1, 2, 65, # Hogar 2: Mujer 65\n    3, 1, 1, 40, # Hogar 3: Hombre 40\n    3, 1, 1, 10  # Hogar 3: Niño 10\n  )\n}\n\ncargar_datos_consumo &lt;- function(ruta) {\n  if (file.exists(ruta)) {\n    # Forzar tipos de columna para evitar errores de lectura\n    return(read_excel(ruta, sheet = \"Cuest. B Sec 3A\", col_types = \"text\")) \n  }\n  \n  warning(\"⚠️ Usando datos simulados (CONSUMO).\")\n  tribble(\n    ~VIVIENDA, ~HOGAR, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA, ~DESTINO_PROPIO_HOGAR,\n    1, 1, 1,   5.0, 1, 1,\n    1, 1, 588, 12.0, 3, 1,\n    2, 1, 1,   2.5, 1, 1,\n    3, 1, 1,   25000, 10, 1, # Outlier intencional\n    3, 1, 588, 5, 3, 1\n  ) %&gt;% \n    mutate(\n      CANTIDAD_ADQUIRIDA = as.numeric(CANTIDAD_ADQUIRIDA),\n      ID_UNIDAD_MEDIDA = as.numeric(ID_UNIDAD_MEDIDA),\n      ID_VARIEDAD = as.numeric(ID_VARIEDAD)\n    )\n}",
     "crumbs": [
@@ -687,7 +687,7 @@
       "Contenidos",
       "Módulos e-learning",
       "Tema05",
-      "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)"
+      "Módulo 24"
     ]
   },
   {

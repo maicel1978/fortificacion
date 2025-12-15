@@ -1,6 +1,6 @@
 ---
-title: "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)"
-subtitle: "De la Compra Bruta a la Ingesta Aparente de Micronutrientes"
+title: "Módulo 24"
+subtitle: "Cálculo de Cantidades y Nutrientes (MIMI)"
 author: "Maicel Monzón"
 date: "2025-07-01"
 lang: es 

@@ -21,11 +21,11 @@ website:
   sidebar:
     contents: auto
 
+               
+
 format:
   html:
-    theme:
-      - lumen
-      - brand
+    theme: lumen
     css: styles.css
     toc: true
 

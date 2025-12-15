@@ -74,4 +74,4 @@ El marco metodológico de fortificación de alimentos permite probar y seleccion
 La afirmación es verdadera. El marco completo es un proceso científico que va desde la recopilación de datos hasta la simulación, lo que permite a los planificadores tomar decisiones informadas y basadas en evidencia para el beneficio de la salud pública.
 :::
 
-[Regresar al módulo 14](../../modulos/tema04/modulo14.qmd)
+[Regresar al módulo 14](../../actividades/tema04/modulo14.qmd)

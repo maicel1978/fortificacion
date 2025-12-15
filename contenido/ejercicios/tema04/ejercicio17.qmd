@@ -74,4 +74,4 @@ El uso de un tablero de decisión trimestral y el análisis de escenarios son pa
 La afirmación es verdadera. Ambos son herramientas que se utilizan en el marco MEL para guiar las acciones de manera adaptativa y asegurar que el programa de fortificación se mantenga en el camino correcto para lograr sus metas nutricionales.
 :::
 
-[Regresar al módulo 17](../../modulos/tema04/modulo17.qmd)
+[Regresar al módulo 17](../../actividades/tema04/modulo17.qmd)

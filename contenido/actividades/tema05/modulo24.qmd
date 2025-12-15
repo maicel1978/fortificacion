@@ -1,0 +1,262 @@
+---
+title: "Módulo 24: Cálculo de Cantidades y Nutrientes (MIMI)"
+subtitle: "De la Compra Bruta a la Ingesta Aparente de Micronutrientes"
+author: "Maicel Monzón"
+date: "2025-07-01"
+lang: es 
+description: "Implementación paso a paso de la metodología MIMI (WFP) para estimar la ingesta de micronutrientes a nivel de hogar."
+format: 
+  html:
+    # IMPORTANTE: Hemos quitado 'css: styles.css' de aquí.
+    # Al definirlo solo en _quarto.yml, Quarto resuelve automáticamente la ruta correcta
+    # (evitando el error 404 cuando el archivo está en una subcarpeta).
+    toc: true
+    toc-depth: 3
+    toc-title: "Índice del Módulo"
+    number-sections: true
+    code-fold: show 
+    code-tools: true
+    code-copy: true
+    df-print: paged
+execute:
+  warning: false
+  message: false
+  echo: true
+---
+
+::: callout-note
+## Contexto Metodológico: La Fórmula Central MIMI
+
+Este módulo implementa la base del flujo de trabajo **MIMI**
+del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en
+**Ingesta Diaria de Nutriente** estandarizada por AWE.
+:::
+
+::: callout-tip
+## Fórmula Clave
+$$\text{Ingesta Diaria} = \frac{Q \times FC \times PC \times FND}{PM}$$
+
+* **Q**: Cantidad adquirida.
+* **FC**: Factor de Conversión (unidad $\rightarrow$ kg).
+* **PC**: Porción Comestible.
+* **FND**: Factor Nutricional Diario.
+* **PM**: Período de Medición (días).
+:::
+
+# 1. Definición del Flujo de Procesamiento
+
+```{mermaid}
+flowchart TD
+    A["Datos Brutos ENGIH\n(Q, Unidad, Demográficos)"]
+    B["Hogar Estandarizado"]
+    C["Conversión a Gramos Netos"]
+    D["Consumo Diario Comestible (g)"]
+    E["Ingesta Nutricional Bruta (mg / mcg)"]
+    F["Resultado Final: Ingesta por AWE"]
+
+    A -->|FASE 1: AWE| B
+    A --> C
+    B --> C
+    C -->|FC · PC · PM| D
+    D -->|FASE 4: FND| E
+    E -->|FASE 5| F
+
+    style A fill:#eef7f6,stroke:#2aa198,stroke-width:2px
+    style F fill:#eef7f6,stroke:#2aa198,stroke-width:2px
+```
+
+## 1.1. Configuración del Entorno
+
+Uso de `pacman` para una gestión de paquetes más limpia y robusta.
+
+
+```{r}
+#| label: setup
+#| message: false
+
+# Gestión robusta de librerías
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(
+  tidyverse,  # Manipulación de datos y gráficos
+  readxl,     # Lectura de Excel
+  here,       # Rutas relativas
+  DT,         # Tablas interactivas
+  knitr,      # Tablas estáticas
+  scales      # Formato de números en gráficos
+)
+
+options(scipen = 999) # Evitar notación científica
+
+# Rutas de datos (definir solo una vez)
+ruta_base <- here("static/data/")
+ruta_demo <- file.path(ruta_base, "Sociodemograficas_e_ingresos.xlsx")
+ruta_cons <- file.path(ruta_base, "Registros_Cuestionario_B.xlsx")
+```
+
+### Funciones de Carga Híbrida
+
+Para garantizar reproducibilidad si no se tienen los datos locales.
+
+```{r}
+#| label: funciones-carga
+#| code-fold: true
+
+cargar_datos_demo <- function(ruta) {
+  if (file.exists(ruta)) {
+    return(read_excel(ruta, sheet = "Base"))
+  }
+  
+  warning("⚠️ Usando datos simulados (DEMO).")
+  tribble(
+    ~VIVIENDA, ~HOGAR, ~A402, ~A403,
+    1, 1, 1, 35, # Hogar 1: Hombre 35
+    1, 1, 2, 30, # Hogar 1: Mujer 30
+    1, 1, 1, 5,  # Hogar 1: Niño 5
+    2, 1, 2, 65, # Hogar 2: Mujer 65
+    3, 1, 1, 40, # Hogar 3: Hombre 40
+    3, 1, 1, 10  # Hogar 3: Niño 10
+  )
+}
+
+cargar_datos_consumo <- function(ruta) {
+  if (file.exists(ruta)) {
+    # Forzar tipos de columna para evitar errores de lectura
+    return(read_excel(ruta, sheet = "Cuest. B Sec 3A", col_types = "text")) 
+  }
+  
+  warning("⚠️ Usando datos simulados (CONSUMO).")
+  tribble(
+    ~VIVIENDA, ~HOGAR, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA, ~DESTINO_PROPIO_HOGAR,
+    1, 1, 1,   5.0, 1, 1,
+    1, 1, 588, 12.0, 3, 1,
+    2, 1, 1,   2.5, 1, 1,
+    3, 1, 1,   25000, 10, 1, # Outlier intencional
+    3, 1, 588, 5, 3, 1
+  ) %>% 
+    mutate(
+      CANTIDAD_ADQUIRIDA = as.numeric(CANTIDAD_ADQUIRIDA),
+      ID_UNIDAD_MEDIDA = as.numeric(ID_UNIDAD_MEDIDA),
+      ID_VARIEDAD = as.numeric(ID_VARIEDAD)
+    )
+}
+```
+
+# 2. Fase 1: Estandarización Demográfica (AWE)
+
+Calculamos el denominador poblacional del hogar.
+
+```{r}
+#| label: calculo-awe
+
+# 1. Carga y limpieza
+datos_persona <- cargar_datos_demo(ruta_demo) %>%
+  select(HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, SEXO = A402, EDAD = A403)
+
+# 2. Tabla de Factores AWE (INCAP/WFP)
+awe_factors <- tribble(
+  ~edad_min, ~edad_max, ~SEXO, ~awe_factor,
+  0, 0, 1, 0.33, 0, 0, 2, 0.33,
+  1, 2, 1, 0.46, 1, 2, 2, 0.46,
+  3, 5, 1, 0.54, 3, 5, 2, 0.54,
+  6, 9, 1, 0.65, 6, 9, 2, 0.65,
+  10, 13, 1, 0.85, 10, 13, 2, 0.81,
+  14, 17, 1, 1.02, 14, 17, 2, 0.89,
+  18, 59, 1, 1.05, 18, 59, 2, 1.00,
+  60, 150, 1, 0.84, 60, 150, 2, 0.77
+)
+
+# 3. Join y Agregación
+datos_awe_hogar <- datos_persona %>%
+  left_join(awe_factors, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
+  group_by(HHID_VIV, HHID_HOG) %>%
+  summarise(Total_AWE_Hogar = sum(awe_factor, na.rm = TRUE), .groups = 'drop')
+
+datatable(datos_awe_hogar, caption = "Tabla 1: AWE por Hogar") %>%
+  formatRound(columns = "Total_AWE_Hogar", digits = 2)
+```
+
+# 3. Cálculo de Consumo Neto
+
+```{r}
+#| label: calculo-gramos
+
+# Datos de consumo (solo consumo propio)
+datos_consumo <- cargar_datos_consumo(ruta_cons) %>%
+  select(
+    HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, 
+    CODI_ALIMENTO = ID_VARIEDAD,      
+    Q = CANTIDAD_ADQUIRIDA, 
+    UNIDAD_MEDIDA = ID_UNIDAD_MEDIDA, 
+    DESTINO_HOGAR = DESTINO_PROPIO_HOGAR
+  ) %>%
+  filter(DESTINO_HOGAR == 1) %>%
+  mutate(
+    # CORRECCIÓN CRÍTICA: Conversión explícita de tipos
+    # Como read_excel lee todo como texto (col_types="text"),
+    # debemos convertir a numérico antes de hacer los joins.
+    HHID_VIV = as.numeric(HHID_VIV), # <--- AGREGADO: Convertir ID vivienda
+    HHID_HOG = as.numeric(HHID_HOG), # <--- AGREGADO: Convertir ID hogar
+    Q = as.numeric(Q),
+    UNIDAD_MEDIDA = as.numeric(UNIDAD_MEDIDA),
+    CODI_ALIMENTO = as.numeric(CODI_ALIMENTO)
+  )
+
+# Tablas Auxiliares (TCA Simulada)
+fc_table <- tribble(
+  ~UNIDAD_MEDIDA, ~FC_KG,
+  1, 1.000, 3, 0.150, 10, 0.001
+)
+pc_table <- tribble(
+  ~CODI_ALIMENTO, ~PC,
+  1, 1.00, 588, 0.80
+)
+
+# Constantes
+PM_DIAS <- 30 
+
+consumo_diario <- datos_consumo %>%
+  left_join(fc_table, by = "UNIDAD_MEDIDA") %>%
+  left_join(pc_table, by = "CODI_ALIMENTO") %>%
+  mutate(
+    FC_KG = replace_na(FC_KG, 0),
+    PC = replace_na(PC, 1.00),
+    # Fórmula Principal
+    CONSUMO_G_DIA = (Q * FC_KG * PC * 1000) / PM_DIAS
+  ) %>%
+  group_by(HHID_VIV, HHID_HOG, CODI_ALIMENTO) %>%
+  summarise(Total_G_Dia = sum(CONSUMO_G_DIA, na.rm=TRUE), .groups = 'drop') %>%
+  left_join(datos_awe_hogar, by = c("HHID_VIV", "HHID_HOG"))
+
+datatable(head(consumo_diario, 10)) %>%
+  formatRound(columns = c("Total_G_Dia", "Total_AWE_Hogar"), digits = 2)
+```
+
+# 4. Control de Calidad Visual
+
+Detectando outliers antes del análisis nutricional final.
+
+```{r}
+#| label: plot-qc
+#| fig-cap: "Distribución de consumo diario y detección de valores extremos."
+
+datos_qc <- consumo_diario %>%
+  filter(CODI_ALIMENTO == 1) %>% 
+  mutate(
+    Umbral_95 = quantile(Total_G_Dia, 0.95),
+    Estado = if_else(Total_G_Dia > Umbral_95, "Revisar (Outlier)", "Normal")
+  )
+
+ggplot(datos_qc, aes(x = factor(CODI_ALIMENTO), y = Total_G_Dia)) +
+  geom_boxplot(fill = "#ecf0f1", outlier.shape = NA) +
+  geom_jitter(aes(color = Estado, size = Estado), width = 0.1, alpha = 0.7) +
+  scale_color_manual(values = c("Normal" = "#2980b9", "Revisar (Outlier)" = "#c0392b")) +
+  scale_size_manual(values = c("Normal" = 3, "Revisar (Outlier)" = 5)) +
+  labs(
+    title = "Control de Calidad: Alimento 1 (Harina)",
+    subtitle = "Identificación de registros sobre el percentil 95",
+    y = "Gramos Netos / Día",
+    x = "Código Alimento"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```

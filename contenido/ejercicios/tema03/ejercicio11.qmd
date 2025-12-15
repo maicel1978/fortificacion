@@ -81,5 +81,4 @@ El factor de conversión EMA de un niño se calcula dividiendo sus necesidades e
 La afirmación es verdadera. Los factores de conversión se calculan dividiendo los requerimientos energéticos de cada miembro del hogar por los de la mujer de referencia, lo que permite estandarizar el consumo de todo el grupo familiar.
 :::
 
-
-[Regresar al módulo 11](../../modulos/tema03/modulo11.qmd)
+[Regresar al módulo 11](../../actividades/tema03/modulo11.qmd)

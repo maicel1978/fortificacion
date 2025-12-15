@@ -81,4 +81,4 @@ El **Nivel Máximo de Ingesta Tolerable (NM)** es un valor de seguridad que ayud
 La afirmación es verdadera. El NM es el límite de seguridad que, si se supera continuamente, podría causar efectos adversos o toxicidad. Es un concepto crucial para garantizar la seguridad de programas como la fortificación de alimentos.
 :::
 
-[Regresar al módulo 7](../../modulos/tema02/modulo07.qmd)
+[Regresar al módulo 7](../../actividades/tema02/modulo07.qmd)

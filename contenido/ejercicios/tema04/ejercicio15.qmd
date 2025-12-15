@@ -74,5 +74,4 @@ El primer paso de la metodología de la OMS para determinar el FFL es la conside
 La afirmación es falsa. El primer paso es la **Estimación de la Ingesta de Alimentos**, que se realiza a través de encuestas. La consideración de la biodisponibilidad es un paso posterior en el proceso, que se utiliza para refinar el cálculo de la dosis.
 :::
 
-
-[Regresar al módulo 15](../../modulos/tema04/modulo15.qmd)
+[Regresar al módulo 15](../../actividades/tema04/modulo15.qmd)

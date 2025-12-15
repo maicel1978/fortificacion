@@ -81,4 +81,4 @@ El método de **Unidades Equivalentes de Adulto (EMA)** es útil porque conviert
 La afirmación es verdadera. El método EMA utiliza a un adulto de referencia para estandarizar las necesidades de consumo de toda una población, permitiendo un cálculo más realista y ajustado a la demografía real del grupo.
 :::
 
-[Regresar al módulo 9](../../modulos/tema03/modulo09.qmd)
+[Regresar al módulo 9](../../actividades/tema03/modulo09.qmd)

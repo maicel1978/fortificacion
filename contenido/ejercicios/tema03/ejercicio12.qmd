@@ -74,5 +74,4 @@ El método EMA, incluso con ajustes, es incapaz de identificar qué hogares no t
 La afirmación es falsa. Una de las aplicaciones avanzadas del método EMA es precisamente la **identificación de hogares con ingesta insuficiente**. Al refinar el análisis con factores contextuales, se puede obtener una imagen mucho más clara y precisa de qué grupos son más vulnerables.
 :::
 
-
-[Regresar al módulo 12](../../modulos/tema03/modulo12.qmd)
+[Regresar al módulo 12](../../actividades/tema03/modulo12.qmd)

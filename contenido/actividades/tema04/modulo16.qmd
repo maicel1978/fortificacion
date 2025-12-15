@@ -1,0 +1,118 @@
+---
+title: "Módulo 16"
+date: 2025-07-01
+subtitle: "Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
+author: "Maicel Monzón"
+description: "se describe la metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
+---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/4HJLvwaQODg >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo16.zip)
+
+------------------------------------------------------------------------
+
+# Sumario
+
+-   Generalidades
+
+-   Principios para calcular adiciones
+
+    -   Paso 1. Definir el nutriente y población objetivo
+    -   Paso 2. Establecer el requerimiento (EAR)
+    -   Paso 3. Estimar el consumo del vehículo alimentario
+    -   Paso 4. Cálculo del nivel de adición (FFL)
+    -   Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+
+![](/static/images/micro16.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+# Introducción
+
+Como ya estudiamos anteriormente, la fortificación consiste en **añadir uno o más micronutrientes a un alimento de consumo habitual**, con el fin de mejorar el aporte nutricional poblacional y prevenir deficiencias.
+
+*Ejemplos comunes:* hierro en harinas, vitamina D en lácteos, ácido fólico en cereales.
+
+Para calcular cuánto micronutriente se debe añadir, se utilizan dos herramientas clave:
+
+-   **EAR (Estimated Average Requirement)** → Requerimiento promedio estimado de un nutriente para cubrir las necesidades de la mitad de la población sana.
+
+-   **FFL (Fortification Level / Nivel de Fortificación)** → Cantidad de nutriente que debe añadirse al alimento para alcanzar los objetivos nutricionales sin riesgos de excesos.
+
+------------------------------------------------------------------------
+
+# Principios para calcular adiciones
+
+## Paso 1. Definir el nutriente y población objetivo
+
+-   Identificar cuál deficiencia se busca corregir (ej. hierro en mujeres en edad fértil).
+-   Determinar el **grupo etario y fisiológico** más vulnerable.
+
+## Paso 2. Establecer el requerimiento (EAR)
+
+-   Consultar tablas de referencia (ej. **FAO/WHO, Institute of Medicine, EFSA**).
+-   Ejemplo: EAR de hierro en mujeres 19–50 años ≈ 8.1 mg/día.
+
+## Paso 3. Estimar el consumo del vehículo alimentario
+
+-   Identificar el alimento base para fortificar (ej. 200 g/día de harina de trigo).
+-   Verificar variabilidad del consumo entre diferentes subgrupos.
+
+## Paso 4. Cálculo del nivel de adición (FFL)
+
+La fórmula básica es:
+
+$$
+\text{FFL (mg nutriente / 100g alimento)} = \frac{\text{(EAR × cobertura deseada)}}{\text{Consumo promedio del alimento}}
+$$
+
+-   **Cobertura deseada:** proporción del requerimiento que se busca cubrir (generalmente 30–50% para evitar riesgos de exceso).
+
+Ejemplo (hierro en harina):
+
+-   EAR = 8.1 mg/día
+-   Cobertura = 30% → 2.4 mg/día
+-   Consumo promedio de harina = 200 g/día
+-   FFL = 2.4 ÷ 200 × 100 = **1.2 mg hierro / 100 g harina**
+
+## Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+
+-   El hierro en harinas (ej. fumarato ferroso) tiene biodisponibilidad ≈ 10%.
+-   Se ajusta el FFL para compensar estas limitaciones.
+
+------------------------------------------------------------------------
+
+# Consideraciones adicionales
+
+-   **Seguridad:** revisar UL (Upper Intake Level) para evitar excesos.
+-   **Variabilidad del consumo:** usar percentiles de ingesta para validar que grupos con alto consumo no superen los límites.
+-   **Sinergias e interacciones:** considerar compuestos que mejoren o inhiban la absorción (ej. vitamina C mejora absorción de hierro, fitatos la reducen).
+
+------------------------------------------------------------------------
+
+# Ejemplo simplificado
+
+> Si queremos fortificar harina de trigo con **ácido fólico**:
+
+-   EAR mujeres = 320 µg/día
+-   Cobertura buscada = 40% → 128 µg/día
+-   Consumo promedio harina = 200 g/día
+-   FFL = (128 ÷ 200) × 100 = **64 µg ácido fólico / 100 g harina**
+-   Ajustar por pérdidas en cocción (≈ 30%) → nivel final: **90 µg/100 g**
+
+------------------------------------------------------------------------
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 16](../../ejercicios/tema04/ejercicio16.qmd)
+
+# Biblografía
+
+-   Allen L, de Benoist B, Dary O, Hurrell R. *Guidelines on food fortification with micronutrients.* WHO/FAO, 2006. [PubMed PMID: 18358980](https://pubmed.ncbi.nlm.nih.gov/18358980/)
+
+-   Dwyer JT, Wiemer KL, Dary O, et al. Fortification and Health: Challenges and Opportunities. *Adv Nutr.* 2015;6(1):124–131. [PMID: 25593151](https://pubmed.ncbi.nlm.nih.gov/25593151/)
+
+-   Peña-Rosas JP, Mora JO. Fortificación de alimentos con micronutrientes para prevenir y controlar la anemia. *Rev Panam Salud Publica.* 2007;22(5):419–429. [PMID: 18209893](https://pubmed.ncbi.nlm.nih.gov/18209893/)

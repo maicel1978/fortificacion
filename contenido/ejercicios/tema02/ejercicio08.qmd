@@ -74,4 +74,4 @@ Las tablas de composición de alimentos por sí solas pueden determinar si una p
 La afirmación es falsa. Aunque las tablas contienen información sobre el contenido de nutrientes, por sí solas no pueden determinar una deficiencia. Es necesario combinarlas con los **datos de consumo de la población** (obtenidos de encuestas como las HCES) para poder analizar si la ingesta de esos nutrientes es adecuada o inadecuada.
 :::
 
-[Regresar al módulo 8](../../modulos/tema02/modulo08.qmd)
+[Regresar al módulo 8](../../actividades/tema02/modulo08.qmd)

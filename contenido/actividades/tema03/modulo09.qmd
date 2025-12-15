@@ -1,0 +1,129 @@
+---
+title: "Módulo 09"
+subtitle: "Fundamentos conceptuales para la estandarización del consumo dietético poblacional"
+date: 2025-06-29
+author: "Maicel Monzón"
+description: "Se realiza una introducción a los fundamentos conceptuales para la estandarización del consumo dietético poblacional"
+---
+
+A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
+
+{{< video https://youtu.be/gGT4k_JrpSI >}}
+
+[El módulo puede ser descargado desde aquí](/static/videos/videomodulo09.zip)
+
+# Sumario
+
+-   Generalidades
+
+-   Limitaciones del enfoque per cápita
+
+-   Requerimientos energéticos variables
+
+-   Métodos de ajuste
+
+-   Evidencia empírica
+
+![](/static/images/modulo09.png){fig-align="center"}
+
+# Generalidades
+
+El **consumo dietético aparente** se define como la estimación indirecta de la cantidad de alimentos potencialmente disponibles para el consumo humano en una población, calculada a partir de balances de alimentos. Estos balances consideran:
+
+-   Producción nacional.
+-   Importaciones y exportaciones.
+-   Pérdidas en la cadena de suministro.
+-   Usos no alimentarios (forraje, semillas, industria).
+
+La disponibilidad resultante se expresa comúnmente en **gramos por persona por día** o **kilocalorías per cápita por día**.
+
+👉 Aunque útil para describir tendencias globales y regionales, este indicador no representa la ingesta real individual, sino un **promedio teórico** que puede diferir significativamente del consumo efectivo.
+
+------------------------------------------------------------------------
+
+# Limitaciones del enfoque per cápita
+
+El cálculo **per cápita simple** distribuye la disponibilidad total de alimentos de forma uniforme entre todos los individuos, lo cual supone que:
+
+1.  Todos los miembros de la población tienen **igual requerimiento energético**.
+2.  No existen diferencias por edad, sexo, condición fisiológica o nivel de actividad.
+3.  Los alimentos disponibles se distribuyen de manera equitativa dentro de los hogares y entre ellos.
+
+En la práctica, estas suposiciones son inadecuadas:
+
+-   En hogares pequeños, el consumo per cápita puede sobreestimarse respecto al real.
+-   En poblaciones con alta proporción de niños o adultos mayores, el promedio per cápita **no refleja las necesidades energéticas reales**.
+-   La heterogeneidad en hábitos alimentarios y accesibilidad no queda capturada.
+
+------------------------------------------------------------------------
+
+# Requerimientos energéticos variables
+
+El organismo humano necesita diferentes cantidades de energía según:
+
+-   **Edad:** la infancia y la adolescencia presentan necesidades energéticas cambiantes.
+-   **Sexo:** en promedio, los hombres requieren más energía que las mujeres.
+-   **Nivel de actividad física:** desde estilo sedentario hasta trabajo físico intenso.
+-   **Estados fisiológicos especiales:** embarazo y lactancia incrementan los requerimientos energéticos en un 10–20%.
+
+Ejemplo comparativo (valores aproximados):
+
+-   Niño de 3 años: 1000–1200 kcal/día.
+-   Mujer adulta con actividad moderada: 2200 kcal/día.
+-   Hombre adulto activo: 2800–3000 kcal/día.
+-   Mujer embarazada: +300 kcal/día.
+
+👉 Esta variabilidad obliga a ajustar los datos de consumo aparente para no sobrestimar o subestimar la suficiencia alimentaria.
+
+------------------------------------------------------------------------
+
+# Métodos de ajuste
+
+Diversos enfoques se han utilizado para superar las limitaciones del per cápita:
+
+1.  **Per cápita bruto**
+
+    -   Distribución simple de la disponibilidad alimentaria entre la población total.
+    -   Método más utilizado, pero con sesgos importantes.
+
+2.  **Requerimiento calórico promedio ponderado**
+
+    -   Utilizado por FAO/OMS en sus estimaciones de suficiencia energética.
+    -   Calcula el promedio de las necesidades energéticas de la población considerando estructura por edad y sexo.
+
+3.  **Unidades equivalentes (Adult-Equivalent, EMA)**
+
+    -   Consiste en expresar a cada individuo como una fracción o múltiplo de un adulto de referencia.
+
+    -   El estándar más común es la **mujer adulta con actividad moderada** (valor 1.0 EMA).
+
+    -   Ejemplos:
+
+        -   Niño de 3 años ≈ 0.45 EMA.
+        -   Hombre adulto activo ≈ 1.2 EMA.
+        -   Mujer embarazada ≈ 1.2 EMA.
+
+    -   Permite convertir una población heterogénea en un número equivalente de “mujeres adultas” para calcular disponibilidad ajustada.
+
+------------------------------------------------------------------------
+
+# Evidencia empírica
+
+La literatura científica ha demostrado que los métodos ajustados son más realistas que el per cápita:
+
+-   **Brasil:** al estimar la disponibilidad calórica con el método de adultos equivalentes, se observaron diferencias de hasta **428 kcal/día** respecto al enfoque per cápita, especialmente en hogares rurales y con alta proporción de niños (Silva et al., 2010).
+-   **Mongolia:** el uso del ajuste por adulto-equivalente redujo la sobreestimación del consumo en hogares pequeños y mejoró la precisión de los análisis de suficiencia alimentaria (Fiedler et al., 2018).
+-   **FAO/OMS/UNU:** los informes sobre requerimientos energéticos (2004; actualización 2023) refuerzan la necesidad de incorporar **estructura demográfica** en cualquier estimación de consumo aparente.
+
+------------------------------------------------------------------------
+
+Puede realizar los ejercicio de este módulo en el siguiente enlace:
+
+[Acceder al Ejercicio 9](../../ejercicios/tema03/ejercicio09.qmd)
+
+# Bibliografía
+
+-   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saúde Pública**. 2010;26(11):2188-2195. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21180992/?utm_source=chatgpt.com)
+-   Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6024672/?utm_source=chatgpt.com)
+-   FAO/WHO/UNU. *Human Energy Requirements*. Report of a Joint Expert Consultation. FAO Food and Nutrition Technical Report Series 1. Rome: FAO; 2004.
+-   FAO. *The State of Food Security and Nutrition in the World 2023*. Rome: FAO; 2023.

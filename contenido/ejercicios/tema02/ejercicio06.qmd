@@ -81,4 +81,4 @@ Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta �
 Las HCES registran la cantidad de alimentos disponibles para el consumo del hogar, no la ingesta individual. Por lo tanto, no pueden determinar con precisión cuánto consumió un niño de 3 años. Para eso, se necesitarían **encuestas de ingesta dietética individual** o registros de consumo detallados.
 :::
 
-[Regresar al módulo 6](../../modulos/tema02/modulo06.qmd)
+[Regresar al módulo 6](../../actividades/tema02/modulo06.qmd)

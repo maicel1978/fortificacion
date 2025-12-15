@@ -57,4 +57,4 @@ Seleccione tres estrategias
 7. Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
 ```
 
-[Regresar al módulo 2](../../modulos/tema01/modulo02.qmd)
+[Regresar al módulo 2](../../actividades/tema01/modulo02.qmd)

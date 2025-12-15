@@ -12,3 +12,16 @@
 # ¡IMPORTANTE! Excluir solo el CONTENIDO de docs, no la carpeta
 /docs/*
 !/docs/.gitkeep  # Excepción para mantener la carpeta
+
+#para ignorar los datos por el momento, mientras no tenga la version de juguete
+
+# GESTIÓN DE DATOS (Ignorar solo los archivos de microdatos grandes)
+# 1. Aseguramos que la carpeta exista en el repositorio (si no hay archivos)
+sitio/static/data/.gitkeep
+
+# 2. IGNORAR los archivos voluminosos específicos
+sitio/static/data/Gasto_consumo_final_mensual.xlsx
+sitio/static/data/Sociodemograficas_e_ingresos.xlsx
+
+# 3. Ignorar cualquier archivo .zip de datos que se use
+sitio/static/data/*.zip

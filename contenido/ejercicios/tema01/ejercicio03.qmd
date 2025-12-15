@@ -68,4 +68,4 @@ El Tolerable Upper Intake Level (UL) es un concepto irrelevante en la planificac
 El **UL** es crucial para garantizar la seguridad de la fortificación, ya que define el nivel máximo de ingesta que no presenta riesgo de efectos adversos para la salud. Superar el UL podría causar toxicidad en la población.
 :::
 
-[Regresar al módulo 3](../../modulos/tema01/modulo03.qmd)
+[Regresar al módulo 3](../../actividades/tema01/modulo03.qmd)

@@ -9,8 +9,6 @@ format: html
 
 ![](/static/images/micro13.png)
 
-
-
 ## ¿Es la siguiente afirmación verdadera?
 
 El primer paso para estimar la cobertura de un vehículo de fortificación potencial es la **cuantificación de la cobertura**, sin necesidad de preparar las variables clave.
@@ -76,4 +74,4 @@ Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta �
 La afirmación es verdadera. Las HCES son una herramienta valiosa que permite a los planificadores de políticas **identificar vehículos de fortificación potenciales** con alta cobertura en la población, lo que es un paso fundamental para el éxito de un programa de fortificación.
 :::
 
-[Regresar al módulo 13](../../modulos/tema03/modulo13.qmd)
+[Regresar al módulo 13](../../actividades/tema03/modulo13.qmd)

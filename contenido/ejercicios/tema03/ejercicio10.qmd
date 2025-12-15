@@ -74,4 +74,4 @@ El resultado final del proceso de preparación de datos es una base de datos que
 La afirmación es verdadera. El objetivo de todo el proceso de limpieza, validación y estandarización de datos es obtener una base de datos robusta y confiable que sirva como fundamento para tomar decisiones de salud pública bien informadas.
 :::
 
-[Regresar al módulo 10](../../modulos/tema03/modulo10.qmd)
+[Regresar al módulo 10](../../actividades/tema03/modulo10.qmd)

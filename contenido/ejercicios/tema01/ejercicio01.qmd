@@ -81,4 +81,4 @@ function checkAnswer() {
 </script>
 ```
 
-[Regresar al módulo 1](../../modulos/tema01/modulo01.qmd)
+[Regresar al módulo 1](../../actividades/tema01/modulo01.qmd)

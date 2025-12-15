@@ -74,4 +74,4 @@ En un programa de fortificación, el objetivo es encontrar un nivel de adición 
 La afirmación es verdadera. El proceso de cálculo está diseñado para encontrar un equilibrio óptimo. El nivel de fortificación debe ser lo suficientemente alto para tener un impacto en la salud de la mayoría de la población, pero siempre por debajo del nivel de toxicidad para proteger a aquellos que consumen una gran cantidad del alimento fortificado.
 :::
 
-[Regresar al módulo 16](../../modulos/tema04/modulo16.qmd)
+[Regresar al módulo 16](../../actividades/tema04/modulo16.qmd)

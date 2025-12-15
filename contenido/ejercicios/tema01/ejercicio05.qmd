@@ -60,4 +60,4 @@ d)  Intensidad del consumo
 1 → d) Intensidad del consumo 2 → c) Estima el aporte potencial de la dieta fortificada 3 → b) Diagnóstico de suficiencia nutricional final 4 → a) Cobertura de la intervención
 :::
 
-[Regresar al módulo 5](../../modulos/tema02/modulo05.qmd)
+[Regresar al módulo 5](../../actividades/tema02/modulo05.qmd)

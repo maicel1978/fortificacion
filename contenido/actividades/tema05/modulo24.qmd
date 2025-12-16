@@ -25,7 +25,7 @@ execute:
 ---
 
 ::: callout-note
-## Contexto Metodológico: La Fórmula Central MIMI
+## Contexto Metodológico: La Fórmula Central **MIMI**
 
 Este módulo implementa la base del flujo de trabajo **MIMI**
 del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en

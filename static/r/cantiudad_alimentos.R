@@ -1,6 +1,5 @@
 # ==============================================================================
 # TÍTULO: Script Maestro - Flujo Completo MIMI (Cantidad a Nutrientes)
-# AUTOR: Maicel Monzón (Estructura y comentarios didácticos por Gemini AI)
 # FECHA: 2025-12-14
 # DESCRIPCIÓN: Implementación de la fórmula de Ingesta Diaria:
 #              (Q * FC * PC * FND) / PM, usando datos simulados de la ENGIH.

@@ -1,1 +1,43 @@
-/* css styles */
+/* styles.css - Mejoras para Tema Lumen */
+
+/* 1. Tipografía y Encabezados */
+body {
+    font-size: 1.05rem; /* Un poco más legible que el default */
+    color: #444;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50; /* Un azul oscuro más profesional que el gris default */
+    font-weight: 700;
+}
+
+/* 2. Mejoras en Tablas (DT y Kable) */
+/* Espaciado para que no se sientan apretadas */
+.dataTables_wrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+table.dataTable thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    color: #333;
+}
+
+/* 3. Ajustes para Callouts (Cajas de aviso) */
+/* Hacemos que combinen mejor con Lumen */
+.callout {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* 4. Barra de Navegación (Si usas navbar en _quarto.yml) */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* 5. Bloques de Código */
+pre > code.sourceCode {
+    font-size: 0.9em; /* Código un poco más compacto */
+}

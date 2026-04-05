@@ -30,5 +30,8 @@ format:
     toc: true
     include-after-body: _footer.html  # <-- Esta es la magia de forti
 
+extensions:
+  - _extensions/shortcode
+
 editor: visual
 

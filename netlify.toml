@@ -1,8 +1,8 @@
 [build]
-  # Actualizamos a 1.6.1 para que la extensión Quizdown no de error
+  # Volvemos a la 1.4.550 para evitar el error de shortcode de la 1.6
   command = """
-    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.1/quarto-1.6.1-linux-amd64.deb && \
-    dpkg -x quarto-1.6.1-linux-amd64.deb . && \
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.550/quarto-1.4.550-linux-amd64.deb && \
+    dpkg -x quarto-1.4.550-linux-amd64.deb . && \
     export PATH=$PWD/opt/quarto/bin:$PATH && \
     quarto render
   """

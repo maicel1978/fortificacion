@@ -1,11 +1,13 @@
 [build]
+  publish = "docs"
   command = """
-    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.550/quarto-1.4.550-linux-amd64.deb && \
-    dpkg -x quarto-1.4.550-linux-amd64.deb . && \
-    export PATH=$PWD/opt/quarto/bin:$PATH && \
+    QUARTO_VERSION=1.6.0
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb
+    dpkg -x quarto-${QUARTO_VERSION}-linux-amd64.deb .
+    export PATH=$PWD/opt/quarto/bin:$PATH
+    quarto --version
     quarto render
   """
-  publish = "docs"
 
 [build.environment]
   NODE_VERSION = "20"

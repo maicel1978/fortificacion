@@ -1,8 +1,16 @@
+# netlify.toml
 [build]
+  # Comando de build: descarga Quarto 1.6.0, instala, agrega al PATH y renderiza
   command = """
-  curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.0/quarto-1.6.0-linux-amd64.deb &&
-  dpkg -x quarto-1.6.0-linux-amd64.deb . &&
-  export PATH=$PWD/opt/quarto/bin:$PATH &&
-  quarto render
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.0/quarto-1.6.0-linux-amd64.deb &&
+    dpkg -x quarto-1.6.0-linux-amd64.deb . &&
+    export PATH=$PWD/opt/quarto/bin:$PATH &&
+    quarto render
   """
+
+  # Carpeta de salida del sitio (coincide con output-dir en _quarto.yml)
   publish = "docs"
+
+[context.production.environment]
+  # Variables de entorno que ya tienes en Netlify
+  GROQ_API_KEY = "$GROQ_API_KEY"

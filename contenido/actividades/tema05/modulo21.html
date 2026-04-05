@@ -905,6 +905,190 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 
 </main> <!-- /main -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<style>
+  :root {
+    --wfp-blue: #0A4273;
+    --wfp-sky: #00A1E4;
+    --wfp-bg: #F0F4F8;
+    --wfp-text: #1A202C;
+    --wfp-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  }
+
+  /* Botón Flotante con Avatar Adorable */
+  #forti-bubble {
+    position: fixed; bottom: 30px; right: 30px;
+    width: 65px; height: 65px; background: white;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; box-shadow: 0 8px 24px rgba(10, 66, 115, 0.15);
+    z-index: 2000; border: 2.5px solid var(--wfp-blue);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  #forti-bubble:hover { transform: scale(1.1); box-shadow: 0 12px 30px rgba(10, 66, 115, 0.25); }
+
+  /* Contenedor de Chat Profesional */
+  #forti-panel {
+    display: none; position: fixed; bottom: 110px; right: 30px;
+    width: 400px; height: 600px; max-height: 80vh;
+    background: white; border-radius: 20px; box-shadow: var(--wfp-shadow);
+    flex-direction: column; overflow: hidden; z-index: 2000;
+    border: 1px solid #E2E8F0; font-family: 'Inter', sans-serif;
+  }
+
+  @media (max-width: 480px) {
+    #forti-panel { width: 90vw; right: 5vw; height: 70vh; }
+  }
+
+  /* Cabecera */
+  #forti-header {
+    background: var(--wfp-blue); color: white; padding: 18px 22px;
+    display: flex; align-items: center; gap: 15px;
+    border-bottom: 3px solid var(--wfp-sky);
+  }
+  .header-text .name { font-weight: 700; font-size: 17px; display: block; }
+  .header-text .role { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.9; }
+
+  /* Mensajes */
+  #forti-messages {
+    flex: 1; padding: 20px; overflow-y: auto;
+    background: var(--wfp-bg); display: flex; flex-direction: column; gap: 14px;
+  }
+
+  .msg { padding: 12px 16px; border-radius: 15px; font-size: 14px; line-height: 1.5; max-width: 85%; }
+  .user-msg { background: var(--wfp-blue); color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+  .bot-msg { background: white; color: var(--wfp-text); align-self: flex-start; border-bottom-left-radius: 2px; border: 1px solid #D1D5DB; }
+
+  /* Markdown */
+  .bot-msg table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 12px; }
+  .bot-msg th, .bot-msg td { border: 1px solid #E2E8F0; padding: 6px; }
+
+  /* Entrada */
+  #forti-input-area { padding: 18px; display: flex; gap: 10px; background: white; border-top: 1px solid #E2E8F0; }
+  #forti-input { flex: 1; border: 1px solid #CBD5E0; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 14px; }
+  #forti-send {
+    background: var(--wfp-blue); border: none; width: 44px; height: 44px;
+    border-radius: 50%; cursor: pointer; color: white; display: flex;
+    align-items: center; justify-content: center;
+  }
+
+  .typing { display: flex; gap: 4px; padding: 10px; }
+  .dot { width: 6px; height: 6px; background: #A0AEC0; border-radius: 50%; animation: blink 1.4s infinite; }
+  @keyframes blink { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+</style>
+
+<svg style="display: none;">
+  <symbol id="avatar-forti" viewbox="0 0 24 24" fill="none" stroke-width="1.5">
+    <rect x="5" y="8" width="14" height="10" rx="3" fill="#0A4273"></rect>
+    <circle cx="9" cy="13" r="1" fill="#00A1E4"></circle>
+    <circle cx="15" cy="13" r="1" fill="#00A1E4"></circle>
+    <path d="M10 16c1 0.5 3 0.5 4 0" stroke="white" stroke-linecap="round"></path>
+    <path d="M4 12v-1a8 8 0 0 1 16 0v1" stroke="#00A1E4" stroke-width="2"></path>
+    <rect x="3" y="11" width="2" height="4" rx="1" fill="#00A1E4"></rect>
+    <rect x="19" y="11" width="2" height="4" rx="1" fill="#00A1E4"></rect>
+    <circle cx="18" cy="17" r="1.5" fill="#333"></circle>
+  </symbol>
+</svg>
+
+<div id="forti-bubble" onclick="toggleForti()">
+  <svg style="width:45px; height:45px;"><use href="#avatar-forti"></use></svg>
+</div>
+
+<div id="forti-panel">
+  <div id="forti-header">
+    <svg style="width:35px; height:35px;"><use href="#avatar-forti"></use></svg>
+    <div class="header-text">
+      <span class="name">Forti</span>
+      <span class="role">IA para Fortificación a Gran Escala</span>
+    </div>
+    <span onclick="toggleForti()" style="margin-left:auto; cursor:pointer; font-size:18px;">✕</span>
+  </div>
+  <div id="forti-messages"></div>
+  <div id="forti-input-area">
+    <input type="text" id="forti-input" placeholder="Escriba su consulta técnica..." autocomplete="off">
+    <button id="forti-send" onclick="handleSend()">➤</button>
+  </div>
+</div>
+
+<script>
+  // CONFIGURACIÓN IRROMPIBLE (Sin LLaves expuestas)
+  const API_CONFIG = {
+    // Aquí usamos localStorage para que GitHub no nos bloquee
+    key: localStorage.getItem('FORTI_KEY') || "", 
+    endpoint: "https://api.groq.com/openai/v1/chat/completions",
+    model: "llama-3.1-8b-instant"
+  };
+
+  const messagesContainer = document.getElementById('forti-messages');
+
+  window.onload = () => {
+    addMessage("bot", "Hola, soy **Forti**, tu asistente de IA. ¿En qué puedo asistirte hoy?");
+  };
+
+  function toggleForti() {
+    const p = document.getElementById('forti-panel');
+    p.style.display = (p.style.display === 'flex') ? 'none' : 'flex';
+    if(p.style.display === 'flex') document.getElementById('forti-input').focus();
+  }
+
+  function addMessage(role, text) {
+    const div = document.createElement('div');
+    div.className = `msg ${role}-msg`;
+    div.innerHTML = role === 'bot' ? marked.parse(text) : text;
+    messagesContainer.appendChild(div);
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+  }
+
+  async function handleSend() {
+    const input = document.getElementById('forti-input');
+    const query = input.value.trim();
+    if (!query) return;
+
+    // Validación de seguridad previa
+    if (!API_CONFIG.key) {
+      addMessage("user", query);
+      addMessage("bot", "⚠️ **Acceso denegado**: No se detectó una clave de API configurada en este navegador.");
+      input.value = '';
+      return;
+    }
+
+    addMessage("user", query);
+    input.value = '';
+
+    const typingDiv = document.createElement('div');
+    typingDiv.className = 'msg bot-msg typing';
+    typingDiv.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+    messagesContainer.appendChild(typingDiv);
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+    try {
+      const response = await fetch(API_CONFIG.endpoint, {
+        method: "POST",
+        headers: { 
+          "Authorization": `Bearer ${API_CONFIG.key}`,
+          "Content-Type": "application/json" 
+        },
+        body: JSON.stringify({
+          model: API_CONFIG.model,
+          messages: [
+            { role: "system", content: "Eres Forti, experto en fortificación de alimentos WFP. Responde corto y profesional." },
+            { role: "user", content: query }
+          ],
+          temperature: 0.2
+        })
+      });
+
+      const data = await response.json();
+      typingDiv.remove();
+      addMessage("bot", data.choices[0].message.content);
+    } catch (error) {
+      typingDiv.remove();
+      addMessage("bot", "Error de conexión.");
+    }
+  }
+
+  document.getElementById('forti-input').addEventListener('keypress', e => { if(e.key === 'Enter') handleSend(); });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

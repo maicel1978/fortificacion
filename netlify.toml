@@ -1,13 +1,12 @@
 [build]
-  # Usamos la versión 1.4.550 para evitar el error de "Invalid Shortcode"
+  # Actualizamos a 1.6.1 para que la extensión Quizdown no de error
   command = """
-    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.550/quarto-1.4.550-linux-amd64.deb && \
-    dpkg -x quarto-1.4.550-linux-amd64.deb . && \
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.1/quarto-1.6.1-linux-amd64.deb && \
+    dpkg -x quarto-1.6.1-linux-amd64.deb . && \
     export PATH=$PWD/opt/quarto/bin:$PATH && \
     quarto render
   """
   publish = "docs"
 
 [build.environment]
-  # Esto asegura que Netlify use herramientas modernas para la construcción
   NODE_VERSION = "20"

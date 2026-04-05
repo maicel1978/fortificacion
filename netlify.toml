@@ -1,16 +1,6 @@
 [build]
   publish = "docs"
-  command = """
-    set -e
-    QUARTO_VERSION=1.6.0
-    curl -L -o /tmp/quarto.deb https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb
-    rm -rf /tmp/quarto
-    mkdir -p /tmp/quarto
-    dpkg -x /tmp/quarto.deb /tmp/quarto
-    export PATH=/tmp/quarto/opt/quarto/bin:$PATH
-    quarto --version
-    quarto render
-  """
+  command = "echo 'Sitio pre-renderizado con Quarto y R'"
 
 [build.environment]
   NODE_VERSION = "20"

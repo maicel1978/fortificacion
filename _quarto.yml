@@ -28,6 +28,7 @@ format:
     theme: lumen
     css: styles.css
     toc: true
+    include-after-body: _footer.html  # <-- Esta es la magia de forti
 
 editor: visual
 

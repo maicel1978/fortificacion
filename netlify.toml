@@ -1,19 +1,16 @@
 [build]
-  # Comando que instala Quarto y renderiza el sitio
+  # Instala Quarto y renderiza el sitio
   command = '''
     curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.36/quarto-1.9.36-linux-amd64.deb && \
     dpkg -x quarto-1.9.36-linux-amd64.deb . && \
     ./opt/quarto/bin/quarto render
   '''
-  # Carpeta que Netlify va a publicar
+  # Carpeta que Netlify debe publicar
   publish = "docs"
 
-# Variables de entorno recomendadas
+  # Ignorar deploys innecesarios (opcional pero recomendado)
+  ignore = "git diff --quiet HEAD^ HEAD -- . ':!docs/'"
+
+# Variables de entorno
 [build.environment]
   NODE_VERSION = "20"
-  # Si usas R packages pesados, puedes aumentar memoria:
-  # NETLIFY_BUILD_MEMORY = "4096"
-
-# Opcional: ignorar deploys si solo cambiaste archivos que no afectan el build
-[build]
-  ignore = "git diff --quiet HEAD^ HEAD -- . ':!docs/'"

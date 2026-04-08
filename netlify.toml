@@ -1,16 +1,7 @@
 [build]
-  # Instala Quarto y renderiza el sitio
-  command = '''
-    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.36/quarto-1.9.36-linux-amd64.deb && \
-    dpkg -x quarto-1.9.36-linux-amd64.deb . && \
-    ./opt/quarto/bin/quarto render
-  '''
-  # Carpeta que Netlify debe publicar
+  command = "quarto render"
   publish = "docs"
 
-  # Ignorar deploys innecesarios (opcional pero recomendado)
-  ignore = "git diff --quiet HEAD^ HEAD -- . ':!docs/'"
-
-# Variables de entorno
-[build.environment]
-  NODE_VERSION = "20"
+# Plugin oficial de Quarto para Netlify
+[[plugins]]
+  package = "@quarto/netlify-plugin-quarto"

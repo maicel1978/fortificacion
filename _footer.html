@@ -104,11 +104,9 @@
 </div>
 
 <script>
-  // CONFIGURACIÓN IRROMPIBLE (Sin LLaves expuestas)
+  // === CONFIGURACIÓN PARA NETLIFY FUNCTION (PROXY SEGURO) ===
   const API_CONFIG = {
-    // Aquí usamos localStorage para que GitHub no nos bloquee
-    key: localStorage.getItem('FORTI_KEY') || "", 
-    endpoint: "https://api.groq.com/openai/v1/chat/completions",
+    endpoint: "/.netlify/functions/groq-proxy",   // ← Esta es la clave
     model: "llama-3.1-8b-instant"
   };
 
@@ -121,7 +119,7 @@
   function toggleForti() {
     const p = document.getElementById('forti-panel');
     p.style.display = (p.style.display === 'flex') ? 'none' : 'flex';
-    if(p.style.display === 'flex') document.getElementById('forti-input').focus();
+    if (p.style.display === 'flex') document.getElementById('forti-input').focus();
   }
 
   function addMessage(role, text) {
@@ -137,14 +135,6 @@
     const query = input.value.trim();
     if (!query) return;
 
-    // Validación de seguridad previa
-    if (!API_CONFIG.key) {
-      addMessage("user", query);
-      addMessage("bot", "⚠️ **Acceso denegado**: No se detectó una clave de API configurada en este navegador.");
-      input.value = '';
-      return;
-    }
-
     addMessage("user", query);
     input.value = '';
 
@@ -157,28 +147,36 @@
     try {
       const response = await fetch(API_CONFIG.endpoint, {
         method: "POST",
-        headers: { 
-          "Authorization": `Bearer ${API_CONFIG.key}`,
-          "Content-Type": "application/json" 
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           model: API_CONFIG.model,
           messages: [
-            { role: "system", content: "Eres Forti, experto en fortificación de alimentos WFP. Responde corto y profesional." },
+            { 
+              role: "system", 
+              content: "Eres Forti, experto en fortificación de alimentos a gran escala del WFP. Responde de forma clara, profesional y útil." 
+            },
             { role: "user", content: query }
           ],
-          temperature: 0.2
+          temperature: 0.3,
+          max_tokens: 1000
         })
       });
+
+      if (!response.ok) throw new Error("Error del servidor");
 
       const data = await response.json();
       typingDiv.remove();
       addMessage("bot", data.choices[0].message.content);
+
     } catch (error) {
       typingDiv.remove();
-      addMessage("bot", "Error de conexión.");
+      addMessage("bot", "⚠️ Lo siento, hubo un error de conexión. Inténtalo de nuevo.");
+      console.error(error);
     }
   }
 
-  document.getElementById('forti-input').addEventListener('keypress', e => { if(e.key === 'Enter') handleSend(); });
+  // Enviar con Enter
+  document.getElementById('forti-input').addEventListener('keypress', e => {
+    if (e.key === 'Enter') handleSend();
+  });
 </script>

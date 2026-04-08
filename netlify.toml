@@ -1,7 +1,8 @@
 [build]
-  command = "quarto render"
+  # Dejamos vacío el comando para que el plugin se encargue
+  command = ""
   publish = "docs"
 
-# Plugin oficial de Quarto para Netlify
+# Plugin oficial de Quarto
 [[plugins]]
   package = "@quarto/netlify-plugin-quarto"

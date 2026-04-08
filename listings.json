@@ -1,34 +1,5 @@
 [
   {
-    "listing": "/contenido/actividades/index.html",
-    "items": [
-      "/contenido/actividades/tema01/modulo01.html",
-      "/contenido/actividades/tema01/modulo02.html",
-      "/contenido/actividades/tema01/modulo03.html",
-      "/contenido/actividades/tema01/modulo04.html",
-      "/contenido/actividades/tema02/modulo05.html",
-      "/contenido/actividades/tema02/modulo06.html",
-      "/contenido/actividades/tema02/modulo07.html",
-      "/contenido/actividades/tema02/modulo08.html",
-      "/contenido/actividades/tema03/modulo09.html",
-      "/contenido/actividades/tema03/modulo10.html",
-      "/contenido/actividades/tema03/modulo11.html",
-      "/contenido/actividades/tema03/modulo12.html",
-      "/contenido/actividades/tema03/modulo13.html",
-      "/contenido/actividades/tema04/modulo14.html",
-      "/contenido/actividades/tema04/modulo15.html",
-      "/contenido/actividades/tema04/modulo16.html",
-      "/contenido/actividades/tema04/modulo17.html",
-      "/contenido/actividades/tema05/modulo18.html",
-      "/contenido/actividades/tema05/modulo19.html",
-      "/contenido/actividades/tema05/modulo20.html",
-      "/contenido/actividades/tema05/modulo21.html",
-      "/contenido/actividades/tema05/modulo22.html",
-      "/contenido/actividades/tema05/modulo23.html",
-      "/contenido/actividades/tema05/modulo24.html"
-    ]
-  },
-  {
     "listing": "/contenido/recursos/index.html",
     "items": [
       "/contenido/recursos/podcast/podcast.html",
@@ -55,6 +26,35 @@
       "/contenido/ejercicios/tema04/ejercicio15.html",
       "/contenido/ejercicios/tema04/ejercicio16.html",
       "/contenido/ejercicios/tema04/ejercicio17.html"
+    ]
+  },
+  {
+    "listing": "/contenido/actividades/index.html",
+    "items": [
+      "/contenido/actividades/tema01/modulo01.html",
+      "/contenido/actividades/tema01/modulo02.html",
+      "/contenido/actividades/tema01/modulo03.html",
+      "/contenido/actividades/tema01/modulo04.html",
+      "/contenido/actividades/tema02/modulo05.html",
+      "/contenido/actividades/tema02/modulo06.html",
+      "/contenido/actividades/tema02/modulo07.html",
+      "/contenido/actividades/tema02/modulo08.html",
+      "/contenido/actividades/tema03/modulo09.html",
+      "/contenido/actividades/tema03/modulo10.html",
+      "/contenido/actividades/tema03/modulo11.html",
+      "/contenido/actividades/tema03/modulo12.html",
+      "/contenido/actividades/tema03/modulo13.html",
+      "/contenido/actividades/tema04/modulo14.html",
+      "/contenido/actividades/tema04/modulo15.html",
+      "/contenido/actividades/tema04/modulo16.html",
+      "/contenido/actividades/tema04/modulo17.html",
+      "/contenido/actividades/tema05/modulo18.html",
+      "/contenido/actividades/tema05/modulo19.html",
+      "/contenido/actividades/tema05/modulo20.html",
+      "/contenido/actividades/tema05/modulo21.html",
+      "/contenido/actividades/tema05/modulo22.html",
+      "/contenido/actividades/tema05/modulo23.html",
+      "/contenido/actividades/tema05/modulo24.html"
     ]
   }
 ]

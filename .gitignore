@@ -1,27 +1,28 @@
-# Archivos de R/RStudio
-.Rproj.user
+# R / RStudio
 .Rhistory
 .RData
-.Ruserdata
+.Rproj.user/
 *.Rproj
+sitio.Rproj
 
-# Quarto y output local
-/.quarto/
-/_site/
+# Quarto caches y generados
+quarto_cache/
+_quarto/
+docs/
+site/
 
-# ¡IMPORTANTE! Excluir solo el CONTENIDO de docs, no la carpeta
-/docs/*
-!/docs/.gitkeep  # Excepción para mantener la carpeta
+# Freeze (solo si quieres regenerar todo en nueva PC)
+# _freeze/   ← NO lo ignores (es necesario para freeze: auto)
 
-#para ignorar los datos por el momento, mientras no tenga la version de juguete
+# Node.js (Netlify functions)
+node_modules/
+package-lock.json
 
-# GESTIÓN DE DATOS (Ignorar solo los archivos de microdatos grandes)
-# 1. Aseguramos que la carpeta exista en el repositorio (si no hay archivos)
-sitio/static/data/.gitkeep
+# OS / Editor basura
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
 
-# 2. IGNORAR los archivos voluminosos específicos
-sitio/static/data/Gasto_consumo_final_mensual.xlsx
-sitio/static/data/Sociodemograficas_e_ingresos.xlsx
-
-# 3. Ignorar cualquier archivo .zip de datos que se use
-sitio/static/data/*.zip
+# Netlify temporales
+.netlify/

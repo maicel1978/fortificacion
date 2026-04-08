@@ -1,34 +1,5 @@
 [
   {
-    "listing": "/contenido/recursos/index.html",
-    "items": [
-      "/contenido/recursos/podcast/podcast.html",
-      "/contenido/recursos/tablas/tablas.html"
-    ]
-  },
-  {
-    "listing": "/contenido/ejercicios/index.html",
-    "items": [
-      "/contenido/ejercicios/tema01/ejercicio01.html",
-      "/contenido/ejercicios/tema01/ejercicio02.html",
-      "/contenido/ejercicios/tema01/ejercicio03.html",
-      "/contenido/ejercicios/tema01/ejercicio04.html",
-      "/contenido/ejercicios/tema01/ejercicio05.html",
-      "/contenido/ejercicios/tema02/ejercicio06.html",
-      "/contenido/ejercicios/tema02/ejercicio07.html",
-      "/contenido/ejercicios/tema02/ejercicio08.html",
-      "/contenido/ejercicios/tema03/ejercicio09.html",
-      "/contenido/ejercicios/tema03/ejercicio10.html",
-      "/contenido/ejercicios/tema03/ejercicio11.html",
-      "/contenido/ejercicios/tema03/ejercicio12.html",
-      "/contenido/ejercicios/tema03/ejercicio13.html",
-      "/contenido/ejercicios/tema04/ejercicio14.html",
-      "/contenido/ejercicios/tema04/ejercicio15.html",
-      "/contenido/ejercicios/tema04/ejercicio16.html",
-      "/contenido/ejercicios/tema04/ejercicio17.html"
-    ]
-  },
-  {
     "listing": "/contenido/actividades/index.html",
     "items": [
       "/contenido/actividades/tema01/modulo01.html",
@@ -55,6 +26,35 @@
       "/contenido/actividades/tema05/modulo22.html",
       "/contenido/actividades/tema05/modulo23.html",
       "/contenido/actividades/tema05/modulo24.html"
+    ]
+  },
+  {
+    "listing": "/contenido/recursos/index.html",
+    "items": [
+      "/contenido/recursos/podcast/podcast.html",
+      "/contenido/recursos/tablas/tablas.html"
+    ]
+  },
+  {
+    "listing": "/contenido/ejercicios/index.html",
+    "items": [
+      "/contenido/ejercicios/tema01/ejercicio01.html",
+      "/contenido/ejercicios/tema01/ejercicio02.html",
+      "/contenido/ejercicios/tema01/ejercicio03.html",
+      "/contenido/ejercicios/tema01/ejercicio04.html",
+      "/contenido/ejercicios/tema01/ejercicio05.html",
+      "/contenido/ejercicios/tema02/ejercicio06.html",
+      "/contenido/ejercicios/tema02/ejercicio07.html",
+      "/contenido/ejercicios/tema02/ejercicio08.html",
+      "/contenido/ejercicios/tema03/ejercicio09.html",
+      "/contenido/ejercicios/tema03/ejercicio10.html",
+      "/contenido/ejercicios/tema03/ejercicio11.html",
+      "/contenido/ejercicios/tema03/ejercicio12.html",
+      "/contenido/ejercicios/tema03/ejercicio13.html",
+      "/contenido/ejercicios/tema04/ejercicio14.html",
+      "/contenido/ejercicios/tema04/ejercicio15.html",
+      "/contenido/ejercicios/tema04/ejercicio16.html",
+      "/contenido/ejercicios/tema04/ejercicio17.html"
     ]
   }
 ]

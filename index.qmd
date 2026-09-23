@@ -10,7 +10,7 @@ Este espacio está diseñado para fortalecer las capacidades en el diseño y eva
 
 Nuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.
 
-Este curso en línea se centra en la **cobertura**, el **consumo** y la **contribución** de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI o ECV.
+Este curso en línea se centra en la **cobertura**, el **consumo** y la **contribución** de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI, ENHOGAR o ECV.
 
 Estas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.
 
@@ -19,6 +19,14 @@ Presentamos el contenido para facilitar tu aprendizaje organizado en **módulos 
 ## ¡Comienza tu aprendizaje hoy!
 
 Te invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.
+
+::: {.callout-note}
+### Acceso Rápido a la Plataforma
+- [📚 Ver todos los Contenidos del Curso](contenido/index.qmd)
+- [📖 Ir directo a los Módulos de E-Learning](contenido/actividades/index.qmd)
+- [✍️ Practicar con los Ejercicios Interactivos](contenido/ejercicios/index.qmd)
+- [🧰 Explorar Recursos, Tablas y Scripts en R](contenido/recursos/index.qmd)
+:::
 
 ![](static/images/icon2.png){fig-align="center"}
 

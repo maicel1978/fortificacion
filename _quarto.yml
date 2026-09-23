@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Fortificación de alimentos a gran escala"
-  description: "sitio web para asistencia técica de fortificación de alimentos"
+  description: "Sitio web para asistencia técnica de fortificación de alimentos"
   favicon: favicon.png
   reader-mode: true
   search:
@@ -15,13 +15,23 @@ website:
     logo: logo.png
     left:
       - href: index.qmd
-        text: "🏠 Home"
+        text: "🏠 Inicio"
+      - text: "📚 Contenidos"
+        menu:
+          - href: contenido/index.qmd
+            text: "🔍 Resumen de Contenidos"
+          - href: contenido/actividades/index.qmd
+            text: "📖 Módulos e-learning"
+          - href: contenido/ejercicios/index.qmd
+            text: "✍️ Ejercicios Interactivos"
+          - href: contenido/recursos/index.qmd
+            text: "🧰 Recursos y Scripts"
+          - href: contenido/taller/dia1/index.qmd
+            text: "🏛️ Taller Presencial"
       - href: about.qmd 
-        text: "📄 About" 
+        text: "📄 Acerca de" 
   sidebar:
     contents: auto
-
-               
 
 format:
   html:
@@ -37,4 +47,3 @@ execute:
   freeze: auto
 
 editor: visual
-

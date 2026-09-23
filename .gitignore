@@ -26,3 +26,5 @@ Thumbs.db
 
 # Netlify temporales
 .netlify/
+/.quarto/
+**/*.quarto_ipynb

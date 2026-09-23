@@ -1,13 +1,22 @@
 ---
 title: "Ejercicios"
-listing: ejercicios_listing # Referencia al ID del listing definido en _quarto.yml
+listing:
+  contents:
+    - "tema01"
+    - "tema02"
+    - "tema03"
+    - "tema04"
+  type: table
+  sort: "title"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, subtitle, description]
 ---
 
-Esta sección contiene una serie de ejercicios interactivos  que cubren diferentes actividades del curso ya sea para la modalidad  **e-learning** como para el taller.
+Esta sección contiene una serie de ejercicios interactivos que cubren diferentes actividades del curso ya sea para la modalidad **e-learning** como para el taller presencial.
 
-Los ejercicios se estructurarán en temas  que correspondes a cada actividad de capacitación. Los contenidos de los ejercicios abarcan todos los objetivos de la capacitación así como otros contenidos complementarios. A continuación se muestra el listado de ejercicios. 
-
-**Listado**
+Los ejercicios se estructuran en temas que corresponden a cada actividad de capacitación. Los contenidos de los ejercicios abarcan todos los objetivos de la capacitación así como otros contenidos complementarios. A continuación se muestra el listado de ejercicios:
 
 :::: column-screen-inset
 ::: {#ejercicios_listing}

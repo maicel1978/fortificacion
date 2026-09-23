@@ -3,14 +3,21 @@ title: "Contenidos"
 subtitle: "¿Qué encontrarás aquí?"
 ---
 
-Hemos organizado el contenido para facilitar tu aprendizaje y consulta:
+Hemos organizado el contenido para facilitar tu aprendizaje y consulta en cuatro grandes bloques:
 
--   **Ejercicios interactivos:** Realiza un conjunto de ejercicios interactivos que te permitirán practicar los contenidos de la capacitación.
+-   **[📖 Módulos de E-learning](actividades/index.qmd):** Sumérgete en nuestros **24 micromódulos** detallados que cubren desde la introducción a las estrategias de fortificación (LSFF) hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES) y estimaciones de ingesta de micronutrientes (ENHOGAR, ECV, ENIGH).
 
--   **Módulos de E-learning:** Sumérgete en nuestros módulos detallados que cubren desde la introducción a las estrategias de fortificación hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES), y las estimaciones de ingesta de micronutrientes.
+-   **[✍️ Ejercicios Interactivos](ejercicios/index.qmd):** Realiza un conjunto de **17 ejercicios interactivos** y prácticos que te permitirán poner a prueba y reforzar los contenidos adquiridos en cada módulo de la capacitación.
 
--   **Recursos Adicionales:** Encuentra documentos, guías y otros materiales de apoyo para complementar tu formación.
+-   **[🧰 Recursos Adicionales](recursos/index.qmd):** Encuentra documentos técnicos, guías metodológicas, podcasts explicativos, tablas de composición de alimentos de referencia y los scripts de R (`cantidad_alimentos.R`) para la ejecución de análisis estadísticos en fortificación.
 
--   **Taller Presencial:** Accede a los materiales y la estructura de nuestro taller intensivo de 5 días, diseñado para reforzar conocimientos y aplicar prácticas.
+-   **[🏛️ Taller Presencial](taller/dia1/index.qmd):** Accede a los materiales, sesiones y actividades de nuestro taller intensivo de **5 días**, diseñado para reforzar conocimientos metodológicos y aplicarlos en equipos de trabajo.
+
+------------------------------------------------------------------------
+
+::: {.callout-note}
+### ¿Por dónde empezar?
+Si estás realizando el curso virtual, te sugerimos iniciar en orden cronológico por los **[Módulos de E-learning](actividades/index.qmd)**, complementando cada tema con su respectivo bloque de **[Ejercicios Interactivos](ejercicios/index.qmd)**.
+:::
 
 ![](/static/images/icon1.png){fig-align="center"}

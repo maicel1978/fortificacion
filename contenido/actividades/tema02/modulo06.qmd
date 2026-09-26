@@ -122,10 +122,11 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
-1.  Smith LC, Subandoro A. *Measuring food security using household expenditure surveys*. 2007 — PMID: 18528526
-2.  Fiedler JL, Lividini K. Monitoring and evaluating food fortification programs using household expenditure surveys. *Food Nutr Bull*. 2014 — PMID: 25069270
-3.  Coates J, et al. Dietary diversity and HCES: methods and applications. *J Nutr*. 2017 — PMID: 28179427
-4.  Deaton A, Zaidi S. *Guidelines for constructing consumption aggregates from household survey data*. World Bank, 2002 — PMID: 12946326
-5.  Verduzco-Gallo Í, Ecker O, Pauw K. Changes in food consumption patterns in developing countries. *Food Policy*. 2014 — PMID: 25253974
-6.  Moltedo A, et al. Analyzing food security using household survey data. World Bank, 2014 — PMID: 24443631
-7.  D’Souza A, Jolliffe D. Food consumption and calorie intake data in poverty analysis. *World Dev*. 2013 — PMID: 23935791
+1.  Smith LC, Subandoro A. *Measuring food security using household expenditure surveys*. Food Security in Practice Technical Guide Series 3. Washington, DC: International Food Policy Research Institute; 2007. <https://hdl.handle.net/10568/155451>
+2.  Fiedler JL, Lividini K, Bermudez OI, Smitz MF. Household Consumption and Expenditures Surveys (HCES): a primer for food and nutrition analysts in low- and middle-income countries. *Food Nutr Bull*. 2012;33(3 Suppl):S170-84. doi:10.1177/15648265120333S205
+3.  Fiedler JL, Carletto C, Dupriez O. Still waiting for Godot? Improving Household Consumption and Expenditures Surveys (HCES) to enable more evidence-based nutrition policies. *Food Nutr Bull*. 2012;33(3 Suppl):S242-51. doi:10.1177/15648265120333S214
+4.  Murphy S, Ruel M, Carriquiry A. Should Household Consumption and Expenditures Surveys (HCES) be used for nutritional assessment and planning? *Food Nutr Bull*. 2012;33(3 Suppl). doi:10.1177/15648265120333S213
+5.  Coates J, Colaiezzi B, Fiedler JL, Wirth J, Lividini K, Rogers B. A program needs-driven approach to selecting dietary assessment methods for decision-making in food fortification programs. *Food Nutr Bull*. 2012;33(3 Suppl):S146-56.
+6.  Fiedler JL, Lividini K. Monitoring population diet quality and nutrition status with household consumption and expenditure surveys: suggestions for a Bangladesh baseline. *Food Secur*. 2017;9:63-88. doi:10.1007/s12571-016-0631-5
+7.  Deaton A, Zaidi S. *Guidelines for constructing consumption aggregates for welfare analysis*. Living Standards Measurement Study Working Paper No. 135. Washington, DC: World Bank; 2002.
+8.  Moltedo A, Troubat N, Lokshin M, Sajaia Z. *Analyzing food security using household survey data: streamlined analysis with ADePT software*. Washington, DC: World Bank; 2014. doi:10.1596/978-1-4648-0133-4

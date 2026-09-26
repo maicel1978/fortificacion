@@ -871,9 +871,9 @@ ul.task-list li input[type="checkbox"] {
 <p>La metodología del “equivalente de mujer adulta” que se tratará con más detalles con el próximo módulo, es un método estándar para ajustar el consumo de alimentos en un hogar.</p>
 <p>Esto permite comparar el consumo entre hogares de diferente tamaño y composición de una manera más justa.</p>
 <ul>
-<li><p><strong>Definición</strong>: Un <strong>equivalente de mujer adulta (EAM)</strong> es una unidad de medida que ajusta las necesidades energéticas y nutricionales de un hogar. Se basa en el supuesto de que las necesidades de una mujer adulta son la base, y se asignan factores de conversión a otros miembros del hogar (hombres, niños, ancianos) según sus necesidades relativas.</p></li>
-<li><p><strong>Aplicación Práctica</strong>: Se calcula el número total de EAM en un hogar y se divide el consumo total de alimentos del hogar por este número. El resultado es el consumo per cápita por EAM, que es un indicador más preciso del consumo que el simple consumo per cápita por persona.</p></li>
-<li><p><strong>Uso de la mujer adulta saludable como base (AFE)</strong>: Para calcular los factores de EAM, se utiliza como referencia una mujer adulta saludable de 18-29 años, conocida como <strong>Adult Female Equivalent (AFE)</strong>. Esta metodología se abordará en detalle en el próximo módulo.</p></li>
+<li><p><strong>Definición</strong>: Un <strong>equivalente de mujer adulta (EMA)</strong> es una unidad de medida que ajusta las necesidades energéticas y nutricionales de un hogar. Se basa en el supuesto de que las necesidades de una mujer adulta son la base, y se asignan factores de conversión a otros miembros del hogar (hombres, niños, ancianos) según sus necesidades relativas.</p></li>
+<li><p><strong>Aplicación Práctica</strong>: Se calcula el número total de EMA en un hogar y se divide el consumo total de alimentos del hogar por este número. El resultado es el consumo per cápita por EMA, que es un indicador más preciso del consumo que el simple consumo per cápita por persona.</p></li>
+<li><p><strong>Uso de la mujer adulta saludable como base (AFE)</strong>: Para calcular los factores de EMA, se utiliza como referencia una mujer adulta saludable de 18-29 años, conocida como <strong>Adult Female Equivalent (AFE)</strong>. Esta metodología se abordará en detalle en el próximo módulo.</p></li>
 </ul>
 <hr>
 </section>
@@ -884,7 +884,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Listado de Insumos</strong>: La base de datos final debe contener:
 <ul>
 <li><strong>Consumo de Alimentos por Hogar</strong>: En unidades estandarizadas.</li>
-<li><strong>Composición del Hogar</strong>: Con información de edad y sexo para calcular el factor de EAM.</li>
+<li><strong>Composición del Hogar</strong>: Con información de edad y sexo para calcular el factor de EMA.</li>
 <li><strong>Tablas de Composición de Alimentos (TCA)</strong>: Vinculadas a cada alimento para calcular la ingesta de micronutrientes.</li>
 </ul></li>
 <li><strong>Estructura de la Base de Datos</strong>: La base de datos debe ser una matriz relacional. La tabla principal de consumo debe estar vinculada a una tabla de composición de alimentos y a una tabla de datos demográficos del hogar. Esta estructura permite realizar cálculos de ingesta nutricional y análisis de subgrupos de forma eficiente.</li>
@@ -1023,7 +1023,7 @@ ul.task-list li input[type="checkbox"] {
   // === CONFIGURACIÓN PARA NETLIFY FUNCTION (PROXY SEGURO) ===
   const API_CONFIG = {
     endpoint: "/.netlify/functions/groq-proxy",   // ← Esta es la clave
-    model: "llama-3.1-8b-instant"
+    model: "openai/gpt-oss-20b"
   };
 
   const messagesContainer = document.getElementById('forti-messages');

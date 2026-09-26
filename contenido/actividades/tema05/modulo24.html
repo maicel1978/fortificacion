@@ -112,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="../../../site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="../../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
-<link href="../../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<link href="../../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="../../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
 <script src="../../../site_libs/datatables-binding-0.34.0/datatables.js"></script>
@@ -874,7 +874,7 @@ window.Quarto = {
   <li><a href="#funciones-de-carga-híbrida" id="toc-funciones-de-carga-híbrida" class="nav-link" data-scroll-target="#funciones-de-carga-híbrida"><span class="header-section-number">1.1.1</span> Funciones de Carga Híbrida</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#fase-1-estandarización-demográfica-awe" id="toc-fase-1-estandarización-demográfica-awe" class="nav-link" data-scroll-target="#fase-1-estandarización-demográfica-awe"><span class="header-section-number">2</span> 2. Fase 1: Estandarización Demográfica (AWE)</a></li>
+  <li><a href="#fase-1-estandarización-demográfica-ema" id="toc-fase-1-estandarización-demográfica-ema" class="nav-link" data-scroll-target="#fase-1-estandarización-demográfica-ema"><span class="header-section-number">2</span> 2. Fase 1: Estandarización Demográfica (EMA)</a></li>
   <li><a href="#cálculo-de-consumo-neto" id="toc-cálculo-de-consumo-neto" class="nav-link" data-scroll-target="#cálculo-de-consumo-neto"><span class="header-section-number">3</span> 3. Cálculo de Consumo Neto</a></li>
   <li><a href="#control-de-calidad-visual" id="toc-control-de-calidad-visual" class="nav-link" data-scroll-target="#control-de-calidad-visual"><span class="header-section-number">4</span> 4. Control de Calidad Visual</a></li>
   </ul>
@@ -930,7 +930,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Este módulo implementa la base del flujo de trabajo <strong>MIMI</strong> del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en <strong>Ingesta Diaria de Nutriente</strong> estandarizada por AWE.</p>
+<p>Este módulo implementa la base del flujo de trabajo <strong>MIMI</strong> del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en <strong>Ingesta Diaria de Nutriente</strong> estandarizada por EMA.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -964,9 +964,9 @@ window.Quarto = {
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    C["Conversión a Gramos Netos"]</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    D["Consumo Diario Comestible (g)"]</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    E["Ingesta Nutricional Bruta (mg / mcg)"]</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    F["Resultado Final: Ingesta por AWE"]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    F["Resultado Final: Ingesta por EMA"]</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    A --&gt;|FASE 1: AWE| B</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    A --&gt;|FASE 1: EMA| B</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    A --&gt; C</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    B --&gt; C</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    C --&gt;|FC · PC · PM| D</span>
@@ -986,9 +986,9 @@ window.Quarto = {
     C["Conversión a Gramos Netos"]
     D["Consumo Diario Comestible (g)"]
     E["Ingesta Nutricional Bruta (mg / mcg)"]
-    F["Resultado Final: Ingesta por AWE"]
+    F["Resultado Final: Ingesta por EMA"]
 
-    A --&gt;|FASE 1: AWE| B
+    A --&gt;|FASE 1: EMA| B
     A --&gt; C
     B --&gt; C
     C --&gt;|FC · PC · PM| D
@@ -1077,8 +1077,8 @@ window.Quarto = {
 </section>
 </section>
 </section>
-<section id="fase-1-estandarización-demográfica-awe" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 2. Fase 1: Estandarización Demográfica (AWE)</h1>
+<section id="fase-1-estandarización-demográfica-ema" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 2. Fase 1: Estandarización Demográfica (EMA)</h1>
 <p>Calculamos el denominador poblacional del hogar.</p>
 <div class="cell">
 <details open="" class="code-fold">
@@ -1087,9 +1087,9 @@ window.Quarto = {
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>datos_persona <span class="ot">&lt;-</span> <span class="fu">cargar_datos_demo</span>(ruta_demo) <span class="sc">%&gt;%</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">HHID_VIV =</span> VIVIENDA, <span class="at">HHID_HOG =</span> HOGAR, <span class="at">SEXO =</span> A402, <span class="at">EDAD =</span> A403)</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Tabla de Factores AWE (INCAP/WFP)</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>awe_factors <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>edad_min, <span class="sc">~</span>edad_max, <span class="sc">~</span>SEXO, <span class="sc">~</span>awe_factor,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Tabla de Factores EMA (INCAP/WFP)</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>ema_factors <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>edad_min, <span class="sc">~</span>edad_max, <span class="sc">~</span>SEXO, <span class="sc">~</span>ema_factor,</span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.33</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.33</span>,</span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="fl">0.46</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="fl">0.46</span>,</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">1</span>, <span class="fl">0.54</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="fl">0.54</span>,</span>
@@ -1101,17 +1101,17 @@ window.Quarto = {
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Join y Agregación</span></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>datos_awe_hogar <span class="ot">&lt;-</span> datos_persona <span class="sc">%&gt;%</span></span>
-<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(awe_factors, <span class="at">by =</span> <span class="fu">join_by</span>(<span class="fu">between</span>(EDAD, edad_min, edad_max), SEXO)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>datos_ema_hogar <span class="ot">&lt;-</span> datos_persona <span class="sc">%&gt;%</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(ema_factors, <span class="at">by =</span> <span class="fu">join_by</span>(<span class="fu">between</span>(EDAD, edad_min, edad_max), SEXO)) <span class="sc">%&gt;%</span></span>
 <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(HHID_VIV, HHID_HOG) <span class="sc">%&gt;%</span></span>
-<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_AWE_Hogar =</span> <span class="fu">sum</span>(awe_factor, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_EMA_Hogar =</span> <span class="fu">sum</span>(ema_factor, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>)</span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(datos_awe_hogar, <span class="at">caption =</span> <span class="st">"Tabla 1: AWE por Hogar"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="st">"Total_AWE_Hogar"</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(datos_ema_hogar, <span class="at">caption =</span> <span class="st">"Tabla 1: EMA por Hogar"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="st">"Total_EMA_Hogar"</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-9fe938b943341a997e8e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-9fe938b943341a997e8e">{"x":{"filter":"none","vertical":false,"caption":"<caption>Tabla 1: AWE por Hogar<\/caption>","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99"],[7,36,102,132,180,361,373,408,437,458,657,1009,1011,1077,1220,1245,1542,1559,1812,2245,2274,2289,2471,2773,2849,3056,3072,3085,3183,3328,3535,3584,3612,3678,3695,3806,4117,4375,4442,4609,4618,4710,4800,5113,5172,5364,5443,5692,5741,5800,5819,5928,5960,5972,6254,6277,6315,6370,6376,6395,6414,6509,6566,6694,6774,6929,6945,7452,7502,7612,7746,8266,8368,8761,8769,8829,9024,9049,9059,9069,9137,9290,9657,9694,9890,10362,10461,10541,10550,10649,10737,10792,11106,11115,11243,11428,11756,11771,11946],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0.85,1.05,1.02,1.02,1,0.89,1,1.05,1.05,0.54,1.05,0.54,1.05,1.77,1,0.84,1.05,0.65,1.05,0.65,1,0.54,0.89,1,0.84,1,1,1,1,0.77,0.84,1,1.02,0.77,1.02,0.54,1,1,1.02,0.89,0.85,1.05,0.46,0.8100000000000001,1,1,0.8100000000000001,0.85,0.77,1.05,1.05,0.46,1,1.05,0.85,1,0.65,1,0.77,1.05,1.05,1.05,0.46,0.54,0.54,1.05,0.85,0.65,1.05,0.84,1,1.05,1.05,0.84,1,0.54,0.85,1.05,1.05,0.77,1.05,1.05,1.05,0.84,0.65,1.05,1.02,1,1.05,1,0.46,0.65,0.65,1.05,1.05,1.05,0.46,0.65,0.65]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>HHID_VIV<\/th>\n      <th>HHID_HOG<\/th>\n      <th>Total_AWE_Hogar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"HHID_VIV","targets":1},{"name":"HHID_HOG","targets":2},{"name":"Total_AWE_Hogar","targets":3}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-3b9e4bc431a691294c25" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3b9e4bc431a691294c25">{"x":{"filter":"none","vertical":false,"caption":"<caption>Tabla 1: EMA por Hogar<\/caption>","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99"],[7,36,102,132,180,361,373,408,437,458,657,1009,1011,1077,1220,1245,1542,1559,1812,2245,2274,2289,2471,2773,2849,3056,3072,3085,3183,3328,3535,3584,3612,3678,3695,3806,4117,4375,4442,4609,4618,4710,4800,5113,5172,5364,5443,5692,5741,5800,5819,5928,5960,5972,6254,6277,6315,6370,6376,6395,6414,6509,6566,6694,6774,6929,6945,7452,7502,7612,7746,8266,8368,8761,8769,8829,9024,9049,9059,9069,9137,9290,9657,9694,9890,10362,10461,10541,10550,10649,10737,10792,11106,11115,11243,11428,11756,11771,11946],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[0.85,1.05,1.02,1.02,1,0.89,1,1.05,1.05,0.54,1.05,0.54,1.05,1.77,1,0.84,1.05,0.65,1.05,0.65,1,0.54,0.89,1,0.84,1,1,1,1,0.77,0.84,1,1.02,0.77,1.02,0.54,1,1,1.02,0.89,0.85,1.05,0.46,0.8100000000000001,1,1,0.8100000000000001,0.85,0.77,1.05,1.05,0.46,1,1.05,0.85,1,0.65,1,0.77,1.05,1.05,1.05,0.46,0.54,0.54,1.05,0.85,0.65,1.05,0.84,1,1.05,1.05,0.84,1,0.54,0.85,1.05,1.05,0.77,1.05,1.05,1.05,0.84,0.65,1.05,1.02,1,1.05,1,0.46,0.65,0.65,1.05,1.05,1.05,0.46,0.65,0.65]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>HHID_VIV<\/th>\n      <th>HHID_HOG<\/th>\n      <th>Total_EMA_Hogar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"targets":3,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"HHID_VIV","targets":1},{"name":"HHID_HOG","targets":2},{"name":"Total_EMA_Hogar","targets":3}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.columnDefs.0.render"],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -1165,14 +1165,14 @@ window.Quarto = {
 <span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
 <span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(HHID_VIV, HHID_HOG, CODI_ALIMENTO) <span class="sc">%&gt;%</span></span>
 <span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_G_Dia =</span> <span class="fu">sum</span>(CONSUMO_G_DIA, <span class="at">na.rm=</span><span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_awe_hogar, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"HHID_VIV"</span>, <span class="st">"HHID_HOG"</span>))</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_ema_hogar, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"HHID_VIV"</span>, <span class="st">"HHID_HOG"</span>))</span>
 <span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(<span class="fu">head</span>(consumo_diario, <span class="dv">10</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="fu">c</span>(<span class="st">"Total_G_Dia"</span>, <span class="st">"Total_AWE_Hogar"</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="fu">c</span>(<span class="st">"Total_G_Dia"</span>, <span class="st">"Total_EMA_Hogar"</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-b3a54f30a7056e93d207" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b3a54f30a7056e93d207">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[1,1,1,1,1,1,1,1,3,3],[1,1,1,1,1,1,1,1,1,1],[1,2,20,260,541,571,588,4919,1,311],[66.66666666666667,33.33333333333334,5,0,5,5,0,0,66.66666666666667,33.33333333333334],[null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>HHID_VIV<\/th>\n      <th>HHID_HOG<\/th>\n      <th>CODI_ALIMENTO<\/th>\n      <th>Total_G_Dia<\/th>\n      <th>Total_AWE_Hogar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3,4,5]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"HHID_VIV","targets":1},{"name":"HHID_HOG","targets":2},{"name":"CODI_ALIMENTO","targets":3},{"name":"Total_G_Dia","targets":4},{"name":"Total_AWE_Hogar","targets":5}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-af50830851a0159324da" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-af50830851a0159324da">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[1,1,1,1,1,1,1,1,3,3],[1,1,1,1,1,1,1,1,1,1],[1,2,20,260,541,571,588,4919,1,311],[66.66666666666667,33.33333333333334,5,0,5,5,0,0,66.66666666666667,33.33333333333334],[null,null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>HHID_VIV<\/th>\n      <th>HHID_HOG<\/th>\n      <th>CODI_ALIMENTO<\/th>\n      <th>Total_G_Dia<\/th>\n      <th>Total_EMA_Hogar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"targets":4,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"targets":5,"render":"function(data, type, row, meta) {\n    return type !== 'display' ? data : DTWidget.formatRound(data, 2, 3, \",\", \".\", null);\n  }"},{"className":"dt-right","targets":[1,2,3,4,5]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"HHID_VIV","targets":1},{"name":"HHID_HOG","targets":2},{"name":"CODI_ALIMENTO","targets":3},{"name":"Total_G_Dia","targets":4},{"name":"Total_EMA_Hogar","targets":5}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.columnDefs.0.render","options.columnDefs.1.render"],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -1328,7 +1328,7 @@ window.Quarto = {
   // === CONFIGURACIÓN PARA NETLIFY FUNCTION (PROXY SEGURO) ===
   const API_CONFIG = {
     endpoint: "/.netlify/functions/groq-proxy",   // ← Esta es la clave
-    model: "llama-3.1-8b-instant"
+    model: "openai/gpt-oss-20b"
   };
 
   const messagesContainer = document.getElementById('forti-messages');
@@ -1882,7 +1882,7 @@ window.Quarto = {
 <span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contexto Metodológico: La Fórmula Central *MIMI*</span></span>
 <span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>Este módulo implementa la base del flujo de trabajo **MIMI**</span>
-<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en **Ingesta Diaria de Nutriente** estandarizada por AWE.</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en **Ingesta Diaria de Nutriente** estandarizada por EMA.</span>
 <span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
@@ -1906,9 +1906,9 @@ window.Quarto = {
 <span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>    C[<span class="ot">"</span><span class="st">Conversión a Gramos Netos</span><span class="ot">"</span>]</span>
 <span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>    D[<span class="ot">"</span><span class="st">Consumo Diario Comestible (g)</span><span class="ot">"</span>]</span>
 <span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>    E[<span class="ot">"</span><span class="st">Ingesta Nutricional Bruta (mg / mcg)</span><span class="ot">"</span>]</span>
-<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>    F[<span class="ot">"</span><span class="st">Resultado Final: Ingesta por AWE</span><span class="ot">"</span>]</span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>    F[<span class="ot">"</span><span class="st">Resultado Final: Ingesta por EMA</span><span class="ot">"</span>]</span>
 <span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>    A --&gt;|FASE <span class="dv">1</span>: AWE| B</span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a>    A --&gt;|FASE <span class="dv">1</span>: EMA| B</span>
 <span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>    A --&gt; C</span>
 <span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>    B --&gt; C</span>
 <span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a>    C --&gt;|FC · PC · PM| D</span>
@@ -1995,20 +1995,20 @@ window.Quarto = {
 <span id="cb7-147"><a href="#cb7-147" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb7-148"><a href="#cb7-148" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb7-149"><a href="#cb7-149" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-150"><a href="#cb7-150" aria-hidden="true" tabindex="-1"></a><span class="fu"># 2. Fase 1: Estandarización Demográfica (AWE)</span></span>
+<span id="cb7-150"><a href="#cb7-150" aria-hidden="true" tabindex="-1"></a><span class="fu"># 2. Fase 1: Estandarización Demográfica (EMA)</span></span>
 <span id="cb7-151"><a href="#cb7-151" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-152"><a href="#cb7-152" aria-hidden="true" tabindex="-1"></a>Calculamos el denominador poblacional del hogar.</span>
 <span id="cb7-153"><a href="#cb7-153" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-156"><a href="#cb7-156" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb7-157"><a href="#cb7-157" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: calculo-awe</span></span>
+<span id="cb7-157"><a href="#cb7-157" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: calculo-ema</span></span>
 <span id="cb7-158"><a href="#cb7-158" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-159"><a href="#cb7-159" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Carga y limpieza</span></span>
 <span id="cb7-160"><a href="#cb7-160" aria-hidden="true" tabindex="-1"></a>datos_persona <span class="ot">&lt;-</span> <span class="fu">cargar_datos_demo</span>(ruta_demo) <span class="sc">%&gt;%</span></span>
 <span id="cb7-161"><a href="#cb7-161" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">HHID_VIV =</span> VIVIENDA, <span class="at">HHID_HOG =</span> HOGAR, <span class="at">SEXO =</span> A402, <span class="at">EDAD =</span> A403)</span>
 <span id="cb7-162"><a href="#cb7-162" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-163"><a href="#cb7-163" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Tabla de Factores AWE (INCAP/WFP)</span></span>
-<span id="cb7-164"><a href="#cb7-164" aria-hidden="true" tabindex="-1"></a>awe_factors <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
-<span id="cb7-165"><a href="#cb7-165" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>edad_min, <span class="sc">~</span>edad_max, <span class="sc">~</span>SEXO, <span class="sc">~</span>awe_factor,</span>
+<span id="cb7-163"><a href="#cb7-163" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Tabla de Factores EMA (INCAP/WFP)</span></span>
+<span id="cb7-164"><a href="#cb7-164" aria-hidden="true" tabindex="-1"></a>ema_factors <span class="ot">&lt;-</span> <span class="fu">tribble</span>(</span>
+<span id="cb7-165"><a href="#cb7-165" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>edad_min, <span class="sc">~</span>edad_max, <span class="sc">~</span>SEXO, <span class="sc">~</span>ema_factor,</span>
 <span id="cb7-166"><a href="#cb7-166" aria-hidden="true" tabindex="-1"></a>  <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.33</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.33</span>,</span>
 <span id="cb7-167"><a href="#cb7-167" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="fl">0.46</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="fl">0.46</span>,</span>
 <span id="cb7-168"><a href="#cb7-168" aria-hidden="true" tabindex="-1"></a>  <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">1</span>, <span class="fl">0.54</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="fl">0.54</span>,</span>
@@ -2020,13 +2020,13 @@ window.Quarto = {
 <span id="cb7-174"><a href="#cb7-174" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb7-175"><a href="#cb7-175" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-176"><a href="#cb7-176" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Join y Agregación</span></span>
-<span id="cb7-177"><a href="#cb7-177" aria-hidden="true" tabindex="-1"></a>datos_awe_hogar <span class="ot">&lt;-</span> datos_persona <span class="sc">%&gt;%</span></span>
-<span id="cb7-178"><a href="#cb7-178" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(awe_factors, <span class="at">by =</span> <span class="fu">join_by</span>(<span class="fu">between</span>(EDAD, edad_min, edad_max), SEXO)) <span class="sc">%&gt;%</span></span>
+<span id="cb7-177"><a href="#cb7-177" aria-hidden="true" tabindex="-1"></a>datos_ema_hogar <span class="ot">&lt;-</span> datos_persona <span class="sc">%&gt;%</span></span>
+<span id="cb7-178"><a href="#cb7-178" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(ema_factors, <span class="at">by =</span> <span class="fu">join_by</span>(<span class="fu">between</span>(EDAD, edad_min, edad_max), SEXO)) <span class="sc">%&gt;%</span></span>
 <span id="cb7-179"><a href="#cb7-179" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(HHID_VIV, HHID_HOG) <span class="sc">%&gt;%</span></span>
-<span id="cb7-180"><a href="#cb7-180" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_AWE_Hogar =</span> <span class="fu">sum</span>(awe_factor, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>)</span>
+<span id="cb7-180"><a href="#cb7-180" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_EMA_Hogar =</span> <span class="fu">sum</span>(ema_factor, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>)</span>
 <span id="cb7-181"><a href="#cb7-181" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-182"><a href="#cb7-182" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(datos_awe_hogar, <span class="at">caption =</span> <span class="st">"Tabla 1: AWE por Hogar"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb7-183"><a href="#cb7-183" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="st">"Total_AWE_Hogar"</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span>
+<span id="cb7-182"><a href="#cb7-182" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(datos_ema_hogar, <span class="at">caption =</span> <span class="st">"Tabla 1: EMA por Hogar"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-183"><a href="#cb7-183" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="st">"Total_EMA_Hogar"</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span>
 <span id="cb7-184"><a href="#cb7-184" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb7-185"><a href="#cb7-185" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-186"><a href="#cb7-186" aria-hidden="true" tabindex="-1"></a><span class="fu"># 3. Cálculo de Consumo Neto</span></span>
@@ -2079,10 +2079,10 @@ window.Quarto = {
 <span id="cb7-235"><a href="#cb7-235" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
 <span id="cb7-236"><a href="#cb7-236" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(HHID_VIV, HHID_HOG, CODI_ALIMENTO) <span class="sc">%&gt;%</span></span>
 <span id="cb7-237"><a href="#cb7-237" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Total_G_Dia =</span> <span class="fu">sum</span>(CONSUMO_G_DIA, <span class="at">na.rm=</span><span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">'drop'</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb7-238"><a href="#cb7-238" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_awe_hogar, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"HHID_VIV"</span>, <span class="st">"HHID_HOG"</span>))</span>
+<span id="cb7-238"><a href="#cb7-238" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(datos_ema_hogar, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"HHID_VIV"</span>, <span class="st">"HHID_HOG"</span>))</span>
 <span id="cb7-239"><a href="#cb7-239" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-240"><a href="#cb7-240" aria-hidden="true" tabindex="-1"></a><span class="fu">datatable</span>(<span class="fu">head</span>(consumo_diario, <span class="dv">10</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb7-241"><a href="#cb7-241" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="fu">c</span>(<span class="st">"Total_G_Dia"</span>, <span class="st">"Total_AWE_Hogar"</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span>
+<span id="cb7-241"><a href="#cb7-241" aria-hidden="true" tabindex="-1"></a>  <span class="fu">formatRound</span>(<span class="at">columns =</span> <span class="fu">c</span>(<span class="st">"Total_G_Dia"</span>, <span class="st">"Total_EMA_Hogar"</span>), <span class="at">digits =</span> <span class="dv">2</span>)</span>
 <span id="cb7-242"><a href="#cb7-242" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb7-243"><a href="#cb7-243" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-244"><a href="#cb7-244" aria-hidden="true" tabindex="-1"></a><span class="fu"># 4. Control de Calidad Visual</span></span>

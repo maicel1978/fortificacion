@@ -44,11 +44,11 @@ La metodología del "equivalente de mujer adulta" que se tratará con más detal
 
 Esto permite comparar el consumo entre hogares de diferente tamaño y composición de una manera más justa.
 
--   **Definición**: Un **equivalente de mujer adulta (EAM)** es una unidad de medida que ajusta las necesidades energéticas y nutricionales de un hogar. Se basa en el supuesto de que las necesidades de una mujer adulta son la base, y se asignan factores de conversión a otros miembros del hogar (hombres, niños, ancianos) según sus necesidades relativas.
+-   **Definición**: Un **equivalente de mujer adulta (EMA)** es una unidad de medida que ajusta las necesidades energéticas y nutricionales de un hogar. Se basa en el supuesto de que las necesidades de una mujer adulta son la base, y se asignan factores de conversión a otros miembros del hogar (hombres, niños, ancianos) según sus necesidades relativas.
 
--   **Aplicación Práctica**: Se calcula el número total de EAM en un hogar y se divide el consumo total de alimentos del hogar por este número. El resultado es el consumo per cápita por EAM, que es un indicador más preciso del consumo que el simple consumo per cápita por persona.
+-   **Aplicación Práctica**: Se calcula el número total de EMA en un hogar y se divide el consumo total de alimentos del hogar por este número. El resultado es el consumo per cápita por EMA, que es un indicador más preciso del consumo que el simple consumo per cápita por persona.
 
--   **Uso de la mujer adulta saludable como base (AFE)**: Para calcular los factores de EAM, se utiliza como referencia una mujer adulta saludable de 18-29 años, conocida como **Adult Female Equivalent (AFE)**. Esta metodología se abordará en detalle en el próximo módulo.
+-   **Uso de la mujer adulta saludable como base (AFE)**: Para calcular los factores de EMA, se utiliza como referencia una mujer adulta saludable de 18-29 años, conocida como **Adult Female Equivalent (AFE)**. Esta metodología se abordará en detalle en el próximo módulo.
 
 ------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ El objetivo de todo este proceso es construir una base de datos coherente y ajus
 
 -   **Listado de Insumos**: La base de datos final debe contener:
     -   **Consumo de Alimentos por Hogar**: En unidades estandarizadas.
-    -   **Composición del Hogar**: Con información de edad y sexo para calcular el factor de EAM.
+    -   **Composición del Hogar**: Con información de edad y sexo para calcular el factor de EMA.
     -   **Tablas de Composición de Alimentos (TCA)**: Vinculadas a cada alimento para calcular la ingesta de micronutrientes.
 -   **Estructura de la Base de Datos**: La base de datos debe ser una matriz relacional. La tabla principal de consumo debe estar vinculada a una tabla de composición de alimentos y a una tabla de datos demográficos del hogar. Esta estructura permite realizar cálculos de ingesta nutricional y análisis de subgrupos de forma eficiente.
 -   **De Datos a Información Útil**: El resultado de la preparación de los datos es una base de datos que ya no es solo una hoja de cálculo con números, sino una fuente de información estructurada y validada que puede ser utilizada para estimar la ingesta nutricional de diferentes grupos de la población y simular el impacto de la fortificación.

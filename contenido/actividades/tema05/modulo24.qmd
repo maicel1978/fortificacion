@@ -28,7 +28,7 @@ execute:
 ## Contexto Metodológico: La Fórmula Central *MIMI*
 
 Este módulo implementa la base del flujo de trabajo **MIMI**
-del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en **Ingesta Diaria de Nutriente** estandarizada por AWE.
+del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en **Ingesta Diaria de Nutriente** estandarizada por EMA.
 
 :::
 
@@ -52,9 +52,9 @@ flowchart TD
     C["Conversión a Gramos Netos"]
     D["Consumo Diario Comestible (g)"]
     E["Ingesta Nutricional Bruta (mg / mcg)"]
-    F["Resultado Final: Ingesta por AWE"]
+    F["Resultado Final: Ingesta por EMA"]
 
-    A -->|FASE 1: AWE| B
+    A -->|FASE 1: EMA| B
     A --> C
     B --> C
     C -->|FC · PC · PM| D
@@ -141,20 +141,20 @@ cargar_datos_consumo <- function(ruta) {
 }
 ```
 
-# 2. Fase 1: Estandarización Demográfica (AWE)
+# 2. Fase 1: Estandarización Demográfica (EMA)
 
 Calculamos el denominador poblacional del hogar.
 
 ```{r}
-#| label: calculo-awe
+#| label: calculo-ema
 
 # 1. Carga y limpieza
 datos_persona <- cargar_datos_demo(ruta_demo) %>%
   select(HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, SEXO = A402, EDAD = A403)
 
-# 2. Tabla de Factores AWE (INCAP/WFP)
-awe_factors <- tribble(
-  ~edad_min, ~edad_max, ~SEXO, ~awe_factor,
+# 2. Tabla de Factores EMA (INCAP/WFP)
+ema_factors <- tribble(
+  ~edad_min, ~edad_max, ~SEXO, ~ema_factor,
   0, 0, 1, 0.33, 0, 0, 2, 0.33,
   1, 2, 1, 0.46, 1, 2, 2, 0.46,
   3, 5, 1, 0.54, 3, 5, 2, 0.54,
@@ -166,13 +166,13 @@ awe_factors <- tribble(
 )
 
 # 3. Join y Agregación
-datos_awe_hogar <- datos_persona %>%
-  left_join(awe_factors, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
+datos_ema_hogar <- datos_persona %>%
+  left_join(ema_factors, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
   group_by(HHID_VIV, HHID_HOG) %>%
-  summarise(Total_AWE_Hogar = sum(awe_factor, na.rm = TRUE), .groups = 'drop')
+  summarise(Total_EMA_Hogar = sum(ema_factor, na.rm = TRUE), .groups = 'drop')
 
-datatable(datos_awe_hogar, caption = "Tabla 1: AWE por Hogar") %>%
-  formatRound(columns = "Total_AWE_Hogar", digits = 2)
+datatable(datos_ema_hogar, caption = "Tabla 1: EMA por Hogar") %>%
+  formatRound(columns = "Total_EMA_Hogar", digits = 2)
 ```
 
 # 3. Cálculo de Consumo Neto
@@ -225,10 +225,10 @@ consumo_diario <- datos_consumo %>%
   ) %>%
   group_by(HHID_VIV, HHID_HOG, CODI_ALIMENTO) %>%
   summarise(Total_G_Dia = sum(CONSUMO_G_DIA, na.rm=TRUE), .groups = 'drop') %>%
-  left_join(datos_awe_hogar, by = c("HHID_VIV", "HHID_HOG"))
+  left_join(datos_ema_hogar, by = c("HHID_VIV", "HHID_HOG"))
 
 datatable(head(consumo_diario, 10)) %>%
-  formatRound(columns = c("Total_G_Dia", "Total_AWE_Hogar"), digits = 2)
+  formatRound(columns = c("Total_G_Dia", "Total_EMA_Hogar"), digits = 2)
 ```
 
 # 4. Control de Calidad Visual

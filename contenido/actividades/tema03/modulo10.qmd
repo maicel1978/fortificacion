@@ -75,8 +75,7 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   Fiedler JL, Lividini K, Bermudez OI, Smitz MF. *Household Consumption and Expenditures Surveys (HCES): a tool for nutrition analysis.* Food Nutr Bull. 2012;33(3 Suppl):S170–S184. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23193760/)
-
--   FAO. *Food Balance Sheets: A Handbook.* 2001.
-
--   Maillot M, Darmon N. *Diet optimization methods can help translate dietary guidelines into promising food choices.* Proc Nutr Soc. 2020;79(1):70–79. [PubMed](https://pubmed.ncbi.nlm.nih.gov/32185879/)
+1.  Fiedler JL, Lividini K, Bermudez OI, Smitz MF. Household Consumption and Expenditures Surveys (HCES): a primer for food and nutrition analysts in low- and middle-income countries. *Food Nutr Bull*. 2012;33(3 Suppl):S170-84. doi:10.1177/15648265120333S205
+2.  Weisell R, Dop MC. The adult male equivalent concept and its application to Household Consumption and Expenditures Surveys (HCES). *Food Nutr Bull*. 2012;33(3 Suppl):S157-62.
+3.  Moltedo A, Troubat N, Lokshin M, Sajaia Z. *Analyzing food security using household survey data: streamlined analysis with ADePT software*. Washington, DC: World Bank; 2014. doi:10.1596/978-1-4648-0133-4
+4.  FAO. *Food balance sheets: a handbook*. Roma: FAO; 2001.

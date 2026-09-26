@@ -73,8 +73,5 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   La Fortificación de Alimentos: Una Estrategia Nutricional ..., accessed September 3, 2025, <https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522005000100012>
-
--   Food Fortification Initiative, accessed September 3, 2025, <https://www.ffinetwork.org/espanol>
-
--who guideline1: fortification of maize flour and corn meal with ..., accessed September 3, 2025, <https://www.who.int/docs/default-source/micronutrients/maize-corn-fortification-executivesummary.pdf>
+1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
+2.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443

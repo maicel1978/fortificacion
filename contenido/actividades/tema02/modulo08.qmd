@@ -106,10 +106,6 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
-Yoo, Y. M., Atkin, R. A., & Pachón, H. (2019). Short Communication: Development of a food composition table to analyze Senegalese food expenditure data. African Journal of Food, Agriculture, Nutrition and Development, 19(2), 14230-14244. https://doi.org/10.18697/ajfand.85.17421
-
-Rahim, M. (2022). Systematic review of metrics used to characterise dietary nutrient supply from household consumption and expenditure surveys. Public Health Nutrition, 25(6), 1627-1640. https://doi.org/10.1017/s1368980022000118
-
-Kovalskys, I., Fisberg, M., Gómez, G., Rigotti, A., Cortés, L. Y., Yépez, M. C., ... & ELANS Study Group. (2015). Standardization of the Food Composition Database Used in the Latin American Nutrition and Health Study (ELANS). Nutrients, 7(9), 7914-7924. https://doi.org/10.3390/nu7095373
-
-Deharveng, G., Charrondière, U. R., Slimani, N., Southgate, D. A. T., & Riboli, E. (1999). Comparison of nutrients in the food composition tables available in the nine European countries participating in EPIC. European Journal of Clinical Nutrition, 53(1), 60-79. https://doi.org/10.1038/sj.ejcn.1600677
+1.  Tang K, Adams KP, Ferguson EL, Woldt M, Yourkavitch J, Pedersen S, et al. Systematic review of metrics used to characterise dietary nutrient supply from household consumption and expenditure surveys. *Public Health Nutr*. 2022;25(5):1153-65. doi:10.1017/S1368980022000118
+2.  Kovalskys I, Fisberg M, Gómez G, Rigotti A, Cortés LY, Yépez MC, et al. Standardization of the food composition database used in the Latin American Nutrition and Health Study (ELANS). *Nutrients*. 2015;7(9):7914-24. doi:10.3390/nu7095373
+3.  Fiedler JL, Lividini K, Bermudez OI, Smitz MF. Household Consumption and Expenditures Surveys (HCES): a primer for food and nutrition analysts in low- and middle-income countries. *Food Nutr Bull*. 2012;33(3 Suppl):S170-84. doi:10.1177/15648265120333S205

@@ -90,8 +90,6 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   Allen L, de Benoist B, Dary O, Hurrell R. *Guidelines on food fortification with micronutrients.* WHO/FAO, 2006. [PubMed PMID: 18358980](https://pubmed.ncbi.nlm.nih.gov/18358980/)
-
--   Dwyer JT, Wiemer KL, Dary O, et al. Fortification and Health: Challenges and Opportunities. *Adv Nutr.* 2015;6(1):124–131. [PMID: 25593151](https://pubmed.ncbi.nlm.nih.gov/25593151/)
-
--   Peña-Rosas JP, Mora JO. Fortificación de alimentos con micronutrientes para prevenir y controlar la anemia. *Rev Panam Salud Publica.* 2007;22(5):419–429. [PMID: 18209893](https://pubmed.ncbi.nlm.nih.gov/18209893/)
+1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
+2.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443
+3.  Fiedler JL, Smitz MF, Dupriez O, Friedman J. Household income and expenditure surveys: a tool for accelerating the development of evidence-based fortification programs. *Food Nutr Bull*. 2008;29(4):319-32.

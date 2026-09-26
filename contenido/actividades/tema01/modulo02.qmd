@@ -63,6 +63,5 @@ Para diseñar un programa efectivo y justificar su necesidad, es esencial **reco
 
 # Bibliografía
 
--   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.
-
--   Stevens. 2022. Panorama de la seguridad alimentaria y nutricional en América Latina y el Caribe 2020. FAO, OPS, WFP; UNICEF. https://doi.org/10.4060/cb2242es.
+1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
+2.  FAO, FIDA, OPS, WFP, UNICEF. *Panorama de la seguridad alimentaria y nutricional en América Latina y el Caribe 2020*. Santiago de Chile: FAO; 2020. doi:10.4060/cb2242es

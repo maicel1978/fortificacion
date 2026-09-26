@@ -111,8 +111,7 @@ Diversos enfoques se han utilizado para superar las limitaciones del per cápita
 
 La literatura científica ha demostrado que los métodos ajustados son más realistas que el per cápita:
 
--   **Brasil:** al estimar la disponibilidad calórica con el método de adultos equivalentes, se observaron diferencias de hasta **428 kcal/día** respecto al enfoque per cápita, especialmente en hogares rurales y con alta proporción de niños (Silva et al., 2010).
--   **Mongolia:** el uso del ajuste por adulto-equivalente redujo la sobreestimación del consumo en hogares pequeños y mejoró la precisión de los análisis de suficiencia alimentaria (Fiedler et al., 2018).
+-   **Brasil:** con datos de la Pesquisa de Orçamentos Familiares 2002-2003, la disponibilidad calórica estimada por adulto equivalente superó a la estimación per cápita; las diferencias alcanzaron 428 kcal/día en hogares con adultos mayores y fueron mayores en hogares rurales y de bajos ingresos (Claro et al., 2010).
 -   **FAO/OMS/UNU:** los informes sobre requerimientos energéticos (2004; actualización 2023) refuerzan la necesidad de incorporar **estructura demográfica** en cualquier estimación de consumo aparente.
 
 ------------------------------------------------------------------------
@@ -123,7 +122,7 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saúde Pública**. 2010;26(11):2188-2195. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21180992/?utm_source=chatgpt.com)
--   Fiedler JL, Lividini K, Bermudez OI. *Estimating per capita and adult male equivalent food consumption in household consumption and expenditure surveys: evidence from Mongolia*. **Food Policy**. 2018;76:58-67. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6024672/?utm_source=chatgpt.com)
--   FAO/WHO/UNU. *Human Energy Requirements*. Report of a Joint Expert Consultation. FAO Food and Nutrition Technical Report Series 1. Rome: FAO; 2004.
--   FAO. *The State of Food Security and Nutrition in the World 2023*. Rome: FAO; 2023.
+1.  Claro RM, Levy RB, Bandoni DH, Mondini L. Per capita versus adult-equivalent estimates of calorie availability in household budget surveys. *Cad Saude Publica*. 2010;26(11):2188-95. doi:10.1590/S0102-311X2010001100020
+2.  Weisell R, Dop MC. The adult male equivalent concept and its application to Household Consumption and Expenditures Surveys (HCES). *Food Nutr Bull*. 2012;33(3 Suppl):S157-62.
+3.  FAO, OMS, UNU. *Human energy requirements: report of a Joint FAO/WHO/UNU Expert Consultation, Rome, 17-24 October 2001*. FAO Food and Nutrition Technical Report Series 1. Roma: FAO; 2004.
+4.  Fiedler JL, Lividini K, Bermudez OI, Smitz MF. Household Consumption and Expenditures Surveys (HCES): a primer for food and nutrition analysts in low- and middle-income countries. *Food Nutr Bull*. 2012;33(3 Suppl):S170-84. doi:10.1177/15648265120333S205

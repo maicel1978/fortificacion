@@ -120,7 +120,7 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 6](../../ejercicios/tema02/ejercicio06.qmd)
 
-# Biblografía
+# Bibliografía
 
 1.  Smith LC, Subandoro A. *Measuring food security using household expenditure surveys*. 2007 — PMID: 18528526
 2.  Fiedler JL, Lividini K. Monitoring and evaluating food fortification programs using household expenditure surveys. *Food Nutr Bull*. 2014 — PMID: 25069270

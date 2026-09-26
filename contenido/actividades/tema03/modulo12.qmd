@@ -3,7 +3,7 @@ title: "Módulo 12"
 subtitle: "Ajustes contextuales y aplicaciones avanzadas del EMA"
 author: "Maicel Monzón"
 date: 2025-06-29
-description: "Se discuten algunos procedimeintos para ajustes contextuales y aplicaciones avanzadas del método EMA"
+description: "Se discuten algunos procedimientos para ajustes contextuales y aplicaciones avanzadas del método EMA"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
@@ -70,7 +70,7 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 12](../../ejercicios/tema03/ejercicio12.qmd)
 
-# Biblografía
+# Bibliografía
 
 -   Silva JG, Claro RM, Hoffmann R. *Estimating the distribution of household per capita food availability in Brazil by the adult equivalent method*. **Cad Saude Pública**. 2010;26(11):2188-2195.
 

@@ -3,7 +3,7 @@ title: "Módulo 05"
 date: 2025-07-01
 author: "Maicel Monzón"
 subtitle: "Monitoreo y Evaluación de Programas de Fortificación de Alimentos"
-description: "Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuesto por WFP-LACRO para este fin"
+description: "Se realiza una revisión de elementos fundamentales del Monitoreo y Evaluación de Programas de Fortificación de Alimentos así como cuatro indicadores propuestos por WFP-LACRO para este fin"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
@@ -16,7 +16,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 -   **Generalidades** de los sistemas de **monitoreo**, **evaluación** y **aprendizaje**
 
--   **Importacia** de los sistemas de **monitoreo**, **evaluación** y **aprendizaje**
+-   **Importancia** de los sistemas de **monitoreo**, **evaluación** y **aprendizaje**
 
 -   **Componentes** de un sistema de **Vigilancia** y **Evaluación**
 
@@ -38,7 +38,7 @@ Para alcanzar las **metas** de los programas de fortificación, se requiere un s
 
 La **planificación** y el **diseño** de un **programa de fortificación de alimentos** requieren una evaluación exhaustiva de las **necesidades nutricionales de la población**. Para garantizar su éxito y sostenibilidad, es esencial que los sistemas de **Monitoreo**, **Evaluación** y **Aprendizaje** (MEL) se desarrollen desde el **inicio del programa**, idealmente durante las etapas de **diseño y planificación**.
 
-# Importacia de los sistemas MEL
+# Importancia de los sistemas MEL
 
 Los sistemas MEL son cruciales porque permiten:
 
@@ -56,7 +56,7 @@ Un sistema MEL general para programas de fortificación, como el descrito en las
 
 ![](/static/images/modulo05mel2.png)
 
-# El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en indicadores selecionados)
+# El sistema de monitoreo, evaluación y aprendizaje propuesto por WFP-LACRO en detalle (basado en indicadores seleccionados)
 
 El Programa Mundial de Alimentos para América Latina y el Caribe (WFP-LACRO) ha desarrollado un sistema integral basado en **indicadores clave** para rastrear el progreso desde la producción hasta el consumo y el impacto nutricional.
 
@@ -122,6 +122,6 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 5](../../ejercicios/tema01/ejercicio05.qmd)
 
-# Biblografía
+# Bibliografía
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

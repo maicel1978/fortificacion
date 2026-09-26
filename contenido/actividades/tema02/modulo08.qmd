@@ -104,7 +104,7 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 8](../../ejercicios/tema02/ejercicio08.qmd)
 
-# Biblografía
+# Bibliografía
 
 Yoo, Y. M., Atkin, R. A., & Pachón, H. (2019). Short Communication: Development of a food composition table to analyze Senegalese food expenditure data. African Journal of Food, Agriculture, Nutrition and Development, 19(2), 14230-14244. https://doi.org/10.18697/ajfand.85.17421
 

@@ -3,7 +3,7 @@ title: "Módulo 04"
 date: 2025-06-30
 subtitle: "Método de enfoque completo de probabilidades"
 author: "Maicel Monzón"
-description: "Se realiza una introdución al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes"
+description: "Se realiza una introducción al Método de Probabilidades para la Fortificación con Hierro y por qué el hierro requiere un enfoque distinto al de otros micronutrientes"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
@@ -12,7 +12,7 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 [El módulo puede ser descargado desde aquí](/static/videos/videomodulo04.zip)
 
-# sumario
+# Sumario
 
 -   Justificación e importancia del método
 
@@ -56,6 +56,6 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 4](../../ejercicios/tema01/ejercicio04.qmd)
 
-# Biblografía
+# Bibliografía
 
 -   Allen, Lindsay H, Bruno De Benoist, Omar Dary, Richard Hurrell, and Organización Mundial de la Salud. 2017. Guías para la fortificación de alimentos con micronutrientes. Ginebra: Organización Mundial de la Salud. https://iris.who.int/handle/10665/255541.

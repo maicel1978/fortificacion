@@ -29,7 +29,7 @@ Política y estrategia de fortificación de alimentos para prevenir deficiencias
 
 Los micronutrientes esenciales son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
 
-Cuando esto no ocurre pueden generarse deficits nutricionales que pueden afectar la salud. En America Latina y el Caribe se estima que cerca del 63% de las mujeres en edad fértil y el 48% de los niños sufren de anemia por deficiencia de hierro , además de otras carencias de micronutrientes[@stevens2022]. En Cuba por ejemplo, las carencias nutricionales más frecuentes son el déficit de vitamina A y de Yodo.
+Cuando esto no ocurre pueden generarse deficits nutricionales que pueden afectar la salud. En América Latina y el Caribe, la anemia y otras carencias de micronutrientes siguen constituyendo un problema de salud pública [@fao2020]. En Cuba por ejemplo, las carencias nutricionales más frecuentes son el déficit de vitamina A y de Yodo.
 
 Sin embargo, se pueden llevar a cabo estrategias para corregir estas deficiencias.
 
@@ -47,7 +47,7 @@ Las estrategias para el control de las carencias de micronutrientes más importa
 
 La fortificación de alimentos es la práctica de incrementar deliberadamente el contenido de uno o más micronutrientes esenciales, de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo.
 
-Cuando la fortificación es parte de una política pública y adopta un marco normativo, se convierte en una práctica obligatoria para la adición de micronutrientes esenciales a los alimentos de consumo masivo. Esto permite mejorar su calidad nutricional y lograr beneficios para la salud [@allen2017].
+Cuando la fortificación es parte de una política pública y adopta un marco normativo, se convierte en una práctica obligatoria para la adición de micronutrientes esenciales a los alimentos de consumo masivo. Esto permite mejorar su calidad nutricional y lograr beneficios para la salud [@allen2006].
 
 Existen varios tipos de enfoques de fortificación:
 

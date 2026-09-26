@@ -141,10 +141,8 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   Rowe LA, Darwa R, Chadha M, Arabi M. A blueprint for the design and implementation of large-scale food fortification programs.
-
--   Government of Canada SC. Archived - Survey of Household Spending, 2023 \[Internet\]. 2023 \[citado 29 de junio de 2025\]. Disponible en: https://www.statcan.gc.ca/en/statistical-programs/instrument/3508_Q1_V21
-
--   Beal T, Massiot E, Arsenault JE, Smith MR, Hijmans RJ. Global trends in dietary micronutrient supplies and estimated prevalence of inadequate intakes. Bermano G, editor. PLoS ONE \[Internet\]. 11 de abril de 2017 \[citado 3 de septiembre de 2025\];12(4):e0175554. Disponible en: https://dx.plos.org/10.1371/journal.pone.0175554
-
--   RENC. Herramientas para planificar y medir el consumo en intervenciones nutricionales: fortificación de alimentos .- Actualidad .- Revista Española de Nutrición Comunitaria \[Internet\]. \[citado 22 de agosto de 2025\]. Disponible en: https://www.renc.es/actualidad2.asp?cod=47&pag=&codR=&v=1&buscar=&anno=
+1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
+2.  Fiedler JL, Lividini K, Bermudez OI, Smitz MF. Household Consumption and Expenditures Surveys (HCES): a primer for food and nutrition analysts in low- and middle-income countries. *Food Nutr Bull*. 2012;33(3 Suppl):S170-84. doi:10.1177/15648265120333S205
+3.  Beal T, Massiot E, Arsenault JE, Smith MR, Hijmans RJ. Global trends in dietary micronutrient supplies and estimated prevalence of inadequate intakes. *PLoS One*. 2017;12(4):e0175554. doi:10.1371/journal.pone.0175554
+4.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443
+5.  Tang K, Adams KP, Ferguson EL, Woldt M, Yourkavitch J, Pedersen S, et al. Systematic review of metrics used to characterise dietary nutrient supply from household consumption and expenditure surveys. *Public Health Nutr*. 2022;25(5):1153-65. doi:10.1017/S1368980022000118

@@ -59,10 +59,6 @@ Puede realizar los ejercicio de este módulo en el siguiente enlace:
 
 # Bibliografía
 
--   Asociación Española de Pediatría. Ingestas dietéticas de referencia.
--   FAO/OMS. Codex Alimentarius.
--   European Food Safety Authority. Ingestas dietéticas de referencia.
--   Carbajal, Á. Ingestas recomendadas de energía y nutrientes.
--   Ministerio de Salud y Protección Social. Módulo rotulado nutricional.
--   Gadis. Manual didáctico para docentes. Alimentes.
--   FINUT. Propuesta de valores de referencia de nutrientes para poblaciones.
+1.  Institute of Medicine. *Dietary Reference Intakes: applications in dietary assessment*. Washington, DC: National Academy Press; 2000. doi:10.17226/9956
+2.  World Health Organization, Food and Agriculture Organization of the United Nations. *Vitamin and mineral requirements in human nutrition*. 2.ª ed. Ginebra: OMS; 2004. <https://www.who.int/publications/i/item/9241546123>
+3.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>

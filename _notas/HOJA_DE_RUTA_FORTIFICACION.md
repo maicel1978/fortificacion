@@ -30,8 +30,8 @@ Entorno de trabajo: clon en `C:\proyectos\fortificacion`, fuera de carpetas sinc
 | 1.5 | Tablas de composición | 07, 08 | Existe |
 | 1.6 | Adecuación: punto de corte del EAR y enfoque probabilístico para hierro | 03, 04 | Existe |
 | 2.1 | Políticas de fortificación | 02, 05, 14–17 | Existe |
-| 3.1 | Introducción a R | — | Falta |
-| 3.2 | Visualización con ggplot2 | — | Falta |
+| 3.1 | Introducción a R | — (curso propio externo, temas I–IV) | Contenido existe fuera de la plataforma; falta integrarlo |
+| 3.2 | Visualización con ggplot2 | — (curso propio externo, tema VI) | Parcial: el curso usa ggstatsplot; falta ggplot2 explícito |
 | 3.3 | Análisis de encuestas con srvyr | — | Falta (solo uso incidental en 23) |
 | 3.4 | Mapas en R | — | Falta |
 | 4.1–4.4 | Aplicación con la ENGIH 2018 | 18–21, 23, 24 | Existe sin datos reales; 19 usa ENHOGAR con datos hipotéticos |
@@ -42,6 +42,8 @@ Observaciones técnicas abiertas:
 - Módulo 21: SPADE estima ingesta usual a partir de mediciones individuales repetidas. Los datos de gasto se registran por hogar y no permiten separar varianza intra e interpersona. Revisar su pertinencia frente al enfoque probabilístico sobre ingesta aparente ajustada por EMA.
 - Módulo 22 (calidad de la dieta): sin correspondencia en el TdR. Decidir si se mantiene como complementario o se retira.
 - Módulo 13: menciona AME y AFE como equivalentes en el cálculo aplicado; el resto del material usa solo EMA. Requiere corrección de contenido, no de terminología.
+- Categoría 3, decisión propuesta: el desarrollo genérico de R (entorno, tidyverse, ggplot2, srvyr, mapas) se mantiene y amplía en el curso propio externo, fuera del plazo contractual; la plataforma incluye una versión mínima aplicada a la ENGIH (tarea B3). Pendiente de validación con los supervisores.
+- Categoría 3, antecedentes: el curso propio "Análisis de datos en fortificación de alimentos a gran escala con R" (bioestadisticaedu.com/teaching/r) cubre importación, orden, manipulación, tablas y gráficos. No cubre srvyr ni mapas. Su licencia actual (CC BY-NC-ND 4.0) y el traspaso de los entregables al PMA requieren que el contenido se integre en la plataforma con una licencia compatible; un enlace externo no constituye entrega.
 - Microdatos: la ENGIH 2018 no se publica en el repositorio. Los ejercicios deben indicar cómo obtener los datos de la fuente oficial y trabajar con rutas locales, o con agregados que no identifiquen hogares.
 
 ## 3. Criterios de calidad aplicables a todo entregable
@@ -71,7 +73,7 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 
 - [ ] **B1 (C). Reescritura del tema 05 con resultados reales**, empezando por el módulo 19 (retirar ENHOGAR y el caso hipotético). Donde la línea base normativa no esté resuelta, se presentan escenarios, como en R4.
 - [ ] **B2 (C). Decisión sobre los módulos 21 y 22** según las observaciones de la sección 2.
-- [ ] **B3 (C). Módulos nuevos de la categoría 3** (R, ggplot2, srvyr, mapas), construidos sobre el flujo real de la ENGIH. Mapas: límites provinciales de fuente oficial.
+- [ ] **B3 (M). Categoría 3, versión mínima aplicada.** Una página por subtema 3.1–3.4: objetivo, explicación breve, ejemplo resuelto sobre la ENGIH, script, 3–5 preguntas y remisión al curso propio como versión ampliada. Código de 3.3 (diseño muestral) y 3.4 (mapas provinciales) extraído del flujo ya validado en `analisis_ENGIH2018`. Los PDF y scripts que se citen se copian dentro del repositorio.
 - [ ] **B4 (M). Banco de preguntas del tema 05 y de los módulos nuevos.**
 - [ ] **B5 (C). Módulo 5.1 de síntesis.**
 
@@ -88,10 +90,13 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 1. Reorganización del sitio según la numeración del TdR (A2).
 2. Pertinencia de SPADE (módulo 21) y permanencia del módulo 22.
 3. Formato aceptado para video-lecciones (enlace de YouTube o archivo MP4).
-4. Las decisiones pendientes del análisis (línea base normativa, Sección 2 vs. 3A, fuentes de composición) se registran en la hoja de ruta de `analisis_ENGIH2018` y afectan a B1.
+4. Alcance de la categoría 3 en la plataforma: versión mínima aplicada, con remisión al curso propio externo para el desarrollo genérico de R.
+5. Las decisiones pendientes del análisis (línea base normativa, Sección 2 vs. 3A, fuentes de composición) se registran en la hoja de ruta de `analisis_ENGIH2018` y afectan a B1.
 
 ## 6. Registro de cambios de esta hoja
 
 | Fecha | Cambio |
 |---|---|
+| 2026-09-26 | Categoría 3: desarrollo genérico de R trasladado al curso propio; en la plataforma, versión mínima aplicada (B3 pasa a tarea mecánica). |
+| 2026-09-26 | Categoría 3 actualizada: 3.1 y 3.2 cubiertas por material propio externo pendiente de integración. |
 | 2026-09-26 | Creación. Corrige la afirmación de la hoja del 2026-09-23 según la cual los módulos cubrían las cinco categorías del TdR: faltan la categoría 3 completa y el ítem 5.1. |

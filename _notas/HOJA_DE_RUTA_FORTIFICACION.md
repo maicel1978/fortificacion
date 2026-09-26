@@ -16,6 +16,8 @@ Este documento es la referencia de estado. Al retomar una sesión se contrasta c
 | `946d1a0` | Configuración de navegación, `install_packages.R` e índices recuperados de la copia local previa |
 | `4a1190e` | Modelo del asistente embebido actualizado (`openai/gpt-oss-20b`, reemplazo del modelo retirado por el proveedor); terminología unificada a EMA en módulos 10 y 24 |
 | `2700632` | Resultado de ejecución de R del módulo 24 congelado en `_freeze` |
+| `257dbad` | Erratas en títulos y descripciones de los módulos 01–17 |
+| `d0d6447`, `e70d6eb`, `5f47e1a` | Auditoría de referencias de los módulos 01–17 |
 
 Entorno de trabajo: clon en `C:\proyectos\fortificacion`, fuera de carpetas sincronizadas. Despliegue: Netlify, con el plugin de Quarto, renderizando desde `main` y publicando `docs/`. El entorno de build de Netlify no dispone de R: todo módulo con código R cuyo caché se invalide debe renderizarse localmente y subirse junto con su carpeta en `_freeze/`.
 
@@ -34,7 +36,8 @@ Entorno de trabajo: clon en `C:\proyectos\fortificacion`, fuera de carpetas sinc
 | 3.2 | Visualización con ggplot2 | — (curso propio externo, tema VI) | Parcial: el curso usa ggstatsplot; falta ggplot2 explícito |
 | 3.3 | Análisis de encuestas con srvyr | — | Falta (solo uso incidental en 23) |
 | 3.4 | Mapas en R | — | Falta |
-| 4.1–4.4 | Aplicación con la ENGIH 2018 | 18–21, 23, 24 | Existe sin datos reales; 19 usa ENHOGAR con datos hipotéticos |
+| 4.0 | Introducción a la base de datos | — | Falta |
+| 4.1–4.4 | Aplicación con la ENGIH 2018 | 18–21, 23, 24 | Existe sin datos reales: 18, 20, 21, 22 y 23 usan datos simulados; 19 usa ENHOGAR con datos hipotéticos |
 | 5.1 | Síntesis de aprendizajes | — | Falta |
 
 Observaciones técnicas abiertas:
@@ -44,6 +47,10 @@ Observaciones técnicas abiertas:
 - Módulo 13: menciona AME y AFE como equivalentes en el cálculo aplicado; el resto del material usa solo EMA. Requiere corrección de contenido, no de terminología.
 - Categoría 3, decisión propuesta: el desarrollo genérico de R (entorno, tidyverse, ggplot2, srvyr, mapas) se mantiene y amplía en el curso propio externo, fuera del plazo contractual; la plataforma incluye una versión mínima aplicada a la ENGIH (tarea B3). Pendiente de validación con los supervisores.
 - Categoría 3, antecedentes: el curso propio "Análisis de datos en fortificación de alimentos a gran escala con R" (bioestadisticaedu.com/teaching/r) cubre importación, orden, manipulación, tablas y gráficos. No cubre srvyr ni mapas. Su licencia actual (CC BY-NC-ND 4.0) y el traspaso de los entregables al PMA requieren que el contenido se integre en la plataforma con una licencia compatible; un enlace externo no constituye entrega.
+- Módulo 20: usa `nutriR::calc_prevalencia_rpe`; el paquete no se localiza en CRAN. Sustituir por implementación verificada.
+- Referencias: el módulo 06 asigna PMID a documentos no indexados en PubMed (Banco Mundial, IFPRI). Todas las listas de referencias requieren auditoría antes de cualquier presentación externa.
+- Erratas en títulos visibles: "Biblografía" en 17 módulos; "Importacia" (05), "procedimeintos" (12), "introdución" (04), "sumario" en minúscula (04), "Bibliografia" sin tilde (13).
+- Uso de datos: categorías 1 y 2 sin datos; categoría 4 y unidades 3.x con la ENGIH real. Para el participante se publican tablas derivadas agregadas (provincia, quintil) que no identifican hogares.
 - Microdatos: la ENGIH 2018 no se publica en el repositorio. Los ejercicios deben indicar cómo obtener los datos de la fuente oficial y trabajar con rutas locales, o con agregados que no identifiquen hogares.
 
 ## 3. Criterios de calidad aplicables a todo entregable
@@ -60,18 +67,20 @@ Orden de ejecución por impacto visible y dependencia. Las tareas marcadas (M) s
 
 ### Fase A — Entregables sin dependencia de datos (semana del 28/09)
 
-- [ ] **A1 (C). Guion instruccional y técnico-pedagógico (GITP), Word.** Ítem 14 del TdR. Por módulo: objetivos de aprendizaje, contenidos, flujo, recursos, evaluación y estado. Incluye la tabla de la sección 2 y una propuesta de reorganización justificada (A2). Entregable para la reunión de inicio de semana.
+- [x] **A1 (C). Guion instruccional y técnico-pedagógico (GITP), Word.** Borrador v0.1 generado el 2026-09-26; pendiente de revisión propia y envío. Ítem 14 del TdR. Por módulo: objetivos de aprendizaje, contenidos, flujo, recursos, evaluación y estado. Incluye la tabla de la sección 2 y una propuesta de reorganización justificada (A2). Entregable para la reunión de inicio de semana.
 - [ ] **A2 (C). Reorganización de la navegación del sitio por categorías del TdR.** Solo `_quarto.yml`, listados e índices; sin renombrar archivos, para no romper enlaces ni videos ya publicados. Se implementa en una rama con vista previa de Netlify y se presenta a los supervisores antes de fusionar con `main`.
 - [ ] **A3 (M). Nota de portabilidad del código** (ítem 9) en los módulos de los temas 03–05.
-- [ ] **A4 (M). Bibliografía verificada por módulo** (ítem 13), con `references.bib` y citas `@clave`. Prioridad a los módulos cuyo contenido no cambiará (temas 01–04).
-- [ ] **A5 (M). Banco de preguntas faltante del tema 02** (ítem 17).
+- [x] **A0 (M). Corrección de erratas en títulos visibles.** Módulos 01–17 cerrados (`257dbad`). Las erratas de los módulos 18–24 se corrigen en la reescritura (B1), porque editarlos invalida el caché de R. Lista en la sección 2. Prioridad máxima por visibilidad; bloque de 20 minutos.
+- [x] **A4 (M). Auditoría de referencias por módulo** (ítem 13). Verificar cada referencia contra DOI, PubMed o sitio del editor; retirar o corregir identificadores incongruentes (empezar por el módulo 06). Referencias de los temas 05 y siguientes, después de la reescritura. Cerrada para los módulos 01–17: referencias no localizadas retiradas, autores y datos corregidos, PMID sin verificar eliminados. Retiradas sin reemplazo por no verificarse: Yoo et al. 2019 y Deharveng et al. 1999 (08), guía OMS de harina de maíz (15). En el módulo 01 se retiraron cifras de anemia regional no localizadas en la fuente citada; incorporar un dato verificado si se considera necesario.
+- [ ] **A5 (M). Completar autoevaluaciones de los ejercicios 01–17 hasta 3–5 preguntas con clave** (ítem 17); conteo preliminar por debajo del mínimo en 02, 04, 05 y 08.
 - [ ] **A6 (M). Corrección de contenido del módulo 13** (AME/AFE).
 
 ### Fase B — Contenido dependiente de resultados de la ENGIH 2018 (semana del 05/10)
 
 Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH2018`.
 
-- [ ] **B1 (C). Reescritura del tema 05 con resultados reales**, empezando por el módulo 19 (retirar ENHOGAR y el caso hipotético). Donde la línea base normativa no esté resuelta, se presentan escenarios, como en R4.
+- [ ] **B0 (M). Unidad 4.0, introducción a la base de datos**, a partir del informe de factibilidad.
+- [ ] **B1 (C). Reescritura del tema 05 con resultados reales**, empezando por el módulo 19 (retirar ENHOGAR y el caso hipotético); incluye sustituir el paquete del módulo 20 y los datos simulados de 18, 20, 21, 22 y 23. Donde la línea base normativa no esté resuelta, se presentan escenarios, como en R4.
 - [ ] **B2 (C). Decisión sobre los módulos 21 y 22** según las observaciones de la sección 2.
 - [ ] **B3 (M). Categoría 3, versión mínima aplicada.** Una página por subtema 3.1–3.4: objetivo, explicación breve, ejemplo resuelto sobre la ENGIH, script, 3–5 preguntas y remisión al curso propio como versión ampliada. Código de 3.3 (diseño muestral) y 3.4 (mapas provinciales) extraído del flujo ya validado en `analisis_ENGIH2018`. Los PDF y scripts que se citen se copian dentro del repositorio.
 - [ ] **B4 (M). Banco de preguntas del tema 05 y de los módulos nuevos.**
@@ -97,6 +106,8 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 
 | Fecha | Cambio |
 |---|---|
+| 2026-09-26 | A0 y A4 cerradas para los módulos 01–17. |
+| 2026-09-26 | Hallazgos de la revisión para el GITP: datos simulados en todo el tema 05, paquete no localizado (módulo 20), referencias con identificadores incongruentes, erratas, autoevaluaciones incompletas, unidad 4.0 ausente. Regla de uso de datos. A1 en borrador. |
 | 2026-09-26 | Categoría 3: desarrollo genérico de R trasladado al curso propio; en la plataforma, versión mínima aplicada (B3 pasa a tarea mecánica). |
 | 2026-09-26 | Categoría 3 actualizada: 3.1 y 3.2 cubiertas por material propio externo pendiente de integración. |
 | 2026-09-26 | Creación. Corrige la afirmación de la hoja del 2026-09-23 según la cual los módulos cubrían las cinco categorías del TdR: faltan la categoría 3 completa y el ítem 5.1. |

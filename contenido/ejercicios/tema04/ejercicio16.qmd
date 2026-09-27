@@ -1,9 +1,9 @@
 ---
-title: "Ejercicio 16: Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
-subtitle: "Tema 4"
+title: "Ejercicio 16: Cálculo del nivel de fortificación: procedimiento paso a paso"
 author: "Maicel Monzon"
-date: 2025-08-30
-description: "Ejercicios Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
+subtitle: "Tema 4"
+date: 2026-09-27
+description: "Ejercicios sobre el procedimiento de cálculo del nivel de fortificación"
 format: html
 ---
 
@@ -11,67 +11,75 @@ format: html
 
 ## ¿Es la siguiente afirmación verdadera?
 
-La fortificación de alimentos es un proceso aleatorio que se basa en la intuición de los planificadores de políticas.
+Para calcular el nivel necesario para la meta nutricional basta con usar el consumo promedio del vehículo.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta
 
 **Falso.**
 
-La afirmación es falsa. La fortificación de alimentos es el resultado de un **cálculo científico preciso y meticuloso** que se basa en datos de consumo y en referencias nutricionales para garantizar la seguridad y efectividad del programa.
+El aporte de la fortificación a cada persona es el nivel de fortificación por su consumo del vehículo. El promedio oculta a quienes consumen poco, que son los que determinan si la meta se alcanza. Por eso se simula sobre la distribución completa del consumo.
 :::
 
 ------------------------------------------------------------------------
 
-## ¿Cuál es la principal razón por la que se utiliza el **Nivel Factible de Fortificación (FFL)** en el cálculo de adiciones de micronutrientes?
+## Con la notación del módulo, ¿cuál es el nivel máximo de fortificación por inocuidad?
 
-a)  Para determinar la cantidad de alimentos que se deben producir.
-b)  Para asegurar que la fortificación sea económicamente viable.
-c)  Para guiar la cantidad de nutriente que se debe añadir al alimento, equilibrando eficacia y seguridad.
-d)  Para medir el impacto de la fortificación en la salud individual.
+a)  $FL = EAR / c_{95}$
+b)  $FL = (UL - I_0) / c_{95}$
+c)  $FL = (UL - EAR) / \bar{c}$
+d)  $FL = UL / I_0$
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
 
-**c) Para guiar la cantidad de nutriente que se debe añadir al alimento, equilibrando eficacia y seguridad.**
+**b) FL = (UL − I₀) / c₉₅**
 
-El **FFL** es el valor que se utiliza para la adición de nutrientes. Se calcula de tal manera que sea lo suficientemente alto para tener un impacto positivo en la población (eficacia) y, a la vez, lo suficientemente bajo para no causar toxicidad (seguridad).
+Se despeja de la condición de inocuidad para los grandes consumidores: $I_0 + FL \times c_{95} \le UL$.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Qué prevalencia se calcula en el paso 3 para cada nivel de fortificación simulado?
+
+a)  $P(I_0 < EAR)$
+b)  $P(I_0 + FL \times c < EAR)$
+c)  $P(I_0 + FL \times c > EAR)$
+d)  $P(FL < UL)$
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) P(I₀ + FL × c < EAR)**
+
+Es la proporción del grupo de riesgo que, con la fortificación, seguiría por debajo del EAR. El nivel necesario es el menor que la reduce a la meta.
 :::
 
 ------------------------------------------------------------------------
 
 ## Pregunta de desarrollo breve:
 
-Mencione los dos ajustes clave que se deben aplicar al cálculo inicial del nivel de fortificación para adaptarlo al "mundo real".
+¿Qué dos resultados deben reportarse al evaluar el escenario de fortificación elegido?
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta
 
-Los dos ajustes clave que se deben aplicar son: 1. **La biodisponibilidad del nutriente:** Se debe ajustar la dosis para tener en cuenta que el cuerpo no absorbe el 100% del nutriente añadido. 2. **Pérdidas tecnológicas:** Se deben considerar las posibles pérdidas del nutriente durante los procesos de almacenamiento, cocción y procesamiento del alimento.
-:::
-
-------------------------------------------------------------------------
-
-## ¿Cuál es el papel del **Requerimiento Promedio Estimado (EAR)** en el cálculo de fortificación?
-
-::: {.callout-tip collapse="true"}
-### Respuesta
-
-El **EAR** es el punto de partida del cálculo. Su papel es **establecer la necesidad diaria de un nutriente** para un grupo de población. Esta cifra es la base para determinar cuánto nutriente se debe añadir al alimento vehículo para ayudar a cerrar la brecha de deficiencia en la población.
+La prevalencia de ingesta inferior al EAR en los grupos de riesgo y la proporción de la población que supera el UL, calculadas para todos los grupos de interés con el nivel elegido.
 :::
 
 ------------------------------------------------------------------------
 
 ## Verdadero o Falso
 
-En un programa de fortificación, el objetivo es encontrar un nivel de adición que ayude a quienes consumen poco el alimento fortificado, pero que sea 100% seguro para quienes lo consumen en grandes cantidades.
+Con datos de encuestas de gasto y consumo, la ingesta estimada en este procedimiento es la ingesta individual observada.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta
 
-**Verdadero.**
+**Falso.**
 
-La afirmación es verdadera. El proceso de cálculo está diseñado para encontrar un equilibrio óptimo. El nivel de fortificación debe ser lo suficientemente alto para tener un impacto en la salud de la mayoría de la población, pero siempre por debajo del nivel de toxicidad para proteger a aquellos que consumen una gran cantidad del alimento fortificado.
+Es una ingesta aparente, estimada a nivel de hogar y expresada por equivalente de mujer adulta. Los resultados son aproximaciones y sus supuestos deben declararse.
 :::
 
-[Regresar al módulo 16](../../actividades/tema04/modulo16.qmd)
+------------------------------------------------------------------------
+

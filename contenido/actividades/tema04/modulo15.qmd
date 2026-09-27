@@ -1,9 +1,9 @@
 ---
 title: "Módulo 15"
-date: 2025-07-01
-subtitle: "Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+date: 2026-09-27
+subtitle: "Nivel factible de fortificación: la metodología OMS/FAO"
 author: "Maicel Monzon"
-description: "Se describe la metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación"
+description: "Se describe la lógica de la metodología OMS/FAO para establecer el nivel factible de fortificación: la meta de ingesta adicional, los límites de inocuidad, tecnológico y de costo, y la regla de decisión"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
@@ -14,64 +14,71 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 # Sumario
 
--   Metodología Paso a Paso para el Cálculo de FFL
-    -   Estimación de la Ingesta de Alimentos (Dieta y Consumo)
-    -   Determinación del Requerimiento Promedio Estimado (EAR)
-    -   Cálculo del Nivel de Fortificación (FL)
-    -   Consideración de la Biodisponibilidad
-    -   Integración de los Niveles Máximos Tolerables (UL)
+-   Qué se decide al fijar un nivel de fortificación
+-   La meta: ingesta adicional en los grupos de riesgo
+-   Los tres límites: inocuidad, tecnológico y costo
+-   La regla de decisión: nivel factible de fortificación
+-   Biodisponibilidad y pérdidas
+-   Del nivel factible a la norma
 
 ![](/static/images/micro15.png){fig-align="center"}
 
 ------------------------------------------------------------------------
 
-Ahora que hemos comprendido los principios de la fortificación y los pasos para la Planificación y diseño de un programa de fortificación, la importancia de seleccionar el alimento vehículo y los nutrientes adecuados, nos enfocaremos en la parte técnica: ¿cómo se determina la cantidad exacta de nutriente que se debe añadir a un alimento?
+# Qué se decide al fijar un nivel de fortificación
 
-Para ello abordaremos la **metodología de la OMS para calcular los Niveles de Fortificación Factibles (FFL)**
+El nivel de fortificación es la cantidad de micronutriente que se añade por unidad de peso del alimento vehículo, y se expresa, por ejemplo, en mg/kg de harina. Conviene no confundir sus unidades con las de los valores de referencia: el requerimiento promedio estimado (EAR) y el nivel máximo de ingesta tolerable (UL) son ingestas diarias, en mg/día. El nivel de fortificación no se compara directamente con el EAR ni con el UL; lo que se compara con ellos es la **ingesta total resultante**, que depende del nivel de fortificación y de cuánto vehículo consume cada persona.
+
+Según las guías OMS/FAO, el nivel de fortificación responde a dos preguntas a la vez:
+
+1.  ¿Cuánto micronutriente adicional necesitan los grupos con mayor riesgo de ingesta insuficiente?
+2.  ¿Cuánto se puede añadir sin que los grandes consumidores del vehículo superen el UL, y sin afectar las características del alimento ni encarecerlo de forma inaceptable?
+
+# La meta: ingesta adicional en los grupos de riesgo
+
+La meta nutricional se define sobre la distribución de la ingesta habitual de los grupos de riesgo. Con el método del punto de corte (módulo 03), el objetivo es que solo una proporción pequeña del grupo, del orden del 2–3 %, quede con una ingesta inferior al EAR. Para el hierro, cuya distribución de requerimientos es asimétrica en niños, adolescentes y mujeres en edad fértil, la prevalencia se estima con el enfoque probabilístico (módulo 04).
+
+La ingesta adicional que aporta la fortificación a cada persona es el producto del nivel de fortificación por su consumo del vehículo. Por eso la meta se evalúa en los **consumidores con consumo bajo o típico** del vehículo dentro de los grupos de riesgo: si ellos alcanzan la meta, la alcanza el grupo.
+
+# Los tres límites
+
+**Inocuidad.** La ingesta total de los grandes consumidores del vehículo (por ejemplo, el percentil 95 del consumo), sumando la dieta sin fortificar y lo aportado por la fortificación, no debe superar el UL.
+
+**Tecnológico.** Máxima cantidad que puede añadirse sin cambios adversos de color, sabor, olor o textura, y sin interacciones que degraden el micronutriente o el alimento.
+
+**Costo.** Aumento de precio del alimento que resulta aceptable para la industria y los consumidores.
+
+# La regla de decisión: nivel factible de fortificación
+
+Para cada límite se calcula el nivel de fortificación máximo admisible. El **nivel factible de fortificación (FFL)** es el menor de los tres.
+
+Después se compara con el nivel necesario para alcanzar la meta nutricional:
+
+-   Si el nivel factible alcanza la meta, el vehículo es suficiente.
+-   Si no la alcanza, la fortificación de ese vehículo no basta para los grupos de riesgo, en particular para quienes consumen poco del vehículo. Se consideran entonces otros vehículos o intervenciones complementarias, como la suplementación dirigida.
+
+En micronutrientes con poco margen entre el EAR y el UL, el límite de inocuidad suele ser el determinante; en otros, lo es el costo.
+
+# Biodisponibilidad y pérdidas
+
+Los valores de EAR ya incorporan la biodisponibilidad del micronutriente en la dieta habitual. Solo se ajusta el nivel de fortificación cuando el compuesto añadido se absorbe de forma distinta: por ejemplo, el hierro electrolítico se añade en una cantidad del orden del doble que el sulfato ferroso para aportar una cantidad equivalente de hierro absorbible.
+
+Las pérdidas durante el almacenamiento y la preparación del alimento se compensan con un excedente, que debe mantenerse dentro del margen de inocuidad.
+
+# Del nivel factible a la norma
+
+El nivel factible se traduce en parámetros de producción (contenido promedio, mínimo y máximo, según la variación propia del proceso de fortificación) y en parámetros regulatorios, que descuentan la degradación esperada durante la comercialización. Estos son los valores que se verifican en la vigilancia regulatoria.
+
+El procedimiento de cálculo se desarrolla paso a paso en el [módulo 16](../../actividades/tema04/modulo16.qmd), y su aplicación con datos de la ENGIH 2018 en la unidad de aplicación.
 
 ------------------------------------------------------------------------
 
-# Metodología Paso a Paso para el Cálculo de FFL
-
-La metodología de la OMS para determinar los FFL es un proceso escalonado que considera la ingesta de alimentos, la bioaccesibilidad de los nutrientes y la seguridad.
-
--   **Paso 1: Estimación de la Ingesta de Alimentos (Dieta y Consumo)**
-
--   Utiliza encuestas de consumo de alimentos o balances de alimentos para determinar la cantidad promedio de alimento vehículo consumida por la población objetivo (p. ej., gramos de harina de trigo por persona al día). Este paso es crucial para saber cuánto nutriente llegará a la población.
-
--   **Paso 2: Determinación del Requerimiento Promedio Estimado (EAR)**
-
--   El **Requerimiento Promedio Estimado (EAR)** es la cantidad diaria de un nutriente que se necesita para satisfacer los requerimientos del 50% de las personas sanas en un grupo de edad y género específico. La OMS y la FAO publican estos valores para diferentes micronutrientes.
-
--   **Paso 3: Cálculo del Nivel de Fortificación (FL)**
-
--   Este paso combina la información del consumo del alimento y el EAR. La fórmula general para el Nivel de Fortificación (FL) es:
-
-$$
-FL = \frac{EAR \times (\text{Población a Cubrir})}{\text{Ingesta de Alimento Fortificado}}
-$$
-
-👉 Esta fórmula se ajusta para considerar otros factores como las pérdidas durante el procesamiento o cocción.
-
--   **Paso 4: Consideración de la Biodisponibilidad**
-
--   La **biodisponibilidad** es la proporción del nutriente en el alimento fortificado que es absorbida y utilizada por el cuerpo. Un factor de ajuste de la biodisponibilidad debe aplicarse a la fórmula. Por ejemplo, la absorción del hierro varía mucho dependiendo de su forma química.
-
--   Puedes usar el ejemplo de la biodisponibilidad del hierro fortificado, que es típicamente del 5% al 10%, mucho menor que el hierro en suero.
-
--   **Paso 5: Integración de los Niveles Máximos Tolerables (UL)**
-
--   Para prevenir la toxicidad, es vital considerar el **Nivel Máximo de Ingesta Tolerable (UL)**. Este es el nivel más alto de ingesta diaria de un nutriente que probablemente no presenta un riesgo de efectos adversos para la salud de la mayoría de la población.
-
--   El **Nivel de Fortificación Factible (FFL)** es el valor final que se encuentra entre la cantidad necesaria para cerrar la brecha nutricional y la cantidad que no excede el UL, garantizando la seguridad.
-
-------------------------------------------------------------------------
-
-Puede realizar los ejercicio de este módulo en el siguiente enlace:
+Puede realizar los ejercicios de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 15](../../ejercicios/tema04/ejercicio15.qmd)
 
 # Bibliografía
 
 1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
-2.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443
+2.  Dary O. Establishing safe and potentially efficacious fortification contents for folic acid and vitamin B12. *Food Nutr Bull*. 2008;29(2 Suppl). doi:10.1177/15648265080292S126
+3.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443

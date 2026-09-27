@@ -1,9 +1,9 @@
 ---
-title: "Ejercicio 15: Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+title: "Ejercicio 15: Nivel factible de fortificación: la metodología OMS/FAO"
 author: "Maicel Monzon"
 subtitle: "Tema 4"
-date: 2025-08-30
-description: "Ejercicios sobre Metodología de la OMS para calcular para la Determinación de niveles factibles de fortificación (FFL)"
+date: 2026-09-27
+description: "Ejercicios sobre la metodología OMS/FAO para establecer el nivel factible de fortificación"
 format: html
 ---
 
@@ -11,67 +11,75 @@ format: html
 
 ## ¿Es la siguiente afirmación verdadera?
 
-El **Nivel Factible de Fortificación (FFL)** se ubica en un rango que está por encima del **Requerimiento Promedio Estimado (EAR)** y por debajo del **Nivel Máximo de Ingesta Tolerable (UL)**.
-
-::: {.callout-tip collapse="true"}
-### Respuesta
-
-**Verdadero.**
-
-La afirmación es verdadera. El FFL es el valor ideal que se encuentra en un rango seguro y eficaz. Debe ser lo suficientemente alto para cerrar la brecha nutricional (por encima del EAR) y, a la vez, lo suficientemente bajo para evitar el riesgo de toxicidad (por debajo del UL).
-:::
-
-------------------------------------------------------------------------
-
-## ¿Cuál de los siguientes pasos se refiere al cálculo inicial de la dosis de fortificación, antes de cualquier ajuste?
-
-a)  Determinación del Requerimiento Promedio Estimado (EAR).
-b)  Integración de los Niveles Máximos Tolerables (UL).
-c)  Estimación de la Ingesta de Alimentos.
-d)  Cálculo del Nivel de Fortificación (FL).
-
-::: {.callout-tip collapse="true"}
-### Respuesta correcta
-
-**d) Cálculo del Nivel de Fortificación (FL).**
-
-El **Nivel de Fortificación (FL)** es el resultado del cálculo inicial, que combina la necesidad nutricional (EAR) con el consumo promedio del alimento vehículo. Este valor se ajustará posteriormente para tener en cuenta la biodisponibilidad y los límites de seguridad.
-:::
-
-------------------------------------------------------------------------
-
-## Pregunta de desarrollo breve:
-
-Explique por qué es crucial ajustar la dosis de fortificación para tener en cuenta la **biodisponibilidad** de un nutriente.
-
-::: {.callout-tip collapse="true"}
-### Respuesta
-
-Es crucial ajustar la dosis para la **biodisponibilidad** porque no todo el nutriente añadido a un alimento es absorbido y utilizado por el cuerpo. Al aplicar un factor de ajuste, se garantiza que la cantidad de nutriente que el cuerpo realmente aprovecha sea la adecuada para combatir la deficiencia, evitando subestimar la dosis necesaria para un impacto efectivo.
-:::
-
-------------------------------------------------------------------------
-
-## ¿Cuál es el papel del **Nivel Máximo de Ingesta Tolerable (UL)** en la metodología de la OMS para la fortificación?
-
-::: {.callout-tip collapse="true"}
-### Respuesta
-
-El **UL** es el límite de seguridad que no debe ser superado. Su papel es **proteger a la población del consumo excesivo** de un nutriente. La metodología de la OMS lo utiliza como un umbral de seguridad, asegurando que el nivel final de fortificación no presente riesgo de efectos adversos o toxicidad, incluso para aquellos que consumen grandes cantidades del alimento fortificado.
-:::
-
-------------------------------------------------------------------------
-
-## Verdadero o Falso
-
-El primer paso de la metodología de la OMS para determinar el FFL es la consideración de la biodisponibilidad del nutriente.
+El **nivel factible de fortificación (FFL)** debe situarse entre el valor del EAR y el valor del UL.
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta
 
 **Falso.**
 
-La afirmación es falsa. El primer paso es la **Estimación de la Ingesta de Alimentos**, que se realiza a través de encuestas. La consideración de la biodisponibilidad es un paso posterior en el proceso, que se utiliza para refinar el cálculo de la dosis.
+El nivel de fortificación es una concentración en el alimento (por ejemplo, mg/kg de harina), mientras que el EAR y el UL son ingestas diarias (mg/día). No se comparan directamente. Lo que se compara con el EAR y el UL es la ingesta total resultante, que depende del nivel de fortificación y del consumo del vehículo.
 :::
 
-[Regresar al módulo 15](../../actividades/tema04/modulo15.qmd)
+------------------------------------------------------------------------
+
+## Según las guías OMS/FAO, ¿cómo se determina el nivel factible de fortificación?
+
+a)  Como una fracción fija del EAR dividida por el consumo promedio del vehículo.
+b)  Como el menor de los niveles máximos admitidos por la inocuidad, la tecnología y el costo.
+c)  Como el promedio entre el nivel necesario para la meta y el nivel máximo por inocuidad.
+d)  Como el nivel que lleva la ingesta promedio de la población al valor del UL.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**b) Como el menor de los niveles máximos admitidos por la inocuidad, la tecnología y el costo.**
+
+Se calcula el nivel máximo admisible bajo cada límite y se toma el menor. Después se compara con el nivel necesario para la meta nutricional.
+:::
+
+------------------------------------------------------------------------
+
+## ¿En qué consumidores del vehículo se evalúa el límite de inocuidad?
+
+a)  En los consumidores de la mediana.
+b)  En los que consumen menos del vehículo.
+c)  En los grandes consumidores, por ejemplo el percentil 95 del consumo.
+d)  En el promedio de la población.
+
+::: {.callout-tip collapse="true"}
+### Respuesta correcta
+
+**c) En los grandes consumidores, por ejemplo el percentil 95 del consumo.**
+
+Son quienes reciben el mayor aporte de la fortificación y, por tanto, quienes tienen mayor riesgo de superar el UL.
+:::
+
+------------------------------------------------------------------------
+
+## Pregunta de desarrollo breve:
+
+Si el nivel factible de fortificación es menor que el nivel necesario para alcanzar la meta nutricional, ¿qué implica y qué opciones existen?
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+El vehículo no permite, por sí solo, llevar a los grupos de riesgo a una ingesta adecuada sin comprometer la inocuidad, la tecnología o el costo; los más afectados son quienes consumen poco del vehículo. Se documenta la brecha y se consideran otros vehículos, la combinación de varios o intervenciones complementarias, como la suplementación dirigida.
+:::
+
+------------------------------------------------------------------------
+
+## Verdadero o Falso
+
+El nivel de fortificación debe aumentarse siempre para compensar que el organismo no absorbe el 100 % del micronutriente añadido.
+
+::: {.callout-tip collapse="true"}
+### Respuesta
+
+**Falso.**
+
+El EAR ya incorpora la biodisponibilidad del micronutriente en la dieta habitual. El ajuste solo procede cuando el compuesto añadido se absorbe de forma distinta a la supuesta; por ejemplo, el hierro electrolítico se añade en una cantidad del orden del doble que el sulfato ferroso.
+:::
+
+------------------------------------------------------------------------
+

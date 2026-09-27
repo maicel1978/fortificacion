@@ -1,9 +1,9 @@
 ---
 title: "Módulo 16"
-date: 2025-07-01
-subtitle: "Metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
-author: "Maicel Monzón"
-description: "se describe la metodología para el Cálculo de adiciones de micronutrientes usando EAR y FFL"
+date: 2026-09-27
+subtitle: "Cálculo del nivel de fortificación: procedimiento paso a paso"
+author: "Maicel Monzon"
+description: "Procedimiento de cálculo del nivel de fortificación a partir de la distribución de la ingesta habitual, el consumo del vehículo, el EAR y el UL"
 ---
 
 A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
@@ -16,100 +16,97 @@ A continuación, pueden ver la presentación del módulo en formato vídeo sobre
 
 # Sumario
 
--   Generalidades
-
--   Principios para calcular adiciones
-
-    -   Paso 1. Definir el nutriente y población objetivo
-    -   Paso 2. Establecer el requerimiento (EAR)
-    -   Paso 3. Estimar el consumo del vehículo alimentario
-    -   Paso 4. Cálculo del nivel de adición (FFL)
-    -   Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+-   Información de partida y notación
+-   Paso 1. Grupos de riesgo y micronutriente
+-   Paso 2. Distribuciones de partida
+-   Paso 3. Nivel necesario para la meta nutricional
+-   Paso 4. Nivel máximo por inocuidad
+-   Paso 5. Límites tecnológico y de costo, y nivel factible
+-   Paso 6. Evaluación del escenario elegido
+-   Consideraciones para encuestas de gasto y consumo
 
 ![](/static/images/micro16.png){fig-align="center"}
 
 ------------------------------------------------------------------------
 
-# Introducción
+# Información de partida
 
-Como ya estudiamos anteriormente, la fortificación consiste en **añadir uno o más micronutrientes a un alimento de consumo habitual**, con el fin de mejorar el aporte nutricional poblacional y prevenir deficiencias.
+-   Distribución de la ingesta habitual del micronutriente, sin la fortificación que se evalúa, en cada grupo de interés.
+-   Distribución del consumo del vehículo, en los grupos de riesgo y en el conjunto de la población.
+-   EAR del grupo de riesgo (o distribución de requerimientos, en el caso del hierro) y UL de cada grupo.
+-   Restricciones tecnológicas y de costo del vehículo y del compuesto.
 
-*Ejemplos comunes:* hierro en harinas, vitamina D en lácteos, ácido fólico en cereales.
+# Notación
 
-Para calcular cuánto micronutriente se debe añadir, se utilizan dos herramientas clave:
+-   $I_0$: ingesta habitual del micronutriente sin la fortificación evaluada (mg/día).
+-   $c$: consumo del vehículo (kg/día); $c_{95}$ es su percentil 95.
+-   $FL$: nivel de fortificación (mg por kg de vehículo).
+-   Ingesta con fortificación: $I = I_0 + FL \times c$.
 
--   **EAR (Estimated Average Requirement)** → Requerimiento promedio estimado de un nutriente para cubrir las necesidades de la mitad de la población sana.
+# Paso 1. Grupos de riesgo y micronutriente
 
--   **FFL (Fortification Level / Nivel de Fortificación)** → Cantidad de nutriente que debe añadirse al alimento para alcanzar los objetivos nutricionales sin riesgos de excesos.
+Se identifican los grupos con mayor prevalencia de ingesta inadecuada y el micronutriente que se busca corregir, así como los grupos con mayor riesgo de exceso: en general, los grandes consumidores del vehículo y los grupos con UL más bajo, como los niños.
 
-------------------------------------------------------------------------
+# Paso 2. Distribuciones de partida
 
-# Principios para calcular adiciones
+Se describen la distribución de $I_0$ y la de $c$ en cada grupo. Con datos de encuestas de hogares, ambas se expresan por equivalente de mujer adulta y se estiman con el diseño muestral de la encuesta.
 
-## Paso 1. Definir el nutriente y población objetivo
+# Paso 3. Nivel necesario para la meta nutricional
 
--   Identificar cuál deficiencia se busca corregir (ej. hierro en mujeres en edad fértil).
--   Determinar el **grupo etario y fisiológico** más vulnerable.
-
-## Paso 2. Establecer el requerimiento (EAR)
-
--   Consultar tablas de referencia (ej. **FAO/WHO, Institute of Medicine, EFSA**).
--   Ejemplo: EAR de hierro en mujeres 19–50 años ≈ 8.1 mg/día.
-
-## Paso 3. Estimar el consumo del vehículo alimentario
-
--   Identificar el alimento base para fortificar (ej. 200 g/día de harina de trigo).
--   Verificar variabilidad del consumo entre diferentes subgrupos.
-
-## Paso 4. Cálculo del nivel de adición (FFL)
-
-La fórmula básica es:
+Se simula la ingesta con distintos valores de $FL$, sumando a cada unidad de análisis su aporte $FL \times c$, y se calcula la prevalencia resultante:
 
 $$
-\text{FFL (mg nutriente / 100g alimento)} = \frac{\text{(EAR × cobertura deseada)}}{\text{Consumo promedio del alimento}}
+P\left(I_0 + FL \times c < EAR\right)
 $$
 
--   **Cobertura deseada:** proporción del requerimiento que se busca cubrir (generalmente 30–50% para evitar riesgos de exceso).
+El nivel necesario es el menor $FL$ que reduce esa prevalencia a la meta (del orden del 2–3 %) en el grupo de riesgo. Para el hierro, la prevalencia se calcula con el enfoque probabilístico. Como el aporte depende del consumo de cada unidad, la simulación sobre la distribución completa es preferible a usar solo el consumo promedio: el promedio oculta a quienes consumen poco del vehículo.
 
-Ejemplo (hierro en harina):
+# Paso 4. Nivel máximo por inocuidad
 
--   EAR = 8.1 mg/día
--   Cobertura = 30% → 2.4 mg/día
--   Consumo promedio de harina = 200 g/día
--   FFL = 2.4 ÷ 200 × 100 = **1.2 mg hierro / 100 g harina**
+La condición de inocuidad para los grandes consumidores es:
 
-## Paso 5. Ajuste según biodisponibilidad y pérdidas tecnológicas
+$$
+I_0 + FL \times c_{95} \le UL
+$$
 
--   El hierro en harinas (ej. fumarato ferroso) tiene biodisponibilidad ≈ 10%.
--   Se ajusta el FFL para compensar estas limitaciones.
+de donde el nivel máximo por inocuidad es:
+
+$$
+FL_{\text{inocuidad}} = \frac{UL - I_0}{c_{95}}
+$$
+
+La condición se verifica en cada grupo, porque el UL varía con la edad; el grupo más restrictivo determina el límite. Para $I_0$ se toma un valor alto de la distribución de la ingesta de esos consumidores, de modo que el cálculo sea conservador.
+
+# Paso 5. Límites tecnológico y de costo, y nivel factible
+
+Se establecen $FL_{\text{tecnológico}}$ y $FL_{\text{costo}}$ con la información de la industria y del compuesto. El nivel factible es:
+
+$$
+FFL = \min\left(FL_{\text{inocuidad}},\ FL_{\text{tecnológico}},\ FL_{\text{costo}}\right)
+$$
+
+Si el compuesto añadido tiene una biodisponibilidad distinta de la supuesta en el EAR, el aporte efectivo se ajusta; las pérdidas previstas se compensan con un excedente, sin superar el límite de inocuidad.
+
+# Paso 6. Evaluación del escenario elegido
+
+Con el nivel elegido (el $FFL$, o uno menor si la meta se alcanza antes) se recalcula la distribución de la ingesta en todos los grupos y se reportan dos resultados: la prevalencia de ingesta inferior al EAR en los grupos de riesgo y la proporción que supera el UL. Si el $FFL$ es menor que el nivel necesario del paso 3, se documenta la brecha y se valoran vehículos o intervenciones complementarias.
+
+# Consideraciones para encuestas de gasto y consumo
+
+-   La ingesta y el consumo son aparentes, a nivel de hogar y expresados por EMA; los resultados se interpretan como aproximaciones y sus supuestos se declaran.
+-   Conviene distinguir entre el consumo de toda la población y el de los hogares que consumen el vehículo: la cobertura del vehículo condiciona el alcance de la fortificación.
+-   El código de cálculo desarrollado para una encuesta no se aplica directamente a otra: la estructura, las variables y las clasificaciones difieren, y requiere adaptación.
+
+La aplicación de este procedimiento con datos de la ENGIH 2018 se desarrolla en la unidad de aplicación.
 
 ------------------------------------------------------------------------
 
-# Consideraciones adicionales
-
--   **Seguridad:** revisar UL (Upper Intake Level) para evitar excesos.
--   **Variabilidad del consumo:** usar percentiles de ingesta para validar que grupos con alto consumo no superen los límites.
--   **Sinergias e interacciones:** considerar compuestos que mejoren o inhiban la absorción (ej. vitamina C mejora absorción de hierro, fitatos la reducen).
-
-------------------------------------------------------------------------
-
-# Ejemplo simplificado
-
-> Si queremos fortificar harina de trigo con **ácido fólico**:
-
--   EAR mujeres = 320 µg/día
--   Cobertura buscada = 40% → 128 µg/día
--   Consumo promedio harina = 200 g/día
--   FFL = (128 ÷ 200) × 100 = **64 µg ácido fólico / 100 g harina**
--   Ajustar por pérdidas en cocción (≈ 30%) → nivel final: **90 µg/100 g**
-
-------------------------------------------------------------------------
-
-Puede realizar los ejercicio de este módulo en el siguiente enlace:
+Puede realizar los ejercicios de este módulo en el siguiente enlace:
 
 [Acceder al Ejercicio 16](../../ejercicios/tema04/ejercicio16.qmd)
 
 # Bibliografía
 
 1.  Allen L, de Benoist B, Dary O, Hurrell R, editores. *Guidelines on food fortification with micronutrients*. Ginebra: Organización Mundial de la Salud; Organización de las Naciones Unidas para la Alimentación y la Agricultura; 2006. <https://www.who.int/publications/i/item/9241594012>
-2.  Dwyer JT, Wiemer KL, Dary O, Keen CL, King JC, Miller KB, et al. Fortification and health: challenges and opportunities. *Adv Nutr*. 2015;6(1):124-31. doi:10.3945/an.114.007443
+2.  Dary O. Establishing safe and potentially efficacious fortification contents for folic acid and vitamin B12. *Food Nutr Bull*. 2008;29(2 Suppl). doi:10.1177/15648265080292S126
+3.  Institute of Medicine. *Dietary Reference Intakes: applications in dietary assessment*. Washington, DC: National Academy Press; 2000. doi:10.17226/9956

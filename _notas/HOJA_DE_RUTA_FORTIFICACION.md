@@ -50,6 +50,7 @@ Observaciones técnicas abiertas:
 - Módulo 20: usa `nutriR::calc_prevalencia_rpe`; el paquete no se localiza en CRAN. Sustituir por implementación verificada.
 - Referencias: el módulo 06 asigna PMID a documentos no indexados en PubMed (Banco Mundial, IFPRI). Todas las listas de referencias requieren auditoría antes de cualquier presentación externa.
 - Erratas en títulos visibles: "Biblografía" en 17 módulos; "Importacia" (05), "procedimeintos" (12), "introdución" (04), "sumario" en minúscula (04), "Bibliografia" sin tilde (13).
+- Autoevaluaciones: los ejercicios 01–17 cumplen el mínimo del ítem 17; faltan las de los módulos 18–24 y las unidades nuevas (B4).
 - Uso de datos: categorías 1 y 2 sin datos; categoría 4 y unidades 3.x con la ENGIH real. Para el participante se publican tablas derivadas agregadas (provincia, quintil) que no identifican hogares.
 - Microdatos: la ENGIH 2018 no se publica en el repositorio. Los ejercicios deben indicar cómo obtener los datos de la fuente oficial y trabajar con rutas locales, o con agregados que no identifiquen hogares.
 
@@ -69,10 +70,10 @@ Orden de ejecución por impacto visible y dependencia. Las tareas marcadas (M) s
 
 - [x] **A1 (C). Guion instruccional y técnico-pedagógico (GITP), Word.** Borrador v0.1 generado el 2026-09-26; pendiente de revisión propia y envío. Ítem 14 del TdR. Por módulo: objetivos de aprendizaje, contenidos, flujo, recursos, evaluación y estado. Incluye la tabla de la sección 2 y una propuesta de reorganización justificada (A2). Entregable para la reunión de inicio de semana.
 - [ ] **A2 (C). Reorganización de la navegación del sitio por categorías del TdR.** Solo `_quarto.yml`, listados e índices; sin renombrar archivos, para no romper enlaces ni videos ya publicados. Se implementa en una rama con vista previa de Netlify y se presenta a los supervisores antes de fusionar con `main`.
-- [ ] **A3 (M). Nota de portabilidad del código** (ítem 9) en los módulos de los temas 03–05.
+- [x] **A3 (M). Nota de portabilidad del código** (ítem 9). Reasignada: los módulos 01–17 no tienen código ejecutable; la nota se incorpora en B1 (tema 05), B3 (unidades 3.x) y B5 (síntesis).
 - [x] **A0 (M). Corrección de erratas en títulos visibles.** Módulos 01–17 cerrados (`257dbad`). Las erratas de los módulos 18–24 se corrigen en la reescritura (B1), porque editarlos invalida el caché de R. Lista en la sección 2. Prioridad máxima por visibilidad; bloque de 20 minutos.
 - [x] **A4 (M). Auditoría de referencias por módulo** (ítem 13). Verificar cada referencia contra DOI, PubMed o sitio del editor; retirar o corregir identificadores incongruentes (empezar por el módulo 06). Referencias de los temas 05 y siguientes, después de la reescritura. Cerrada para los módulos 01–17: referencias no localizadas retiradas, autores y datos corregidos, PMID sin verificar eliminados. Retiradas sin reemplazo por no verificarse: Yoo et al. 2019 y Deharveng et al. 1999 (08), guía OMS de harina de maíz (15). En el módulo 01 se retiraron cifras de anemia regional no localizadas en la fuente citada; incorporar un dato verificado si se considera necesario.
-- [ ] **A5 (M). Completar autoevaluaciones de los ejercicios 01–17 hasta 3–5 preguntas con clave** (ítem 17); conteo preliminar por debajo del mínimo en 02, 04, 05 y 08.
+- [x] **A5 (M). Autoevaluaciones de los ejercicios 01–17** (ítem 17). Verificado con criterio uniforme: los 17 ejercicios tienen entre 3 y 5 preguntas con clave. El conteo preliminar anterior, que señalaba 02, 04, 05 y 08 por debajo del mínimo, era erróneo.
 - [ ] **A6 (M). Corrección de contenido del módulo 13** (AME/AFE).
 
 ### Fase B — Contenido dependiente de resultados de la ENGIH 2018 (semana del 05/10)
@@ -106,6 +107,7 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 
 | Fecha | Cambio |
 |---|---|
+| 2026-09-27 | A3 reasignada a la fase B; A5 cerrada (corrige el conteo erróneo del 2026-09-26). |
 | 2026-09-26 | A0 y A4 cerradas para los módulos 01–17. |
 | 2026-09-26 | Hallazgos de la revisión para el GITP: datos simulados en todo el tema 05, paquete no localizado (módulo 20), referencias con identificadores incongruentes, erratas, autoevaluaciones incompletas, unidad 4.0 ausente. Regla de uso de datos. A1 en borrador. |
 | 2026-09-26 | Categoría 3: desarrollo genérico de R trasladado al curso propio; en la plataforma, versión mínima aplicada (B3 pasa a tarea mecánica). |

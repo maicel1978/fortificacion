@@ -18,6 +18,8 @@ Este documento es la referencia de estado. Al retomar una sesión se contrasta c
 | `2700632` | Resultado de ejecución de R del módulo 24 congelado en `_freeze` |
 | `257dbad` | Erratas en títulos y descripciones de los módulos 01–17 |
 | `d0d6447`, `e70d6eb`, `5f47e1a` | Auditoría de referencias de los módulos 01–17 |
+| `ce93032` … `c254f0a` | Presentaciones de síntesis de los módulos 01–10, 12, 14 y 17 (`_entregables/presentaciones/`) |
+| `9c552ed` | Corrección metodológica del nivel de fortificación en los módulos 15–16 y sus ejercicios |
 
 Entorno de trabajo: clon en `C:\proyectos\fortificacion`, fuera de carpetas sincronizadas. Despliegue: Netlify, con el plugin de Quarto, renderizando desde `main` y publicando `docs/`. El entorno de build de Netlify no dispone de R: todo módulo con código R cuyo caché se invalide debe renderizarse localmente y subirse junto con su carpeta en `_freeze/`.
 
@@ -74,7 +76,9 @@ Orden de ejecución por impacto visible y dependencia. Las tareas marcadas (M) s
 - [x] **A0 (M). Corrección de erratas en títulos visibles.** Módulos 01–17 cerrados (`257dbad`). Las erratas de los módulos 18–24 se corrigen en la reescritura (B1), porque editarlos invalida el caché de R. Lista en la sección 2. Prioridad máxima por visibilidad; bloque de 20 minutos.
 - [x] **A4 (M). Auditoría de referencias por módulo** (ítem 13). Verificar cada referencia contra DOI, PubMed o sitio del editor; retirar o corregir identificadores incongruentes (empezar por el módulo 06). Referencias de los temas 05 y siguientes, después de la reescritura. Cerrada para los módulos 01–17: referencias no localizadas retiradas, autores y datos corregidos, PMID sin verificar eliminados. Retiradas sin reemplazo por no verificarse: Yoo et al. 2019 y Deharveng et al. 1999 (08), guía OMS de harina de maíz (15). En el módulo 01 se retiraron cifras de anemia regional no localizadas en la fuente citada; incorporar un dato verificado si se considera necesario.
 - [x] **A5 (M). Autoevaluaciones de los ejercicios 01–17** (ítem 17). Verificado con criterio uniforme: los 17 ejercicios tienen entre 3 y 5 preguntas con clave. El conteo preliminar anterior, que señalaba 02, 04, 05 y 08 por debajo del mínimo, era erróneo.
-- [ ] **A6 (M). Corrección de contenido del módulo 13** (AME/AFE).
+- [ ] **A6 (C). Revisión de contenido EMA (módulos 11 y 13).** Módulo 11: la tabla de factores usa valores redondos sin fuente; sustituir por la tabla de factores del pipeline de `analisis_ENGIH2018`. Módulo 13: corregir las frases que equiparan AME y AFE (recomendación: conservar AME solo como concepto de contraste). Anuncia además un ejemplo con datos simulados.
+- [ ] **A7 (M). Imprecisiones del módulo 01.** Llama "porcentaje de deficiencia" a P(ingesta < EAR), que es prevalencia de ingesta inadecuada; presenta una fórmula del nivel de fortificación que divide por la biodisponibilidad, sin fuente.
+- [x] **A8 (C). Error metodológico de los módulos 15 y 16** (`9c552ed`). El texto y los ejercicios derivaban el nivel de fortificación de una fracción del EAR; corregidos según las guías OMS/FAO 2006 y Dary 2008. Pendiente: los videos 15 y 16 explican el método anterior; decidir su retiro temporal hasta regrabarlos.
 
 ### Fase B — Contenido dependiente de resultados de la ENGIH 2018 (semana del 05/10)
 
@@ -89,7 +93,7 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 
 ### Fase C — Materiales descargables y consolidación (semanas del 12/10 y 19/10)
 
-- [ ] **C1 (M). Presentaciones de síntesis por módulo** (ítem 15). Un archivo Quarto por módulo con salida `pptx` (editable, cumple el formato PPT del TdR) y exportación a PDF. Carpeta `entregables/presentaciones/`, enlazada desde cada módulo como material descargable.
+- [ ] **C1 (M). Presentaciones de síntesis por módulo** (ítem 15). Hechas: 01–10, 12 y 14–17, con un generador común. Pendientes: 11 y 13 (tras A6) y tema 05 (tras B1). Un archivo Quarto por módulo con salida `pptx` (editable, cumple el formato PPT del TdR) y exportación a PDF. Carpeta `entregables/presentaciones/`, enlazada desde cada módulo como material descargable.
 - [ ] **C2 (C). Manual técnico consolidado, 20–30 páginas** (ítem 18): metodología, procedimientos, supuestos y referencias.
 - [ ] **C3. Video-lecciones.** Existen enlaces de YouTube para 17 módulos. Confirmar con los supervisores si los enlaces satisfacen el formato MP4 del TdR; producir los de los módulos nuevos o reescritos.
 - [ ] **C4 (M). Paquete final de entregables y README del repositorio.**
@@ -107,6 +111,7 @@ Requiere el informe de factibilidad y los informes R1–R5 de `analisis_ENGIH201
 
 | Fecha | Cambio |
 |---|---|
+| 2026-09-27 | Presentaciones 01–10, 12, 14–17. Hallazgos: tabla EMA sin fuente (11), imprecisiones del 01 (A7), error metodológico de 15–16 corregido (A8). |
 | 2026-09-27 | A3 reasignada a la fase B; A5 cerrada (corrige el conteo erróneo del 2026-09-26). |
 | 2026-09-26 | A0 y A4 cerradas para los módulos 01–17. |
 | 2026-09-26 | Hallazgos de la revisión para el GITP: datos simulados en todo el tema 05, paquete no localizado (módulo 20), referencias con identificadores incongruentes, erratas, autoevaluaciones incompletas, unidad 4.0 ausente. Regla de uso de datos. A1 en borrador. |

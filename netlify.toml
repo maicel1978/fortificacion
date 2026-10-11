@@ -7,3 +7,29 @@
 
 [functions]
   directory = "netlify/functions"
+
+# Los microdatos de la ENGIH 2018 no se sirven desde la web.
+#
+# Viven en static/data/ porque el modulo 24 y el script
+# static/r/cantidad_alimentos.R los leen al renderizar en local. El tema 5 esta
+# congelado en _freeze/, de modo que el build de Netlify no ejecuta ese codigo
+# y no necesita los archivos. Nada del sitio los enlaza para descarga.
+#
+# force = true hace que la regla tenga prioridad sobre el archivo estatico, que
+# es lo que se necesita aqui: sin force, Netlify serviria el archivo y la regla
+# no se aplicaria.
+#
+# La tabla de composicion de alimentos SI queda disponible: es material
+# docente y no contiene registros de hogares.
+
+[[redirects]]
+  from = "/static/data/Registros_Cuestionario_B.xlsx"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/static/data/Sociodemograficas_e_ingresos.xlsx"
+  to = "/404.html"
+  status = 404
+  force = true

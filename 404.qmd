@@ -1,0 +1,15 @@
+---
+title: "Página no encontrada"
+page-layout: article
+toc: false
+---
+
+La dirección que buscas no existe en este sitio, o el recurso no está
+disponible para descarga.
+
+- [🏠 Inicio](/)
+- [📚 Módulos e-learning](/contenido/actividades/)
+- [✍️ Ejercicios](/contenido/ejercicios/)
+- [🧰 Recursos y scripts](/contenido/recursos/)
+
+Si llegaste aquí desde un enlace del propio sitio, avísanos para corregirlo.

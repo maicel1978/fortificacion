@@ -161,8 +161,14 @@ origen <- if (hay_demo && hay_cons) {
 ::: {.callout-note}
 ## Origen de los datos de este módulo
 
-Los resultados que se muestran a continuación se calcularon con
-`r origen`
+Las **cantidades** proceden de `r origen`
+
+Las tablas auxiliares de este módulo —factores de conversión de unidades y
+porción comestible— son **tablas de ejemplo de pocas filas**, no las del
+análisis. Por tanto los gramos y los nutrientes que aquí se muestran ilustran
+el procedimiento y **no son los resultados del análisis de la ENGIH 2018**,
+que están en el informe correspondiente. Sustituir esas tablas por las reales
+es trabajo pendiente.
 
 :::
 
@@ -226,7 +232,14 @@ datos_consumo <- cargar_datos_consumo(ruta_cons) %>%
     CODI_ALIMENTO = as.numeric(CODI_ALIMENTO)
   )
 
-# Tablas Auxiliares (TCA Simulada)
+# ATENCION. Las dos tablas siguientes NO son las del analisis: son tablas de
+# ejemplo, de tres y dos filas, puestas para que la formula pueda ilustrarse.
+# Los factores de conversion y las porciones comestibles reales de la ENGIH
+# 2018 se construyen alimento por alimento y se verificaron en punto de venta.
+# Mientras estas tablas esten aqui, los gramos que muestra este modulo salen de
+# cantidades reales multiplicadas por factores de ejemplo, y las unidades que no
+# empatan quedan en cero. Sustituirlas por las tablas reales es trabajo
+# pendiente, registrado en la hoja de ruta del analisis.
 fc_table <- tribble(
   ~UNIDAD_MEDIDA, ~FC_KG,
   1, 1.000, 3, 0.150, 10, 0.001
@@ -236,7 +249,9 @@ pc_table <- tribble(
   1, 1.00, 588, 0.80
 )
 
-# Constantes
+# Periodo de memoria. En el analisis real de la ENGIH 2018 este denominador NO
+# es constante: para la Seccion 3A es el numero de dias distintos con registro
+# en cada hogar, cuya mediana es 7. Aqui se fija en 30 para el ejemplo.
 PM_DIAS <- 30 
 
 consumo_diario <- datos_consumo %>%

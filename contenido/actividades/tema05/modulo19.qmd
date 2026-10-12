@@ -103,15 +103,20 @@ La Solución: Utilizar *left_join y summarise* de manera estratégica para aplic
 #| echo: true
 
 # Continuamos desde el dataframe 'datos_estandarizados'.
-# Factores de desperdicio. Estos porcentajes son estimaciones basadas en estudios.
+# Factores de desperdicio. Porcentajes de ejemplo; en una aplicacion real se
+# toman de la fuente que corresponda al pais y al alimento.
 # Referencia: FAO, "Pérdidas y desperdicios de alimentos en América Latina y el Caribe".
 factores_desperdicio <- data.frame(
   codigo_producto = c(205, 310, 420), 
   factor_desperdicio = c(0.10, 0.03, 0.05) # 10% arroz, 3% leche, 5% huevo
 )
 
-# Tabla de consumo fuera del hogar (simulada a partir de un módulo de la ENHOGAR)
-# Referencia: Los módulos de gasto en la ENHOGAR contienen información sobre gastos en restaurantes, etc.
+# Estructura de la tabla de consumo fuera del hogar. La ENGIH 2018 lo registra
+# en su Seccion 3B, "Alimentos y bebidas consumidos fuera del hogar", de modo
+# que en una aplicacion real esta tabla se construye desde ahi y no desde otra
+# encuesta. Los valores de abajo ilustran la FORMA de la tabla para el join.
+# Este bloque no se ejecuta (eval: false) y no produce ningun resultado del
+# curso: los identificadores y los codigos son de ejemplo.
 consumo_fuera_hogar <- data.frame(
   id_hogar = c(101, 102),
   calorias_estimadas_fuera = c(1800, 2200),

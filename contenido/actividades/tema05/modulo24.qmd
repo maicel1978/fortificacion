@@ -93,9 +93,14 @@ ruta_demo <- file.path(ruta_base, "Sociodemograficas_e_ingresos.xlsx")
 ruta_cons <- file.path(ruta_base, "Registros_Cuestionario_B.xlsx")
 ```
 
-### Funciones de Carga Híbrida
+### Funciones de carga
 
-Para garantizar reproducibilidad si no se tienen los datos locales.
+Las funciones siguientes leen los archivos reales de la ENGIH 2018. Si un
+archivo no estuviera disponible, caen en un ejemplo mínimo de respaldo de unas
+pocas filas, cuyo único fin es que el módulo pueda abrirse y leerse sin los
+datos. **Ese respaldo no es una simulación de la encuesta y no se usa para
+ningún resultado de este curso**; el recuadro de abajo declara, en cada
+compilación, cuál de las dos vías se utilizó.
 
 ```{r}
 #| label: funciones-carga
@@ -106,7 +111,7 @@ cargar_datos_demo <- function(ruta) {
     return(read_excel(ruta, sheet = "Base"))
   }
   
-  warning("⚠️ Usando datos simulados (DEMO).")
+  warning("El archivo real no esta disponible: se usa el ejemplo minimo de respaldo.")
   tribble(
     ~VIVIENDA, ~HOGAR, ~A402, ~A403,
     1, 1, 1, 35, # Hogar 1: Hombre 35
@@ -124,7 +129,7 @@ cargar_datos_consumo <- function(ruta) {
     return(read_excel(ruta, sheet = "Cuest. B Sec 3A", col_types = "text")) 
   }
   
-  warning("⚠️ Usando datos simulados (CONSUMO).")
+  warning("El archivo real no esta disponible: se usa el ejemplo minimo de respaldo.")
   tribble(
     ~VIVIENDA, ~HOGAR, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA, ~DESTINO_PROPIO_HOGAR,
     1, 1, 1,   5.0, 1, 1,
@@ -140,6 +145,26 @@ cargar_datos_consumo <- function(ruta) {
     )
 }
 ```
+
+```{r}
+#| label: origen-datos
+#| echo: false
+hay_demo <- file.exists(ruta_demo)
+hay_cons <- file.exists(ruta_cons)
+origen <- if (hay_demo && hay_cons) {
+  "los **archivos reales de la ENGIH 2018**: la base sociodemografica y el Cuestionario B, Seccion 3A."
+} else {
+  "el **ejemplo minimo de respaldo**, porque los archivos reales no estaban disponibles al compilar."
+}
+```
+
+::: {.callout-note}
+## Origen de los datos de este módulo
+
+Los resultados que se muestran a continuación se calcularon con
+`r origen`
+
+:::
 
 # 2. Fase 1: Estandarización Demográfica (EMA)
 

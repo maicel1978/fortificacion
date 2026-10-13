@@ -130,14 +130,16 @@ cargar_datos_consumo <- function(ruta) {
   }
   
   warning("El archivo real no esta disponible: se usa el ejemplo minimo de respaldo.")
+  # El respaldo lleva la columna DIA porque el periodo de memoria se calcula
+  # por hogar a partir de ella, no con una constante.
   tribble(
-    ~VIVIENDA, ~HOGAR, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA, ~DESTINO_PROPIO_HOGAR,
-    1, 1, 1,   5.0, 1, 1,
-    1, 1, 588, 12.0, 3, 1,
-    2, 1, 1,   2.5, 1, 1,
-    3, 1, 1,   25000, 10, 1, # Outlier intencional
-    3, 1, 588, 5, 3, 1
-  ) %>% 
+    ~VIVIENDA, ~HOGAR, ~DIA, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA,
+    1, 1, 1, 1,   5.0,  1,
+    1, 1, 3, 588, 12.0, 3,
+    2, 1, 2, 1,   2.5,  1,
+    3, 1, 1, 1,   25000, 10,
+    3, 1, 4, 588, 5,     3
+  ) %>%
     mutate(
       CANTIDAD_ADQUIRIDA = as.numeric(CANTIDAD_ADQUIRIDA),
       ID_UNIDAD_MEDIDA = as.numeric(ID_UNIDAD_MEDIDA),
@@ -163,12 +165,20 @@ origen <- if (hay_demo && hay_cons) {
 
 Las **cantidades** proceden de `r origen`
 
-Las tablas auxiliares de este módulo —factores de conversión de unidades y
-porción comestible— son **tablas de ejemplo de pocas filas**, no las del
-análisis. Por tanto los gramos y los nutrientes que aquí se muestran ilustran
-el procedimiento y **no son los resultados del análisis de la ENGIH 2018**,
-que están en el informe correspondiente. Sustituir esas tablas por las reales
-es trabajo pendiente.
+El **método** de este módulo es el del análisis, no una versión didáctica
+distinta. El equivalente de mujer adulta se construye desde el requerimiento
+energético de FAO/WHO/UNU 2004 y no desde una tabla de factores ya calculados;
+el período de memoria se calcula por hogar, a partir de los días distintos con
+registro, y no con una constante; y los valores atípicos se marcan con la regla
+del análisis —cinco veces el percentil 99,5 del propio alimento, entre los
+alimentos con al menos veinte observaciones—. Tampoco se filtra por destino de
+la adquisición, porque el análisis no lo hace.
+
+Lo que **sí** sigue siendo de ejemplo son las dos tablas auxiliares: los
+factores de conversión de unidades y la porción comestible, de tres y dos filas.
+Las reales se construyen alimento por alimento. Mientras estén aquí, los gramos
+que muestra este módulo ilustran el procedimiento y **no son los resultados del
+análisis de la ENGIH 2018**, que están en el informe correspondiente.
 
 :::
 
@@ -183,24 +193,66 @@ Calculamos el denominador poblacional del hogar.
 datos_persona <- cargar_datos_demo(ruta_demo) %>%
   select(HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, SEXO = A402, EDAD = A403)
 
-# 2. Tabla de Factores EMA (INCAP/WFP)
-ema_factors <- tribble(
-  ~edad_min, ~edad_max, ~SEXO, ~ema_factor,
-  0, 0, 1, 0.33, 0, 0, 2, 0.33,
-  1, 2, 1, 0.46, 1, 2, 2, 0.46,
-  3, 5, 1, 0.54, 3, 5, 2, 0.54,
-  6, 9, 1, 0.65, 6, 9, 2, 0.65,
-  10, 13, 1, 0.85, 10, 13, 2, 0.81,
-  14, 17, 1, 1.02, 14, 17, 2, 0.89,
-  18, 59, 1, 1.05, 18, 59, 2, 1.00,
-  60, 150, 1, 0.84, 60, 150, 2, 0.77
+# 2. Requerimiento energetico por edad y sexo.
+#
+# El EMA no es una tabla de factores que se copie: cada factor es un cociente
+# entre el requerimiento energetico de la persona y el de la mujer adulta de
+# referencia. Construirlo desde el requerimiento, y no desde factores ya
+# calculados, es lo que permite auditarlo y adaptarlo a otra referencia.
+#
+# Fuente: FAO/WHO/UNU. 2004. Human energy requirements. Roma.
+#   - 1 a 17 anos, actividad fisica moderada: Tablas 4.2 (ninos) y 4.3 (ninas).
+#   - 18 anos y mas: ecuaciones de Schofield (Tabla 5.2) por PAL = 1,76
+#     (actividad moderada), con peso fijo por sexo: 65 kg y 55 kg.
+#   - Menores de 1 ano: promedio de los doce valores mensuales de la seccion 3.
+# SEXO: 1 = masculino, 2 = femenino, segun la codificacion de la encuesta.
+PAL <- 1.76
+
+req_menores <- tribble(
+  ~edad_min, ~edad_max, ~SEXO, ~kcal_dia,
+  0,  0,  1,  649,   0,  0,  2,  600,
+  1,  1,  1,  948,   1,  1,  2,  865,
+  2,  2,  1, 1129,   2,  2,  2, 1047,
+  3,  3,  1, 1252,   3,  3,  2, 1156,
+  4,  4,  1, 1360,   4,  4,  2, 1241,
+  5,  5,  1, 1467,   5,  5,  2, 1330,
+  6,  6,  1, 1573,   6,  6,  2, 1428,
+  7,  7,  1, 1692,   7,  7,  2, 1554,
+  8,  8,  1, 1830,   8,  8,  2, 1698,
+  9,  9,  1, 1978,   9,  9,  2, 1854,
+  10, 10, 1, 2150,  10, 10, 2, 2006,
+  11, 11, 1, 2341,  11, 11, 2, 2149,
+  12, 12, 1, 2548,  12, 12, 2, 2276,
+  13, 13, 1, 2770,  13, 13, 2, 2379,
+  14, 14, 1, 2990,  14, 14, 2, 2449,
+  15, 15, 1, 3178,  15, 15, 2, 2491,
+  16, 16, 1, 3322,  16, 16, 2, 2503,
+  17, 17, 1, 3410,  17, 17, 2, 2503
 )
+
+req_adultos <- tribble(
+  ~edad_min, ~edad_max, ~SEXO, ~kcal_dia,
+  18, 29,  1, (15.057 * 65 + 692.2) * PAL,
+  30, 59,  1, (11.472 * 65 + 873.1) * PAL,
+  60, 150, 1, (11.711 * 65 + 587.7) * PAL,
+  18, 29,  2, (14.818 * 55 + 486.6) * PAL,   # referencia: EMA = 1
+  30, 59,  2, (8.126  * 55 + 845.6) * PAL,
+  60, 150, 2, (9.082  * 55 + 658.5) * PAL
+)
+
+requerimiento <- bind_rows(req_menores, req_adultos)
+
+# La mujer adulta de referencia -18 a 29 anos, 55 kg, PAL 1,76- es el
+# denominador. Son unas 2.291 kcal al dia.
+REFERENCIA_KCAL <- req_adultos %>%
+  filter(SEXO == 2, edad_min == 18) %>% pull(kcal_dia)
 
 # 3. Join y Agregación
 datos_ema_hogar <- datos_persona %>%
-  left_join(ema_factors, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
+  left_join(requerimiento, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
+  mutate(ema_persona = kcal_dia / REFERENCIA_KCAL) %>%
   group_by(HHID_VIV, HHID_HOG) %>%
-  summarise(Total_EMA_Hogar = sum(ema_factor, na.rm = TRUE), .groups = 'drop')
+  summarise(Total_EMA_Hogar = sum(ema_persona, na.rm = TRUE), .groups = 'drop')
 
 datatable(datos_ema_hogar, caption = "Tabla 1: EMA por Hogar") %>%
   formatRound(columns = "Total_EMA_Hogar", digits = 2)
@@ -217,16 +269,20 @@ datos_consumo <- cargar_datos_consumo(ruta_cons) %>%
     HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, 
     CODI_ALIMENTO = ID_VARIEDAD,      
     Q = CANTIDAD_ADQUIRIDA, 
-    UNIDAD_MEDIDA = ID_UNIDAD_MEDIDA, 
-    DESTINO_HOGAR = DESTINO_PROPIO_HOGAR
+    UNIDAD_MEDIDA = ID_UNIDAD_MEDIDA,
+    DIA
   ) %>%
-  filter(DESTINO_HOGAR == 1) %>%
+  # El analisis de la ENGIH 2018 NO filtra por destino de la adquisicion: la
+  # cantidad entra completa, y esa omision se declara como supuesto en el
+  # manual tecnico. Este modulo hace lo mismo, para que lo que se ensena y lo
+  # que se hizo no difieran. Incorporar el destino es una decision abierta.
   mutate(
     # CORRECCIÓN CRÍTICA: Conversión explícita de tipos
     # Como read_excel lee todo como texto (col_types="text"),
     # debemos convertir a numérico antes de hacer los joins.
-    HHID_VIV = as.numeric(HHID_VIV), # <--- AGREGADO: Convertir ID vivienda
-    HHID_HOG = as.numeric(HHID_HOG), # <--- AGREGADO: Convertir ID hogar
+    HHID_VIV = as.numeric(HHID_VIV),
+    HHID_HOG = as.numeric(HHID_HOG),
+    DIA = as.numeric(DIA),
     Q = as.numeric(Q),
     UNIDAD_MEDIDA = as.numeric(UNIDAD_MEDIDA),
     CODI_ALIMENTO = as.numeric(CODI_ALIMENTO)
@@ -249,12 +305,17 @@ pc_table <- tribble(
   1, 1.00, 588, 0.80
 )
 
-# Periodo de memoria. En el analisis real de la ENGIH 2018 este denominador NO
-# es constante: para la Seccion 3A es el numero de dias distintos con registro
-# en cada hogar, cuya mediana es 7. Aqui se fija en 30 para el ejemplo.
-PM_DIAS <- 30 
+# Periodo de memoria. NO es una constante. Para la Seccion 3A es el numero de
+# dias DISTINTOS con registro en cada hogar, que varia entre hogares: la
+# mediana es 7, pero hay hogares con menos. Dividir todos los hogares por la
+# misma cifra multiplica o divide el consumo de los que se apartan de ella, y
+# es uno de los errores mas frecuentes al trabajar con diarios de adquisicion.
+dias_por_hogar <- datos_consumo %>%
+  distinct(HHID_VIV, HHID_HOG, DIA) %>%
+  count(HHID_VIV, HHID_HOG, name = "PM_DIAS")
 
 consumo_diario <- datos_consumo %>%
+  left_join(dias_por_hogar, by = c("HHID_VIV", "HHID_HOG")) %>%
   left_join(fc_table, by = "UNIDAD_MEDIDA") %>%
   left_join(pc_table, by = "CODI_ALIMENTO") %>%
   mutate(
@@ -279,21 +340,34 @@ Detectando outliers antes del análisis nutricional final.
 #| label: plot-qc
 #| fig-cap: "Distribución de consumo diario y detección de valores extremos."
 
+# La regla del analisis real no es el percentil 95: marcar el 5% superior por
+# definicion no detecta nada, solo recorta. La regla es, POR ALIMENTO y entre
+# los alimentos con al menos veinte observaciones, cinco veces el percentil
+# 99,5. Lo marcado se excluye de la estimacion principal; no se imputa ni se
+# recorta.
+UMBRAL_FACTOR <- 5
+N_MINIMO <- 20
+
 datos_qc <- consumo_diario %>%
-  filter(CODI_ALIMENTO == 1) %>% 
+  group_by(CODI_ALIMENTO) %>%
   mutate(
-    Umbral_95 = quantile(Total_G_Dia, 0.95),
-    Estado = if_else(Total_G_Dia > Umbral_95, "Revisar (Outlier)", "Normal")
-  )
+    n_alimento = n(),
+    Umbral = if_else(n_alimento >= N_MINIMO,
+                     UMBRAL_FACTOR * quantile(Total_G_Dia, 0.995), NA_real_),
+    Estado = if_else(!is.na(Umbral) & Total_G_Dia > Umbral,
+                     "Marcado (se excluye)", "Normal")
+  ) %>%
+  ungroup() %>%
+  filter(CODI_ALIMENTO == 1)
 
 ggplot(datos_qc, aes(x = factor(CODI_ALIMENTO), y = Total_G_Dia)) +
   geom_boxplot(fill = "#ecf0f1", outlier.shape = NA) +
   geom_jitter(aes(color = Estado, size = Estado), width = 0.1, alpha = 0.7) +
-  scale_color_manual(values = c("Normal" = "#2980b9", "Revisar (Outlier)" = "#c0392b")) +
-  scale_size_manual(values = c("Normal" = 3, "Revisar (Outlier)" = 5)) +
+  scale_color_manual(values = c("Normal" = "#2980b9", "Marcado (se excluye)" = "#c0392b")) +
+  scale_size_manual(values = c("Normal" = 3, "Marcado (se excluye)" = 5)) +
   labs(
-    title = "Control de Calidad: Alimento 1 (Harina)",
-    subtitle = "Identificación de registros sobre el percentil 95",
+    title = "Control de calidad por alimento",
+    subtitle = "Marcado: más de cinco veces el percentil 99,5 del propio alimento",
     y = "Gramos Netos / Día",
     x = "Código Alimento"
   ) +

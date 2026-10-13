@@ -2,7 +2,10 @@
 .Rhistory
 .RData
 .Rproj.user/
-*.Rproj
+
+# fortificacion.Rproj SI se versiona: es lo que permite abrir el repositorio
+# en RStudio despues de clonarlo. Antes estaba ignorado con *.Rproj, de modo
+# que un clon nuevo no traia proyecto y habia que reconstruirlo a mano.
 sitio.Rproj
 
 # Quarto caches y generados

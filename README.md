@@ -53,38 +53,31 @@ quarto render contenido/actividades/tema05/modulo24.qmd
 git add contenido/actividades/tema05/modulo24.qmd _freeze/
 ```
 
-## Qué no se sube
+## Datos
 
-- `docs/`, `.quarto/`, `node_modules/`: generados.
-- **Microdatos de la encuesta.** `static/data/` contiene hoy
-  `Registros_Cuestionario_B.xlsx` y `Sociodemograficas_e_ingresos.xlsx`, que
-  son registros de hogar. Están rastreados desde antes de esta regla y su
-  retirada es una decisión abierta, registrada en la hoja de ruta del análisis.
-  No se añaden más.
-- La tabla de composición de alimentos sí es material docente y puede estar.
+Los microdatos de la ENGIH 2018 no se versionan ni se publican. Para compilar
+el módulo 24 se solicitan a la Oficina Nacional de Estadística y se colocan en
+`_datos/`, carpeta excluida por `.gitignore` y que Quarto no publica. Las
+tablas de factores de conversión y de porción comestible están en
+`static/data/referencia/` y se publican: no contienen información de hogares.
 
 ## Estructura
 
 ```
-contenido/actividades/   módulos e-learning, por tema
-contenido/ejercicios/    ejercicios interactivos
+contenido/actividades/   módulos 01-17 y 24-30, por tema
+contenido/ejercicios/    ejercicios interactivos de los módulos 01-17
 contenido/recursos/      scripts y material de apoyo
-_entregables/            presentaciones de síntesis por módulo
+_entregables/            guion técnico-pedagógico, banco de preguntas y
+                         presentaciones por módulo (PPTX y PDF)
 _freeze/                 resultados de ejecución congelados (se versiona)
-_notas/                  hoja de ruta de este repositorio
-static/                  datos y scripts que los módulos leen
+static/                  imágenes, tablas de referencia y scripts
 ```
+
+Los documentos de `_entregables/` son Quarto. Se compilan a Word con
+`quarto render _entregables/guion_tecnico_pedagogico.qmd` y
+`quarto render _entregables/banco_preguntas.qmd`.
 
 ## Publicación
 
-Netlify compila desde `main` con el plugin de Quarto y publica `docs/`. Hay
-además dos flujos de trabajo en `.github/workflows/`.
-
-Un cambio llega al sitio al fusionar a `main`. Las ramas de trabajo no publican.
-
-## Estado
-
-El estado verificado, la correspondencia con los términos de referencia y la
-cola de trabajo están en `_notas/HOJA_DE_RUTA_FORTIFICACION.md`. Al retomar una
-sesión se contrasta ese documento con el último commit de `main`; si no
-coinciden, manda el repositorio.
+Netlify compila desde `main` con el plugin de Quarto y publica `docs/`. Un
+cambio llega al sitio al fusionar a `main`.

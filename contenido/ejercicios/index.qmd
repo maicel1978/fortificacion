@@ -14,9 +14,7 @@ listing:
   fields: [title, subtitle, description]
 ---
 
-Esta sección contiene una serie de ejercicios interactivos que cubren diferentes actividades del curso.
-
-Los ejercicios se estructuran en temas que corresponden a cada actividad de capacitación. Los contenidos de los ejercicios abarcan todos los objetivos de la capacitación así como otros contenidos complementarios. A continuación se muestra el listado de ejercicios:
+Un ejercicio de autoevaluación por cada módulo de 01 a 17, con su clave de respuesta. Las autoevaluaciones de los módulos 24 a 30 están al final de cada módulo.
 
 :::: column-screen-inset
 ::: {#ejercicios_listing}

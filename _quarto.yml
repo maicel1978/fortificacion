@@ -15,19 +15,19 @@ website:
     logo: logo.png
     left:
       - href: index.qmd
-        text: "🏠 Inicio"
-      - text: "📚 Contenidos"
+        text: "Inicio"
+      - text: "Contenidos"
         menu:
           - href: contenido/index.qmd
-            text: "🔍 Resumen de Contenidos"
+            text: "Resumen de contenidos"
           - href: contenido/actividades/index.qmd
-            text: "📖 Módulos e-learning"
+            text: "Módulos e-learning"
           - href: contenido/ejercicios/index.qmd
-            text: "✍️ Ejercicios Interactivos"
+            text: "Ejercicios"
           - href: contenido/recursos/index.qmd
-            text: "🧰 Recursos y Scripts"
+            text: "Recursos"
       - href: about.qmd 
-        text: "📄 Acerca de" 
+        text: "Acerca de" 
   sidebar:
     contents: auto
 

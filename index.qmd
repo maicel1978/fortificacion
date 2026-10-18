@@ -1,35 +1,34 @@
 ---
-title: "Fortificación de Alimentos a Gran Escala"
-subtitle: "Centro de Capacitación y Recursos"
+title: "Fortificación de alimentos a gran escala"
+subtitle: "Cobertura, consumo y contribución de alimentos fortificados y fortificables"
 format: html
 ---
 
-## ¡Bienvenido/a al Portal de Capacitación en Fortificación de Alimentos!
+Programa de capacitación en línea para medir la cobertura y el consumo de los
+vehículos de fortificación, y su contribución a la ingesta de micronutrientes,
+a partir de encuestas de gasto y consumo de los hogares. Forma parte del
+paquete de asistencia técnica del Programa Mundial de Alimentos para fortalecer
+los sistemas de evaluación de los programas de fortificación en América Latina
+y el Caribe.
 
-Este espacio está diseñado para fortalecer las capacidades en el diseño y evaluación de programas de fortificación de alimentos a gran escala.
+El programa está dirigido a personal técnico de ministerios de salud,
+autoridades de control de alimentos, institutos de nutrición y oficinas de
+estadística. La aplicación se construye sobre un caso real: los microdatos de
+la Encuesta Nacional de Gastos e Ingresos de los Hogares 2018 de República
+Dominicana.
 
-Nuestro objetivo es equipar a profesionales y actores clave con las herramientas y el conocimiento necesario para implementar estrategias de fortificación basadas en evidencia, garantizando una respuesta efectiva y sostenible.
+## Estructura
 
-Este curso en línea se centra en la **cobertura**, el **consumo** y la **contribución** de los alimentos fortificados a la ingesta de micronutrientes. Nuestra misión es presentar una metodología práctica para realizar estas estimaciones, utilizando como base encuestas nacionales de consumo y gasto de los hogares, tales como la ENIGH, ENCOVI, ENHOGAR o ECV.
+- [Módulos e-learning](contenido/actividades/index.qmd): 24 módulos de 15 a 40
+  minutos, organizados según las cinco categorías del programa: conceptos
+  generales, políticas de fortificación, herramientas de R, aplicación a la
+  encuesta y síntesis.
+- [Ejercicios](contenido/ejercicios/index.qmd): autoevaluación de los
+  módulos 1 a 17. Los módulos 24 a 30 incluyen la suya al final.
+- [Recursos](contenido/recursos/index.qmd): tablas de referencia, scripts de R
+  y material complementario.
 
-Estas encuestas, de acceso público y actualizadas periódicamente, permiten generar evidencia útil para la toma de decisiones en políticas de nutrición y programas de fortificación.
-
-Presentamos el contenido para facilitar tu aprendizaje organizado en **módulos de E-learning** y ofrecemos una serie de **recursos adicionales** para complementar tu formación.
-
-## ¡Comienza tu aprendizaje hoy!
-
-Te invitamos a explorar los diferentes módulos y recursos. Estamos comprometidos con el fortalecimiento de las prácticas de diseño y evaluación de programas de fortificación de alimentos, contribuyendo a la seguridad nutricional.
-
-::: {.callout-note}
-### Acceso Rápido a la Plataforma
-- [📚 Ver todos los Contenidos del Curso](contenido/index.qmd)
-- [📖 Ir directo a los Módulos de E-Learning](contenido/actividades/index.qmd)
-- [✍️ Practicar con los Ejercicios Interactivos](contenido/ejercicios/index.qmd)
-- [🧰 Explorar Recursos, Tablas y Scripts en R](contenido/recursos/index.qmd)
-:::
+Se recomienda seguir los módulos en orden y completar la autoevaluación de cada
+uno antes de pasar al siguiente.
 
 ![](static/images/icon2.png){fig-align="center"}
-
-------------------------------------------------------------------------
-
-<!-- **Autores**: Maicel Monzón Pérez PhD -->

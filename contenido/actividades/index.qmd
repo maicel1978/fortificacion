@@ -16,7 +16,7 @@ listing:
   fields: [title, subtitle, description]
 ---
 
-Esta sección contiene una serie de micromódulos que cubren diferentes conceptos del curso. Los módulos **e-learning** se estructurarán en sesiones formativas de 15-40 minutos por día. Estos deberán completarse en un periodo de hasta dos meses, permitiendo una experiencia de formación progresiva y ágil. Los contenidos de los módulos se detallan a continuación.
+Módulos de 15 a 40 minutos. Los módulos 01 a 17 cubren los conceptos generales y las políticas de fortificación; los módulos 24 a 30, la aplicación con los microdatos de la ENGIH 2018, las herramientas de R y la síntesis.
 
 :::: column-screen-inset
 ::: {#micromodulos_listing}

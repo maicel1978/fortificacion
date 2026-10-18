@@ -1,22 +1,25 @@
 ---
 title: "Contenidos"
-subtitle: "¿Qué encontrarás aquí?"
 ---
 
-Hemos organizado el contenido para facilitar tu aprendizaje y consulta en cuatro grandes bloques:
+El contenido se organiza en tres bloques:
 
--   **[📖 Módulos de E-learning](actividades/index.qmd):** Sumérgete en nuestros **24 micromódulos** detallados que cubren desde la introducción a las estrategias de fortificación (LSFF) hasta el modelaje dietético con datos de encuestas de consumo y gasto en los hogares (HCES) y estimaciones de ingesta de micronutrientes (ENHOGAR, ECV, ENIGH).
+-   **[Módulos e-learning](actividades/index.qmd):** 24 módulos que van de la
+    introducción a la fortificación a gran escala hasta la estimación del
+    consumo aparente con los microdatos de la ENGIH 2018.
 
--   **[✍️ Ejercicios Interactivos](ejercicios/index.qmd):** Realiza un conjunto de **17 ejercicios interactivos** y prácticos que te permitirán poner a prueba y reforzar los contenidos adquiridos en cada módulo de la capacitación.
+-   **[Ejercicios](ejercicios/index.qmd):** 17 ejercicios de autoevaluación,
+    uno por cada módulo de las categorías 1 y 2.
 
--   **[🧰 Recursos Adicionales](recursos/index.qmd):** Encuentra documentos técnicos, guías metodológicas, podcasts explicativos, tablas de composición de alimentos de referencia y los scripts de R (`cantidad_alimentos.R`) para la ejecución de análisis estadísticos en fortificación.
-
+-   **[Recursos](recursos/index.qmd):** documentos técnicos, tablas de
+    composición de alimentos, tablas de factores de conversión y de porción
+    comestible, y scripts de R.
 
 ------------------------------------------------------------------------
 
 ::: {.callout-note}
-### ¿Por dónde empezar?
-Si estás realizando el curso virtual, te sugerimos iniciar en orden cronológico por los **[Módulos de E-learning](actividades/index.qmd)**, complementando cada tema con su respectivo bloque de **[Ejercicios Interactivos](ejercicios/index.qmd)**.
+### Orden recomendado
+Los módulos se siguen en orden; cada uno se completa con su autoevaluación antes de pasar al siguiente.
 :::
 
 ![](/static/images/icon1.png){fig-align="center"}

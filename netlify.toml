@@ -4,6 +4,3 @@
 
 [[plugins]]
   package = "@quarto/netlify-plugin-quarto"
-
-[functions]
-  directory = "netlify/functions"

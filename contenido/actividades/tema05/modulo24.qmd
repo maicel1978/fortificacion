@@ -1,262 +1,348 @@
 ---
 title: "Módulo 24"
-subtitle: "Cálculo de Cantidades y Nutrientes (MIMI)"
-author: "Maicel Monzón"
-date: "2025-07-01"
-lang: es 
-description: "Implementación paso a paso de la metodología MIMI (WFP) para estimar la ingesta de micronutrientes a nivel de hogar."
-format: 
+subtitle: "Consumo aparente por equivalente de mujer adulta con la ENGIH 2018"
+author: "Maicel E. Monzón"
+date: "2026-10-18"
+lang: es
+description: "Cálculo, con los microdatos reales de la Sección 3A de la ENGIH 2018, del consumo diario de cada alimento por hogar, expresado en gramos comestibles por equivalente de mujer adulta."
+format:
   html:
-    # IMPORTANTE: Hemos quitado 'css: styles.css' de aquí.
-    # Al definirlo solo en _quarto.yml, Quarto resuelve automáticamente la ruta correcta
-    # (evitando el error 404 cuando el archivo está en una subcarpeta).
     toc: true
-    toc-depth: 3
-    toc-title: "Índice del Módulo"
+    toc-depth: 2
+    toc-title: "Índice del módulo"
     number-sections: true
-    code-fold: show 
+    code-fold: show
     code-tools: true
     code-copy: true
-    df-print: paged
 execute:
   warning: false
   message: false
   echo: true
 ---
 
-::: callout-note
-## Contexto Metodológico: La Fórmula Central *MIMI*
+# Sumario
 
-Este módulo implementa la base del flujo de trabajo **MIMI**
-del Programa Mundial de Alimentos (WFP). Transformamos microdatos de compra en **Ingesta Diaria de Nutriente** estandarizada por EMA.
+Este módulo reproduce, paso a paso, la parte de la cadena de análisis que
+transforma los registros de adquisición de la Sección 3A en consumo aparente
+por equivalente de mujer adulta (EMA). Usa los mismos factores de conversión,
+la misma porción comestible y la misma definición del período de registro que
+el análisis de la consultoría, de modo que las cifras del módulo son
+comparables con las del informe.
 
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- calcular el EMA de cada hogar a partir del requerimiento energético por edad
+  y sexo;
+- convertir cantidades declaradas en unidades heterogéneas a gramos
+  comestibles;
+- expresar la adquisición en consumo diario usando los días efectivamente
+  registrados por hogar;
+- detectar los registros que quedan sin factor de conversión o sin porción
+  comestible y medir su peso antes de seguir.
+
+$$
+\text{Consumo diario (g/EMA)} =
+\frac{Q \times FC \times PC}{D_h \times \text{EMA}_h}
+$$
+
+donde $Q$ es la cantidad declarada, $FC$ el factor que convierte la unidad
+declarada a gramos, $PC$ la proporción comestible, $D_h$ el número de días con
+registro del hogar $h$ y $\text{EMA}_h$ la suma de los equivalentes de sus
+miembros.
+
+::: callout-important
+## Datos
+
+Los microdatos de la ENGIH 2018 no se distribuyen con la plataforma. Se
+solicitan a la Oficina Nacional de Estadística y se colocan, sin cambiarles el
+nombre, en una carpeta `_datos/` en la raíz del proyecto:
+
+- `Registros_Cuestionario_B.xlsx` (hoja `Cuest. B Sec 3A`);
+- `Sociodemograficas_e_ingresos.xlsx` (hoja `Base`).
+
+Las tablas de referencia —factores de conversión y porción comestible— sí se
+publican, en `static/data/referencia/`, porque no contienen información de
+hogares. Si los microdatos no están, el código se detiene con un mensaje: no
+sustituye los datos por valores de ejemplo.
 :::
 
-::: callout-tip
-## Fórmula Clave
-$$\text{Ingesta Diaria} = \frac{Q \times FC \times PC \times FND}{PM}$$
+::: callout-warning
+## Adaptación a otra encuesta
 
-* **Q**: Cantidad adquirida.
-* **FC**: Factor de Conversión (unidad $\rightarrow$ kg).
-* **PC**: Porción Comestible.
-* **FND**: Factor Nutricional Diario.
-* **PM**: Período de Medición (días).
+El código está escrito para la estructura, los nombres de variables y los
+códigos de unidad de la ENGIH 2018. Otra encuesta, u otra ronda de la misma,
+exige revisar cada uno de esos elementos y, sobre todo, rehacer las tablas de
+factores de conversión y de porción comestible.
 :::
 
-# 1. Definición del Flujo de Procesamiento
-
-```{mermaid}
-flowchart TD
-    A["Datos Brutos ENGIH\n(Q, Unidad, Demográficos)"]
-    B["Hogar Estandarizado"]
-    C["Conversión a Gramos Netos"]
-    D["Consumo Diario Comestible (g)"]
-    E["Ingesta Nutricional Bruta (mg / mcg)"]
-    F["Resultado Final: Ingesta por EMA"]
-
-    A -->|FASE 1: EMA| B
-    A --> C
-    B --> C
-    C -->|FC · PC · PM| D
-    D -->|FASE 4: FND| E
-    E -->|FASE 5| F
-
-    style A fill:#eef7f6,stroke:#2aa198,stroke-width:2px
-    style F fill:#eef7f6,stroke:#2aa198,stroke-width:2px
-```
-
-## 1.1. Configuración del Entorno
-
-Uso de `pacman` para una gestión de paquetes más limpia y robusta.
-
+# Preparación
 
 ```{r}
 #| label: setup
-#| message: false
 
-# Gestión robusta de librerías
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(
-  tidyverse,  # Manipulación de datos y gráficos
-  readxl,     # Lectura de Excel
-  here,       # Rutas relativas
-  DT,         # Tablas interactivas
-  knitr,      # Tablas estáticas
-  scales      # Formato de números en gráficos
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(janitor)
+library(ggplot2)
+library(here)
+
+ruta_microdatos <- here("_datos")
+ruta_referencia <- here("static", "data", "referencia")
+
+archivos <- c(
+  consumo = file.path(ruta_microdatos, "Registros_Cuestionario_B.xlsx"),
+  hogares = file.path(ruta_microdatos, "Sociodemograficas_e_ingresos.xlsx")
 )
 
-options(scipen = 999) # Evitar notación científica
-
-# Rutas de datos (definir solo una vez)
-ruta_base <- here("static/data/")
-ruta_demo <- file.path(ruta_base, "Sociodemograficas_e_ingresos.xlsx")
-ruta_cons <- file.path(ruta_base, "Registros_Cuestionario_B.xlsx")
+faltan <- archivos[!file.exists(archivos)]
+if (length(faltan) > 0) {
+  stop("No se encuentran los microdatos: ", paste(basename(faltan), collapse = ", "),
+       ". Véase el recuadro «Datos» al inicio del módulo.")
+}
 ```
 
-### Funciones de Carga Híbrida
+# Equivalente de mujer adulta por hogar
 
-Para garantizar reproducibilidad si no se tienen los datos locales.
+El EMA de una persona es su requerimiento energético dividido entre el de la
+mujer de referencia: 18 a 30 años, 55 kg, actividad física moderada
+(PAL = 1,76), que requiere 2.291 kcal al día (Weisell y Dop, 2012; FAO/WHO/UNU,
+2004). Los menores de 18 años toman los valores tabulados de FAO/WHO/UNU (2004);
+los adultos, la ecuación de Schofield con peso fijo por sexo, porque la
+encuesta no registra el peso. Los menores de un año toman el promedio de los
+doce valores mensuales del mismo informe. La encuesta no registra embarazo ni
+lactancia, de modo que no se aplica ese ajuste.
 
 ```{r}
-#| label: funciones-carga
+#| label: requerimiento
 #| code-fold: true
 
-cargar_datos_demo <- function(ruta) {
-  if (file.exists(ruta)) {
-    return(read_excel(ruta, sheet = "Base"))
-  }
-  
-  warning("⚠️ Usando datos simulados (DEMO).")
-  tribble(
-    ~VIVIENDA, ~HOGAR, ~A402, ~A403,
-    1, 1, 1, 35, # Hogar 1: Hombre 35
-    1, 1, 2, 30, # Hogar 1: Mujer 30
-    1, 1, 1, 5,  # Hogar 1: Niño 5
-    2, 1, 2, 65, # Hogar 2: Mujer 65
-    3, 1, 1, 40, # Hogar 3: Hombre 40
-    3, 1, 1, 10  # Hogar 3: Niño 10
+menores <- tribble(
+  ~edad, ~Masculino, ~Femenino,
+   1,  948,  865,   2, 1129, 1047,   3, 1252, 1156,   4, 1360, 1241,
+   5, 1467, 1330,   6, 1573, 1428,   7, 1692, 1554,   8, 1830, 1698,
+   9, 1978, 1854,  10, 2150, 2006,  11, 2341, 2149,  12, 2548, 2276,
+  13, 2770, 2379,  14, 2990, 2449,  15, 3178, 2491,  16, 3322, 2503,
+  17, 3410, 2503
+) |>
+  pivot_longer(-edad, names_to = "sexo", values_to = "kcal")
+
+PAL <- 1.76
+adultos <- tribble(
+  ~desde, ~hasta, ~sexo,       ~kcal,
+  18,  30, "Masculino", (15.057 * 65 + 692.2) * PAL,
+  30,  60, "Masculino", (11.472 * 65 + 873.1) * PAL,
+  60, 150, "Masculino", (11.711 * 65 + 587.7) * PAL,
+  18,  30, "Femenino",  (14.818 * 55 + 486.6) * PAL,
+  30,  60, "Femenino",  (8.126  * 55 + 845.6) * PAL,
+  60, 150, "Femenino",  (9.082  * 55 + 658.5) * PAL
+)
+
+KCAL_REFERENCIA <- adultos$kcal[adultos$sexo == "Femenino" & adultos$desde == 18]
+KCAL_MENOR_1    <- c(Masculino = 649, Femenino = 600)
+
+requerimiento <- function(edad, sexo) {
+  case_when(
+    is.na(edad) | is.na(sexo) ~ NA_real_,
+    edad < 1  ~ unname(KCAL_MENOR_1[sexo]),
+    edad < 18 ~ menores$kcal[match(paste(floor(edad), sexo),
+                                   paste(menores$edad, menores$sexo))],
+    TRUE      ~ adultos$kcal[mapply(function(e, s) which(adultos$sexo == s &
+                                    e >= adultos$desde & e < adultos$hasta)[1],
+                                    edad, sexo)]
   )
 }
-
-cargar_datos_consumo <- function(ruta) {
-  if (file.exists(ruta)) {
-    # Forzar tipos de columna para evitar errores de lectura
-    return(read_excel(ruta, sheet = "Cuest. B Sec 3A", col_types = "text")) 
-  }
-  
-  warning("⚠️ Usando datos simulados (CONSUMO).")
-  tribble(
-    ~VIVIENDA, ~HOGAR, ~ID_VARIEDAD, ~CANTIDAD_ADQUIRIDA, ~ID_UNIDAD_MEDIDA, ~DESTINO_PROPIO_HOGAR,
-    1, 1, 1,   5.0, 1, 1,
-    1, 1, 588, 12.0, 3, 1,
-    2, 1, 1,   2.5, 1, 1,
-    3, 1, 1,   25000, 10, 1, # Outlier intencional
-    3, 1, 588, 5, 3, 1
-  ) %>% 
-    mutate(
-      CANTIDAD_ADQUIRIDA = as.numeric(CANTIDAD_ADQUIRIDA),
-      ID_UNIDAD_MEDIDA = as.numeric(ID_UNIDAD_MEDIDA),
-      ID_VARIEDAD = as.numeric(ID_VARIEDAD)
-    )
-}
 ```
 
-# 2. Fase 1: Estandarización Demográfica (EMA)
-
-Calculamos el denominador poblacional del hogar.
-
 ```{r}
-#| label: calculo-ema
+#| label: ema-hogar
 
-# 1. Carga y limpieza
-datos_persona <- cargar_datos_demo(ruta_demo) %>%
-  select(HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, SEXO = A402, EDAD = A403)
+personas <- read_excel(archivos["hogares"], sheet = "Base", guess_max = 10000) |>
+  clean_names() |>
+  transmute(
+    id_hogar = paste(vivienda, hogar, sep = "_"),
+    sexo = case_when(a402 == 1 ~ "Masculino", a402 == 2 ~ "Femenino"),
+    edad = as.numeric(a403)
+  ) |>
+  mutate(ema = requerimiento(edad, sexo) / KCAL_REFERENCIA)
 
-# 2. Tabla de Factores EMA (INCAP/WFP)
-ema_factors <- tribble(
-  ~edad_min, ~edad_max, ~SEXO, ~ema_factor,
-  0, 0, 1, 0.33, 0, 0, 2, 0.33,
-  1, 2, 1, 0.46, 1, 2, 2, 0.46,
-  3, 5, 1, 0.54, 3, 5, 2, 0.54,
-  6, 9, 1, 0.65, 6, 9, 2, 0.65,
-  10, 13, 1, 0.85, 10, 13, 2, 0.81,
-  14, 17, 1, 1.02, 14, 17, 2, 0.89,
-  18, 59, 1, 1.05, 18, 59, 2, 1.00,
-  60, 150, 1, 0.84, 60, 150, 2, 0.77
-)
+ema_hogar <- personas |>
+  group_by(id_hogar) |>
+  summarise(ema_hogar = sum(ema, na.rm = TRUE),
+            sin_ema = sum(is.na(ema)), .groups = "drop")
 
-# 3. Join y Agregación
-datos_ema_hogar <- datos_persona %>%
-  left_join(ema_factors, by = join_by(between(EDAD, edad_min, edad_max), SEXO)) %>%
-  group_by(HHID_VIV, HHID_HOG) %>%
-  summarise(Total_EMA_Hogar = sum(ema_factor, na.rm = TRUE), .groups = 'drop')
-
-datatable(datos_ema_hogar, caption = "Tabla 1: EMA por Hogar") %>%
-  formatRound(columns = "Total_EMA_Hogar", digits = 2)
+c(personas = nrow(personas), hogares = nrow(ema_hogar),
+  personas_sin_ema = sum(ema_hogar$sin_ema))
 ```
 
-# 3. Cálculo de Consumo Neto
+El identificador del hogar combina vivienda y hogar: el número de hogar se
+repite entre viviendas y, usado solo, uniría hogares distintos.
+
+# Conversión a gramos comestibles
+
+La unidad que se convierte es la de presentación cuando existe y, si no, la
+unidad base. Hay dos tablas de factores:
+
+- una **universal**, para unidades físicas exactas (libra, onza, litro, galón),
+  con un factor que no depende del alimento y que tiene prioridad;
+- una **específica por alimento**, para unidades cuyo peso depende de lo que
+  contienen (funda, lata, sobre, paquete).
+
+La unión con la tabla específica se hace por la descripción del alimento, que
+es como la encuesta identifica el producto en esa tabla.
 
 ```{r}
-#| label: calculo-gramos
+#| label: tablas-referencia
 
-# Datos de consumo (solo consumo propio)
-datos_consumo <- cargar_datos_consumo(ruta_cons) %>%
-  select(
-    HHID_VIV = VIVIENDA, HHID_HOG = HOGAR, 
-    CODI_ALIMENTO = ID_VARIEDAD,      
-    Q = CANTIDAD_ADQUIRIDA, 
-    UNIDAD_MEDIDA = ID_UNIDAD_MEDIDA, 
-    DESTINO_HOGAR = DESTINO_PROPIO_HOGAR
-  ) %>%
-  filter(DESTINO_HOGAR == 1) %>%
-  mutate(
-    # CORRECCIÓN CRÍTICA: Conversión explícita de tipos
-    # Como read_excel lee todo como texto (col_types="text"),
-    # debemos convertir a numérico antes de hacer los joins.
-    HHID_VIV = as.numeric(HHID_VIV), # <--- AGREGADO: Convertir ID vivienda
-    HHID_HOG = as.numeric(HHID_HOG), # <--- AGREGADO: Convertir ID hogar
-    Q = as.numeric(Q),
-    UNIDAD_MEDIDA = as.numeric(UNIDAD_MEDIDA),
-    CODI_ALIMENTO = as.numeric(CODI_ALIMENTO)
+conv_universal <- read_excel(file.path(ruta_referencia, "factores_conversion.xlsx"),
+                             sheet = "diccionario_conversion", na = "NA") |>
+  filter(!is.na(fc)) |>
+  select(unidad = id_unidad_medida_presentacion, fc_universal = fc)
+
+conv_especifico <- read_excel(file.path(ruta_referencia, "factores_conversion.xlsx"),
+                              sheet = "Cuest. B Sec 3A", na = "NA") |>
+  filter(!is.na(fc)) |>
+  select(descripcion, unidad = id_unidad_medida_presentacion, fc_especifico = fc)
+
+porcion <- read_excel(file.path(ruta_referencia, "porcion_comestible.xlsx"),
+                      sheet = "Cuest. B Sec 3A") |>
+  transmute(id_variedad = as.character(id_variedad),
+            pc = as.numeric(gsub(",", ".", as.character(edible))))
+
+# Una clave duplicada multiplicaría filas en la unión sin dar error.
+stopifnot(!anyDuplicated(conv_especifico[c("descripcion", "unidad")]),
+          !anyDuplicated(porcion$id_variedad))
+```
+
+```{r}
+#| label: consumo
+
+adquisiciones <- read_excel(archivos["consumo"], sheet = "Cuest. B Sec 3A",
+                            col_types = "text") |>
+  clean_names() |>
+  transmute(
+    id_hogar = paste(vivienda, hogar, sep = "_"),
+    dia, id_variedad, descripcion,
+    q = as.numeric(cantidad_adquirida),
+    unidad = coalesce(as.numeric(id_unidad_medida_presentacion),
+                      as.numeric(id_unidad_medida))
   )
 
-# Tablas Auxiliares (TCA Simulada)
-fc_table <- tribble(
-  ~UNIDAD_MEDIDA, ~FC_KG,
-  1, 1.000, 3, 0.150, 10, 0.001
-)
-pc_table <- tribble(
-  ~CODI_ALIMENTO, ~PC,
-  1, 1.00, 588, 0.80
-)
+dias <- adquisiciones |>
+  group_by(id_hogar) |>
+  summarise(dias_hogar = n_distinct(dia), .groups = "drop")
 
-# Constantes
-PM_DIAS <- 30 
+consumo <- adquisiciones |>
+  left_join(conv_universal, by = "unidad") |>
+  left_join(conv_especifico, by = c("descripcion", "unidad")) |>
+  left_join(porcion, by = "id_variedad") |>
+  left_join(dias, by = "id_hogar") |>
+  mutate(fc = coalesce(fc_universal, fc_especifico),
+         g_dia = q * fc * pc / dias_hogar)
 
-consumo_diario <- datos_consumo %>%
-  left_join(fc_table, by = "UNIDAD_MEDIDA") %>%
-  left_join(pc_table, by = "CODI_ALIMENTO") %>%
-  mutate(
-    FC_KG = replace_na(FC_KG, 0),
-    PC = replace_na(PC, 1.00),
-    # Fórmula Principal
-    CONSUMO_G_DIA = (Q * FC_KG * PC * 1000) / PM_DIAS
-  ) %>%
-  group_by(HHID_VIV, HHID_HOG, CODI_ALIMENTO) %>%
-  summarise(Total_G_Dia = sum(CONSUMO_G_DIA, na.rm=TRUE), .groups = 'drop') %>%
-  left_join(datos_ema_hogar, by = c("HHID_VIV", "HHID_HOG"))
-
-datatable(head(consumo_diario, 10)) %>%
-  formatRound(columns = c("Total_G_Dia", "Total_EMA_Hogar"), digits = 2)
+summary(dias$dias_hogar)
 ```
 
-# 4. Control de Calidad Visual
+El período de registro no es una constante. El diario de adquisiciones cubre
+hasta ocho días, pero cada hogar registra un número distinto; dividir entre un
+período fijo sobrestima el consumo de los hogares con menos días registrados y
+subestima el de los demás.
 
-Detectando outliers antes del análisis nutricional final.
+# Registros sin factor o sin porción comestible
+
+Un registro sin factor de conversión o sin porción comestible no produce un
+error: produce un valor ausente. Si ese ausente se sustituye por cero, la
+estimación baja en silencio. Por eso se mide antes de agregar.
 
 ```{r}
-#| label: plot-qc
-#| fig-cap: "Distribución de consumo diario y detección de valores extremos."
+#| label: cobertura-factores
 
-datos_qc <- consumo_diario %>%
-  filter(CODI_ALIMENTO == 1) %>% 
-  mutate(
-    Umbral_95 = quantile(Total_G_Dia, 0.95),
-    Estado = if_else(Total_G_Dia > Umbral_95, "Revisar (Outlier)", "Normal")
-  )
-
-ggplot(datos_qc, aes(x = factor(CODI_ALIMENTO), y = Total_G_Dia)) +
-  geom_boxplot(fill = "#ecf0f1", outlier.shape = NA) +
-  geom_jitter(aes(color = Estado, size = Estado), width = 0.1, alpha = 0.7) +
-  scale_color_manual(values = c("Normal" = "#2980b9", "Revisar (Outlier)" = "#c0392b")) +
-  scale_size_manual(values = c("Normal" = 3, "Revisar (Outlier)" = 5)) +
-  labs(
-    title = "Control de Calidad: Alimento 1 (Harina)",
-    subtitle = "Identificación de registros sobre el percentil 95",
-    y = "Gramos Netos / Día",
-    x = "Código Alimento"
-  ) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+consumo |>
+  summarise(
+    registros   = n(),
+    sin_fc      = mean(is.na(fc)),
+    sin_pc      = mean(is.na(pc)),
+    calculables = mean(!is.na(g_dia))
+  ) |>
+  mutate(across(sin_fc:calculables, \(x) scales::percent(x, accuracy = 0.1)))
 ```
+
+Lo que queda sin calcular no se rellena. Se documenta con su peso, y el
+análisis decide si basta para seguir.
+
+# Consumo diario por equivalente de mujer adulta
+
+```{r}
+#| label: consumo-ema
+
+consumo_ema <- consumo |>
+  filter(!is.na(g_dia)) |>
+  group_by(id_hogar, id_variedad, descripcion) |>
+  summarise(g_dia = sum(g_dia), .groups = "drop") |>
+  inner_join(ema_hogar |> filter(ema_hogar > 0), by = "id_hogar") |>
+  mutate(g_dia_ema = g_dia / ema_hogar)
+```
+
+La figura muestra la distribución del consumo entre los hogares que
+adquirieron arroz durante el período de registro. La escala logarítmica hace
+visibles las dos colas, que son las que se revisan antes de estimar.
+
+```{r}
+#| label: fig-arroz
+#| fig-cap: "Consumo aparente de arroz entre los hogares con adquisición registrada (g por EMA y día, escala logarítmica). ENGIH 2018, Sección 3A; sin ponderar."
+
+arroz <- consumo_ema |>
+  filter(grepl("^arroz", descripcion, ignore.case = TRUE)) |>
+  group_by(id_hogar) |>
+  summarise(g_dia_ema = sum(g_dia_ema), .groups = "drop")
+
+ggplot(arroz, aes(g_dia_ema)) +
+  geom_histogram(bins = 40, fill = "grey60", colour = "white") +
+  scale_x_log10() +
+  labs(x = "Gramos comestibles por EMA y día", y = "Hogares") +
+  theme_minimal()
+```
+
+Esta distribución no es todavía una estimación poblacional: no aplica los
+pesos de expansión ni el diseño muestral (módulos de la categoría 3), no
+incorpora la Sección 2 de existencias, y no trata los valores extremos. Esos
+pasos están en el informe analítico y en el manual técnico de la consultoría.
+Tampoco se excluyen las adquisiciones con destino declarado a otro hogar o a un
+negocio, limitación que el informe declara.
+
+# Autoevaluación
+
+1. ¿Por qué el identificador del hogar combina vivienda y hogar?
+2. Un registro en «funda» de un alimento que no figura en la tabla específica,
+   ¿qué valor toma su consumo diario y por qué no debe sustituirse por cero?
+3. ¿Qué sesgo introduce dividir la adquisición entre un período fijo de siete
+   días en lugar de los días registrados por cada hogar?
+4. ¿Por qué un hogar con niños pequeños puede mostrar un consumo por EMA mayor
+   que su consumo por persona?
+
+**Claves.** (1) El número de hogar se repite entre viviendas; usado solo
+uniría hogares distintos. (2) Queda ausente; sustituirlo por cero baja la
+estimación sin dejar rastro. (3) Sobrestima el consumo de los hogares con
+menos días registrados y subestima el de los que tienen más. (4) Porque el EMA
+de un niño es menor que uno, de modo que el denominador del hogar es menor que
+su número de miembros.
+
+# Bibliografía
+
+Banco Central de la República Dominicana. 2020. *Encuesta Nacional de Gastos e
+Ingresos de los Hogares 2018: principales resultados y síntesis metodológica*.
+Santo Domingo.
+
+FAO/WHO/UNU. 2004. *Human energy requirements: report of a Joint FAO/WHO/UNU
+Expert Consultation, Rome, 17–24 October 2001*. Roma: FAO.
+<https://www.fao.org/4/y5686e/y5686e00.htm>
+
+Tang, K., Adams, K. P., Ferguson, E. L., et al. 2022. Modeling food
+fortification contributions to micronutrient requirements in Malawi using
+Household Consumption and Expenditure Surveys. *Annals of the New York Academy
+of Sciences*, 1508(1), 105–122. <https://doi.org/10.1111/nyas.14697>
+
+Weisell, R. y Dop, M. C. 2012. The adult male equivalent concept and its
+application to Household Consumption and Expenditures Surveys (HCES). *Food
+and Nutrition Bulletin*, 33(3 Suppl.), S157–S162.
+<https://doi.org/10.1177/15648265120333S203>

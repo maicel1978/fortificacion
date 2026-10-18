@@ -31,3 +31,6 @@ Thumbs.db
 .netlify/
 /.quarto/
 **/*.quarto_ipynb
+
+# Microdatos de la ENGIH: se usan en local, no se versionan ni se publican
+_datos/

@@ -1,0 +1,103 @@
+---
+title: "Módulo 27"
+subtitle: "Herramientas de R III: análisis de encuestas con srvyr"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 3.3. Declaración del diseño muestral complejo de la ENGIH 2018 y estimación de proporciones, medias e intervalos a distintos niveles de agregación con srvyr."
+---
+
+# Sumario
+
+La ENGIH 2018 no es una muestra aleatoria simple: los hogares se seleccionan
+por conglomerados (unidades primarias de muestreo, UPM) dentro de estratos, y
+cada hogar tiene un factor de expansión. Ignorar el diseño apenas cambia la
+estimación puntual, pero subestima el error estándar y produce intervalos
+demasiado estrechos. `srvyr` permite declarar el diseño y estimar con la
+sintaxis de `dplyr`.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- declarar un diseño estratificado por conglomerados con factor de expansión;
+- estimar proporciones y medianas con su intervalo de confianza;
+- desagregar por dominio y juzgar la precisión de cada celda.
+
+# El diseño de la ENGIH 2018
+
+El diseño es una propiedad del hogar, no de la persona. Las variables se toman
+del módulo sociodemográfico, un registro por hogar: 8 estratos, 933 UPM y el
+factor de expansión de cada hogar.
+
+```r
+library(srvyr)
+
+diseno <- hogares |>
+  as_survey_design(ids = upm, strata = estrato,
+                   weights = factor_expansion, nest = TRUE)
+```
+
+`nest = TRUE` indica que los identificadores de UPM se repiten entre estratos.
+Si se omite, UPM distintas con el mismo número se tratarían como una sola.
+
+# Estimación nacional
+
+```r
+diseno |>
+  summarise(cobertura = survey_mean(consume_arroz, vartype = "ci") * 100)
+```
+
+`survey_mean()` sobre una variable 0/1 estima una proporción. Con
+`vartype = c("ci", "cv")` devuelve además el coeficiente de variación, útil
+para juzgar si una estimación es publicable.
+
+# Estimación por dominio
+
+```r
+diseno |>
+  group_by(quintil) |>
+  summarise(
+    inadecuado = survey_mean(bajo_requerimiento, vartype = "ci"),
+    mediana    = survey_median(folato_ema, vartype = NULL, na.rm = TRUE),
+    n          = unweighted(n())
+  )
+```
+
+Los dominios de estimación de la ENGIH 2018 son la región y la zona. La
+provincia no lo es: el tamaño de muestra provincial no está diseñado para
+estimar con precisión. En el análisis de la consultoría, una celda se marca
+como de precisión insuficiente si tiene menos de 50 hogares o si la
+semiamplitud de su intervalo supera 10 puntos porcentuales; con esa regla, el
+riesgo de ingesta inadecuada de folato tiene precisión suficiente en 22 de las
+32 provincias.
+
+::: callout-warning
+## Adaptación a otra encuesta
+
+Los nombres de las variables de diseño cambian entre encuestas, y algunas no
+publican el estrato o la UPM. Sin ellas solo puede ponderarse; en ese caso el
+intervalo resultante es aproximado y debe declararse así.
+:::
+
+# Autoevaluación
+
+1. ¿Qué ocurre con el intervalo de confianza si se declara solo el factor de
+   expansión y no las UPM?
+2. ¿Para qué sirve `nest = TRUE`?
+3. ¿Por qué la provincia no debe tratarse como dominio de estimación en la
+   ENGIH 2018?
+
+**Claves.** (1) Se estrecha: el error estándar se subestima porque se ignora la
+correlación dentro de los conglomerados. (2) Para que UPM con el mismo número
+en estratos distintos se traten como distintas. (3) Porque la muestra no está
+diseñada para ese nivel; muchas celdas provinciales tienen precisión
+insuficiente.
+
+# Bibliografía
+
+Lumley, T. 2010. *Complex Surveys: A Guide to Analysis Using R*. Wiley.
+
+Ellis, G. y Schneider, B. *srvyr: 'dplyr'-Like Syntax for Summary Statistics
+of Survey Data*. Paquete de R. <https://cran.r-project.org/package=srvyr>
+
+Banco Central de la República Dominicana. 2020. *Encuesta Nacional de Gastos e
+Ingresos de los Hogares 2018: principales resultados y síntesis metodológica*.
+Santo Domingo.

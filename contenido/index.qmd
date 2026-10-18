@@ -11,7 +11,6 @@ Hemos organizado el contenido para facilitar tu aprendizaje y consulta en cuatro
 
 -   **[🧰 Recursos Adicionales](recursos/index.qmd):** Encuentra documentos técnicos, guías metodológicas, podcasts explicativos, tablas de composición de alimentos de referencia y los scripts de R (`cantidad_alimentos.R`) para la ejecución de análisis estadísticos en fortificación.
 
--   **[🏛️ Taller Presencial](taller/dia1/index.qmd):** Accede a los materiales, sesiones y actividades de nuestro taller intensivo de **5 días**, diseñado para reforzar conocimientos metodológicos y aplicarlos en equipos de trabajo.
 
 ------------------------------------------------------------------------
 

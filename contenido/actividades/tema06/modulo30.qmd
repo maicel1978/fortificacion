@@ -1,0 +1,102 @@
+---
+title: "Módulo 30"
+subtitle: "Síntesis de aprendizajes"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 5.1. Recorrido completo, de la encuesta al escenario de fortificación: conceptos, decisiones metodológicas y errores que el procesamiento debe evitar."
+---
+
+# Sumario
+
+Esta unidad recorre de principio a fin el procedimiento enseñado en el curso,
+con el caso de la ENGIH 2018, y reúne las decisiones que determinan la calidad
+del resultado.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- describir en orden las etapas que llevan de una encuesta de gasto a un
+  escenario de fortificación;
+- identificar en cada etapa la decisión que más afecta al resultado;
+- reconocer qué preguntas responde este enfoque y cuáles no.
+
+# De la encuesta al escenario
+
+| Etapa | Qué produce | Decisión que más pesa | Módulos |
+|---|---|---|---|
+| 1. Preparación de los microdatos | Registros con clave de hogar única | Clave de unión y tipos de variable | 25, 29 |
+| 2. Conversión a gramos comestibles | Cantidad en gramos por registro | Tablas de factores y de porción comestible | 09, 10, 24 |
+| 3. Consumo diario por EMA | g por EMA y día, por hogar y alimento | Días de registro y regla para las existencias | 11, 12, 24 |
+| 4. Ingesta aparente | Nutriente por EMA y día | Correspondencia con la tabla de composición | 07, 08, 19 |
+| 5. Riesgo de ingesta inadecuada | Proporción de hogares bajo el requerimiento | Valores de referencia; para hierro, la biodisponibilidad | 03, 04, 20 |
+| 6. Escenarios de fortificación | Riesgo con cada vehículo y nivel | Línea base sin fortificar y método aditivo | 15, 16 |
+| 7. Estimación y presentación | Estimaciones ponderadas, figuras y mapas | Diseño muestral y precisión por celda | 26, 27, 28 |
+
+# Errores que el procedimiento debe evitar
+
+- **Un emparejamiento incompleto no da error.** Un alimento sin factor, sin
+  porción comestible o sin correspondencia en la tabla de composición produce
+  una estimación más baja, no un aviso. Se mide la cobertura en cada unión.
+- **La línea base puede estar ya fortificada.** Las tablas de composición
+  incluyen productos enriquecidos. Si el escenario «con fortificación» parte de
+  esos valores, la fortificación se cuenta dos veces. La línea base se
+  construye con el alimento sin fortificar y los escenarios se suman.
+- **El hierro no admite el punto de corte.** Su requerimiento tiene
+  distribución asimétrica; se usa el enfoque de probabilidad, y el resultado
+  depende del supuesto de biodisponibilidad, que se declara.
+- **Un promedio puede ocultar la desigualdad.** Subir el nivel de
+  fortificación de un vehículo de consumo desigual eleva la media y conserva el
+  gradiente entre quintiles; un vehículo de consumo transversal lo reduce.
+- **Una provincia no es un dominio de estimación.** Las estimaciones
+  provinciales se publican solo donde la precisión lo permite.
+
+# Qué responde este enfoque y qué no
+
+Responde qué proporción de hogares adquiere cada vehículo, cuánto consume y
+cómo cambiaría la proporción de hogares bajo el requerimiento con distintas
+normas de fortificación. No mide la ingesta individual ni el estado
+nutricional, no observa si el producto adquirido estaba fortificado, y no
+sustituye a una encuesta de consumo individual ni a un estudio de biomarcadores.
+
+::: callout-warning
+## Adaptación a otro país
+
+El procedimiento —la secuencia de etapas, las guardas y las decisiones— es
+trasladable. El código no lo es sin adaptación: cada encuesta difiere en su
+estructura, sus variables, sus unidades y su clasificación de alimentos, y las
+tablas de factores y de correspondencia se construyen de nuevo.
+:::
+
+# Autoevaluación
+
+1. ¿En qué etapa una omisión produce una subestimación silenciosa y cómo se
+   detecta?
+2. ¿Por qué la línea base se construye con el alimento sin fortificar?
+3. ¿Qué diferencia hay, en términos de equidad, entre subir el nivel de un
+   vehículo y cambiar de vehículo?
+
+**Claves.** (1) En las uniones con las tablas de factores, de porción
+comestible y de composición; se detecta midiendo la proporción de registros o
+gramos sin pareja. (2) Porque las tablas de composición traen productos ya
+enriquecidos y la fortificación se contaría dos veces. (3) Subir el nivel de
+un vehículo de consumo desigual eleva la media y conserva el gradiente; un
+vehículo de consumo transversal lo reduce.
+
+# Bibliografía
+
+Allen, L., de Benoist, B., Dary, O. y Hurrell, R. (eds.). 2006. *Guidelines on
+food fortification with micronutrients*. Ginebra: Organización Mundial de la
+Salud y FAO.
+
+Institute of Medicine. 2000. *Dietary Reference Intakes: applications in
+dietary assessment*. Washington, D.C.: National Academies Press.
+<https://doi.org/10.17226/9956>
+
+Tang, K., Adams, K. P., Ferguson, E. L., et al. 2022. Modeling food
+fortification contributions to micronutrient requirements in Malawi using
+Household Consumption and Expenditure Surveys. *Annals of the New York Academy
+of Sciences*, 1508(1), 105–122. <https://doi.org/10.1111/nyas.14697>
+
+Weisell, R. y Dop, M. C. 2012. The adult male equivalent concept and its
+application to Household Consumption and Expenditures Surveys (HCES). *Food
+and Nutrition Bulletin*, 33(3 Suppl.), S157–S162.
+<https://doi.org/10.1177/15648265120333S203>

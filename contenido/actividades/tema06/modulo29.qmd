@@ -1,0 +1,104 @@
+---
+title: "Módulo 29"
+subtitle: "La ENGIH 2018 como base de datos del caso de aplicación"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 4.0. Estructura de la ENGIH 2018: secciones utilizadas, unidades de análisis, variables, diseño muestral y limitaciones para estimar la ingesta aparente."
+---
+
+# Sumario
+
+Las aplicaciones de la categoría 4 usan los microdatos de la Encuesta Nacional
+de Gastos e Ingresos de los Hogares 2018 (ENGIH 2018) de República
+Dominicana, levantada por el Banco Central con la colaboración de la Oficina
+Nacional de Estadística. Esta unidad describe lo que la encuesta contiene, lo
+que no contiene y cómo se combinan sus secciones.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- identificar las secciones de la ENGIH que registran alimentos y su diferencia;
+- describir la unidad de análisis y el diseño muestral;
+- enumerar las limitaciones de la encuesta para estimar ingesta.
+
+# Archivos y secciones
+
+| Archivo | Contenido | Unidad |
+|---|---|---|
+| `Registros_Cuestionario_B.xlsx`, hoja `Cuest. B Sec 2` | Existencias de alimentos en despensa y refrigerador al inicio y al final del período | Registro de alimento por hogar |
+| `Registros_Cuestionario_B.xlsx`, hoja `Cuest. B Sec 3A` | Diario de adquisiciones de alimentos | Registro de adquisición por día |
+| `Sociodemograficas_e_ingresos.xlsx`, hoja `Base` | Edad, sexo, parentesco, quintil, región, zona, provincia y diseño muestral | Persona |
+
+| Sección | Registros | Hogares |
+|---|---|---|
+| Sección 2, existencias | 47.837 | 6.269 |
+| Sección 3A, adquisiciones | 342.046 | 8.731 |
+| Módulo sociodemográfico | 28.394 personas | 8.892 |
+
+Fuente: ENGIH 2018, microdatos; conteos propios sin ponderar.
+
+**Dos secciones, una medida.** La Sección 2 registra lo que el hogar consumió
+de sus existencias: la encuesta ya entrega la diferencia entre inventario
+inicial y final. La Sección 3A registra lo que adquirió. Un alimento comprado
+y almacenado puede aparecer en las dos; el análisis evita contarlo dos veces
+con una regla de agotamiento, documentada en el manual técnico.
+
+**Período de registro.** El diario de la Sección 3A cubre hasta ocho días; la
+mediana de días registrados por hogar es 7 y el mínimo 1. El consumo diario se
+calcula con los días efectivamente registrados por cada hogar.
+
+**Unidades.** El 68,7% de los registros de la Sección 3A está en unidades no
+estándar (funda, paquete, lata), cuyo peso depende del alimento. La conversión
+a gramos exige una tabla de factores construida para la encuesta.
+
+# Diseño muestral
+
+Muestra estratificada por conglomerados: 8 estratos, 933 unidades primarias de
+muestreo y un factor de expansión por hogar. Los dominios de estimación son la
+región y la zona. La provincia (32) se registra, pero no es dominio de
+estimación (módulo 27).
+
+# Lo que la encuesta no permite
+
+- **Ingesta individual.** Se registra la adquisición del hogar, no lo que come
+  cada persona; el reparto se aproxima con el equivalente de mujer adulta.
+- **Consumo fuera del hogar.** Las comidas fuera del hogar se registran como
+  gasto, no como alimento identificable.
+- **Ingesta habitual.** Una semana por hogar no permite separar la variación
+  entre días de la variación entre hogares; los métodos de ingesta habitual
+  que requieren mediciones repetidas no son aplicables.
+- **Yodo.** La sal se registra por frecuencia de compra, no por cantidad.
+- **Embarazo y lactancia.** No se preguntan, de modo que no se ajusta el
+  requerimiento energético de esas mujeres.
+- **Estado de fortificación del producto.** La encuesta identifica el alimento,
+  no si estaba fortificado; la fortificación se modela por escenarios.
+
+::: callout-warning
+## Adaptación a otra encuesta
+
+Cada encuesta de gasto y consumo difiere en sus secciones, su período de
+registro, sus unidades y su diseño. Antes de adaptar cualquier código, la
+descripción de esta unidad debe rehacerse para la encuesta nueva a partir de
+su documentación metodológica y su diccionario de variables.
+:::
+
+# Autoevaluación
+
+1. ¿Qué diferencia hay entre lo que registran la Sección 2 y la Sección 3A?
+2. ¿Por qué no puede estimarse la ingesta habitual con la ENGIH 2018?
+3. ¿Por qué no se estima el riesgo de ingesta inadecuada de yodo?
+
+**Claves.** (1) La Sección 2 registra el consumo de existencias; la 3A, las
+adquisiciones del período. (2) Porque hay un único período de registro por
+hogar, sin repeticiones que permitan separar la variación intraindividual.
+(3) Porque la sal se registra por frecuencia de compra y no por cantidad.
+
+# Bibliografía
+
+Banco Central de la República Dominicana. 2020. *Encuesta Nacional de Gastos e
+Ingresos de los Hogares 2018: principales resultados y síntesis metodológica*.
+Santo Domingo.
+
+Weisell, R. y Dop, M. C. 2012. The adult male equivalent concept and its
+application to Household Consumption and Expenditures Surveys (HCES). *Food
+and Nutrition Bulletin*, 33(3 Suppl.), S157–S162.
+<https://doi.org/10.1177/15648265120333S203>

@@ -1,0 +1,114 @@
+---
+title: "Módulo 25"
+subtitle: "Herramientas de R I: importación, limpieza y análisis preliminar"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 3.1. Flujo mínimo de R para preparar los microdatos de una encuesta de gasto y consumo: importación, nombres, tipos, claves de unión y diagnóstico de calidad."
+---
+
+# Sumario
+
+Esta unidad reúne las herramientas de R que se usan en todo el procesamiento
+de la ENGIH 2018. El aprendizaje general del lenguaje —instalación, RStudio,
+importación, datos ordenados y manipulación con `dplyr`— se cubre en el curso
+*Análisis de datos en fortificación de alimentos a gran escala con R*
+(temas I a IV), disponible en <https://bioestadisticaedu.com/teaching/r/>. Aquí
+se tratan solo los cuatro problemas que esa base general no resuelve y que
+aparecen siempre al trabajar con una encuesta de hogares.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- importar hojas de Excel de una encuesta controlando el tipo de cada columna;
+- construir una clave de hogar única y comprobar que una unión no multiplica
+  filas;
+- diagnosticar valores ausentes y unidades heterogéneas antes de calcular;
+- distinguir un valor ausente de un cero en el resultado de una unión.
+
+# Importar con control de tipos
+
+Un código no es una cantidad. Si `read_excel()` adivina el tipo, un código de
+alimento puede leerse como número y perder ceros a la izquierda, o una columna
+mayoritariamente vacía puede leerse como lógica y descartar los pocos valores
+que tiene. Se declara el tipo de las columnas de identificación y se normalizan
+los nombres.
+
+```r
+library(readxl)
+library(dplyr)
+library(janitor)
+
+sec3a <- read_excel("_datos/Registros_Cuestionario_B.xlsx",
+                    sheet = "Cuest. B Sec 3A", col_types = "text") |>
+  clean_names() |>
+  mutate(cantidad_adquirida = as.numeric(cantidad_adquirida))
+```
+
+# Claves de unión
+
+En la ENGIH el número de hogar se repite entre viviendas: dentro de una
+vivienda hay hogar 1, 2, etc. La clave única combina vivienda y hogar. Una
+clave incompleta no produce un error; produce hogares mezclados.
+
+```r
+sec3a <- sec3a |> mutate(id_hogar = paste(vivienda, hogar, sep = "_"))
+
+# Una tabla de referencia con claves duplicadas multiplica filas en la unión.
+stopifnot(!anyDuplicated(tabla_referencia[c("descripcion", "unidad")]))
+
+n_antes <- nrow(sec3a)
+sec3a <- left_join(sec3a, tabla_referencia, by = c("descripcion", "unidad"))
+stopifnot(nrow(sec3a) == n_antes)
+```
+
+La comprobación del número de filas antes y después de la unión es la guarda
+más barata del procesamiento. En el análisis de la consultoría detectó una
+duplicación de 17.698 filas causada por dos entradas repetidas en una tabla de
+factores.
+
+# Diagnóstico antes de calcular
+
+```r
+library(dlookr)
+
+diagnose(sec3a)                 # ausentes y valores únicos por variable
+count(sec3a, id_unidad_medida)  # qué unidades hay que convertir
+```
+
+En la Sección 3A de la ENGIH 2018, el 64,3% de los registros no tiene unidad de
+presentación: no es un dato faltante, significa que el hogar declaró
+directamente en la unidad base. Leerlo como ausente y descartarlo eliminaría
+dos tercios de la información.
+
+# Ausente no es cero
+
+Tras unir con una tabla de factores, lo que no empata queda como `NA`.
+Sustituirlo por cero hace desaparecer el problema de la vista y deja la
+estimación sesgada hacia abajo. El tratamiento correcto es contar los ausentes,
+medir su peso y decidir. El módulo 24 aplica esta regla sobre los datos reales.
+
+::: callout-warning
+## Adaptación a otra encuesta
+
+Los nombres de hoja, de variables y la composición de la clave de hogar son
+propios de la ENGIH 2018. En otra encuesta hay que verificarlos uno por uno en
+su diccionario de variables antes de reutilizar el código.
+:::
+
+# Autoevaluación
+
+1. ¿Por qué se leen como texto las columnas de identificación?
+2. ¿Qué indica que el número de filas aumente después de un `left_join()`?
+3. En la Sección 3A, ¿qué significa que la unidad de presentación esté vacía?
+
+**Claves.** (1) Son códigos, no cantidades; leídos como número pueden perder
+información o cambiar de tipo según las primeras filas. (2) Que la tabla
+unida tiene claves duplicadas y está multiplicando registros. (3) Que el hogar
+declaró en la unidad base; se usa esa unidad para la conversión.
+
+# Bibliografía
+
+Monzón, M. E. *Análisis de datos en fortificación de alimentos a gran escala
+con R: una introducción práctica*. <https://bioestadisticaedu.com/teaching/r/>
+
+Wickham, H., Çetinkaya-Rundel, M. y Grolemund, G. 2023. *R for Data Science*,
+2.ª ed. O'Reilly. Versión en español: <https://es.r4ds.hadley.nz/>

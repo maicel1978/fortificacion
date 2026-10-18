@@ -1,0 +1,105 @@
+---
+title: "Módulo 26"
+subtitle: "Herramientas de R II: visualización con ggplot2"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 3.2. Construcción de figuras con ggplot2 para resultados de consumo e ingesta: gramática de capas, escalas, intervalos y reglas de declaración de magnitudes."
+---
+
+# Sumario
+
+`ggplot2` construye una figura por capas: datos, correspondencia estética,
+geometría, escalas y tema. Esta unidad aplica esa gramática a las tres figuras
+que más se usan al evaluar un programa de fortificación: la distribución del
+consumo, la comparación de estimaciones con su intervalo y el gradiente por
+quintil.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- construir una figura de distribución con escala logarítmica;
+- representar estimaciones ponderadas con su intervalo de confianza;
+- declarar en la figura la magnitud, la unidad y el denominador.
+
+# Distribución del consumo
+
+El consumo aparente tiene asimetría fuerte a la derecha. En escala lineal, la
+cola comprime el resto de la distribución; la escala logarítmica muestra las
+dos colas, que son las que se revisan antes de estimar.
+
+```r
+library(ggplot2)
+
+ggplot(arroz, aes(g_dia_ema)) +
+  geom_histogram(bins = 40, fill = "grey60", colour = "white") +
+  scale_x_log10() +
+  labs(x = "Gramos comestibles por EMA y día", y = "Hogares") +
+  theme_minimal()
+```
+
+El módulo 24 ejecuta este código sobre la ENGIH 2018 y muestra el resultado.
+
+# Estimaciones con intervalo
+
+Una proporción estimada con una encuesta compleja se presenta con su
+intervalo. `geom_pointrange()` muestra el punto y el intervalo en una sola
+geometría; ordenar las categorías por el valor estimado facilita la lectura.
+
+```r
+ggplot(riesgo, aes(x = pct_inadecuado,
+                   y = reorder(nutriente, pct_inadecuado),
+                   xmin = pct_low, xmax = pct_upp)) +
+  geom_pointrange() +
+  scale_x_continuous(limits = c(0, 100)) +
+  labs(x = "Hogares bajo el requerimiento (%)", y = NULL) +
+  theme_minimal()
+```
+
+# Gradiente por quintil
+
+```r
+ggplot(por_quintil, aes(x = quintil, y = folato_mediana,
+                        colour = escenario, group = escenario)) +
+  geom_line() +
+  geom_point() +
+  labs(x = "Quintil de ingreso per cápita",
+       y = "Folato, mediana (µg EFD por EMA y día)",
+       colour = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
+
+# Reglas de declaración
+
+- El eje cuantitativo declara la magnitud, la unidad y el denominador: «g por
+  EMA y día», no «consumo».
+- El pie de figura indica la fuente, si la estimación está ponderada y qué
+  hogares entran.
+- Una celda con precisión insuficiente no se pinta como si tuviera valor: se
+  marca y se declara (véase el módulo 28).
+
+::: callout-warning
+## Adaptación a otra encuesta
+
+Las figuras dependen solo de los nombres de columna de las tablas agregadas.
+Basta con renombrar las variables de la nueva encuesta para reutilizarlas; lo
+que no se traslada es el texto de los ejes, que debe reflejar las unidades y el
+denominador de la nueva estimación.
+:::
+
+# Autoevaluación
+
+1. ¿Por qué se usa escala logarítmica para la distribución del consumo?
+2. ¿Qué geometría representa una estimación con su intervalo?
+3. ¿Qué tres elementos debe declarar el eje de una figura de ingesta?
+
+**Claves.** (1) Por la asimetría a la derecha: la escala lineal comprime la
+mayor parte de la distribución. (2) `geom_pointrange()` o `geom_errorbar()`
+con `geom_point()`. (3) La magnitud, la unidad y el denominador.
+
+# Bibliografía
+
+Wickham, H. 2016. *ggplot2: Elegant Graphics for Data Analysis*, 2.ª ed.
+Springer. Edición en línea: <https://ggplot2-book.org/>
+
+Wilke, C. O. 2019. *Fundamentals of Data Visualization*. O'Reilly.
+<https://clauswilke.com/dataviz/>

@@ -69,7 +69,6 @@ git add contenido/actividades/tema05/modulo24.qmd _freeze/
 contenido/actividades/   módulos e-learning, por tema
 contenido/ejercicios/    ejercicios interactivos
 contenido/recursos/      scripts y material de apoyo
-contenido/taller/        taller presencial
 _entregables/            presentaciones de síntesis por módulo
 _freeze/                 resultados de ejecución congelados (se versiona)
 _notas/                  hoja de ruta de este repositorio

@@ -26,8 +26,6 @@ website:
             text: "✍️ Ejercicios Interactivos"
           - href: contenido/recursos/index.qmd
             text: "🧰 Recursos y Scripts"
-          - href: contenido/taller/dia1/index.qmd
-            text: "🏛️ Taller Presencial"
       - href: about.qmd 
         text: "📄 Acerca de" 
   sidebar:

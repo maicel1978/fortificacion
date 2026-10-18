@@ -7,6 +7,7 @@ listing:
     - "tema03"
     - "tema04"
     - "tema05"
+    - "tema06"
   type: default
   sort: "title"
   categories: true

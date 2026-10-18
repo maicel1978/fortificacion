@@ -1,0 +1,100 @@
+---
+title: "Módulo 28"
+subtitle: "Herramientas de R IV: mapas"
+author: "Maicel E. Monzón"
+date: 2026-10-18
+description: "Unidad 3.4. Mapas provinciales con sf y ggplot2: geometría oficial, proyección, unión por identificador y declaración de la precisión en el propio mapa."
+---
+
+# Sumario
+
+Un mapa provincial es una tabla de resultados unida a una geometría. Los
+errores típicos no son de dibujo: son una unión que falla en silencio, una
+proyección inadecuada o una provincia pintada con una estimación que la
+muestra no sostiene.
+
+**Objetivos de aprendizaje.** Al terminar, el participante será capaz de:
+
+- leer y proyectar la geometría provincial oficial;
+- unir resultados y geometría por identificador, comprobando la cardinalidad;
+- dibujar un coroplético que no pinte las celdas de precisión insuficiente.
+
+# Geometría y proyección
+
+La geometría de las 32 provincias procede del paquete `sfDR`, que la toma del
+geoportal del IDERD y de la División Territorial 2021 de la Oficina Nacional
+de Estadística (licencia MIT). Se proyecta a UTM zona 19 N (EPSG:32619), la
+que corresponde al país, para no dibujar en grados.
+
+```r
+library(sf)
+
+provincias <- st_read("provincias_rd.geojson", quiet = TRUE) |>
+  st_transform(32619)
+```
+
+# Unir por identificador, no por nombre
+
+Los nombres de provincia de la encuesta y de la cartografía no coinciden en
+todos los casos: «BAHORUCO» frente a «Baoruco», o «SALCEDO», nombre anterior
+de «Hermanas Mirabal». Unir por texto deja esas provincias sin valor y sin
+error. Se une por el identificador numérico de la División Territorial y se
+comprueba que no quede ninguna sin pareja.
+
+```r
+mapa <- provincias |>
+  left_join(riesgo_provincial, by = "id_provincia")
+
+stopifnot(nrow(mapa) == 32, !anyNA(mapa$n))
+```
+
+# Precisión declarada en el mapa
+
+Una provincia con precisión insuficiente se pinta en gris y la leyenda lo
+declara. Pintarla con su estimación invitaría a una afirmación subnacional que
+los datos no sostienen.
+
+```r
+mapa <- mapa |>
+  mutate(valor = if_else(precision_baja, NA_real_, pct_inadecuado))
+
+ggplot(mapa) +
+  geom_sf(aes(fill = valor), colour = "white", linewidth = 0.2) +
+  scale_fill_gradient(low = "#fde0c5", high = "#b2182b",
+                      na.value = "grey85",
+                      name = "Hogares bajo el\nrequerimiento (%)") +
+  theme_void()
+```
+
+![Hogares bajo el requerimiento de folato por provincia, norma nacional vigente. En gris, provincias con precisión insuficiente. ENGIH 2018; ponderado. La provincia no es dominio de estimación de la encuesta.](/static/images/mapa_riesgo_folato.png){fig-align="center" width="80%"}
+
+::: callout-warning
+## Adaptación a otro país
+
+La geometría, el sistema de referencia y la tabla de equivalencia entre los
+códigos territoriales de la encuesta y los de la cartografía son propios de
+cada país y de cada ronda de la encuesta, porque las divisiones territoriales
+cambian.
+:::
+
+# Autoevaluación
+
+1. ¿Por qué no se dibuja el mapa en coordenadas geográficas?
+2. ¿Qué ocurre si se une la geometría con los resultados por el nombre de la
+   provincia?
+3. ¿Por qué hay provincias en gris en el mapa?
+
+**Claves.** (1) Porque los grados no conservan distancias ni áreas; se
+proyecta a UTM 19 N. (2) Las provincias cuyo nombre difiere quedan sin valor,
+sin que se produzca ningún error. (3) Porque su estimación no tiene precisión
+suficiente; pintarla induciría una afirmación que la muestra no sostiene.
+
+# Bibliografía
+
+Pebesma, E. y Bivand, R. 2023. *Spatial Data Science: With Applications in
+R*. Chapman and Hall/CRC. <https://r-spatial.org/book/>
+
+Oficina Nacional de Estadística. 2021. *División Territorial 2021*. Santo
+Domingo.
+
+Paquete `sfDR`: <https://github.com/adatar-do/sfDR>

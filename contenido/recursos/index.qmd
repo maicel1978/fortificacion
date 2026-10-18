@@ -12,9 +12,9 @@ listing:
   fields: [title, description]
 ---
 
-En esta sección encontrarás una serie de recursos útiles tanto para la capacitación **e-learning** como para el desarrollo de los talleres presenciales.
+En esta sección encontrarás una serie de recursos útiles para la capacitación **e-learning**.
 
-Los recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, bases de datos en Excel y scripts en R (`cantidad_alimentos.R`), para la ejecución de análisis estadísticos para la fortificación de alimentos.
+Los recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, tablas de factores de conversión y de porción comestible, y scripts en R (`cantidad_alimentos.R`), para la ejecución de análisis estadísticos para la fortificación de alimentos.
 
 :::: column-screen-inset
 ::: {#recursos_listing}

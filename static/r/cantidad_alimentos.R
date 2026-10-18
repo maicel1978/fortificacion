@@ -79,16 +79,19 @@ c(personas = nrow(personas), hogares = nrow(ema_hogar),
 
 conv_universal <- read_excel(file.path(ruta_referencia, "factores_conversion.xlsx"),
                              sheet = "diccionario_conversion", na = "NA") |>
+  clean_names() |>
   filter(!is.na(fc)) |>
   select(unidad = id_unidad_medida_presentacion, fc_universal = fc)
 
 conv_especifico <- read_excel(file.path(ruta_referencia, "factores_conversion.xlsx"),
                               sheet = "Cuest. B Sec 3A", na = "NA") |>
+  clean_names() |>
   filter(!is.na(fc)) |>
   select(descripcion, unidad = id_unidad_medida_presentacion, fc_especifico = fc)
 
 porcion <- read_excel(file.path(ruta_referencia, "porcion_comestible.xlsx"),
                       sheet = "Cuest. B Sec 3A") |>
+  clean_names() |>
   transmute(id_variedad = as.character(id_variedad),
             pc = as.numeric(gsub(",", ".", as.character(edible))))
 

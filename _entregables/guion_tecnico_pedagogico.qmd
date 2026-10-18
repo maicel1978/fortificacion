@@ -1,0 +1,481 @@
+---
+title: "Guion instruccional y técnico-pedagógico"
+subtitle: "Módulos e-learning sobre cobertura, consumo y contribución de alimentos fortificados y fortificables usando encuestas de gasto y consumo de los hogares"
+author: "Maicel E. Monzón"
+lang: es
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+---
+
+# 1. Propósito y alcance
+
+Este documento organiza el programa según las cinco categorías de los términos de referencia (TdR), describe el diseño instruccional de cada unidad y registra su estado al cierre de la consultoría. Responde al ítem 14 de las notas metodológicas.
+
+# 2. Marco instruccional
+
+## 2.1 Población destinataria
+
+Personal técnico de ministerios de salud, autoridades de control de alimentos, institutos de nutrición y oficinas de estadística de los países donde se implementa inicialmente el paquete de asistencia técnica. Se asume formación en nutrición, salud pública o estadística. No se asume experiencia previa en R: la categoría 3 cubre las herramientas necesarias para las aplicaciones de la categoría 4.
+
+## 2.2 Modalidad y duración
+
+Aprendizaje autodirigido en línea, en unidades de 15 a 40 minutos. La duración de cada módulo se calibrará al cerrar la producción de las video-lecciones.
+
+## 2.3 Enfoque pedagógico
+
+La secuencia avanza de los fundamentos conceptuales a la política, de la política a las herramientas y de las herramientas a la aplicación, y cierra con una síntesis. La aplicación se construye sobre un caso real: los microdatos de la ENGIH 2018 de República Dominicana. El énfasis se pone en el razonamiento que sustenta cada paso del procesamiento, de modo que el participante pueda adaptar el flujo a otra encuesta, conforme a los ítems 9, 11 y 12 del TdR.
+
+## 2.4 Componentes estándar de cada módulo
+
+| **Componente**              | **Descripción**                                                                   | **Ítem del TdR** |
+|-----------------------------|-----------------------------------------------------------------------------------|------------------|
+| Objetivos de aprendizaje    | Formulados en términos observables, al inicio del módulo.                         | 14               |
+| Contenido                   | Texto del módulo en la plataforma.                                                | 14               |
+| Video-lección               | Exposición del contenido central.                                                 | 15               |
+| Presentación descargable    | Síntesis del módulo en PPT y PDF.                                                 | 15               |
+| Script y plantilla          | Código R comentado para la práctica, en los módulos que lo requieren.             | 16               |
+| Advertencia de portabilidad | Nota sobre la adaptación necesaria para aplicar el código a otra encuesta o país. | 9                |
+| Autoevaluación              | 3 a 5 preguntas con clave de respuestas.                                          | 17               |
+| Referencias                 | Lista verificada al final del módulo.                                             | 13               |
+
+## 2.5 Flujo de aprendizaje dentro del módulo
+
+- Activación: pregunta orientadora que vincula el módulo con el problema de evaluación.
+
+- Exposición: video-lección y texto.
+
+- Demostración: ejemplo resuelto con datos reales, en los módulos con código.
+
+- Práctica: ejercicio guiado.
+
+- Autoevaluación: preguntas con retroalimentación.
+
+- Ampliación: referencias y recursos complementarios.
+
+# 3. Estructura del programa alineada con el TdR
+
+| TdR | Unidad | Módulos | Estado |
+|---|---|---|---|
+| 1.1 | Introducción a la fortificación | 01 | Publicado |
+| 1.2 | Evaluación dietética con encuestas de gasto y consumo | 06 | Publicado |
+| 1.3 | Procesamiento de datos de consumo | 09, 10 | Publicado |
+| 1.4 | Ajuste por EMA | 11, 12 | Publicado |
+| 1.5 | Valores de referencia y tablas de composición | 07, 08 | Publicado |
+| 1.6 | Adecuación de la ingesta | 03, 04 | Publicado |
+| 2.1 | Políticas de fortificación | 02, 05, 14–17 | Publicado |
+| 3.1 | Introducción a R | 25 | Publicado |
+| 3.2 | Visualización con ggplot2 | 26 | Publicado |
+| 3.3 | Análisis de encuestas con srvyr | 27 | Publicado |
+| 3.4 | Mapas en R | 28 | Publicado |
+| 4.0 | Introducción a la base de datos | 29 | Publicado |
+| 4.1 | Consumo aparente | 24 | Publicado, con datos reales |
+| 4.2 | Consumo de vehículos (indicadores 1 y 2) | 13 | Publicado; aplicación en el informe |
+| 4.3 | Ingesta aparente (indicador 3) | 07, 08, 24 | Aplicación en el código del análisis |
+| 4.4 | Contribución a la adecuación (indicador 4) | 03, 04, 15–17 | Aplicación en el código del análisis |
+| 5.1 | Síntesis de aprendizajes | 30 | Publicado |
+
+La plataforma publica los módulos 01 a 17 y 24 a 30. Los módulos 18 a 23 se retiraron porque empleaban datos simulados o de otra encuesta, contra la Nota Metodológica 5; su contenido aplicado queda cubierto por el módulo 24, por las unidades 25 a 30 y por el código del análisis.
+
+# 4. Componentes por módulo
+
+| Módulos | Texto | Presentación | Video | Autoevaluación | Código R |
+|---|---|---|---|---|---|
+| 01–10, 12, 14, 17 | Sí | Sí | Sí | Sí | — |
+| 11, 13 | Sí | Sí | Sí | Sí | — |
+| 15, 16 | Sí | Sí | Retirado | Sí | — |
+| 24 | Sí | Sí | No | Sí | Ejecutado con datos reales |
+| 25–28 | Sí | Sí | No | Sí | Mostrado, de la cadena del análisis |
+| 29, 30 | Sí | Sí | No | Sí | — |
+
+La plataforma ofrece las video-lecciones como enlace y como archivo descargable. Las presentaciones están en `_entregables/presentaciones/`, en PPTX y PDF. El banco de preguntas reunido está en `_entregables/banco_preguntas.qmd`.
+
+# 5. Fichas por unidad
+
+## 1.1 Introducción a la fortificación de alimentos
+
+**Módulos.** 01
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Describir las principales carencias de micronutrientes y su relevancia en salud pública.
+- Distinguir las estrategias de control de carencias y situar la fortificación a gran escala entre ellas.
+- Definir los conceptos de requerimiento promedio estimado, nivel de fortificación, nivel máximo tolerable y nivel factible de fortificación, y relacionarlos entre sí.
+
+**Contenidos.** 
+
+- Déficits nutricionales y su magnitud.
+- Estrategias de control de carencias de micronutrientes.
+- Políticas y programas de fortificación a gran escala.
+- Conceptos clave: EAR, FL, UL, FFL y porcentaje de adecuación.
+
+**Recursos.** Video-lección; texto del módulo; ejercicio 01.
+
+**Evaluación.** Banco de preguntas del ejercicio 01.
+
+**Estado.** Publicado. Referencias verificadas.
+
+## 1.2 Evaluación dietética con encuestas de gasto y consumo de los hogares
+
+**Módulos.** 06
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Caracterizar las encuestas de gasto y consumo de los hogares (ENIGH, ENCOVI, ENGIH, ECV) y su diseño.
+- Valorar sus fortalezas y limitaciones frente a los métodos de evaluación individual.
+- Identificar los módulos de la encuesta necesarios para el modelado dietético y la documentación de respaldo.
+
+**Contenidos.** 
+
+- Definición y diseño de las HCES.
+- Fortalezas, limitaciones y utilidad de los resultados.
+- Módulos útiles para el modelado de dietas y pasos iniciales.
+- Fuentes de datos y documentación esencial.
+
+**Recursos.** Video-lección; texto del módulo; ejercicio asociado.
+
+**Evaluación.** Banco de preguntas del ejercicio asociado.
+
+**Estado.** Publicado. Referencias verificadas y corregidas.
+
+## 1.3 Procesamiento de datos de consumo
+
+**Módulos.** 09, 10
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Explicar las limitaciones del enfoque per cápita para estimar consumo.
+- Estandarizar unidades de medida a gramos y aplicar factores de porción comestible.
+- Integrar la base de consumo con las tablas auxiliares necesarias para el modelado.
+
+**Contenidos.** 
+
+- Fundamentos de la estandarización del consumo poblacional.
+- Requerimientos energéticos variables y métodos de ajuste.
+- Balances alimentarios y ajustes de consumo.
+- Integración de la base de datos y pasos de preparación.
+
+**Recursos.** Video-lecciones; texto de los módulos; ejercicios asociados.
+
+**Evaluación.** Bancos de preguntas de los ejercicios asociados.
+
+**Estado.** Publicado. Terminología EMA unificada.
+
+## 1.4 Ajuste por equivalente de mujer adulta (EMA)
+
+**Módulos.** 11, 12
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Justificar la elección de la mujer adulta de 18 a 29 años como unidad de referencia.
+- Calcular factores EMA por miembro y el total de EMA por hogar.
+- Reconocer los ajustes contextuales posibles y la información que cada uno requiere.
+
+**Contenidos.** 
+
+- Contexto y relevancia del método.
+- Cálculo de factores de conversión.
+- Ventajas, desventajas y aplicación práctica.
+- Ajustes contextuales, demográficos y de ciclo vital.
+
+**Recursos.** Video-lecciones; texto de los módulos; ejercicios asociados.
+
+**Evaluación.** Bancos de preguntas de los ejercicios asociados.
+
+**Estado.** Publicado. La ENGIH 2018 no registra embarazo ni lactancia, de modo que ese ajuste no se aplica en el caso dominicano.
+
+## 1.5 Valores de referencia y tablas de composición de alimentos
+
+**Módulos.** 07, 08
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Diferenciar los valores de referencia de ingesta (EAR, ingesta recomendada, ingesta adecuada, nivel máximo tolerable) y su uso en el análisis poblacional.
+- Seleccionar tablas de composición pertinentes y documentar la equivalencia entre alimentos de la encuesta y de la tabla.
+- Reconocer las limitaciones de combinar datos de gasto con tablas de composición.
+
+**Contenidos.** 
+
+- Valores de referencia: tipos, fuentes y uso en HCES.
+- Tablas de composición: definición, fuentes y uso.
+- Limitaciones y consideraciones metodológicas.
+
+**Recursos.** Video-lecciones; texto de los módulos; ejercicios asociados.
+
+**Evaluación.** Bancos de preguntas de los ejercicios asociados.
+
+**Estado.** Publicado. Referencias verificadas.
+
+## 1.6 Evaluación de la adecuación de la ingesta
+
+**Módulos.** 03, 04
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Aplicar el método del punto de corte del EAR y explicar sus supuestos.
+- Explicar por qué el hierro requiere el enfoque probabilístico completo.
+- Identificar la información necesaria para cada método, incluidos los ajustes por biodisponibilidad.
+
+**Contenidos.** 
+
+- Método del punto de corte del EAR: fundamentos, pasos y adaptaciones.
+- Niveles de referencia e inocuidad; biodisponibilidad.
+- Enfoque probabilístico para hierro: justificación, descripción e información requerida.
+
+**Recursos.** Video-lecciones; texto de los módulos; ejercicios asociados.
+
+**Evaluación.** Bancos de preguntas de los ejercicios asociados.
+
+**Estado.** Publicado. Erratas corregidas.
+
+## 2.1 Políticas de fortificación de alimentos
+
+**Módulos.** 02, 05, 14, 15, 16, 17
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Describir las etapas de planificación y diseño de un programa de fortificación.
+- Relacionar el sistema de monitoreo, evaluación y aprendizaje con los cuatro indicadores de evaluación del programa.
+- Calcular niveles factibles de fortificación según la metodología OMS/FAO y niveles de adición a partir del EAR.
+- Construir y comparar escenarios de fortificación.
+
+**Contenidos.** 
+
+- Planificación, objetivos y diseño del programa.
+- Monitoreo, evaluación y aprendizaje; indicadores seleccionados.
+- Marco metodológico integrado para el diseño y evaluación.
+- Nivel factible de fortificación y cálculo de adiciones.
+- Construcción de escenarios.
+
+**Recursos.** Video-lecciones; texto de los módulos; ejercicios asociados.
+
+**Evaluación.** Bancos de preguntas de los ejercicios asociados.
+
+**Estado.** Publicado. Los videos de los módulos 15 y 16 se retiraron porque exponían el método de cálculo del nivel de fortificación anterior a su corrección; el texto y el ejercicio están actualizados.
+
+## 3.1 Introducción a R: importación, limpieza y análisis preliminar
+
+**Módulos.** 25
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Importar hojas de Excel de una encuesta controlando el tipo de cada columna.
+- Construir una clave de hogar única y comprobar que una unión no multiplica filas.
+- Diagnosticar valores ausentes y unidades heterogéneas antes de calcular.
+
+**Contenidos.**
+
+- Importación con control de tipos.
+- Claves de unión y guardas de cardinalidad.
+- Diagnóstico de ausentes y unidades.
+- Diferencia entre valor ausente y cero.
+
+**Recursos.** Texto y código del módulo; remisión a los temas I a IV del curso propio de R para la base general del lenguaje; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado. Código tomado de la cadena de análisis verificada.
+
+## 3.2 Visualización con ggplot2
+
+**Módulos.** 26
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Construir una figura de distribución con escala logarítmica.
+- Representar estimaciones ponderadas con su intervalo.
+- Declarar magnitud, unidad y denominador.
+
+**Contenidos.**
+
+- Gramática de capas.
+- Distribución, estimación con intervalo y gradiente.
+- Reglas de declaración de ejes y pies.
+
+**Recursos.** Texto y código del módulo; figura ejecutada en el módulo 24; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado.
+
+## 3.3 Análisis de encuestas con srvyr
+
+**Módulos.** 27
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Declarar un diseño estratificado por conglomerados con factor de expansión.
+- Estimar proporciones y medianas con su intervalo.
+- Juzgar la precisión de cada celda al desagregar.
+
+**Contenidos.**
+
+- Diseño muestral de la ENGIH 2018.
+- Estimación nacional y por dominio.
+- Dominios de estimación y criterio de precisión.
+
+**Recursos.** Texto y código del módulo; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado.
+
+## 3.4 Mapas en R
+
+**Módulos.** 28
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Leer y proyectar la geometría provincial oficial.
+- Unir resultados y geometría por identificador.
+- Dibujar un coroplético que no pinte celdas sin precisión.
+
+**Contenidos.**
+
+- Geometría y proyección.
+- Unión por identificador territorial.
+- Precisión declarada en el mapa.
+
+**Recursos.** Texto y código del módulo; mapa de riesgo de folato del análisis; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado.
+
+## 4.0 Introducción a la base de datos
+
+**Módulos.** 29
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Identificar las secciones de la ENGIH que registran alimentos.
+- Describir la unidad de análisis y el diseño muestral.
+- Enumerar las limitaciones de la encuesta para estimar ingesta.
+
+**Contenidos.**
+
+- Archivos, secciones y conteos.
+- Período de registro y unidades.
+- Diseño muestral.
+- Lo que la encuesta no permite.
+
+**Recursos.** Texto del módulo; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado.
+
+## 4.1 Cálculo del consumo aparente
+
+**Módulos.** 24
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Calcular el EMA de cada hogar a partir del requerimiento energético.
+- Convertir cantidades declaradas a gramos comestibles.
+- Expresar la adquisición en consumo diario con los días registrados por hogar.
+- Medir los registros sin factor o sin porción comestible.
+
+**Contenidos.**
+
+- Equivalente de mujer adulta por requerimiento energético.
+- Tablas de factores de conversión y de porción comestible.
+- Período de registro por hogar.
+- Control de la cobertura de las uniones.
+
+**Recursos.** Texto y código ejecutado con los microdatos de la ENGIH 2018; script independiente `static/r/cantidad_alimentos.R`; tablas de referencia descargables; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado con datos reales. Sus cifras de control coinciden con las del análisis.
+
+## 4.2 Consumo de vehículos de fortificación (indicadores 1 y 2)
+
+**Módulos.** 13
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Definir la cobertura de un vehículo como proporción de hogares que lo adquieren.
+- Distinguir cobertura de cantidad consumida.
+- Estratificar la cobertura por dominio.
+
+**Contenidos.**
+
+- Cobertura y consumo.
+- Desagregación nacional y subnacional.
+
+**Recursos.** Texto del módulo y ejercicio 13; resultados en el informe analítico (cobertura y consumo de vehículos); presentación de síntesis.
+
+**Evaluación.** Ejercicio 13.
+
+**Estado.** Publicado. La aplicación con datos reales está en el informe analítico y en el código del análisis.
+
+## 4.3 Ingesta aparente de micronutrientes (indicador 3)
+
+**Módulos.** 07, 08 y 24
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Estimar la ingesta aparente por EMA a partir de una tabla de composición.
+- Reconocer el efecto de las correspondencias incompletas.
+
+**Contenidos.**
+
+- Vinculación de consumo y composición.
+- Cobertura de la composición como límite inferior.
+
+**Recursos.** Módulos 07 y 08 (conceptos), 24 (consumo por EMA); aplicación completa en `05_ingesta_micronutrientes.R` y en el manual técnico.
+
+**Evaluación.** Ejercicios 07 y 08.
+
+**Estado.** Cubierto por los módulos conceptuales y por el código del análisis. Sin módulo propio con ejecución.
+
+## 4.4 Contribución de los alimentos fortificados a la adecuación (indicador 4)
+
+**Módulos.** 03, 04, 15, 16 y 17
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Estimar el riesgo de ingesta inadecuada con y sin fortificación.
+- Comparar escenarios de fortificación.
+
+**Contenidos.**
+
+- Punto de corte del requerimiento y enfoque de probabilidad para hierro.
+- Nivel de fortificación y escenarios.
+
+**Recursos.** Módulos conceptuales; aplicación completa en `06_escenarios_fortificacion.R` y `07_riesgo_inadecuacion.R`, en el informe y en el manual técnico.
+
+**Evaluación.** Ejercicios 03, 04, 15, 16 y 17.
+
+**Estado.** Cubierto por los módulos conceptuales y por el código del análisis. Sin módulo propio con ejecución.
+
+## 5.1 Síntesis de aprendizajes
+
+**Módulos.** 30
+
+**Objetivos de aprendizaje.** Al finalizar, el participante será capaz de:
+
+- Describir en orden las etapas de la encuesta al escenario de fortificación.
+- Identificar la decisión que más afecta al resultado en cada etapa.
+- Reconocer qué responde este enfoque y qué no.
+
+**Contenidos.**
+
+- Las siete etapas del procedimiento.
+- Errores que el procedimiento debe evitar.
+- Alcance y adaptación a otro país (ítem 9).
+
+**Recursos.** Texto del módulo; presentación de síntesis.
+
+**Evaluación.** Autoevaluación de 3 a 4 preguntas con clave, al final del módulo.
+
+**Estado.** Publicado.
+
+# 6. Decisiones de cierre y pendientes
+
+- **Datos.** Toda la aplicación usa la ENGIH 2018 real. Los microdatos no se distribuyen con la plataforma: se solicitan a la Oficina Nacional de Estadística y se colocan en una carpeta local que no se publica. Las tablas de referencia sí se publican.
+- **Indicadores del sistema de evaluación.** La definición operativa de los cuatro indicadores no se recibió durante la consultoría. Las unidades 4.2 a 4.4 se construyeron con la estructura de cálculo del análisis y se ajustarán a la definición final.
+- **Categoría 3.** Versión mínima aplicada a la encuesta, con remisión al curso propio de R para la base general del lenguaje.
+- **Pendiente:** video-lecciones de los módulos 15, 16 y 24 a 30; módulos aplicados con ejecución para las unidades 4.3 y 4.4.

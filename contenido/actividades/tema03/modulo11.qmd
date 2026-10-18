@@ -59,6 +59,8 @@ A continuación, una tabla con factores de conversión de ejemplo, basados en ne
 | Hombres (30-50 años) | 2,400 | 1.20 |
 | Mujeres (30-50 años) | 1,900 | 0.95 |
 
+Los valores de la tabla son ilustrativos. El análisis de la ENGIH 2018 toma como referencia 2.291 kcal, el requerimiento de la mujer de 18 a 30 años, 55 kg y actividad moderada (FAO/WHO/UNU, 2004); el módulo 24 aplica esos valores.
+
 ------------------------------------------------------------------------
 
 # Ventajas y Desventajas del Método EMA
@@ -83,7 +85,7 @@ El principal uso de este método es para ajustar el consumo de alimentos reporta
 
 Preparándonos para el Ejemplo Práctico
 
-En la sección de casos de uso, aplicaremos lo que hemos aprendido sobre el método EMA/AFE con un ejemplo concreto en **R**. Utilizaremos un conjunto de datos simulado de un hogar para calcular los factores EMA, ajustar el consumo total y obtener el consumo per cápita ajustado. Este ejercicio te permitirá consolidar los conceptos teóricos y te preparará para el análisis de datos reales en el futuro.
+El módulo 24 aplica el método EMA a los microdatos de la ENGIH 2018: calcula el equivalente de cada miembro a partir de su requerimiento energético, lo agrega por hogar y expresa el consumo en gramos por EMA y día.
 
 Puede realizar los ejercicio de este módulo en el siguiente enlace:
 

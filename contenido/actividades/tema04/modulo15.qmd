@@ -6,12 +6,6 @@ author: "Maicel Monzon"
 description: "Se describe la lógica de la metodología OMS/FAO para establecer el nivel factible de fortificación: la meta de ingesta adicional, los límites de inocuidad, tecnológico y de costo, y la regla de decisión"
 ---
 
-A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
-
-{{< video https://youtu.be/UtH710_IrZY >}}
-
-[El módulo puede ser descargado desde aquí](/static/videos/videomodulo15.zip)
-
 # Sumario
 
 -   Qué se decide al fijar un nivel de fortificación

@@ -1,0 +1,597 @@
+---
+title: "Banco de preguntas de evaluación"
+subtitle: "Módulos e-learning sobre cobertura, consumo y contribución de alimentos fortificados y fortificables"
+author: "Maicel E. Monzón"
+lang: es
+format:
+  docx:
+    toc: true
+    toc-depth: 1
+---
+
+Preguntas de autoevaluación con su clave de respuesta, por módulo (ítem 17 de los términos de referencia). Las mismas preguntas figuran, en formato interactivo, en la plataforma: los módulos 1 a 17 en su ejercicio correspondiente y los módulos 24 a 30 al final de cada módulo.
+
+# Módulo 01. Micronutrientes y carencias nutricionales
+
+1. ¿Es la siguiente definición verdadera? **Micronutrientes esenciales:** Nutrientes que el cuerpo requiere en cantidades traza para funciones bioquímicas específicas, como cofactores enzimáticos o antioxidantes, y que pueden ser sintetizados parcialmente por el organismo o la microbiota intestinal.
+
+    *Respuesta:* Falso Los **micronutrientes esenciales** son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el **cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes** para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
+
+2. ¿Cuál es las carencia de micronutriente más frecuentes en el mundo?
+
+    *Respuesta:* Deficiencia de hierro La deficiencia de hierro es la más común a nivel global y una de las principales causas de anemia, afectando especialmente a mujeres en edad fértil, embarazadas y niños pequeños. Se estima que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren falta de hierro.
+
+3. ¿Cuáles son las carencias nutricionales más frecuentes en Cuba?
+
+    a) Déficit de vitamina A
+    b) Déficit de vitamina D
+    c) Anemia por déficit de hierro
+    d) Déficit de Yodo
+
+    *Respuesta:* a) Déficit de vitamina A; c) Anemia por déficit de hierro; d) Déficit de Yodo
+
+4. ¿Cuál es la definición completa de fortificación de alimentos según organismos internacionales?
+
+    a) Adición de vitaminas a alimentos para grupos específicos como niños o embarazadas
+    b) Incremento deliberado de micronutrientes esenciales en alimentos para mejorar la calidad nutricional con beneficio de salud pública
+    c) Adición de minerales solo a alimentos básicos como harinas o leche para consumo masivo
+
+    *Respuesta:* Incremento deliberado de micronutrientes esenciales en alimentos para mejorar la calidad nutricional con beneficio de salud pública
+
+# Módulo 02. Planificación y diseño de un programa de fortificación
+
+1. Fortificacion se define como:
+
+    a) La fortificación es la práctica de incrementar deliberadamente el contenido de un micronutriente esencial de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo para la salud.
+    b) La fortificación se refiere a la adición de micronutrientes a alimentos que consume comúnmente la población en general, como cereales, condimentos y leche.
+    c) Se refiere a la fortificación de alimentos diseñados para subgrupos específicos de la población, como los alimentos complementarios para el destete de lactantes.
+
+    *Respuesta:* La fortificación es la práctica de incrementar deliberadamente el contenido de un micronutriente esencial de manera que mejore la calidad nutricional del suministro alimentario y proporcione un beneficio de salud pública con un riesgo mínimo para la salud.
+
+2. En el control de las carencias de micronutrientes Seleccione tres estrategias
+
+    a) Aumento de la diversidad de la dieta
+    b) Fortificación de alimentos
+    c) Suplementación
+    d) Restricción de consumo de frutas
+
+    *Respuesta:* Aumento de la diversidad de la dieta; Fortificación de alimentos; Suplementación
+
+3. Ponga las etapas de fortificación a gran escala en orden (ordenar)
+
+    *Respuesta:* Orden correcto: 1) Identificación de las Deficiencias de Micronutrientes y las Poblaciones Objetivo; 2) Selección de Alimentos Vehiculares Apropiados para la Fortificación; 3) Determinación de los Niveles de Fortificación y los Fortificantes Adecuados; 4) Desarrollo y Promulgación de Legislación y Normas de Fortificación; 5) Establecimiento de Organismos Reguladores y Mecanismos de Cumplimiento; 6) Establecimiento de Sistemas de Garantía y Control de Calidad en la Producción de Alimentos Fortificados; 7) Evaluación del Impacto del Programa en el Estado Nutricional y la Salud Pública de la Población
+
+# Módulo 03. Método del punto de corte del requerimiento promedio estimado (RPE)
+
+1. ¿Es la siguiente definición verdadera? **Estimated Average Requirement (EAR):** El nivel de ingesta promedio diaria de nutrientes estimado para satisfacer los requerimientos de casi todos (97-98%) los individuos sanos en una etapa de vida y grupo de género específicos.
+
+    *Respuesta:* Falso. La definición corresponde a la **Recommended Dietary Allowance (RDA)**. El **EAR** se refiere a la ingesta diaria de nutrientes estimada para satisfacer los requerimientos del 50% de los individuos sanos en un grupo demográfico específico.
+
+2. ¿Cuál es el principal propósito del método EAR Cutoff Point en salud pública?
+
+    *Respuesta:* Estimar la prevalencia de ingesta inadecuada de un nutriente en una población. El método se utiliza para evaluar el estado nutricional de un grupo de personas y determinar qué porcentaje de la población tiene una ingesta insuficiente de un micronutriente.
+
+3. En el contexto del método EAR, ¿cuál de los siguientes pasos es crucial para predecir el impacto de la fortificación?
+
+    a) Calcular la cantidad de nutriente que la población consume actualmente.
+    b) Simular el efecto de la adición del nutriente al alimento.
+    c) Analizar la distribución de la ingesta de alimentos a lo largo del tiempo.
+    d) Medir la estatura y el peso de la población.
+
+    *Respuesta:* b) Simular el efecto de la adición del nutriente al alimento. Este paso permite a los planificadores de salud pública predecir los resultados de diferentes escenarios de fortificación antes de implementarlos a gran escala.
+
+4. Pregunta de desarrollo breve: Explique por qué el método EAR Cutoff Point es más adecuado para evaluar poblaciones que el Recommended Dietary Allowance (RDA).
+
+    *Respuesta:* El RDA está diseñado como un objetivo de ingesta individual para garantizar que las necesidades de casi todos los individuos (97-98%) se cumplan, por lo que su uso para evaluar una población completa podría sobrestimar la prevalencia de deficiencias. Por otro lado, el EAR representa la necesidad promedio de un grupo y, por lo tanto, es la herramienta adecuada para estimar la proporción de una población con ingestas inadecuadas.
+
+5. Verdadero o Falso El Tolerable Upper Intake Level (UL) es un concepto irrelevante en la planificación de la fortificación.
+
+    *Respuesta:* Falso. El **UL** es crucial para garantizar la seguridad de la fortificación, ya que define el nivel máximo de ingesta que no presenta riesgo de efectos adversos para la salud. Superar el UL podría causar toxicidad en la población.
+
+# Módulo 04. Método de enfoque completo de probabilidades
+
+1. ¿Cuál es el principal propósito del **Método de Enfoque Completo de Probabilidades** en salud pública?
+
+    a) Simplificar la evaluación nutricional de un individuo.
+    b) Calcular la prevalencia de una ingesta inadecuada de un nutriente en una población de manera más precisa.
+    c) Determinar la ingesta máxima tolerable de un nutriente.
+    d) Medir el impacto de la fortificación en la biodisponibilidad de un nutriente.
+
+    *Respuesta:* b) Calcular la prevalencia de una ingesta inadecuada de un nutriente en una población de manera más precisa. Este método analiza la probabilidad de ingesta insuficiente en cada segmento de la población, sumando los riesgos para obtener una prevalencia mucho más precisa que los métodos basados en un promedio.
+
+2. En el contexto del **Enfoque de Probabilidades Completo**, ¿cuál de los siguientes es un paso crucial para la fortificación?
+
+    a) Calcular el costo de los alimentos a fortificar.
+    b) Ignorar la biodisponibilidad del nutriente para simplificar el cálculo.
+    c) Simular cómo la fortificación reduciría la prevalencia de ingesta inadecuada a un nivel aceptable.
+    d) Medir únicamente el consumo de sal en la población.
+
+    *Respuesta:* c) Simular cómo la fortificación reduciría la prevalencia de ingesta inadecuada a un nivel aceptable. Este paso permite a los planificadores de salud pública predecir los resultados de diferentes escenarios de fortificación para alcanzar un objetivo de prevalencia aceptable (generalmente entre el 2% y el 3%) antes de su implementación a gran escala.
+
+3. Pregunta de desarrollo breve: Explique por qué el **Método de Enfoque Completo de Probabilidades** es más adecuado que un método basado en un promedio para la fortificación con hierro.
+
+    *Respuesta:* El método de probabilidades es más adecuado porque el requerimiento de hierro varía significativamente entre subgrupos de la población, como en las mujeres debido a las pérdidas menstruales. Un método basado en un promedio podría subestimar la prevalencia de deficiencia en estos grupos. El Enfoque de Probabilidades analiza la probabilidad de deficiencia en cada segmento, ofreciendo una imagen más completa y precisa del riesgo nutricional de la población.
+
+4. Verdadero o Falso El **Enfoque de Probabilidades Completo** requiere datos detallados sobre la distribución de la ingesta habitual del nutriente, el consumo del alimento a fortificar y la biodisponibilidad del nutriente.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. Para aplicar este método de manera efectiva, se necesitan datos precisos sobre la distribución de la ingesta y el consumo de alimentos, ya que la evaluación se basa en la simulación de estos factores para predecir el impacto de la fortificación.
+
+# Módulo 05. Indicadores MEL en programas de fortificación de alimentos
+
+1. ¿Cuál de los siguientes indicadores mide **cobertura** en un programa de fortificación?
+
+    a) Proporción de la población que consume el alimento fortificado (PAF)
+    b) Promedio de consumo del alimento fortificado
+    c) Ingesta aparente total de micronutrientes
+    d) Proporción de hogares bajo el Requerimiento Promedio Estimado (RPE)
+
+    *Respuesta:* a) Proporción de la población que consume el alimento fortificado (PAF) El PAF refleja el nivel de **cobertura real** del alimento fortificado en la población, mostrando cuántas personas acceden efectivamente al vehículo seleccionado.
+
+2. Verdadero o falso **Un alto PAF garantiza automáticamente un impacto positivo en el estado nutricional de la población.**
+
+    *Respuesta:* Falso Un PAF alto indica buena distribución y consumo, pero no necesariamente impacto nutricional. Si la **dosis de fortificación es insuficiente** o la dieta general es pobre en micronutrientes, las deficiencias persistirán.
+
+3. Relaciona cada indicador con su función principal en el MEL 1. Promedio de consumo del alimento fortificado 2. Ingesta aparente total de micronutrientes 3. Proporción de hogares bajo RPE 4. Proporción de la población que consume el alimento fortificado
+
+    a) Cobertura de la intervención
+    b) Diagnóstico de suficiencia nutricional final
+    c) Estima el aporte potencial de la dieta fortificada
+    d) Intensidad del consumo
+
+    *Respuesta:* 1 → d) Intensidad del consumo 2 → c) Estima el aporte potencial de la dieta fortificada 3 → b) Diagnóstico de suficiencia nutricional final 4 → a) Cobertura de la intervención
+
+# Módulo 06. Generalidades de las Encuestas de Consumo y Gastos en los Hogares (HCES)
+
+1. ¿Es la siguiente afirmación verdadera? El objetivo principal de las **Encuestas de Consumo y Gasto en los Hogares (HCES)** es recopilar información sobre los patrones de gasto y el consumo de alimentos para diseñar programas de ayuda económica.
+
+    *Respuesta:* Falso. Aunque las HCES recopilan información sobre gastos, su objetivo principal no es solo la ayuda económica. Estas encuestas son una herramienta clave para **analizar la seguridad alimentaria** y **evaluar el estado nutricional** de la población a nivel nacional, permitiendo a los planificadores de salud entender qué consume la gente y cómo eso afecta su nutrición.
+
+2. ¿Cuál de los siguientes es un uso clave de los datos de las HCES en la planificación de la fortificación de alimentos?
+
+    a) Calcular la cantidad de fortificante que se necesita a nivel industrial.
+    b) Medir los precios de los alimentos en los mercados locales.
+    c) Estimar la ingesta de alimentos a nivel de la población para guiar las políticas de fortificación.
+    d) Determinar la biodisponibilidad de un nutriente en la dieta.
+
+    *Respuesta:* c) Estimar la ingesta de alimentos a nivel de la población para guiar las políticas de fortificación. Los datos de las HCES permiten a los expertos en salud pública **estimar el consumo de alimentos vehículo** (como la harina o el aceite) en diferentes grupos de la población. Esta información es crucial para decidir cuánto fortificante se debe añadir para lograr un impacto positivo sin causar efectos de toxicidad.
+
+3. En el contexto de las HCES, ¿qué información es crucial para poder vincular la ingesta de alimentos con el estado nutricional?
+
+    a) El nombre completo de los miembros del hogar.
+    b) Los datos de salud (peso, talla, etc.) junto con la información sobre el consumo de alimentos.
+    c) Las preferencias de cocina de cada familia.
+    d) El nivel de educación de los adultos en el hogar.
+
+    *Respuesta:* b) Los datos de salud (peso, talla, etc.) junto con la información sobre el consumo de alimentos. Para poder evaluar el estado nutricional de una población, es fundamental no solo saber qué consumen, sino también tener **indicadores de salud** que permitan correlacionar la ingesta con el estado de salud y nutrición.
+
+4. Pregunta de desarrollo breve: Explique la diferencia principal entre los datos de consumo obtenidos de una **Encuesta de Consumo y Gasto en los Hogares (HCES)** y un **Registro de Consumo Individual**.
+
+    *Respuesta:* La principal diferencia radica en el nivel de detalle. Una HCES recopila datos a nivel del hogar, registrando los alimentos y el gasto de toda la familia. Por el contrario, un Registro de Consumo Individual mide la ingesta de alimentos y nutrientes de una persona específica a lo largo del tiempo. Las HCES son útiles para análisis de población a gran escala, mientras que los registros individuales ofrecen información más precisa sobre la ingesta real de cada persona.
+
+5. Verdadero o Falso Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta útil para estimar la cantidad de nutrientes que un niño de 3 años está consumiendo en una familia de cinco personas.
+
+    *Respuesta:* Falso. Las HCES registran la cantidad de alimentos disponibles para el consumo del hogar, no la ingesta individual. Por lo tanto, no pueden determinar con precisión cuánto consumió un niño de 3 años. Para eso, se necesitarían **encuestas de ingesta dietética individual** o registros de consumo detallados.
+
+# Módulo 07. Valores de referencia de ingesta de nutrientes
+
+1. ¿Es la siguiente afirmación verdadera? Los **Valores de Referencia de Nutrientes (VRN)** que se encuentran en el etiquetado de los alimentos son valores arbitrarios establecidos por la industria alimentaria para marketing.
+
+    *Respuesta:* Falso. La afirmación es falsa. Los VRN son valores estandarizados que se basan en una extensa investigación científica realizada por organismos internacionales como la **Organización Mundial de la Salud (OMS)**, con el objetivo de guiar las políticas de salud pública y el etiquetado de los alimentos.
+
+2. ¿Cuál de los siguientes componentes del VRN se utiliza para evaluar la ingesta de grandes grupos de personas y cubrir las necesidades de la mitad de una población sana?
+
+    a) Nivel Máximo de Ingesta Tolerable (NM)
+    b) Requerimiento Promedio Estimado (RPE)
+    c) Ingreso Recomendado de Nutrientes (IRN)
+    d) Ingesta Diaria Sugerida (IDS)
+
+    *Respuesta:* b) Requerimiento Promedio Estimado (RPE) El RPE está diseñado para estimar el requerimiento de una población, cubriendo las necesidades del 50% de los individuos sanos en un grupo, lo que lo hace ideal para la planificación a gran escala.
+
+3. ¿Cuál es un ejemplo real de cómo la aplicación de los VRN ha mejorado la salud pública, según el video?
+
+    a) El aumento de la ingesta de calcio en productos lácteos.
+    b) La reducción de defectos del tubo neural en bebés en Canadá, gracias a la fortificación con ácido fólico.
+    c) La disminución del consumo de azúcar en bebidas.
+    d) La promoción de dietas bajas en grasas en Estados Unidos.
+
+    *Respuesta:* b) La reducción de defectos del tubo neural en bebés en Canadá, gracias a la fortificación con ácido fólico. El video menciona este ejemplo como una demostración clara de cómo la implementación de políticas de salud basadas en los VRN puede tener un impacto positivo y tangible en la salud de una población.
+
+4. Pregunta de desarrollo breve: Explique la diferencia clave entre el **Requerimiento Promedio Estimado (RPE)** y la **Ingesta Recomendada de Nutrientes (IRN)**.
+
+    *Respuesta:* La principal diferencia radica en su propósito y aplicación. El RPE se usa para evaluar a grupos de población, ya que representa la necesidad de la mitad del grupo. Por otro lado, la IRN es un objetivo de ingesta para individuos, diseñado para cubrir las necesidades de casi toda la población (97-98%) e incluye un margen de seguridad.
+
+5. Verdadero o Falso El **Nivel Máximo de Ingesta Tolerable (NM)** es un valor de seguridad que ayuda a prevenir la toxicidad por exceso de nutrientes.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. El NM es el límite de seguridad que, si se supera continuamente, podría causar efectos adversos o toxicidad. Es un concepto crucial para garantizar la seguridad de programas como la fortificación de alimentos.
+
+# Módulo 08. Tablas de composición de los alimentos
+
+1. ¿Es la siguiente afirmación verdadera? Las **tablas de composición de alimentos** son una herramienta esencial en la planificación de programas de fortificación porque permiten a los expertos en salud pública **conocer el contenido de nutrientes** de los alimentos consumidos por la población.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. Las tablas de composición de alimentos se utilizan para convertir los datos de consumo de alimentos de las encuestas en información nutricional, lo que es crucial para identificar las deficiencias de nutrientes a nivel nacional.
+
+2. En un programa de fortificación, ¿cuál de los siguientes es el resultado directo de combinar los datos de consumo de las HCES con la información de las tablas de composición de alimentos?
+
+    a) La promoción de alimentos fortificados en los medios de comunicación.
+    b) La justificación de la necesidad de una intervención de fortificación.
+    c) El cálculo exacto de la ingesta individual de un nutriente.
+    d) La determinación de los costos de producción de un alimento.
+
+    *Respuesta:* b) La justificación de la necesidad de una intervención de fortificación. Al combinar los datos de lo que la población consume con el contenido de nutrientes de esos alimentos, los planificadores pueden identificar qué nutrientes faltan en la dieta a gran escala. Esta evidencia sólida es fundamental para justificar la implementación de un programa de fortificación.
+
+3. Según el video, ¿cuál es el papel de las encuestas de consumo en los hogares (HCES) en relación con las tablas de composición de alimentos?
+
+    *Respuesta:* Las HCES proporcionan los datos de consumo de alimentos a nivel del hogar, que actúan como la base de información. Las tablas de composición se utilizan luego para traducir esos datos de consumo a un perfil de nutrientes de la población. Ambas herramientas son complementarias y necesarias para un análisis nutricional completo que justifique las intervenciones de fortificación.
+
+4. Pregunta de desarrollo breve: Explique brevemente por qué la **evidencia sólida** proporcionada por el análisis de datos es necesaria para tomar decisiones sobre la fortificación de alimentos.
+
+    *Respuesta:* La evidencia sólida es necesaria porque la fortificación es una intervención de salud pública a gran escala que puede tener un impacto significativo en la población. Los datos de las encuestas y las tablas de composición de alimentos aseguran que la fortificación se dirija a una deficiencia nutricional real y que se implemente en un nivel adecuado para ser efectiva sin causar toxicidad, protegiendo así la salud pública.
+
+5. Verdadero o Falso Las tablas de composición de alimentos por sí solas pueden determinar si una población tiene una deficiencia de nutrientes.
+
+    *Respuesta:* Falso. La afirmación es falsa. Aunque las tablas contienen información sobre el contenido de nutrientes, por sí solas no pueden determinar una deficiencia. Es necesario combinarlas con los **datos de consumo de la población** (obtenidos de encuestas como las HCES) para poder analizar si la ingesta de esos nutrientes es adecuada o inadecuada.
+
+# Módulo 09. Fundamentos conceptuales para la estandarización del consumo dietético poblacional
+
+1. ¿Es la siguiente afirmación verdadera? El **consumo dietético aparente** es un método preciso que refleja la ingesta real de alimentos de cada individuo en una población.
+
+    *Respuesta:* Falso. El consumo dietético aparente es una **estimación teórica** del alimento disponible en una población, calculada a partir de los balances de alimentos. No refleja la ingesta real de cada individuo, ya que no considera las variaciones en edad, sexo o nivel de actividad física.
+
+2. ¿Cuál es la principal limitación del método de consumo per cápita simple para la medición nutricional?
+
+    a) Ignora las diferencias en el precio de los alimentos.
+    b) Subestima las necesidades de grupos vulnerables como los niños.
+    c) Sobrestima los niveles de producción de alimentos en un país.
+    d) No tiene en cuenta la calidad de los nutriente.
+
+    *Respuesta:* b) Subestima las necesidades de grupos vulnerables como los niños. El método per cápita simple asume que todos tienen el mismo requerimiento de calorías, lo cual es incorrecto y puede ocultar problemas de subconsumo en subgrupos con mayores necesidades energéticas.
+
+3. ¿Cuál de los siguientes métodos es una alternativa más precisa al cálculo per cápita simple, según el video?
+
+    a) El método de balance de alimentos.
+    b) El método de Unidades Equivalentes de Adulto (EMA).
+    c) El método del requerimiento promedio estimado.
+    d) El método del nivel máximo de ingesta tolerable.
+
+    *Respuesta:* b) El método de Unidades Equivalentes de Adulto (EMA). El método EMA es una alternativa más inteligente porque ajusta la medición al considerar las diferentes necesidades energéticas de cada individuo en una población, proporcionando una cifra más realista y precisa.
+
+4. Pregunta de desarrollo breve: Explique por qué es peligroso para las políticas de salud pública depender de un promedio simple de consumo de alimentos a nivel nacional.
+
+    *Respuesta:* Depender de un promedio simple es peligroso porque puede enmascarar problemas graves de malnutrición o subconsumo. Como el promedio no considera las variaciones reales en las necesidades de la población, puede hacer que un país parezca tener suficiente comida mientras que, en realidad, los grupos vulnerables (como niños, ancianos o mujeres embarazadas) podrían estar sufriendo de deficiencias nutricionales. Un diagnóstico incorrecto lleva a soluciones equivocadas y programas ineficaces.
+
+5. Verdadero o Falso El método de **Unidades Equivalentes de Adulto (EMA)** es útil porque convierte una población heterogénea en un número equivalente de un adulto de referencia para un cálculo más preciso.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. El método EMA utiliza a un adulto de referencia para estandarizar las necesidades de consumo de toda una población, permitiendo un cálculo más realista y ajustado a la demografía real del grupo.
+
+# Módulo 10. Preparación de Datos para el Modelaje (Balances Alimentarios y Ajustes de Consumo)
+
+1. ¿Es la siguiente afirmación verdadera? El primer paso en la preparación de datos de una encuesta de consumo en los hogares es la **validación** de los datos sin ninguna limpieza.
+
+    *Respuesta:* Falso. La afirmación es falsa. El primer paso crucial es la **limpieza de los datos**, ya que las encuestas a menudo contienen errores, valores faltantes, duplicados o cifras inusuales. La validación se realiza posteriormente, una vez que los datos están limpios y unificados.
+
+2. ¿Cuál es el propósito principal de comparar los datos de las encuestas de consumo en los hogares con los **Balances Alimentarios (BA)** de la FAO?
+
+    a) Identificar el consumo individual de un nutriente.
+    b) Validar la coherencia de los datos de consumo a nivel macro.
+    c) Calcular la composición de un alimento.
+    d) Determinar el nivel de actividad física de la población.
+
+    *Respuesta:* b) Validar la coherencia de los datos de consumo a nivel macro. Comparar los datos de las encuestas (micro) con los balances alimentarios (macro) permite detectar discrepancias y asegurar que los datos de consumo de los hogares sean coherentes con la disponibilidad de alimentos a nivel nacional.
+
+3. ¿Qué tres componentes clave deben combinarse para crear una base de datos final y bien estructurada para el análisis nutricional?
+
+    *Respuesta:* Según el video, los tres componentes clave son: 1. El consumo de alimentos ajustado por tamaño del hogar. 2. La información demográfica de cada hogar (edad y sexo de los miembros). 3. Las tablas de composición de alimentos que detallan el contenido de nutrientes.
+
+4. Pregunta de desarrollo breve: Explique por qué es importante utilizar el método del **"equivalente de mujer adulta" (EAM)** para normalizar los datos de consumo de los hogares.
+
+    *Respuesta:* Es importante utilizar el método EAM para normalizar los datos de consumo porque permite comparar de manera justa los patrones de consumo entre hogares de diferente tamaño y composición. Sin esta estandarización, una comparación directa sería engañosa, ya que un hogar con más miembros o con personas de mayores requerimientos energéticos podría parecer que consume más, cuando en realidad su ingesta per cápita podría ser similar o incluso menor.
+
+5. Verdadero o Falso El resultado final del proceso de preparación de datos es una base de datos que se puede utilizar para estimar la ingesta nutricional de la población y simular el impacto de futuras políticas, como la fortificación.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. El objetivo de todo el proceso de limpieza, validación y estandarización de datos es obtener una base de datos robusta y confiable que sirva como fundamento para tomar decisiones de salud pública bien informadas.
+
+# Módulo 11. El Método del Equivalente de Mujer Adulta (EMA/AFE)
+
+1. ¿Es la siguiente afirmación verdadera? El **Método del Equivalente de Mujer Adulta (EMA/AFE)** asigna a una mujer de 18 a 29 años con actividad moderada el valor de 1.0 como unidad base, debido a que este grupo tiene un equilibrio metabólico estable.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. La mujer en este grupo de edad y con este nivel de actividad es utilizada como la unidad de referencia para el cálculo de los factores de conversión de otros miembros del hogar, permitiendo una estandarización más precisa de las necesidades nutricionales.
+
+2. ¿Cuál de los siguientes es el principal propósito del método EMA/AFE?
+
+    a) Medir el consumo individual de alimentos.
+    b) Simplificar el cálculo de la ingesta per cápita de un hogar.
+    c) Estandarizar el consumo de alimentos para permitir una comparación más justa entre hogares de diferente composición.
+    d) Determinar la cantidad de calorías consumidas fuera del hogar.
+
+    *Respuesta:* c) Estandarizar el consumo de alimentos para permitir una comparación más justa entre hogares de diferente composición. El método EMA/AFE normaliza el consumo total del hogar, ajustándolo según las necesidades energéticas de sus miembros. Esto hace que las comparaciones entre hogares grandes y pequeños, o con diferentes edades, sean mucho más significativas.
+
+3. ¿Cuál es una de las principales limitaciones del método EMA/AFE, según el material revisado?
+
+    a) Subestima las necesidades de los hombres.
+    b) No considera la distribución real de los alimentos dentro del hogar.
+    c) Es demasiado complejo para ser utilizado en estudios a gran escala.
+    d) No se basa en datos científicos de organismos internacionales.
+
+    *Respuesta:* b) No considera la distribución real de los alimentos dentro del hogar. El método asume que la comida se distribuye dentro del hogar de forma proporcional a las necesidades energéticas. Sin embargo, no toma en cuenta que la distribución puede variar por preferencias personales, gustos o si hay consumo fuera de casa.
+
+4. Pregunta de desarrollo breve: Explique cómo el método EMA/AFE podría ayudar a los planificadores de programas de fortificación de alimentos.
+
+    *Respuesta:* El método EMA/AFE es una herramienta crucial para los planificadores de programas de fortificación porque les permite identificar con mayor precisión a los hogares en riesgo de insuficiencia de nutrientes. Al ajustar el consumo por las necesidades reales de cada miembro, los datos resultantes son más confiables y permiten que las políticas de fortificación se dirijan de manera más efectiva a los grupos que realmente lo necesitan, garantizando un mejor impacto en la salud pública.
+
+5. Verdadero o Falso El factor de conversión EMA de un niño se calcula dividiendo sus necesidades energéticas promedio por las de una mujer de referencia (1.0 EMA).
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. Los factores de conversión se calculan dividiendo los requerimientos energéticos de cada miembro del hogar por los de la mujer de referencia, lo que permite estandarizar el consumo de todo el grupo familiar.
+
+# Módulo 12. Ajustes contextuales y aplicaciones avanzadas del EMA
+
+1. ¿Es la siguiente afirmación verdadera? El **Método del Equivalente de Mujer Adulta (EMA)**, en su forma más simple, es suficiente para realizar un análisis de alta resolución del consumo de alimentos en una población.
+
+    *Respuesta:* Falso. La afirmación es falsa. Aunque el método EMA es un gran avance sobre el cálculo per cápita simple, para un análisis de alta resolución se necesitan **ajustes contextuales** y **variables adicionales** como el nivel de actividad física, la edad y el consumo de leche materna. El método simple puede simplificar demasiado y llevar a un análisis menos preciso.
+
+2. ¿Cuál de los siguientes es un factor de ajuste crucial que se debe considerar al aplicar el método EMA para un análisis más preciso?
+
+    a) El costo de los alimentos.
+    b) El color de la ropa de los miembros del hogar.
+    c) El nivel de actividad física de cada persona.
+    d) La cantidad de agua consumida.
+
+    *Respuesta:* c) El nivel de actividad física de cada persona. El nivel de actividad física (ej. trabajo sedentario vs. agricultura) influye directamente en los requerimientos energéticos de una persona. Considerar este factor permite ajustar el valor del EMA y obtener una estimación más precisa del consumo.
+
+3. ¿Por qué es importante considerar el consumo de leche materna al analizar la nutrición de un lactante con el método EMA?
+
+    *Respuesta:* Es importante incluir el consumo de leche materna porque, si se omite, se podría subestimar severamente la ingesta nutricional de los lactantes. Al no contabilizar una fuente de nutrientes tan vital, el análisis podría concluir erróneamente que el bebé sufre de deficiencias, lo que llevaría a un diagnóstico incorrecto del estado nutricional del hogar.
+
+4. Pregunta de desarrollo breve: Mencione una de las aplicaciones avanzadas del método EMA, además de la planificación de la fortificación.
+
+    *Respuesta:* Una de las aplicaciones avanzadas del método EMA es su uso para el análisis de la seguridad alimentaria. El método ajustado permite identificar con precisión a los grupos de hogares más vulnerables y con mayor riesgo de inseguridad alimentaria, lo que permite a los responsables de las políticas diseñar ayudas y programas de asistencia más justos y directos.
+
+5. Verdadero o Falso El método EMA, incluso con ajustes, es incapaz de identificar qué hogares no tienen suficiente comida.
+
+    *Respuesta:* Falso. La afirmación es falsa. Una de las aplicaciones avanzadas del método EMA es precisamente la **identificación de hogares con ingesta insuficiente**. Al refinar el análisis con factores contextuales, se puede obtener una imagen mucho más clara y precisa de qué grupos son más vulnerables.
+
+# Módulo 13. Ajustes contextuales y aplicaciones avanzadas del EMA
+
+1. ¿Es la siguiente afirmación verdadera? El primer paso para estimar la cobertura de un vehículo de fortificación potencial es la **cuantificación de la cobertura**, sin necesidad de preparar las variables clave.
+
+    *Respuesta:* Falso. La afirmación es falsa. El primer paso crucial es la **identificación y preparación de las variables clave** de la encuesta (como datos demográficos y de adquisición de alimentos). La cuantificación de la cobertura se realiza en un segundo paso, una vez que los datos están organizados.
+
+2. ¿Cuál es la diferencia clave entre la **cobertura** y el **consumo** en el contexto de la fortificación de alimentos?
+
+    *Respuesta:* La cobertura se refiere al porcentaje de hogares que han consumido un alimento fortificable (aceite, harina, etc.) en un período de referencia, independientemente de la cantidad. Por otro lado, el consumo se refiere a la cantidad del alimento que se consume realmente. Para que un programa de fortificación sea eficaz, el alimento debe tener una alta cobertura y ser consumido en una cantidad suficiente para que el nutriente añadido tenga un impacto nutricional.
+
+3. Según el material revisado, ¿por qué es importante realizar un análisis de cobertura a nivel **subnacional**?
+
+    a) Para comparar los precios de los alimentos en diferentes regiones.
+    b) Para evitar que el promedio nacional oculte las variaciones en los patrones de consumo.
+    c) Para determinar la cantidad de fortificante que se debe importar.
+    d) Para identificar los productos más populares en todo el país.
+
+    *Respuesta:* b) Para evitar que el promedio nacional oculte las variaciones en los patrones de consumo. Un promedio nacional puede ser engañoso. Realizar un análisis por subgrupos (ej. urbano vs. rural o por nivel socioeconómico) es crucial para identificar variaciones y asegurar que el programa de fortificación llegue a los grupos más vulnerables que a menudo tienen patrones de consumo distintos.
+
+4. Pregunta de desarrollo breve: Explique el rol de la **ponderación** en el análisis de las HCES para la estimación de la cobertura.
+
+    *Respuesta:* La ponderación es un factor de corrección que se aplica a los datos de la muestra de la encuesta. Su rol es extrapolar los resultados de la muestra a toda la población. Esto garantiza que las estimaciones de cobertura a nivel nacional y subnacional sean representativas y se basen en una muestra proporcional, permitiendo a los planificadores tomar decisiones informadas para todo el país.
+
+5. Verdadero o Falso Las **Encuestas de Consumo y Gasto en los Hogares (HCES)** son una herramienta útil para los planificadores de políticas para diseñar y evaluar programas de fortificación de alimentos.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. Las HCES son una herramienta valiosa que permite a los planificadores de políticas **identificar vehículos de fortificación potenciales** con alta cobertura en la población, lo que es un paso fundamental para el éxito de un programa de fortificación.
+
+# Módulo 14. Integración del Marco metodológico para el diseño y evaluación de políticas de fortificación de alimentos
+
+1. ¿Es la siguiente afirmación verdadera? El **modelaje de dietas** es el primer paso en el marco metodológico para la fortificación de alimentos, ya que proporciona una "foto fija" de la dieta habitual de la población.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. El modelaje de dietas, que se basa en encuestas de consumo, es el punto de partida fundamental para entender qué está comiendo la población y así poder planificar una estrategia de fortificación.
+
+2. ¿Cuál es el propósito del **Paso 3: Establecer límites** en el marco metodológico?
+
+    a) Analizar si los nutrientes consumidos son suficientes.
+    b) Simular diferentes escenarios de fortificación.
+    c) Definir los **Niveles Factibles de Fortificación (FFL)** para evitar el consumo excesivo de nutrientes.
+    d) Recopilar datos de encuestas nacionales.
+
+    *Respuesta:* c) Definir los Niveles Factibles de Fortificación (FFL) para evitar el consumo excesivo de nutrientes. Este paso es crucial para la seguridad del programa. Los científicos utilizan referencias como la **EAR** para establecer una meta nutricional y los **FFL** como un límite de seguridad que no debe cruzarse, evitando así el riesgo de toxicidad por exceso de ingesta.
+
+3. ¿Qué herramienta o método se utiliza en el **Paso 4: Simulación de escenarios**?
+
+    *Respuesta:* En el Paso 4, se utiliza toda la información recopilada en los pasos anteriores para simular diferentes escenarios de fortificación. Esto permite a los planificadores comparar el impacto de distintas políticas antes de su implementación, ayudando a elegir la opción más segura y efectiva para reducir la deficiencia de nutrientes sin aumentar el riesgo de exceso.
+
+4. Pregunta de desarrollo breve: Explique la diferencia entre el método del **punto de corte de la EAR** y el **enfoque de probabilidades** en el contexto de la evaluación de carencias nutricionales.
+
+    *Respuesta:* El punto de corte de la EAR es una estimación más rápida y general para evaluar la adecuación nutricional de una población. Por otro lado, el enfoque de probabilidades es un análisis mucho más preciso y detallado que calcula el riesgo de deficiencia de nutrientes de forma casi individual. Ambos se utilizan en el Paso 2 para evaluar las carencias en la dieta.
+
+5. Verdadero o Falso El marco metodológico de fortificación de alimentos permite probar y seleccionar la opción de política más segura y efectiva a través de la simulación de escenarios.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. El marco completo es un proceso científico que va desde la recopilación de datos hasta la simulación, lo que permite a los planificadores tomar decisiones informadas y basadas en evidencia para el beneficio de la salud pública.
+
+# Módulo 15. Nivel factible de fortificación: la metodología OMS/FAO
+
+1. ¿Es la siguiente afirmación verdadera? El **nivel factible de fortificación (FFL)** debe situarse entre el valor del EAR y el valor del UL.
+
+    *Respuesta:* Falso. El nivel de fortificación es una concentración en el alimento (por ejemplo, mg/kg de harina), mientras que el EAR y el UL son ingestas diarias (mg/día). No se comparan directamente. Lo que se compara con el EAR y el UL es la ingesta total resultante, que depende del nivel de fortificación y del consumo del vehículo.
+
+2. Según las guías OMS/FAO, ¿cómo se determina el nivel factible de fortificación?
+
+    a) Como una fracción fija del EAR dividida por el consumo promedio del vehículo.
+    b) Como el menor de los niveles máximos admitidos por la inocuidad, la tecnología y el costo.
+    c) Como el promedio entre el nivel necesario para la meta y el nivel máximo por inocuidad.
+    d) Como el nivel que lleva la ingesta promedio de la población al valor del UL.
+
+    *Respuesta:* b) Como el menor de los niveles máximos admitidos por la inocuidad, la tecnología y el costo. Se calcula el nivel máximo admisible bajo cada límite y se toma el menor. Después se compara con el nivel necesario para la meta nutricional.
+
+3. ¿En qué consumidores del vehículo se evalúa el límite de inocuidad?
+
+    a) En los consumidores de la mediana.
+    b) En los que consumen menos del vehículo.
+    c) En los grandes consumidores, por ejemplo el percentil 95 del consumo.
+    d) En el promedio de la población.
+
+    *Respuesta:* c) En los grandes consumidores, por ejemplo el percentil 95 del consumo. Son quienes reciben el mayor aporte de la fortificación y, por tanto, quienes tienen mayor riesgo de superar el UL.
+
+4. Pregunta de desarrollo breve: Si el nivel factible de fortificación es menor que el nivel necesario para alcanzar la meta nutricional, ¿qué implica y qué opciones existen?
+
+    *Respuesta:* El vehículo no permite, por sí solo, llevar a los grupos de riesgo a una ingesta adecuada sin comprometer la inocuidad, la tecnología o el costo; los más afectados son quienes consumen poco del vehículo. Se documenta la brecha y se consideran otros vehículos, la combinación de varios o intervenciones complementarias, como la suplementación dirigida.
+
+5. Verdadero o Falso El nivel de fortificación debe aumentarse siempre para compensar que el organismo no absorbe el 100 % del micronutriente añadido.
+
+    *Respuesta:* Falso. El EAR ya incorpora la biodisponibilidad del micronutriente en la dieta habitual. El ajuste solo procede cuando el compuesto añadido se absorbe de forma distinta a la supuesta; por ejemplo, el hierro electrolítico se añade en una cantidad del orden del doble que el sulfato ferroso.
+
+# Módulo 16. Cálculo del nivel de fortificación: procedimiento paso a paso
+
+1. ¿Es la siguiente afirmación verdadera? Para calcular el nivel necesario para la meta nutricional basta con usar el consumo promedio del vehículo.
+
+    *Respuesta:* Falso. El aporte de la fortificación a cada persona es el nivel de fortificación por su consumo del vehículo. El promedio oculta a quienes consumen poco, que son los que determinan si la meta se alcanza. Por eso se simula sobre la distribución completa del consumo.
+
+2. Con la notación del módulo, ¿cuál es el nivel máximo de fortificación por inocuidad?
+
+    a) $FL = EAR / c_{95}$
+    b) $FL = (UL - I_0) / c_{95}$
+    c) $FL = (UL - EAR) / \bar{c}$
+    d) $FL = UL / I_0$
+
+    *Respuesta:* b) FL = (UL − I₀) / c₉₅ Se despeja de la condición de inocuidad para los grandes consumidores: $I_0 + FL \times c_{95} \le UL$.
+
+3. ¿Qué prevalencia se calcula en el paso 3 para cada nivel de fortificación simulado?
+
+    a) $P(I_0 < EAR)$
+    b) $P(I_0 + FL \times c < EAR)$
+    c) $P(I_0 + FL \times c > EAR)$
+    d) $P(FL < UL)$
+
+    *Respuesta:* b) P(I₀ + FL × c < EAR) Es la proporción del grupo de riesgo que, con la fortificación, seguiría por debajo del EAR. El nivel necesario es el menor que la reduce a la meta.
+
+4. Pregunta de desarrollo breve: ¿Qué dos resultados deben reportarse al evaluar el escenario de fortificación elegido?
+
+    *Respuesta:* La prevalencia de ingesta inferior al EAR en los grupos de riesgo y la proporción de la población que supera el UL, calculadas para todos los grupos de interés con el nivel elegido.
+
+5. Verdadero o Falso Con datos de encuestas de gasto y consumo, la ingesta estimada en este procedimiento es la ingesta individual observada.
+
+    *Respuesta:* Falso. Es una ingesta aparente, estimada a nivel de hogar y expresada por equivalente de mujer adulta. Los resultados son aproximaciones y sus supuestos deben declararse.
+
+# Módulo 17. Construcción de escenarios de fortificación
+
+1. ¿Es la siguiente afirmación verdadera? El **Nivel Posible de Fortificación (NPF)** se determina tomando el promedio de los límites de inocuidad, tecnología y costo.
+
+    *Respuesta:* Falso. La afirmación es falsa. El NPF no es un promedio. Se determina por el **límite más restrictivo** de los tres factores principales: inocuidad, tecnología y costo. Es como el eslabón más débil de una cadena, ya que este factor es el que marca el límite para todo el programa.
+
+2. ¿Cuál es el propósito principal de construir escenarios de fortificación?
+
+    a) Aumentar el precio de los alimentos fortificados.
+    b) Medir la calidad de los ingredientes.
+    c) Optimizar la fortificación para mejorar el estado nutricional y minimizar los riesgos para la salud.
+    d) Determinar la cantidad de alimentos que la población consume diariamente.
+
+    *Respuesta:* c) Optimizar la fortificación para mejorar el estado nutricional y minimizar los riesgos para la salud. La construcción de escenarios permite a los planificadores probar diferentes opciones de fortificación en un modelo, con el objetivo de encontrar la mejor combinación que corrija las deficiencias nutricionales de manera segura y eficiente, considerando todas las limitaciones.
+
+3. Pregunta de desarrollo breve: Mencione los tres pilares principales que se deben equilibrar para que un programa de fortificación sea exitoso.
+
+    *Respuesta:* Los tres pilares principales a equilibrar son: 1. Inocuidad: El programa debe ser 100% seguro y no causar efectos de toxicidad. 2. Tecnología: El nutriente añadido debe ser estable y no alterar las propiedades del alimento (sabor, olor, apariencia). 3. Costo: El aumento del precio del alimento fortificado debe ser mínimo para asegurar su asequibilidad y consumo masivo.
+
+4. ¿Por qué el video menciona que la fortificación exitosa es un proceso dinámico?
+
+    *Respuesta:* La fortificación exitosa es un proceso dinámico y no estático porque los programas deben ser medidos y adaptados constantemente. Esto se debe a que las necesidades de la población pueden cambiar, y se requiere una medición continua (monitoreo y evaluación) para asegurar que el programa siga siendo relevante y eficaz para maximizar su impacto en la salud pública.
+
+5. Verdadero o Falso El uso de un tablero de decisión trimestral y el análisis de escenarios son parte de un Sistema de Monitoreo, Evaluación y Aprendizaje (MEL) en la planificación de la fortificación.
+
+    *Respuesta:* Verdadero. La afirmación es verdadera. Ambos son herramientas que se utilizan en el marco MEL para guiar las acciones de manera adaptativa y asegurar que el programa de fortificación se mantenga en el camino correcto para lograr sus metas nutricionales.
+
+# Módulo 24. Consumo aparente por equivalente de mujer adulta con la ENGIH 2018
+
+1. ¿Por qué el identificador del hogar combina vivienda y hogar?
+
+    *Respuesta:* El número de hogar se repite entre viviendas; usado solo uniría hogares distintos.
+
+2. Un registro en «funda» de un alimento que no figura en la tabla específica, ¿qué valor toma su consumo diario y por qué no debe sustituirse por cero?
+
+    *Respuesta:* Queda ausente; sustituirlo por cero baja la estimación sin dejar rastro.
+
+3. ¿Qué sesgo introduce dividir la adquisición entre un período fijo de siete días en lugar de los días registrados por cada hogar?
+
+    *Respuesta:* Sobrestima el consumo de los hogares con menos días registrados y subestima el de los que tienen más.
+
+4. ¿Por qué un hogar con niños pequeños puede mostrar un consumo por EMA mayor que su consumo por persona?
+
+    *Respuesta:* Porque el EMA de un niño es menor que uno, de modo que el denominador del hogar es menor que su número de miembros.
+
+# Módulo 25. Herramientas de R I: importación, limpieza y análisis preliminar
+
+1. ¿Por qué se leen como texto las columnas de identificación?
+
+    *Respuesta:* Son códigos, no cantidades; leídos como número pueden perder información o cambiar de tipo según las primeras filas.
+
+2. ¿Qué indica que el número de filas aumente después de un `left_join()`?
+
+    *Respuesta:* Que la tabla unida tiene claves duplicadas y está multiplicando registros.
+
+3. En la Sección 3A, ¿qué significa que la unidad de presentación esté vacía?
+
+    *Respuesta:* Que el hogar declaró en la unidad base; se usa esa unidad para la conversión.
+
+# Módulo 26. Herramientas de R II: visualización con ggplot2
+
+1. ¿Por qué se usa escala logarítmica para la distribución del consumo?
+
+    *Respuesta:* Por la asimetría a la derecha: la escala lineal comprime la mayor parte de la distribución.
+
+2. ¿Qué geometría representa una estimación con su intervalo?
+
+    *Respuesta:* `geom_pointrange()` o `geom_errorbar()` con `geom_point()`.
+
+3. ¿Qué tres elementos debe declarar el eje de una figura de ingesta?
+
+    *Respuesta:* La magnitud, la unidad y el denominador.
+
+# Módulo 27. Herramientas de R III: análisis de encuestas con srvyr
+
+1. ¿Qué ocurre con el intervalo de confianza si se declara solo el factor de expansión y no las UPM?
+
+    *Respuesta:* Se estrecha: el error estándar se subestima porque se ignora la correlación dentro de los conglomerados.
+
+2. ¿Para qué sirve `nest = TRUE`?
+
+    *Respuesta:* Para que UPM con el mismo número en estratos distintos se traten como distintas.
+
+3. ¿Por qué la provincia no debe tratarse como dominio de estimación en la ENGIH 2018?
+
+    *Respuesta:* Porque la muestra no está diseñada para ese nivel; muchas celdas provinciales tienen precisión insuficiente.
+
+# Módulo 28. Herramientas de R IV: mapas
+
+1. ¿Por qué no se dibuja el mapa en coordenadas geográficas?
+
+    *Respuesta:* Porque los grados no conservan distancias ni áreas; se proyecta a UTM 19 N.
+
+2. ¿Qué ocurre si se une la geometría con los resultados por el nombre de la provincia?
+
+    *Respuesta:* Las provincias cuyo nombre difiere quedan sin valor, sin que se produzca ningún error.
+
+3. ¿Por qué hay provincias en gris en el mapa?
+
+    *Respuesta:* Porque su estimación no tiene precisión suficiente; pintarla induciría una afirmación que la muestra no sostiene.
+
+# Módulo 29. La ENGIH 2018 como base de datos del caso de aplicación
+
+1. ¿Qué diferencia hay entre lo que registran la Sección 2 y la Sección 3A?
+
+    *Respuesta:* La Sección 2 registra el consumo de existencias; la 3A, las adquisiciones del período.
+
+2. ¿Por qué no puede estimarse la ingesta habitual con la ENGIH 2018?
+
+    *Respuesta:* Porque hay un único período de registro por hogar, sin repeticiones que permitan separar la variación intraindividual.
+
+3. ¿Por qué no se estima el riesgo de ingesta inadecuada de yodo?
+
+    *Respuesta:* Porque la sal se registra por frecuencia de compra y no por cantidad.
+
+# Módulo 30. Síntesis de aprendizajes
+
+1. ¿En qué etapa una omisión produce una subestimación silenciosa y cómo se detecta?
+
+    *Respuesta:* En las uniones con las tablas de factores, de porción comestible y de composición; se detecta midiendo la proporción de registros o gramos sin pareja.
+
+2. ¿Por qué la línea base se construye con el alimento sin fortificar?
+
+    *Respuesta:* Porque las tablas de composición traen productos ya enriquecidos y la fortificación se contaría dos veces.
+
+3. ¿Qué diferencia hay, en términos de equidad, entre subir el nivel de un vehículo y cambiar de vehículo?
+
+    *Respuesta:* Subir el nivel de un vehículo de consumo desigual eleva la media y conserva el gradiente; un vehículo de consumo transversal lo reduce.

@@ -6,12 +6,6 @@ author: "Maicel Monzon"
 description: "Procedimiento de cálculo del nivel de fortificación a partir de la distribución de la ingesta habitual, el consumo del vehículo, el EAR y el UL"
 ---
 
-A continuación, pueden ver la presentación del módulo en formato vídeo sobre el tema propuesto.
-
-{{< video https://youtu.be/4HJLvwaQODg >}}
-
-[El módulo puede ser descargado desde aquí](/static/videos/videomodulo16.zip)
-
 ------------------------------------------------------------------------
 
 # Sumario

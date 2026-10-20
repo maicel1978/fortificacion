@@ -61,7 +61,7 @@ ggplot(por_quintil, aes(x = quintil, y = folato_mediana,
                         colour = escenario, group = escenario)) +
   geom_line() +
   geom_point() +
-  labs(x = "Quintil de ingreso per cápita",
+  labs(x = "Quintil del hogar (variable QUINTIL de la encuesta)",
        y = "Folato, mediana (µg EFD por EMA y día)",
        colour = NULL) +
   theme_minimal() +

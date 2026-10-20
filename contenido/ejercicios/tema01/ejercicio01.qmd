@@ -21,7 +21,7 @@ format: html
 Los **micronutrientes esenciales** son compuestos orgánicos (vitaminas) e inorgánicos (minerales y oligoelementos) que el organismo requiere en cantidades mínimas (miligramos o microgramos diarios) para garantizar funciones fisiológicas críticas, como el metabolismo energético, la síntesis de ADN, el desarrollo cognitivo y la regulación inmunológica. Su característica definitoria es que el **cuerpo humano no puede biosintetizarlos en absoluto, o no en cantidades suficientes** para satisfacer sus necesidades vitales, por lo que deben obtenerse obligatoriamente a través de la dieta o suplementación controlada.
 :::
 
-## ¿Cuál es las carencia de micronutriente más frecuentes en el mundo?
+## ¿Cuál es la carencia de micronutrientes más frecuente en el mundo?
 
 ::: {.callout-tip collapse="true"}
 ### Respuesta correcta
@@ -31,7 +31,7 @@ Los **micronutrientes esenciales** son compuestos orgánicos (vitaminas) e inorg
 La deficiencia de hierro es la más común a nivel global y una de las principales causas de anemia, afectando especialmente a mujeres en edad fértil, embarazadas y niños pequeños. Se estima que cerca del 33% de las mujeres en edad fértil y el 42% de los niños sufren falta de hierro.
 :::
 
-## ¿Cuáles son las carencias nutricionales más frecuentes en Cuba?
+## ¿Cuáles de las siguientes carencias de micronutrientes constituyen problemas de salud pública frecuentes en América Latina y el Caribe?
 
 a)  Déficit de vitamina A\
 b)  Déficit de vitamina D\

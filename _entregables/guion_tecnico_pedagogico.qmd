@@ -11,13 +11,13 @@ format:
 
 # 1. Propósito y alcance
 
-Este documento organiza el programa según las cinco categorías de los términos de referencia (TdR), describe el diseño instruccional de cada unidad y registra su estado al cierre de la consultoría. Responde al ítem 14 de las notas metodológicas.
+Este documento organiza el programa  describe el diseño instruccional de cada unidad. 
 
 # 2. Marco instruccional
 
 ## 2.1 Población destinataria
 
-Personal técnico de ministerios de salud, autoridades de control de alimentos, institutos de nutrición y oficinas de estadística de los países donde se implementa inicialmente el paquete de asistencia técnica. Se asume formación en nutrición, salud pública o estadística. No se asume experiencia previa en R: la categoría 3 cubre las herramientas necesarias para las aplicaciones de la categoría 4.
+Personal técnico de ministerios de salud, autoridades de control de alimentos, institutos de nutrición y oficinas de estadística de los países donde se implementa inicialmente el paquete de asistencia técnica. Se asume formación en nutrición, salud pública o estadística. No se asume experiencia previa en R.
 
 ## 2.2 Modalidad y duración
 
@@ -25,20 +25,20 @@ Aprendizaje autodirigido en línea, en unidades de 15 a 40 minutos. La duración
 
 ## 2.3 Enfoque pedagógico
 
-La secuencia avanza de los fundamentos conceptuales a la política, de la política a las herramientas y de las herramientas a la aplicación, y cierra con una síntesis. La aplicación se construye sobre un caso real: los microdatos de la ENGIH 2018 de República Dominicana. El énfasis se pone en el razonamiento que sustenta cada paso del procesamiento, de modo que el participante pueda adaptar el flujo a otra encuesta, conforme a los ítems 9, 11 y 12 del TdR.
+La secuencia avanza de los fundamentos conceptuales a la política, de la política a las herramientas y de las herramientas a la aplicación, y cierra con una síntesis. La aplicación se construye sobre un caso real: los microdatos del estudio ENGIH 2018 de República Dominicana. El énfasis se realiza en el razonamiento que sustenta cada paso del procesamiento.
 
 ## 2.4 Componentes estándar de cada módulo
 
-| **Componente**              | **Descripción**                                                                   | **Ítem del TdR** |
-|-----------------------------|-----------------------------------------------------------------------------------|------------------|
-| Objetivos de aprendizaje    | Formulados en términos observables, al inicio del módulo.                         | 14               |
-| Contenido                   | Texto del módulo en la plataforma.                                                | 14               |
-| Video-lección               | Exposición del contenido central.                                                 | 15               |
-| Presentación descargable    | Síntesis del módulo en PPT y PDF.                                                 | 15               |
-| Script y plantilla          | Código R comentado para la práctica, en los módulos que lo requieren.             | 16               |
-| Advertencia de portabilidad | Nota sobre la adaptación necesaria para aplicar el código a otra encuesta o país. | 9                |
-| Autoevaluación              | 3 a 5 preguntas con clave de respuestas.                                          | 17               |
-| Referencias                 | Lista verificada al final del módulo.                                             | 13               |
+| **Componente** | **Descripción** | **Ítem del TdR** |
+|---------------|------------------------------------------|---------------|
+| Objetivos de aprendizaje | Formulados en términos observables, al inicio del módulo. | 14 |
+| Contenido | Texto del módulo en la plataforma. | 14 |
+| Video-lección | Exposición del contenido central. | 15 |
+| Presentación descargable | Síntesis del módulo en PPT y PDF. | 15 |
+| Script y plantilla | Código R comentado para la práctica, en los módulos que lo requieren. | 16 |
+| Advertencia de portabilidad | Nota sobre la adaptación necesaria para aplicar el código a otra encuesta o país. | 9 |
+| Autoevaluación | 3 a 5 preguntas con clave de respuestas. | 17 |
+| Referencias | Lista verificada al final del módulo. | 13 |
 
 ## 2.5 Flujo de aprendizaje dentro del módulo
 
@@ -54,10 +54,10 @@ La secuencia avanza de los fundamentos conceptuales a la política, de la polít
 
 - Ampliación: referencias y recursos complementarios.
 
-# 3. Estructura del programa alineada con el TdR
+# 3. Estructura del programa 
 
 | TdR | Unidad | Módulos | Estado |
-|---|---|---|---|
+|------------------|------------------|------------------|------------------|
 | 1.1 | Introducción a la fortificación | 01 | Publicado |
 | 1.2 | Evaluación dietética con encuestas de gasto y consumo | 06 | Publicado |
 | 1.3 | Procesamiento de datos de consumo | 09, 10 | Publicado |
@@ -76,12 +76,12 @@ La secuencia avanza de los fundamentos conceptuales a la política, de la polít
 | 4.4 | Contribución a la adecuación (indicador 4) | 03, 04, 15–17 | Aplicación en el código del análisis |
 | 5.1 | Síntesis de aprendizajes | 30 | Publicado |
 
-La plataforma publica los módulos 01 a 17 y 24 a 30. Los módulos 18 a 23 se retiraron porque empleaban datos simulados o de otra encuesta, contra la Nota Metodológica 5; su contenido aplicado queda cubierto por el módulo 24, por las unidades 25 a 30 y por el código del análisis.
+La plataforma publica los módulos 01 a 17 y 24 a 30. Los módulos 18 a 23 se retiraron porque empleaban datos simulados o de otra encuesta; su contenido aplicado queda cubierto por el módulo 24, por las unidades 25 a 30 y por el código del análisis.
 
 # 4. Componentes por módulo
 
 | Módulos | Texto | Presentación | Video | Autoevaluación | Código R |
-|---|---|---|---|---|---|
+|----|----|----|----|----|----|
 | 01–10, 12, 14, 17 | Sí | Sí | Sí | Sí | — |
 | 11, 13 | Sí | Sí | Sí | Sí | — |
 | 15, 16 | Sí | Sí | Retirado | Sí | — |
@@ -103,7 +103,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Distinguir las estrategias de control de carencias y situar la fortificación a gran escala entre ellas.
 - Definir los conceptos de requerimiento promedio estimado, nivel de fortificación, nivel máximo tolerable y nivel factible de fortificación, y relacionarlos entre sí.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Déficits nutricionales y su magnitud.
 - Estrategias de control de carencias de micronutrientes.
@@ -126,7 +126,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Valorar sus fortalezas y limitaciones frente a los métodos de evaluación individual.
 - Identificar los módulos de la encuesta necesarios para el modelado dietético y la documentación de respaldo.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Definición y diseño de las HCES.
 - Fortalezas, limitaciones y utilidad de los resultados.
@@ -149,7 +149,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Estandarizar unidades de medida a gramos y aplicar factores de porción comestible.
 - Integrar la base de consumo con las tablas auxiliares necesarias para el modelado.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Fundamentos de la estandarización del consumo poblacional.
 - Requerimientos energéticos variables y métodos de ajuste.
@@ -172,7 +172,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Calcular factores EMA por miembro y el total de EMA por hogar.
 - Reconocer los ajustes contextuales posibles y la información que cada uno requiere.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Contexto y relevancia del método.
 - Cálculo de factores de conversión.
@@ -195,7 +195,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Seleccionar tablas de composición pertinentes y documentar la equivalencia entre alimentos de la encuesta y de la tabla.
 - Reconocer las limitaciones de combinar datos de gasto con tablas de composición.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Valores de referencia: tipos, fuentes y uso en HCES.
 - Tablas de composición: definición, fuentes y uso.
@@ -217,7 +217,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Explicar por qué el hierro requiere el enfoque probabilístico completo.
 - Identificar la información necesaria para cada método, incluidos los ajustes por biodisponibilidad.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Método del punto de corte del EAR: fundamentos, pasos y adaptaciones.
 - Niveles de referencia e inocuidad; biodisponibilidad.
@@ -240,7 +240,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Calcular niveles factibles de fortificación según la metodología OMS/FAO y niveles de adición a partir del EAR.
 - Construir y comparar escenarios de fortificación.
 
-**Contenidos.** 
+**Contenidos.**
 
 - Planificación, objetivos y diseño del programa.
 - Monitoreo, evaluación y aprendizaje; indicadores seleccionados.
@@ -269,7 +269,6 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 - Importación con control de tipos.
 - Claves de unión y guardas de cardinalidad.
 - Diagnóstico de ausentes y unidades.
-- Diferencia entre valor ausente y cero.
 
 **Recursos.** Texto y código del módulo; remisión a los temas I a IV del curso propio de R para la base general del lenguaje; presentación de síntesis.
 
@@ -329,7 +328,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 
 - Leer y proyectar la geometría provincial oficial.
 - Unir resultados y geometría por identificador.
-- Dibujar un coroplético que no pinte celdas sin precisión.
+- Dibujar un mapa coroplético.
 
 **Contenidos.**
 
@@ -351,7 +350,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 
 - Identificar las secciones de la ENGIH que registran alimentos.
 - Describir la unidad de análisis y el diseño muestral.
-- Enumerar las limitaciones de la encuesta para estimar ingesta.
+- Enumerar las limitaciones de la encuesta para estimar la ingesta.
 
 **Contenidos.**
 

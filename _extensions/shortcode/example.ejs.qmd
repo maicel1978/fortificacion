@@ -1,3 +1,0 @@
-<div class="my-shortcode">
-  <%= content %>
-</div>

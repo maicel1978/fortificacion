@@ -3,34 +3,21 @@
 .RData
 .Rproj.user/
 
-# fortificacion.Rproj SI se versiona: es lo que permite abrir el repositorio
-# en RStudio despues de clonarlo. Antes estaba ignorado con *.Rproj, de modo
-# que un clon nuevo no traia proyecto y habia que reconstruirlo a mano.
-sitio.Rproj
-
-# Quarto caches y generados
-quarto_cache/
-_quarto/
+# Quarto: el sitio compilado lo genera Netlify. _freeze/ sí se versiona.
 docs/
-site/
+.quarto/
+**/*.quarto_ipynb
 
-# Freeze (solo si quieres regenerar todo en nueva PC)
-# _freeze/   ← NO lo ignores (es necesario para freeze: auto)
-
-# Node.js (Netlify functions)
+# Node y Netlify
 node_modules/
 package-lock.json
+.netlify/
 
-# OS / Editor basura
+# Sistema
 .DS_Store
 Thumbs.db
 *.tmp
 *.bak
-
-# Netlify temporales
-.netlify/
-/.quarto/
-**/*.quarto_ipynb
 
 # Microdatos de la ENGIH: se usan en local, no se versionan ni se publican
 _datos/

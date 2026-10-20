@@ -26,8 +26,8 @@ website:
             text: "Ejercicios"
           - href: contenido/recursos/index.qmd
             text: "Recursos"
-      - href: about.qmd 
-        text: "Acerca de" 
+      - href: about.qmd
+        text: "Acerca de"
   sidebar:
     contents: auto
 
@@ -36,9 +36,7 @@ format:
     theme: lumen
     css: styles.css
     toc: true
-
-extensions: []
-  # - _extensions/shortcode
+    include-after-body: _footer.html
 
 execute:
   freeze: auto

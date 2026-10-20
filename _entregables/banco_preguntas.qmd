@@ -11,6 +11,8 @@ format:
 
 Preguntas de autoevaluación con su clave de respuesta, por módulo (ítem 17 de los términos de referencia). Las mismas preguntas figuran, en formato interactivo, en la plataforma: los módulos 1 a 17 en su ejercicio correspondiente y los módulos 24 a 30 al final de cada módulo.
 
+Plataforma: <https://fortificacion.netlify.app>. Fuente de este documento: <https://github.com/maicel1978/fortificacion>, archivo `_entregables/banco_preguntas.qmd`.
+
 # Módulo 01. Micronutrientes y carencias nutricionales
 
 1. ¿Es la siguiente definición verdadera? **Micronutrientes esenciales:** Nutrientes que el cuerpo requiere en cantidades traza para funciones bioquímicas específicas, como cofactores enzimáticos o antioxidantes, y que pueden ser sintetizados parcialmente por el organismo o la microbiota intestinal.

@@ -13,6 +13,8 @@ format:
 
 Este documento organiza el programa según las cinco categorías de los términos de referencia y describe el diseño instruccional de cada unidad.
 
+Los módulos están publicados en <https://fortificacion.netlify.app>. Su código fuente, incluidas las presentaciones y este documento, está en el repositorio <https://github.com/maicel1978/fortificacion>. El código del caso aplicado, del que derivan los módulos 24 a 30, está en <https://github.com/maicel1978/analisis_ENGIH2018>.
+
 # 2. Marco instruccional
 
 ## 2.1 Población destinataria
@@ -89,7 +91,7 @@ La plataforma publica los módulos 01 a 17 y 24 a 30. Los módulos 18 a 23 se re
 | 25–28 | Sí | Sí | No | Sí | Mostrado, de la cadena del análisis |
 | 29, 30 | Sí | Sí | No | Sí | — |
 
-La plataforma ofrece las video-lecciones como enlace y como archivo descargable. Las presentaciones están en `_entregables/presentaciones/`, en PPTX y PDF. El banco de preguntas reunido está en `_entregables/banco_preguntas.qmd`.
+La plataforma ofrece las video-lecciones como enlace y como archivo descargable. Las presentaciones están en la carpeta `_entregables/presentaciones/` del repositorio de la plataforma, en PPTX y PDF. El banco de preguntas reunido está en `_entregables/banco_preguntas.qmd`, en el mismo repositorio.
 
 # 5. Fichas por unidad
 

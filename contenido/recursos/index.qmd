@@ -12,9 +12,16 @@ listing:
   fields: [title, description]
 ---
 
-En esta sección encontrarás una serie de recursos útiles para la capacitación **e-learning**.
+Material de apoyo de los módulos.
 
-Los recursos abarcan desde tablas de composición de alimentos, atlas de utensilios, tablas de factores de conversión y de porción comestible, y scripts en R (`cantidad_alimentos.R`), para la ejecución de análisis estadísticos para la fortificación de alimentos.
+Archivos del caso aplicado (módulo 24):
+
+- [Factores de conversión a gramos](/static/data/referencia/factores_conversion.xlsx) (Excel)
+- [Porción comestible por alimento](/static/data/referencia/porcion_comestible.xlsx) (Excel)
+- [Script de cálculo de la cantidad de alimentos](/static/r/cantidad_alimentos.R) (R)
+
+Las tablas no contienen información de hogares. Los microdatos de la ENGIH 2018
+se solicitan a la Oficina Nacional de Estadística.
 
 :::: column-screen-inset
 ::: {#recursos_listing}

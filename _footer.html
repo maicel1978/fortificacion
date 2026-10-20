@@ -1,0 +1,193 @@
+<!-- Asistente conversacional de la plataforma. Se incluye en todas las páginas
+     desde _quarto.yml (include-after-body). Las consultas pasan por la función
+     netlify/functions/groq-proxy.mjs, que guarda la clave de la API. -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+
+<style>
+  :root {
+    --wfp-blue: #0A4273;
+    --wfp-sky: #00A1E4;
+    --wfp-bg: #F0F4F8;
+    --wfp-text: #1A202C;
+    --wfp-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  }
+
+  /* Botón flotante */
+  #forti-bubble {
+    position: fixed; bottom: 30px; right: 30px;
+    width: 65px; height: 65px; background: white;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; box-shadow: 0 8px 24px rgba(10, 66, 115, 0.15);
+    z-index: 2000; border: 2.5px solid var(--wfp-blue);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  #forti-bubble:hover { transform: scale(1.1); box-shadow: 0 12px 30px rgba(10, 66, 115, 0.25); }
+
+  /* Panel */
+  #forti-panel {
+    display: none; position: fixed; bottom: 110px; right: 30px;
+    width: 400px; height: 600px; max-height: 80vh;
+    background: white; border-radius: 20px; box-shadow: var(--wfp-shadow);
+    flex-direction: column; overflow: hidden; z-index: 2000;
+    border: 1px solid #E2E8F0; font-family: 'Inter', sans-serif;
+  }
+
+  @media (max-width: 480px) {
+    #forti-panel { width: 90vw; right: 5vw; height: 70vh; }
+  }
+
+  /* Cabecera */
+  #forti-header {
+    background: var(--wfp-blue); color: white; padding: 18px 22px;
+    display: flex; align-items: center; gap: 15px;
+    border-bottom: 3px solid var(--wfp-sky);
+  }
+  .header-text .name { font-weight: 700; font-size: 17px; display: block; }
+  .header-text .role { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.9; }
+
+  /* Mensajes */
+  #forti-messages {
+    flex: 1; padding: 20px; overflow-y: auto;
+    background: var(--wfp-bg); display: flex; flex-direction: column; gap: 14px;
+  }
+
+  .msg { padding: 12px 16px; border-radius: 15px; font-size: 14px; line-height: 1.5; max-width: 85%; }
+  .user-msg { background: var(--wfp-blue); color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+  .bot-msg { background: white; color: var(--wfp-text); align-self: flex-start; border-bottom-left-radius: 2px; border: 1px solid #D1D5DB; }
+
+  /* Markdown */
+  .bot-msg table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 12px; }
+  .bot-msg th, .bot-msg td { border: 1px solid #E2E8F0; padding: 6px; }
+
+  /* Entrada */
+  #forti-input-area { padding: 18px; display: flex; gap: 10px; background: white; border-top: 1px solid #E2E8F0; }
+  #forti-input { flex: 1; border: 1px solid #CBD5E0; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 14px; }
+  #forti-send {
+    background: var(--wfp-blue); border: none; width: 44px; height: 44px;
+    border-radius: 50%; cursor: pointer; color: white; display: flex;
+    align-items: center; justify-content: center;
+  }
+
+  #forti-aviso { font-size: 11px; color: #5a6b76; padding: 6px 18px 0; background: white; }
+  .typing { display: flex; gap: 4px; padding: 10px; }
+  .dot { width: 6px; height: 6px; background: #A0AEC0; border-radius: 50%; animation: blink 1.4s infinite; }
+  @keyframes blink { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+</style>
+
+<svg style="display: none;">
+  <symbol id="avatar-forti" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+    <rect x="5" y="8" width="14" height="10" rx="3" fill="#0A4273" />
+    <circle cx="9" cy="13" r="1" fill="#00A1E4" />
+    <circle cx="15" cy="13" r="1" fill="#00A1E4" />
+    <path d="M10 16c1 0.5 3 0.5 4 0" stroke="white" stroke-linecap="round" />
+    <path d="M4 12v-1a8 8 0 0 1 16 0v1" stroke="#00A1E4" stroke-width="2" />
+    <rect x="3" y="11" width="2" height="4" rx="1" fill="#00A1E4" />
+    <rect x="19" y="11" width="2" height="4" rx="1" fill="#00A1E4" />
+    <circle cx="18" cy="17" r="1.5" fill="#333" />
+  </symbol>
+</svg>
+
+<div id="forti-bubble" onclick="toggleForti()" title="Asistente de consulta" role="button" aria-label="Abrir el asistente de consulta">
+  <svg style="width:45px; height:45px;"><use href="#avatar-forti"></use></svg>
+</div>
+
+<div id="forti-panel">
+  <div id="forti-header">
+    <svg style="width:35px; height:35px;"><use href="#avatar-forti"></use></svg>
+    <div class="header-text">
+      <span class="name">Forti</span>
+      <span class="role">Asistente de consulta · Fortificación a gran escala</span>
+    </div>
+    <span onclick="toggleForti()" style="margin-left:auto; cursor:pointer; font-size:18px;">✕</span>
+  </div>
+  <div id="forti-messages"></div>
+  <div id="forti-aviso">Respuestas generadas automáticamente; pueden contener errores. La referencia son los módulos.</div>
+  <div id="forti-input-area">
+    <input type="text" id="forti-input" placeholder="Escriba su consulta..." maxlength="2000" autocomplete="off">
+    <button id="forti-send" onclick="handleSend()" aria-label="Enviar">➤</button>
+  </div>
+</div>
+
+<script>
+  const FORTI_ENDPOINT = "/.netlify/functions/groq-proxy";
+
+  const FORTI_SISTEMA = [
+    "Eres Forti, asistente de consulta de una plataforma de capacitación del Programa Mundial de Alimentos",
+    "sobre fortificación de alimentos a gran escala y sobre el uso de encuestas de gasto y consumo de los hogares",
+    "para estimar la cobertura, el consumo y la contribución de alimentos fortificados y fortificables a la ingesta",
+    "de micronutrientes. El caso aplicado de la plataforma es la ENGIH 2018 de República Dominicana.",
+    "Responde en español, tratando de usted, con precisión técnica y de forma breve.",
+    "Temas propios: micronutrientes, valores de referencia (EAR, UL), método del punto de corte, equivalente de",
+    "mujer adulta, consumo aparente, tablas de composición, factores de conversión, normas de fortificación,",
+    "diseño muestral complejo y análisis en R.",
+    "Si no conoces un dato, dilo; no inventes cifras, normas ni referencias.",
+    "No des indicaciones clínicas ni de dosificación individual.",
+    "Si la pregunta es ajena a estos temas, indícalo en una frase."
+  ].join(" ");
+
+  const fortiMensajes = document.getElementById("forti-messages");
+  const fortiHistorial = [];
+
+  window.addEventListener("load", () => {
+    agregarMensaje("bot", "Puede consultar sobre los contenidos de la plataforma: fortificación, micronutrientes, encuestas de gasto y consumo, y su análisis en R.");
+  });
+
+  function toggleForti() {
+    const p = document.getElementById("forti-panel");
+    p.style.display = (p.style.display === "flex") ? "none" : "flex";
+    if (p.style.display === "flex") document.getElementById("forti-input").focus();
+  }
+
+  function agregarMensaje(rol, texto) {
+    const div = document.createElement("div");
+    div.className = `msg ${rol}-msg`;
+    if (rol === "bot") {
+      div.innerHTML = DOMPurify.sanitize(marked.parse(texto));
+    } else {
+      div.textContent = texto;
+    }
+    fortiMensajes.appendChild(div);
+    fortiMensajes.scrollTop = fortiMensajes.scrollHeight;
+  }
+
+  async function handleSend() {
+    const input = document.getElementById("forti-input");
+    const consulta = input.value.trim();
+    if (!consulta) return;
+
+    agregarMensaje("user", consulta);
+    input.value = "";
+    fortiHistorial.push({ role: "user", content: consulta });
+
+    const escribiendo = document.createElement("div");
+    escribiendo.className = "msg bot-msg typing";
+    escribiendo.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+    fortiMensajes.appendChild(escribiendo);
+    fortiMensajes.scrollTop = fortiMensajes.scrollHeight;
+
+    try {
+      const r = await fetch(FORTI_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ system: FORTI_SISTEMA, messages: fortiHistorial.slice(-12) })
+      });
+      const datos = await r.json().catch(() => ({}));
+      escribiendo.remove();
+      if (!r.ok || !datos.respuesta) {
+        throw new Error(datos.error || `Error ${r.status}`);
+      }
+      fortiHistorial.push({ role: "assistant", content: datos.respuesta });
+      agregarMensaje("bot", datos.respuesta);
+    } catch (e) {
+      escribiendo.remove();
+      fortiHistorial.pop();
+      agregarMensaje("bot", "No fue posible obtener respuesta en este momento. Inténtelo de nuevo más tarde.");
+      console.error("Forti:", e.message);
+    }
+  }
+
+  document.getElementById("forti-input").addEventListener("keydown", e => {
+    if (e.key === "Enter") handleSend();
+  });
+</script>

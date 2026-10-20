@@ -1,37 +1,17 @@
+# Paquetes de R necesarios para compilar los módulos con código (24 a 30).
+# Se ejecuta una vez: source("install_packages.R")
+
 options(repos = c(CRAN = "https://cloud.r-project.org"))
 
-# Paquetes requeridos para el sitio web y análisis estadístico en R
 pkgs <- c(
-  "knitr",
-  "rmarkdown",
-  "dplyr",
-  "tidyr",
-  "readr",
-  "ggplot2",
-  "stringr",
-  "purrr",
-  "tibble",
-  "lubridate",
-  "janitor",
-  "shiny",
-  "DT",
-  "plotly",
-  "tidyverse",
-  "readxl",
-  "here",
-  "srvyr",
-  "survey",
-  "gt",
-  "gtsummary",
-  "pak"
+  "knitr", "rmarkdown",            # compilación con Quarto
+  "readxl", "dplyr", "tidyr",      # lectura y transformación
+  "janitor", "here", "scales",
+  "ggplot2",                       # gráficos
+  "dlookr",                        # módulo 25: control de calidad
+  "srvyr",                         # módulo 27: diseño muestral complejo
+  "sf"                             # módulo 28: cartografía
 )
 
-to_install <- setdiff(pkgs, rownames(installed.packages()))
-if (length(to_install) > 0) {
-  install.packages(to_install, dependencies = TRUE)
-}
-
-# Comentario para paquetes de GitHub / especializados (descomentar si es necesario instalar desde fuentes específicas):
-# if (!requireNamespace("pak", quietly = TRUE)) install.packages("pak")
-# if (!requireNamespace("nutriR", quietly = TRUE)) try(pak::pkg_install("nutriR"), silent = TRUE)
-# if (!requireNamespace("SPADE.RIVM", quietly = TRUE)) try(pak::pkg_install("SPADE.RIVM"), silent = TRUE)
+faltan <- setdiff(pkgs, rownames(installed.packages()))
+if (length(faltan) > 0) install.packages(faltan)

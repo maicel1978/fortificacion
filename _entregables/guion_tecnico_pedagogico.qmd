@@ -11,7 +11,7 @@ format:
 
 # 1. Propósito y alcance
 
-Este documento organiza el programa  describe el diseño instruccional de cada unidad. 
+Este documento organiza el programa según las cinco categorías de los términos de referencia y describe el diseño instruccional de cada unidad.
 
 # 2. Marco instruccional
 
@@ -25,7 +25,7 @@ Aprendizaje autodirigido en línea, en unidades de 15 a 40 minutos. La duración
 
 ## 2.3 Enfoque pedagógico
 
-La secuencia avanza de los fundamentos conceptuales a la política, de la política a las herramientas y de las herramientas a la aplicación, y cierra con una síntesis. La aplicación se construye sobre un caso real: los microdatos del estudio ENGIH 2018 de República Dominicana. El énfasis se realiza en el razonamiento que sustenta cada paso del procesamiento.
+La secuencia avanza de los fundamentos conceptuales a la política, de la política a las herramientas y de las herramientas a la aplicación, y cierra con una síntesis. La aplicación se construye sobre un caso real: los microdatos de la Encuesta Nacional de Gastos e Ingresos de los Hogares (ENGIH) 2018 de República Dominicana. El énfasis recae en el razonamiento que sustenta cada paso del procesamiento, de modo que el participante pueda adaptarlo a otra encuesta.
 
 ## 2.4 Componentes estándar de cada módulo
 
@@ -54,7 +54,7 @@ La secuencia avanza de los fundamentos conceptuales a la política, de la polít
 
 - Ampliación: referencias y recursos complementarios.
 
-# 3. Estructura del programa 
+# 3. Estructura del programa
 
 | TdR | Unidad | Módulos | Estado |
 |------------------|------------------|------------------|------------------|
@@ -328,7 +328,7 @@ La plataforma ofrece las video-lecciones como enlace y como archivo descargable.
 
 - Leer y proyectar la geometría provincial oficial.
 - Unir resultados y geometría por identificador.
-- Dibujar un mapa coroplético.
+- Dibujar un mapa coroplético que indique la precisión de cada unidad territorial.
 
 **Contenidos.**
 
